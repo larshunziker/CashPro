@@ -1,0 +1,60 @@
+.SubscribeButtonWrapper {
+  align-items: center;
+  appearance: none;
+  background: $transparent;
+  border: none;
+  color: $blueA;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  font-family: $fontGothamBook;
+  font-size: 1.4rem;
+  outline: none;
+  padding: 0;
+  position: relative;
+  width: 120px;
+
+  &:hover {
+    .Text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.Text {
+  align-items: center;
+  display: flex;
+  font-weight: 300;
+  height: 100%;
+  left: 32px;
+  line-height: 1.7rem;
+  position: absolute;
+  top: 0;
+}
+
+.Icon {
+  font-size: 2.2rem;
+  margin: $margin4 10px $margin4 0;
+  transform-origin: 50% 25%;
+}
+
+.Active {
+  font-family: $fontGothamBlack;
+  font-weight: 600;
+}
+
+.Animating {
+  animation: BellAnimation 500ms;
+}
+
+.LightTheme {
+  color: $white;
+}
+
+@mixin BellAnimation;
+
+:global(.Bilanz) {
+  .SubscribeButtonWrapper {
+    color: $bilanzA;
+  }
+}

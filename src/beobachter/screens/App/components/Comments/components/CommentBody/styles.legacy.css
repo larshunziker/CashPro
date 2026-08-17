@@ -1,0 +1,48 @@
+.Body {
+  margin: $margin16 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+    margin-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 25px;
+    margin-top: 25px;
+  }
+}
+
+.Name {
+  color: $greyA;
+  font: bold 1.2rem/1.42 $fontSpezia;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.Date {
+  color: $greyA;
+  display: block;
+  font: 1.2rem/1.42 $fontSpezia;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.Text {
+  composes: RichTextWrapper from 'Paragraphs/components/TextParagraph/styles.legacy.css';
+  color: $black;
+  font: 1.4rem/1.42 $fontSpezia;
+  line-height: 1.5;
+  margin: 11px 0 18px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.Logo {
+  height: 16px;
+}

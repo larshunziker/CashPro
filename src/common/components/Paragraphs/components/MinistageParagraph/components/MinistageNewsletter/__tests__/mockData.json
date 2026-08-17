@@ -1,0 +1,15 @@
+{
+  "headline": "Expero News",
+  "image": {
+    "id": "ZmlsZTo2Njk1OTp0ZWFzZXJfMV8xOg==",
+    "focalPointX": 1000,
+    "focalPointY": 1000,
+    "relativeOriginPath": "/2020-11/dude_0_0.png",
+    "__typename": "ImageFile"
+  },
+  "lead": "Der Newsletter der Expero-Chefredaktion sorgt mit den täglichen Lunch Topics für eine interessante Gesprächsgrundlage beim Business Lunch. Von Stefan Barmettler und Marcel Speiser.",
+  "mailchimpAccountId": "general",
+  "mailchimpInterest": "f148780b3c",
+  "mailchimpList": "2ac318b849",
+  "__typename": "MinistageNewsletter"
+}

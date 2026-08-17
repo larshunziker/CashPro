@@ -1,0 +1,12 @@
+{
+  "nofollow": ["facebook.com", "twitter.com", "guider.ch"],
+  "whiteList": [
+    "handelszeitung.ch",
+    "beobachter.ch",
+    "cash.ch",
+    "bilanz.ch",
+    "gaultmillau.ch",
+    "schweizer-illustrierte.ch",
+    "gault-millau.ch"
+  ]
+}

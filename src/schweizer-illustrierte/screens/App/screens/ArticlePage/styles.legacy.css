@@ -1,0 +1,146 @@
+.AuthorWrapper {
+  @mixin Paragraph;
+  margin-bottom: 30px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.ShortTitleWrapper {
+  margin-bottom: 7px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  .HeadingCatch3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 20px;
+      margin-top: 0;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: 25px;
+    }
+  }
+
+  &SY {
+    flex-direction: column;
+  }
+}
+
+.ShortTitle {
+  line-height: 1.8rem;
+  margin-left: $margin16;
+  margin-right: $margin8;
+  position: relative;
+  top: -1px;
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch3SY from 'typographySY.legacy.css';
+}
+
+.ArticleVideoWrapper {
+  overflow: hidden;
+}
+
+.ArticleDefaultWrapper {
+  overflow: hidden;
+}
+
+.DesktopRectangle {
+  position: absolute;
+  right: calc(-$outerGapXl / 2);
+  top: 9px;
+  z-index: calc($zIndexHeader - 1);
+}
+
+.ArticleAlertsWrapper {
+  margin: $margin32 0 $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin40 0 $margin56;
+  }
+}
+
+.BadgeWrapper {
+  display: inline-block;
+  position: relative;
+  top: -2px;
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $grayA;
+  bottom: 0;
+  height: 65px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: calc($zIndexHeaderAd - 1);
+  
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin32;
+    margin-top: $margin8;
+    position: relative;
+    z-index: $zIndex50;
+  }
+}
+
+.BloggerProfileBoxWrapper {
+  @media (max-width: $xsBreakpointTo) {
+    width: 100%;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    padding-bottom: 65px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+/* show hint that the image might not have been downloaded */
+:global(.article-detail .default-image-paragraph .print-info) {
+  @media print { 
+    display: flex;
+    width: 25%;
+  }
+}
+
+.TopicSI {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+}
+
+.TopicSY {
+  color: $white;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+}

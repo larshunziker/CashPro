@@ -1,0 +1,31 @@
+.OptionItem {
+  composes: FormLabelBig from 'typography.legacy.css';
+  align-items: center;
+  background-color: $white;
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  gap: 8px;
+  height: 53px;
+  justify-content: flex-start;
+  padding: 0 23px 0 12px;
+  text-align: left;
+  transition: background-color 200ms ease-in-out;
+  width: 100%;
+
+  &:hover {
+    background-color: $greyD;
+  }
+}
+
+.DrawerWrapper {
+  margin-top: 20px;
+}
+
+.Disabled {
+  color: $greyA;
+
+  &:hover {
+    cursor: not-allowed
+  }
+}

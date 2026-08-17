@@ -1,0 +1,28 @@
+.Wrapper {
+  composes: Wrapper from '../PageLoader/styles.legacy.css';
+}
+
+.PageLink {
+  composes: PageLink from '../PageLoader/styles.legacy.css';
+}
+
+.PagerPlaceholder {
+  composes: PagerPlaceholder from '../PageLoader/styles.legacy.css';
+}
+
+.PrevButton,
+.NextButton {
+  composes: PrevButton from '../PageLoader/styles.legacy.css';
+}
+
+.Disabled {
+  composes: Disabled from '../PageLoader/styles.legacy.css';
+}
+
+.Icon {
+  composes: Icon from '../PageLoader/styles.legacy.css';
+}
+
+.ActiveItem {
+  composes: ActiveItem from '../PageLoader/styles.legacy.css';
+}

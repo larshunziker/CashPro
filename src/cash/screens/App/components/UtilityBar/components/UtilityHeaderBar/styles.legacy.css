@@ -1,0 +1,68 @@
+.Wrapper {
+  background-color: $white;
+  border-bottom: 1px solid $greyC;
+  display: none;
+  left: 0;
+  position: fixed;
+  top: $headerHeightXs;
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
+  width: 100%;
+  z-index: calc($zIndexHeader + 2);
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+    top: $headerHeightSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    top: $headerHeightXl;
+  }
+}
+
+.MoveUp {
+  transform: translateY(0);
+}
+
+.ContentWrapper {
+  composes: Container from '@grid.legacy.css';
+  display: flex;
+}
+
+.TitleWrapper {
+  composes: InfoC from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex: 1;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Title {
+  composes: InfoCBold from 'typography.legacy.css';
+  margin-left: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  padding-right:32px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.UtilityBarWrapper {
+  bottom: -8px;
+  flex: 1;
+  height: 53px;
+  padding-right: 14px;
+  position: relative;
+  text-align: right;
+}
+
+.UtilityOverlayWrapper {
+  max-width: calc(100% - 16px);
+  position: relative;
+  
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 694px;
+  }
+}

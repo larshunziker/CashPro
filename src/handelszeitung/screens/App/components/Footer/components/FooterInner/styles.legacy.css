@@ -1,0 +1,59 @@
+.ListItem {
+  margin-bottom: $margin16;
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin4;
+  }
+}
+
+.Title {
+  border-bottom: 2px solid $white;
+  font-family: $fontGothamNarrow;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+  margin-bottom: 13px;
+  padding-bottom: 11px;
+
+  @media (min-width: $smBreakpoint) {
+    border-width: 1px;
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+}
+
+.List {
+  list-style: none;
+}
+
+.LinkButton,
+.Link {
+  color: $white;
+  font-size: 1.7rem;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.LinkButton {
+  border: none;
+  cursor: pointer;
+  font-family: $fontGothamBook;
+  padding: 0;
+}
+
+.FooterNavigation {
+  font-size: 1.5rem;
+  line-height: 1.8rem;
+  margin-bottom: 28px;
+}
+
+.FooterNavigationList {
+  columns: 2;
+}

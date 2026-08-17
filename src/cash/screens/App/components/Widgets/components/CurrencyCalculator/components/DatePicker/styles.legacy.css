@@ -1,0 +1,60 @@
+.Wrapper {
+  margin-top: 20px;
+  width: 100%;
+}
+
+.Link {
+  color: $secondaryA;
+  margin-right: 6px;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.CurrencyInfoWrapper {
+  composes: InfoB from 'typography.legacy.css';
+  color: $greyA;
+  margin-top: $margin16;
+}
+
+.DateInputWrapper {
+  position: relative;
+  width: 100%
+}
+
+.DateInputField {
+  composes: FormLabelBig from 'typography.legacy.css';
+  background-color: $greyE;
+  border-bottom: 1px solid $greyC;
+  border-left: 0;
+  border-radius: 8px 8px 0 0;
+  border-right: 0;
+  border-top: 0;
+  display: block;
+  height: 54px;
+  margin: 0;
+  padding: 16px 12px 0;
+  position: relative;
+  text-align: left;
+  transition: border-color 300ms ease-in-out;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+input[type='date']::-webkit-calendar-picker-indicator:hover {
+  cursor: pointer;
+}
+
+.Label {
+  composes: FormLabelBig from 'typography.legacy.css';
+  font-size: 11px;
+  left: 12px;
+  position: absolute;
+  top: 4px;
+  z-index: $zIndex1;
+}

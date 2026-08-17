@@ -1,0 +1,91 @@
+.Logo {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.LogoWhite {
+  fill: $white;
+}
+
+.LogoBlue {
+  fill: $blueA;
+}
+
+.LogoRed {
+  fill: $bilanzA;
+}
+
+.AboBadge {
+  height: 12px;
+  margin-right: $margin8;
+  width: 25px;
+}
+
+.AboBadgeS {
+  height: 14px;
+  margin-right: $margin8;
+  width: 29px;
+}
+
+.AboBadgeM {
+  height: 17px;
+  margin-right: $margin8;
+  width: 35px;
+}
+
+.AboBadgeL {
+  height: 20px;
+  margin-right: 12px;
+  width: 41px;
+}
+
+.AboBadgeSLLLL {
+  composes: AboBadgeS;
+
+  @media (min-width: $smBreakpoint) {
+    /* AboBadgeL */
+    height: 20px;
+    margin-right: 12px;
+    width: 41px;
+  }
+}
+
+.AboBadgeSSSSM {
+  composes: AboBadgeS;
+
+  @media (min-width: $xlBreakpoint) {
+    /* AboBadgeM */
+    height: 17px;
+    margin-right: $margin8;
+    width: 35px;
+  }
+}
+
+.AboBadgeSXXXS {
+  composes: AboBadgeS;
+
+  @media (min-width: $smBreakpoint) {
+    /* AboBadge */
+    height: 12px;
+    margin-right: $margin8;
+    width: 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* AboBadgeS */
+    height: 14px;
+    margin-right: $margin8;
+    width: 29px;
+  }
+}
+
+.AboBadgeXXXXS {
+  composes: AboBadge;
+
+  @media (min-width: $xlBreakpoint) {
+    /* AboBadgeS */
+    height: 14px;
+    margin-right: $margin8;
+    width: 29px;
+  }
+}

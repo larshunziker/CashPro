@@ -1,0 +1,88 @@
+{
+  "data": {
+    "menuByName": {
+      "id": "bWVudTpoei1uYXZpZ2F0aW9uLXByaW1hcnktaHo=",
+      "name": "HZ Navigation, HZ (primär)",
+      "links": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Rubriken",
+                "description": null,
+                "path": "",
+                "routed": true,
+                "expanded": true,
+                "image": null
+              },
+              "subtree": {
+                "edges": [
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Startseite",
+                        "description": null,
+                        "path": "/",
+                        "routed": true,
+                        "expanded": false,
+                        "image": null
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Unternehmen",
+                        "description": null,
+                        "path": "/unternehmen",
+                        "routed": true,
+                        "expanded": false,
+                        "image": null
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Tech",
+                        "description": null,
+                        "path": "/digital-switzerland",
+                        "routed": true,
+                        "expanded": false,
+                        "image": null
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Politik",
+                        "description": null,
+                        "path": "/politik",
+                        "routed": true,
+                        "expanded": false,
+                        "image": null
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Services",
+                "description": null,
+                "path": "",
+                "routed": true,
+                "expanded": true,
+                "image": null
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

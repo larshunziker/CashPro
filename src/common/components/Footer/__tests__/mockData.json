@@ -1,0 +1,29 @@
+{
+  "id": "bWVudTpwdWJsaWNhdGlvbnM=",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQ3",
+          "link": {
+            "description": null,
+            "label": "Beobachter",
+            "path": "https://www.beobachter.ch",
+            "routed": false
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5fasdfsaflbnQ6MzQ3",
+          "link": {
+            "description": null,
+            "label": "",
+            "path": "https://www.handelszeitung.ch",
+            "routed": false
+          }
+        }
+      }
+    ]
+  }
+}

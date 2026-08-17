@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 1`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 25.11.2017
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 2`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 25.11.2017
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 3`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 24.11.2016
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 4`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 25.11.2017
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 5`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 23.11.2017
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 6`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 24.11.2016
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBookmark Should generate InnerContentByProps correctly 7`] = `
+<div>
+  <div
+    class="DateWrapper"
+  >
+    Veröffentlicht
+     
+    am 25.11.2017
+  </div>
+</div>
+`;

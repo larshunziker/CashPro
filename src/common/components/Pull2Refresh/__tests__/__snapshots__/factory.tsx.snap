@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Pull2Refresh Should render correctly 1`] = `
+<div>
+  <div
+    class="Container ContainerInit"
+    id="pull-2-refresh-container"
+  >
+    <div
+      class="PulledContent"
+    >
+      <div
+        class="PullTipClass"
+      >
+        <div
+          class="IconContainer"
+        >
+          <div
+            class="Icon"
+          />
+        </div>
+        <div>
+          Neu laden
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,51 @@
+.Wrapper {
+  background: color($blackB shade(20%) a(30%));
+  font-family: $fontGotham;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.WrapperInner {
+  composes: Container from '@grid.legacy.css';
+}
+
+.ListWrapper {
+  display: block;
+  text-align: right;
+}
+
+.ListItem,
+.CloseButtonWrapper {
+  color: $blackA;
+  display: inline-block;
+  list-style: none;
+
+  & + .ListItem:not(:last-of-type)::before {
+    content: '|';
+  }
+}
+
+.CloseButtonWrapper {
+  vertical-align: middle;
+
+  .CloseButton {
+    appearance: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+
+    &:hover {
+      color: $errorA;
+    }
+  }
+}
+
+.Link {
+  color: $blackA;
+  display: inline-block;
+  padding: 0 5px;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}

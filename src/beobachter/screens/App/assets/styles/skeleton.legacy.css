@@ -1,0 +1,56 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%; /* stylelint-disable-line */
+}
+
+html,
+* {
+  scroll-margin-top: $headerHeightXs;
+
+  @media (min-width: $smBreakpoint) {
+    scroll-margin-top: $headerHeightSm;
+  }
+}
+
+body {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 2.8rem;
+  overflow-anchor: none;
+
+  @media print {
+    &::after {
+      bottom: -5px;
+      content: '\00a9  2024 Beobachter';
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 18mm;
+    size: A4;
+  }
+
+  html, body {
+    height: 297mm;
+    width: 210mm;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $margin8;
+    page-break-inside: avoid;
+  }
+}

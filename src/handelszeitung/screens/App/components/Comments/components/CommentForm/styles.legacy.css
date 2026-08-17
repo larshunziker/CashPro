@@ -1,0 +1,37 @@
+.InputField {
+  composes: ImageParagraphBlack from 'typography.legacy.css';
+  background: $white;
+  border: 1px solid $blackB;
+  color: $blackB;
+  line-height: 2.4rem;
+  margin-top: 0;
+  padding: 8px 16px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 16px;
+  }
+}
+
+.Label {
+  color: $greyB;
+  display: block;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  letter-spacing: normal;
+  line-height: 2.4rem;
+  margin: 0;
+  padding: 0 20px;
+  transform: translateY(16px);
+  width: 100%;
+}
+
+.LabelAbove {
+  display: none;
+}
+
+.SuccessMessage {
+  color: $blackB;
+  font: bold 1.6rem/1.42 $fontGotham;
+  margin: $margin40 0 0;
+  text-align: center;
+}

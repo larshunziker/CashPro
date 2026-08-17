@@ -1,0 +1,8 @@
+.List {
+  composes: InfoA from '../../../../assets/styles/typography.legacy.css';
+  margin: $margin24;
+
+  & > li {
+    margin-top: $margin8;
+  }
+}

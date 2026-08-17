@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "bm9kZToxNzc4NQ==",
+        "title": "This is the Test Title",
+        "lead": "just a lead test",
+        "shortTitle": "Gault Millau Channel 1",
+        "preferredUri": "/arbeitgeber/testarticle",
+        "createDate": "2017-05-21T11:45:07",
+        "channel": {
+          "id": "dGF4b25vbXlfdGVybToxMjUw",
+          "title": "Arbeitgeber",
+          "__typename": "Channel"
+        },
+        "teaserImage": {
+          "id": "177427",
+          "title": "1234",
+          "image": {
+            "file": {
+              "alt": "Headless ",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2017-03/csm_1Q6A7152_bc135f2045_0.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        }
+      }
+    }
+  ]
+}

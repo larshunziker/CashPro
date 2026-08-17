@@ -1,0 +1,367 @@
+.Heading1A {
+  @mixin Heading1A;
+}
+
+.Heading1B {
+  @mixin Heading1B;
+}
+
+.Heading1Special {
+  @mixin Heading1Special;
+}
+
+.Heading2A {
+  @mixin Heading2A;
+}
+
+.Heading2B {
+  @mixin Heading2B;
+}
+
+.Heading3A {
+  @mixin Heading3A;
+}
+
+.Heading3B {
+  @mixin Heading3B;
+}
+
+.Heading4 {
+  @mixin Heading4;
+}
+
+.Heading5 {
+  @mixin Heading5;
+}
+
+.Heading6 {
+  @mixin Heading6;
+}
+
+.Heading6White {
+  @mixin Heading6White;
+}
+
+.Heading7 {
+  @mixin Heading7;
+}
+
+.HeadingCatch1 {
+  @mixin HeadingCatch1;
+}
+
+.HeadingCatch2 {
+  @mixin HeadingCatch2;
+}
+
+.HeadingCatch4 {
+  @mixin HeadingCatch4;
+}
+
+.HeadingCatch3 {
+  @mixin HeadingCatch3;
+}
+
+.ArrowText {
+  @mixin ArrowText;
+}
+
+.HeadingOverview {
+  @mixin HeadingOverview;
+}
+
+.HeadingOverviewDossier {
+  @mixin HeadingOverviewDossier;
+}
+
+.HeadingOverviewCeleb {
+  @mixin HeadingOverviewCeleb;
+}
+
+.SectionTitle {
+  @mixin SectionTitle;
+}
+
+.SectionTitleRelated {
+  @mixin SectionTitleRelated;
+}
+
+.SectionTitleSmall {
+  @mixin SectionTitleSmall;
+}
+
+.Lead {
+  color: $blackA;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Lead1 {
+  @mixin Lead1;
+}
+
+.Lead2 {
+  @mixin Lead2;
+}
+
+.CatchQuestions {
+  @mixin CatchQuestions;
+}
+
+.Paragraph {
+  @mixin Paragraph;
+}
+
+.Paragraph2 {
+  @mixin Paragraph2;
+}
+
+.ParagraphBold {
+  @mixin ParagraphBold;
+}
+
+.CaptionAuthorParagraph {
+  @mixin CaptionAuthorParagraph;
+}
+
+.CaptionAuthorBlog {
+  @mixin CaptionAuthorBlog;
+}
+
+.CaptionAuthorCopyRight {
+  @mixin CaptionAuthorCopyRight;
+}
+
+.CaptionTitleAuthorParagraph {
+  @mixin CaptionTitleAuthorParagraph;
+}
+
+.BreadcrumbsWords {
+  @mixin BreadcrumbsWords;
+}
+
+.BreadcrumbsSymbol {
+  @mixin BreadcrumbsSymbol;
+}
+
+.Quote {
+  @mixin Quote;
+}
+
+.QuoteAuthor {
+  @mixin QuoteAuthor;
+}
+
+.TagBanderole {
+  @mixin TagBanderole;
+}
+
+.InlineHover {
+  @mixin InlineHover;
+}
+
+.TeaserHover {
+  @mixin TeaserHover;
+}
+
+.Paging {
+  @mixin Paging;
+}
+
+.PagingActive {
+  @mixin PagingActive;
+}
+
+.HeaderMenuItems {
+  @mixin HeaderMenuItems;
+}
+
+.HeaderMenuItemsSelected {
+  @mixin HeaderMenuItemsSelected;
+}
+
+.MenuItems1 {
+  @mixin MenuItems1;
+}
+
+.MenuItems2 {
+  @mixin MenuItems2;
+}
+
+.MenuItems3 {
+  @mixin MenuItems3;
+}
+
+.MenuItems4 {
+  @mixin MenuItems4;
+}
+
+.SearchEntry {
+  @mixin SearchEntry;
+}
+
+.HeaderIconsText {
+  @mixin HeaderIconsText;
+}
+
+.Meta1 {
+  @mixin Meta1;
+}
+
+.Meta1RedA {
+  @mixin Meta1RedA;
+}
+
+.Meta1Bold {
+  @mixin Meta1Bold;
+}
+
+.Meta1BoldRedA {
+  @mixin Meta1BoldRedA;
+}
+
+.Meta3 {
+  font-family: $fontBague;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.Meta3Black {
+  composes: Meta3;
+  color: $blackB;
+}
+
+.InfoA {
+  color: $blackB;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+.InfoABlack {
+  composes: InfoA;
+  font-weight: 700;
+}
+
+/* NOT FROM STYLE GUIDE */
+.ZodiacSignsOverlayTitle {
+  @mixin ZodiacSignsOverlayTitle;
+}
+
+/* NOT FROM STYLE GUIDE */
+.ZodiacSignsOverlayIconTitle {
+  @mixin ZodiacSignsOverlayIconTitle;
+}
+
+.Subheader {
+  @mixin Subheader;
+}
+
+.LatestChannel {
+  @mixin LatestChannel;
+}
+
+.FormLabelBig {
+  @mixin FormLabelBig;
+}
+
+.FormLabelBigGrayC {
+  @mixin FormLabelBigGrayC;
+}
+
+.FormLabelSmall {
+  @mixin FormLabelSmall;
+}
+
+.FormLabelSmallGrayC {
+  @mixin FormLabelSmallGrayC;
+}
+
+.ButtonBig {
+  @mixin ButtonBig;
+}
+
+.ButtonSmall {
+  @mixin ButtonSmall;
+}
+
+.ButtonPrimaryBig {
+  @mixin ButtonPrimaryBig;
+}
+
+.ButtonPrimarySmall {
+  @mixin ButtonPrimarySmall;
+}
+
+.ButtonSecondaryBig {
+  @mixin ButtonSecondaryBig;
+}
+
+.ButtonSecondarySmall {
+  @mixin ButtonSecondarySmall;
+}
+
+.ButtonTertiaryBig {
+  @mixin ButtonTertiaryBig;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.TableContent {
+  color: $blackA;
+  font-family: $fontBague;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+}
+
+.TeaserTitle {
+  color: $blackA;
+  font-family: $fontLeJeune;
+  font-weight: bold;
+}
+
+.TeaserTitleH1 {
+  composes: TeaserTitle;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+}
+
+.Publishingdate {
+  color: $greyA;
+  font-family: $fontBague;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.TeaserLeadBlack {
+  color: $blackA;
+  font-family: $fontBague;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+}

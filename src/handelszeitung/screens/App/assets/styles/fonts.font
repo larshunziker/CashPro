@@ -1,0 +1,33 @@
+@font-face {
+  font-family: 'rasch-font';
+  font-display: swap;
+  src: url('../../../../../common/assets/fonts/RASCH-Font.woff2?24u0vb') format('woff2'),
+       url('../../../../../common/assets/fonts/RASCH-Font.woff?24u0vb') format('woff'),
+       url('../../../../../common/assets/fonts/RASCH-Font.svg?24u0vb#RASCH-Font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gotham-Narrow-Black';
+  font-display: block;
+  font-weight: 900;
+  src: url('../fonts/GothamNarrow-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GothamNarrow-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Gotham-Black';
+  font-display: block;
+  font-weight: 900;
+  src: url('../fonts/Gotham-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gotham-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'Gotham-Book';
+  font-display: block;
+  font-weight: 300;
+  src: url('../fonts/GothamSSm-Book.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/GothamSSm-Book.woff') format('woff'); /* Pretty Modern Browsers */
+}

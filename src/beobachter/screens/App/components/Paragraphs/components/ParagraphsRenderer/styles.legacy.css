@@ -1,0 +1,106 @@
+.Paragraphs {
+  position: relative;
+}
+
+.ParagraphsRendererContainer {
+  overflow-x: initial;
+}
+
+.SectionTextParagraph {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+  }
+
+  @media print {
+    margin-bottom: $margin16;
+  }
+}
+
+.SectionDefaultMargin {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+  }
+}
+
+.SectionDefaultMarginTop {
+  @mixin sectionDefaultMarginTop;
+}
+
+.HideForPrint {
+  @mixin hideforPrint;
+}
+
+.AdWrapper {
+  @mixin hideforPrint;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  text-align: center;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.IAVWrapper {
+  width: 100%;
+}
+
+:global(.branding-day) {
+  .AdPadding {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.AdZone {
+  display: block;
+}
+
+:global(.recommendation-slot-mobile):not(:global(.recommendation-slot-tabletDesktop)) {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+:global(.recommendation-slot-tabletDesktop):not(:global(.recommendation-slot-mobile)) {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.InputFormOnHeroMedia {
+  max-width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 10%;
+    max-width: 80%;
+  }
+}
+
+.InArticleRecommendations {
+  margin-bottom: 0;
+  
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media screen {
+    display: block;
+  }
+
+  &.isSplittedPageLayout {
+    @media (min-width: $mdBreakpoint) {
+      display: none;
+    }
+  }
+}

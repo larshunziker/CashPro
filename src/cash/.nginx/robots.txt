@@ -1,0 +1,45 @@
+# 
+# This file is to prevent the crawling and indexing of certain parts
+# of your site by web crawlers and spiders run by sites like Yahoo!
+# and Google. By telling these "robots" where not to go on your site,
+# you save bandwidth and server resources.
+#
+# This file will be ignored unless it is at the root of your host:
+# Used:    http://example.com/robots.txt
+# Ignored: http://example.com/site/robots.txt
+#
+# For more information about the robots.txt standard, see:
+# http://www.robotstxt.org/robotstxt.html
+
+# Bot control
+User-agent: Yandex
+Disallow: /
+
+User-agent: SeznamBot
+Disallow: /
+
+User-agent: magpie-crawler
+Disallow: /
+
+User-agent: *
+# Directories
+Disallow: /suche/
+Disallow: /authorize
+Disallow: /logout/
+Disallow: /profile/
+Disallow: /graphql/
+Disallow: /group/*/content/
+Disallow: /node/
+Disallow: /_/
+Disallow: /static/js/
+Disallow: /assets/*.js
+Disallow: /external/
+
+
+# Sitemaps
+Sitemap: https://www.cash.ch/sitemap.xml
+Sitemap: https://www.cash.ch/sitemap-authors.xml
+Sitemap: https://www.cash.ch/sitemap-articles-time-limited-index.xml
+Sitemap: https://www.cash.ch/sitemap-articles-evergreen-index.xml
+Sitemap: https://www.cash.ch/sitemap-category.xml
+Sitemap: https://www.cash.ch/sitemap-news.xml

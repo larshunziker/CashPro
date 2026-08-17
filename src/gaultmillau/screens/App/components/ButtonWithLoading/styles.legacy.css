@@ -1,0 +1,39 @@
+.Primary {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $white;
+  }
+}
+
+.Secondary {
+  composes: ButtonSecondaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $primaryA;
+  }
+}
+
+.Tertiary {
+  composes: ButtonTertiaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $primaryA;
+  }
+}
+
+.Small {
+  margin: 0 $margin12 $margin12 0;
+
+  &.Primary {
+    @mixin ButtonPrimarySmall;
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmall;
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiarySmall;
+  }
+}

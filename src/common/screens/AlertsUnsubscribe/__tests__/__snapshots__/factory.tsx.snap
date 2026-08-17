@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AlertsUnsubscribe Should render correctly and make a fetch request 1`] = `
+<div>
+  <div
+    class="AlertsUnsubscribeWrapperClassName"
+  >
+    <div>
+      loading...
+    </div>
+    <div
+      class="TextClassName"
+    >
+      bitte warten...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertsUnsubscribe Should render correctly and make a fetch request that fails 1`] = `
+<div>
+  <div
+    class="AlertsUnsubscribeWrapperClassName"
+  >
+    <div>
+      loading...
+    </div>
+    <div
+      class="TextClassName"
+    >
+      bitte warten...
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertsUnsubscribe Should render correctly if no oneSignalExternalId is provided 1`] = `
+<div>
+  <div
+    class="AlertsUnsubscribeWrapperClassName"
+  >
+    <div
+      class="TextClassName"
+    >
+      Leider konnte die gewünschte Aktion nicht ausgeführt werden. Bitte
+  versuchen Sie es später erneut.
+    </div>
+    <div
+      class="WrapperClassName"
+    >
+      <button>
+        click me
+      </button>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,290 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] VideoStage Should display the second video after user interaction 1`] = `
+<div>
+  <div
+    data-testid="smooth-scroll"
+  >
+    <div
+      class=".SampleWrapperClass"
+      data-testid="video-stage-wrapper"
+    >
+      <div
+        class="undefined"
+      >
+        <div
+          class=".SampleInnerWrapperClass"
+        >
+          <div
+            class=".SampleHeadingWrapperClass"
+          >
+            <span
+              class=".SampleHeadingClass"
+            >
+              Video Ministage Test
+            </span>
+          </div>
+          <div>
+            <div
+              class=".SampleLeftBoxColsClass"
+            >
+              <div
+                class=".SampleStageWrapperClass"
+                data-testid="video-stage-wrapper-0"
+              >
+                <div
+                  data-testid="video-player"
+                >
+                  bm9kZToxOTYxNw==
+                </div>
+              </div>
+              <div
+                class=".SampleContentWrapperClass"
+              >
+                <div>
+                  <div>
+                     - 
+                  </div>
+                  <p
+                    class=".SampleTitleClass"
+                  >
+                    test video content
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class=".SampleRightBoxColsClass"
+            >
+              <div
+                class=".SampleItemsClass .SampleIsActiveClass"
+                data-testid="video-item-0"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-1"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-2"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-3"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] VideoStage Should not render factory 1`] = `<div />`;
+
+exports[`[Common] VideoStage Should render factory correctly 1`] = `
+<div>
+  <div
+    data-testid="smooth-scroll"
+  >
+    <div
+      class=".SampleWrapperClass"
+      data-testid="video-stage-wrapper"
+    >
+      <div
+        class="undefined"
+      >
+        <div
+          class=".SampleInnerWrapperClass"
+        >
+          <div
+            class=".SampleHeadingWrapperClass"
+          >
+            <span
+              class=".SampleHeadingClass"
+            >
+              Video Ministage Test
+            </span>
+          </div>
+          <div>
+            <div
+              class=".SampleLeftBoxColsClass"
+            >
+              <div
+                class=".SampleStageWrapperClass"
+                data-testid="video-stage-wrapper-0"
+              >
+                <div
+                  data-testid="video-player"
+                >
+                  bm9kZToxOTYxNw==
+                </div>
+              </div>
+              <div
+                class=".SampleContentWrapperClass"
+              >
+                <div>
+                  <div>
+                     - 
+                  </div>
+                  <p
+                    class=".SampleTitleClass"
+                  >
+                    test video content
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class=".SampleRightBoxColsClass"
+            >
+              <div
+                class=".SampleItemsClass .SampleIsActiveClass"
+                data-testid="video-item-0"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-1"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-2"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-3"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] VideoStage Should render no title 1`] = `
+<div>
+  <div
+    data-testid="smooth-scroll"
+  >
+    <div
+      class=".SampleWrapperClass"
+      data-testid="video-stage-wrapper"
+    >
+      <div
+        class="undefined"
+      >
+        <div
+          class=".SampleInnerWrapperClass"
+        >
+          <div
+            class=".SampleHeadingWrapperClass"
+          />
+          <div>
+            <div
+              class=".SampleLeftBoxColsClass"
+            >
+              <div
+                class=".SampleStageWrapperClass"
+                data-testid="video-stage-wrapper-0"
+              >
+                <div
+                  data-testid="video-player"
+                >
+                  bm9kZToxOTYxNw==
+                </div>
+              </div>
+              <div
+                class=".SampleContentWrapperClass"
+              >
+                <div>
+                  <div>
+                     - 
+                  </div>
+                  <p
+                    class=".SampleTitleClass"
+                  >
+                    test video content
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class=".SampleRightBoxColsClass"
+            >
+              <div
+                class=".SampleItemsClass .SampleIsActiveClass"
+                data-testid="video-item-0"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-1"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-2"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+              <div
+                class=".SampleItemsClass"
+                data-testid="video-item-3"
+                role="link"
+                tabindex="0"
+              >
+                <div />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] VideoStage Should render nothing if ID is empty 1`] = `<div />`;

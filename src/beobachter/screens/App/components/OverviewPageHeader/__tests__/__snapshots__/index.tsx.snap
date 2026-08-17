@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] OverviewPageHeader Should render correct 1`] = `
+<div>
+  <div
+    class="Container Wrapper"
+    data-testid="overview-page-header-default-wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <h1
+        class="Title"
+      >
+        Banken empfehlen auch für 2022 am liebsten Aktien
+      </h1>
+    </div>
+    <div
+      class="Row"
+      data-testid="overview-page-header-default-lead"
+    >
+      <div
+        class="Lead"
+      >
+        Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] OverviewPageHeader Should render nothing 1`] = `<div />`;
+
+exports[`[Component] OverviewPageHeader Should render without lead 1`] = `
+<div>
+  <div
+    class="Container Wrapper"
+    data-testid="overview-page-header-default-wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <h1
+        class="Title"
+      >
+        Banken empfehlen auch für 2022 am liebsten Aktien
+      </h1>
+    </div>
+  </div>
+</div>
+`;

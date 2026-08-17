@@ -1,0 +1,34 @@
+{
+  "commentsById": {
+    "count": 1,
+    "totalCount": 1,
+    "edges": [
+      {
+        "node": {
+          "id": "Y29tbWVudDoxMTA3MQ==",
+          "name": "admin",
+          "createDate": "2019-05-22T10:34:42",
+          "body": "<p>This one even has a child</p>\n",
+          "commentReplies": {
+            "edges": [
+              {
+                "node": {
+                  "id": "Y29tbWVudDoxMTA3Mg==",
+                  "name": "admin",
+                  "createDate": "2019-05-22T10:35:07",
+                  "body": "<p>I am the child</p>\n",
+                  "__typename": "Comment"
+                },
+                "__typename": "CommentEdge"
+              }
+            ],
+            "__typename": "CommentConnection"
+          },
+          "__typename": "Comment"
+        },
+        "__typename": "CommentEdge"
+      }
+    ],
+    "__typename": "CommentConnection"
+  }
+}

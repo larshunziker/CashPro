@@ -1,0 +1,48 @@
+.HeaderWrapper {
+  background-color: $greyE;
+  margin-bottom: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.BreadcrumbsWrapper {
+  margin-bottom: $margin56;
+}
+
+.Description {
+  composes: RichTextWrapper from  '../../components/Paragraphs/components/TextParagraph/styles.legacy.css';
+  cursor: auto;
+  font-family: $fontGothamBook;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+  margin-bottom: $margin16;
+}
+
+.InnerWrapper > div > div {
+  @media (max-width: $smBreakpointTo) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.ResultsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $margin32;
+  margin-bottom: $margin32;
+}
+
+.PagerWrapper {
+  padding-bottom: $margin80;
+}
+
+.PageHeading {
+  composes: BoxTitle from 'typography.legacy.css';
+}

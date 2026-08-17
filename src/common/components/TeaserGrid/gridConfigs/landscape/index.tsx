@@ -1,0 +1,91 @@
+import {
+  TEASER_LAYOUT_L,
+  TEASER_LAYOUT_S,
+} from '../../../../../shared/constants/teaser';
+import { TYPE_TEASER } from '../constants';
+
+export const landscape = {
+  gridGroups: [
+    {
+      config: {
+        hasContainer: true,
+      },
+      items: [
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+          downloadPriority: 'high',
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+          downloadPriority: 'high',
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_L,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+        {
+          type: TYPE_TEASER,
+          teaserType: TEASER_LAYOUT_S,
+        },
+      ],
+    },
+  ],
+};

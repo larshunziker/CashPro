@@ -1,0 +1,50 @@
+.Wrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    border-radius: 50%;
+    box-shadow: 5px 5px 10px 0 $neutralA80;
+    display: block;
+    height: 88px;
+    overflow: hidden;
+    position: absolute;
+    right: -45px;
+    top: -15px;
+    width: 88px;
+    z-index: $zIndexHigh;
+
+    &:hover {
+      .Inner {
+        top: -96px;
+      }
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &:hover {
+      .Inner {
+        top: -98px;
+      }
+    }
+  }
+
+  @media (min-width: $xxlBreakpoint) {
+    /* >= 1920 */
+    right: calc(50% - ($xxlBreakpoint / 2 - 50px));
+  }
+}
+
+.Inner {
+  inset: 0;
+  position: absolute;
+}
+
+.Image {
+  height: 88px;
+  width: 88px;
+}
+
+.DisruptorWrapper {
+  position: relative;
+}

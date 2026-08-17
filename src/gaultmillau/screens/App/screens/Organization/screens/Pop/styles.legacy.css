@@ -1,0 +1,299 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.NoWrap {
+  white-space: nowrap;
+}
+
+.Center {
+  text-align: center;
+}
+
+.Bold {
+  composes: InfoCBoldNeutralA from 'typography.legacy.css';
+}
+
+.PopLink {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  cursor: pointer;
+}
+
+.Right {
+  @media (min-width: $smBreakpoint) {
+    min-height: 300px;
+  }
+}
+
+.Link {
+  composes: InfoCLinkNeutralA from 'typography.legacy.css';
+  cursor: pointer;
+}
+
+.HeroWrapper {
+  height: 100%;
+  margin: 0 auto;
+  max-width: $mdBreakpoint;
+}
+
+.PopWrapper {
+  margin-bottom: 40px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 61px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 66px;
+  }
+}
+
+.Description {
+  composes: LeadANeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.PopIconWrapper {
+  bottom: -30px;
+  left: 50%;
+  margin-left: -30px;
+  position: absolute;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -43px;
+    margin-left: -43px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: -46px;
+    margin-left: -46px;
+  }
+}
+
+.PopIcon {
+  height: 60px;
+  width: 60px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 86px;
+    width: 86px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 92px;
+    width: 92px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  display: block;
+  margin-bottom: $margin4;
+  text-align: center;
+}
+
+.RestaurantNameWrapper {
+  margin-bottom: $margin16;
+}
+
+.RestaurantName {
+  composes: HeadingBNeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.ParagraphLeftTabLast {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+}
+
+.ParagraphLeftTab {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  margin-bottom: 30px;
+}
+
+.OrganizationText {
+  composes: ParagraphNeutralA from 'typography.legacy.css';
+
+  & > p:not(:last-child) {
+    margin-bottom: $margin24;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.Divider {
+  composes: Divider from 'gmHelpers.legacy.css';
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 35px;
+  }
+}
+
+/*
+  RichText part its a full copy of textparagraph/styles.css
+  TODO: move this css stuff into a mixin and compose it here an don textparagrapph
+ */
+.OrganizationText b:first-child,
+.OrganizationText strong:first-child {
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+  }
+}
+
+/* Spans */
+.OrganizationText em {
+  font-style: italic;
+}
+
+.OrganizationText strong {
+  @mixin ParagraphBoldNeutralA;
+}
+
+.OrganizationText h2 {
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-family: $fontActaDisplay;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 3rem;
+    line-height: 3rem;
+  }
+}
+
+.OrganizationText a {
+  @mixin ParagraphLinkNeutralA;
+}
+
+/* Simple external link. */
+.OrganizationText :global(a.Link) {
+  background-color: $neutralG;
+  border-bottom: 1px solid $neutralB;
+}
+
+/* Links without title text (printed domains) */
+.OrganizationText :global(a.RawLink) {
+  background-color: $transparent;
+}
+
+/* Guider link with directional icon. */
+.OrganizationText :global(a.GuiderLink) {
+  background-color: $neutralG;
+  border-bottom: 1px solid $neutralB;
+}
+
+.OrganizationText :global(a.GuiderLink i.fa) {
+  margin-left: 0.3em;
+}
+
+/* Page anchor link with down arrow */
+.OrganizationText :global(a.AnchorLink i.fa) {
+  color: $neutralG;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+}
+
+.OrganizationText h1,
+.OrganizationText h2,
+.OrganizationText h3,
+.OrganizationText h4 {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  margin: 2rem 0;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.OrganizationText h1 {
+  /* 0 - 759 */
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+}
+
+.OrganizationText h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+}
+
+.OrganizationText h4 {
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    font-size: 1.9rem;
+    line-height: 1.9rem;
+  }
+}
+
+.OrganizationText blockquote {
+  font-family: $fontBagueSansPro;
+  font-size: 1.7rem;
+  font-style: italic;
+  font-weight: 300;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 2.4rem;
+    line-height: 3.2rem;
+  }
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from 'Article/styles.legacy.css';
+}

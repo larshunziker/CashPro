@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserHeroXlSlider Should generate Teaser Icon by Props for Content type Article of channel People with Video false 1`] = `<div />`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate Teaser Icon by Props for Content type Article of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate Teaser Icon by Props for Content type ImageGallery of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconFotoMarker IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate Teaser Icon by Props for Content type NativeAdvertising of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate Teaser Icon by Props for Content type Video of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconMovieOutline IconMovieOutlineStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate badge for ContentType Article of subtype null with label BadgeLabel in color $badgeColor on Channel People 1`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      data-testid="mocked-badge"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroXlSlider Should generate badge for ContentType ImageGallery of subtype null with label null in color $badgeColor on Channel People 1`] = `<div />`;

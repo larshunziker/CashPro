@@ -1,0 +1,120 @@
+.Wrapper {
+  display: block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+
+  &::after {
+    background: $gradientTeaserA;
+    background-blend-mode: multiply;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: $zIndexMedium;
+  }
+}
+
+.Img {
+  display: block;
+  width: 100%;
+}
+
+.PlayIcon {
+  border: 1px solid $white;
+  border-radius: 50%;
+  color: $white;
+  display: inline-block;
+  font-size: 5.7rem;
+  height: 60px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 60px;
+  z-index: $zIndexHigh;
+
+  @media (max-width: $xsBreakpointTo) {
+    display:flex;
+    font-size: 5.2rem;
+    justify-content: center;
+  }
+}
+
+.Caption {
+  bottom: 32px;
+  height: auto;
+  left: 0;
+  margin: 0 auto;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 238px;
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    width: 583px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 40px;
+    width: 736px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 56px;
+    width: 900px;
+  }
+}
+
+.ShortTitle {
+  display: none;
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.Title {
+  composes: TeaserTitleANeutralA from 'typography.legacy.css';
+  display: none;
+  width: 270px;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+    margin-bottom: $margin12;
+    overflow-wrap: break-word;
+    width: 520px;
+    word-wrap: break-word;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 736px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 900px;
+  }
+}
+
+.Lead {
+  composes: LeadD from 'typography.legacy.css';
+  display: none;
+  margin: 0 auto;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    overflow-wrap: break-word;
+    text-align: center;
+    width: 583px;
+    word-wrap: break-word;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 660px;
+  }
+}

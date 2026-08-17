@@ -1,0 +1,820 @@
+/* INFO: currently only used on cash.ch landingpage (white pullout). If you inspect the paragraphs on the cash home design, you'll see that they have a width of 1272px (regular container width) + a white padding left and right, all together 1320px on desktop
+
+https://www.figma.com/file/75x9nK2tcNyHmKoe3VjFPK/cash-documentation?node-id=542%3A12213
+*/
+.ContainerPullOut, :global(.container-pullout) {
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0 calc($outerGapXs + $gridGutterWidthXs / 2);
+  width: 100%;
+
+  /* > 760 */
+  @media (min-width: $smBreakpoint) {
+    padding: 0 18px;
+    width: calc(($smBreakpoint - $outerGapSm * 2) + (2 * 18px));
+
+  }
+
+  /* > 960 */
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 24px;
+    width: calc(($mdBreakpoint - $outerGapMd * 2) + (2 * 24px));    
+  }
+
+  /* > 1200 */
+  @media (min-width: $lgBreakpoint) {
+    /*
+     this margin-left calculation smoothly centers the container from 1200-1679px. Actually the container is still a bit left aligned, but when a monstery sky is displayed, then everything looks centered.
+    */
+    margin-left: calc(40vw - (440px + 24px));
+  }
+
+  /* > 1680 */
+  @media (min-width: $xlBreakpoint) {
+    /*
+     this margin-left calculation smoothly centers the container from 1680-1919px. Actually the container is still a bit left aligned, but when a monstery sky is displayed, then everything looks centered.
+    */
+    margin-left: calc(40vw - (630px + 24px));
+    width: calc(1440px - ($outerGapXl * 2) + 48px);
+  }
+  
+  @media print {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - $outerGapXs * 2);
+  }
+}
+
+.Container, :global(.container) {
+  margin-left: auto;
+  margin-right: auto;
+  width: calc(100% - $outerGapXs * 2);
+
+  /* > 760 */
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2);
+  }
+
+  /* > 960 */
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2);
+  }
+
+  /* > 1200 */
+  @media (min-width: $lgBreakpoint) {
+    /*
+     this margin-left calculation smoothly centers the container from 1200-1679px. Actually the container is still a bit left aligned, but when a monstery sky is displayed, then everything looks centered.
+    */
+    margin-left: $breakpointLgMarginLeft;
+  }
+
+  /* > 1680 */
+  @media (min-width: $xlBreakpoint) {
+    /*
+     this margin-left calculation smoothly centers the container from 1680-1919px. Actually the container is still a bit left aligned, but when a monstery sky is displayed, then everything looks centered.
+    */
+    margin-left: $breakpointXlMarginLeft;
+    width: calc(1440px - ($outerGapXl * 2));
+  }
+  
+  @media print {
+    margin-left: auto;
+    margin-right: auto;
+    width: calc(100% - $outerGapXs * 2);
+  }
+}
+
+.GridCentered, :global(.grid-centered) {
+  .Container {
+    @media (min-width: $lgBreakpoint) {
+      margin-left: auto;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: auto;
+    }
+  }
+}
+
+:global(.branding-day) {
+  .ContainerPullOut,
+  .Container {
+    position: relative;
+
+    /* > 1200 */
+    @media (min-width: $lgBreakpoint) {
+      margin-left: auto;
+    }
+  }
+}
+
+.ContainerFluid, :global(.container-fluid) {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: calc($gridGutterWidthXs / 2);
+  padding-right: calc($gridGutterWidthXs / 2);
+  width: 100%;
+
+  /* > 760 */
+  @media (min-width: $smBreakpoint) {
+    padding-left: calc($gridGutterWidthSm / 2);
+    padding-right: calc($gridGutterWidthSm / 2);
+  }
+
+  /* > 960 */
+  @media (min-width: $mdBreakpoint) {
+    padding-left: calc($gridGutterWidthMd / 2);
+    padding-right: calc($gridGutterWidthMd / 2);
+  }
+
+  /* > 1680 */
+  @media (min-width: $xlBreakpoint) {
+    padding-left: calc($gridGutterWidthXl / 2);
+    padding-right: calc($gridGutterWidthXl / 2);
+  }
+}
+
+.ContainerInner, :global(.container-inner) {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+  /* width: calc(100% - $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - $outerGapSm * 2);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc(100% - $outerGapMd * 2);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(100% - $outerGapXl * 2);
+  } TODO: as discussed with Naume, he will check Bootstrap 4 implementation */
+
+}
+
+.Row, :global(.row) {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: calc(-$gridGutterWidthXs / 2);
+  margin-right: calc(-$gridGutterWidthXs / 2);
+
+  &.NoGutters,
+  &:global(.no-gutters) {
+    margin-left: 0;
+    margin-right: 0;
+
+    > .Col,
+    > :global(.col),
+    > [class*='Col'] {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+
+  /* > 760 */
+  @media (min-width: $smBreakpoint) {
+    margin-left: calc(-$gridGutterWidthSm / 2);
+    margin-right: calc(-$gridGutterWidthSm / 2);
+  }
+
+  /* > 960 */
+  @media (min-width: $mdBreakpoint) {
+    margin-left: calc(-$gridGutterWidthMd / 2);
+    margin-right: calc(-$gridGutterWidthMd / 2);
+  }
+
+  /* > 1680 */
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(-$gridGutterWidthXl / 2);
+    margin-right: calc(-$gridGutterWidthXl / 2);
+  }
+}
+
+/* please don't use named classes, its only temporary */
+.Col, :global(.col) {
+  flex-basis: 0;
+  flex-grow: 1;
+  max-width: 100%;
+}
+
+.ColAuto, :global(.col-auto) {
+  flex: 0 0 auto;
+  max-width: none;
+  width: auto;
+}
+
+.Col1,
+.Col2,
+.Col3,
+.Col4,
+.Col5,
+.Col6,
+.Col7,
+.Col8,
+.Col9,
+.Col10,
+.Col11,
+.Col12,
+.Col13,
+.Col14,
+.Col15,
+.Col16,
+.Col17,
+.Col18,
+.Col19,
+.Col20,
+.Col21,
+.Col22,
+.Col23,
+.Col24,
+.ColXs1,
+.ColXs2,
+.ColXs3,
+.ColXs4,
+.ColXs5,
+.ColXs6,
+.ColXs7,
+.ColXs8,
+.ColXs9,
+.ColXs10,
+.ColXs11,
+.ColXs12,
+.ColXs13,
+.ColXs14,
+.ColXs15,
+.ColXs16,
+.ColXs17,
+.ColXs18,
+.ColXs19,
+.ColXs20,
+.ColXs21,
+.ColXs22,
+.ColXs23,
+.ColXs24,
+.ColSm1,
+.ColSm2,
+.ColSm3,
+.ColSm4,
+.ColSm5,
+.ColSm6,
+.ColSm7,
+.ColSm8,
+.ColSm9,
+.ColSm10,
+.ColSm11,
+.ColSm12,
+.ColSm13,
+.ColSm14,
+.ColSm15,
+.ColSm16,
+.ColSm17,
+.ColSm18,
+.ColSm19,
+.ColSm20,
+.ColSm21,
+.ColSm22,
+.ColSm23,
+.ColSm24,
+.ColMd1,
+.ColMd2,
+.ColMd3,
+.ColMd4,
+.ColMd5,
+.ColMd6,
+.ColMd7,
+.ColMd8,
+.ColMd9,
+.ColMd10,
+.ColMd11,
+.ColMd12,
+.ColMd13,
+.ColMd14,
+.ColMd15,
+.ColMd16,
+.ColMd17,
+.ColMd18,
+.ColMd19,
+.ColMd20,
+.ColMd21,
+.ColMd22,
+.ColMd23,
+.ColMd24,
+.ColXl1,
+.ColXl2,
+.ColXl3,
+.ColXl4,
+.ColXl5,
+.ColXl6,
+.ColXl7,
+.ColXl8,
+.ColXl9,
+.ColXl10,
+.ColXl11,
+.ColXl12,
+.ColXl13,
+.ColXl14,
+.ColXl15,
+.ColXl16,
+.ColXl17,
+.ColXl18,
+.ColXl19,
+.ColXl20,
+.ColXl21,
+.ColXl22,
+.ColXl23,
+.ColXl24,
+.ColOffset0,
+.ColOffset1,
+.ColOffset2,
+.ColOffset3,
+.ColOffset4,
+.ColOffset5,
+.ColOffset6,
+.ColOffset7,
+.ColOffset8,
+.ColOffset9,
+.ColOffset10,
+.ColOffset11,
+.ColOffset12,
+.ColOffset13,
+.ColOffset14,
+.ColOffset15,
+.ColOffset16,
+.ColOffset17,
+.ColOffset18,
+.ColOffset19,
+.ColOffset20,
+.ColOffset21,
+.ColOffset22,
+.ColOffset23,
+.ColOffset24,
+.ColOffsetXs0,
+.ColOffsetXs1,
+.ColOffsetXs2,
+.ColOffsetXs3,
+.ColOffsetXs4,
+.ColOffsetXs5,
+.ColOffsetXs6,
+.ColOffsetXs7,
+.ColOffsetXs8,
+.ColOffsetXs9,
+.ColOffsetXs10,
+.ColOffsetXs11,
+.ColOffsetXs12,
+.ColOffsetXs13,
+.ColOffsetXs14,
+.ColOffsetXs15,
+.ColOffsetXs16,
+.ColOffsetXs17,
+.ColOffsetXs18,
+.ColOffsetXs19,
+.ColOffsetXs20,
+.ColOffsetXs21,
+.ColOffsetXs22,
+.ColOffsetXs23,
+.ColOffsetXs24,
+.ColOffsetSm0,
+.ColOffsetSm1,
+.ColOffsetSm2,
+.ColOffsetSm3,
+.ColOffsetSm4,
+.ColOffsetSm5,
+.ColOffsetSm6,
+.ColOffsetSm7,
+.ColOffsetSm8,
+.ColOffsetSm9,
+.ColOffsetSm10,
+.ColOffsetSm11,
+.ColOffsetSm12,
+.ColOffsetSm13,
+.ColOffsetSm14,
+.ColOffsetSm15,
+.ColOffsetSm16,
+.ColOffsetSm17,
+.ColOffsetSm18,
+.ColOffsetSm19,
+.ColOffsetSm20,
+.ColOffsetSm21,
+.ColOffsetSm22,
+.ColOffsetSm23,
+.ColOffsetSm24,
+.ColOffsetMd0,
+.ColOffsetMd1,
+.ColOffsetMd2,
+.ColOffsetMd3,
+.ColOffsetMd4,
+.ColOffsetMd5,
+.ColOffsetMd6,
+.ColOffsetMd7,
+.ColOffsetMd8,
+.ColOffsetMd9,
+.ColOffsetMd10,
+.ColOffsetMd11,
+.ColOffsetMd12,
+.ColOffsetMd13,
+.ColOffsetMd14,
+.ColOffsetMd15,
+.ColOffsetMd16,
+.ColOffsetMd17,
+.ColOffsetMd18,
+.ColOffsetMd19,
+.ColOffsetMd20,
+.ColOffsetMd21,
+.ColOffsetMd22,
+.ColOffsetMd23,
+.ColOffsetMd24,
+.ColOffsetXl0,
+.ColOffsetXl1,
+.ColOffsetXl2,
+.ColOffsetXl3,
+.ColOffsetXl4,
+.ColOffsetXl5,
+.ColOffsetXl6,
+.ColOffsetXl7,
+.ColOffsetXl8,
+.ColOffsetXl9,
+.ColOffsetXl10,
+.ColOffsetXl11,
+.ColOffsetXl12,
+.ColOffsetXl13,
+.ColOffsetXl14,
+.ColOffsetXl15,
+.ColOffsetXl16,
+.ColOffsetXl17,
+.ColOffsetXl18,
+.ColOffsetXl19,
+.ColOffsetXl20,
+.ColOffsetXl21,
+.ColOffsetXl22,
+.ColOffsetXl23,
+.ColOffsetXl24 {
+  /* used only to autogenerate ts typedef */
+}
+
+/* Initial */
+@for $index from 1 to 24 {
+  .Col$(index),
+  .ColXs$(index),
+  .ColSm$(index),
+  .ColMd$(index),
+  .ColXl$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-$(index)),
+  :global(.col-xs-$(index)),
+  :global(.col-sm-$(index)),
+  :global(.col-md-$(index)),
+  :global(.col-xl-$(index))
+   {
+    min-height: 1px;
+    padding-left: calc($gridGutterWidthXs / 2);
+    padding-right: calc($gridGutterWidthXs / 2);
+    position: relative;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: calc($gridGutterWidthSm / 2);
+      padding-right: calc($gridGutterWidthSm / 2);
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      padding-left: calc($gridGutterWidthMd / 2);
+      padding-right: calc($gridGutterWidthMd / 2);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding-left: calc($gridGutterWidthXl / 2);
+      padding-right: calc($gridGutterWidthXl / 2);
+    }
+  }
+}
+
+$conatinerWrapper: calc(100% - $gridGutterWidthXs);
+$conatinerWrapperXs: calc(100% - $gridGutterWidthXs);
+$conatinerWrapperSm: calc(100% - $gridGutterWidthSm);
+$conatinerWrapperMd: calc(100% - $gridGutterWidthMd);
+$conatinerWrapperXl: calc(100% - $gridGutterWidthXl);
+
+/* TODO: move mixins into common mixins file */
+/* stylelint-disable */
+@define-mixin gridCalculation $index, $gridConatiner, $gridGutter, $gridColumns {
+  $colsWithoutGutters: calc(
+    $(gridConatiner) - ($(gridColumns) - 1) * $(gridGutter)
+  );
+  flex: 0 0
+    calc(
+      $colsWithoutGutters / $(gridColumns) * $(index) +
+      ($(gridGutter) * $(index))
+    );
+  max-width: calc(
+    $colsWithoutGutters / $(gridColumns) * $(index) + ($(gridGutter) * $(index))
+  );
+}
+
+@define-mixin gridSm $index, $gridConatiner, $gridGutter, $gridColumns {
+  @media (min-width: $smBreakpoint) {
+    @mixin gridCalculation $(index), $gridConatiner, $gridGutter, $gridColumns;
+  }
+}
+
+@define-mixin gridMd $index, $gridConatiner, $gridGutter, $gridColumns {
+  @media (min-width: $mdBreakpoint) {
+    @mixin gridCalculation $(index), $gridConatiner, $gridGutter, $gridColumns;
+  }
+}
+
+@define-mixin gridXl $index, $gridConatiner, $gridGutter, $gridColumns {
+  @media (min-width: $xlBreakpoint) {
+    @mixin gridCalculation $(index), $gridConatiner, $gridGutter, $gridColumns;
+  }
+}
+/* stylelint-enable */
+
+/* > 0 */
+@for $index from 1 to 24 {
+  .Col$(index),
+  .ColXs$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-$(index)),
+  :global(.col-xs-$(index)) {
+    @mixin gridCalculation $(index), $conatinerWrapperXs, $gridGutterWidthXs,
+      $gridColumns;
+
+    /* > 760 */
+    @mixin gridSm $(index), $conatinerWrapperSm, $gridGutterWidthSm,
+      $gridColumns;
+
+    /* > 960 */
+    @mixin gridMd $(index), $conatinerWrapperMd, $gridGutterWidthMd,
+      $gridColumns;
+
+    /* > 1680 */
+    @mixin gridXl $(index), $conatinerWrapperXl, $gridGutterWidthXl,
+      $gridColumns;
+  }
+}
+
+/* >= 760 */
+@for $index from 1 to 24 {
+  .ColSm$(index),
+  :global(.col-sm-$(index)) {
+    /* > 760 */
+    @mixin gridSm $(index), $conatinerWrapperSm, $gridGutterWidthSm,
+      $gridColumns;
+
+    /* > 960 */
+    @mixin gridMd $(index), $conatinerWrapperMd, $gridGutterWidthMd,
+      $gridColumns;
+
+    /* > 1680 */
+    @mixin gridXl $(index), $conatinerWrapperXl, $gridGutterWidthXl,
+      $gridColumns;
+  }
+}
+
+/* >= 960 */
+@for $index from 1 to 24 {
+  .ColMd$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-md-$(index)) {
+    /* > 960 */
+    @mixin gridMd $(index), $conatinerWrapperMd, $gridGutterWidthMd,
+      $gridColumns;
+
+    /* > 1680 */
+    @mixin gridXl $(index), $conatinerWrapperXl, $gridGutterWidthXl,
+      $gridColumns;
+  }
+}
+
+/* >= 1680 */
+@for $index from 1 to 24 {
+  .ColXl$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-xl-$(index)) {
+    /* > 1680 */
+    @mixin gridXl $(index), $conatinerWrapperXl, $gridGutterWidthXl,
+      $gridColumns;
+  }
+}
+
+/* ORDER */
+@for $index from 1 to 24 {
+  .ColOrder$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-order-$(index)) {
+    order: $(index);
+  }
+}
+
+/* > 320 */
+@for $index from 1 to 24 {
+  .ColOrderXs$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-order-xs-$(index)) {
+    order: $(index);
+  }
+}
+
+/* > 760 */
+@for $index from 1 to 24 {
+  @media (min-width: $smBreakpoint) {
+    .ColOrderSm$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-order-sm-$(index)) {
+      order: $(index);
+    }
+  }
+}
+
+/* > 960 */
+@for $index from 1 to 24 {
+  @media (min-width: $mdBreakpoint) {
+    .ColOrderMd$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-order-md-$(index)) {
+      order: $(index);
+    }
+  }
+}
+
+/* > 1680 */
+@for $index from 1 to 24 {
+  @media (min-width: $xlBreakpoint) {
+    .ColOrderXl$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-order-xl-$(index)) {
+      order: $(index);
+    }
+  }
+}
+
+/* OFFSET */
+@for $index from 0 to 24 {
+  .ColOffset$(index),
+  /* please don't use named classes, its only temporary */
+  :global(.col-offset-$(index)) {
+    margin-left: calc(100% / $gridColumns * $(index));
+
+    /* > 760 */
+    @media (min-width: $smBreakpoint) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+
+    /* > 960 */
+    @media (min-width: $mdBreakpoint) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+
+    /* > 1680 */
+    @media (min-width: $xlBreakpoint) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+  }
+}
+
+@for $index from 0 to 24 {
+  @media (min-width: $xsBreakpoint) {
+    .ColOffsetXs$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-offset-xs-$(index)) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+  }
+}
+
+@for $index from 0 to 24 {
+  @media (min-width: $smBreakpoint) {
+    .ColOffsetSm$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-offset-sm-$(index)) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+  }
+}
+
+@for $index from 0 to 24 {
+  @media (min-width: $mdBreakpoint) {
+    .ColOffsetMd$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-offset-md-$(index)) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+  }
+}
+
+/* OFFSET */
+@for $index from 0 to 24 {
+  @media (min-width: $xlBreakpoint) {
+    .ColOffsetXl$(index),
+    /* please don't use named classes, its only temporary */
+    :global(.col-offset-xl-$(index)) {
+      margin-left: calc(100% / $gridColumns * $(index));
+    }
+  }
+}
+
+@media (max-width: $smBreakpointTo) {
+  .ColXsAuto,
+  /* please don't use named classes, its only temporary */
+  :global(.col-xs-auto) {
+    flex: 0 0 auto;
+    max-width: none;
+    width: auto;
+  }
+}
+
+/**
+ * hide columns on given viewports
+ */
+.HiddenXsUp,
+:global(.hidden-xs-up) {
+  @media (min-width: $smBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenSmDown,
+:global(.hidden-sm-down) {
+  @media (max-width: $xsBreakpointTo) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenSmUp,
+:global(.hidden-sm-up) {
+  @media (min-width: $smBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenMdDown,
+:global(.hidden-md-down) {
+  @media (max-width: $smBreakpointTo) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenMdUp,
+:global(.hidden-md-up) {
+  @media (min-width: $mdBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenLgDown,
+:global(.hidden-lg-down) {
+  @media (max-width: $mdBreakpointTo) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenLgUp,
+:global(.hidden-lg-up) {
+  @media (min-width: $lgBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenXlDown,
+:global(.hidden-xl-down) {
+  @media (max-width: $lgBreakpointTo) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenXlUp,
+:global(.hidden-xl-up) {
+  @media (min-width: $xlBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.HiddenXxlDown,
+:global(.hidden-xxl-down) {
+  @media (max-width: $xlBreakpointTo) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+/* Print :global hidden elements */
+.HideForPrint,
+:global(.hide-for-print) {
+  @media print {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+:global([class*='ad-wrapper']) {
+  @media print {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+:global(#piano-wrapper) {
+  @media print {
+    display: none !important; /* stylelint-disable-line */
+  }
+}

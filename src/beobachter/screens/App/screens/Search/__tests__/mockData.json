@@ -1,0 +1,402 @@
+{
+  "data": {
+    "contentSearch": {
+      "typeFacets": [],
+      "publicationFacets": [],
+      "count": 16,
+      "items": [
+        {
+          "preferredUri": "/publireportage/test-gr-2-19858",
+          "id": "18996#beobachter",
+          "type": "NativeAdvertising",
+          "gcid": "19858",
+          "subtypeValue": "advertorial",
+          "advertisingTypeLabel": null,
+          "title": "Test GR 2",
+          "shortTitle": "Publireportage",
+          "lead": "Dies ist ein zweiter Brandreport Test. Dies ist ein zweiter Brandreport Test. Dies ist ein zweiter Brandreport Test. Dies ist ein zweiter Brandreport Test.",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "landscape",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/Baum_0.jpg",
+                "focalPointX": 271,
+                "focalPointY": 210,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": [
+            "Christoph Rombach"
+          ],
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/publireportage/probleme-mit-der-bodenheizung-53411",
+          "id": "51646#beobachter",
+          "type": "NativeAdvertising",
+          "gcid": "53411",
+          "subtypeValue": "advertorial",
+          "advertisingTypeLabel": null,
+          "title": "Probleme mit der Bodenheizung?",
+          "shortTitle": "Publireportage",
+          "lead": "Bodenheizungen, die über 30 Jahre in Betrieb sind, sollten untersucht werden. Die Zustandsanalyse der Naef GROUP zeigt rasch, ob Handlungsbedarf besteht.",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "landscape",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2023-09/naef_publi_beo_september_2023_headerimage.jpg",
+                "focalPointX": 900,
+                "focalPointY": 600,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": [
+            "Author Name"
+          ],
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/marketing-landing-page",
+          "id": "37320#beobachter",
+          "type": "Page",
+          "gcid": "38461",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Marketing Landing Page",
+          "shortTitle": "This is the shorttitle",
+          "lead": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/abfall-recycling/testseite-mit-listicle-und-vorteilen",
+          "id": "44922#beobachter",
+          "type": "Page",
+          "gcid": "46283",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "testseite mit listicle und vorteilen",
+          "shortTitle": "testseite mit listicle und vorteilen",
+          "lead": "testseite mit listicle und vorteilen",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/brandreport/dyson-brandreport/get-yourself-a-tesla-40166",
+          "id": "39197#beobachter",
+          "type": "NativeAdvertising",
+          "gcid": "40166",
+          "subtypeValue": "brandreport",
+          "advertisingTypeLabel": null,
+          "title": "Get yourself a tesla!",
+          "shortTitle": "short title kommt",
+          "lead": "Jetzt neuen Tesla bestellen und freie km sichern!",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "landscape",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/tesla_1.jpg",
+                "focalPointX": 600,
+                "focalPointY": 315,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": [
+            "Guy Bodenmann"
+          ],
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/publireportage/red-bull/native-advertising-test-53456",
+          "id": "51692#beobachter",
+          "type": "NativeAdvertising",
+          "gcid": "53456",
+          "subtypeValue": "advertorial",
+          "advertisingTypeLabel": null,
+          "title": "Native advertising test",
+          "shortTitle": "Native ad test",
+          "lead": "super fun lead",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "landscape",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2023-09/guter_rat_gruen.jpg",
+                "focalPointX": 1770,
+                "focalPointY": 1164,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/tools",
+          "id": "51973#beobachter",
+          "type": "Page",
+          "gcid": "53741",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Beobachter  Tools",
+          "shortTitle": "",
+          "lead": "Placeholder page",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/arbeitszeugnis-check-reference-letter-check",
+          "id": "51872#beobachter",
+          "type": "Page",
+          "gcid": "53634",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Arbeitszeugnis-Check [REFERENCE LETTER CHECK]",
+          "shortTitle": "",
+          "lead": "",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/testament-check-testament-check",
+          "id": "51871#beobachter",
+          "type": "Page",
+          "gcid": "53633",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Testament-Check  [TESTAMENT CHECK]",
+          "shortTitle": "",
+          "lead": "Lead test",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/beratung/rechtsberatung-am-telefon-zu-erbrechtsfragen",
+          "id": "51193#beobachter",
+          "type": "Page",
+          "gcid": "52904",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Rechtsberatung am Telefon zu Erbrechtsfragen",
+          "shortTitle": "",
+          "lead": "",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/mitglied-werden",
+          "id": "51867#beobachter",
+          "type": "Page",
+          "gcid": "53630",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Journalismus, der Mut macht",
+          "shortTitle": "",
+          "lead": "",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "auto",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        },
+        {
+          "preferredUri": "/przemek-page",
+          "id": "51802#beobachter",
+          "type": "Page",
+          "gcid": "53563",
+          "subtypeValue": null,
+          "advertisingTypeLabel": null,
+          "title": "Przemek Page",
+          "shortTitle": "Przemek-page",
+          "lead": "",
+          "hasVideo": false,
+          "restrictionStatus": "free",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "teaserImage": {
+            "format": "portrait",
+            "image": {
+              "file": {
+                "relativeOriginPath": "/media/field_image/2023-12/ai_generated_portrait_0.jpg",
+                "focalPointX": 318,
+                "focalPointY": 1019,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": null,
+          "authors": null,
+          "toolType": null,
+          "__typename": "ContentSearchItem"
+        }
+      ],
+      "__typename": "ContentSearch"
+    }
+  }
+}

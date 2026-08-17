@@ -1,0 +1,24 @@
+.Button {
+  composes: InfoCBold from 'typography.legacy.css';
+  background: $decoB;
+  border-radius: 4px;
+  color: $secondaryA;
+  padding: 8px;
+
+  &:hover {
+    background-color: $secondaryA;
+    color: $white;
+  }
+
+  &.IsActive {
+    background: $secondaryA;
+    color: $white;
+  }
+}
+
+.CategoryWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 16px 0;
+}

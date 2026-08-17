@@ -1,0 +1,170 @@
+.ContentWrapper {
+  color: $white;
+  float: left;
+  position: relative;
+  text-align: center;
+  width: 50%;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    float: initial;
+    height: 50%;
+    padding: 0 24px;
+    width: 100%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 60%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 65%;
+  }
+
+  .Inner {
+    display: inline-block;
+    left: 0;
+    padding: 0 12px;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 24px;
+      top: 45%;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      top: 35%;
+    }
+   
+    @media (min-width: $xlBreakpoint) {
+      top: 25%;
+    } 
+  }
+}
+
+.Listing {
+  composes: Row from '@grid.legacy.css';
+
+  li:not(:first-child) {
+    margin-top: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 0;
+
+      &:nth-child(2) {
+        border-left: 1px solid $neutralC;
+        border-right: 1px solid $neutralC;
+      }
+    }
+  }
+}
+
+.TeaserOne {
+  list-style: none;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    height: 340px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 366px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 550px;
+  }
+}
+
+.ImageWrapper {
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 75%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 80%;
+  }
+
+  &:hover {
+    .Image {
+      @mixin scaleTeaser;
+    }
+  }
+}
+
+.ImageOuterWrapper {
+  /* height: 100%; */
+  overflow: hidden;
+  width: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 100%;
+  }
+}
+
+.Image {
+  @mixin transitionTeaser;
+  composes: AspectRatio1x1 from 'helpers.legacy.css';
+  background-position: 50% 0;
+  float: left;
+}
+
+.EssentialTitle {
+  composes: SectionTitleNeutralA from 'typography.legacy.css';
+  border-top: 1px solid $neutralC;
+  margin-bottom: $margin16;
+  padding-top: 16px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    padding-top: 24px;
+  }
+}
+
+/* Special case we don't need this in other cases not defined in styleguide:  !important; */
+.Organization {
+  background: linear-gradient(
+    90deg,
+    rgb(212 165 1) 0%,
+    rgb(190 133 0) 100%
+  );
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid rgb(255 255 255 / 50%);
+  }
+}
+
+.Title {
+  composes: TeaserTitleBWhite from 'typography.legacy.css';
+  margin: 0 auto;
+  margin-bottom: 8px;
+
+  @media (min-width: $mdBreakpoint) {
+    width: 172px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 260px;
+  }
+}
+
+.Description {
+  composes: LeadBWhite from 'typography.legacy.css';
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    width: 260px;
+  }
+} 

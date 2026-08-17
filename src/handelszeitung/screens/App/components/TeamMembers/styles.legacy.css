@@ -1,0 +1,23 @@
+.Wrapper {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 50px;
+  }
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+  margin-bottom: 12px;
+  margin-top: 43px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+    margin-top: 46px;
+    padding-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 36px;
+  }
+}

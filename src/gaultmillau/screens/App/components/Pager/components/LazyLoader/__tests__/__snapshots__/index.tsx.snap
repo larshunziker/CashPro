@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LazyLoader Should render component component with no more results 1`] = `"<button class="lazy-loader-btn LoadMore">Weitere Ergebnisse</button>"`;
+
+exports[`[Component] LazyLoader Should render component isLoading = false 1`] = `"<button class="lazy-loader-btn LoadMore">Weitere Ergebnisse</button>"`;

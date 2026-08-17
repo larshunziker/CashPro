@@ -1,0 +1,89 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 60vh;
+  }
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Lead {
+  composes: InfoA from 'typography.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.Bold {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.BackButtonWrapper {
+  margin-bottom: $margin16;
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+}
+
+.SubTitle {
+  composes: InfoB from 'typography.legacy.css';
+  margin-bottom: 24px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: $margin16;
+}
+
+.ModalWrapper {
+  max-height: 45vh;
+  position: relative;
+
+  @media (max-width: $smBreakpointTo) {
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}
+
+.ModalButtonWrapper {
+  display: flex;
+  gap: 12px;
+  justify-content: space-between;
+
+  button {
+    width: 100%;
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    flex-direction: column;
+    padding-left: 19px;
+    padding-right: 19px;
+  }
+}
+
+.ModalBody {
+  margin-top: 24px;
+}
+
+.ListWrapper {
+  margin-bottom: $margin40;
+}
+
+.List {
+  margin-bottom: $margin16;
+}
+
+.ExpansionPannelItem {
+  border-top: 1px solid $greyD;
+  padding-bottom: $margin16;
+  padding-top: $margin16;
+}
+

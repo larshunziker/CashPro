@@ -1,0 +1,161 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  margin-left: -$outerGapXs;
+  margin-right: -$outerGapXs;
+  overflow-y: auto;
+  padding: 16px $outerGapXs;
+  width: calc(100% + 2 * $outerGapXs);
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: -$gridGutterWidthSm;
+    margin-right: -$gridGutterWidthSm;
+    padding: 16px calc($gridGutterWidthSm / 2);
+    width: calc(100% + 2 * $gridGutterWidthSm);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    background-color: $white;
+    margin-bottom: 0;
+    margin-left: 0;
+    margin-right: 0;
+    max-height: calc(100vh - $headerHeightSm);
+    padding: 0;
+    position: sticky;
+    top: calc($headerHeightSm + $chapterNavigationTopMargin);
+    width: 100%;
+  }
+}
+
+.InnerWrapper {
+  list-style: none;
+  width: 100%;
+}
+
+.Header {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+  padding-bottom: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.5rem;
+    padding-bottom: 24px;
+  }
+}
+
+.Link {
+  border-left: 3px solid $transparent;
+  color: $grey70;
+  cursor: pointer;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  hyphens: auto;
+  line-height: 2.8rem;
+  margin: $margin8 0;
+  overflow-wrap: break-word;
+  padding-left: 8px;
+  padding-right: 20px;
+
+  &:focus {
+    border-left-color: $black;
+  }
+
+  &:hover {
+    border-left-color: $black;
+    color: $black;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    border-left-color: $transparent;
+
+    &:focus {
+      border-left-color: $transparent;
+    }
+
+    &:hover {
+      border-left-color: $black;
+    }
+  }
+}
+
+.SecondLevelListEl {
+  @media (min-width: $mdBreakpoint) {
+    &:last-child {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.FirstLevelLink {
+  border-left: 3px solid $transparent;
+  color: $grey70;
+  cursor: pointer;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+  margin: $margin8 0;
+  padding-left: 8px;
+  padding-right: 20px;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  &:focus {
+    border-left-color: $black;
+  }
+
+  &:hover {
+    border-left-color: $black;
+    color: $black;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+
+    &:focus {
+      border-left-color: $transparent;
+    }
+
+    &:hover {
+      border-left-color: $black;
+      color: $black;
+    }
+  }
+}
+
+.ActiveLink {
+  &.Link {
+    border-left-color: $black;
+    color: $black;
+  }
+
+  &.FirstLevelLink {
+    border-left-color: $black;
+    color: $black;
+  }
+}
+
+.Divider {
+  margin-bottom: 8px;
+
+  &::after {
+    border-bottom: 1px solid $greyB;
+    content: '';
+    display: block;
+    margin-left: 11px; /* 3px border + 8px margin */
+  }
+}
+
+/* TODO: remove this when HiddenMdUp is fixed in common */
+.HiddenMdUp {
+  @media (min-width: $mdBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}

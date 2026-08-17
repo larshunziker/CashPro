@@ -1,0 +1,171 @@
+.Wrapper {
+  align-items: flex-start;
+  border-bottom: 1px solid $greyD;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
+
+.TitleWrapper {
+  flex: 1 1 auto;
+  margin-bottom: 0;
+  min-width: 0;
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+}
+
+.Subtitle {
+  composes: PersonH3 from 'typography.legacy.css';
+}
+
+.ButtonWrapper {
+  & > div {
+    justify-content: flex-start;
+  }
+  flex: 0 0 auto;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    & > div {
+      flex-direction: column;
+    }
+  }
+}
+
+.ButtonsWrapper {
+  margin: 0;
+}
+
+.Button {
+  align-items: center;
+  background-color: $secondaryA;
+  border-radius: $margin4;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $fontSourceSansPro;
+  font-size: 0.875rem;
+  font-weight: 700;
+  gap: $margin12;
+  justify-content: center;
+  line-height: 1.125rem;
+  padding: $margin8 $margin16;
+}
+
+.PriceWrapper {
+  align-items: end;
+  column-gap: 48px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: $margin24;
+  width: 100%;
+}
+
+.Price {
+  composes: PersonH1 from 'typography.legacy.css';
+  display: grid;
+  font-size: 40px;
+  font-weight: 700;
+  gap: 8px;
+  line-height: 36px;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 52px;
+  }
+}
+
+.PriceSmall {
+  composes: PersonH1 from 'typography.legacy.css';
+  display: grid;
+  font-size: 24px;
+  font-weight: 700;
+  gap: 8px;
+  line-height: 23px;
+  margin: 8px 0;
+  text-align: left;
+}
+
+.DataBoxWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  .DataBox {
+    border-left: 1px solid $greyD;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .DataBox {
+      border-left: none;
+      border-right: 1px solid $greyD;
+    }
+
+    .DataBox:last-child {
+      border-right: none;
+    }
+  }
+}
+
+.DataBox {
+  box-sizing: border-box;
+  flex: 1 1 100%;
+  margin: $margin24 0 0 0;
+  max-width: 100%;
+  padding: 0 8px;
+
+  @media (min-width: $xsBreakpoint) {
+    flex: 1 1 50%;
+    max-width: 50%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex: 1 1 20%;
+    max-width: 20%;
+  }
+}
+
+.DataLabel {
+  composes: InfoC from 'typography.legacy.css';
+  color: $greyA;
+  display: block;
+  font-weight: normal;
+}
+
+.DataLabelDark {
+  composes: InfoC from 'typography.legacy.css';
+  color: $blackB;
+  font-size: 16px;
+  font-weight: normal;
+}
+
+.DataLabelBold {
+  font-weight: 700;
+}
+
+.DeltaPercentage {
+  composes: ContentBoxBig from 'typography.legacy.css';
+  margin: 8px 0;
+  white-space: nowrap;
+}
+
+.InfoWrapper {
+  column-gap: 12px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: $margin32 0 $margin8;
+}
+
+.Info {
+  composes: InfoC from 'typography.legacy.css';
+  color: $greyA;
+  margin-right: 8px;
+  white-space: nowrap;
+}
+
+.Skeleton {
+  min-height: 300px;
+  width: 100%;
+}

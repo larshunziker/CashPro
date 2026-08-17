@@ -1,0 +1,98 @@
+.Wrapper {
+  display: block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.WrapperHeroB {
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row-reverse;
+  }
+}
+
+.ContentWrapper {
+  display: block;
+  padding-top: 16px;
+  position: relative;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom: 1px solid $neutralC;
+    border-top: 1px solid $neutralC;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 238px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 312px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 408px;
+  }
+}
+
+.ImageWrapper {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 462px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 524px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 840px;
+  }
+}
+
+.Left {
+  @media (min-width: $smBreakpoint) {
+    margin-right: $gridGutterWidthSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-right: $gridGutterWidthMd;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: $gridGutterWidthXl;
+  }
+}
+
+.ShortTitle {
+  margin-bottom: $margin4;
+}
+
+.Title {
+  composes: Title from '../../shared/defaultStyles.legacy.css'
+}
+
+.Lead {
+  composes: Lead from '../../shared/defaultStyles.legacy.css'
+}
+
+.Image {
+  @mixin transitionTeaser;
+
+  &:hover {
+    @mixin scaleTeaser;
+  }
+}
+
+.PlayIcon {
+  composes: PlayIcon from '../../shared/defaultStyles.legacy.css'
+}

@@ -1,0 +1,19 @@
+.Divider {
+  composes: Divider from '../../styles.legacy.css';
+}
+
+.NumberedList {
+  composes: NumberedList from '../../styles.legacy.css';
+}
+
+.ContentBoxBodyWrapper {
+  composes: ContentBoxBodyWrapper from '../../styles.legacy.css';
+}
+
+.PublicationDate {
+  composes: PublicationDate from '../../styles.legacy.css';
+}
+
+.PublicationDateWithNumberedList {
+  composes: PublicationDateWithNumberedList from '../../styles.legacy.css';
+}

@@ -1,0 +1,115 @@
+.Link {
+  cursor: pointer;
+  display: inline-block;
+  line-height: 1;
+  max-height: 34px;
+  outline: none;
+  padding: 0 22px 15px;
+  position: relative;
+
+  @media (width >= 375px) {
+    padding: 0 26px 15px;
+  }
+
+  &.Active,
+  &:hover {
+    .Label,
+    .Icon {
+      color: $greyA;
+      fill: $greyA;
+      transition: color 0.3s, fill 0.3s;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 38px;
+    padding: 0 30px 15px;
+  }
+}
+
+.LinkOverlayInlined {
+  margin-bottom: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16; 
+  }
+}
+
+.LinkOverlay {
+  margin-bottom: 24px;
+  max-height: 38px;
+  padding: 0 35px 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0
+  }
+}
+
+.LinkHeader {
+  max-height: 34px;
+  padding: 0 30px 12px;
+}
+
+.Icon {
+  display: flex;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.CommentCount {
+  composes: Meta4WhiteBold from 'typography.legacy.css';
+  position: relative;
+  top: -2px;
+  z-index: 1;
+}
+
+:global(.vf-comments-count) {
+  @mixin Meta4;
+  color: $white;
+  font-weight: bold;
+  position: relative;
+  top: -2px;
+  z-index: $zIndex1;
+}
+
+:global(div:has( > #vf-conversations-count:empty)) {
+  display: none;
+}
+
+.Badge {
+  background-color: $blackB;
+  border-radius: 50%;
+  content: '';
+  height: 17px;
+  @mixin lineHeight 17;
+  position: absolute;
+  right: 22px;
+  text-align: center;
+  top: -4px;
+  width: 17px;
+  z-index: 0;
+
+  &.Restricted {
+    background-color: $greyA;
+  }
+}
+
+.Label {
+  composes: InfoD from 'typography.legacy.css';
+  bottom: -8px;
+  left: -5px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.Restricted {
+  .Label,
+  .Icon {
+    color: $greyA;
+    fill: $greyA;
+    transition: color 0.3s, fill 0.3s;
+  }
+}

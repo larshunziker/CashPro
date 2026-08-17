@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Img Should match snapshot with given props 0 1`] = `
+<div>
+  <img
+    class="Image"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 1 1`] = `
+<div>
+  <img
+    class="Image"
+    src="path/to/img.jpg"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 2 1`] = `
+<div>
+  <img
+    class="Image Upscale"
+    src="path/to/img.jpg"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 3 1`] = `
+<div>
+  <img
+    alt="alt text"
+    class="Image Landscape"
+    height="100"
+    src="path/to/img.jpg"
+    title="img title"
+    width="200"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 4 1`] = `
+<div>
+  <img
+    alt="alt text"
+    class="Image addClass"
+    height="100"
+    src="path/to/img.jpg"
+    title="img title"
+    width="100"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 5 1`] = `
+<div>
+  <div
+    class="ImageBox"
+    role="img"
+    style="width: 200px; height: 100px; background-image: url(path/to/img.jpg);"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should render with children 1`] = `
+<div>
+  <div
+    role="img"
+  >
+    <img
+      class="Image"
+      src="path/to/img.jpg"
+    />
+    <div>
+      my children
+    </div>
+  </div>
+</div>
+`;

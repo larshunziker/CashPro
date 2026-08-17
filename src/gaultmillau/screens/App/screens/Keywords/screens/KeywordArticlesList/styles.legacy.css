@@ -1,0 +1,69 @@
+.Wrapper {
+  text-align: center;
+}
+
+.OverviewLink {
+  composes: OverviewLink from 'Keywords/styles.legacy.css';
+  margin-bottom: 15px;
+  margin-top: 7px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    display: block;
+    font-size: 1.4rem;
+    margin-bottom: 19px;
+    margin-top: 25px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    font-size: 1.8rem;
+    margin-bottom: 24px;
+    margin-top: 33px;
+  }
+}
+
+.Header {
+  margin-top: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-top: -22px;
+    padding: 41px 0 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-top: -35px;
+    padding: 44px 0 0;
+  }
+}
+
+.HeaderTitle {
+  color: $neutralA;
+  font-family: $fontActaDisplay;
+  font-size: 2.4rem;
+  font-weight: 900;
+  margin-bottom: 13px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 6rem;
+    margin-bottom: 21px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    font-size: 8rem;
+    margin-bottom: 27px;
+  }
+}
+
+.DividerThick {
+  composes: DividerThick from 'Keywords/styles.legacy.css';
+}
+
+.DividerMarginBottom {
+  composes: DividerMarginBottom from 'Keywords/styles.legacy.css';
+}

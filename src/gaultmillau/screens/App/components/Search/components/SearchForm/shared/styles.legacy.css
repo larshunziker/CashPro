@@ -1,0 +1,172 @@
+.SearchForm {
+  margin-top: 33px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 15px;
+  }
+}
+
+.SearchInputWrapper {
+  composes: Container from 'sections.legacy.css';
+}
+
+.SearchInputWrapperRow {
+  composes: Row from '@grid.legacy.css';
+}
+
+.SearchInputCol {
+  position: relative;
+}
+
+.SearchInput {
+  composes: InputSearch from 'form.legacy.css';
+  padding-right: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom-width: 1px;
+    font-size: 3.6rem;
+    margin-bottom: 49px;
+    padding-right: 40px;
+  }
+}
+
+.SearchAroundMe {
+  composes: InputText from 'form.legacy.css';
+  display: block;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.ResetIcon {
+  composes: TextButton from 'helpers.legacy.css';
+  color: $neutralA;
+  cursor: pointer;
+  font-size: 2.4rem;
+  line-height: inherit;
+  position: absolute;
+  right: calc(11px / 2 - 4px); /* -4px = icon inacurracy */
+  top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.6rem;
+    right: calc(25px / 2 - 4px);
+  }
+}
+
+/* AUTOCOMPLETE */
+.AutocompleteWrapper {
+  background-color: $white;
+  left: -10px;
+  margin: -14px calc(11px / 2) 0; /* remove form elemet margin-bottom and fake col padding */
+  position: absolute;
+  right: -10px;
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    left: -20px;
+    margin: -49px calc(25px / 2) 0;
+    right: -20px;
+  }
+}
+
+.Autocomplete {
+  list-style: none;
+  padding: 12px 10px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+}
+
+.AutocompleteItem {
+  composes: TextEllipsis from 'helpers.legacy.css';
+  color: $neutralA;
+  cursor: pointer;
+  display: inherit;
+  font-family: $fontActaHeadline;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+
+  &:hover {
+    background: $gradientPrimaryA;
+
+    /* stylelint-disable */
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    /* stylelint-enable */
+
+    /* fixes hidden icon bug on :hover (chrome, safari) */
+    .Location {
+      display: initial;
+    }
+  }
+}
+
+.AutocompleteItemActive {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+
+  /* fixes hidden icon bug on :hover (chrome, safari) */
+  .Location {
+    display: initial;
+  }
+}
+
+.IconLink {
+  composes: TextHoverGoldGradient from 'gmHelpers.legacy.css';
+  composes: UnstyledButton from 'form.legacy.css';
+  display: block;
+}
+
+.IconLinkPhone {
+  composes: TextHoverGoldGradient from 'gmHelpers.legacy.css';
+  color: $neutralA;
+  display: inline;
+  font-size: 2rem;
+  padding-left: 1rem;
+
+  &:hover {
+    background: $gradientPrimaryA;
+    background-clip: text;
+    color: $gradientPrimaryA;
+    -webkit-text-fill-color: $transparent;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.Glass {
+  position: absolute;
+  right: 10px;
+  top: 0;
+  width: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    right: 15px;
+    top: 10px;
+    width: auto;
+  }
+
+  /* Retina-specific stuff here */
+  /* stylelint-disable */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    top: 7px;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: $smBreakpoint),
+    (min-resolution: 192dpi) and (min-width: $smBreakpoint) {
+    top: 10px;
+  }
+  /* stylelint-enable */
+}

@@ -1,0 +1,46 @@
+.BreadcrumbWrapper {
+  position: relative;
+
+  &::after {
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+  }
+}
+
+.BreadcrumbList {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0 auto 29px;
+  overflow-x: auto;
+  padding-top: 7px;
+  transition: left 1s;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.BreadcrumbLink {
+  display: inline-block;
+  font-size: 1.4rem;
+
+  &::after {
+    content: '›';
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+span.BreadcrumbLink {
+  font-size: 1.4rem;
+  margin-right: 25px;
+
+  &::after {
+    content: '';
+    padding-left: 0;
+    padding-right: 0;
+  }
+}

@@ -1,0 +1,58 @@
+.PortfolioTableWrapper {
+  display: flex;
+}
+
+.Wrapper {
+  composes: ContainerPullOut from '../../../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  min-height: 60vh;
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 40vh;
+
+  &.Centered {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.NoResult {
+  composes: InfoA from 'typography.legacy.css';
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.CategoryWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}
+
+.PagerWrapper {
+  margin-bottom: 16px;
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}

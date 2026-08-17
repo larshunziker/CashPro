@@ -1,0 +1,52 @@
+.Wrapper {
+  @mixin hideforPrint;
+  display: grid;
+  grid-template-rows: max-content 0fr;
+  transition: grid-template-rows 0.3s linear;
+
+  &.isOpen {
+    grid-template-rows: max-content 1fr;
+  }
+}
+
+.Icon {
+  color: $secondaryA;
+  @mixin fontSize 15;
+  margin-left: auto;
+}
+
+.Icon,
+.IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}
+
+.StatusWrapper,
+.StatusWrapperVisible {
+  overflow: hidden;
+  transition: height 300ms linear, opacity 300ms linear;
+}
+
+.StatusWrapper {
+  height: 0;
+  opacity: 0;
+}
+
+.StatusWrapperVisible {
+  height: 100%;
+  opacity: 1;
+}
+
+.Logout {
+  /* although logout button is part of factory,
+  UX decision was to not add it on HZ
+  as it isn't useful for the user */
+  display: none;
+}
+
+.Title {
+  composes: Title from '../../styles.legacy.css'
+}

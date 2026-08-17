@@ -1,0 +1,15 @@
+.Title {
+  composes: SubheadXL from 'typography.legacy.css';
+  color: $black;
+  margin-bottom: $margin24;
+  overflow-wrap: break-word;
+  word-break: break-word; 
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.Paragraphs {
+  composes: ParagraphSansSerif from 'typography.legacy.css';
+}

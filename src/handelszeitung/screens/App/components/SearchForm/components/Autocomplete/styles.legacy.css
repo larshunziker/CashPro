@@ -1,0 +1,77 @@
+.Wrapper {
+  background-color: $blackB;
+  list-style: none;
+  margin-top: 15px;
+  padding: 14px 12px 1px;
+  position: absolute;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 15px 30px 21px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 15px 38px 21px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 23px 48px 27px;
+  }
+}
+
+.Link {
+  color: $white;
+  display: block;
+  font-family: $fontGothamBook;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+  margin-bottom: $margin16;
+  opacity: 0.6;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.7rem;
+    margin-bottom: 0;
+  }
+}
+
+.SearchOverlayBackground {
+  background-color: $white5;
+}
+
+.NavigationOverlayBackground {
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  left: -19px;
+  margin-top: 1px;
+  padding: 20px 19px 0;
+  width: calc(100vw);
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    left: 0;
+    padding: 12px 15px 0;
+    width: 100%;
+  }
+
+  .Link {
+    color: $blackB;
+    font-size: 1.5rem;
+    opacity: 1;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2rem;
+      line-height: 4rem;
+      margin-bottom: 14px;
+
+      &:hover {
+        color: $greyA;
+      }
+    }
+  }
+}

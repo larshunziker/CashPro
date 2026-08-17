@@ -1,0 +1,22 @@
+@define-mixin sectionDefaultMargin {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+@define-mixin SectionDefaultMarginTop {
+  margin-top: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+@define-mixin ChartsForPrint {
+  @media print {
+    margin: 0 auto;
+    max-width: 700px;
+  }
+}

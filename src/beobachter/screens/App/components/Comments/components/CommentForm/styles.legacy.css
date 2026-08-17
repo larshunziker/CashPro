@@ -1,0 +1,50 @@
+.InputField {
+  background: $white;
+  color: $greyA;
+  padding: 14px 12px;
+}
+
+.Label {
+  transform: translate(10px, 10px);
+}
+
+.LabelAbove {
+  transform: scale(0.7) translateY(-106%);
+}
+
+.SuccessMessage {
+  color: $greyA;
+  font: bold 1.6rem/1.42 $fontSpezia;
+  margin: 40px 0 0;
+  text-align: center;
+}
+
+.Button {
+  composes: Button from 'form.legacy.css';
+  font: bold 1.5rem $fontSpezia;
+  margin: 0;
+  max-width: 280px;
+  padding: 14px 12px;
+  width: 100%;
+
+  &[disabled] {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.InfoHeading {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-top: $margin40;
+}
+
+.Info {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  line-height: 20px;
+  margin-bottom: $margin24;
+}

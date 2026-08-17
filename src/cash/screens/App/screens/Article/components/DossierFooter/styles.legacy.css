@@ -1,0 +1,35 @@
+.Wrapper {
+  background: $blackB;
+  color: $white;
+  font-family: $fontSourceSansPro;
+  margin-bottom: $margin32;
+}
+
+.Link {
+  align-items: center;
+  color: $white;
+  display: flex;
+  margin: 10px auto;
+}
+
+.Title {
+  @mixin fontSize 15;
+  @mixin lineHeight 18;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 17;
+    @mixin lineHeight 22;
+  }
+}
+
+.IconWrap {
+  align-items: center;
+  border: 1px solid $white;
+  border-radius: 50%;
+  display: flex;
+  flex: 0 0 32px;
+  @mixin fontSize 17;
+  height: 32px;
+  justify-content: center;
+  margin-left: $margin16;
+}

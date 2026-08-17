@@ -1,0 +1,76 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+
+  display: block;
+  min-height: 249px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 411px;
+  }
+}
+
+.ContentWrapper {
+  background-color: $beigeA;
+  min-height: 100%;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 32px;
+  }
+}
+
+.Title {
+  composes: TeaserAdvertorialTitleH1 from 'typography.legacy.css';
+
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: Lead from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserAdvertorial from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.ImageWrapper {
+  height: 249px;
+  position: relative;
+  width: 249px;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+    min-width: 422px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: auto;
+    min-width: 731px;
+  }
+}
+
+.GuideImageWrapper {
+  composes: GuideImageWrapper from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}
+
+.Image {
+  composes: Image from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}

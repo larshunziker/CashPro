@@ -1,0 +1,114 @@
+.BadgeContainer {
+  display: flex;
+  justify-content: center;
+}
+
+.TeaserContainer {
+  align-items: center;
+  border: 2px solid #d8d8d8;
+  border-radius: 2px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 136px;
+
+  @media (width >= 560px) {
+    width: 170px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 220px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 407px;
+  }
+}
+
+.TeaserSection1 {
+  padding: 16px 8px;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 24px;
+  }
+}
+
+.TeaserSection2 {
+  background-color: $grayF;
+  padding: 16px 8px;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 32px;
+  }
+}
+
+.TeaserGrid {
+  display: flex;
+  justify-content: center;
+}
+
+.TeaserTitle {
+  composes: SectionTitleSmall from 'typography.legacy.css'; 
+  align-items: center;
+  display: flex;
+  font-size: 13px;
+  height: 26px;
+  line-height: 13px;
+  margin: $margin8 $margin8 0;
+  text-transform: uppercase; 
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 15px;
+    line-height: 15px;
+  }
+}
+
+.TeaserShortTitle {
+  composes: Meta1 from 'typography.legacy.css';
+  height: 60px;
+  margin-bottom: 16px;
+
+  @media (width >= 560px) {
+    height: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 20px;
+  }
+}
+
+.TeaserPlayContainer {
+  display: flex;
+  justify-content: center;
+
+  & > button {
+    margin: 0;
+  }
+}
+
+.Badge {
+  align-items: center;
+  background-color: #14bea5; /* stylelint-disable-line */
+  color: $white;
+  display: flex;
+  font-size: 14px;
+  font-style: italic;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 16px;
+  padding: 3px 5px;
+  text-align: center;
+  transform: translateY(8px);
+}
+
+.GameIcon {
+  height: 50px;
+  width: 60px;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 60px;
+    width: 80px;
+  }
+}

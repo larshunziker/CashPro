@@ -1,0 +1,17 @@
+{
+  "parallaxImageParagraph": {
+    "id": "180199",
+    "image": {
+      "credit": "Unsplashed",
+      "file": {
+        "alt": "Berg",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/berg.jpeg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ParallaxImageParagraph"
+  }
+}

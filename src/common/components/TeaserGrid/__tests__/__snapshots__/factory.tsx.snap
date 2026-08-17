@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] TermsOverview Should render layout1 1`] = `
+<div>
+  <div
+    class="css-teaser-grid Container"
+  >
+    <div
+      class="Grid0 group-0"
+    >
+      <div
+        class="Item0"
+        style="--item-index: 0;"
+      >
+        <div
+          data-testid="mocked-teaser"
+        >
+          teaser
+        </div>
+      </div>
+      <div
+        class="Item1"
+        style="--item-index: 1;"
+      >
+        <div
+          data-testid="mocked-teaser"
+        >
+          teaser
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] TermsOverview Should render non existing layout 1`] = `
+<div>
+  <div
+    data-testid="mocked-error"
+  >
+    No TeaserGrid config found: non-existing-layout
+  </div>
+</div>
+`;

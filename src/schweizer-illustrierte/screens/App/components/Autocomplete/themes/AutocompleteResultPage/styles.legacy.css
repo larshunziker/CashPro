@@ -1,0 +1,29 @@
+.Wrapper {
+  background: $white;
+  box-shadow: 0 2px 4px 0 color($black a(50%));
+  color: $black;
+  display: block;
+  height: auto;
+  left: -$outerGapXs;
+  list-style: none;
+  overflow-y: scroll;
+  padding: 20px 19px 0;
+  position: absolute;
+  top: 60px;
+  width: calc(100% + $outerGapXs * 2);
+  z-index: calc($zIndex100 + 2);
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid $grayA;
+    left: 0;
+    overflow: auto;
+    padding: 20px 15px 0;
+    top: 59px;
+    width: 50%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 30px 20px 0;
+    top: 79px;
+  }
+}

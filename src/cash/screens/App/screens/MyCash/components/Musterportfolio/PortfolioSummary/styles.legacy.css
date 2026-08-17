@@ -1,0 +1,103 @@
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: 16px;
+  
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 24px;
+  }
+}
+
+.PortfolioSummaryWrapper {
+  margin-bottom: 1rem;
+}
+
+.BoxWrapper {
+  background: $decoB;
+  border-bottom: 1px solid $greyC;
+  border-top: 1px solid $greyC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 24px 24px 8px;
+  position: relative;
+
+  /* only apply this on the mobile viewport */
+  @media (max-width: $xsBreakpointTo) {
+    &::after,&::before {
+      background: $decoB;
+      border-bottom: 1px solid $greyC;
+      border-top: 1px solid $greyC;
+      content: '';
+      height: calc(100% + 2px);
+      position: absolute;
+      top: -1px;
+      width: $outerGapXs;
+    }
+
+    &::after {
+      right: -$outerGapXs;
+    }
+  
+    &::before {
+      left: -$outerGapXs;
+    
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid $greyC;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 24px 24px 3px;
+  }
+}
+
+.BoxItem {
+  background: $white;
+  border: 1px solid $greyC;
+  margin:0 8px 16px;
+  max-width: 282px;
+  min-width: 282px;
+  padding: 16px;
+  text-align: center;
+  width: 100%;
+  
+  @media (min-width: $smBreakpoint) {
+    max-width: 300px;
+    min-width: 300px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin:0 12px 24px;
+    padding: 24px;
+  }
+
+  > span {
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+}
+
+.BoxPrice {
+  composes: ContentBoxBig from 'typography.legacy.css';
+}
+
+.BoxChange {
+  composes: InfoC from 'typography.legacy.css';
+  margin-bottom: 2px;
+}
+
+.BoxDescription {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.Positive {
+  color: $positive;
+}
+
+.Negative {
+  color: $primaryA;
+}

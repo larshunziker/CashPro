@@ -1,0 +1,19 @@
+{
+  "data": {
+    "portfolio": {
+      "id": "cG9ydGZvbGlvUG9ydGZvbGlvb2JXRE5MZ0tZNA==",
+      "name": "Grosses",
+      "defaultPortfolio": false,
+      "currency": "CHF",
+      "portfolioKey": "obWDNLgKY4",
+      "calculatedFields": {
+        "totalPaidPrice": "794186.412717647",
+        "totalActualPrice": "767581.069275",
+        "totalAccountPlusMinus": "-26605.343442647",
+        "totalAccountPercent": "-3.35",
+        "__typename": "PortfolioCalculatedFields"
+      },
+      "__typename": "Portfolio"
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "ministageGuider": {
+    "links": {
+      "edges": [
+        {
+          "node": {
+            "label": "Checkliste: Online-Shopping - So sichern sie sich ab",
+            "path": "https://www.guider.ch/konsum/kauf-und-leasing/besondere-kaufvertraege/70F2D14A9031C02CC1257E4D003792C2",
+            "routed": false,
+            "__typename": "Link"
+          },
+          "__typename": "LinkEdge"
+        },
+        {
+          "node": {
+            "label": "M\u00e4ngel w\u00e4hrend der Garantiezeit",
+            "path": "https://www.guider.ch/konsum/kauf-und-leasing/garantie/3FB8841842A45419C1256C21002A52B8",
+            "routed": false,
+            "__typename": "Link"
+          },
+          "__typename": "LinkEdge"
+        },
+        {
+          "node": {
+            "label": "Wie lange sind Gutscheine g\u00fcltig?",
+            "path": "https://www.guider.ch/konsum/kauf-und-leasing/gutscheine/FE11E9134EBF380EC1256C0C003919E9",
+            "routed": false,
+            "__typename": "Link"
+          },
+          "__typename": "LinkEdge"
+        }
+      ],
+      "__typename": "LinkConnection"
+    },
+    "__typename": "MinistageGuider"
+  }
+}

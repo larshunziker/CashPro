@@ -1,0 +1,98 @@
+.Wrapper {
+  display: flex;
+  list-style: none;
+  max-width: 280px;
+
+  @media (min-width: $smBreakpoint)  {
+    margin: 20px 0 0;
+  }
+}
+
+li:last-of-type > a {
+  margin-right: 0;
+}
+
+.Link {
+  border-radius: 50%;
+  float: left;
+  margin-right: 11px;
+  position: relative;
+  transition: opacity .3s ease-in;
+}
+
+.Content {
+  background-color: $white;
+  border-radius: 50%;
+  height: 38px;
+  position: relative;
+  text-align: center;
+  width: 38px;
+}
+
+.Icon:not(.DarkIcon):hover {
+  opacity: .7;
+}
+
+.Icon svg {
+  fill: $grey90;
+  height: 32px;
+  margin-top: 4px;
+  width: 34px;
+}
+
+.DarkIcon {
+  background-color: $grey80;
+  transition: background-color .3s ease-in;
+
+  &:hover {
+    background-color: $black;
+  }
+
+  svg {
+    fill: $white;
+    height: 30px;
+    margin-top: 5px;
+    width: 26px;
+  }
+}
+
+/* Style for Origin Navigation */
+.NavigationWrapper {
+  display: flex;
+  justify-content: space-between;
+  max-width: 232px;
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 156px;
+  }
+
+  .Content {
+    height: 27px;
+    width: 27px;
+  }
+
+  .Icon svg {
+    color: $grey90;
+    fill: $grey90;
+    font-size: 18px;
+    line-height:  28px;
+  }
+
+  .Link {
+    margin-right: $margin24;
+
+    &:hover {
+      opacity: 1;
+
+      .Icon svg {
+        color: $greyA;
+        fill: $greyA;
+      }
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-right: 5px;
+    }
+  }
+}
+

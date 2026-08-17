@@ -1,0 +1,17 @@
+.Wrapper {
+  position: relative;
+  z-index: calc($zIndex1 + 1);
+}
+
+.Content {
+  composes: SpitzmarkeTeaserArticle from 'typography.legacy.css';
+
+  background-color: $white;
+  display: inline-block;
+  overflow: hidden;
+  padding: 2px 4px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  width: 100%;
+}

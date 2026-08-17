@@ -1,0 +1,21 @@
+.Icon {
+  color: $white;
+  cursor: zoom-in;
+  filter: drop-shadow(0 0 4px $black);
+  font-size: 4rem;
+  inset: 0;
+  opacity: .6;
+  padding: 10px;
+  position: absolute;
+  text-align: right;
+  transition: opacity 0.3s;
+  z-index: calc($zIndex50 - 1);
+
+  &:focus {
+    outline: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}

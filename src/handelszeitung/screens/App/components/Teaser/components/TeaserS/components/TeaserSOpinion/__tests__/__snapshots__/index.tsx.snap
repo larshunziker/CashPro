@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[TeaserSOpinion] getInnerContentByProps function Should render authorImage if there is a relativeOriginPath set 1`] = `
+<React.Fragment>
+  <div
+    className="AuthorWrapper"
+  >
+    <div
+      className="AuthorContent"
+    >
+      <Memo(Picture)
+        className="AuthorAvatar"
+        focalPointX={null}
+        focalPointY={null}
+        relativeOrigin="/some/relativeOriginPath"
+        style_320="1x1_140"
+      />
+      <div
+        className="Authors"
+      />
+    </div>
+  </div>
+</React.Fragment>
+`;
+
+exports[`[TeaserSOpinion] getInnerContentByProps function Should render nothing if there is no relativeOriginPath in authorImage 1`] = `<React.Fragment />`;

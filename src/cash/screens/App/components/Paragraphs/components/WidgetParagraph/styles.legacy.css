@@ -1,0 +1,9 @@
+.Wrapper.Charts {
+  min-height: 475px;
+}
+
+@media print {
+  .Wrapper {
+    break-inside: avoid;
+  }
+}

@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render information when no articles are available for a certain letter 1`] = `
+<div>
+  Keine Artikel zu diesem Buchstaben vorhanden
+</div>
+`;

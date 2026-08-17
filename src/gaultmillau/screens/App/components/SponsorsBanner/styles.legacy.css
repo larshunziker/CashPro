@@ -1,0 +1,213 @@
+.SponsorsBox {
+  composes: Clearfix from 'helpers.legacy.css';
+  border: 1px solid $neutralA;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 60px;
+  padding-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    border: 1px solid $neutralB;
+    padding-top: 22px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    border: 1px solid $neutralA;
+    padding-top: 32px;
+  }
+}
+
+.LogoBoxMobile {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    grid-column: 2;
+    grid-row: 2;
+    margin-bottom: 26px;
+    width: 100%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    margin-bottom: 43px;
+  }
+}
+
+.SponsorLogo {
+  height: auto;
+  max-width: 83px;
+  min-width: 83px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    max-width: 107px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    max-width: 130px;
+  }
+
+  &.Small {
+    max-width: 42px;
+    min-width: 40px;
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      max-width: 56px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* 960 - infinity */
+      min-width: 70px;
+    }
+  }
+}
+
+.NespressoLogo {
+  width: 140px;
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    max-width: 130px;
+  }
+}
+
+.SchweizerFleischLogo {
+  width: 140px;
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 140px;
+  }
+}
+
+.Item {
+  &.Small {
+    max-width: 78px;
+  }
+}
+
+.SponsorWrapper {
+  align-self: center;
+  flex-grow: 1;
+  justify-content: center;
+  margin: 0 28px 15px;
+  text-align: center;
+  width: 20%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 15%
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 20%;
+  }
+
+}
+
+.SponsorWrapper.SponsorWrapperbig {
+  width: 100%;
+
+  @media (min-width: 510px) {
+    width: 20%
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-grow:0;
+    width: 40%;
+  }
+}
+
+.SponsorWrapperbig {
+  composes: SponsorWrapper;
+  display: block;
+  height: initial;
+  text-align: center;
+}
+
+.SectionHeader {
+  composes: Catch from 'typography_old.legacy.css';
+  letter-spacing: 3px;
+  line-height: 1.5rem;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    line-height: 1.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    margin-bottom: 13px;
+  }
+}
+
+.TextBox {
+  align-content: center;
+  align-self: center;
+  clear: both;
+  display: inline-flex;
+  justify-content: flex-start;
+  margin-left: $margin8;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: $margin16;
+  }
+}
+
+.SponsorText {
+  font-family: $fontBagueSansPro;
+  font-size: 0.8em;
+  line-height: 1em;
+  max-width: 100px;
+
+  @media (min-width: $mdBreakpoint) {
+    align-self: center;
+
+  }
+}
+
+.Subheader {
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  line-height: 1.4rem;
+  margin-bottom: $margin16;
+  text-align: center;
+  width: 100%;
+
+  .SubheaderParagraph {
+    margin-left: auto;
+    margin-right: auto;
+    width: 205px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 1.7rem;
+    line-height: 2.5rem;
+    margin-bottom: $margin32;
+    margin-top: 4px;
+
+    .SubheaderParagraph {
+      width: initial;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 - infinity */
+    font-size: 1.9rem;
+  }
+}

@@ -1,0 +1,183 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] HeaderInner Should render correctly 1`] = `
+<div>
+  <div
+    class="site-header Wrapper"
+    data-testid="header-container"
+    id="header-inner-wrapper"
+  >
+    <div
+      class="Container Header Hidden"
+    >
+      <a
+        class="HeaderLogo"
+        data-testid="mocked-link"
+        href="/"
+      >
+        <div
+          class="LogoWrapper"
+        >
+          <img
+            alt="cash"
+            class="Logo"
+            src="SvgrURL"
+          />
+        </div>
+      </a>
+    </div>
+    <nav
+      class="Container Header"
+    >
+      <a
+        class="HeaderLogo"
+        data-testid="mocked-link"
+        href="/"
+      >
+        <div
+          class="LogoWrapper"
+        >
+          <img
+            alt="cash"
+            class="Logo"
+            src="SvgrURL"
+          />
+        </div>
+      </a>
+      <div
+        class="HiddenSmDown SearchContainer"
+      >
+        <div
+          class="SearchWrapper"
+        >
+          <form
+            action="/suche/alle"
+            autocomplete="on"
+            class="Wrapper"
+          >
+            <div
+              class="InputWrapper"
+            >
+              <div
+                class="InputWithIconWrapper"
+              >
+                <div
+                  addclass="HiddenSmDown InputIcon"
+                  data-testid="mocked-icon"
+                  type="IconMagnifyingGlass"
+                />
+                <input
+                  aria-label="Eingabe Suchbegriff"
+                  class="search-bar Input"
+                  name="search"
+                  placeholder="Suchen"
+                  type="search"
+                  value=""
+                />
+              </div>
+              <button
+                aria-label="suchen"
+                class="SubmitButton"
+                data-testid="searchform-factory-submit-button"
+                type="submit"
+              >
+                <div
+                  addclass="SubmitIcon"
+                  data-testid="mocked-icon"
+                  type="IconArrowRight"
+                />
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+      <a
+        class="DepotButton"
+        data-testid="mocked-link"
+        href="https://www.cash.ch/online-trading?top=1"
+      >
+        Depot 
+        <span
+          class="HiddenSmDown"
+        >
+          eröffnen
+        </span>
+      </a>
+      <button
+        class="HiddenSmUp Button"
+      >
+        <div
+          class="Wrapper"
+          type="svg-icons/type/search"
+        />
+        Suche
+      </button>
+      <button
+        class="HiddenSmUp hide-on-print Button"
+      >
+        <div
+          class="Wrapper"
+          type="svg-icons/type/user"
+        />
+        Login
+      </button>
+      <div
+        class="HiddenSmDown LoginButton hide-on-print"
+      >
+        <button
+          class="Secondary Small"
+          tabindex="0"
+        >
+          <span>
+            <span
+              class="ButtonWithIcon"
+            >
+              <div
+                class="Wrapper Icon"
+                type="svg-icons/type/user"
+              />
+              Login
+            </span>
+          </span>
+        </button>
+      </div>
+      <button
+        aria-label="Menu öffnen"
+        class="track-menu HiddenMdUp Button MenuButton"
+        data-track-action="open"
+        data-track-element="menu"
+      >
+        <span
+          class="MenuIconContainer"
+        >
+          <span
+            class="MenuIcon"
+          />
+        </span>
+        <span
+          class="HiddenSmUp"
+        >
+          Menu
+        </span>
+      </button>
+    </nav>
+    <div
+      class="HiddenMdDown Container"
+    >
+      <div
+        data-testid="navigation-navigationbar-wrapper"
+      />
+      <div
+        data-testid="navigation-navigationmenu-wrapper"
+      />
+    </div>
+  </div>
+  <div
+    class="UtilityOverlayWrapper"
+  >
+    <div
+      id="utility-bar-overlay"
+    />
+  </div>
+</div>
+`;

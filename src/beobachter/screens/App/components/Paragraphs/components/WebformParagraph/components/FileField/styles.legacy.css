@@ -1,0 +1,13 @@
+.Wrapper {
+  margin: 36px 0 $margin16;
+}
+
+.Title {
+  composes: InfoH1Black from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.Description {
+  composes: FormLabelBigBlackA from 'typography.legacy.css'; 
+  margin-bottom: 36px;
+}

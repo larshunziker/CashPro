@@ -1,0 +1,99 @@
+.MoreButton {
+  composes: ArrowText from 'typography.legacy.css';
+  border: 1px solid $grayB;
+  border-radius: 2px;
+  color: $black;
+  cursor: pointer;
+  line-height: 2rem;
+  margin: 10px 0 47px;
+  padding: 2px 10px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transition: 0.3s ease-in;
+
+  &.Collapsed {
+    &::before {
+      border-top-color: $grayB;
+      top: 100%;
+      transition: border-top-color 0.3s ease-in;
+    }
+
+    &:hover::before {
+      border-top-color: $redA;
+    }
+
+    &::after {
+      border-top-color: $white;
+      top: 100%;
+    }
+  }
+
+  &.Expanded {
+    &::before {
+      border-bottom-color: $grayB;
+      bottom: 100%;
+    }
+
+    &::after {
+      border-bottom-color: $white;
+      bottom: 100%;
+    }
+  }
+
+  &::before {
+    border: 10px solid transparent;
+    content: '';
+    display: block;
+    height: 0;
+    left: calc(50% - 10px);
+    position: absolute;
+    width: 0;
+  }
+
+  &::after {
+    border: 9px solid transparent;
+    content: '';
+    display: block;
+    height: 0;
+    left: calc(50% - 9px);
+    position: absolute;
+    width: 0;
+  }
+
+  &:hover {
+    border: 1px solid $redA;
+    color: $redA;
+  }
+
+  .Loader {
+    animation: spin 2s linear infinite;
+    border: 2px solid $grayB;
+    border-radius: 50%;
+    border-top: 2px solid $redA;
+    display: inline-block;
+    height: 20px;
+    vertical-align: middle;
+    width: 20px;
+  }
+
+  @keyframes spin {
+    0% {
+      transform: rotate(0deg);
+    }
+
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin: 20px 0 57px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 1.4rem;
+    margin: $margin40 0 59px;
+    padding: 4px 15px;
+  }
+}

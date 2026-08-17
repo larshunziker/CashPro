@@ -1,0 +1,55 @@
+.Wrapper {
+  composes: ContainerPullOut from '@grid.legacy.css';
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  gap: $margin16;
+  margin-bottom: $margin24;
+  padding: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    align-items: center;
+  }
+}
+
+
+.Title {
+  composes: InfoH1 from 'typography.legacy.css';
+  color: $decoF;
+  display: flex;
+  margin-bottom: $margin16;
+}
+
+.Description {
+  background-color: $decoD;
+  border: 1px solid $decoF;
+  border-radius: 4px;
+  padding: $margin16;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    width: 840px;
+  }
+}
+
+.DescriptionText {
+  composes: InfoA from 'typography.legacy.css';
+  color: $decoF;
+}
+
+.Details {
+  background-color: $decoE;
+  border: 1px solid $decoG;
+  border-radius: 4px;
+  padding: $margin16;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    width: 840px;
+  }
+}
+
+.DetailsText {
+  composes: InfoA from 'typography.legacy.css';
+  color: $decoG;
+}

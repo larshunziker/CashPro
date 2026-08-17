@@ -1,0 +1,36 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "bm9kZToxNzc4NQ==",
+        "subtypeValue": "blog_a",
+        "title": "Blog A Article 44 test purge",
+        "lead": "just a lead test",
+        "shortTitle": "Gault Millau Channel 1",
+        "preferredUri": "/gault-millau-channel-1/blog-article-44-test-purge",
+        "changeDate": "2017-05-21T11:45:07",
+        "publicationDate": "2017-05-21T10:45:07",
+        "channel": {
+          "id": "dGF4b25vbXlfdGVybToxMjUw",
+          "title": "Gault Millau Channel 1",
+          "__typename": "Channel"
+        },
+        "teaserImage": {
+          "id": "177427",
+          "title": "1234",
+          "image": {
+            "file": {
+              "alt": "Headless ",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2017-03/csm_1Q6A7152_bc135f2045_0.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        }
+      }
+    }
+  ]
+}

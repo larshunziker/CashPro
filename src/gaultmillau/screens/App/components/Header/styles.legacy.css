@@ -1,0 +1,27 @@
+.Wrapper {
+  position: relative;
+  width: 100%;
+  z-index: $zIndexHighest;
+}
+
+.Placeholder {
+  background-color: $white;
+  height: 48px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 54px;
+  }
+}
+
+.IsSticky {
+  background-color: $white;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  @media print {
+    position: static;
+  }
+}

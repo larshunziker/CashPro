@@ -1,0 +1,101 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.InnerWrapper {
+  position: relative;
+}
+
+.HeaderBackground {
+  background-color: $greyE;
+  height: 242px;
+  margin-bottom: -242px;
+  z-index: $zIndexBackground;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 343px;
+    margin-bottom: -343px;
+  }
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.HeroImageWrapper {
+  line-height: 1;
+  margin-bottom: $margin16;
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin: 0 0 $margin16 0;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    composes: Container from '@grid.legacy.css';
+    height: 394px;
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint){
+    height: 300px;
+  }
+
+  @media (min-width: $xlBreakpoint){
+    height: 475px;
+  }
+
+  &::before {
+    background: $gradientDossierImage;
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.Image {
+  max-width: none;
+  width: 100%;
+  z-index: 0;
+}
+
+.HeroImageTitle {
+  composes: H2White from 'typography.legacy.css';
+  left: 20px;
+  position: absolute;
+  top: 10px;
+  z-index: 2;
+
+  @media (min-width: $smBreakpoint) {
+    left: 16px;
+    top: 16px;
+  }
+}
+
+.HeaderDescriptionWrapper {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.HeaderDescription {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  text-align: center;
+}

@@ -1,0 +1,63 @@
+.Wrapper {
+  padding-bottom: 15px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 555px;
+    padding-bottom: 11px;
+  }
+
+  @media (min-width: $mdBreakpoint) /* width >= 960 */ {
+    display: flex;
+    justify-content: space-between;
+    max-width: 100%;
+    padding-bottom: 5px;
+  }
+}
+
+.MobileWrapper {
+  display: none;
+  margin-bottom: 10px;
+  margin-top: -10px;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) /* width >= 960 */ {
+    display: flex;
+    margin-bottom: 5px;
+    text-align: left;
+  }
+}
+
+.Link {
+  color: $neutralA;
+  display: inline-block;
+  font-family: $fontActaDisplay;
+  font-size: 4rem;
+  font-weight: bold;
+  line-height: 5.6rem;
+  margin-right: 12px;
+  position: relative;
+
+  &:hover {
+    background: $gradientPrimaryA;
+    /* stylelint-disable */
+    background-clip: text !important;
+    -webkit-text-fill-color: transparent;
+    /* stylelint-enable */
+  }
+
+  @media (min-width: $smBreakpoint) /* width >= 780 */ {
+    margin-right: 15px;
+  }
+
+  @media (min-width: $mdBreakpoint) /* width >= 960 */ {
+    font-size: 4rem;
+    margin-right: auto;
+  }
+}
+
+.LinkActive {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+}

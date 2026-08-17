@@ -1,0 +1,51 @@
+.Wrapper {
+  position: relative;
+}
+
+.SwipeIndicator {
+  background-color: $skin;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 7px;
+  margin: 0 $margin4;
+  outline: none;
+  position: absolute;
+  transition: transform 0.4s, background-color 0.4s;
+  width: 7px;
+  z-index: $zIndex1;
+
+  &.WithBoxShadow {
+    box-shadow: $indicatorShadow;
+  }
+
+  &.Active {
+    z-index: calc($zIndex1 + 1);
+
+    &SI {
+      background-color: $redA;
+    }
+
+    &SY {
+      background-color: $black;
+    }
+
+    &.SecondaryTheme {
+      &SY {
+        background-color: $white;
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 9px;
+    margin: 0 5px;
+    width: 9px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 12px;
+    margin: 0 6px;
+    width: 12px;
+  }
+}

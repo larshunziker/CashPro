@@ -1,0 +1,6 @@
+{
+  "styles": {
+    "Wrapper": "TestWrapperClass",
+    "Header": "TestHeaderClass"
+  }
+}

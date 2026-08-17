@@ -1,0 +1,57 @@
+.Wrapper {
+  margin: $margin40 0;
+  position: relative;
+}
+
+.HeaderTitle {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.Label {
+  composes: InfoParagraphWhite from 'typography.legacy.css'; 
+  background-color: $blueA;
+  border-radius: 4px;
+  height: 50px;
+  left: 100%;
+  padding: 12px;
+  position: sticky; 
+  text-align: center;
+  top: 65px;
+  width: 150px;
+  z-index: 2;
+}
+
+.WrapperInner {
+  /* stylelint-disable-next-line */
+  background-color: rgb(250, 235, 215);
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px $greyA;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.Title {
+  background-color: $greyA;
+  border-radius: 2px;
+  color: $white;
+  display: inline-block;
+  padding: 2px 15px;
+  z-index: 0;
+}
+
+.ItemWrapper {
+  list-style: none;
+}
+
+.Input{
+  composes: Lead2 from 'typography.legacy.css'; 
+  margin-left: $margin4;
+}
+
+.InputLabel {
+  composes: ChapterTitle from 'typography.legacy.css'; 
+  margin-right: $margin16;
+}

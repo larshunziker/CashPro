@@ -1,0 +1,115 @@
+{
+  "id": "bm9kZToxOTMzNA==",
+  "subtypeValue": "opinion",
+  "authors": {
+    "edges": [],
+    "__typename": "AuthorConnection"
+  },
+  "title": "This is a title",
+  "lead": "This is a lead",
+  "metaTitle": "Aktie | Handelszeitung",
+  "shortTitle": "Short title",
+  "metaDescription": "Aktie | Handelszeitung",
+  "metaOgTitle": "Aktie | Handelszeitung",
+  "metaKeywords": "Aktien, Aktiengesellschaft",
+  "metaOgDescription": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+  "metaCanonicalUrl": "",
+  "changeDate": "2018-08-22T10:26:40",
+  "publicationDate": "2018-07-25T10:00:00",
+  "preferredUri": "/lexikon/aktie",
+  "canonicalUri": "/group/3/content/20476",
+  "category": "Boersenlexikon",
+  "commentStatus": "open",
+  "nid": "545155",
+  "channel": {
+    "id": "jfalksjdflajsldf",
+    "title": "Digital Switzerland",
+    "articles": { "edges": [], "__typename": "ArticleConnection" },
+    "__typename": "Channel"
+  },
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+          "label": "People",
+          "link": "/people",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpRd016RTFNamsw",
+          "label": "Kampf gegen HIV: Prinz Harry kümmert sich um Dianas Herzensprojekt",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "body": [
+    {
+      "anchorId": null,
+      "header": "Definition",
+      "Text": "Hello world",
+      "__typename": "TextParagraph"
+    },
+    {
+      "anchorId": null,
+      "header": "Definition",
+      "Text": "Hello world2",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "teaserImage": {
+    "id": "test1234",
+    "image": {
+      "file": {
+        "alt": "Federer freut sich",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/2018-09/federer.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "relatedArticles": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTQ2MQ==",
+          "title": "Das ist der Titel für das neue Keyword",
+          "preferredUri": "/people/das-ist-der-titel-fur-das-neue-keyword",
+          "shortTitle": "Neuer Testartikel für Keyword",
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Federer freut sich",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/2018-09/federer.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      }
+    ],
+    "__typename": "RouteObjectInterfaceConnection"
+  },
+  "__typename": "Article"
+}

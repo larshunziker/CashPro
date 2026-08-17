@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InfoBoxPargraph - RechtsratgeberBox Should render correctly 1`] = `
+<div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColOffsetSm1 ColSm22 ColOffsetMd1 ColMd17 ColOffsetXl5 ColXl14"
+      >
+        <div
+          class="paragraph info-box-paragraph infobox guider-box GuiderWrapper"
+        >
+          <div
+            class="Header"
+          >
+            <div
+              class="Badge"
+            >
+              Rechtsratgeber
+            </div>
+            <div
+              class="ParagraphsRendererContainer"
+              data-testid="paragraphsrenderer-container"
+            >
+              <div
+                class=""
+              >
+                <div
+                  id="cGFyYWdyYXBoOnRleHQ6MTczNzE0OjE3NTM0Ng=="
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="Paragraphs"
+                    >
+                      <div
+                        data-testid="paragraph-item"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper Typography"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                &lt;h3&gt;Checkliste «Selbständigkeit & Trotzphase bei Kindern» bei Guider, dem digitalen Berater des Beobachters&lt;/h3&gt;
+                              </p>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class=""
+              >
+                <div
+                  id="cGFyYWdyYXBoOnRleHQ6MTcyODM5OjE3NDQ3MQ=="
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      class="Paragraphs"
+                    >
+                      <div
+                        data-testid="paragraph-item"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper Typography"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                Befindet sich ein Kind in der Trotzphase, ist es für Eltern wichtig, einen direkten Bezug zu ihrem Verhalten aufzuzeigen. Wie Sie das am besten anstellen, lesen Sie als Guider-Mitglied in der 
+                                <a
+                                  href="https://www.guider.ch/schule-und-erziehung/erziehung/saeugling-und-kleinkind/314CD469C93063C6C1258013004F0E3F"
+                                  onclick="window.handleWysiwygLink(event)"
+                                  rel="noopener nofollow noreferrer"
+                                  target="_blank"
+                                >
+                                  Checkliste «Selbständigkeit und Trotzphase»
+                                </a>
+                                 und erfahren dort ausserdem, wie Sie derartige Anfälle für sich erträglicher gestalten können.
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

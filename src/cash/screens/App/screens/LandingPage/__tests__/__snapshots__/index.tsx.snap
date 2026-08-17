@@ -1,0 +1,4209 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] LandingPage Should render LandingPageDefault correctly 1`] = `
+<div>
+  <div
+    data-testid="landingpage-default"
+  >
+    <div
+      class="Wrapper"
+      data-testid="landing-page-wrapper"
+    >
+      <div
+        class="HeadWrapper PullOutWrapper"
+      >
+        <script
+          type="application/ld+json"
+        >
+          {
+  "@context": "https://schema.org",
+  "@id": "undefined/#/schema/BreadcrumbList/news/alle",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Alle News"
+    }
+  ]
+}
+        </script>
+        <div
+          class=""
+        >
+          <div
+            class="Wrapper HideForPrint"
+          >
+            <ol
+              class="BreadcrumbList"
+            >
+              <li>
+                <a
+                  class="BreadcrumbLink"
+                  data-testid="routed-link"
+                  href="/"
+                >
+                  Home
+                </a>
+              </li>
+              <li>
+                <span
+                  class="BreadcrumbLink Title"
+                >
+                  Alle News
+                </span>
+              </li>
+            </ol>
+            <div
+              class="ScrollButton"
+            >
+              <div
+                class="GradiantLeftToRight"
+              />
+              <button>
+                 
+              </button>
+            </div>
+          </div>
+        </div>
+        <div
+          class="NoLead"
+          data-testid="wrapper"
+        >
+          <h1>
+            <span
+              class="Title"
+              data-testid="title"
+            >
+              Alle News
+            </span>
+          </h1>
+        </div>
+      </div>
+      <div
+        class="LandingPage-restricted-content"
+      >
+        <div
+          data-testid="paragraphs-wrapper"
+        >
+          <div
+            id="cGFyYWdyYXBoOnNlY3Rpb246MTY5MjEzNjo1NzIzMzQ3"
+          >
+            <div
+              class="Section"
+            >
+              <div
+                class="paragraph-wrapper Paragraphs ContainerPullOut NoBottomMargin"
+              >
+                <div
+                  class="Row"
+                  data-testid="paragraph-item"
+                >
+                  <div
+                    class="ColXs24"
+                  >
+                    <div>
+                      <div
+                        data-testid="paragraphsrenderer-sectionparagraph-wrapper"
+                      >
+                        <section
+                          data-testid="explaining-article-section"
+                        >
+                          <div
+                            data-testid="section-paragraph-section-body"
+                          >
+                            <div
+                              id="cGFyYWdyYXBoOm1pbmlzdGFnZToxNjkyMTM1OjU3MjMzNDY="
+                            >
+                              <div
+                                class="Section"
+                              >
+                                <div
+                                  class="paragraph-wrapper Paragraphs"
+                                >
+                                  <div
+                                    data-testid="paragraph-item"
+                                  >
+                                    <div
+                                      data-tracking-id="MinistageTrendingTopics"
+                                    >
+                                      <div
+                                        data-testid="ministage-paragraph-trending-topics-wrapper"
+                                      >
+                                        <div
+                                          class="Wrapper"
+                                        >
+                                          <div
+                                            class="paragraph ministage-trending-topics-paragraph"
+                                          >
+                                            <div
+                                              class=""
+                                            >
+                                              <div>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/top-news"
+                                                >
+                                                  Top News
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/boersenticker"
+                                                >
+                                                  Börsen-Ticker
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/alle"
+                                                >
+                                                  News
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/insider"
+                                                >
+                                                  Insider
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/insider-briefing"
+                                                >
+                                                  Insider Briefing
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/kolumne"
+                                                >
+                                                  Kolumne
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/invest-stimmen-zum-markt"
+                                                >
+                                                  Invest - Stimmen zum Markt
+                                                </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="PullOutWrapper"
+        id="page"
+      >
+        <div
+          class="ColXs24 GridColumn"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="landingPageDefault css-teaser-grid"
+            >
+              <div
+                class="Grid0 group-0"
+              >
+                <div
+                  class="Item0 Item"
+                  style="--item-index: 0;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/das-sind-die-besten-ferienhotels-der-schweiz-734628"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2209/1259/sites/default/files/images/library/hotellerie_schweiz_tourismus.jpg"
+                              />
+                              <img
+                                alt="Durch Corona und die Strompreise unter Druck: Die Hotellerie in der Schweiz."
+                                class="Image teaser-image Image"
+                                fetchpriority="high"
+                                height="280"
+                                loading="eager"
+                                srcset="/fp/420/280/2209/1259/sites/default/files/images/library/hotellerie_schweiz_tourismus.jpg"
+                                title="Das sind die besten Ferienhotels der Schweiz"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Urlaubszeit
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Das sind die besten Ferienhotels der Schweiz
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Zur Sommerferienzeit hat die «Bilanz» die besten Ferienhotels der Schweiz gekürt. Welche Hotels es in die Top 10 geschafft haben - und die Geschichten dahinter.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span>
+                                Von 
+                              </span>
+                              <span>
+                                Claus Schweitzer
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2209/1259/sites/default/files/images/library/hotellerie_schweiz_tourismus.jpg"
+                                  />
+                                  <img
+                                    alt="Durch Corona und die Strompreise unter Druck: Die Hotellerie in der Schweiz."
+                                    class="Image Image"
+                                    fetchpriority="high"
+                                    height="280"
+                                    loading="eager"
+                                    srcset="/fp/420/280/2209/1259/sites/default/files/images/library/hotellerie_schweiz_tourismus.jpg"
+                                    title="Das sind die besten Ferienhotels der Schweiz"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Zur Sommerferienzeit hat die «Bilanz» die besten Ferienhotels der Schweiz gekürt. Welche Hotels es in die Top 10 geschafft haben - und die Geschichten...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span>
+                                  Von 
+                                </span>
+                                <span>
+                                  Claus Schweitzer
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item1 Item"
+                  style="--item-index: 1;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/die-funf-teuersten-schulen-der-welt-sind-alle-in-der-schweiz-734614"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2048/1080/sites/default/files/media/field_image/2024-07/schule_bildung.jpg"
+                              />
+                              <img
+                                alt="Ein Schüler bei den Rechenaufgaben."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/2048/1080/sites/default/files/media/field_image/2024-07/schule_bildung.jpg"
+                                title="Die fünf teuersten Schulen der Welt sind alle in der Schweiz"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Bildung
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Die fünf teuersten Schulen der Welt sind alle in der Schweiz
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Royals und sehr vermögende Familien setzen oft auf die Schweiz, wenn es um die Bildung ihrer Kinder geht. Hierzulande befinden sich die fünf teuersten Schulen der Welt.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span>
+                                Von 
+                              </span>
+                              <span>
+                                Nicola Imfeld
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2048/1080/sites/default/files/media/field_image/2024-07/schule_bildung.jpg"
+                                  />
+                                  <img
+                                    alt="Ein Schüler bei den Rechenaufgaben."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/2048/1080/sites/default/files/media/field_image/2024-07/schule_bildung.jpg"
+                                    title="Die fünf teuersten Schulen der Welt sind alle in der Schweiz"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Royals und sehr vermögende Familien setzen oft auf die Schweiz, wenn es um die Bildung ihrer Kinder geht. Hierzulande befinden sich die fünf teuersten...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span>
+                                  Von 
+                                </span>
+                                <span>
+                                  Nicola Imfeld
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item2 Item"
+                  style="--item-index: 2;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-mobile AdContainer"
+                  >
+                    <div
+                      class="AdSlot top_ad1"
+                      data-device-type="mobile"
+                      data-slot-name="top_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-top-ad_1-mobile"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item3 Item"
+                  style="--item-index: 3;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/saron-und-festhypotheken-mit-diesen-zinsen-mussen-schweizer-immobilienbesitzer-derzeit-rechnen-734975"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2869/1931/sites/default/files/media/field_image/2024-07/zurich_schweiz_immobilien_wohneigentum.jpg"
+                              />
+                              <img
+                                alt="Ein Wohnhochhaus in der Stadt Zürich."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/2869/1931/sites/default/files/media/field_image/2024-07/zurich_schweiz_immobilien_wohneigentum.jpg"
+                                title="Saron und Festhypotheken: Mit diesen Zinsen müssen Schweizer Immobilienbesitzer derzeit rechnen"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Immobilienmarkt
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Saron und Festhypotheken: Mit diesen Zinsen müssen Schweizer Immobilienbesitzer derzeit rechnen
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die durchschnittlichen Zinskosten für eine Hypothek sind in der Schweiz in den letzten Wochen gesunken. Was die besten Angebote am Markt sind und wo die Entwicklung in den kommenden Monaten hingehen...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span>
+                                Von 
+                              </span>
+                              <span>
+                                Manuel Boeck
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2869/1931/sites/default/files/media/field_image/2024-07/zurich_schweiz_immobilien_wohneigentum.jpg"
+                                  />
+                                  <img
+                                    alt="Ein Wohnhochhaus in der Stadt Zürich."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/2869/1931/sites/default/files/media/field_image/2024-07/zurich_schweiz_immobilien_wohneigentum.jpg"
+                                    title="Saron und Festhypotheken: Mit diesen Zinsen müssen Schweizer Immobilienbesitzer derzeit rechnen"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die durchschnittlichen Zinskosten für eine Hypothek sind in der Schweiz in den letzten Wochen gesunken. Was die besten Angebote am Markt sind und wo die...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span>
+                                  Von 
+                                </span>
+                                <span>
+                                  Manuel Boeck
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item4 Item"
+                  style="--item-index: 4;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/europas-immobilienfonds-stecken-in-der-krise-735414"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2000/1499/sites/default/files/images/library/frankfurt_immobilien.jpg"
+                              />
+                              <img
+                                alt="Auch Deutschlands Wirtschaftszentrum Frankfurt erlebt den Immobilienboom."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/2000/1499/sites/default/files/images/library/frankfurt_immobilien.jpg"
+                                title="Europas Immobilienfonds stecken in der Krise"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Mittelabflüsse
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Europas Immobilienfonds stecken in der Krise
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die Abflüsse aus europäischen Immobilienfonds belaufen sich auf zwölf Milliarden Euro in zwei Jahren.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2000/1499/sites/default/files/images/library/frankfurt_immobilien.jpg"
+                                  />
+                                  <img
+                                    alt="Auch Deutschlands Wirtschaftszentrum Frankfurt erlebt den Immobilienboom."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/2000/1499/sites/default/files/images/library/frankfurt_immobilien.jpg"
+                                    title="Europas Immobilienfonds stecken in der Krise"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die Abflüsse aus europäischen Immobilienfonds belaufen sich auf zwölf Milliarden Euro in zwei Jahren.
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item5 Item"
+                  style="--item-index: 5;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/usa-konnten-mit-harris-auf-historische-zasur-zusteuern-732173"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1835/824/sites/default/files/media/field_image/2024-07/kamala_harris_0.jpg"
+                              />
+                              <img
+                                alt="US-Vizepräsidentin Kamala Harris."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1835/824/sites/default/files/media/field_image/2024-07/kamala_harris_0.jpg"
+                                title="USA könnten mit Harris auf historische Zäsur zusteuern"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Wahlen
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              USA könnten mit Harris auf historische Zäsur zusteuern
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die USA stehen mit einer möglichen Präsidentin Kamala Harris vor einer historischen Zäsur.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1835/824/sites/default/files/media/field_image/2024-07/kamala_harris_0.jpg"
+                                  />
+                                  <img
+                                    alt="US-Vizepräsidentin Kamala Harris."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1835/824/sites/default/files/media/field_image/2024-07/kamala_harris_0.jpg"
+                                    title="USA könnten mit Harris auf historische Zäsur zusteuern"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die USA stehen mit einer möglichen Präsidentin Kamala Harris vor einer historischen Zäsur.
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item6 Item"
+                  style="--item-index: 6;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/spanien-ist-laut-studie-das-land-der-wahl-fur-digitalnomaden-735427"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1632/1224/sites/default/files/images/library/barcelona_hafen_mittelmeer_handel_suedeuropa_spanien.jpg"
+                              />
+                              <img
+                                alt="Der Überseehafen von Barcelona."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1632/1224/sites/default/files/images/library/barcelona_hafen_mittelmeer_handel_suedeuropa_spanien.jpg"
+                                title="Spanien ist laut Studie das Land der Wahl für Digitalnomaden"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Arbeitswelt XXX
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Spanien ist laut Studie das Land der Wahl für Digitalnomaden
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Europäische Ländern sind bevorzugte Ziele für Telearbeitende. An der Spitze liegt Spanien. In der Rangliste gibt es aber auch Überraschungen.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1632/1224/sites/default/files/images/library/barcelona_hafen_mittelmeer_handel_suedeuropa_spanien.jpg"
+                                  />
+                                  <img
+                                    alt="Der Überseehafen von Barcelona."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1632/1224/sites/default/files/images/library/barcelona_hafen_mittelmeer_handel_suedeuropa_spanien.jpg"
+                                    title="Spanien ist laut Studie das Land der Wahl für Digitalnomaden"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Europäische Ländern sind bevorzugte Ziele für Telearbeitende. An der Spitze liegt Spanien. In der Rangliste gibt es aber auch Überraschungen.
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item7 Item"
+                  style="--item-index: 7;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-mobile AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="mobile"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-5-mobile"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item8 Item"
+                  style="--item-index: 8;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-tabletDesktop AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="tabletDesktop"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-6-tabletDesktop"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item9 Item"
+                  style="--item-index: 9;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/der-lange-konflikt-zwischen-israel-und-dem-iran-735292"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2250/1548/sites/default/files/media/field_image/2024-07/israel_iran_flaggen.jpg"
+                              />
+                              <img
+                                alt="Die Flaggen Israels und des Iran."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/2250/1548/sites/default/files/media/field_image/2024-07/israel_iran_flaggen.jpg"
+                                title="Der lange Konflikt zwischen Israel und dem Iran"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Chronik 
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Der lange Konflikt zwischen Israel und dem Iran
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Israel und Iran sind Feinde. Die Geschichte des Konflikts reicht weit zurück.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="01.08.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  01.08.2024   19:09
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2250/1548/sites/default/files/media/field_image/2024-07/israel_iran_flaggen.jpg"
+                                  />
+                                  <img
+                                    alt="Die Flaggen Israels und des Iran."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/2250/1548/sites/default/files/media/field_image/2024-07/israel_iran_flaggen.jpg"
+                                    title="Der lange Konflikt zwischen Israel und dem Iran"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Israel und Iran sind Feinde. Die Geschichte des Konflikts reicht weit zurück.
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="01.08.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    01.08.2024   19:09
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item10 Item"
+                  style="--item-index: 10;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/us-notenbank-bestatigt-zinsen-senkungssignale-fur-september-735526"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="US-Notenbank bestätigt Zinsen - Senkungssignale für September"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="US-Notenbank bestätigt Zinsen - Senkungssignale für September"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              US-Notenbank bestätigt Zinsen - Senkungssignale für September
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch Signale für eine Zinssenkung auf der nächsten Sitzung im September. Der Leitzins verharre in einer Spanne von...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   22:24
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="US-Notenbank bestätigt Zinsen - Senkungssignale für September"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="US-Notenbank bestätigt Zinsen - Senkungssignale für September"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch Signale für eine Zinssenkung auf der nächsten Sitzung im...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   22:24
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item11 Item"
+                  style="--item-index: 11;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/daimler-truck-legt-latte-fur-umsatz-und-gewinn-niedriger-aktie-fallt-735522"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Daimler Truck legt Latte für Umsatz und Gewinn niedriger - Aktie fällt"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Daimler Truck legt Latte für Umsatz und Gewinn niedriger - Aktie fällt"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Daimler Truck legt Latte für Umsatz und Gewinn niedriger - Aktie fällt
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach dem schwachen zweiten Quartal den Ausblick für das laufende Jahr gekappt. Sowohl beim Umsatz als auch bei der...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   22:16
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Daimler Truck legt Latte für Umsatz und Gewinn niedriger - Aktie fällt"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Daimler Truck legt Latte für Umsatz und Gewinn niedriger - Aktie fällt"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach dem schwachen zweiten Quartal den Ausblick für das laufende Jahr...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   22:16
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item12 Item"
+                  style="--item-index: 12;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/qiagen-erhoht-nach-ende-von-pcr-testsystem-neumodx-gewinnziel-735520"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Qiagen erhöht nach Ende von PCR-Testsystem Neumodx Gewinnziel"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Qiagen erhöht nach Ende von PCR-Testsystem Neumodx Gewinnziel"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Qiagen erhöht nach Ende von PCR-Testsystem Neumodx Gewinnziel
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Der Labordienstleister und Diagnostikspezialist Qiagen rechnet nach dem Stopp seines PCR-Testsystems Neumodx mit mehr Gewinn im Gesamtjahr 2024. Der Währungs- und Sondereffekte bereinigte Gewinn je...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   22:06
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Qiagen erhöht nach Ende von PCR-Testsystem Neumodx Gewinnziel"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Qiagen erhöht nach Ende von PCR-Testsystem Neumodx Gewinnziel"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Der Labordienstleister und Diagnostikspezialist Qiagen rechnet nach dem Stopp seines PCR-Testsystems Neumodx mit mehr Gewinn im Gesamtjahr 2024. Der...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   22:06
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item13 Item"
+                  style="--item-index: 13;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-mobile AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="mobile"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-7-mobile"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item14 Item"
+                  style="--item-index: 14;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/okonomen-stimmen-zur-zinsentscheidung-der-us-notenbank-735517"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Ökonomen-Stimmen zur Zinsentscheidung der US-Notenbank"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Ökonomen-Stimmen zur Zinsentscheidung der US-Notenbank"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Ökonomen-Stimmen zur Zinsentscheidung der US-Notenbank
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch vorsichtige Signale für eine baldige Senkung. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent,...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   21:48
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Ökonomen-Stimmen zur Zinsentscheidung der US-Notenbank"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Ökonomen-Stimmen zur Zinsentscheidung der US-Notenbank"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch vorsichtige Signale für eine baldige Senkung. Der Leitzins...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   21:48
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item15 Item"
+                  style="--item-index: 15;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/fed-chef-powell-zinssenkung-konnte-im-september-anstehen-735512"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Fed-Chef Powell: Zinssenkung könnte im September anstehen"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Fed-Chef Powell: Zinssenkung könnte im September anstehen"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Fed-Chef Powell: Zinssenkung könnte im September anstehen
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            In den Vereinigten Staaten könnte der Leitzins nach Aussage des US-Notenbankchefs bald sinken. «Eine Zinssenkung bei der September-Sitzung könnte anstehen», sagte Jerome Powell am Mittwoch in Washington...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   21:26
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Fed-Chef Powell: Zinssenkung könnte im September anstehen"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Fed-Chef Powell: Zinssenkung könnte im September anstehen"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            In den Vereinigten Staaten könnte der Leitzins nach Aussage des US-Notenbankchefs bald sinken. «Eine Zinssenkung bei der September-Sitzung könnte...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   21:26
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item16 Item"
+                  style="--item-index: 16;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-tabletDesktop AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="tabletDesktop"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-8-tabletDesktop"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item17 Item"
+                  style="--item-index: 17;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/devisen-abgesackter-euro-legt-im-spateren-us-handel-wieder-zu-735510"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Devisen: Abgesackter Euro legt im späteren US-Handel wieder zu"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Devisen: Abgesackter Euro legt im späteren US-Handel wieder zu"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Devisen: Abgesackter Euro legt im späteren US-Handel wieder zu
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Der Euro ist am Mittwoch im US-Handelsverlauf nach Verlusten wieder gestiegen. Rund eine Stunde vor dem Börsenschluss an der Wall Street kostete die Gemeinschaftswährung 1,0830 US-Dollar. Zum Zeitpunkt...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   21:20
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Devisen: Abgesackter Euro legt im späteren US-Handel wieder zu"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Devisen: Abgesackter Euro legt im späteren US-Handel wieder zu"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Der Euro ist am Mittwoch im US-Handelsverlauf nach Verlusten wieder gestiegen. Rund eine Stunde vor dem Börsenschluss an der Wall Street kostete die...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   21:20
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item18 Item"
+                  style="--item-index: 18;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/bundesrate-preisen-am-vorabend-des-1-august-schweizer-demokratie-735507"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Bundesräte preisen am Vorabend des 1. August Schweizer Demokratie"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Bundesräte preisen am Vorabend des 1. August Schweizer Demokratie"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Bundesräte preisen am Vorabend des 1. August Schweizer Demokratie
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Vor dem Hintergrund von Krieg und Krisen in der Welt haben mehrere Mitglieder des Bundesrats in Reden am Vorabend des 1. Augusts die Vorzüge der Schweizer Demokratie hervorgehoben. Nicht auftreten...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   21:09
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Bundesräte preisen am Vorabend des 1. August Schweizer Demokratie"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Bundesräte preisen am Vorabend des 1. August Schweizer Demokratie"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Vor dem Hintergrund von Krieg und Krisen in der Welt haben mehrere Mitglieder des Bundesrats in Reden am Vorabend des 1. Augusts die Vorzüge der...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   21:09
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item19 Item"
+                  style="--item-index: 19;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/usa-keine-anzeichen-fur-unmittelbare-eskalation-in-nahost-735506"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="USA: Keine Anzeichen für unmittelbare Eskalation in Nahost"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="USA: Keine Anzeichen für unmittelbare Eskalation in Nahost"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              USA: Keine Anzeichen für unmittelbare Eskalation in Nahost
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Regierung hält nach den Israel zugeschriebenen Angriffen im Libanon und im Iran an ihrer beschwichtigenden Linie fest. «Wir glauben nicht, dass eine Eskalation unvermeidlich ist, und es gibt...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   21:08
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="USA: Keine Anzeichen für unmittelbare Eskalation in Nahost"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="USA: Keine Anzeichen für unmittelbare Eskalation in Nahost"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Regierung hält nach den Israel zugeschriebenen Angriffen im Libanon und im Iran an ihrer beschwichtigenden Linie fest. «Wir glauben nicht, dass...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   21:08
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item20 Item"
+                  style="--item-index: 20;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/daimler-truck-legt-latte-fur-umsatz-und-gewinn-niedriger-735504"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Daimler Truck legt Latte für Umsatz und Gewinn niedriger"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Daimler Truck legt Latte für Umsatz und Gewinn niedriger"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Daimler Truck legt Latte für Umsatz und Gewinn niedriger
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach einem schwachen Quartal die Prognosen für das laufende Jahr gesenkt. Beim Umsatz werde jetzt mit einem Wert zwischen...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:59
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Daimler Truck legt Latte für Umsatz und Gewinn niedriger"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Daimler Truck legt Latte für Umsatz und Gewinn niedriger"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach einem schwachen Quartal die Prognosen für das laufende Jahr...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:59
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item21 Item"
+                  style="--item-index: 21;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/parmelin-unser-land-braucht-sich-nicht-zu-schamen-735502"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Parmelin: "Unser Land braucht sich nicht zu schämen""
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Parmelin: "Unser Land braucht sich nicht zu schämen""
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Parmelin: "Unser Land braucht sich nicht zu schämen"
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Bundesrat Guy Parmelin hat die Schweiz dazu aufgerufen, sich nicht kleiner zu machen, als sie sei. «Unser Land braucht sich nicht zu schämen», sagte er am Mittwochabend in Luzern.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:47
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Parmelin: "Unser Land braucht sich nicht zu schämen""
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Parmelin: "Unser Land braucht sich nicht zu schämen""
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Bundesrat Guy Parmelin hat die Schweiz dazu aufgerufen, sich nicht kleiner zu machen, als sie sei. «Unser Land braucht sich nicht zu schämen», sagte er...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:47
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item22 Item"
+                  style="--item-index: 22;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/usa-raten-burgern-von-reisen-in-den-libanon-ab-735501"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="USA raten Bürgern von Reisen in den Libanon ab"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="USA raten Bürgern von Reisen in den Libanon ab"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              USA raten Bürgern von Reisen in den Libanon ab
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Angesichts der wachsenden Spannungen in Nahost raten die USA ihren Bürgern strikt von einer Reise in den Libanon ab. «Reisen Sie nicht in den Libanon, da die Spannungen zwischen der Hisbollah und Israel...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:44
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="USA raten Bürgern von Reisen in den Libanon ab"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="USA raten Bürgern von Reisen in den Libanon ab"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Angesichts der wachsenden Spannungen in Nahost raten die USA ihren Bürgern strikt von einer Reise in den Libanon ab. «Reisen Sie nicht in den Libanon,...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:44
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item23 Item"
+                  style="--item-index: 23;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-tabletDesktop AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="tabletDesktop"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-9-tabletDesktop"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item24 Item"
+                  style="--item-index: 24;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/us-notenbank-bestatigt-zinsen-erneut-vorsichtige-signale-fur-senkung-735500"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="US-Notenbank bestätigt Zinsen erneut - Vorsichtige Signale für Senkung"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="US-Notenbank bestätigt Zinsen erneut - Vorsichtige Signale für Senkung"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              US-Notenbank bestätigt Zinsen erneut - Vorsichtige Signale für Senkung
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch vorsichtige Signale für eine baldige Senkung. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent,...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:44
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="US-Notenbank bestätigt Zinsen erneut - Vorsichtige Signale für Senkung"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="US-Notenbank bestätigt Zinsen erneut - Vorsichtige Signale für Senkung"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Gleichzeitig gab sie jedoch vorsichtige Signale für eine baldige Senkung. Der Leitzins...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:44
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item25 Item"
+                  style="--item-index: 25;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/die-schweiz-ist-laut-albert-rosti-ein-sonderfall-der-freiheit-735499"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Die Schweiz ist laut Albert Rösti ein Sonderfall der Freiheit"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Die Schweiz ist laut Albert Rösti ein Sonderfall der Freiheit"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Die Schweiz ist laut Albert Rösti ein Sonderfall der Freiheit
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Bundesrat Albert Rösti (SVP) hat am Mittwochabend während seiner Ansprache zum Nationalfeiertag die Volksrechte ins Zentrum gerückt. Die Mitbestimmung der Bürgerinnen und Bürger sei ein Ventil für...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:39
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Die Schweiz ist laut Albert Rösti ein Sonderfall der Freiheit"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Die Schweiz ist laut Albert Rösti ein Sonderfall der Freiheit"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Bundesrat Albert Rösti (SVP) hat am Mittwochabend während seiner Ansprache zum Nationalfeiertag die Volksrechte ins Zentrum gerückt. Die Mitbestimmung...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:39
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item26 Item"
+                  style="--item-index: 26;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/bundesprasidentin-viola-amherd-herausforderungen-zusammen-losen-735495"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Bundespräsidentin Viola Amherd: "Herausforderungen zusammen lösen""
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Bundespräsidentin Viola Amherd: "Herausforderungen zusammen lösen""
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Bundespräsidentin Viola Amherd: "Herausforderungen zusammen lösen"
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Wildegg AG (awp/sda) - Die aktuellen Herausforderungen können nach den Worten von Bundespräsidentin Viola Amherd nur zusammen gelöst werden. Polarisierung sei nicht die Lösung, sagte Amherd an der...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:29
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Bundespräsidentin Viola Amherd: "Herausforderungen zusammen lösen""
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Bundespräsidentin Viola Amherd: "Herausforderungen zusammen lösen""
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Wildegg AG (awp/sda) - Die aktuellen Herausforderungen können nach den Worten von Bundespräsidentin Viola Amherd nur zusammen gelöst werden....
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:29
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item27 Item"
+                  style="--item-index: 27;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/aktien-new-york-gewinne-us-zinsaussagen-ohne-grossen-einfluss-735491"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Börsen haben am Mittwoch weiter zugelegt. Vor allem an der technologielastigen Nasdaq-Börse ging es aufwärts. Die deutlichen Vortagesverluste wurden wieder mehr als wettgemacht. Die wie erwartet...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:19
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Börsen haben am Mittwoch weiter zugelegt. Vor allem an der technologielastigen Nasdaq-Börse ging es aufwärts. Die deutlichen Vortagesverluste...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:19
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item28 Item"
+                  style="--item-index: 28;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/top-news/fed-lasst-zinsen-unverandert-735481"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/2500/1667/sites/default/files/media/field_image/2024-04/jerome_powell_federal_resere_usa_notenbank.jpg"
+                              />
+                              <img
+                                alt="Jerome Powell, Chef der US-Notenbank Federal Reserve, bei einem Auftritt im US-Senat im März 2024."
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/2500/1667/sites/default/files/media/field_image/2024-04/jerome_powell_federal_resere_usa_notenbank.jpg"
+                                title="Fed lässt Zinsen unverändert"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            Geldpolitik
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Fed lässt Zinsen unverändert
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Notenbank Fed rührt die Leitzinsen wie erwartet nicht an.
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:02
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/2500/1667/sites/default/files/media/field_image/2024-04/jerome_powell_federal_resere_usa_notenbank.jpg"
+                                  />
+                                  <img
+                                    alt="Jerome Powell, Chef der US-Notenbank Federal Reserve, bei einem Auftritt im US-Senat im März 2024."
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/2500/1667/sites/default/files/media/field_image/2024-04/jerome_powell_federal_resere_usa_notenbank.jpg"
+                                    title="Fed lässt Zinsen unverändert"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Notenbank Fed rührt die Leitzinsen wie erwartet nicht an.
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:02
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item29 Item"
+                  style="--item-index: 29;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/us-notenbank-bestatigt-leitzinsen-erneut-735486"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="US-Notenbank bestätigt Leitzinsen erneut"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="US-Notenbank bestätigt Leitzinsen erneut"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              US-Notenbank bestätigt Leitzinsen erneut
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch nach ihrer Zinssitzung in Washington bekannt....
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   20:01
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="US-Notenbank bestätigt Leitzinsen erneut"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="US-Notenbank bestätigt Leitzinsen erneut"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Die US-Notenbank Fed hat ihre Zinsen erneut nicht verändert. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   20:01
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Item30 Item"
+                  style="--item-index: 30;"
+                >
+                  <div
+                    class="ad-wrapper ad-wrapper-tabletDesktop AdContainer"
+                  >
+                    <div
+                      class="AdSlot index_ad1"
+                      data-device-type="tabletDesktop"
+                      data-slot-name="index_ad_1"
+                      data-testid="app-nexus-wrapper"
+                      id="apn-ad-slot-index-ad_1-10-tabletDesktop"
+                    />
+                  </div>
+                </div>
+                <div
+                  class="Item31 Item"
+                  style="--item-index: 31;"
+                >
+                  <div
+                    class="OuterWrapper"
+                  >
+                    <div
+                      data-testid="teaser-factory-link-wrapper"
+                    >
+                      <a
+                        class="Wrapper teaser-m-default"
+                        data-testid="routed-link"
+                        data-track-info="[]"
+                        href="/news/calida-schliesst-lafuma-mobilier-verkauf-ab-735474"
+                      >
+                        <div
+                          class="TeaserImageWrapper"
+                          data-testid="teaser-factory-image-wrapper"
+                        >
+                          <div
+                            class="LineHeightReset"
+                          >
+                            <picture>
+                              <source
+                                media="(min-width:1680px)"
+                                srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                              />
+                              <img
+                                alt="Calida schliesst Lafuma-Mobilier-Verkauf ab"
+                                class="Image teaser-image Image"
+                                height="280"
+                                loading="lazy"
+                                srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                title="Calida schliesst Lafuma-Mobilier-Verkauf ab"
+                                width="420"
+                              />
+                            </picture>
+                          </div>
+                        </div>
+                        <div
+                          class="ContentWrapper"
+                        >
+                          <div
+                            class="ShortTitle"
+                          >
+                            News
+                          </div>
+                          <div
+                            class="TeaserTitleWrapper"
+                          >
+                            <span
+                              class="TeaserTitle"
+                            >
+                              Calida schliesst Lafuma-Mobilier-Verkauf ab
+                            </span>
+                          </div>
+                          <div
+                            class="HiddenSmDown TeaserLead"
+                          >
+                            Das Traditionsunternehmen Calida hat den Mitte Juli angekündigten Verkauf des Gartenmöbelgeschäfts Lafuma Mobilier abgeschlossen. Der für das dritte Quartal in Aussicht gestellte Abschluss sei am...
+                          </div>
+                          <div>
+                            <div
+                              class="BottomLine"
+                            >
+                              <span
+                                title="31.07.2024"
+                              >
+                                <span
+                                  class="BottomLine"
+                                >
+                                  31.07.2024   18:47
+                                </span>
+                              </span>
+                            </div>
+                          </div>
+                        </div>
+                        <div
+                          class="OuterContentWrapper"
+                        >
+                          <div
+                            class="TeaserLead"
+                          >
+                            <div
+                              class="TeaserImageWrapper"
+                              data-testid="teaser-factory-image-wrapper"
+                            >
+                              <div
+                                class="LineHeightReset"
+                              >
+                                <picture>
+                                  <source
+                                    media="(min-width:1680px)"
+                                    srcset="/fp/660/371/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                  />
+                                  <img
+                                    alt="Calida schliesst Lafuma-Mobilier-Verkauf ab"
+                                    class="Image Image"
+                                    height="280"
+                                    loading="lazy"
+                                    srcset="/fp/420/280/1600/1200/sites/default/files/media/field_image/2022-06/cash_fallback.jpg"
+                                    title="Calida schliesst Lafuma-Mobilier-Verkauf ab"
+                                    width="420"
+                                  />
+                                </picture>
+                              </div>
+                            </div>
+                            Das Traditionsunternehmen Calida hat den Mitte Juli angekündigten Verkauf des Gartenmöbelgeschäfts Lafuma Mobilier abgeschlossen. Der für das dritte...
+                            <div>
+                              <div
+                                class="BottomLine"
+                              >
+                                <span
+                                  title="31.07.2024"
+                                >
+                                  <span
+                                    class="BottomLine"
+                                  >
+                                    31.07.2024   18:47
+                                  </span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="PagerWrapper"
+            >
+              <div
+                class="Wrapper"
+              >
+                <div
+                  class="page-loader-prev-btn PageLink PrevButton Disabled PagerPlaceholder"
+                  data-testid="empty-link"
+                >
+                  <i
+                    class="Icon IconChevronLeft Icon"
+                  />
+                </div>
+                <a
+                  class="page-loader-btn PageLink ActiveItem"
+                  data-testid="routed-link"
+                  href="/#page"
+                >
+                  1
+                </a>
+                <a
+                  class="page-loader-btn PageLink"
+                  data-testid="routed-link"
+                  href="/?page=2#page"
+                >
+                  2
+                </a>
+                <a
+                  class="page-loader-btn PageLink"
+                  data-testid="routed-link"
+                  href="/?page=3#page"
+                >
+                  3
+                </a>
+                <a
+                  class="page-loader-btn PageLink"
+                  data-testid="routed-link"
+                  href="/?page=4#page"
+                >
+                  4
+                </a>
+                <div
+                  class="page-loader-btn PageLink PagerPlaceholder"
+                  data-testid="empty-link"
+                >
+                  ...
+                </div>
+                <a
+                  class="page-loader-btn PageLink"
+                  data-testid="routed-link"
+                  href="/?page=250#page"
+                >
+                  250
+                </a>
+                <a
+                  class="page-loader-next-btn PageLink NextButton"
+                  data-testid="routed-link"
+                  href="/?page=2#page"
+                >
+                  <i
+                    class="Icon IconChevronRight Icon"
+                  />
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Screen] LandingPage Should render LandingPageHome correctly 1`] = `
+<div>
+  <div
+    data-testid="landingpage-home"
+  >
+    <div
+      data-testid="landing-page-wrapper"
+    >
+      <div
+        class="LandingPage-restricted-content"
+      >
+        <div
+          data-testid="paragraphs-wrapper"
+        >
+          <div
+            id="cGFyYWdyYXBoOnNlY3Rpb246MTY5MjEzNjo1NzIzMzQ3"
+          >
+            <div
+              class="Section"
+            >
+              <div
+                class="paragraph-wrapper Paragraphs ContainerPullOut NoBottomMargin"
+              >
+                <div
+                  class="Row"
+                  data-testid="paragraph-item"
+                >
+                  <div
+                    class="ColXs24"
+                  >
+                    <div>
+                      <div
+                        data-testid="paragraphsrenderer-sectionparagraph-wrapper"
+                      >
+                        <section
+                          data-testid="explaining-article-section"
+                        >
+                          <div
+                            data-testid="section-paragraph-section-body"
+                          >
+                            <div
+                              id="cGFyYWdyYXBoOm1pbmlzdGFnZToxNjkyMTM1OjU3MjMzNDY="
+                            >
+                              <div
+                                class="Section"
+                              >
+                                <div
+                                  class="paragraph-wrapper Paragraphs"
+                                >
+                                  <div
+                                    data-testid="paragraph-item"
+                                  >
+                                    <div
+                                      data-tracking-id="MinistageTrendingTopics"
+                                    >
+                                      <div
+                                        data-testid="ministage-paragraph-trending-topics-wrapper"
+                                      >
+                                        <div
+                                          class="Wrapper"
+                                        >
+                                          <div
+                                            class="paragraph ministage-trending-topics-paragraph"
+                                          >
+                                            <div
+                                              class=""
+                                            >
+                                              <div>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/top-news"
+                                                >
+                                                  Top News
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/boersenticker"
+                                                >
+                                                  Börsen-Ticker
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/alle"
+                                                >
+                                                  News
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/insider"
+                                                >
+                                                  Insider
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/insider-briefing"
+                                                >
+                                                  Insider Briefing
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/kolumne"
+                                                >
+                                                  Kolumne
+                                                </a>
+                                                <a
+                                                  class="Keyword"
+                                                  data-testid="routed-link"
+                                                  href="/news/invest-stimmen-zum-markt"
+                                                >
+                                                  Invest - Stimmen zum Markt
+                                                </a>
+                                              </div>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </section>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div
+                class="AdContainer"
+              >
+                <span
+                  class="AdZone"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-mobile ad-overview"
+                  >
+                    <div
+                      class="AdWrapper RemoveAdPadding"
+                    >
+                      <div
+                        data-slot="index_ad1"
+                        data-testid="paragraphsrenderer-ad-wrapper"
+                      >
+                        <div
+                          class="AdSlot index_ad1"
+                          data-device-type="mobile"
+                          data-slot-name="index_ad_1"
+                          data-testid="app-nexus-wrapper"
+                          id="apn-ad-slot-index-ad_1-1-mobile"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span
+                  class="AdZone"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-tabletDesktop ad-overview"
+                  >
+                    <div
+                      class="AdWrapper RemoveAdPadding"
+                    >
+                      <div
+                        data-slot="index_ad1"
+                        data-testid="paragraphsrenderer-ad-wrapper"
+                      >
+                        <div
+                          class="AdSlot index_ad1"
+                          data-device-type="tabletDesktop"
+                          data-slot-name="index_ad_1"
+                          data-testid="app-nexus-wrapper"
+                          id="apn-ad-slot-index-ad_1-2-tabletDesktop"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Screen] LandingPage Should render LandingPagePullout squareBanner correctly 1`] = `
+<div>
+  <div
+    data-testid="landingpage-pullout"
+  >
+    <div
+      class="Wrapper is-in-view"
+    />
+    <div
+      class="ad-wrapper ad-wrapper-mobile"
+    >
+      <div
+        class="AdSlot top_ad1"
+        data-device-type="mobile"
+        data-slot-name="top_ad_1"
+        data-testid="app-nexus-wrapper"
+        id="apn-ad-slot-top-ad_1-mobile"
+      />
+    </div>
+    <div
+      class="Wrapper"
+      data-testid="landing-page-wrapper"
+    >
+      <script
+        type="application/ld+json"
+      >
+        {
+  "@context": "https://schema.org",
+  "@id": "undefined/#/schema/BreadcrumbList/news/alle",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Alle News"
+    }
+  ]
+}
+      </script>
+      <div
+        class=""
+      >
+        <div
+          class="Wrapper HideForPrint"
+        >
+          <ol
+            class="BreadcrumbList"
+          >
+            <li>
+              <a
+                class="BreadcrumbLink"
+                data-testid="routed-link"
+                href="/"
+              >
+                Home
+              </a>
+            </li>
+            <li>
+              <span
+                class="BreadcrumbLink Title"
+              >
+                Alle News
+              </span>
+            </li>
+          </ol>
+          <div
+            class="ScrollButton"
+          >
+            <div
+              class="GradiantLeftToRight"
+            />
+            <button>
+               
+            </button>
+          </div>
+        </div>
+      </div>
+      <div
+        class="NoLead"
+        data-testid="wrapper"
+      >
+        <h1>
+          <span
+            class="Title"
+            data-testid="title"
+          >
+            Alle News
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div
+      class="LandingPage-restricted-content"
+    >
+      <div
+        data-testid="paragraphs-wrapper"
+      >
+        <div
+          id="cGFyYWdyYXBoOnNlY3Rpb246MTY5MjEzNjo1NzIzMzQ3"
+        >
+          <div
+            class="Section"
+          >
+            <div
+              class="paragraph-wrapper Paragraphs ContainerPullOut NoBottomMargin"
+            >
+              <div
+                class="Row"
+                data-testid="paragraph-item"
+              >
+                <div
+                  class="ColXs24"
+                >
+                  <div>
+                    <div
+                      data-testid="paragraphsrenderer-sectionparagraph-wrapper"
+                    >
+                      <section
+                        data-testid="explaining-article-section"
+                      >
+                        <div
+                          data-testid="section-paragraph-section-body"
+                        >
+                          <div
+                            id="cGFyYWdyYXBoOm1pbmlzdGFnZToxNjkyMTM1OjU3MjMzNDY="
+                          >
+                            <div
+                              class="Section"
+                            >
+                              <div
+                                class="paragraph-wrapper Paragraphs"
+                              >
+                                <div
+                                  data-testid="paragraph-item"
+                                >
+                                  <div
+                                    data-tracking-id="MinistageTrendingTopics"
+                                  >
+                                    <div
+                                      data-testid="ministage-paragraph-trending-topics-wrapper"
+                                    >
+                                      <div
+                                        class="Wrapper"
+                                      >
+                                        <div
+                                          class="paragraph ministage-trending-topics-paragraph"
+                                        >
+                                          <div
+                                            class=""
+                                          >
+                                            <div>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/top-news"
+                                              >
+                                                Top News
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/boersenticker"
+                                              >
+                                                Börsen-Ticker
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/alle"
+                                              >
+                                                News
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/insider"
+                                              >
+                                                Insider
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/insider-briefing"
+                                              >
+                                                Insider Briefing
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/kolumne"
+                                              >
+                                                Kolumne
+                                              </a>
+                                              <a
+                                                class="Keyword"
+                                                data-testid="routed-link"
+                                                href="/news/invest-stimmen-zum-markt"
+                                              >
+                                                Invest - Stimmen zum Markt
+                                              </a>
+                                            </div>
+                                          </div>
+                                        </div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </section>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="AdContainer"
+            >
+              <span
+                class="AdZone"
+              >
+                <div
+                  class="ad-wrapper AdPadding ad-wrapper-mobile ad-overview"
+                >
+                  <div
+                    class="AdWrapper RemoveAdPadding"
+                  >
+                    <div
+                      data-slot="index_ad1"
+                      data-testid="paragraphsrenderer-ad-wrapper"
+                    >
+                      <div
+                        class="AdSlot index_ad1"
+                        data-device-type="mobile"
+                        data-slot-name="index_ad_1"
+                        data-testid="app-nexus-wrapper"
+                        id="apn-ad-slot-index-ad_1-3-mobile"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </span>
+              <span
+                class="AdZone"
+              >
+                <div
+                  class="ad-wrapper AdPadding ad-wrapper-tabletDesktop ad-overview"
+                >
+                  <div
+                    class="AdWrapper RemoveAdPadding"
+                  >
+                    <div
+                      data-slot="index_ad1"
+                      data-testid="paragraphsrenderer-ad-wrapper"
+                    >
+                      <div
+                        class="AdSlot index_ad1"
+                        data-device-type="tabletDesktop"
+                        data-slot-name="index_ad_1"
+                        data-testid="app-nexus-wrapper"
+                        id="apn-ad-slot-index-ad_1-4-tabletDesktop"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

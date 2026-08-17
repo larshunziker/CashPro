@@ -1,0 +1,32 @@
+.LoginFormWrapper {
+  width: 100%;
+}
+
+.Message {
+  color: $blackB;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 27;
+  margin: 0 auto 20px;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 20;
+  }
+}
+
+.Button {
+  composes: Button from 'form.legacy.css';
+
+  cursor: pointer;
+  display: block;
+  @mixin fontSize 15;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: 10px auto 52px 0;
+  padding: 14px 12px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 240px;
+  }
+}

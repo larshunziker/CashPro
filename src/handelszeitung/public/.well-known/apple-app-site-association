@@ -1,0 +1,33 @@
+{
+  "webcredentials": {
+    "apps": [
+      "R2K8UQ9UTF.ch.ringier.Handelszeitung"
+    ]
+  },
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appIDs": [
+          "R2K8UQ9UTF.ch.ringier.Handelszeitung"
+        ],
+        "paths": [
+          "NOT /profile/merkliste*",
+          "NOT /profile/alerts*"
+        ],
+        "components": [
+          {
+            "#": "no_universal_links",
+            "exclude": true,
+            "comment": "Matches any URL with a fragment that equals no_universal_links and instructs the system not to open it as a universal link."
+          }
+        ]
+      }
+    ]
+  },
+  "appclips": {
+    "apps": [
+      "R2K8UQ9UTF.ch.ringier.Handelszeitung.Clip"
+    ]
+  }
+}

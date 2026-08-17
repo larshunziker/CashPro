@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] PartnerBanner Should render according to passed props (0) 1`] = `<div />`;
+
+exports[`[Common] PartnerBanner Should render according to passed props (1) 1`] = `<div />`;
+
+exports[`[Common] PartnerBanner Should render according to passed props (2) 1`] = `<div />`;
+
+exports[`[Common] PartnerBanner Should render according to passed props (3) 1`] = `<div />`;
+
+exports[`[Common] PartnerBanner Should render correctly 1`] = `
+<div>
+  <div
+    class="ClassNameImageContainer"
+  >
+    <div
+      class="ClassNameBackgroundImageWrapper"
+    >
+      <style>
+        
+  .css--1598086878 {
+    background-image: url(/sh/90/sites/default/files/rainbvow.png)
+  }
+    
+    @media (min-width: 540px) {
+      .css--1598086878 {
+        background-image: url(/sh/130/sites/default/files/rainbvow.png)
+      }
+    }
+    
+    @media (min-width: 1680px) {
+      .css--1598086878 {
+        background-image: url(/sh/190/sites/default/files/rainbvow.png)
+      }
+    }
+    
+  
+      </style>
+      <a
+        class="ClassNameBackgroundImage css--1598086878"
+        data-testid="mocked-link"
+      >
+        <div
+          class="LineHeightReset"
+        >
+          <picture>
+            <img
+              alt=""
+              class="ClassNamePartnerLogo IsSameAspectRatio"
+              height="180"
+              loading="lazy"
+              srcset="/sh/180/sites/default/files/apple.png"
+            />
+          </picture>
+        </div>
+      </a>
+    </div>
+  </div>
+  <span
+    class="ClassNameCaption"
+  >
+    Taste the Rainbow.
+  </span>
+</div>
+`;

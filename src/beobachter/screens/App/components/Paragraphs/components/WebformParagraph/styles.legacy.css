@@ -1,0 +1,176 @@
+.SubTitle {
+  composes: SubheadLG from 'typography.legacy.css';
+
+  color: $black;
+  margin-bottom: 40px;
+  margin-top: 40px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 48px;
+    margin-top: 48px;
+  }
+}
+
+:global(.paragraph) > div:first-child > .SubTitle {
+  margin-top: 0;
+}
+
+.ButtonWrapper {
+  text-align: center;
+}
+
+.ErrorPanelWrapper {
+  background: $redA;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  margin: 4rem 0;
+  padding: 6rem 3rem;
+  text-align: center;
+}
+
+.Loading {
+  opacity: 0.5;
+}
+
+.ToggleFormAppear {
+  opacity: 0.01;
+}
+
+.ToggleFormAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleFormLeave {
+  opacity: 1;
+}
+
+.ToggleFormLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleErrorAppear {
+  opacity: 0.01;
+}
+
+.ToggleErrorAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+  transition-delay: 0.6s;
+}
+
+.ToggleErrorLeave {
+  opacity: 1;
+}
+
+.ToggleErrorLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.Description {
+  color: $greyA;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2.2rem;
+  position: relative;
+  top: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  & > a {
+    color: $redA;
+  }
+
+  &.Required {
+    &::after {
+      content: '*';
+      display: inline;
+    }
+  }
+}
+
+.SuccessWrapper {
+  background-color: $greyC;
+  padding: 20px 12px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 38px 30px;
+  }
+}
+
+.SuccessTitle {
+  color: $redA;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.3rem;
+  }
+}
+
+.SuccessMessage {
+  color: $greyA;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.7rem;
+  }
+
+  & > a {
+    color: $redA;
+  }
+}
+
+.ErrorPanelHeader {
+  display: none;
+}
+
+.RecaptchaWrapper {
+  margin-bottom: $margin32;
+  margin-top: $margin32;
+}
+
+.ClosedContainer {
+  align-items: center;
+  background-color: $greyC;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin24;
+  }
+}
+
+.ClosedIcon {
+  font-size: 5rem;
+  margin-bottom: $margin8;
+}
+
+.ClosedMessage {
+  composes: TeaserTitleH3 from 'typography.legacy.css';
+  text-align: center;
+}
+
+.RichTextWrapper {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+  margin-block: $margin8 $margin16;
+}

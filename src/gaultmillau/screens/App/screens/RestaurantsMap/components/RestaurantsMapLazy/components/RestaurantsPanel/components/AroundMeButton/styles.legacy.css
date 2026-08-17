@@ -1,0 +1,89 @@
+.Wrapper {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  margin: 15px 0 17px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 18px 0 22px;
+  }
+}
+
+.FindMyLocation {
+  composes: UnstyledButton from 'form.legacy.css';
+  background: $gradientPrimaryA;
+  color: $white;
+  display: block;
+  font: 900 1.2rem/1 $fontBagueSansPro;
+  height: 50px;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  transition: color 0.8s;
+  width: 100%;
+}
+
+.Active {
+  color: $neutralA;
+  pointer-events: none;
+}
+
+.ButtonContent {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.ButtonText {
+  max-width: 135px;
+  padding-left: 12px;
+  text-align: left;
+}
+
+.Pin {
+  height: 30px;
+  position: relative;
+  width: 18px;
+}
+
+.PinRing {
+  bottom: 0;
+  left: 50%;
+  position: absolute;
+  transform: translateX(-50%);
+}
+
+@keyframes pin-flip {
+  50% {
+    transform: rotate3d(0, 1, 0, -180deg);
+  }
+}
+
+.Flip {
+  animation: pin-flip 1.6s linear infinite;
+}
+
+.Note {
+  font: 800 1.6rem/1.7rem $fontActaHeadline;
+  text-align: center;
+}
+
+.NoteWrapper {
+  background: $white;
+  border: 1px solid $neutralD;
+  box-shadow: 5px 5px 10px $neutralA50;
+  left: 50%;
+  padding: 24px 15px 15px;
+  position: absolute;
+  top: calc(100% + 7px);
+  transform: translateX(-50%);
+  width: 160px;
+}
+
+.NoteAction {
+  composes: UnstyledButton from 'form.legacy.css';
+  font-size: 1.8rem;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+}

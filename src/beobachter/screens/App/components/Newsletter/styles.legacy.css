@@ -1,0 +1,20 @@
+.Iframe {
+  border: none;
+  height: 100%;
+  inset: 0;
+  margin: 0;
+  min-width: 100%;
+  width: 1px;
+}
+
+.IframeContainer {
+  height: 4874px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 2610px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 2173px;
+  }
+}

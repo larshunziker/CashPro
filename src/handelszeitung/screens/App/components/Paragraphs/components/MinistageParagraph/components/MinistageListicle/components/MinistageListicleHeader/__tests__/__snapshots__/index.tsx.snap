@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageListicle - Header Should render BIL correctly 1`] = `
+<div>
+  <div
+    class="LinkWrapper"
+    id="subnav-logo"
+  >
+    <a
+      class="BilanzLogo"
+      data-testid="default-link"
+      href="https://www.bilanz.ch"
+      rel="noopener nofollow"
+      target="_blank"
+    >
+      <div
+        data-testid="mocked-logo"
+      >
+        logo/bilanz
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageListicle - Header Should render Banking correctly 1`] = `
+<div>
+  <div
+    class="LinkWrapper"
+    id="subnav-logo"
+  >
+    <a
+      class="HZLogo"
+      data-testid="routed-link"
+      href="/banking"
+    >
+      <div
+        data-testid="mocked-logo"
+      >
+        logo/handelszeitung
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageListicle - Header Should render HZ correctly 1`] = `
+<div>
+  <div
+    class="LinkWrapper"
+    id="subnav-logo"
+  >
+    <span>
+      <a
+        class="HZLogo"
+        data-testid="routed-link"
+        href="/"
+      >
+        <div
+          data-testid="mocked-logo"
+        >
+          logo/hz-claim
+        </div>
+      </a>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageListicle - Header Should render INS correctly 1`] = `
+<div>
+  <div
+    class="LinkWrapper"
+    id="subnav-logo"
+  >
+    <a
+      class="SVLogo"
+      data-testid="routed-link"
+      href="/insurance"
+    >
+      <div
+        data-testid="mocked-logo"
+      >
+        logo/insurance
+      </div>
+    </a>
+  </div>
+</div>
+`;

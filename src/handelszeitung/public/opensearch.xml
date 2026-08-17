@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>handelszeitung.ch</ShortName>
+    <Description>News aus Wirtschaft, Politik und Finanzen. Aktuelle Nachrichten finden Sie hier. Handelszeitung - die grösste Wirtschaftsplattform der Schweiz.</Description>
+    <Url type="text/html" method="get" template="https://www.handelszeitung.ch/suche/{searchTerms}"/>
+</OpenSearchDescription>

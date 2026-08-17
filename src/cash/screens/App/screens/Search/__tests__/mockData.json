@@ -1,0 +1,127 @@
+{
+  "data": {
+    "globalSearch": {
+      "count": 786,
+      "edges": [
+        {
+          "node": {
+            "preferredUri": "/beruf-karriere/rdp-871-test-mg-rdp-871",
+            "id": "bm9kZTozNzY2MA==",
+            "title": "Test by MG / RDP-871",
+            "shortTitle": "RDP-871",
+            "lead": "Test by MG / RDP-871",
+            "hasVideo": false,
+            "subtypeValue": "ratgeber_aktuell",
+            "restrictionStatus": null,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDE0",
+              "title": "Beruf & Karriere",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "200571",
+              "image": {
+                "id": "20052121",
+                "file": {
+                  "id": "2005414",
+                  "alt": "Die coolsten Autos 2017",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/media/field_image/2020-06/die_coolsten_autos_2017.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "preferredUri": "/gesundheit/ministage-newsletter-test-ministage-newsletter-test",
+            "id": "bm9kZTozNzYzMg==",
+            "title": "Ministage Newsletter test",
+            "shortTitle": "Ministage Newsletter test",
+            "lead": "This is a ministage newsletter test",
+            "hasVideo": false,
+            "subtypeValue": "ratgeber_aktuell",
+            "restrictionStatus": null,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMTkx",
+              "title": "Gesundheit",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "200541",
+              "image": {
+                "id": "20054111",
+                "file": {
+                  "id": "22005412",
+                  "alt": "people society",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/miniature_people_and_the_concept_of_an_aging_society.jpeg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "preferredUri": "/strassenverkehr/test-webform-closed",
+            "id": "bm9kZTozNzA5Mw==",
+            "title": "Test Webform closed",
+            "shortTitle": null,
+            "lead": "Test closed webfrom",
+            "hasVideo": false,
+            "subtypeValue": "ratgeber_aktuell",
+            "restrictionStatus": null,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDA4",
+              "title": "Strassenverkehr",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cash_fallback",
+              "image": {
+                "id": "20054121",
+                "file": {
+                  "id": "2005412",
+                  "alt": "fallback",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/media/field_image/2017-04/cash-fallback2.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    }
+  }
+}

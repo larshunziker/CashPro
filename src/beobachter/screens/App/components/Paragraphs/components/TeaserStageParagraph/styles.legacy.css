@@ -1,0 +1,47 @@
+.SectionTitle {
+  composes: Wrapper from 'Teaser/components/TeaserChannel/styles.legacy.css';
+  border-top: 3px solid $black;
+  margin-bottom: $margin24;
+  padding-top: 6px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+    padding-top: 8px;
+  }
+}
+
+.TitleLink {
+  composes: NewChannelTitle from 'typography.legacy.css';
+  align-items: center;
+  column-gap: 8px;
+  display: flex;
+
+  &.MarketingPage {
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.Header {
+  display: inline;
+}
+
+.Icon,
+.Icon:hover {
+  fill: $black;
+  max-height: 24px;
+  max-width: 24px;
+  transition: margin-left 0.3s ease-in-out;
+  width: 100%; /* Needed for Safari and iOS to show SVG icon */
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 20px;
+    max-width: 20px;
+  }
+}
+
+.TitleLink:hover .Icon {
+  margin-left: $margin8;
+  transition: margin-left 0.3s ease-in-out;
+}

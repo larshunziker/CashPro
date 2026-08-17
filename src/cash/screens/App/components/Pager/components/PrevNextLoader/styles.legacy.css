@@ -1,0 +1,12 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,205 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "id": "k9309uj",
+        "__typename": "Route",
+        "canonical": "/group/9/content/20427",
+        "preferred": "/horoskop/tageshoroskop/stier",
+        "object": {
+          "__typename": "Article",
+          "id": "bm9kZToxOTUyNQ==",
+          "nid": "19525",
+          "gcid": "20427",
+          "title": "Stier",
+          "lead": "Stier",
+          "shortTitle": "Stier",
+          "seoTitle": null,
+          "editContentUri": null,
+          "editRelationUri": null,
+          "cloneContentUri": null,
+          "metaTitle": "Stier | Schweizer Illustrierte",
+          "socialMediaTitle": null,
+          "metaDescription": "Stier",
+          "metaOgTitle": "Stier | Schweizer Illustrierte",
+          "commentStatus": "open",
+          "keywords": {
+            "__typename": "KeywordConnection",
+            "edges": [
+              {
+                "__typename": "KeywordEdge",
+                "node": {
+                  "__typename": "Keyword",
+                  "id": "dGF4b25vbXlfdGVybTo1NzEz",
+                  "tid": "5713",
+                  "label": "horoskop",
+                  "preferredUri": "/dossier/horoskop"
+                }
+              }
+            ]
+          },
+          "metaOgDescription": "Stier",
+          "metaCanonicalUrl": "",
+          "changeDate": "2018-12-11T14:11:36",
+          "showUpdated": true,
+          "publicationDate": "2018-12-11T14:12:08",
+          "preferredUri": "/horoskop/tageshoroskop/stier",
+          "createDate": "2018-12-11T14:11:45",
+          "metaKeywords": "horoskop",
+          "restrictionStatus": null,
+          "source": null,
+          "sponsor": null,
+          "issue": null,
+          "channel": {
+            "__typename": "Channel",
+            "id": "dGF4b25vbXlfdGVybTo1NzEx",
+            "title": "Tageshoroskop",
+            "channelType": null,
+            "suppressAds": false,
+            "settings": {
+              "__typename": "TermSettings",
+              "mainChannel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo1NzEw",
+                "title": "Horoskop"
+              }
+            },
+            "sponsors": {
+              "__typename": "SponsorConnection",
+              "edges": []
+            },
+            "sponsor": null,
+            "special": null,
+            "partners": {
+              "__typename": "SponsorConnection",
+              "edges": []
+            },
+            "landingPage": null,
+            "authors": {
+              "__typename": "AuthorConnection",
+              "edges": []
+            }
+          },
+          "activeMenuTrail": {
+            "__typename": "ActiveMenuTrailItemConnection",
+            "edges": [
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzAxTnpFdw==",
+                  "label": "Horoskop",
+                  "link": "/horoskop"
+                }
+              },
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzAxTnpFeA==",
+                  "label": "Tageshoroskop",
+                  "link": "/horoskop/tageshoroskop"
+                }
+              },
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpBeFRucEZlRGc0T0RVMU5RPT0=",
+                  "label": "Stier: Stier",
+                  "link": null
+                }
+              }
+            ]
+          },
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "180025",
+            "image": {
+              "__typename": "Image",
+              "id": "41480",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "42019",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/wallis-si.jpg"
+              }
+            }
+          },
+          "subtypeValue": null,
+          "authorPrefix": "by",
+          "body": [
+            {
+              "__typename": "ImageParagraph",
+              "anchorId": null,
+              "id": "180617",
+              "format": "landscape",
+              "caption": null,
+              "title": null,
+              "image": {
+                "__typename": "Image",
+                "id": "41566",
+                "credit": " Tim Trad @timtrad",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "42119",
+                  "alt": "Lauterbrunnen",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/lauterbrunnen.jpg",
+                  "width": 480,
+                  "height": 320
+                }
+              }
+            },
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180024",
+              "characterCount": 10,
+              "isLastOfGroup": true,
+              "header": null,
+              "text": "<p>Stier text</p>\n",
+              "styleValue": null
+            }
+          ],
+          "showAuthorBox": false,
+          "authors": {
+            "__typename": "AuthorConnection",
+            "edges": []
+          },
+          "heroImageBody": [
+            {
+              "__typename": "ImageParagraph",
+              "anchorId": null,
+              "id": "180025",
+              "format": "portrait",
+              "caption": null,
+              "title": null,
+              "image": {
+                "__typename": "Image",
+                "id": "41480",
+                "credit": "Keystone",
+                "showOriginal": "Keystone",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "42019",
+                  "alt": "Wallis-si",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/wallis-si.jpg",
+                  "origin": "/wallis-si.jpg",
+                  "width": 357,
+                  "height": 480
+                }
+              }
+            }
+          ]
+        }
+      }
+    },
+    "dailyHoroscope": "{\"body\":[{\"shortTitle\":\"1. Dekade, 21.4.\\u201330.4.\",\"title\":\"Beziehungen pflegen\",\"text\":\"Wundern Sie sich nicht, wenn sich Freunde und Kollegen heute mehr noch als sonst mit Fragen und Gespr\\u00e4chsw\\u00fcnschen an Sie wenden. Ihr Einf\\u00fchlungsverm\\u00f6gen ist ohnehin recht ausgepr\\u00e4gt, gerade jetzt erm\\u00f6glicht Ihre emotionale Offenheit es Ihnen, dieses Talent noch h\\u00e4ufiger einzusetzen. Auch Ihr Partner wei\\u00df Ihre Sensibilit\\u00e4t sehr zu sch\\u00e4tzen, Ihre Beziehung ist beneidenswert harmonisch. Tun Sie sich beiden etwas Gutes \\u0096 zum Beispiel mit etwas Sport.\"},{\"shortTitle\":\"2. Dekade, 1.5.\\u201310.5.\",\"title\":\"Gesellschaft suchen\",\"text\":\"Sie sind heute vom Gl\\u00fcck gek\\u00fcsst: die z\\u00e4hen Gesch\\u00e4ftsverhandlung kommen endlich zum wunschgem\\u00e4\\u00dfen Abschluss und in der Partnerschaft l\\u00e4uft alles bestens. Singles k\\u00f6nnen jetzt ansprechen, wen sie wollen \\u0096 Ihre Avancen werden ein positives Echo finden. Genie\\u00dfen Sie diese Situation statt sich unn\\u00f6tig fr\\u00fch festzulegen. Um Ihre Gesundheit zu erhalten und Ihren Energie\\u00fcberschuss abzubauen, k\\u00f6nnten Sie eine anspruchsvolle Sportart erlernen.\"},{\"shortTitle\":\"3. Dekade, 11.5.\\u201320.5.\",\"title\":\"Ver\\u00e4nderungen angehen\",\"text\":\"Ihr k\\u00f6rperliches Wohlbefinden wirkt sich positiv auf Ihre Stimmung aus. Deshalb sollten Sie alles daran setzen sich Ihre Gesundheit zu erhalten. Wenn Sie nicht schon auf Ihre Ern\\u00e4hrung achten, dann denken Sie jetzt dar\\u00fcber nach, von welchen schlechten Angewohnheiten Sie sich trennen k\\u00f6nnten. Sie k\\u00f6nnten auch einen Kochkurs belegen und dort gleich Ihre Kontaktfreude unter Beweis stellen. Neue Bekanntschaften werden von Dauer sein.\"}],\"header\":{\"subTitle\":\"21. April \\u2013 20. Mai\",\"shortTitle\":\"Tageshoroskop vom Dienstag, 10.11.2020\",\"title\":\"Stier\"}}"
+  }
+}

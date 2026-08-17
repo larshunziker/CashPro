@@ -1,0 +1,23 @@
+.Title {
+  composes: InfoB from 'typography.legacy.css';
+  color: $secondaryA;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+  width: 100%;
+
+  &:hover {
+    /* color: $primaryA; */
+  }
+}
+
+.Icon {
+  @mixin fontSize 19;
+  margin-right: $margin8;
+  position: relative;
+  top: -1px;
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 27;
+    margin-right: $margin16;
+  }
+}

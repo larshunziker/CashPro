@@ -1,0 +1,22 @@
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.Content {
+  composes: InfoC from 'typography.legacy.css';
+  margin: $margin24 0;
+}
+
+.FullPage {
+  background-color: $greyD;
+}
+
+.CloseIconWrapper {
+  z-index: 1;
+}
+
+.Body {
+  @media (min-width: $smBreakpoint) {
+    max-width: 490px;
+  }
+}

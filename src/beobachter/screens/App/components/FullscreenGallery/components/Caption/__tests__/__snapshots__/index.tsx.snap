@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ComponentName Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle add the touch-move class 1`] = `
+<div>
+  <div
+    class="Wrapper touch-move"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 2`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 3`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 4`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 5`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 6`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 7`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 8`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches 9`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches and change activeIndex 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render correctly and handle touches and change activeIndex 2`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <h1>
+        fixed content
+      </h1>
+      <div
+        class="ScrollableContentWrapper"
+        id="scrollable-content"
+      >
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptate, atque? Impedit minima perferendis cupiditate quisquam officiis distinctio, quis expedita fugit tempora quaerat, qui praesentium ipsum accusamus aut pariatur illo corrupti fuga iusto laborum harum laudantium tenetur architecto saepe. Praesentium, neque amet quae voluptatum sed corrupti sapiente rem. Voluptas, rerum facere.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ComponentName Should render nothing 1`] = `<div />`;

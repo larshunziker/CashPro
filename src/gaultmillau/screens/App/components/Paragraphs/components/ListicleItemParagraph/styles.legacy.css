@@ -1,0 +1,236 @@
+.Wrapper {
+  position: relative;
+}
+
+.Index {
+  color: $neutralA;
+  font-family: $fontActaDisplay;
+  font-size: 6rem;
+  font-weight: 900;
+  line-height: 6rem;
+  margin-top: 5px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 14.2rem;
+    line-height: 14.2rem;
+    margin-top: 21px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 20rem;
+    margin-top: 0;
+  }
+}
+
+.Title {
+  composes: H2 from 'typography_old.legacy.css';
+  margin: 2px auto 14px;
+  max-width: 260px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 18px auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 31px auto 19px;
+  }
+}
+
+.Content {
+  composes: BodyText from 'typography_old.legacy.css';
+  margin: 0 auto;
+  max-width: 270px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    line-height: 1.4rem;
+  }
+}
+
+.Footer {
+  color: $neutralA;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  margin: 17px auto 0;
+  max-width: 200px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 22px auto 0;
+  }
+}
+
+.ImageBox {
+  margin: 0 auto;
+  max-width: 277px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: none;
+  }
+}
+
+.ImageWrapper {
+  display: block;
+  overflow: hidden;
+}
+
+.Image {
+  height: 184px;
+  left: 50%;
+  max-width: none;
+  position: relative;
+  transform: translateX(-50%);
+  width: auto;
+
+  @media (min-width: $smBreakpoint) {
+    height: 266px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 278px;
+  }
+}
+
+.Choice {
+  background-image: url('graphics/gm-choice.svg');
+  background-size: 60px;
+  height: 60px;
+  position: absolute;
+  top: -10px;
+  width: 60px;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    background-size: 86px;
+    height: 86px;
+    top: 14px;
+    width: 86px;
+  }
+}
+
+.ChoiceLeft {
+  left: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    left: 14px;
+  }
+}
+
+.ChoiceRight {
+  right: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    right: 14px;
+  }
+}
+
+.First {
+  .Choice {
+    @media (min-width: $smBreakpoint) {
+      top: 30px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      top: 45px;
+    }
+  }
+
+  .ChoiceLeft {
+    @media (min-width: $smBreakpoint) {
+      left: -43px;
+    }
+  }
+
+  .Image {
+    @media (min-width: $smBreakpoint) {
+      height: 400px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 389px;
+    }
+  }
+}
+
+.NotFirst {
+  .Title {
+    @media (min-width: $smBreakpoint) {
+      margin-top: 34px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-top: 41px;
+    }
+  }
+
+  .Index {
+    @media (min-width: $smBreakpoint) {
+      margin-top: 48px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-top: 56px;
+    }
+  }
+}
+
+.EveryThird {
+  .Image {
+    @media (min-width: $smBreakpoint) {
+      height: 400px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 389px;
+    }
+  }
+
+  .Index {
+    @media (min-width: $smBreakpoint) {
+      margin-top: 0;
+    }
+  }
+
+  .Choice {
+    @media (min-width: $mdBreakpoint) {
+      top: 45px;
+    }
+  }
+
+  .ChoiceLeft {
+    @media (min-width: $smBreakpoint) {
+      left: -43px;
+    }
+  }
+
+  .ChoiceRight {
+    @media (min-width: $smBreakpoint) {
+      right: -43px;
+    }
+  }
+
+  .Title {
+    @media (min-width: $mdBreakpoint) {
+      margin-top: 43px;
+    }
+  }
+
+  .Footer {
+    @media (min-width: $mdBreakpoint) {
+      margin: 7px auto 0;
+    }
+  }
+}
+
+.MobileOrder {
+  order: 3;
+
+  @media (min-width: $smBreakpoint) {
+    order: 0;
+  }
+}

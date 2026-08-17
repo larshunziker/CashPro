@@ -1,0 +1,70 @@
+.AlertListSingleItem {
+  @media (min-width: $xlBreakpoint) {
+    &:nth-child(2n+1) {
+      border-right: 1px solid $greyB;
+      padding-right: $margin24;
+    }
+
+    &:nth-child(2n) {
+      padding-left: $margin24;
+    }
+  }
+
+  &.OnlySingleAlertItem {
+    border: none;
+  }
+}
+
+
+:global(.AlertProfileWrapper) .OnlySingleAlertItem {
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+  }
+}
+
+.ItemCountExpansionPanel .AlertListSingleItem {
+  @media (min-width: $xlBreakpoint) {
+    &:nth-child(2n+1) {
+      border-right: none;
+      padding-left: $margin24;
+      padding-right: $margin12;
+    }
+
+    &:nth-child(2n) {
+      border-right: 1px solid $greyB;
+      padding-left: $margin12;
+      padding-right: $margin24;
+    }
+  }
+}
+
+.ItemCount {
+  > .ListItem:nth-child(n+4) {
+    display: none;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    > .ListItem:nth-child(n+4) {
+      display: block;
+    }
+  }
+}
+
+.ItemCountExpansionPanel {
+  width: 100%;
+
+  .ListItem {
+    display: block;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .ListItem:nth-child(-n+3) {
+      display: none;
+    }
+
+    .ListItem:nth-child(n+4) {
+      display: block;
+    }
+  }
+}
+

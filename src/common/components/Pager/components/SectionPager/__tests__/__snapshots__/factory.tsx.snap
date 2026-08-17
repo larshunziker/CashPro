@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] SectionPager Should render correctly and match the snapshot 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="TitleClassName"
+    >
+      Inhalt
+    </div>
+    <ul>
+      <li
+        class="SectionPagerItemClassName"
+      >
+        <a
+          class="section-pager-btn LinkClassName LinkIsActiveClassName"
+          data-testid="routed-link"
+          href="/"
+        >
+          <div
+            class="ItemWrapperClassName ItemWrapperIsActiveClassName"
+          >
+            <span
+              class="ItemTitleIsActiveClassName"
+            >
+              Kapitel 1
+            </span>
+            <strong
+              class="ItemTextIsActiveClassName"
+            >
+              First
+            </strong>
+          </div>
+        </a>
+      </li>
+      <li
+        class="SectionPagerItemClassName"
+      >
+        <a
+          class="section-pager-btn LinkClassName"
+          data-testid="routed-link"
+          href="/?page=2"
+        >
+          <div
+            class="ItemWrapperClassName"
+          >
+            <span
+              class="ItemTitleClassName"
+            >
+              Kapitel 2
+            </span>
+            <strong
+              class="ItemTextClassName"
+            >
+              Second
+            </strong>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`[Component] SectionPager Should render correctly with the current active link 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="TitleClassName"
+    >
+      Inhalt
+    </div>
+    <ul>
+      <li
+        class="SectionPagerItemClassName"
+      >
+        <a
+          class="section-pager-btn LinkClassName"
+          data-testid="routed-link"
+          href="/"
+        >
+          <div
+            class="ItemWrapperClassName"
+          >
+            <span
+              class="ItemTitleClassName"
+            >
+              Kapitel 1
+            </span>
+            <strong
+              class="ItemTextClassName"
+            >
+              First
+            </strong>
+          </div>
+        </a>
+      </li>
+      <li
+        class="SectionPagerItemClassName"
+      >
+        <a
+          class="section-pager-btn LinkClassName LinkIsActiveClassName"
+          data-testid="routed-link"
+          href="/?page=2"
+        >
+          <div
+            class="ItemWrapperClassName ItemWrapperIsActiveClassName"
+          >
+            <span
+              class="ItemTitleIsActiveClassName"
+            >
+              Kapitel 2
+            </span>
+            <strong
+              class="ItemTextIsActiveClassName"
+            >
+              Second
+            </strong>
+          </div>
+        </a>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`[Component] SectionPager Should render nothing if there are no sectionParagrphs 1`] = `<div />`;

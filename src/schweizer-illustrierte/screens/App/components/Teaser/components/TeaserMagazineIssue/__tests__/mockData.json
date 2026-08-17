@@ -1,0 +1,33 @@
+{
+  "issue": {
+    "id": "bm9kZTozNzI1Mw==",
+    "image": {
+      "file": {
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/handelszeitung_26.png",
+        "alt": "Handelszeitung",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "link": {
+      "path": "https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1",
+      "label": "Jetzt abonnierenü",
+      "__typename": "Link"
+    },
+    "magazine": {
+      "articleBoxText": "Das ist der Magazine Articlebox text.",
+      "isSpecialOffer": true,
+      "specialOfferText": "Jetzt für nur 9CHF!",
+      "link": {
+        "label": "Jetzt abonnieren!",
+        "path": "https://shop.handelszeitung.ch/",
+        "__typename": "Link"
+      },
+      "__typename": "Magazine"
+    },
+    "title": "Handelszeitung Nr 26",
+    "__typename": "Issue"
+  }
+}

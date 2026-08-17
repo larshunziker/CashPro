@@ -1,0 +1,57 @@
+.FilesListItem {
+  @mixin FormLabelSmallBlackA;
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: $margin8;
+
+  .SpaceFiller {
+    flex-grow: 1;
+  }
+
+  &:nth-child(odd) {
+    background-color: $greyB;
+
+    button {
+      background-color: $greyB;
+    }
+  }
+
+  i {
+    font-size: 1.6rem;
+    margin-right: $margin4;
+  }
+
+  button {
+    background: $white;
+    border: none;
+    color: $redA;
+    cursor: pointer;
+    outline: none;
+    padding-right: 0;
+
+    &:hover {
+      color: $redA;
+    }
+
+    i {
+      margin-right: 0;
+    }
+  }
+
+  /* override default spinner styles */
+  div:first-child {
+    margin: 0 $margin4 0 0;
+
+    svg {
+      circle {
+        stroke: currentColor;
+      }
+    }
+  }
+
+  .FileName {
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+}

@@ -1,0 +1,151 @@
+.PageWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.GameContainer {
+  flex-grow: 1;
+  margin: 0 $margin24;
+  width: 100%;
+}
+
+.HeaderContainer {
+  align-items: center;
+  display: flex; 
+  height: 44px;
+  justify-content: space-between;
+  margin: 0 $margin12;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 59px;
+    margin: 0 margin24;
+  }
+}
+
+.HeaderGameTitle {
+  font-size: 13px;
+  font-weight: 900;
+  height: 22px;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 15px;
+  }
+}
+
+.HeaderGameLogo {
+  height: 36px;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 46px;
+  }
+}
+
+.LoginContainer {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  height: calc(100vh - 44px);
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    height: calc(100vh - 59px);
+  }
+}
+
+/* Kanzlit DOM intergration modifications */
+
+:global(.k-free-game .k-nav--dropdown) { /* stylelint-disable-line */
+  display: none;
+}
+
+:global(.k-body .k-body__header) { /* stylelint-disable-line */
+  background-color: $grayF;
+  font-size: 16px;
+  padding: 10px;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 10px 22px;
+  }
+}
+
+:global(.k-app__inner .k-app-header) { /* stylelint-disable-line */
+  background-color: $grayE;
+  padding: 0 8px;
+  
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 20px;
+  }
+
+  & > div {
+    padding: 0;
+  }
+}
+
+:global(.k-control__icon) { /* stylelint-disable-line */
+  color: $grayD;
+}
+
+:global(.k-body__header .k-select .k-select__icon) { /* stylelint-disable-line */
+  color: $grayD;
+}
+
+:global(.k-app-content .k-word.is--locked) { /* stylelint-disable-line */
+  color: #0F8846; /* stylelint-disable-line */
+}
+
+:global(.k-btn[data-toggle='Riddle:new']) {
+  display: none;
+}
+
+:global(.k-modal__content > p) { /* stylelint-disable-line */
+  font-size: 14px;
+}
+
+:global(.k-app-content .k-cell.is--highlighted) { /* stylelint-disable-line */
+  background: #F2E6E6; /* stylelint-disable-line */
+}
+:global(.k-app-content .k-cell.is--hovered) { /* stylelint-disable-line */
+  background: #F2E6E6; /* stylelint-disable-line */
+}
+
+:global(.k-body .md .k-app-header .k-actions) {
+  margin: 0 $margin12;
+}
+
+:global(.k-actions__group) { /* stylelint-disable-line */
+  font-size: 16px;
+}
+
+:global(.k-body .k-app .k-modal__content > p) { /* stylelint-disable-line */
+  font-size: 14px;
+  line-height: 16px;
+}
+
+:global(.k-body .k-app .k-panel__content > p) { /* stylelint-disable-line */
+  font-size: 14px;
+  line-height: 16px;
+}
+
+:global(.k-body .k-app .k-panel__header > p) { /* stylelint-disable-line */
+  font-size: 14px;
+  line-height: 16px;
+}
+
+:global(.k-body .k-app .k-field.is--locked) { /* stylelint-disable-line */
+  animation: 2s cubic-bezier(0.7, 0, 0.84, 0) 0s correct-highlight;
+}
+
+@keyframes correct-highlight {
+  from {
+    background-color: #00D71C; /* stylelint-disable-line */
+  }
+
+  to {
+    background-color: $white;
+  }
+}

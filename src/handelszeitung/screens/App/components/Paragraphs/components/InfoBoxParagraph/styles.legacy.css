@@ -1,0 +1,153 @@
+.Typography {
+  font-family: $fontGotham;
+  font-size: 1.4rem;
+  font-weight: 100;
+  letter-spacing: -0.2px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+
+  p {
+    margin-top: 3px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 9px;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 1.63;
+    margin-bottom: 28px;
+  }
+
+  h3 {
+    color: $blackA;
+    font-family: $fontGotham;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.35;
+    margin-bottom: 20px;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2.3rem;
+      line-height: 1.3;
+      margin-bottom: $margin24;
+    }
+  }
+
+  h4 {
+    font-family: $fontGotham;
+    font-size: 1.4rem;
+    font-weight: bold;
+    line-height: 1.5;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 1.7rem;
+      line-height: 1.59;
+      margin-bottom: 20px;
+    }
+  }
+
+  b,
+  strong {
+    font-family: $fontGotham;
+    font-size: 1.4rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 1.6rem;
+      letter-spacing: -0.2px;
+      line-height: 1.63;
+    }
+  }
+
+  i {
+    color: $blackB;
+    font-size: 1.6rem;
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    line-height: 1.63;
+  }
+
+  ol {
+    counter-reset: section;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 15px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-left: 23px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: $margin24;
+    }
+
+    li {
+      font-family: $fontGotham;
+      font-size: 1.4rem;
+      font-weight: normal;
+      line-height: 1.5;
+      list-style: none;
+      padding-left: 28px;
+
+      @media (min-width: $smBreakpoint) {
+        font-size: 1.6rem;
+        letter-spacing: -0.2px;
+        line-height: 1.63;
+        padding-left: 45px;
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        padding-left: 40px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        padding-left: 42px;
+      }
+
+      b,
+      strong {
+        font-weight: bold;
+
+        @media (min-width: $smBreakpoint) {
+          font-size: 1.7rem;
+          line-height: 1.35;
+        }
+      }
+
+      &::before {
+        color: $blackB;
+        content: counter(section) '.';
+        counter-increment: section;
+        font-family: $fontGotham;
+        font-size: 1.5rem;
+        font-weight: 900;
+        line-height: 2.06;
+        margin-left: -26px;
+        padding-right: 15px;
+        position: relative;
+        top: 0;
+
+        @media (min-width: $smBreakpoint) {
+          font-size: 1.8rem;
+          margin-left: -45px;
+          padding-right: 30px;
+        }
+
+        @media (min-width: $mdBreakpoint) {
+          margin-left: -38px;
+          padding-right: 25px;
+        }
+
+        @media (min-width: $xlBreakpoint) {
+          margin-left: -42px;
+          padding-right: 30px;
+        }
+      }
+    }
+  }
+}

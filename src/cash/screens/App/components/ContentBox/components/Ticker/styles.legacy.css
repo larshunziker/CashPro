@@ -1,0 +1,32 @@
+.Wrapper {
+  composes: Wrapper from '../../styles.legacy.css';
+}
+
+.Title {
+  composes: Title from '../../styles.legacy.css';
+}
+
+.Divider {
+  composes: Divider from '../../styles.legacy.css';
+}
+
+.PublicationDate {
+  composes: PublicationDate from '../../styles.legacy.css';
+}
+
+.LinkWrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.Link {
+  composes: ButtonSmall from 'typography.legacy.css';
+  color: $secondaryA;
+  display: inline-block;
+  font-weight: bold;
+  margin: $margin16 0;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}

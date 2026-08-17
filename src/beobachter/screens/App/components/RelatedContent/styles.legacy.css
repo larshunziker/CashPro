@@ -1,0 +1,55 @@
+.OuterWrapper + .OuterWrapper {
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 14px;
+  }
+}
+
+.Wrapper {
+  @mixin hideforPrint;
+  composes: Clearfix from 'helpers.legacy.css';
+  margin-bottom: $margin32;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin64;
+  }
+
+  &:first-of-type {
+    :global(.article-related) {
+      .Title {
+        color: $white;
+      }
+    }
+  }
+}
+
+.TitleWrapper {
+  margin-bottom: 24px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 32px;
+  }
+}
+
+.TeaserListSpacing {
+  display: block;
+}
+
+.Title {
+  composes: SubheadLG from 'typography.legacy.css';
+  color: $black;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 10px;
+  }
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}

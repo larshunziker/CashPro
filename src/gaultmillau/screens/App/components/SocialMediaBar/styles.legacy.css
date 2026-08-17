@@ -1,0 +1,40 @@
+.Wrapper {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 280px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+    max-width: 233px;
+  }
+
+  li:last-of-type > a {
+    margin-right: 0;
+  }
+}
+
+.Link {
+  border-radius: 50%;
+  float: left;
+  margin-right: $margin24;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-right: $margin12;
+  }
+
+  &:hover {
+    svg {
+      fill: $primaryB;
+    }
+  }
+}
+
+.Icon {
+  svg {
+    height: 24px;
+    width: 24px;
+  }
+}

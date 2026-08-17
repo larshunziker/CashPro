@@ -1,0 +1,25 @@
+.NoResultWrapper {
+  margin-bottom: $margin24;
+}
+
+.NoResultText {
+  composes: InfoABold from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.SearchAdviceWrapper {
+  margin: 0 0 $margin48 $margin24;
+  padding-top: 5px;
+}
+
+.SearchAdviceWrapperText {
+  composes: InfoBBold from 'typography.legacy.css';
+}
+
+.EsiWidgetWrapper {
+  composes: EsiWidgetWrapper from '../../../../components/SearchResults/styles.legacy.css';
+}

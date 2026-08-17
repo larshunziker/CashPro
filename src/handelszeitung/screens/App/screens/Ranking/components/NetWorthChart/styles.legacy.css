@@ -1,0 +1,22 @@
+.ChartWrapper {
+  height: 142px;
+  max-width: 100%;
+  min-width: 150px;
+  overflow: hidden;
+  width: 230px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 165px;
+    width: 272px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 200px;
+    width: 332px;
+  }
+}
+
+.Chart {
+  height: 100%; 
+  width: 100%; 
+}

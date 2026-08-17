@@ -1,0 +1,89 @@
+.Wrapper {
+  display: block;
+  letter-spacing: 0;
+}
+
+.ImageWrapper {
+  align-items: center;
+  background: $greyE;
+  display: flex;
+  height: 110px;
+  justify-content: center;
+  padding: 12px 26px 14px 27px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 160px;
+    padding: 23px 22px 26px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 140px;
+    padding: 24px 19px 26px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 160px;
+    padding: 23px 23px 20px;
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  max-height: 84px;
+  max-width: 224px;
+  width: auto;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 111px;
+    max-width: 296px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 90px;
+    max-width: 214px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 117px;
+    max-width: 313px;
+  }
+
+  &.SponsorImage {
+    @media (min-width: $smBreakpoint) {
+      max-width: 190px;
+    }
+  }
+}
+
+.TeaserBody {
+  padding: 10px 12px 6px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 14px 22px 7px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 16px 19px 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 16px 22px 5px 23px;
+  }
+}
+
+.TeaserTitleWrapper {
+  line-height: 0;
+}
+
+.TeaserTitle {
+  composes: H4 from 'typography.legacy.css';
+}
+
+.Label {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 5px;
+  }
+}

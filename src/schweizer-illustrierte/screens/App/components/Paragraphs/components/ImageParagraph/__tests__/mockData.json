@@ -1,0 +1,20 @@
+{
+  "imageParagraph": {
+    "id": "179009",
+    "format": "landscape",
+    "caption": "Viel Liebe für Prinz Harry und Meghan Markle Nachdem die beiden heute Morgen ihre Verlobung verkündeten, posieren die Turteltauben vor Glück strahlend im Garten des Kensington Palastes für das offizielle Verlobungsbild. Die royale Hochzeit planen der Prinz und seine Schauspielerin für den Frühling 2018. Wir freuen uns über so viel Liebe an diesem kalten Montag!",
+    "image": {
+      "credit": "© INSTAGRAM/EMRATA",
+      "file": {
+        "alt": "Dürfen wir Kinder durch die Wiese laufen lassen?",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/zecken.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "origin": "articleDefault"
+}

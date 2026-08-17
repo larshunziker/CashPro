@@ -1,0 +1,157 @@
+.Wrapper {
+  margin-bottom: $margin16;
+  position: relative;
+
+  button[title='previous'],
+  button[title='next'] {
+    display: inline-block;
+    opacity: 0;
+    transition: opacity 0.3s, visibility 0.3s;
+    visibility: hidden;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+
+    &:hover {
+      button[title='previous'],
+      button[title='next'] {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+
+  &:global(.touch-move) {
+    [title='ProgressBar'] {
+      animation-play-state: paused;
+    }
+  }
+
+  @media (hover: hover) {
+    &:hover {
+      [title='ProgressBar'] {
+        animation-play-state: paused;
+      }
+    }
+  }
+}
+
+.MobileSlide {
+  overflow: hidden;
+
+  @media (max-width: $xsBreakpointTo) {
+    padding-left: $outerGapXs;
+    padding-right: $outerGapXs;
+    width: 100%;
+  }
+}
+
+.NavigationWrapper {
+  bottom: 0;
+  display: none;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 45px;
+    display: block;
+    right: 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 60px;
+    right: 15px;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.PrevButton {
+  composes: IconArrowLeftButtonOutline from 'raschFont.legacy.css';
+  margin-right: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e913';
+  }
+}
+
+.NextButton {
+  composes: IconArrowRightButtonOutline from 'raschFont.legacy.css';
+  margin-left: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e915';
+  }
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  font-size: 40px;
+  outline: none;
+  padding: 5px;
+  transition: opacity 0.3s;
+
+  &:not(.DisabledButton):hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 50px;
+  }
+}
+
+.PrevButtonSI,
+.NextButtonSI {
+  color: $white;
+}
+
+.PrevButtonSY,
+.NextButtonSY {
+  color: $white;
+}
+
+.DisabledButton {
+  opacity: 0.3;
+}
+
+.IndicatorWrapper {
+  bottom: -18px;
+  position: absolute;
+  right: calc(50% + 8px);
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 11px;
+    right: 52px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 10px;
+    right: 61px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 33px;
+    right: 70px;
+  }
+}
+
+.IndicatorWrapperSY {
+  bottom: -11px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 32px;
+  }
+}

@@ -1,0 +1,108 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  padding: 8px 16px 16px;
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 11px;
+
+  &.ColumnLayout {
+    flex-direction: column;
+  }
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-transform: uppercase
+}
+
+.FormWrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-height: fit-content;
+  width: 50%;
+
+  &.FullWidth {
+    width: 100%;
+  }
+}
+
+.InputRow {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  &.SmallLayout {
+    flex-direction: row;
+    gap: 11px;
+  }
+}
+
+.InputFieldWrapper, .SelectFieldWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.SelectFieldWrapper :hover {
+  cursor: pointer;
+
+}
+
+.Flag {
+  height: 17px;
+  width: 28px;
+}
+
+.SwissFlag {
+  height: 17px;
+  margin: 0 5px;
+  width: 17px;
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyC;
+  height: 252px;
+  width: 100%;
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.Hidden {
+  display: none;
+}
+
+.ChartWrapper {
+  min-height: 410px;
+  width: 50%;
+
+  &.FullWidth {
+    width: 100%;
+  }
+}
+
+.SwitchIconWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-height: 126px;
+  width: 5%;
+
+  &.SmallLayout {
+    margin-top: 8px;
+    max-height: 100%;
+    width: 100%
+  }
+
+  &.Hidden {
+    display: none;
+  }
+}

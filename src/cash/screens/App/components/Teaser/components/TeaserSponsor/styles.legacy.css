@@ -1,0 +1,42 @@
+.Wrapper {
+  align-self: center;
+}
+
+.Title {
+  display: none;
+}
+
+.SponsorImage {
+  height: auto;
+  max-width: 133px;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 162px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 116px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 192px;
+  }
+}
+
+.SkeletonImage {
+  height: auto;
+  min-width: 133px;
+
+
+  @media (min-width: $smBreakpoint) {
+    min-width: 162px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-width: 116px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-width: 192px;
+  }
+}

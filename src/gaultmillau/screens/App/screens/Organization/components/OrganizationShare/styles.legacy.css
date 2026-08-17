@@ -1,0 +1,24 @@
+.SharePanelItem {
+  color: $neutralA;
+  display: inline-block;
+  margin-bottom: $margin24;
+  margin-right: $margin24;
+  text-align: center;
+
+  &:hover {
+    .Icon,
+    .Label {
+      color: $primaryB;
+    }
+  }
+}
+
+.Icon {
+  font-size: 2.7rem;
+}
+
+.Label {
+  composes: InfoENeutralA from 'typography.legacy.css';
+  display: block;
+  margin-top: $margin4;
+}

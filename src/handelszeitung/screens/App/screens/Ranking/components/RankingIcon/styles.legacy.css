@@ -1,0 +1,33 @@
+.RankingIcon {
+  display: inline-block;
+  font-size: 18px;
+  margin-top: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 2px;
+  }
+}
+
+.Positive {
+  color: $positiveA;
+}
+
+.Negative {
+  color: $errorA;
+}
+
+.IconReturnee {
+  transform: translate(4px, 2px);
+  
+  @media (min-width: $smBreakpoint) {
+    font-size: 28px;
+  }
+}
+
+.IconNew {
+  transform: translate(4px, -13px);
+
+  @media (min-width: $smBreakpoint) {
+    transform: translate(3px, -2px);
+  }
+}

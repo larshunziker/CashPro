@@ -1,0 +1,144 @@
+.Wrapper {
+  position: relative;
+
+  em {
+    font-style: italic;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.TimeToRead {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.GoldenBackground::before {
+  background-color: $greyE;
+  height: 150px;
+  z-index: -1;
+
+  @media (min-width: $smBreakpoint) {
+    height: 190px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 200px;
+  }
+}
+
+.GoldenBackgroundHero::before {
+  background-color: $greyE;
+  height: 320px;
+  z-index: -1;
+
+  @media (min-width: $smBreakpoint) {
+    height: 450px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 500px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 648px;
+  }
+}
+
+.IsSeatChange::before {
+  background-color: $greyE;
+  height: 129px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 208px;
+  }
+}
+
+.Caption {
+  composes: ImageParagraph from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  :global(.catchquestion) {
+    font-family: $fontGothamBlack;
+    text-transform: uppercase;
+  }
+
+  @media print {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.Credit {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+  display: block;
+  margin-top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin4;
+  }
+
+  @media print {
+    text-align: center;
+  }
+}
+
+.Gray {
+  color: $greyA;
+}
+
+.ArticleBody {
+  :global(#app) {
+    overflow: unset;
+    padding-bottom: 70px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyC;
+  bottom: 0;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    padding-top: 16px;
+    position: relative;
+  }
+}
+
+.DateWrapper {
+  min-height: 54px; /* CLS */
+
+  @media (min-width: $smBreakpoint) {
+    min-height: auto;
+  }
+}

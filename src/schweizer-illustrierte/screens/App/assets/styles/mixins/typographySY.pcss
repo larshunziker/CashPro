@@ -1,0 +1,763 @@
+@define-mixin Heading1SpecialSY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6rem;
+    line-height: 8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 9rem;
+    line-height: 11rem;
+  }
+}
+
+@define-mixin Heading1ASY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 3.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 4.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5rem;
+    line-height: 5.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 6rem;
+    line-height: 6.9rem;
+  }
+}
+
+@define-mixin Heading1BSY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@define-mixin Heading2ASY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+}
+
+@define-mixin Heading2BSY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+}
+
+@define-mixin Heading3ASY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 1.9rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+}
+
+@define-mixin Heading3BSY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 1.9rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 2.3rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+@define-mixin Heading6SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  line-height: 2.6rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+}
+
+@define-mixin Heading6WhiteSY {
+  @mixin Heading6SY;
+  color: $white;
+  text-shadow: $shadowF;
+}
+
+@define-mixin Heading7SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  line-height: 2.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+@define-mixin HeadingCatch1SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    color: $white;
+    font-family: $fontBague;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+    text-shadow: 2px 2px 1px $black50;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    line-height: 2.2rem;
+  }
+}
+
+@define-mixin HeadingCatch1SpecialSY {
+  color: $white;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 700;
+  letter-spacing: 4px;
+  line-height: 1.8rem;
+  text-shadow: 1px 1px 1px $black50;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.8rem;
+    text-shadow: 2px 2px 1px $black50;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    line-height: 2.2rem;
+  }
+}
+
+@define-mixin HeadingCatch2SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 4px;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    line-height: 2.2rem;
+  }
+}
+
+@define-mixin HeadingCatch2BlackSY {
+  @mixin HeadingCatch2SY;
+  font-weight: 900;
+}
+
+@define-mixin HeadingCatch3SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+    line-height: 1.7rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    letter-spacing: 5px;
+    line-height: 2rem;
+  }
+}
+
+@define-mixin HeadingCatch4SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+@define-mixin HeadingOverviewSY {
+  color: $black;
+  font-family: $fontActionCond;
+  font-size: 3.3rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 3.3rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6rem;
+    letter-spacing: 10px;
+    line-height: 6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 12rem;
+    letter-spacing: 20px;
+    line-height: 12rem;
+  }
+}
+
+@define-mixin HeadingOverviewDossierSY {
+  color: $white;
+  font-family: $fontActionCond;
+  font-size: 4.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  letter-spacing: 7.5px;
+  line-height: 4.5rem;
+  text-shadow: $shadowB;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 9rem;
+    letter-spacing: 15px;
+    line-height: 9rem;
+    text-shadow: $shadowA;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 18rem;
+    letter-spacing: 30px;
+    line-height: 18rem;
+  }
+}
+
+@define-mixin HeadingOverviewCelebSY {
+  color: $black;
+  font-family: $fontActionCond;
+  font-size: 3rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 3rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.6rem;
+    letter-spacing: 6px;
+    line-height: 3.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+    letter-spacing: 30px;
+    line-height: 4.8rem;
+  }
+}
+
+@define-mixin SectionTitleSY {
+  color: $black;
+  font-family: $fontActionCond;
+  font-size: 3rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 300;
+  letter-spacing: 5px;
+  line-height: 3rem;
+  text-transform: uppercase;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.2rem;
+    letter-spacing: 10px;
+    line-height: 4.2rem;
+  }
+}
+
+@define-mixin SectionTitleRelatedSY {
+  color: $black;
+  font-family: $fontActionCond;
+  font-size: 2.4rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 300;
+  letter-spacing: 4px;
+  line-height: 2.4rem;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    letter-spacing: 5px;
+    line-height: 3rem;
+  }
+}
+
+@define-mixin Lead1SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
+}
+
+@define-mixin Lead2SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    color: $white;
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 3.3rem;
+    text-shadow: $shadowA;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 4.7rem;
+  }
+}
+
+@define-mixin CatchQuestionsSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+  }
+}
+
+@define-mixin ParagraphSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.3rem;
+  }
+}
+
+@define-mixin Paragraph2SY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 2rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
+}
+
+@define-mixin ParagraphBoldSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
+}
+
+@define-mixin CaptionAuthorParagraphSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+}
+
+@define-mixin CaptionAuthorCopyRightSY {
+  color: $grayB;
+  font-family: $fontBague;
+  font-size: 1rem;
+  font-style: italic;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+}
+
+@define-mixin CaptionTitleAuthorParagraphSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 900;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+}
+
+@define-mixin BreadcrumbsWordsSY {
+  color: $grayC;
+  font-family: $fontBague;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.3rem;
+}
+
+@define-mixin BreadcrumbsSymbolSY {
+  color: $grayC;
+  font-family: $fontBague;
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem;
+}
+
+@define-mixin QuoteSY {
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.4rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 2.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.7rem;
+    line-height: 3.3rem;
+  }
+}
+
+@define-mixin QuoteAuthorSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 400;
+  letter-spacing: 3px;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    letter-spacing: 4px;
+    line-height: 1.5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    line-height: 1.8rem;
+  }
+}
+
+@define-mixin TagBanderoleSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.2rem;
+  font-style: italic;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 2rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+  }
+}
+
+@define-mixin InlineHoverSY {
+  border-bottom: 1px solid $grayB;
+  color: inherit;
+  cursor: pointer;
+
+  &:visited,
+  &:link {
+    color: inherit;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      border-color: $skin;
+    }
+  }
+}
+
+@define-mixin TeaserHoverSY {
+  border-bottom: 1px solid transparent;
+  color: inherit;
+  cursor: pointer;
+
+  &:visited,
+  &:link {
+    color: inherit;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      border-color: $skin;
+    }
+  }
+}
+
+@define-mixin SubheaderSY {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 2.2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.6rem;
+    line-height: 3.2rem;
+  }
+}
+
+/*
+ *  Schweizer-IllustrierteSY - Buttons
+ *  https://www.figma.com/file/TS9ySl2YVCWAqPuyyeDxZo/si_library_styleguide?node-id=0%3A17876
+ */
+
+@define-mixin ButtonBigSY {
+  font-family: $fontBague;
+  font-size: 1.9rem;
+  font-weight: 900;
+  line-height: 2.2rem;
+}
+
+@define-mixin ButtonSmallSY {
+  font-family: $fontBague;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+@define-mixin ButtonBaseSY {
+  cursor: pointer;
+
+  font-family: $fontBague;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+@define-mixin ButtonBaseBigSY {
+  @mixin ButtonBaseSY;
+  @mixin ButtonBigSY;
+  font-size: 1.8rem;
+  height: 54px;
+  line-height: 2.2rem;
+  padding: 16px 24px;
+}
+
+@define-mixin ButtonBaseSmallSY {
+  @mixin ButtonBaseSY;
+  @mixin ButtonSmallSY;
+  font-size: 1.4rem;
+  height: 34px;
+  line-height: 1.8rem;
+  padding: 8px 16px;
+}
+
+@define-mixin ButtonPrimarySY {
+  background: $gradientBlack;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover {
+    background: $skin;
+  }
+}
+
+@define-mixin ButtonSecondarySY {
+  background-color: $white;
+  border: 1px solid $black;
+  border-radius: 4px;
+  color: $black;
+
+  &:hover {
+    background-color: $white;
+    border: 1px solid $skin;
+    color: $skin;
+  }
+}
+
+@define-mixin ButtonTertiarySY {
+  border: none;
+  color: $black;
+
+  &:hover {
+    color: $skin;
+  }
+}
+
+/* Primary Buttons */
+
+@define-mixin ButtonPrimaryBigSY {
+  @mixin ButtonPrimarySY;
+  @mixin ButtonBaseBigSY;
+  
+}
+
+@define-mixin ButtonPrimarySmallSY {
+  @mixin ButtonPrimarySY;
+  @mixin ButtonBaseSmallSY;
+}
+
+/* Secondary Buttons */
+
+@define-mixin ButtonSecondaryBigSY {
+  @mixin ButtonSecondarySY;
+  @mixin ButtonBaseBigSY;
+}
+
+@define-mixin ButtonSecondarySmallSY {
+  @mixin ButtonSecondarySY;
+  @mixin ButtonBaseSmallSY;
+}
+
+/* Tertiary Buttons */
+
+@define-mixin ButtonTertiaryBigSY {
+  @mixin ButtonTertiarySY;
+  @mixin ButtonBaseBigSY;
+  
+}
+
+@define-mixin ButtonTertiarySmallSY {
+  @mixin ButtonTertiarySY;
+  @mixin ButtonBaseSmallSY;
+}
+

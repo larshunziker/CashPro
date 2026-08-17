@@ -1,0 +1,156 @@
+.SearchForm {
+  position: relative;
+}
+
+.SearchInputWrapper {
+  border-bottom: 1px solid color($white a(80%));
+  display: inline-block;
+  transition: border-bottom-color 0.3s;
+  width: 100%;
+
+  &:hover {
+    border-bottom-color: $white;
+  }
+}
+
+.SearchInput::-ms-clear,
+.SearchInput::-ms-reveal {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.SearchInput::-webkit-search-decoration,
+.SearchInput::-webkit-search-cancel-button,
+.SearchInput::-webkit-search-results-button,
+.SearchInput::-webkit-search-results-decoration {
+  -webkit-appearance: none; /* stylelint-disable-line property-no-vendor-prefix */
+  display: none;
+}
+
+.SearchInput {
+  composes: Input from 'form.legacy.css';
+  border-bottom: none;
+  font-size: 1.7rem;
+  font-weight: 200;
+  height: 45px;
+  margin-bottom: 0;
+  width: 90%;
+
+  &:hover {
+    opacity: 1;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ResetButton,
+.SearchButton {
+  composes: TextButton from 'helpers.legacy.css';
+  bottom: 0;
+  cursor: pointer;
+  position: absolute;
+}
+
+.ResetButton {
+  right: 30px;
+
+  @media (min-width: $xlBreakpoint) {
+    right: 40px;
+  }
+}
+
+.SearchButton {
+  right: 0;
+
+  &:hover {
+    background-color: $transparent;
+  }
+}
+
+.ActionIcon {
+  color: $white;
+  font-size: 2rem;
+  position: relative;
+  top: -10px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3.5rem;
+  }
+}
+
+.AutocompleteWrapper {
+  left: 0;
+  margin-top: $margin16;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 20px;
+  }
+
+  /* @TODO: refactor this and avoid direct element stylings */
+  a {
+    color: $white;
+    display: block;
+    font-family: $fontSpezia;
+    font-size: 1.5rem;
+    font-weight: 400;
+    line-height: 1;
+    opacity: 0.6;
+    padding: 7px 0;
+    transition: opacity 0.3s;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2rem;
+    }
+  }
+
+  /* TODO: refactor this and avoid direct element stylings */
+  i {
+    font-size: 2rem;
+    left: 0;
+    margin-left: 0.8rem;
+    position: relative;
+    top: 0.2rem;
+    transition: left 0.3s;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2.4rem;
+    }
+  }
+
+  li {
+    &:hover {
+      a {
+        opacity: 1;
+      }
+
+      i {
+        left: 0.5rem;
+      }
+    }
+  }
+}
+
+.Autocomplete {
+  background-color: $black;
+  list-style: none;
+  padding: 21px 20px 24px; /* top and bottom reduced by item paddings */
+}
+
+.SearchIcon {
+  color: $grey40;
+  left: 16px;
+  position: absolute;
+  top: 14px;
+  z-index: 100;
+}

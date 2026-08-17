@@ -1,0 +1,45 @@
+.teaserStageUnlimited {
+  /* Mobile */
+
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    .Item {
+      margin-bottom: 30px;
+    
+    }
+  }
+
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-rows: 1fr;
+
+      .Item {
+        margin-bottom: $margin40;
+      }
+
+    } 
+  }
+
+
+  /* Desktop */
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+
+      .Item {
+        margin-bottom: 50px;
+      }
+    }
+  }
+
+}

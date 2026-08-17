@@ -1,0 +1,63 @@
+.Wrapper {
+  width: 100%;
+}
+
+.LinkWrapper {
+  align-items: center;
+  background: $gradientBlog;
+  display: flex;
+  padding: 10px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 45px;
+    padding: 15px 10px;
+
+    &.NoImage {
+      margin-top: 0;
+    }
+  }
+}
+
+.NameWrapper {
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.Name {
+  composes: CaptionTitleAuthorParagraph from 'typography.legacy.css';
+  display: inline;
+}
+
+.Description {
+  composes: CaptionAuthorParagraph from 'typography.legacy.css';
+  display: inline;
+}
+
+.Image {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 45px;
+  margin-right: 10px;
+  padding: 2px;
+  width: 45px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 60px;
+    left: calc(50% - 30px);
+    padding: 3px;
+    position: absolute;
+    top: 0;
+    width: 60px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 90px;
+    left: calc(50% - 45px);
+    padding: 4px;
+    top: -30px;
+    width: 90px;
+  }
+}

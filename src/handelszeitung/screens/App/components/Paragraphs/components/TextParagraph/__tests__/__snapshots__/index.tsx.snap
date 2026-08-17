@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct default header 1`] = `
+<div
+  className="Header"
+  data-testid="textparagraph-header"
+>
+  header text
+</div>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct header for FINANCE_DICTIONARY_TYPE  1`] = `
+<h3
+  className="Header"
+  data-testid="textparagraph-header-finance-dictionary"
+>
+  header text
+</h3>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for first text paragraphs 1`] = `
+{
+  "Header": "Header",
+  "Wrapper": "RichTextWrapperFirst",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for normal text paragraphs 1`] = `
+{
+  "Header": "Header",
+  "Wrapper": "RichTextWrapper",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for normal text paragraphs on PAGESCREEN_MARKETING_TYPE 1`] = `
+{
+  "Header": "Header MarketingPage",
+  "Wrapper": "RichTextWrapper MarketingPage",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for not first text paragraphs 1`] = `
+{
+  "Header": "Header",
+  "Wrapper": "RichTextWrapper",
+}
+`;

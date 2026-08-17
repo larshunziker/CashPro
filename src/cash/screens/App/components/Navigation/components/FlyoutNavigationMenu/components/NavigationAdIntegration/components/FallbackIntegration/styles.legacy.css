@@ -1,0 +1,13 @@
+.BankTeaser {
+  composes: InfoC from 'typography.legacy.css';
+  background-color: $greyE;
+  border-radius: 4px;
+  height: 100%;
+  margin-top: 40px;
+  max-width: 300px;
+  padding: 16px;
+
+  p {
+    margin-bottom: 16px;
+  }
+}

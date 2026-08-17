@@ -1,0 +1,8 @@
+.List {
+  margin: $margin40 0;
+
+  li {
+    margin-left: 20px;
+    padding-bottom: 15px;
+  }
+}

@@ -1,0 +1,406 @@
+.Wrapper {
+  background: $white;
+  height: $headerHeightXs;
+  margin: 0 auto;
+  max-width: 100%;
+  padding: $headerMarginXs 0;
+  position: relative;
+  transition: padding-bottom 0.3s;
+  z-index: calc($zIndexHeader + 1);
+
+  @media (min-width: $smBreakpoint) {
+    height: $headerHeightSm;
+    padding: $headerMarginLg 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: $headerHeightXl;
+    padding: $headerMarginXl 0;
+  }
+
+  @media (min-width: $xxlBreakpoint) {
+    margin-left: 0;
+  }
+
+  &Border {
+    &::after {
+      background-color: $grayA;
+      bottom: 0;
+      content: '';
+      display: inline-block;
+      height: 1px;
+      left: -50%;
+      position: absolute;
+      width: 200vw;
+
+      @media print {
+        display: none;
+      }
+    }
+  }
+
+  &.MarketingPage {
+    padding: 8px 0;
+  }
+}
+
+.ContainerWrapper {
+  background-color: $white;
+}
+
+:global(.branding-day) {
+  .UtilityBarWrapper {
+    @media (min-width: $mdBreakpoint) {
+      margin: 0 auto; 
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+
+  .Wrapper {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+
+    @media (min-width: $mdBreakpoint) {
+      left: 0;
+      margin: 0 auto;
+      right: 0;
+      width: $mdBreakPointBrandingDayContainerWidth;
+
+      &Border {
+        &::after {
+          left: 0;
+          width: $mdBreakPointBrandingDayContainerWidth;
+        }
+      }
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+
+      &Border {
+        &::after {
+          left: 0;
+          width: $xlBreakPointBrandingDayContainerWidth;
+        }
+      }
+    }
+  }
+
+  .WrapperCollapsed {
+    &.Fixed {
+      top: 0;
+    }
+  }
+}
+
+.WrapperSY {
+  padding: $headerMarginSYXs 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $headerMarginSYLg 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $headerMarginSYXl 0;
+  }
+}
+
+.WrapperCollapsed {
+  height: auto;
+  margin: 0 auto;
+  max-width: inherit;
+  padding: 0;
+  position: relative;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexHeader;
+
+  .Header {
+    .Logo {
+      margin: 0;
+    }
+  }
+
+  &.Fixed {
+    position: fixed;
+
+    @media print {
+      height: $headerHeightSm;
+      margin-top: calc(-$headerMarginLg / 2);
+      padding: $headerMarginLg 0;
+      position: static;
+      top: 0;
+    }
+  }
+}
+
+/* NavigationMenu/MenuHeader is compsing from this class */
+.Header {
+  display: flex;
+  flex-wrap: wrap;
+  position: relative;
+
+  &.MarketingPage {
+    justify-content: center;
+  }
+}
+
+.BackButtonWrapper {
+  display: flex;
+  height: 36px;
+  width: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 46px;
+    min-width: 50px;
+    width: auto;
+  }
+}
+
+.Logo {
+  width: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    min-width: 108px;
+    width: auto;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-width: 153px;
+  }
+
+  .LogoWrapper {
+    display: block;
+    float: left;
+    height: 36px;
+    width: 92px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 46px;
+      width: 108px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 65px;
+      width: 153px;
+    }
+  }
+
+  &.MarketingPage {
+    width: auto;
+  }
+}
+
+.LogoSY {
+  .LogoWrapper {
+    height: 29px;
+    padding-top: 4px;
+    transition: height 0.05s ease-out, width 0.05s ease-out;
+    width: 88px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 46px;
+      padding-top: 11px;
+      width: 105px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 46px;
+      padding-top: 9px;
+      width: 116px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 65px;
+      padding-top: 12px;
+      width: 164px;
+    }
+  }
+}
+
+.Navigation {
+  @mixin hideforPrint;
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+}
+
+.Icons {
+  @mixin hideforPrint;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  width: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    width: auto;
+  }
+}
+
+.IconText {
+  composes: HeaderIconsText from 'typography.legacy.css';
+  display: block;
+  position: relative;
+  top: 0;
+  transition: color 0.3s ease-in-out;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 1px;
+    top: 1px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    top: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    top: 2px;
+  }
+}
+
+$iconFontSizeXs: 1.9rem;
+$iconFontSizeMd: 2.5rem;
+$iconFontSizeXl: 3.3rem;
+
+.Icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+  > svg {
+    height: 19px;
+    max-height: 33px;
+    max-width: 33px;
+    width: 19px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 19px;
+      width: 19px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 25px;
+      width: 25px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 33px;
+      width: 33px;
+    }
+
+    path {
+      transition: fill 0.3s ease-in-out;
+    }
+
+    &:hover {
+      fill: $black;
+
+      @media (min-width: $xlBreakpoint) {
+        fill: $redA;
+      }
+    }
+  }
+
+  &::before {
+    color: $black;
+    font-size: $iconFontSizeXs;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 2px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      font-size: $iconFontSizeMd;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: $iconFontSizeXl;
+      margin-bottom: 5px;
+    }
+  }
+}
+
+.Link {
+  cursor: pointer;
+  margin: 0 $margin8;
+  outline: none;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 11px;
+
+    &:hover {
+      svg path,
+      .IconText,
+      .Icon::before {
+        color: $redA;
+        fill: $redA;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 18px;
+  }
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.MenuButton {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+}
+
+.BackButton {
+  justify-content: center;
+  text-align: left;
+
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-bottom: 1px solid $grayA;
+  display: none;
+  height: $utilityBarHeight;
+  position: absolute;
+  top: -100%;
+  transition: transform 0.3s ease-in-out;
+  width:100%;
+  z-index: -100;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 64px;
+  }
+}
+
+.UtilityBarWrapperMove {
+  @media (min-width: $smBreakpoint) {
+    transform: translateY(102%);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    transform: translateY(100%);
+  }
+}
+
+/* stylelint-disable-next-line */
+.WrapperBorder {
+  /* used for typedef since &Border is not recognized */
+}

@@ -1,0 +1,52 @@
+{
+  "items": [
+    {
+      "node": {
+        "tid": 1,
+        "label": "label 1",
+        "preferredUri": "/contact",
+        "__typename": "Keyword"
+      }
+    },
+    {
+      "node": {
+        "tid": 2,
+        "label": "label 2",
+        "preferredUri": "",
+        "__typename": "Keyword"
+      }
+    },
+    {
+      "node": {
+        "tid": 3,
+        "label": "label 3",
+        "preferredUri": "/contact-3",
+        "__typename": "Keyword"
+      }
+    },
+    {
+      "node": {
+        "nid": 4,
+        "label": "max miller",
+        "preferredUri": "/max-miller",
+        "__typename": "Person"
+      }
+    },
+    {
+      "node": {
+        "nid": 5,
+        "label": "Roger Federer",
+        "preferredUri": "/federer",
+        "__typename": "Person"
+      }
+    },
+    {
+      "node": {
+        "nid": 6,
+        "label": "Nestle",
+        "preferredUri": "/nestle",
+        "__typename": "Organization"
+      }
+    }
+  ]
+}

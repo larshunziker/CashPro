@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Pager - PageLoader Should render Button correctly 1`] = `
+<div>
+  <a
+    class="page-loader-btn PageLink PagerPlaceholder"
+    data-testid="mocked-link"
+  >
+    3
+  </a>
+</div>
+`;
+
+exports[`[Component] Pager - PageLoader Should render ButtonNext correctly 1`] = `
+<div>
+  <a
+    class="page-loader-next-btn NextLabel PagerPlaceholder"
+    data-testid="mocked-link"
+  >
+    weiter
+  </a>
+</div>
+`;
+
+exports[`[Component] Pager - PageLoader Should render ButtonPrevious correctly 1`] = `
+<div>
+  <a
+    class="page-loader-prev-btn PrevLabel PagerPlaceholder"
+    data-testid="mocked-link"
+  >
+    zurück
+  </a>
+</div>
+`;
+
+exports[`[Component] Pager - PageLoader Should render PageLoader correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <a
+      class="page-loader-prev-btn PrevLabel"
+      data-testid="mocked-link"
+      href="/camindada?0=t&1=e&2=s&3=t"
+    >
+      zurück
+    </a>
+    <div
+      data-testid="mocked-icon"
+    >
+      IconSlash
+    </div>
+    <a
+      class="page-loader-btn PageLink"
+      data-testid="mocked-link"
+      href="/camindada?0=t&1=e&2=s&3=t"
+    >
+      1
+    </a>
+    <a
+      class="page-loader-btn PageLink ActiveItem"
+      data-testid="mocked-link"
+      href="/camindada?0=t&1=e&2=s&3=t&page=2"
+    >
+      2
+    </a>
+    <a
+      class="page-loader-btn PageLink"
+      data-testid="mocked-link"
+      href="/camindada?0=t&1=e&2=s&3=t&page=3"
+    >
+      3
+    </a>
+    <div
+      data-testid="mocked-icon"
+    >
+      IconSlash
+    </div>
+    <a
+      class="page-loader-next-btn NextLabel"
+      data-testid="mocked-link"
+      href="/camindada?0=t&1=e&2=s&3=t&page=3"
+    >
+      weiter
+    </a>
+  </div>
+</div>
+`;

@@ -1,0 +1,74 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexOverlay;
+
+  .MenuItem {
+    line-height: 5rem;
+    list-style: none;
+
+    @media (min-width: $xlBreakpoint) {
+      line-height: 6rem;
+    }
+  }
+
+  .ContentWrapper {
+    height: calc(100% - $menuHeaderHeightXs);
+    overflow-y: scroll;
+
+    @media (min-width: $smBreakpoint) {
+      height: calc(100% - $menuHeaderHeightSm);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: calc(100% - $menuHeaderHeightXl);
+    }
+
+    .MarginTop {
+      margin-top: $margin40;
+
+      @media (min-width: $smBreakpoint) {
+        margin-top: 60px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        margin-top: $margin80;
+      }
+    }
+  }
+}
+
+.MenuSubItem {
+  composes: MenuItems3 from 'typography.legacy.css';
+  transition: color 0.3s;
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      color: $redA;
+    }
+  }
+}
+
+.SingleMenuItem {
+  margin-top: 10px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 20px;
+  }
+}
+
+.SingleMenuItem ~ .SingleMenuItem {
+  margin-top: 0;
+}
+
+.ActiveLink {
+  color: $redA;
+}
+
+.MenuListWrapper {
+  margin-bottom: $margin80;
+}

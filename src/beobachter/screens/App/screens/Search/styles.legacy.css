@@ -1,0 +1,38 @@
+.ResultsWrapper {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.PagerWrapper {
+  text-align: center;
+}
+
+.SearchContainer {
+  margin-top: $margin32;
+}
+
+.Suggestion {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: $margin24;
+}
+
+.SuggestionQuery {
+  color: $black;
+  cursor: pointer;
+  font-weight: 700;
+}
+
+.CallToAction {
+  composes: ButtonPrimarySmall from 'typography.legacy.css';
+
+  margin-top: 25px;
+  width: max-content;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 25px 0 0;
+  }
+}

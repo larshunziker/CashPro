@@ -1,0 +1,29 @@
+@define-mixin backgroundPatternWhite $backgroundColor {
+  background: url('App/assets/graphics/backgrounds/pattern_white.png') repeat
+    $backgroundColor;
+  background-size: 3px;
+}
+
+@define-mixin multiBackgroundPatternDark $background, $repeat {
+  background: url('App/assets/graphics/backgrounds/pattern_dark.png') repeat,
+    $background $repeat;
+  background-size: 6px, 100%;
+}
+
+@define-mixin multiBackgroundPatternPurple $background, $repeat {
+  background: url('App/assets/graphics/backgrounds/pattern_purple.png') repeat,
+    $background $repeat;
+  background-size: 3px, 100%;
+}
+
+@define-mixin backgroundPatternDark $backgroundColor {
+  background: url('App/assets/graphics/backgrounds/pattern_dark.png') repeat
+    $backgroundColor;
+  background-size: 6px;
+}
+
+@define-mixin backgroundPatternDictionary $backgroundColor {
+  background: url('App/assets/graphics/backgrounds/pattern_dictionary.png')
+    repeat $backgroundColor;
+  background-size: 6px;
+}

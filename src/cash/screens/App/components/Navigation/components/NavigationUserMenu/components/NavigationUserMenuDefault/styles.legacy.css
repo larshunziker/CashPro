@@ -1,0 +1,120 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 1500;
+
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2 + 56px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2 + 56px);
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: calc(40vw - 440px - 28px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(40vw - 654px);
+    width: calc(1440px - ($outerGapXl * 2) + 48px);
+  }
+}
+
+.MenuBodyWrapper {
+  background:  $white;
+}
+
+.UserInformationWrapper {
+  background:  $decoB;
+  padding-bottom: 16px;
+  padding-top: 16px;
+
+  > div {
+    margin-left: 19px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 24px;
+    padding-top: 32px;
+
+    > div {
+      margin-left: 29px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+
+    > div {
+      margin-left: $margin24;
+    }
+  }
+}
+
+.UserName {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.UserCredentials {
+  composes: InfoD from 'typography.legacy.css';
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  margin-top: $margin24;
+  padding: 0 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+    padding: 0 29px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0;
+
+    > div {
+      margin-left: $margin24;
+    }
+  }
+}
+
+.MenuItem {
+  composes: HamburgerMenu2 from 'typography.legacy.css';
+  cursor: pointer;
+  list-style: none;
+  max-width: fit-content;
+  position: relative;
+
+  a:any-link {
+    /* hide external link icon */
+    &::after {
+      display: none !important; /* stylelint-disable-line */
+    }
+  }
+
+  a, div {
+    align-items: center;
+    display: flex;
+    padding: 12px 0;
+
+    &:hover {
+      color: $secondaryB;
+    }
+  }
+
+  i {
+    @mixin fontSize 18;
+    @mixin lineHeight 24;
+    margin-bottom: -2px;
+  }
+}
+
+.MenuHeader, .MenuHeaderContent, .CloseButton, .CloseIcon, .MenuItemHiddenOnApp {
+  display: none;
+}

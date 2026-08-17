@@ -1,0 +1,169 @@
+.Link {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1;
+  outline: none;
+  position: relative;
+
+  &.Active,
+  &:hover {
+    p,
+    span:not(.CommentCount)
+    svg,
+    path {
+      transition: color 0.3s, fill 0.3s;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 8px;
+  }
+}
+
+.LinkHoverSI {
+  &.Active,
+  &:hover {
+    p,
+    span:not(.CommentCount)
+    svg,
+    path {
+      color: $redA;
+      fill: $redA; 
+    }
+  }
+}
+
+.LinkHoverSY {
+  &.Active,
+  &:hover {
+    p,
+    span:not(.CommentCount)
+    svg,
+    path {
+      color: $skin;
+      fill: $skin; 
+    }
+  }
+}
+
+.LinkOverlay {
+  margin-bottom: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+    padding-bottom: 8px;
+
+    .Icon {
+      height: 22px;
+      width: 22px;
+    }
+  }
+}
+
+.LinkOverlayInlined {
+  margin-bottom: $margin24;
+  margin-top: $margin8;
+  padding: 0 24px 8px 23px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16; 
+    padding: 0 30px 8px;
+
+    svg {
+      height: 26px;
+      width: 22px;
+    }
+  }
+}
+
+.LinkLight {
+  p,
+  svg {
+    color: $white;
+    fill: $white; 
+  }
+}
+
+.Icon {
+  display: flex;
+  height: 20px; 
+  position: relative;
+  width: 20px;
+
+  @media (min-width: $smBreakpoint){
+    margin-bottom: 3px;
+  } 
+
+  @media (min-width: $xlBreakpoint) { 
+    height: 28px;
+    width: 30px;
+  }
+}
+
+.CommentCount {
+  composes: HeaderIconsText from 'typography.legacy.css';
+  color: $white;
+  display: inline-block;
+  font-variant-numeric: normal;
+  position: relative;
+  top: 1px;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    top: 1px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    left: -1px;
+    letter-spacing: 0;
+    top: 6px;
+  }
+}
+
+:global(.vf-comments-count) {
+  @mixin HeaderIconsText;
+  color: $white;
+  display: inline-block;
+  font-variant-numeric: normal;
+  position: relative;
+  top: 1px;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    top: 1px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    left: -1px;
+    letter-spacing: 0;
+    top: 6px;
+  }
+}
+
+:global(div:has( > #vf-conversations-count:empty)) {
+  display: none;
+}
+
+.Badge {
+  border-radius: 50%; 
+  content: '';
+  height: 17px;
+  left: 50%;
+  line-height: 17px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  transform: translate(-58%,0%);
+  width: 17px;
+  z-index: 0;
+}
+
+.Label {
+  composes: HeaderIconsText from 'typography.legacy.css';
+  margin-top: 2px;
+  text-align: center;
+  white-space: nowrap;
+}

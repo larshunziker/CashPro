@@ -1,0 +1,77 @@
+.Wrapper {
+  background-color: $white;
+  box-shadow: 0 3px 6px 0 $blackAlpha5;
+  display: flex;
+  flex-flow: wrap;
+  height: 0;
+  left: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  overflow: hidden;
+  padding: 0 26px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  transition: height 0.3s ease, padding 0.3s ease;
+  width: 70%; 
+  z-index: $zIndex50;
+  
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+    margin: 0;
+    top: 100%;
+    width: 100%;
+  }
+}
+
+.WrapperSticky {
+  left: 0;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+  }
+}
+
+.Title {
+  composes: TableColumnHeader from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: $margin4;
+  width: 100%;
+}
+
+.CloseButton {
+  composes: TableColumnHeader from 'typography.legacy.css';
+  background-color: $transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  outline:none;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+
+  &::after {
+    content: '\24';
+    display: inline-block;
+    font-family: $fontRaschIcon;
+  }
+}
+
+.WrapperToggle {
+  height: auto;
+  padding-bottom: $margin16;
+  padding-top: $margin16;
+  width: 100%;
+}
+
+.UtilityBarWrapper {
+  margin-top: 10px;
+  min-height: 49px;
+}
+
+/* Top-bar sticky container (with progressbar enabled) */
+:global(.site-header #utility-bar-overlay) {
+  max-width: 100%;
+  top: -1px;
+}

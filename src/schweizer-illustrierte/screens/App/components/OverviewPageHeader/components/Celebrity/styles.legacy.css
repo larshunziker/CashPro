@@ -1,0 +1,185 @@
+.Wrapper {
+  margin-bottom: 15px;
+  margin-top: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 35px;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 45px;
+    margin-top: 50px;
+  }
+}
+
+.HeaderImageWrapper {
+  text-align: center;
+
+  &::before,
+  &::after {
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 75px);
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+
+  &SI {
+    &::after,
+    &::before {
+      background-color: $black;
+    }
+  }
+
+  &SY {
+    &::after,
+    &::before {
+      background-color: $skin;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::after,
+    &::before {
+      height: 2px;
+      width: 218px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &::after,
+    &::before {
+      width: 300px;
+    }
+  }
+}
+
+.HeaderImageWrapperInner {
+  display: inline-block;
+  position: relative;
+}
+
+.HeaderImage {
+  border-radius: 50%;
+  height: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 125px;
+    max-height: 125px;
+    max-width: 125px;
+    width: 125px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 175px;
+    max-height: 175px;
+    max-width: 175px;
+    width: 175px;
+  }
+}
+
+.HeadingOverviewWrapper {
+  text-align: center;
+  width: 100%;
+
+  &SI {
+    margin-top: 12px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 22px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-top: 30px;
+    }
+  }
+
+  &SY {
+    margin-top: 18px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 27px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-top: 35px;
+    }
+  }
+}
+
+.SubscribeButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.HeadingOverview {
+  display: inline-block;
+  margin-bottom: $margin16;
+
+  &SI {
+    composes: HeadingOverviewCeleb from 'typography.legacy.css';
+  }
+
+  &SY {
+    composes: HeadingOverviewCelebSY from 'typographySY.legacy.css';
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+.HeadingOverviewWithAlerts {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.Lead {
+  margin-top: 0;
+
+  &SI {
+    composes: Lead1 from 'typography.legacy.css';
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 5px;
+    }
+    @media (min-width: $xlBreakpoint) {
+      margin-top: 10px;
+    }
+  }
+
+  &SY {
+    composes: Lead1SY from 'typographySY.legacy.css';
+
+    @media (min-width: $xlBreakpoint) {
+      margin-top: 2px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-top: $margin4;
+    }
+  }
+}

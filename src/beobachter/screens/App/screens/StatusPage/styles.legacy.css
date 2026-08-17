@@ -1,0 +1,167 @@
+.Wrapper {
+  margin: $margin40 0 232px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin80 0 282px;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Row {
+  composes: Row from '@grid.legacy.css';
+}
+
+.Columns {
+  composes: ColXs24 from '@grid.legacy.css';
+}
+
+.HeaderWrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+}
+
+.IconWrapper {
+  display: none;
+  height: 72px;
+  width: 72px;
+}
+
+.Icon {
+  height: 72px;
+  max-height: 72px;
+  max-width: 72px;
+  width: 72px;
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+
+  margin-left: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin32;
+  }
+}
+
+.Description {
+  composes: Lead from 'typography.legacy.css';
+
+  font-size: 1.8rem;
+  margin-top: $margin32;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3.2rem;
+  }
+}
+
+.SearchWrapper {
+  margin-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin80;
+  }
+}
+
+.SearchForm {
+  composes: SearchForm from './../Search/styles.legacy.css';
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  @media (min-width: $smBreakpoint) {
+    flex-wrap: nowrap;
+  }
+}
+
+.WrapperGrey {
+  composes: WrapperGrey from './../../components/Search/components/SearchForm/styles.legacy.css';
+}
+
+.StatusPageSearchButton {
+  align-items: center;
+  background: $black;
+  border-radius: 50px;
+  bottom: unset;
+  color: $white;
+  display: flex;
+  font-family: $fontSpezia;
+  font-weight: 700;
+  height: 48px;
+  justify-content: center;
+  padding: 12px 16px;
+  position: relative;
+  right: unset;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 0;
+    right: 0;
+    width: auto;
+  }
+
+  &:hover {
+    background: $grey80;
+  }
+}
+
+.StatusPageSearchInput {
+  /* stylelint-disable-next-line declaration-no-important */
+  background: $grey10 !important;
+  border-bottom: 2px solid #bebebe;
+  border-radius: 50px;
+  font-size: 1.6rem;
+  height: 48px;
+  margin-bottom: $margin16;
+  padding-left: 40px;
+  padding-right: $margin16;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.StatusPageSearchInputWrapper {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin16;
+  }
+}
+
+.StatusPageResetButton {
+  bottom: auto;
+  right: 20px;
+  top: 16px;
+}
+
+.StatusPageResetButtonIcon {
+  color: $grey40;
+  font-size: 2rem;
+  right: 0;
+  top: 0;
+}
+
+.StatusPageAutocompleteWrapper {
+  border-radius: 4px;
+  margin-top: 48px;
+
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 10px;
+    margin-top: 48px;
+    width: calc(100% - 130px);
+  }
+}

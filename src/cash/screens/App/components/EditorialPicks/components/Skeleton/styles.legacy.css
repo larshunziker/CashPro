@@ -1,0 +1,16 @@
+.SkeletonWrapper {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  margin-bottom: 16px;
+  min-height: 380px;
+  padding: 16px;
+  width: 100%;
+  z-index: 1000;
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

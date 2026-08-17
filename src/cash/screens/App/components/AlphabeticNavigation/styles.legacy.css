@@ -1,0 +1,29 @@
+.AlphabetOuterWrapper {
+  background: transparent;
+  display: none;
+  margin-bottom: $margin32;
+  overflow: hidden;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.MobileToggleWrapper {
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.MobileToggle {
+  composes: ButtonBig from 'typography.legacy.css';
+  background-color: $secondaryA;
+  border: 0;
+  border-radius: 4px;
+  color: $white;
+  font-weight: 700;
+  margin-bottom: $margin24;
+  padding: 16px 0;
+  width: 100%;
+}

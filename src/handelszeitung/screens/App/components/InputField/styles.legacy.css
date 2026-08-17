@@ -1,0 +1,119 @@
+.Wrapper {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  &.CommentWrapper {
+    margin-bottom: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.ContactInput,
+.Textarea {
+  border: none;
+  border-bottom: 1px solid $greyC;
+  border-radius: 0;
+  color: $greyB;
+  font-size: 1.5rem;
+  font-weight: normal;
+  line-height: 2;
+  margin-top: 10px;
+  padding: 15px 0 0;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.Textarea {
+  height: 30px;
+  margin-bottom: -5px;
+  margin-top: 35px;
+  padding-top: 0;
+  resize: none;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 25px;
+  }
+}
+
+.Label {
+  color: $greyA;
+  font-family: $fontGotham;
+  font-size: 1.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  height: 30px;
+  line-height: 2;
+  margin: $margin24 0 0;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: left;
+}
+
+.TextareaLabel {
+  margin: 30px 0 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 20px 0 0;
+  }
+}
+
+.LabelAbove {
+  transform: scale(0.7) translateY(-106%);
+  transition: transform 0.8s;
+}
+
+.LabelInside {
+  transform: scale(1) translate(0, 0);
+  transition: transform 0.8s;
+}
+
+.HasError {
+  border: 1px solid $errorA !important; /* stylelint-disable-line */
+  color: $greyB;
+}
+
+.ErrorMessage {
+  color: $errorA;
+  display: block;
+  font-family: $fontGothamBook;
+  font-size: 1.2rem;
+  font-weight: 400;
+  height: 0;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 2;
+    margin-bottom: $margin24;
+  }
+
+  &.CommentError {
+    height: auto;
+    margin-bottom: -$margin12;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: -$margin24;
+    }
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  .Label,
+  .TextareaLabel,
+  .Textarea,
+  .ContactInput {
+    font-size: 2rem;
+    line-height: 1.5;
+  }
+}

@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserStageParagraph Should generate gridOptions for 1 teaser(s) correctly 1`] = `"teaserStage1Item"`;
+
+exports[`[Component] TeaserStageParagraph Should generate gridOptions for 2 teaser(s) correctly 1`] = `"teaserStage2Items"`;
+
+exports[`[Component] TeaserStageParagraph Should generate gridOptions for 3 teaser(s) correctly 1`] = `"teaserStage3Items"`;
+
+exports[`[Component] TeaserStageParagraph Should generate gridOptions for 4 teaser(s) correctly 1`] = `"teaserStage2Items"`;
+
+exports[`[Component] TeaserStageParagraph Should generate styles correctly when origin is default 1`] = `
+{
+  "Container": "Container",
+  "SectionTitle": "SectionTitle",
+  "TitleLink": "TitleLink",
+}
+`;
+
+exports[`[Component] TeaserStageParagraph Should generate styles correctly when origin is null 1`] = `
+{
+  "Container": "Container",
+  "SectionTitle": "SectionTitle",
+  "TitleLink": "TitleLink",
+}
+`;
+
+exports[`[Component] TeaserStageParagraph Should generate styles correctly when origin is page-screen/marketing 1`] = `
+{
+  "Container": "Container",
+  "SectionTitle": "SectionTitle",
+  "TitleLink": "TitleLink",
+}
+`;

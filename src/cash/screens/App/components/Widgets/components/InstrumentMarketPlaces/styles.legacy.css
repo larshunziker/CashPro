@@ -1,0 +1,96 @@
+.Skeleton {
+  height: 37px;
+  padding: $margin8;
+  position: relative;
+
+  &.Right span {
+    right: 0;
+  }
+
+  span {
+    animation: pulsing 5s infinite;
+    background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+    background-size: 200% 100%;
+    border-radius: 4px;
+    display: block;
+    height: 21px; 
+    position: absolute;
+    width: 70px;
+    z-index: 1000;
+  }
+}
+
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+}
+
+table {
+  margin-top: $margin16;
+  width: 100%;
+}
+
+.TableRow {
+  border-top: 1px solid $greyD;
+}
+
+.TableHead {
+  composes: DataTable from 'typography.legacy.css';
+  font-weight: 700;
+  padding-bottom: $margin8;
+  text-align: left;
+}
+
+.Right {
+  text-align: right;
+}
+
+.TableValue {
+  composes: DataTable from 'typography.legacy.css';
+  padding: $margin8 0;
+
+  a {
+    color: $secondaryA;
+  }
+}
+
+.ButtonWrapper {
+  width: 100%;
+}
+
+.CollapseButton {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  border: 0;
+  border-top: 1px solid $greyD;
+  color: $secondaryA;
+  display: flex;  
+  font-size: 14px;
+  font-weight: 700;  
+  justify-content: center;
+  padding: $margin8;
+  text-align: center;
+  width: 100%;
+
+  i {
+    margin-left: $margin8;
+    padding-top: 4px;
+  }
+
+  span:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

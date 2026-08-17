@@ -1,0 +1,187 @@
+.Header {
+  composes: H2 from 'typography.legacy.css';
+}
+
+.RichTextWrapper {
+  composes: Paragraph from 'typography.legacy.css';
+  clear: both;
+
+  @media print {
+    text-align: justify;
+  }
+
+  &.MarketingPage {
+    p {
+      @mixin Lead1;
+      @media (min-width: $smBreakpoint) {
+        text-align: center;
+      }
+    }
+  }
+
+  &.Longform {
+    p {
+      @mixin Lead1;
+      @media (min-width: $smBreakpoint) {
+        text-align: left;
+      }
+    }
+  }
+}
+
+.RichTextWrapper h2,
+.RichTextWrapper h3 {
+  @mixin Subtitle;
+
+  &.MarketingPage {
+    @mixin H2;
+    margin-bottom: $margin8;
+    padding-top: 25px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+      text-align: center;
+    }
+  }
+
+  &.Longform {
+    @mixin H2;
+    margin-bottom: $margin8;
+    padding-top: 25px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+      text-align: left;
+    }
+  }
+}
+
+/* Spans */
+.RichTextWrapper em {
+  font-style: italic;
+}
+
+.RichTextWrapper strong {
+  @mixin ParagraphBold;
+}
+
+/* Blocks */
+.RichTextWrapper h2,
+.RichTextWrapper h3,
+.RichTextWrapper p
+ {
+  margin-bottom: 1.5rem;
+}
+
+.RichTextWrapper sup {
+  @mixin fontSize 15;
+  vertical-align: super;
+}
+
+.RichTextWrapper sub {
+  @mixin fontSize 15;
+  position: relative;
+  top: -2px;
+  vertical-align: sub;
+}
+
+.RichTextWrapper u {
+  text-decoration: none;
+}
+
+/* Links */
+.RichTextWrapper a {
+  @mixin RichTextLink;
+}
+
+/* Blockquote */
+.RichTextWrapper blockquote {
+  margin-top: 7px;
+
+  p {
+    @mixin QuoteMain;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 28;
+    @mixin lineHeight 37;
+    margin-top: 12px;
+  }
+
+  &:first-of-type {
+    margin-top: 27px;
+
+    &::before {
+      background-color: $blackB;
+      content: ' ';
+      display: block;
+      height: 4px;
+      margin-bottom: $margin8;
+      width: 69px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 25px;
+    }
+  }
+}
+
+/* List styling */
+.RichTextWrapper ul {
+  $bulletwidth: 9px;
+  @mixin Paragraph;
+  list-style-type: none;
+  margin-left: 0;
+
+  li {
+    margin-left: 12px;
+    padding-left: calc($bulletwidth + 19px); /* bullet width and padding */
+    position: relative;
+
+    @media (min-width: $mdBreakpoint) {
+      padding-left: calc($bulletwidth + 24px); /* bullet width and padding */
+    }
+  }
+
+  li::before {
+    background-color: $blackB;
+    border-radius: 50%;
+    content: ' ';
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 9px;
+
+    @media (min-width: $smBreakpoint) {
+      top: 11px;
+    }
+
+    p {
+      display: inline;
+    }
+  }
+}
+
+.RichTextWrapper ol {
+  @mixin Paragraph;
+  margin-left: 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 24px;
+  }
+
+  li {
+    padding-left: 19px;
+
+    &::marker {
+      font-weight: bold;
+      padding-left: 12px;
+    }
+
+    b,
+    strong {
+      font-weight: bold;
+    }
+  }
+}

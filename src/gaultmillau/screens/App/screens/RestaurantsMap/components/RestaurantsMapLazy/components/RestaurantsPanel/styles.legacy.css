@@ -1,0 +1,38 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  min-width: 320px;
+  overflow: auto;
+  position: relative;
+  width: 480px;
+  z-index: 2;
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid $neutralD;
+    max-width: 340px;
+  }
+}
+
+.Controls {
+  margin: 0 21px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.Stats {
+  border-color: $neutralB;
+  border-style: solid;
+  border-width: 2px 0;
+  color: $neutralA;
+  font: 300 1.6rem/1.8rem $fontBagueSansPro;
+  margin: 0;
+  padding: 3px 0 8px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 7px;
+    padding-top: 4px;
+  }
+}

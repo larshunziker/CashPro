@@ -1,0 +1,36 @@
+{
+  "input": {
+    "type": "select",
+    "title": "Select (Dropdown)",
+    "options": [
+      {
+        "value": "Feedback und Fehler",
+        "label": "Feedback und Fehler",
+        "description": ""
+      },
+      {
+        "value": "Leserbrief",
+        "label": "Leserbrief",
+        "description": ""
+      },
+      {
+        "value": "Familie und Weekend",
+        "label": "Familie und Weekend",
+        "description": ""
+      },
+      {
+        "value": "Fragen zum Abo",
+        "label": "Fragen zum Abo",
+        "description": ""
+      },
+      {
+        "value": 12,
+        "label": 12,
+        "description": ""
+      }
+    ],
+    "required": true,
+    "required_error": "Bitte ausfüllen!",
+    "fieldName": "select_dropdown_"
+  }
+}

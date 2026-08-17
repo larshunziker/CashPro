@@ -1,0 +1,71 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Footer Should render BIL correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <img
+      alt="Logo von bilanz"
+      class="FooterLogo LogoBilanz"
+      src="SvgrURL"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] Footer Should render Footer on BIL Abopage correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <img
+      alt="Logo von bilanz"
+      class="FooterLogo LogoBilanz"
+      src="SvgrURL"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] Footer Should render HZ correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <img
+      alt="Logo von handelszeitung"
+      class="FooterLogo"
+      src="SvgrURL"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] Footer Should render HZB correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <img
+      alt="Logo von hz_banking"
+      class="FooterLogo"
+      src="SvgrURL"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] Footer Should render INS correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <img
+      alt="Logo von schweizer_versicherung"
+      class="FooterLogo LogoInsurance"
+      src="SvgrURL"
+    />
+  </div>
+</div>
+`;

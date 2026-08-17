@@ -1,0 +1,55 @@
+.Wrapper {
+  display: block;
+  margin-top: $margin8;
+
+  @media print {
+    text-align: center;
+  }
+}
+
+.Credits {
+  composes: CreditMd from 'typography.legacy.css';
+  display: inline;
+}
+
+.Caption {
+  composes: MetaMd from 'typography.legacy.css';
+
+  display: inline;
+
+  * {
+    display: inline;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  a {
+    border-bottom: 1px solid $black;
+    color: $black;
+    padding-bottom: 2px;
+    transition: color 0.3s, border-bottom-color 0.3s;
+
+    &:hover {
+      border-bottom-color: $redC;
+      color: $redC;
+    }
+
+    &:focus {
+      border-bottom: 1px solid $greyB;
+      color: $redA;
+    }
+
+  }
+  
+  &.MarketingPage {
+    @mixin ParagraphSansSerif;
+    text-align: left;
+  }
+}

@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] ScrollTop Should render correctly desktop 1`] = `
+<div>
+  <div
+    class="ButtonWrapperClassName ScrollToTopFadeOutClassName"
+  >
+    <a
+      aria-label="Nach oben"
+      class="ButtonToTopClassName"
+      href="#toTop"
+    >
+      <div>
+        icon
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`[Common] ScrollTop Should render correctly mobile 1`] = `
+<div>
+  <div
+    class="ButtonWrapperClassName ScrollToTopFadeOutClassName"
+  >
+    <a
+      aria-label="Nach oben"
+      class="ButtonToTopClassName"
+      href="#toTop"
+    >
+      <div>
+        icon
+      </div>
+    </a>
+  </div>
+</div>
+`;

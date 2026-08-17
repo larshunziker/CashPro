@@ -1,0 +1,33 @@
+.Wrapper {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-top: 10px;
+  max-width: 100vw;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    background-color: $transparent;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: left;
+    margin: 0 -$margin16;
+    position: relative;
+    text-align: left;
+  }
+}
+
+.WrapperOverlay {
+  display: block;
+  height: auto;
+  margin-left: -12px;
+  margin-right: -12px;
+  position: relative;
+  z-index: calc($zIndexHeader + 2);
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 -$margin32;
+  }
+}

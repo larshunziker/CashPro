@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Helmet factory Should render Helmet with all content correctly 1`] = `
+<div>
+  <div
+    class="mock-helmet"
+    link=""
+    locationpath="/home"
+    meta="{"property":"og:description","content":"Gault Millau Channel"},{"property":"og:image","content":"https://cdn.dev.ras.dev/sw/560/sites/default/files/GaultMillau_Home.jpg"},{"property":"og:title","content":"SEO Title"},{"property":"og:url","content":"https://www.beobachter/home"},{"name":"description","content":"Gault Millau Channel"},{"name":"parsely-type","content":"sectionpage"}"
+    script=""
+    socialmetavalues="{"field_short_title":"SEO Title","field_short_description":"Gault Millau Channel","field_heroimage":"https://cdn.dev.ras.dev/sw/560/sites/default/files/GaultMillau_Home.jpg","field_lead":"Gault Millau Channel"}"
+    title="Home Channel | GaultMillau – Channel"
+  />
+</div>
+`;

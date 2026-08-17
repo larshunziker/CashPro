@@ -1,0 +1,79 @@
+.Wrapper {
+  line-height: 0;
+  margin: auto;
+  position: relative;
+}
+
+.Title {
+  composes: Title from '../../../ImageGallery/styles.legacy.css';
+}
+
+.PortraitWrapper {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+
+  &:not(.LongReadImage) {
+    img {
+      margin: auto;
+      max-height: 455px;
+      max-width: 100%;
+      width: auto;
+
+      @media (min-width: $smBreakpoint) {
+        max-height: 455px;
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        max-height: 483px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        max-height: 544px;
+      }
+    }
+  }
+
+  &.LongReadImage {
+    position: relative;
+    width: fit-content;
+  }
+
+  img {
+    @media print {
+      min-height: 100px;
+    }
+  }
+}
+
+.ImageWrapper {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  position: relative;
+  width: fit-content;
+
+  &.LongReadLandscapeImage {
+    width: 100%;
+  }
+}
+
+.PortraitWrapperHeroMedia {
+  background-color: $transparent;
+}
+
+.PortraitCaption {
+  &:not(.LongReadImageCaption) {
+    @media (min-width: $xsBreakpoint) {
+      max-width: 341px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      max-width: 362px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      max-width: 408px;
+    }
+  }
+}

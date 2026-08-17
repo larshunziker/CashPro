@@ -1,0 +1,9 @@
+@define-mixin badgeContent $color {
+  background-color: $(color);
+
+  &::after {
+    border-bottom-color: $(color);
+    border-left-color: $(color);
+    border-top-color: $(color);
+  }
+}

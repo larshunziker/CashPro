@@ -1,0 +1,42 @@
+.ServiceNavigationWrapper {
+  background: $greyC;
+  padding: 16px 19px;
+}
+
+.ServiceNavigationItem {
+  display: block;
+
+  &:not(:last-child) {
+    margin-bottom: 15px;
+  }
+}
+
+.ServiceNavigationLink {
+  border-bottom: 1px solid transparent;
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 2.7rem;
+  transition: border-color .3s ease-in-out;
+
+  &:hover {
+    border-color: $black;
+  }
+}
+
+.ServiceNavigationList {
+  list-style-type: none;
+  margin-bottom: 7px;
+  padding: 0;
+  width: 100%;
+}
+
+.ServiceNavigationTitle {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 25.2px;
+  margin-bottom: 16px;
+}

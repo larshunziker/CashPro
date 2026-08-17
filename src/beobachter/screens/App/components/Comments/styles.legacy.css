@@ -1,0 +1,81 @@
+.Inner {
+  background: $greyC;
+  margin-bottom: $margin32;
+  padding: 2px 0 24px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+    padding-bottom: 34px;
+    padding-top: 14px;
+  }
+}
+
+.Title {
+  composes: SubheadLG from 'typography.legacy.css';
+
+  align-items: center;
+  background: none;
+  border-color: $greyB;
+  border-style: solid;
+  border-width: 0 0 2px;
+  color: $black;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  margin: 6px 0 0;
+  outline: none;
+  padding: 8px 0;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    padding: 16px 0;
+  }
+}
+
+.Pager {
+  align-items: center;
+  background: none;
+  border-color: $greyB;
+  border-style: solid;
+  border-width: 0 0 2px;
+  color: $greyA;
+  cursor: pointer;
+  display: flex;
+  font: bold 1.2rem $fontSpezia;
+  justify-content: center;
+  outline: none;
+  padding: 20px 0;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 26px 0;
+  }
+}
+
+.Icon {
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.Counter {
+  margin-right: 6px;
+}
+
+.Info {
+  font-family: $fontSpezia;
+  text-align: center;
+}
+
+.TitleWrapper {
+  font-size: 24px;
+  font-weight: bold;
+  padding-bottom: $margin16;
+  text-align: left;
+}
+
+.ViafouraContainer {
+  /* stylelint-disable-next-line */
+  margin-bottom: 20px !important;
+  min-height: 468px;
+}

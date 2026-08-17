@@ -1,0 +1,34 @@
+.Wrapper {
+  align-items: center;
+  background-color: $greyE;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin16;
+  padding: 24px 16px;
+  text-align: center;
+  text-decoration: none;
+
+  @media (min-width: $smBreakpoint) {
+    height: calc(100% - 16px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: calc(100% - 24px);
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 24px 56px;
+  }
+}
+
+.Icon {
+  height: auto;
+  margin-bottom: $margin16;
+  max-height: 48px;
+}
+
+.Text {
+  composes: RichTextWrapper from '../Paragraphs/components/TextParagraph/styles.legacy.css';
+  @mixin InfoParagraph; /* mixin because RichTextWrapper has different font-family */
+}

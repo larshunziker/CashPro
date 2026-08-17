@@ -1,0 +1,23 @@
+@define-mixin sectionDefaultMargin {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+@define-mixin SectionDefaultMarginTop {
+  margin-top: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+@define-mixin PullOutXs {
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: -$outerGapXs;
+    margin-right: -$outerGapXs;
+    width: calc(100% + $outerGapXs * 2);
+  }
+}

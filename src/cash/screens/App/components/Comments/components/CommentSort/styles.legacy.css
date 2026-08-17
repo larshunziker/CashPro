@@ -1,0 +1,41 @@
+.Sort {
+  align-items: center;
+  border-bottom: 1px solid $greyB;
+  border-top: 1px solid $greyB;
+  display: flex;
+  justify-content: flex-end;
+  margin: 0 0 15px;
+  padding: 8px 0;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+}
+
+.Text {
+  composes: InfoParagraph from 'typography.legacy.css';
+  color: $greyA;
+  margin-right: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin12;
+  }
+}
+
+.Action {
+  composes: InfoParagraph from 'typography.legacy.css';
+  align-items: center;
+  border: none;
+  color: $secondaryA;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  padding: 0;
+}
+
+.Icon {
+  @mixin fontSize 15;
+  padding-left: 7px;
+}

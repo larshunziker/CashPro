@@ -1,0 +1,24 @@
+export type FormFieldProps = {
+  id: string;
+  name?: string;
+  values: Record<string, any>;
+  validate: (target: EventTarget) => void;
+  setValues: (values: Record<string, any>, id?: string, name?: string) => void;
+  placeholder?: string;
+  addClass?: string;
+  addFieldClass?: string;
+  addLabelClass?: string;
+  addLabelAboveClass?: string;
+  required?: boolean;
+  type?: string;
+  animated?: boolean;
+  hasError: boolean;
+  errorMessage?: string;
+  maxlength?: number;
+  rows?: number;
+  innerRef?: RefObject;
+  disabled?: boolean;
+  defaultValue?: string;
+  multi?: boolean;
+  hasPattern?: boolean;
+};

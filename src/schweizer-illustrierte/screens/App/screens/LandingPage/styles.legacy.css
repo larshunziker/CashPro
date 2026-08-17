@@ -1,0 +1,16 @@
+.MinistageChannelSponsorWrapper {
+  composes: Wrapper from 'App/components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+}
+
+.SpecialHeaderWrapper {
+  margin-bottom: 20px;
+  margin-top: 27px;
+
+  @media (max-width: $smBreakpoint) {
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 50px;
+  }
+}

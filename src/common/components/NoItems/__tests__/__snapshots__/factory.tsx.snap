@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] no alerts component Should render correctly when all factory options are set 1`] = `
+<div>
+  <div
+    class="NoItemsWrapperClass"
+  >
+    <div
+      class="InnerWrapperClass"
+    >
+      <div
+        class="TextClass"
+      >
+        This is the test text
+      </div>
+    </div>
+    <div
+      class="WrapperClass"
+    >
+      <button>
+        Test
+      </button>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] no alerts component Should render correctly when minimum factory options are set  1`] = `
+<div>
+  <div
+    class="NoItemsWrapperClass"
+  >
+    <div
+      class="InnerWrapperClass"
+    >
+      <div
+        class="TextClass"
+      >
+        Folgen Sie interessanten Themen. Wir halten Sie per E-Mail auf dem Laufenden, sobald ein neuer Artikel zu Ihrem Thema erscheint.
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,18 @@
+.Button {
+  composes: Button from 'form.legacy.css';
+}
+
+.IconLeft,
+.IconRight {
+  font-size: 24px;
+  position: relative;
+  top: $smallMargin;
+}
+
+.IconLeft {
+  right: $defaultMargin;
+}
+
+.IconRight {
+  left: $defaultMargin;
+}

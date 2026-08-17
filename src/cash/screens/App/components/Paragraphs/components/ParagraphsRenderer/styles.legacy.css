@@ -1,0 +1,118 @@
+.Paragraphs {
+  position: relative;
+}
+
+.SectionDefaultMargin {
+  @mixin sectionDefaultMargin;
+
+  &.MarketingPage {
+    margin-bottom: $margin8;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.SectionFirstMargin {
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SectionDefaultMarginTop {
+  @mixin SectionDefaultMarginTop;
+  margin-top: auto;
+}
+
+.AdWrapper {
+  @mixin hideforPrint;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+.RemoveAdPadding {
+  /* padding 5px set by .AdSlot */
+  margin-bottom: -5px;
+}
+
+:global(.branding-day) {
+  .AdPadding {
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .AdContainer {
+    margin: 0;
+    width: auto;
+  }
+}
+
+.IAVWrapper {
+  width: 100%;
+}
+
+.AdZone {
+  display: block;
+}
+
+:global(.recommendation-slot-mobile):not(:global(.recommendation-slot-tabletDesktop)) {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+:global(.recommendation-slot-tabletDesktop):not(:global(.recommendation-slot-mobile)) {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.ContainerPullOut {
+  composes: ContainerPullOut from '@grid.legacy.css';
+  background: $white;
+  margin-bottom: 14px;
+
+  padding-bottom: 24px;
+  padding-top: 24px;
+
+  @media (width >= 375px) {
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 24px;
+  }
+}
+
+.NoBottomMargin {
+  margin-bottom: 0;
+}
+
+.AdContainer {
+  composes: AdContainerGrid from '../../../AppNexus/styles.legacy.css';
+}
+
+.FullHeightPlaceholder {
+  min-height: 100vh;
+}
+
+.InputFormOnHeroMedia {
+  max-width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 10%;
+    max-width: 80%;
+  }
+}

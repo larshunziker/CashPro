@@ -1,0 +1,104 @@
+.Wrapper {
+  height: 100%;
+}
+
+.CardsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin16;
+  justify-content: center;
+  min-height: 555px;
+}
+
+.NavigationItem {
+  border: none;
+  position: absolute;
+  top: calc(100% - 50%);
+  z-index: 1000;
+
+  &.Left {
+    left: -15px;
+  }
+
+  &.Right {
+    right: -15px;
+  }
+
+  i {
+    color: $secondaryA;
+
+    &::before {
+      font-size: 36px;
+    }
+
+    &:hover {
+      color: $secondaryB;
+      cursor: pointer;
+    }
+
+    &.Disabled {
+      color: $greyC;
+
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+}
+
+.SurveyWrapper {
+  display: flex;
+  gap: 5px;
+  margin-top: 24px;
+
+  button {
+    font-size: 16px;
+  }
+}
+
+.Link {
+  composes: Link from 'typography.legacy.css';
+  border: 0;
+  color: $secondaryA;
+  cursor: pointer;
+  padding: 0;
+  text-decoration: underline;
+}
+
+.Hidden {
+  display: none;
+}
+
+.Skeleton {
+  margin-bottom: 32px;
+  min-height: 700px;
+  width: 100%;
+}
+
+.Title {
+  composes: Title from 'typography.legacy.css';
+  font-size: 24px;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+
+.EmptyState {
+  border: 1px solid $greyC;
+}
+
+.EmptyStateIllustration {
+  flex: 1;
+  margin-top: 48px;
+  max-height: 220px;
+  object-fit: contain;
+  width: 100%;
+}
+
+.EmptyStateText {
+  composes: InfoA from 'typography.legacy.css';
+  font-size: 24px;
+  font-weight:bold;
+  margin: 16px;
+  padding: 16px;
+  text-align: center;
+}

@@ -1,0 +1,799 @@
+{
+  "id": "bm9kZToyMDEzNw==",
+  "nid": "20137",
+  "gcid": "40500",
+  "title": "Beruf",
+  "shortTitle": null,
+  "lead": null,
+  "subtypeValue": null,
+  "metaTitle": "Beruf | Handelszeitung",
+  "metaDescription": "",
+  "metaOgTitle": "Beruf",
+  "metaOgDescription": "",
+  "metaCanonicalUrl": "https://www.handelszeitung.ch/beruf",
+  "canonicalUri": "/group/3/content/40500",
+  "publication": "handelszeitung",
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "preferredUri": "/beruf",
+  "restrictionStatus": null,
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "label": "Beruf",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "teaserImage": {
+    "id": "cGFyYWdyYXBoOmltYWdlOm5ldy11YzF1Z0ZiZjpuZXctckJ6SDJQajc=",
+    "caption": null,
+    "image": {
+      "id": "613628",
+      "credit": "Ringier Axel Springer Schweiz AG",
+      "file": {
+        "id": "ZmlsZTo2MTU1MTE6OjE2eDlfNTYwOjE6MTYzMzYwOTU1Ng==",
+        "alt": "Handelszeitung Logo",
+        "relativeOriginPath": "/2021-10/handelszeitung_fallback.png",
+        "focalPointX": 1600,
+        "focalPointY": 1200,
+        "width": 840,
+        "height": 473,
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybTo0ODYx",
+    "channelType": null,
+    "title": "Beruf",
+    "suppressAds": null,
+    "settings": {
+      "hierarchy": {
+        "count": 1,
+        "edges": [
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybTo0ODYx",
+              "title": "Beruf",
+              "tid": "4861",
+              "__typename": "Channel"
+            },
+            "__typename": "ChannelEdge"
+          }
+        ],
+        "__typename": "ChannelConnection"
+      },
+      "__typename": "TermSettings"
+    },
+    "sponsors": {
+      "edges": [],
+      "__typename": "SponsorConnection"
+    },
+    "__typename": "Channel"
+  },
+  "channels": {
+    "edges": [
+      {
+        "node": {
+          "title": "Beruf",
+          "__typename": "Channel"
+        },
+        "__typename": "ChannelEdge"
+      }
+    ],
+    "__typename": "ChannelConnection"
+  },
+  "sponsorLabel": null,
+  "sponsor": null,
+  "body": [],
+  "grid": {
+    "count": 3533,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZTo3MTM2OTQ=",
+          "title": "Das verdienen Spezialistinnen, Spezialisten und Fachkr\u00e4fte in der Schweiz",
+          "lead": "Die \u00abHandelszeitung\u00bb gibt den grossen \u00dcberblick \u00fcber die Fachl\u00f6hne: Das liegt bei anstehenden Verhandlungen drin, und das fordern Bewerbende.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "L\u00f6hne 2024",
+          "changeDate": "2024-07-30T15:04:02+02:00",
+          "publicationDate": "2024-07-31T07:33:31+02:00",
+          "preferredUri": "/beruf/das-verdienen-spezialistinnen-spezialisten-und-fachkrafte-in-der-schweiz-734951",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjE4NzY3",
+                  "name": "Tina Fischer",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjExODc5MDA6MzIwMjg2Mg==",
+                    "image": {
+                      "id": "697760",
+                      "file": {
+                        "id": "ZmlsZTo3Mjg4NzU6OmxhcmdlOjoxNjcyMjk2Mzc4",
+                        "alt": "Tina Fischer",
+                        "relativeOriginPath": "/media/field_image/2022-12/tina_fischer.jpg",
+                        "focalPointX": 2244,
+                        "focalPointY": 1604,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzkxMDg6ODcwMzM4MQ==",
+            "title": null,
+            "image": {
+              "id": "801379",
+              "file": {
+                "id": "ZmlsZTo4Mzc1MDQ6OmxhcmdlOjoxNzIyMzQ2MzY4",
+                "alt": "Chemistry, laptop and women in lab, microscope and testing with science experiment, research and medicine. Results, researcher or employees with equipment, pc or study with sample analysis or biotech. ,model released, Symbolfoto PUBLICATIONxINxGERxSUIxAUTxONLY Copyright: xZoonar.com/YurixArcursxpeopleimages.comx 21793823 ,model released, Symbolfoto ,property released",
+                "relativeOriginPath": "/media/field_image/2024-07/imago_images_0584079696_0.jpg",
+                "focalPointX": 2458,
+                "focalPointY": 670,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTI3MTk=",
+          "title": "\u00c4ltere Angestellte haben mehr Anspr\u00fcche als junge",
+          "lead": "KMU haben M\u00fche, geeignete Mitarbeitende zu finden. Ein Grund: gestiegene Anspr\u00fcche der Arbeitnehmer. Es gibt grosse Generationsunterschiede.",
+          "restrictionStatus": null,
+          "subtypeValue": "news",
+          "shortTitle": "Studie zerzaust Job-Klischees",
+          "changeDate": "2024-07-26T12:04:02+02:00",
+          "publicationDate": "2024-07-26T12:09:03+02:00",
+          "preferredUri": "/beruf/altere-angestellte-haben-mehr-anspruche-als-junge-733973",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjE1MTc5",
+                  "name": "Gabriel Knupfer",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxMzI0ODozNTI3NzQ=",
+                    "image": {
+                      "id": "783492",
+                      "file": {
+                        "id": "ZmlsZTo4MTg2MzQ6OmxhcmdlOjoxNzEzMTYxNDYz",
+                        "alt": "Gabriel Knupfer",
+                        "relativeOriginPath": "/media/field_image/2024-04/gabriel_knupfer.jpg",
+                        "focalPointX": 502,
+                        "focalPointY": 503,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzY5MjY6ODY5MTUyOQ==",
+            "title": null,
+            "image": {
+              "id": "800832",
+              "file": {
+                "id": "ZmlsZTo4MzY5NDU6OmxhcmdlOjoxNzIxOTg4MjQw",
+                "alt": "\u003Cp\u003EJ\u00fcngere und \u00e4ltere Arbeitnehmende stellen vermehrt Forderungen an die Arbeitgebenden, zeigt eine neue Studie.\u003C/p\u003E",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-26/file7w1d4m596761jamq7xe.jpg",
+                "focalPointX": 960,
+                "focalPointY": 640,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTA0NTE=",
+          "title": "Was F\u00fchrungskr\u00e4fte von den Olympischen Spielen lernen k\u00f6nnen",
+          "lead": "Die K\u00f6nigsdisziplin der Olympischen Spiele ist der Zehnkampf \u2013 und im Management die F\u00fchrung. Zwischen den Disziplinen bestehen Parallelen.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "Olympia 2024",
+          "changeDate": "2024-07-26T09:06:00+02:00",
+          "publicationDate": "2024-07-26T09:05:00+02:00",
+          "preferredUri": "/beruf/was-fuhrungskrafte-von-den-olympischen-spielen-lernen-konnen-731704",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjE4NzY3",
+                  "name": "Tina Fischer",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjExODc5MDA6MzIwMjg2Mg==",
+                    "image": {
+                      "id": "697760",
+                      "file": {
+                        "id": "ZmlsZTo3Mjg4NzU6OmxhcmdlOjoxNjcyMjk2Mzc4",
+                        "alt": "Tina Fischer",
+                        "relativeOriginPath": "/media/field_image/2022-12/tina_fischer.jpg",
+                        "focalPointX": 2244,
+                        "focalPointY": 1604,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzIzMTg6ODY4ODAyMA==",
+            "title": null,
+            "image": {
+              "id": "800097",
+              "file": {
+                "id": "ZmlsZTo4MzYxNzg6OmxhcmdlOjoxNzIxNjQyOTgw",
+                "alt": "Olympische Spiele 2024",
+                "relativeOriginPath": "/media/field_image/2024-07/137924442.jpg",
+                "focalPointX": 1000,
+                "focalPointY": 631,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTIyNTY=",
+          "title": "Stehen Sie auch in den Ferien mit dem B\u00fcro in Kontakt?",
+          "lead": "Teilen Sie hier Ihre Meinung mit \u2013 und sehen Sie, wie andere abstimmen.",
+          "restrictionStatus": null,
+          "subtypeValue": "news",
+          "shortTitle": "Umfrage",
+          "changeDate": "2024-07-25T11:02:28+02:00",
+          "publicationDate": "2024-07-25T11:06:36+02:00",
+          "preferredUri": "/beruf/stehen-sie-auch-in-den-ferien-mit-dem-buro-in-kontakt-733510",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzU5MjY6ODY4MzI3Mg==",
+            "title": null,
+            "image": {
+              "id": "740299",
+              "file": {
+                "id": "ZmlsZTo3NzMzNDQ6OmxhcmdlOjoxNzIxODk4Mzk2",
+                "alt": "Frau mit Handy vor Laptop mit Versicherungsangebot",
+                "relativeOriginPath": "/media/field_image/2023-08/versicherungsangebot_online_-_frau_mit_handy_vor_laptop.jpg",
+                "focalPointX": 3864,
+                "focalPointY": 2578,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTIyMTM=",
+          "title": "Unternehmen verkleinern ihre Teams f\u00fcr Gleichstellung",
+          "lead": "Bei vielen Firmen war Diversit\u00e4t das grosse Hype-Thema. Das scheint vorbei zu sein. Die Gleichstellungsbem\u00fchungen werden intern zur\u00fcckgefahren.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "Diversity-Bem\u00fchungen am Ende?",
+          "changeDate": "2024-07-25T09:59:02+02:00",
+          "publicationDate": "2024-07-25T10:39:13+02:00",
+          "preferredUri": "/beruf/unternehmen-verkleinern-ihre-teams-fur-gleichstellung-733467",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjE4NzY3",
+                  "name": "Tina Fischer",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjExODc5MDA6MzIwMjg2Mg==",
+                    "image": {
+                      "id": "697760",
+                      "file": {
+                        "id": "ZmlsZTo3Mjg4NzU6OmxhcmdlOjoxNjcyMjk2Mzc4",
+                        "alt": "Tina Fischer",
+                        "relativeOriginPath": "/media/field_image/2022-12/tina_fischer.jpg",
+                        "focalPointX": 2244,
+                        "focalPointY": 1604,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzU4NTA6ODY4ODAzOQ==",
+            "title": null,
+            "image": {
+              "id": "800599",
+              "file": {
+                "id": "ZmlsZTo4MzY2OTU6OmxhcmdlOjoxNzIxODk0MzQw",
+                "alt": "\u003Cp\u003E\u00abPride Festival\u00bb in Z\u00fcrich: Regenbogenfarben und das UBS-Logo \u2013 so nahmen Mitarbeitende der Bank teil.\u003C/p\u003E",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-25/file7wg40tyktswyuihvjm4.jpg",
+                "focalPointX": 960,
+                "focalPointY": 640,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTA0MTE=",
+          "title": "Was Chefs und Mitarbeitende in der Ferienzeit tun sollten \u2013 und was nicht",
+          "lead": "Wer sich in den Ferien erholen will, sollte sich selbst nicht zu wichtig nehmen \u2013\u00a0und gewisse Regeln beachten. Hier ist der B\u00fcro-Knigge.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "Erreichbarkeit, Abwesenheitsnotiz, Dresscode",
+          "changeDate": "2024-07-24T17:05:00+02:00",
+          "publicationDate": "2024-07-24T17:00:00+02:00",
+          "preferredUri": "/beruf/was-chefs-und-mitarbeitende-in-der-ferienzeit-tun-sollten-und-was-nicht-731664",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjE4NzY3",
+                  "name": "Tina Fischer",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjExODc5MDA6MzIwMjg2Mg==",
+                    "image": {
+                      "id": "697760",
+                      "file": {
+                        "id": "ZmlsZTo3Mjg4NzU6OmxhcmdlOjoxNjcyMjk2Mzc4",
+                        "alt": "Tina Fischer",
+                        "relativeOriginPath": "/media/field_image/2022-12/tina_fischer.jpg",
+                        "focalPointX": 2244,
+                        "focalPointY": 1604,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzIyMjc6ODY4MDgyNQ==",
+            "title": null,
+            "image": {
+              "id": "799812",
+              "file": {
+                "id": "ZmlsZTo4MzU4NzU6OmxhcmdlOjoxNzIxMzcxMzQx",
+                "alt": "Ferien am Strand",
+                "relativeOriginPath": "/media/field_image/2024-07/92856820.jpg",
+                "focalPointX": 800,
+                "focalPointY": 534,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDkwMTQ=",
+          "title": "So sagen Sie im Job auch einmal Nein",
+          "lead": "Viele sagen im Berufsalltag lieber Ja als Nein. Ein Guide, wie man ein Bitte richtig ablehnt \u2013 und man das als F\u00fchrungskraft akzeptiert.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "Schl\u00fcssel zum Erfolg?",
+          "changeDate": "2024-07-15T13:34:02+02:00",
+          "publicationDate": "2024-07-21T07:25:15+02:00",
+          "preferredUri": "/beruf/so-sagen-sie-im-job-auch-einmal-nein-730261",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjIwNjE0",
+                  "name": "Lena Madonna",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjE3Njc4NTM6NjEyOTAyNQ==",
+                    "image": {
+                      "id": "686473",
+                      "file": {
+                        "id": "ZmlsZTo3MTcwODA6OmxhcmdlOjoxNjY3ODE3MjU3",
+                        "alt": "Lena Madonna",
+                        "relativeOriginPath": "/media/field_image/2022-11/lena_madonna_1.jpg",
+                        "focalPointX": 2022,
+                        "focalPointY": 1138,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjg4NzM6ODY1NDU3MQ==",
+            "title": null,
+            "image": {
+              "id": "798880",
+              "file": {
+                "id": "ZmlsZTo4MzQ5MDI6OmxhcmdlOjoxNzIxMDQzMjQw",
+                "alt": "",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-15/file7waqkrklz76uboqd4an.jpg",
+                "focalPointX": 960,
+                "focalPointY": 640,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDk2NzE=",
+          "title": "Risiken und Nebenwirkungen einer Ehefrau",
+          "lead": "Joe Bidens Gesundheit sorgt f\u00fcr Aufregung. Jill Biden steht hinter ihm, doch ihre bedingungslose Unterst\u00fctzung wird zunehmend kritisch gesehen.",
+          "restrictionStatus": null,
+          "subtypeValue": "news",
+          "shortTitle": "Gastkommentar",
+          "changeDate": "2024-07-17T10:24:02+02:00",
+          "publicationDate": "2024-07-17T14:31:09+02:00",
+          "preferredUri": "/beruf/risiken-und-nebenwirkungen-einer-ehefrau-730922",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjIyNDk4",
+                  "name": "Karin Kofler",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIwMjEyNjY6NzQ1ODkzNQ==",
+                    "image": {
+                      "id": "747460",
+                      "file": {
+                        "id": "ZmlsZTo3ODA4MTM6OmxhcmdlOjoxNjk1MTkwNDcy",
+                        "alt": "Karin Kofler",
+                        "relativeOriginPath": "/media/field_image/2023-09/karin_kofler.jpg",
+                        "focalPointX": 1824,
+                        "focalPointY": 2112,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzA0MzY6ODY1Mzk4Mw==",
+            "title": null,
+            "image": {
+              "id": "799308",
+              "file": {
+                "id": "ZmlsZTo4MzUzNDQ6OmxhcmdlOjoxNzIxMjA0NjQw",
+                "alt": "\u003Cp\u003EKarin Kofler:\u00a0\u00abDas Ehepaar als verschworene Einheit \u2013 was sympathisch klingt, kann im beruflichen Kontext zum Problem werden.\u00bb\u003C/p\u003E",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-17/file7s1h6jclfjpwu66xba4.jpg",
+                "focalPointX": 960,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDc3Mjc=",
+          "title": "Ein Job ist keine Selbstverst\u00e4ndlichkeit",
+          "lead": "Wegen des Fachkr\u00e4ftemangels umgarnten Firmen Stellensuchende mit Benefits ad absurdum. Jetzt dreht der Wind auf dem Arbeitsmarkt, was gut ist.",
+          "restrictionStatus": null,
+          "subtypeValue": "news",
+          "shortTitle": "Kommentar",
+          "changeDate": "2024-07-16T11:08:02+02:00",
+          "publicationDate": "2024-07-16T11:03:22+02:00",
+          "preferredUri": "/beruf/ein-job-ist-keine-selbstverstandlichkeit-728970",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjYwNjk6ODcxMjkxNw==",
+            "title": null,
+            "image": {
+              "id": "798142",
+              "file": {
+                "id": "ZmlsZTo4MzQxMDc6OmxhcmdlOjoxNzIwNjE0MjQw",
+                "alt": "\u003Cp\u003ETina Fischer, Ressortleiterin Management.\u003C/p\u003E",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-10/file7r1hqswmob7yboovg8t.jpg",
+                "focalPointX": 960,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDY4NjY=",
+          "title": "Bei diesen Teamevents ist der Spass Trumpf",
+          "lead": "Teamevents f\u00f6rdern Zusammenhalt, Motivation und Kommunikation. In Zeiten von Onlinekonferenzen und Homeoffice sind sie wertvoller denn je.",
+          "restrictionStatus": "paid",
+          "subtypeValue": "news",
+          "shortTitle": "Von Riverraftig bis Schwertkampf",
+          "changeDate": "2024-07-08T09:44:02+02:00",
+          "publicationDate": "2024-07-14T15:26:13+02:00",
+          "preferredUri": "/beruf/bei-diesen-teamevents-ist-der-spass-trumpf-728098",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjM0MDI=",
+                  "name": "Susanne Wagner",
+                  "imageParagraph": null,
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjQwNzE6ODYzMDI4NQ==",
+            "title": null,
+            "image": {
+              "id": "797593",
+              "file": {
+                "id": "ZmlsZTo4MzM1MzI6OmxhcmdlOjoxNzIwNDI4NDAw",
+                "alt": "Rafting on white water.",
+                "relativeOriginPath": "/media/field_image/2024-07/172760258.jpg",
+                "focalPointX": 1504,
+                "focalPointY": 1000,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDc2Mjc=",
+          "title": "Blinde Flecken beim Delegieren",
+          "lead": "Wer Mitarbeitende entwickeln will, \u00fcbertr\u00e4gt ihnen neue oder gr\u00f6ssere Aufgaben. Dabei besteht das Risiko folgenschwerer Fehler.",
+          "restrictionStatus": null,
+          "subtypeValue": "news",
+          "shortTitle": "Gastkommentar",
+          "changeDate": "2024-07-10T11:19:02+02:00",
+          "publicationDate": "2024-07-10T14:10:20+02:00",
+          "preferredUri": "/beruf/blinde-flecken-beim-delegieren-728868",
+          "publication": "handelszeitung",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo0ODYx",
+            "title": "Beruf",
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjIyMTc3",
+                  "name": "Katja Unkel",
+                  "imageParagraph": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjE4ODA5NjU6NjY2NTU0NA==",
+                    "image": {
+                      "id": "626768",
+                      "file": {
+                        "id": "ZmlsZTo2MzAzNDM6OmxhcmdlOjoxNjc4NDgwMjQ0",
+                        "alt": "Katja Unkel",
+                        "relativeOriginPath": "/media/field_image/2022-01/katja_unkel.png",
+                        "focalPointX": 624,
+                        "focalPointY": 467,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjU4MDQ6ODYyOTQ5Mw==",
+            "title": null,
+            "image": {
+              "id": "798073",
+              "file": {
+                "id": "ZmlsZTo4MzQwMzQ6OmxhcmdlOjoxNzIwNjAzMTQw",
+                "alt": "\u003Cp\u003EKatja Unkel,\u00a0Leadership-Coach und Personalberaterin: \u00abF\u00fchrungskr\u00e4fte sind immer f\u00fcr die Fehler ihrer Teammitglieder (mit-)verantwortlich.\u00bb\u003C/p\u003E",
+                "relativeOriginPath": "/handelszeitung/newsImport/2024-07-10/file7undpxzqn013b6t94bz.jpg",
+                "focalPointX": 960,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "__typename": "LandingPage"
+}

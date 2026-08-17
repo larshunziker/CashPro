@@ -1,0 +1,120 @@
+.Wrapper {
+  display: flex;
+  margin: 0;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    .TitleInner {
+      border-bottom-color: $redA;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 18px;
+  }
+}
+
+.ImageWrapper {
+  flex: none;
+  float: left;
+  height: auto;
+  margin-bottom: 0;
+  margin-right: 5px;
+  max-height: 77px;
+  max-width: 115px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 18px;
+    max-height: 170px;
+    max-width: 253px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 3px;
+    margin-right: 22px;
+    max-height: 237px;
+    max-width: 356px;
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  max-width: 115px;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 253px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 356px;
+  }
+}
+
+.ContentWrapper {
+  display: inline-block;
+  overflow-wrap: break-word;
+  position: relative;
+  word-break: break-word;
+}
+
+.Title {
+  composes: Heading3A from 'typography.legacy.css';
+
+  .TitleInner {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  margin-bottom: 5px;
+}
+
+.Badge {
+  position: absolute;
+  right: 0;
+  top: -10px;
+  white-space: nowrap;
+}
+
+.BadgePositionBottom {
+  bottom: -6px;
+  right: 0;
+  top: auto;
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -2px;
+  }
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+  bottom: 0;
+
+  &::before {
+    bottom: 5px;
+    left: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 10px;
+      left: 10px;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

@@ -1,0 +1,46 @@
+.InputField {
+  composes: FormLabelBig from 'typography.legacy.css';
+
+  background-color: $greyE;
+  border: none;
+  border-bottom: 1px solid $greyC;
+  border-radius: 8px 8px 0 0;
+  margin: 0;
+  min-height: 200px;
+  padding: 24px 12px;
+  transition: border-color 300ms ease-in-out;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 150px;
+  }
+
+  &:focus {
+    background-color: $greyD;
+  }
+}
+
+.Label {
+  composes: FormLabelBig from 'typography.legacy.css';
+  display: block;
+  margin: 0;
+  padding: 0 16px;
+  transform: translateY(16px);
+  width: 100%;
+}
+
+.LabelAbove {
+  color: $blackA;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transform: scale(0.75) translate(0, 4px);
+  transition: transform 0.3s;
+  white-space: nowrap;
+  width: 100%;
+}
+
+.SuccessMessage {
+  color: $blackB;
+  margin: $margin40 0 0;
+  text-align: center;
+}

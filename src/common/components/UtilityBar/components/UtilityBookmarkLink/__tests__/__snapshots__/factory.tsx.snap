@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] UtilityBookmarkLink Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="utility-link-wrapper"
+  >
+    <a
+      class="utility-button LinkClassName"
+      data-testid="mocked-link"
+    >
+      <div
+        class="MockSVGIcon"
+      />
+      <p
+        class="LabelClassName"
+      />
+    </a>
+  </div>
+</div>
+`;

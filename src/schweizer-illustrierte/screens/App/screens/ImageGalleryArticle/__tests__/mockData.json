@@ -1,0 +1,90 @@
+{
+  "id": "bm9kZToxOTI5MA==",
+  "title": "Cool me like",
+  "shortTitle": "Bikini",
+  "lead": "Das ist der lead!!!",
+  "preferredUri": "/family/galleries/bikini-cool-me",
+  "teaserImage": {
+    "id": "179010",
+    "caption": null,
+    "format": "landscape",
+    "image": {
+      "credit": "Foto: Oliver Brenneisen",
+      "file": {
+        "alt": "Wendy Holdener im Wasser",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/_DSC9765.jpg",
+        "width": 480,
+        "height": 320,
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "body": [
+    {
+      "id": "179009",
+      "format": "portrait",
+      "caption": null,
+      "image": {
+        "credit": "© INSTAGRAM/EMRATA",
+        "file": {
+          "alt": "Sexy Bikini Trend",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/bildschirmfoto-2018-07-04-um-14.15.37.jpg",
+          "width": 385,
+          "height": 480,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    {
+      "id": "179011",
+      "format": "landscape",
+      "caption": null,
+      "image": {
+        "credit": "Foto: Oliver Brenneisen",
+        "file": {
+          "alt": "Wendy ist happy",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/_DSC9718.jpg",
+          "width": 480,
+          "height": 329,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    }
+  ],
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQy",
+          "label": "Family",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpReU5qVXlNamcw",
+          "label": "Cool me like",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "__typename": "ImageGallery"
+}

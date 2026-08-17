@@ -1,0 +1,48 @@
+.Wrapper {
+  height: 100%;
+}
+
+.ObjectFit {
+  object-fit: contain;
+}
+
+.Image {
+  max-height: 34px;
+  max-width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 49px;
+    max-width: 132px;
+  }
+}
+
+.ImageTopRight {
+  composes: Image;
+  max-height: 29px;
+  max-width: 77px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: $zIndexMedium;
+}
+
+.ImageCenter {
+  height: auto;
+  max-height: 64px;
+  max-width: 294px;
+}
+
+.ImageInline {
+  margin-right: 31px;
+  max-width: 118px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    max-width: 144px;
+  }
+}
+
+.ImageAutoWidth {
+  max-height: 100%;
+  max-width: 100%;
+}

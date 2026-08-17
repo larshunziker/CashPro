@@ -1,0 +1,117 @@
+.StageWrapper {
+  @mixin aspectRatio16x9;
+
+  /* get rid of the padding on mobile views */
+  padding: 0;
+
+  .WrapperInGuideArticle & {
+    max-width: 100%;
+  }
+}
+
+.Heading {
+  composes: ChannelTitleWhite from 'typography.legacy.css';
+
+  display: block;
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: TeaserTitleH2White from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.ShortTitle {
+  composes: SpitzmarkeVideo from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 2px;
+  text-align: left;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 10px;
+  }
+}
+
+.Items {
+  cursor: pointer;
+
+  .WrapperInGuideArticle & {
+    flex: 0 0 50%;
+    max-width: 50%;
+  }
+}
+
+.DetailWrapper {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 12.5px;
+  }
+}
+
+.ContentWrapper {
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+
+  .WrapperInGuideArticle & {
+    margin-top: 20px;
+    max-height: 100%;
+    max-width: 100%;
+  }
+
+  @media (max-width: $lgBreakpointTo) {
+    margin-top: 20px;
+
+    /* get rid of the padding on mobile views */
+    padding: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+    max-height: 310px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 408px;
+  }
+}
+
+.LeftColWrapper {
+  margin-bottom: $margin24;
+  overflow: hidden;
+
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+
+  .WrapperInGuideArticle & {
+    flex-direction: column;
+    overflow: inherit;
+  }
+}
+
+.RightColWrapper {
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  padding: 0;
+}
+
+.Container {
+  .WrapperInGuideArticle & {
+    margin-left: 0;
+    padding: 0 19px;
+    width: 100%;
+  }
+}

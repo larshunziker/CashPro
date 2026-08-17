@@ -1,0 +1,101 @@
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Wrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.TitleRow {
+  @mixin DataTable;
+  border-bottom: 1px solid $greyD;
+  display: flex;
+  font-weight: 700;
+  justify-content: space-between;
+  margin-bottom: $margin16;
+  padding-bottom: 8px;
+
+  span {
+    max-width: 33%;
+    text-align: right;
+    width: 33%;
+
+    &:first-child {
+      text-align: left;
+    }
+  }
+
+}
+
+.Divider {
+  border-bottom: 1px solid $greyD;
+  margin-bottom: 24px;
+  margin-top: 24px;
+}
+
+.Row {
+  @mixin DataTable;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $margin16;
+
+  & > div {
+    text-align: right;
+    width: 33%;
+  }
+
+  & > span {
+    text-align: right;
+    width: 33%;
+  }
+
+
+  span:first-child {
+    text-align: left;
+  }
+}
+
+.TextWithInfoIcon {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+}
+
+.Inline {
+  display: flex;
+  flex-wrap: nowrap;
+  gap: 4px
+}
+
+.Info {
+  @mixin InfoB;
+  color: $greyA;
+  font-size: 14px;
+  text-align: right;
+}
+
+.Bold {
+  font-weight: 700;
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  min-height: 220px;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 175px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

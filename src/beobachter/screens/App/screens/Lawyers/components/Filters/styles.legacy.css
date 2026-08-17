@@ -1,0 +1,84 @@
+.Filters {
+  margin-bottom: $margin32;
+}
+
+.FiltersWrapper {
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    gap: $margin16;
+  }
+}
+
+.CustomFilters {
+  margin-block: $margin16;
+}
+
+.FilterTitle {
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 140%;
+  text-transform: uppercase;
+}
+
+.FiltersList {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin4;
+}
+
+.FilterButton {
+  background: transparent;
+  border: 1px solid $grey30;
+  border-radius: $defaultRadius;
+  cursor: pointer;
+  padding: $margin4 $margin8;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      background: $greenLight;
+      border-color: $green;
+      color: $greenDark;
+    }
+  }
+}
+
+.Active {
+  background: $green;
+  border-color: $green;
+  color: $white;
+
+  &:hover {
+    background: $green;
+    color: $white;
+  }
+}
+
+.Input[type='text'] {
+  appearance: none;
+  background-color: $white;
+  border: none;
+  font-size: 1.6rem;
+  height: 100%;
+  padding: 0;
+  width: 210px;
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom: 1px solid $grey70;
+  }
+
+  &::placeholder {
+    color: $grey70;
+    opacity: 1;
+  }
+}
+
+.ClearButton {
+  composes: TextButton from 'helpers.legacy.css';
+
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.2rem;
+}

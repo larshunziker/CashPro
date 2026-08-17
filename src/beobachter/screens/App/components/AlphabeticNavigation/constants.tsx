@@ -1,0 +1,1 @@
+export const ALPHABETIC_NAVIGATION_THEME_RED = 'ThemeRed';

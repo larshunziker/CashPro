@@ -1,0 +1,19 @@
+{
+  "id": "YXV0aG9yOjk1NDY=",
+  "name": "Max Muster",
+  "description": "<p>Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert.</p> Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+  "imageParagraph": {
+    "image": {
+      "file": {
+        "alt": "max",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/portrait2014.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "__typename": "Author"
+}

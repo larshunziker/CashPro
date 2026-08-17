@@ -1,0 +1,90 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-bottom: 2.5rem;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+
+  /* required because otherwise infogram embeds are rendered with a width of 0px?! */
+  & > div {
+    width: 100%;
+  }
+
+  & :is(h1, h2, h3, h4, h5, h6, span, p) {
+    align-self: flex-start;
+  }
+
+  &.WrapperNoOverflow {
+    overflow: visible;
+  }
+}
+
+.Placeholder {
+  border-radius: 4px;
+  box-shadow: rgb(0 0 0 / 50%) 0 0 1px 0, rgb(0 0 0 / 15%) 0 1px 10px 0;
+  color: $smokeyWhite;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 200px;
+  margin: 1px;
+  padding: 0;
+  text-align: center;
+  width: calc(100% - 2px);
+}
+
+:global(.embedded-embed-default) iframe {
+  @media (max-width: $xsBreakpointTo) {
+    width: 100%;
+  }
+}
+
+:global(.mobile-hidden) {
+  display: none !important; /* stylelint-disable-line */
+  @media (min-width: $smBreakpoint) {
+    display: inline-block !important; /* stylelint-disable-line */
+  }
+}
+
+:global(.desktop-hidden) {
+  display: inline-block !important; /* stylelint-disable-line */
+  @media (min-width: $smBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+/* #piano-placeholder-embed must match PIANO_PLACEHOLDER_EMBED_ID in src/beobachter/shared/helpers/replaceEmbedWithPianoPlaceholder.tsx */
+:global(#piano-placeholder-embed:not(:empty)) {
+  height: 100%;
+  left: 0;
+  min-height: 350px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1;
+
+  :global(.tp-container-inner) {
+    left: 0;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    z-index: 1;
+  }
+
+  &::after {
+    backdrop-filter: blur(2px);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    @media (prefers-reduced-motion: reduce) {
+      backdrop-filter: none;
+    }
+  }
+}

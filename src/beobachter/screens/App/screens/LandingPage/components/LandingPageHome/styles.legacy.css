@@ -1,0 +1,3 @@
+.Wrapper {
+  composes: Wrapper from '../LandingPageDefault/styles.legacy.css';
+}

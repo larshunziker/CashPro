@@ -1,0 +1,78 @@
+.AdSlot {
+  @mixin hideforPrint;
+  display: block;
+  line-height: 0;
+  text-align: center;
+
+  a {
+    display: inline-block;
+
+    * {
+      line-height: 1;
+    }
+  }
+}
+
+:global(.ad-wrapper) {
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-mobile):not(:global(.ad-wrapper-tabletDesktop)) {
+    display: flex;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-tabletDesktop):not(:global(.ad-wrapper-mobile)) {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+    }
+  }
+} 
+
+/* TABLET-DESKTOP: stylings for each placement name */
+
+.IAV1 {
+  position: relative;
+  z-index: calc($zIndexHeaderAd - 1);
+}
+
+.WB1 {
+  height: 1px;
+  transition: height 0.4s;
+
+  & > * {
+    box-sizing: content-box;
+  }
+
+  &:global(.adm-loaded) {
+    height: auto;
+    padding: 20px 0 0;
+  }
+}
+
+.SBA1 {
+  &:global(.adm-loaded) {
+    border: 1px solid $neutralG;
+    display: inline-block !important; /* stylelint-disable-line */
+  }
+}
+
+/* MOBILE: stylings for each placement name */
+
+.MMR1 {
+  height: 0;
+  transition: height 0.4s;
+
+  & > * {
+    box-sizing: content-box;
+  }
+
+  &:global(.adm-loaded) {
+    height: auto;
+    padding: 10px 0;
+  }
+}

@@ -1,0 +1,115 @@
+.Wrapper {
+  margin-bottom: 20px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.WrapperSY {
+  text-align: center;
+}
+
+.HeadingCatch3 {
+  display: block;
+}
+
+.HeadingCatch3SI {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+  margin-bottom: $margin4;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 13px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+.HeadingCatch3SY {
+  composes: HeadingCatch3SY from 'typographySY.legacy.css';
+  margin-bottom: 5px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.ShortTitleWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 7px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  .HeadingCatch3 {
+    margin-bottom: 0;
+    margin-top: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 20px;
+      margin-top: 0;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: 25px;
+    }
+  }
+
+  &SY {
+    .BadgeWrapper {
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+}
+
+.Heading1ASI {
+  composes: Heading1A from 'typography.legacy.css';
+  margin-bottom: 5px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 15px;
+  }
+}
+
+.Heading1ASY {
+  composes: Heading1ASY from 'typographySY.legacy.css';
+  margin-bottom: $margin4;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+.Lead1SI {
+  composes: Lead1 from 'typography.legacy.css';
+}
+
+.Lead1SY {
+  composes: Lead1SY from 'typographySY.legacy.css';
+}

@@ -1,0 +1,83 @@
+{
+  "id": "bm9kZToxOTQ5Nw==",
+  "title": "blog",
+  "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-6",
+  "shortTitle": "blog",
+  "badgeLabel": null,
+  "badgeColor": null,
+  "hasVideo": false,
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybTo1Njk0",
+    "channelType": "blog",
+    "authors": {
+      "edges": [
+        {
+          "node": {
+            "id": "YXV0aG9yOjk1NDY=",
+            "name": "Roman Zanettin",
+            "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+            "imageParagraph": {
+              "image": {
+                "file": {
+                  "alt": "roman",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/portraitchannelauthor.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        }
+      ],
+      "__typename": "AuthorConnection"
+    },
+    "__typename": "Channel"
+  },
+  "authors": {
+    "edges": [
+      {
+        "node": {
+          "id": "YXV0aG9yOjk1NDY=",
+          "name": "Roman Zanettin",
+          "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+          "imageParagraph": {
+            "image": {
+              "file": {
+                "alt": "roman",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/portraitauthor.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Author"
+        },
+        "__typename": "AuthorEdge"
+      }
+    ],
+    "__typename": "AuthorConnection"
+  },
+  "teaserImage": {
+    "id": "test1234",
+    "image": {
+      "file": {
+        "alt": "props to stephan",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "__typename": "Article"
+}

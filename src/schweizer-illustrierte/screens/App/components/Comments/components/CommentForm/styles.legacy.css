@@ -1,0 +1,63 @@
+.InputField {
+  background: $white;
+  padding: 24px 12px;
+}
+
+.Label {
+  transform: translate(10px, 10px);
+}
+
+.LabelAbove {
+  transform: scale(0.7) translateY(-125%);
+}
+
+.Button {
+  border: none;
+  margin: 30px 0 0;
+  max-width: 280px;
+  width: auto;
+
+  &[disabled] {
+    opacity: 0.6;
+    transition: opacity 0.3s ease-in-out;
+  }
+}
+
+.ButtonWrapper {
+  text-align: right;
+}
+
+.SuccessWrapper {
+  align-items: center;
+  border: 1px solid $redA;
+  display: flex;
+  margin-top: $margin40;
+  text-align: center;
+}
+
+.SuccessTitle {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+  background-color: $redA;
+  color: $white;
+  padding-bottom: 30px;
+  padding-top: 30px;
+}
+
+.SuccessContent {
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 25px;
+  width: 100%;
+}
+
+.SuccessMessage {
+  composes: Paragraph from 'typography.legacy.css';
+  padding: 0 21px;
+}
+
+.SuccessIcon {
+  color: $redA;
+  display: block;
+  font-size: 6rem;
+  padding: 15px 0 20px;
+}

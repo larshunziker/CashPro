@@ -1,0 +1,55 @@
+.Wrapper {
+  composes: Wrapper from '../Restaurants/styles.legacy.css';
+}
+
+.Header {
+  composes: Header from '../Restaurants/styles.legacy.css';
+  background: none;
+  color: $neutralA;
+
+  &::after {
+    @media (min-width: $smBreakpoint) {
+      left: calc(25px / 2);
+      max-width: calc(100% - 25px);
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      left: calc(25px / 2);
+      max-width: calc(100% - 25px);
+    }
+  }
+}
+
+.Lead {
+  composes: Lead from 'Restaurants/styles.legacy.css';
+}
+
+.HeaderTitle {
+  composes: HeaderTitle from 'Restaurants/styles.legacy.css';
+}
+
+.FilterItemsList {
+  padding: 10px 0 50px;
+}
+
+.FilterItem {
+  /* stylelint-disable */
+  background: $neutralA;
+  background-clip: text !important;
+  display: block;
+  font-family: $fontActaDisplay;
+  font-size: 2.4rem;
+  letter-spacing: 0.27px;
+  line-height: 4rem;
+  -webkit-text-fill-color: transparent;
+  /* stylelint-enable */
+
+  &.Active,
+  &:hover {
+    background: $gradientPrimaryA;
+
+    &::after {
+      background: $gradientPrimaryA;
+    }
+  }
+}

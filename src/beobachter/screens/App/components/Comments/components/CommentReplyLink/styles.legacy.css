@@ -1,0 +1,28 @@
+.Reply {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: $redA;
+  cursor: pointer;
+  display: flex;
+  font: bold 1.4rem/1.21 $fontSpezia;
+  margin: 21px 0;
+  outline: 0;
+  padding: 0;
+}
+
+.Icon {
+  font-size: 2rem;
+  margin-bottom: -5px;
+  margin-left: 5px;
+  padding-left: 6px;
+}
+
+.IconChevronUp,
+.IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}

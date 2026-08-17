@@ -1,0 +1,44 @@
+{
+  "id": "dGF4b25vbXlfdGVybTo1Njk0",
+  "title": "Sale, pepe e pomodori",
+  "preferredUri": "/taxonomy/term/5694",
+  "showOnBlogsOverview": true,
+  "landingPage": {
+    "id": "bm9kZToxOTQ4OQ==",
+    "title": "Sale, pepe e pomodori",
+    "lead": "royals",
+    "preferredUri": "/blogs/sale-pepe-e-pomodori",
+    "__typename": "LandingPage"
+  },
+  "settings": {
+    "lead": "Moderatorin Zoe Torinesi tauscht regelmässig Mikrofon gegen Kochlöffel.",
+    "__typename": "TermSettings"
+  },
+  "authors": {
+    "edges": [
+      {
+        "node": {
+          "id": "YXV0aG9yOjk1NjI=",
+          "name": "Zoe Torinesi",
+          "imageParagraph": {
+            "image": {
+              "file": {
+                "alt": "zoe",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/zoe.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Author"
+        },
+        "__typename": "AuthorEdge"
+      }
+    ],
+    "__typename": "AuthorConnection"
+  },
+  "__typename": "Channel"
+}

@@ -1,0 +1,15 @@
+.Message {
+  composes: Paragraph from 'typography_old.legacy.css';
+  margin-bottom: 23px;
+  padding: 30px 21px 0;
+  text-align: center;
+}
+
+.Button {
+  border: none;
+  cursor: pointer;
+  display: inline-block;
+  max-width: initial;
+  padding-bottom: 30px;
+  width: 100%;
+}

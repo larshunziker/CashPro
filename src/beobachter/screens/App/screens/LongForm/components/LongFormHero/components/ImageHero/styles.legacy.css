@@ -1,0 +1,52 @@
+.HeroImage {
+  position: relative;
+
+  @media screen (max-width: $xsBreakpointTo) {
+    margin-left: -22px;
+    width: calc(100% + 44px);
+  }
+
+  @media print {
+    text-align: center;
+
+    & img {
+      max-height: 300px;
+      width: auto;
+    }
+  }
+}
+
+.Caption {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  p {
+    display: inline;
+  }
+
+  @media print {
+    text-align: center;
+  }
+}
+
+.ArticleImageCredit {
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 140%;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}

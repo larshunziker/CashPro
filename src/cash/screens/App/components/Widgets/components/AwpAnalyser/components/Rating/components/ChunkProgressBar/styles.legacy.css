@@ -1,0 +1,42 @@
+.RainbowWrapper {
+  background: linear-gradient(270deg, #107b8e 0.2%, #b0d5dc 100%);
+  border-radius: 4px;
+  height: 18px;
+  margin-bottom: $margin8;
+  position: relative;
+  width: 100%;
+}
+
+.Point {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  border-top: 12px solid $secondaryB;
+  height: 14px;
+  left: 0;
+  position: absolute;
+  top: -12px;
+  width: 19px;
+}
+
+.PointLabel {
+  composes: InfoABold from '../../../../../../../../assets/styles/typography.legacy.css';
+  left: 0;
+  position: absolute;
+  top: -38px;
+
+  > span {
+    left: -40%;
+    position: relative;
+    white-space: nowrap;
+  }
+}
+
+.LabelWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $margin8;
+}
+
+.Label {
+  composes: DataTable from '../../../../../../../../assets/styles/typography.legacy.css';
+}

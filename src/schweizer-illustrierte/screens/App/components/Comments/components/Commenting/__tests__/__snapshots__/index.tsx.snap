@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Commenting Should generate Commenting styles correctly when isCommentingVisible is $isFormVisible for username  1`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "InnerWrapper StatusWrapperVisible",
+  "Title": "Title",
+  "Wrapper": "Wrapper isOpen",
+}
+`;
+
+exports[`[Component] Commenting Should generate Commenting styles correctly when isCommentingVisible is $isFormVisible for username  2`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "InnerWrapper StatusWrapper",
+  "Title": "Title",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Commenting Should generate Commenting styles correctly when isCommentingVisible is $isFormVisible for username testusername 1`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "StatusWrapperVisible",
+  "Title": "Title",
+  "Wrapper": "Wrapper isOpen",
+}
+`;
+
+exports[`[Component] Commenting Should generate Commenting styles correctly when isCommentingVisible is $isFormVisible for username testusername 2`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "StatusWrapper",
+  "Title": "Title",
+  "Wrapper": "Wrapper",
+}
+`;

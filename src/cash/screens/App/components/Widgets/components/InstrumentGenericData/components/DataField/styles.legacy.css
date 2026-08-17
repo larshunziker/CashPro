@@ -1,0 +1,18 @@
+.Skeleton {
+  margin-bottom: 3px;
+  min-height: 19px;
+  width: 50px;
+}
+
+.ValueWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}
+
+.Value {
+  composes: DataTable from 'typography.legacy.css';
+  color: $blackB;
+  font-size: 1rem;
+  min-height: 20px;  /* cls */
+}

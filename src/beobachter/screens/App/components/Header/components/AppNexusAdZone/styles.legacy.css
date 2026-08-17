@@ -1,0 +1,13 @@
+.Wrapper {
+  @mixin hideforPrint;
+  margin-bottom: 0 !important; /* stylelint-disable-line */
+  overflow: hidden; /* hide ad if we switch from small to big leaderboard */
+
+  @media print {
+    display: none;
+  }
+}
+
+.InnerWrapper {
+  composes: Container from '@grid.legacy.css';
+}

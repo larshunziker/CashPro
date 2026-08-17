@@ -1,0 +1,22 @@
+#!/usr/bin/env groovy
+
+multibranchPipelineJob('rasch-stack') {
+    displayName('rasch-stack cicd')
+    branchSources {
+        github {
+            id('rasch-stack') // IMPORTANT: use a constant and unique identifier
+            repoOwner('rasch-dtc')
+            repository('rasch-stack')            
+            scanCredentialsId('poleposition-jenkins-github-secret')
+            buildOriginPRMerge(true)
+            buildForkPRMerge(true)
+            buildOriginBranch(true)
+            buildOriginBranchWithPR(false)
+        }
+    }
+    orphanedItemStrategy {
+        discardOldItems {
+            numToKeep(20)
+        }
+    }
+}

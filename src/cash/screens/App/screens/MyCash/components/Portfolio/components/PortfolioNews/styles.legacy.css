@@ -1,0 +1,11 @@
+.PortfolioNewsWrapper {
+
+  @media (min-width: $xlBreakpoint) {
+    width: 50%;
+  }
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: 16px;
+}

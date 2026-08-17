@@ -1,0 +1,41 @@
+.LoadingIndicator {
+  background-color: $transparent;
+  height: 2px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexOverlay;
+}
+
+.LoadingIndicatorItem {
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-name: movement;
+  height: 3px;
+  position: absolute;
+  transform: translateX(-50%);
+  transform-origin: center top;
+  width: 100%;
+  will-change: transform;
+}
+
+.LoadingIndicatorItem:last-child {
+  animation-delay: 0.5s;
+}
+
+@keyframes movement {
+  from {
+    transform: translateX(-50%);
+  }
+
+  to {
+    transform: translateX(100%);
+  }
+}
+
+.LoadingBar {
+  animation-timing-function: cubic-bezier(0.01, 0.02, 0.43, 0.97);
+  background-color: $blackB;
+  height: 3px;
+  width: 50%;
+}

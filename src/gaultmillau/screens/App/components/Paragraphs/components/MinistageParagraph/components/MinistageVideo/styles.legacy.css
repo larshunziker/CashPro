@@ -1,0 +1,7 @@
+.Wrapper {
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 13px 0;
+  }
+}

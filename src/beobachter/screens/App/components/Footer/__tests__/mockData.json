@@ -1,0 +1,38 @@
+{
+  "id": "bWVudTpiZW8tZm9vdGVyLXByaW1hcnk=",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "link": {
+            "description": null,
+            "label": "Guider",
+            "path": "https://www.guider.ch",
+            "routed": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "description": null,
+            "label": "Alex",
+            "path": "https://www.alex.ch",
+            "routed": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "description": null,
+            "label": "Greg",
+            "path": "https://www.greg.ch",
+            "routed": false
+          }
+        }
+      }
+    ]
+  },
+  "name": "BEO Footer (Primär)"
+}

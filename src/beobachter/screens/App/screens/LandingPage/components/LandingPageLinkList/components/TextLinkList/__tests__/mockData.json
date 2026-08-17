@@ -1,0 +1,541 @@
+{
+  "items": {
+    "count": 45,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZTo1MDIzNg==",
+          "title": "Test for RDP-1233 by MG",
+          "lead": "Test for RDP-1233 by MG",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": "RDP-1233",
+          "publicationDate": "2021-12-15T10:54:41+01:00",
+          "preferredUri": "/arbeit/rdp-1233-test-for-rdp-1233-by-mg",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOmJlb2JhY2h0ZXJfZmFsbGJhY2s6bmV3LXNscHkwejRu",
+            "title": null,
+            "image": {
+              "id": "40828",
+              "file": {
+                "id": "ZmlsZTo0MDg1NDo6OTAwLDU0MDpsYXJnZTo=",
+                "alt": "fallback",
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo1MDExNQ==",
+          "title": "email alert test on BEO",
+          "lead": "asdlaksjflsdkfjsdlfks",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-12-02T15:38:45+01:00",
+          "preferredUri": "/arbeit/email-alert-test-on-beo",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxNTUxNDoyOTM3NjI=",
+            "title": null,
+            "image": {
+              "id": "70623",
+              "file": {
+                "id": "ZmlsZTo3MTY4Mzo6ODAwLDIwMDpsYXJnZTo=",
+                "alt": "Les NFT : de l’absurde à la révolution",
+                "relativeOriginPath": "/pme/blogs/2021-11-19/singe_nft_small.jpg",
+                "focalPointX": 800,
+                "focalPointY": 200,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTcwMA==",
+          "title": "Listicle Paragraph",
+          "lead": "lead of the listicle Paragraph",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": "listicle items",
+          "publicationDate": "2021-10-27T14:43:15+02:00",
+          "preferredUri": "/arbeit/listicle-items-listicle-paragraph",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxNDU5NDoyOTEzNTM=",
+            "title": null,
+            "image": {
+              "id": "70348",
+              "file": {
+                "id": "ZmlsZTo3MTE2NTo6NzcwLDU3NzpsYXJnZTo=",
+                "alt": "L’économie circulaire, on s’y met ?",
+                "relativeOriginPath": "/pme/blogs/2021-08-31/pontons-cologny-web-6.jpeg",
+                "focalPointX": 770,
+                "focalPointY": 577,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTQyNw==",
+          "title": "test alert for Jan",
+          "lead": "lead",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-09-13T09:09:26+02:00",
+          "preferredUri": "/arbeit/test-alert-for-jan",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzkxODoyODk3NDc=",
+            "title": null,
+            "image": {
+              "id": "70353",
+              "file": {
+                "id": "ZmlsZTo3MTE3MDo6NzIwLDM5MTpsYXJnZTo=",
+                "alt": "Voitures électriques : mythes et interrogations",
+                "relativeOriginPath": "/pme/blogs/2021-08-31/istock-902705820-2.jpg",
+                "focalPointX": 720,
+                "focalPointY": 391,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTQyNg==",
+          "title": "new test alert article",
+          "lead": "lead",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-09-13T08:48:39+02:00",
+          "preferredUri": "/arbeit/new-test-alert-article",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzkxNjoyODk3NDU=",
+            "title": null,
+            "image": {
+              "id": "70352",
+              "file": {
+                "id": "ZmlsZTo3MTE2OTo6OTYwLDY0MDpsYXJnZTo=",
+                "alt": "La mobilité électrique: une solution d’avenir ?",
+                "relativeOriginPath": "/pme/blogs/2021-08-31/1.jpg",
+                "focalPointX": 960,
+                "focalPointY": 640,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTQxNA==",
+          "title": "Article for keyword test",
+          "lead": "lead",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-09-01T10:09:32+02:00",
+          "preferredUri": "/arbeit/article-for-keyword-test",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzg5NToyODk1ODM=",
+            "title": null,
+            "image": {
+              "id": "70351",
+              "file": {
+                "id": "ZmlsZTo3MTE2ODo6MjU0LDE3MDpsYXJnZTo=",
+                "alt": "Fusion d’assainissement – futur art. 6 LFus – modifications et implications",
+                "relativeOriginPath": "/pme/blogs/2021-08-31/istockphoto-468340908-170667a.jpg",
+                "focalPointX": 254,
+                "focalPointY": 170,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTM5OA==",
+          "title": "test alerrt",
+          "lead": "asdad",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-08-27T17:20:24+02:00",
+          "preferredUri": "/arbeit/test-alerrt",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzg1NToyODk0Njg=",
+            "title": null,
+            "image": {
+              "id": "70333",
+              "file": {
+                "id": "ZmlsZTo3MTE0Nzo6MzA2LDE2NjpsYXJnZTo=",
+                "alt": "Comment procéder simplement pour établir la stratégie d’une entreprise?",
+                "relativeOriginPath": "/pme/blogs/2021-08-16/cockpit.jpg",
+                "focalPointX": 306,
+                "focalPointY": 166,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTM2MQ==",
+          "title": "Article with Image Galleries",
+          "lead": "This is a test article with image gallery as hero element and in the content",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-08-05T13:06:39+02:00",
+          "preferredUri": "/arbeit/article-with-image-galleries",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjE5ODc2NToyNTE3MDA=",
+            "title": null,
+            "image": {
+              "id": "43648",
+              "file": {
+                "id": "ZmlsZTo0NDIyNjo6OTYwLDY0MDpsYXJnZTo=",
+                "alt": "Tesla",
+                "relativeOriginPath": "/tesla_2.jpg",
+                "focalPointX": 960,
+                "focalPointY": 640,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTM1OA==",
+          "title": "testing keyword alert",
+          "lead": "lead",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-08-03T09:29:20+02:00",
+          "preferredUri": "/arbeit/testing-keyword-alert",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOmJlb2JhY2h0ZXJfZmFsbGJhY2s6bmV3LXhTb2habXRQ",
+            "title": null,
+            "image": {
+              "id": "40828",
+              "file": {
+                "id": "ZmlsZTo0MDg1NDo6OTAwLDU0MDpsYXJnZTo=",
+                "alt": "fallback",
+                "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                "focalPointX": 900,
+                "focalPointY": 540,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTEzMA==",
+          "title": "tessst webform",
+          "lead": "r",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-07-02T17:17:38+02:00",
+          "preferredUri": "/arbeit/tessst-webform",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzczOToyODgyNzk=",
+            "title": null,
+            "image": {
+              "id": "70323",
+              "file": {
+                "id": "ZmlsZTo3MTEzMTo6MjIwMiwxNDcyOmxhcmdlOg==",
+                "alt": "Tesla Model Y",
+                "relativeOriginPath": "/tesla_model_y.jpg",
+                "focalPointX": 2202,
+                "focalPointY": 1472,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTE2MQ==",
+          "title": "websecurity article",
+          "lead": "websecurity",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-05-18T09:58:33+02:00",
+          "preferredUri": "/arbeit/websecurity-article",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzEyNToyODM3MTY=",
+            "title": null,
+            "image": {
+              "id": "70180",
+              "file": {
+                "id": "ZmlsZTo3MDk5Mzo6NzAwLDQ2ODpsYXJnZTo=",
+                "alt": "hacker",
+                "relativeOriginPath": "/hacker.jpeg",
+                "focalPointX": 700,
+                "focalPointY": 468,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTE2Mw==",
+          "title": "Article with tables",
+          "lead": "tables tables",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-05-10T09:59:22+02:00",
+          "preferredUri": "/arbeit/article-with-tables",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMzE0MToyODgzMzA=",
+            "title": null,
+            "image": {
+              "id": "70180",
+              "file": {
+                "id": "ZmlsZTo3MDk5Mzo6NzAwLDQ2ODpsYXJnZTo=",
+                "alt": "hacker",
+                "relativeOriginPath": "/hacker.jpeg",
+                "focalPointX": 700,
+                "focalPointY": 468,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo0OTA3NQ==",
+          "title": "DATE-PICKER Webform BEO",
+          "lead": "asf asf asf asdf asf asfsad sfas",
+          "subtypeValue": "ratgeber_aktuell",
+          "shortTitle": null,
+          "publicationDate": "2021-02-22T10:35:47+01:00",
+          "preferredUri": "/arbeit/date-picker-webform-beo",
+          "restrictionStatus": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDE5",
+            "title": "Arbeit",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxMjg0MDoyNzYyODE=",
+            "title": null,
+            "image": {
+              "id": "70121",
+              "file": {
+                "id": "ZmlsZTo3MDkxNTo6NzUwLDI1ODpsYXJnZTo=",
+                "alt": "Rosa Parks",
+                "relativeOriginPath": "/ile/blogs/2021-02-05/cropped-technology-792180_1920-1.jpg",
+                "focalPointX": 750,
+                "focalPointY": 258,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  }
+}

@@ -1,0 +1,106 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Article Lead LegalAdvice Should render correctly 1`] = `
+<div>
+  <div
+    class="article-lead-legal-advice Wrapper"
+    data-testid="article-lead-legal-advice-wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24"
+      >
+        <span
+          class="ShortTitle"
+          data-testid="article-lead-legal-advice-short-title-wrapper"
+          id="anchor_tag_short_title"
+        >
+          <div
+            class="Badge"
+          >
+            Rechtsratgeber
+          </div>
+          Test shorttitle
+        </span>
+        <h1
+          class="Title"
+          id="anchor_tag_title"
+        >
+          Ratgeber Artikel
+        </h1>
+        <p
+          class="Lead"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Article Lead LegalAdvice Should render no shortTitle if shortTitle and subtypeValue are not set 1`] = `
+<div>
+  <div
+    class="article-lead-legal-advice Wrapper"
+    data-testid="article-lead-legal-advice-wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24"
+      >
+        <h1
+          class="Title"
+          id="anchor_tag_title"
+        >
+          Ratgeber Artikel
+        </h1>
+        <p
+          class="Lead"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Article Lead LegalAdvice Should render subtypeValue fallback if no shortTitle given 1`] = `
+<div>
+  <div
+    class="article-lead-legal-advice Wrapper"
+    data-testid="article-lead-legal-advice-wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24"
+      >
+        <span
+          class="ShortTitle"
+          data-testid="article-lead-legal-advice-short-title-wrapper"
+          id="anchor_tag_short_title"
+        >
+          <div
+            class="Badge"
+          >
+            Rechtsratgeber
+          </div>
+          Grundlage
+        </span>
+        <h1
+          class="Title"
+          id="anchor_tag_title"
+        >
+          Ratgeber Artikel
+        </h1>
+        <p
+          class="Lead"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

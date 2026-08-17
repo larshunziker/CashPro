@@ -1,0 +1,26 @@
+.SkeletonWrapper {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.SkeletonItem {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyC;
+  width: 100%;
+}
+
+.SkeletonLink {
+  display: flex;
+  margin-bottom: 16px;
+
+  div {
+    height: 35px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

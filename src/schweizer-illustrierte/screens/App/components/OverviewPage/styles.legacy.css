@@ -1,0 +1,11 @@
+.HeroWrapper {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}

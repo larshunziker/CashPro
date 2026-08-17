@@ -1,0 +1,48 @@
+{
+  "sectionParagraphs": [
+    {
+      "id": "180951",
+      "anchorId": null,
+      "title": "First",
+      "body": [
+        {
+          "anchorId": null,
+          "id": "180949",
+          "header": "Erster",
+          "text": "\u003Cp\u003EPremier\u003C/p\u003E\n",
+          "__typename": "TextParagraph"
+        },
+        {
+          "anchorId": null,
+          "id": "180950",
+          "header": null,
+          "text": "\u003Cp\u003EDeuxiem\u003C/p\u003E\n",
+          "__typename": "TextParagraph"
+        }
+      ],
+      "__typename": "SectionParagraph"
+    },
+    {
+      "id": "180954",
+      "anchorId": null,
+      "title": "Second",
+      "body": [
+        {
+          "anchorId": null,
+          "id": "180952",
+          "header": "Erschte",
+          "text": "\u003Cp\u003EPremier\u003C/p\u003E\n",
+          "__typename": "TextParagraph"
+        },
+        {
+          "anchorId": null,
+          "id": "180953",
+          "header": "ZWeite",
+          "text": "\u003Cp\u003EDeuxieme\u003C/p\u003E\n",
+          "__typename": "TextParagraph"
+        }
+      ],
+      "__typename": "SectionParagraph"
+    }
+  ]
+}

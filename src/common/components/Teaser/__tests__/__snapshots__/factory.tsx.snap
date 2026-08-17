@@ -1,0 +1,1294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Teaser factory Should render factory as skeleton teaser 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper"
+      data-testid="teaser-factory-anchor-link-wrapper"
+    >
+      <section
+        class="SkeletonWrapper"
+      >
+        <div
+          class="ContentWrapper SkeletonContentWrapper"
+        >
+          <div
+            class="ShortTitle SkeletonShortTitle"
+          >
+             
+          </div>
+          <div
+            class="Title SkeletonTitle"
+          >
+             
+          </div>
+        </div>
+      </section>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render factory with auto hyphens option 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ContentWrapper AutoHyphens"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render the link.path instead of the preferredUri 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="https://www.beobachter.ch"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 0 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="beobachter Logo"
+              class="beobachter"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 1 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="bilanz Logo"
+              class="bilanz"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 2 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="schweizer_illustrierte Logo"
+              class="schweizer_illustrierte"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 3 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="gault_millau Logo"
+              class="gault_millau"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 4 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="gault_millau_fr Logo"
+              class="gault_millau_fr"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 5 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="handelszeitung Logo"
+              class="handelszeitung"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 6 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="schweizer_versicherung Logo"
+              class="schweizer_versicherung"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 7 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <img
+              alt="hz_banking Logo"
+              class="hz_banking"
+              src="SvgrURL"
+            />
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 8 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 9 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publication Logo 10 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (custom formatted date) 0 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="20.06.2019"
+              >
+                20.06.2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (custom formatted date) 1 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="01.02.2018"
+              >
+                01.02.2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (custom formatted date) 2 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="01.07.2019"
+              >
+                01.07.2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (custom formatted date) 3 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (custom formatted date) 4 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div />
+          <div />
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?
+            <span>
+               Mehr...
+            </span>
+          </div>
+          <div />
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (default date "am dd.mm.yyyy") 0 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead
+            <span>
+               More...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="20.06.2019"
+              >
+                am 20.06.2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (default date "am dd.mm.yyyy") 1 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead
+            <span>
+               More...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="01.02.2018"
+              >
+                am 01.02.2018
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (default date "am dd.mm.yyyy") 2 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead
+            <span>
+               More...
+            </span>
+          </div>
+          <div>
+            <div>
+              <span
+                title="01.07.2019"
+              >
+                am 01.07.2019
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (default date "am dd.mm.yyyy") 3 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead
+            <span>
+               More...
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Teaser factory Should render with the correct publicationDate (default date "am dd.mm.yyyy") 4 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper"
+        data-testid="mocked-link"
+        href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <img
+            alt=""
+            data-testid="mocked-picture"
+            src="/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+          />
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitle"
+          >
+            Beauty-Trend
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Diese In-Frisur katapultiert uns zurück in die 80s
+            </span>
+          </div>
+          <div>
+            Das ist der Lead
+            <span>
+               More...
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

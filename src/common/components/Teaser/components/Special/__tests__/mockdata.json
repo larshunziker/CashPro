@@ -1,0 +1,95 @@
+{
+  "id": "bm9kZToxOTUwNQ==",
+  "title": "Traumdestination Karibik",
+  "lead": null,
+  "shortTitle": "Frühling 2018",
+  "preferredUri": "/traumdestination-karibik",
+  "teaserImage": {
+    "id": "180108",
+    "image": {
+      "file": {
+        "alt": "Steff la Chef",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/steff_la_chef.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "channel": {
+    "id": "test1234",
+    "sponsor": {
+      "id": "bm9kZToxOTUwNg==",
+      "title": "Tui",
+      "colorCode": "rgb(112, 203, 244, 1)",
+      "teaserImage": {
+        "id": "179970",
+        "caption": null,
+        "image": {
+          "file": {
+            "alt": "Tui",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/tui.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      "__typename": "Sponsor"
+    },
+    "channelType": "special",
+    "special": {
+      "id": "dGF4b25vbXlfdGVybTo1Njk2",
+      "title": "Travel",
+      "format": "portrait",
+      "colorCode": "rgba(20, 190, 165, 1.0);",
+      "logo": {
+        "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/2018-12/Travel.svg",
+        "__typename": "File"
+      },
+      "__typename": "Special"
+    },
+    "partners": {
+      "count": 2,
+      "edges": [
+        {
+          "node": {
+            "title": "Partner A",
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        },
+        {
+          "node": {
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        },
+        {
+          "node": {
+            "title": "Partner B",
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        }
+      ],
+      "__typename": "SponsorConnection"
+    },
+    "__typename": "Channel"
+  },
+  "styles": {
+    "Wrapper": ".SampleWrapperClass",
+    "Image": ".SampleImageClass",
+    "ImageWrapper": ".SampleImageWrapperClass",
+    "Title": ".SampleTitleClass",
+    "ShortTitle": ".SampleShortTitleClass",
+    "ContentWrapper": ".SampleContentWrapperClass",
+    "SpecialWrapper": ".SampleSpecialWrapperClass",
+    "PartnerWrapper": ".SamplePartnerWrapperClass",
+    "SponsorWrapper": ".SampleSponsorWrapperClass"
+  }
+}

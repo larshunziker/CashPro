@@ -1,0 +1,250 @@
+{
+  "origin": "articleDefault",
+  "pageBody": [
+    {
+      "header": null,
+      "styleValue": "info_box",
+      "text": "<p>Das Telefon klingelt. «Bonjour!» Die ehemalige Première Dame ist am Apparat. Ich weiss gar nicht, wie ich sie nennen soll. Frau Bruni? Oder Frau <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Carla_Bruni\">Sarkozy</a>? Wir einigen uns auf Bruni, ihren Künstlernamen. Was für eine Ehre, mit ihr das Interview zu führen. «Ganz meinerseits», sagt sie. Ich bin geschmeichelt.</p>\n\n<p><strong>Madame Bruni, Sie kommen für die Credit Suisse Sports Awards nach Zürich. Kennen Sie die Schweiz?</strong> Meine Eltern haben lange Zeit in der Schweiz gewohnt. Meine Mama lebt jetzt noch mit meiner Tante in einer Wohnung in Crans-Montana. Sie sind 87 und 91 Jahre alt und, sehr glücklich dort.</p>\n\n<p><strong>Treiben Sie als Ex-Model Sport?</strong> Ja, mindestens eineinhalb Stunden am Tag. Ich mache Cardio, ein bisschen Muskeltraining, Yoga und Pilates. <strong>Satz in Bold (ParagraphBold)</strong></p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "header": null,
+      "styleValue": null,
+      "text": "<p><strong>Da bin ich jetzt überrascht. Ich habe gelesen, Sie fänden Sport fürchterlich langweilig.</strong> Nein, nein. Aber manchmal muss ich mich dazu zwingen (lacht). </p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "header": null,
+      "styleValue": null,
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel fugiat nulla dolores ipsa in veritatis optio modi rerum commodi, unde officiis adipisci, suscipit libero enim quidem placeat explicabo, voluptatum perspiciatis nam quod. Ratione dolorum debitis qui, fugit labore cumque maiores?</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "header": null,
+      "styleValue": null,
+      "text": "<p><strong>Schauen Sie Sport im Fernsehen?</strong> Überhaupt nicht! Mein Mann hingegen schaut gerne Fussball. Er ist ein grosser Fan von Paris Saint-Germain.</p>\n\n<p>Sport liegt <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Carla_Bruni\">Carla Bruni-Sarkozy</a> also nicht, Musik aber schon. Mit elf Jahren bekam sie ihre erste Gitarre, und 15 Jahre ist es nun her seit ihrem Debütalbum. Für ihr neues, «French Touch», eine reine Cover-Version mit Songs von Stones, Abba und AC/DC, singt sie zum ersten Mal auf Englisch. Das Experiment scheint gelungen zu sein. Ihr früherer Liebhaber Mick Jagger, schrieb auf Twitter, dass ihm die neue Version seines Lieds «Miss You» gefalle.</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "header": "Und die Moral von der Geschichte",
+      "styleValue": null,
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget nisi ut ex pharetra finibus vitae sed massa. Curabitur erat odio, laoreet sit amet laoreet et, <strong>scelerisque quis risus. Mauris</strong> sagittis metus lorem, a viverra nibh rutrum eu. Integer viverra imperdiet mauris, eu varius mi eleifend sed. Mauris et neque pulvinar, pretium sapien et, elementum augue. Integer varius, ligula quis hendrerit sagittis, neque nisl mollis diam, eget sodales lorem justo sed est. Praesent nec augue vitae justo dictum eleifend nec ac dui. Vivamus sodales commodo est, sit amet mattis sem condimentum eu. Quisque imperdiet felis eu velit facilisis blandit id dapibus leo. Nullam in varius enim. Nulla dignissim scelerisque leo in sodales. Nam gravida, massa quis aliquet dictum, lorem urna consectetur lorem, dignissim pharetra tortor nisi ut massa. Pellentesque placerat, massa non molestie tempor, tellus massa blandit sapien, vitae sagittis sapien ligula sed justo. Nunc elementum, purus quis imperdiet viverra, nulla urna rhoncus odio, sit amet ornare dolor tellus quis lectus.</p>\n\n<p>Nam consequat porta pretium. Integer eu fringilla purus. Phasellus aliquam laoreet mauris, a tincidunt augue lacinia vel. Nullam commodo ut elit vel rhoncus. Sed commodo blandit laoreet. Vivamus elementum at velit tristique hendrerit. Mauris luctus sodales mi nec sollicitudin. Aenean at egestas magna.</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "title": null,
+      "caption": "test",
+      "alt": null,
+      "link": null,
+      "image": {
+        "showOriginal": false,
+        "credit": "ERIK PRZYBILLA",
+        "xxl": {
+          "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/styles/inline_image_1200/public/m85a7886_0.jpg",
+          "width": 778,
+          "height": 496,
+          "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/m85a7886_0.jpg",
+          "__typename": "ImageFile"
+        },
+        "xl": {
+          "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/styles/inline_image_1200/public/m85a7886_0.jpg",
+          "width": 778,
+          "height": 496,
+          "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/m85a7886_0.jpg",
+          "__typename": "ImageFile"
+        },
+        "lg": {
+          "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/styles/inline_image_1200/public/m85a7886_0.jpg",
+          "width": 778,
+          "height": 496,
+          "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/m85a7886_0.jpg",
+          "__typename": "ImageFile"
+        },
+        "md": {
+          "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/styles/inline_image_1200/public/m85a7886_0.jpg",
+          "width": 778,
+          "height": 496,
+          "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/m85a7886_0.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    {
+      "header": null,
+      "styleValue": null,
+      "text": "<p><strong>Fazit</strong>: Die Ergänzungsleistungen fangen die mögliche höhere Rente bei einer Scheidung beinahe auf – und die unschönen Folgen der Scheidung bleiben Ihnen erspart.</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "text": "Die spektakulärsten Bilder des Turniers: Fussball-WM 2018",
+      "source": "Max Muster",
+      "__typename": "BlockquoteParagraph"
+    },
+    {
+      "infoBox": {
+        "style": null,
+        "body": [
+          {
+            "id": "179052",
+            "header": "Welcome to me new Home",
+            "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque ipsum voluptatum quisquam vitae soluta cum, veritatis numquam aliquid similique provident, error quidem libero eaque recusandae ea sequi quia neque rem accusantium maiores! Distinctio ducimus vitae voluptatibus voluptatum veritatis rem deb</p>\n",
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "179053",
+            "format": "landscape",
+            "caption": "Oh my god, look at my new phone",
+            "image": {
+              "credit": "ERIK PRZYBILLA",
+              "file": {
+                "alt": "Sandra versucht seit Anfang Jahr vom Modeln zu leben.",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/m85a7886_0.jpg",
+                "width": 480,
+                "height": 306,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        ],
+        "__typename": "InfoBox"
+      },
+      "__typename": "InfoBoxParagraph"
+    },
+    {
+      "id": "178524",
+      "lead": null,
+      "embedCode": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"de\" dir=\"ltr\">Der geistige Dünschiss beginnt</p>&mdash; megadesk3000 (@megadesk3000) <a href=\"https://twitter.com/megadesk3000/status/22230308749320192?ref_src=twsrc%5Etfw\">January 4, 2011</a></blockquote>\n<embeddedscript async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></embeddedscript>",
+      "header": null,
+      "__typename": "EmbedParagraph"
+    },
+    {
+      "id": "179665",
+      "teasers": {
+        "edges": [
+          {
+            "node": {
+              "__typename": "Product",
+              "title": "Aromachlogie Hitzeschutzspray",
+              "shortTitle": "L'Occitane",
+              "teaserImage": {
+                "id": "179661",
+                "image": {
+                  "file": {
+                    "alt": "Aromachlogie Hitzeschutzspray",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+                  }
+                }
+              },
+              "price": 25,
+              "pricePrefix": "ca.",
+              "link": {
+                "label": "L'Occitane",
+                "path": "https://ch.loccitane.com/aromachologie-hitzschutzspray,78,2,26559,544175.htm?lgw_code=4303-17BD125G14&gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFagScTFA5vYgBUvZJewqGWdu6LiQrSz6hBmT0rsc1JEFL1BADC7vZQaAnHAEALw_wcB"
+              }
+            }
+          },
+          {
+            "node": {
+              "__typename": "Product",
+              "title": "Cream Heat Spray",
+              "shortTitle": "Maria Nila",
+              "teaserImage": {
+                "id": "179662",
+                "image": {
+                  "file": {
+                    "alt": "Cream Heat Spray",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/17901.jpg"
+                  }
+                }
+              },
+              "price": 27,
+              "pricePrefix": "ca.",
+              "link": {
+                "label": "PerfectHair",
+                "path": "https://www.perfecthair.ch/de/haare/haarstyling/hitzeschutz/style-finish-cream-heat-spray?sPartner=GoogleShoppingDE&number=17901&gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFZkIz4goWhdhEbcw5RHgf9VOjGMteJOq934I6kJ7zfQELuFHrGeXIoaAhLcEALw_wcB"
+              }
+            }
+          }
+        ]
+      },
+      "__typename": "TeaserParagraph"
+    },
+    {
+      "ministage": {
+        "name": "Schützen auf der Zielgeraden!",
+        "shortTitle": "Horoskop",
+        "__typename": "MinistageHoroscopes"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "listicleItem": {
+        "anchorId": "ListicleItemAnchor",
+        "id": "181017",
+        "title": "Listicle 1",
+        "text": "Foo",
+        "footer": "Bar",
+        "image": {
+          "id": "181016",
+          "caption": "Image Caption",
+          "image": {
+            "file": {
+              "alt": "Cash",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/cash.jpg"
+            }
+          }
+        },
+        "link": null
+      },
+      "__typename": "ListicleItemParagraph"
+    },
+    {
+      "id": "fkaösdjföasjdfjaksjei",
+      "offerId": "jfaklsödfalskdjf",
+      "templateId": "jffajskldfjalsdjföalskdf",
+      "templateVariantId": "tewtewtewtewtew",
+      "publication": "beobachter",
+      "__typename": "PianoTemplateParagraph"
+    },
+    {
+      "id": "123456",
+      "characterCount": 2400,
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ex, dapibus in nunc at, convallis suscipit leo. Etiam quis consectetur libero. Suspendisse eu fringilla ipsum. Nam bibendum nunc dolor. Phasellus et rutrum turpis, non commodo arcu. Sed vestibulum, neque in maximus convallis, neque dolor consectetur neque, eu sodales ante mi non turpis. Vivamus sed nisi sed lectus lobortis dictum ut congue nulla. In hac habitasse platea dictumst. Nunc non turpis sollicitudin, faucibus sem vel, maximus ex. Fusce dignissim fringilla mollis. Mauris sed eros mollis, dapibus ante eget, pharetra orci.</p>",
+      "__typename": "TextParagraph",
+      "isLastofGroup": false
+    },
+    {
+      "id": "new-abcdefg",
+      "characterCount": 2400,
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ex, dapibus in nunc at, convallis suscipit leo. Etiam quis consectetur libero. Suspendisse eu fringilla ipsum. Nam bibendum nunc dolor. Phasellus et rutrum turpis, non commodo arcu. Sed vestibulum, neque in maximus convallis, neque dolor consectetur neque, eu sodales ante mi non turpis. Vivamus sed nisi sed lectus lobortis dictum ut congue nulla. In hac habitasse platea dictumst. Nunc non turpis sollicitudin, faucibus sem vel, maximus ex. Fusce dignissim fringilla mollis. Mauris sed eros mollis, dapibus ante eget, pharetra orci.</p>",
+      "__typename": "TextParagraph",
+      "isLastofGroup": false
+    },
+    {
+      "id": "new-xxyyzz",
+      "characterCount": 2400,
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ex, dapibus in nunc at, convallis suscipit leo. Etiam quis consectetur libero. Suspendisse eu fringilla ipsum. Nam bibendum nunc dolor. Phasellus et rutrum turpis, non commodo arcu. Sed vestibulum, neque in maximus convallis, neque dolor consectetur neque, eu sodales ante mi non turpis. Vivamus sed nisi sed lectus lobortis dictum ut congue nulla. In hac habitasse platea dictumst. Nunc non turpis sollicitudin, faucibus sem vel, maximus ex. Fusce dignissim fringilla mollis. Mauris sed eros mollis, dapibus ante eget, pharetra orci.</p>",
+      "__typename": "TextParagraph",
+      "isLastofGroup": false
+    },
+    {
+      "id": "new-uuvvww",
+      "characterCount": 2400,
+      "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed orci ex, dapibus in nunc at, convallis suscipit leo. Etiam quis consectetur libero. Suspendisse eu fringilla ipsum. Nam bibendum nunc dolor. Phasellus et rutrum turpis, non commodo arcu. Sed vestibulum, neque in maximus convallis, neque dolor consectetur neque, eu sodales ante mi non turpis. Vivamus sed nisi sed lectus lobortis dictum ut congue nulla. In hac habitasse platea dictumst. Nunc non turpis sollicitudin, faucibus sem vel, maximus ex. Fusce dignissim fringilla mollis. Mauris sed eros mollis, dapibus ante eget, pharetra orci.</p>",
+      "__typename": "TextParagraph",
+      "isLastofGroup": true
+    }
+  ]
+}

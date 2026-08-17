@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] HeaderArea Should render correctly 1`] = `
+<div>
+  <div
+    class="site-header HeaderContainer"
+  >
+    <div
+      data-testid="mocked-header"
+    />
+  </div>
+</div>
+`;

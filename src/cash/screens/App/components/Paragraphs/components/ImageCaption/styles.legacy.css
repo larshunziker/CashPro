@@ -1,0 +1,60 @@
+.Wrapper {
+  composes: ImageParagraph from 'typography.legacy.css';
+  color: $greyA;
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+  text-align: left;
+  width: 100%;
+
+  em {
+    font-style: italic;
+  }
+
+  a {
+    border-bottom: 1px solid;
+    color: $primaryA; /* stylelint-disable-line sh-waqar/declaration-use-variable */
+    padding: 1px;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  @media print {
+    text-align: left;
+  }
+}
+
+.Caption {
+  composes: ImageParagraph from 'typography.legacy.css';
+  color: $greyA;
+
+  @media print {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.CaptionMarketingPage {
+  composes: InfoParagraph from 'typography.legacy.css';
+  color: $blackB;
+}
+
+.Credits {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+  color: $greyA;
+  margin-top: $margin4;
+  position: relative;
+  top: -1px;
+
+  @media print {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.CreditsVideoPage {
+  text-align: right;
+}

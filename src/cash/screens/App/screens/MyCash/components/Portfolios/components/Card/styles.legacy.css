@@ -1,0 +1,101 @@
+.Wrapper {
+  background-color: $white;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 2px rgb(0 0 0 / 15%);
+  flex: 100%;
+  min-height: 124px; /* cls */
+  padding: $margin8;
+  position: relative;
+  width: 100%;
+  
+  @media (min-width: $smBreakpoint) {
+    flex: calc(50% - $margin8);
+    max-width: calc(50% - 8px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    flex: calc(33% - $margin8);
+    max-width: calc(33% - 8px);
+  }
+
+  &:hover {
+    background-color: $greyE;
+
+    &.Positive {
+      background-color: $decoE;
+    }
+
+    &.Negative {
+      background-color: $decoD;
+    }
+  }
+}
+
+.Name {
+  composes: InfoA from 'typography.legacy.css';
+  margin-bottom: $margin12;
+  padding-right: $margin24;
+
+  &.Loading {
+    position: relative;
+    z-index: 1001;
+  }
+}
+
+.PriceWrapper {
+  display: flex;
+}
+
+.IconWrapper {
+  position: absolute;
+  right: $margin8;
+  top: $margin8;
+}
+
+.PriceLable {
+  composes: InfoD from 'typography.legacy.css';
+  color: $greyA;
+  padding-right: $margin8;
+  position: relative;
+  top: 6px;
+}
+
+.Price {
+  composes: InfoABold from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  position: relative;
+}
+
+.StarIcon {
+  color: $black;
+  position: relative;
+}
+
+.InnerWrapper {
+  align-items: end;
+  display: flex;
+  flex-direction: column;
+}
+
+.PillWrapper {
+  composes: InfoCBold from 'typography.legacy.css';
+  align-items: center;
+  background-color: $greyE;
+  border-radius: 12px;
+  color: $greyA;
+  display: flex;
+  gap: 4px;
+  justify-content: flex-end;
+  padding: 0 10px;
+  position: relative;
+
+  &.Positive {
+    background-color: $decoE;
+    color: $decoG;
+  }
+
+  &.Negative {
+    background-color: $decoD;
+    color: $decoF;
+  }
+}

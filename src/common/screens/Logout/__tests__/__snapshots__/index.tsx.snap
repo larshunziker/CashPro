@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] - screens - Logout Should render correctly 1`] = `
+<div>
+  <div
+    class="Container"
+  >
+    <div
+      class="LoadingAnimationWrapper"
+    >
+      <div />
+      <div />
+      <div />
+      <div />
+    </div>
+  </div>
+</div>
+`;

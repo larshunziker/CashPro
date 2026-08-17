@@ -1,0 +1,38 @@
+.Form {
+  border: none;
+  border-bottom: 1px solid $greyC;
+  border-radius: 0;
+  color: $greyB;
+  @mixin fontSize 15;
+  font-weight: normal;
+  line-height: 2;
+  margin-top: 10px;
+  padding: 15px 0 0;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.FormWrapper,
+.FormWrapperVisible {
+  height: auto;
+  overflow: hidden;
+  transition: max-height 300ms linear, opacity 300ms linear;
+}
+
+.FormWrapper {
+  max-height: 0;
+  opacity: 0;
+}
+
+.FormWrapperVisible {
+  margin: -$margin32 0 $margin8;
+  max-height: 999px;
+  opacity: 1;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+  }
+}

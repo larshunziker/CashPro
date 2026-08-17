@@ -1,0 +1,8 @@
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}

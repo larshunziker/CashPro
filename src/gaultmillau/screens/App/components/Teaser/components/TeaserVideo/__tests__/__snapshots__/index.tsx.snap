@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserVideo Should render correctly 1`] = `
+"<a href="http://www.example.com/" class="LinkWrapper" data-testid="mocked-link"><div class="PlayerWrapper"><style>
+  .css--948532897 {
+    background-image: url(/fp/210/140/0/0/sites/default/files/tree.jpg)
+  }
+    
+    @media (min-width: 760px) {
+      .css--948532897 {
+        background-image: url(/fp/160/139/0/0/sites/default/files/tree.jpg)
+      }
+    }
+    
+    @media (min-width: 960px) {
+      .css--948532897 {
+        background-image: url(/fp/203/138/0/0/sites/default/files/tree.jpg)
+      }
+    }
+    
+  </style><div class="Image css--948532897"></div><span class="Button"></span></div><div class="TeaserText"><span class="TeaserShortTitle">short title</span><div class="TeaserTitle">title</div></div></a>"
+`;
+
+exports[`[Component] TeaserVideo Should render correctly 2 1`] = `
+"<a href="http://www.example.com/" class="LinkWrapper IsActive" data-testid="mocked-link"><div class="PlayerWrapper"><style>
+  .css--948532897 {
+    background-image: url(/fp/210/140/0/0/sites/default/files/tree.jpg)
+  }
+    
+    @media (min-width: 760px) {
+      .css--948532897 {
+        background-image: url(/fp/160/139/0/0/sites/default/files/tree.jpg)
+      }
+    }
+    
+    @media (min-width: 960px) {
+      .css--948532897 {
+        background-image: url(/fp/203/138/0/0/sites/default/files/tree.jpg)
+      }
+    }
+    
+  </style><div class="Image css--948532897"></div><span class="Button ActiveButton"></span></div><div class="TeaserText"><span class="TeaserShortTitle IsActive">short title</span><div class="TeaserTitle IsActive">title</div></div></a>"
+`;

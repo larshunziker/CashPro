@@ -1,0 +1,86 @@
+{
+  "footerPrimaryMenu": {
+    "id": "bWVudTpoei1mb290ZXItcHJpbWFyeQ==",
+    "links": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzA1",
+            "link": {
+              "label": "Services"
+            },
+            "subtree": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc3",
+                    "link": {
+                      "label": "AGB",
+                      "description": null,
+                      "path": "/agb",
+                      "routed": false
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc4",
+                    "link": {
+                      "label": "Datenschutz",
+                      "description": null,
+                      "path": "/datenschutz",
+                      "routed": false
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzdf4",
+                    "link": {
+                      "label": "",
+                      "description": null,
+                      "path": "/",
+                      "routed": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "name": "GM Footer (Primär)"
+  },
+  "footerPrimaryMenuFr": {
+    "id": "bWVudTpoei1mb290asdfasdfZXItcHJpbWFyeQ==",
+    "links": {
+      "edges": [
+        {
+          "node": {
+            "id": "dafsdfasdf",
+            "link": {
+              "label": "Services"
+            },
+            "subtree": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc3",
+                    "link": {
+                      "label": "Termes et conditions",
+                      "description": null,
+                      "path": "/termes",
+                      "routed": false
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    },
+    "name": "GM Footer FR (Primär)"
+  }
+}

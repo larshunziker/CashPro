@@ -1,0 +1,370 @@
+.HeadingANeutralA {
+  @mixin HeadingANeutralA;
+}
+
+.HeadingBNeutralA {
+  @mixin HeadingBNeutralA;
+}
+
+.HeadingCNeutralA {
+  @mixin HeadingCNeutralA;
+}
+
+.TeaserTitleANeutralA {
+  @mixin TeaserTitleANeutralA;
+}
+
+.TeaserTitleBNeutralA {
+  @mixin TeaserTitleBNeutralA;
+}
+
+.TeaserTitleBWhite {
+  @mixin TeaserTitleBWhite;
+}
+
+.TeaserTitleCNeutralA {
+  @mixin TeaserTitleCNeutralA;
+}
+
+.NumbersNeutralA {
+  @mixin NumbersNeutralA;
+}
+
+.ShortTitleANeutralA {
+  @mixin ShortTitleANeutralA;
+}
+
+.ShortTitleABoldNeutralA {
+  @mixin ShortTitleABoldNeutralA;
+}
+
+.ShortTitleAGradientCaminada {
+  @mixin ShortTitleAGradientCaminada;
+}
+
+.ShortTitleABoldGradientCaminada {
+  @mixin ShortTitleABoldGradientCaminada;
+}
+
+.ShortTitleAGradientZueri {
+  @mixin ShortTitleAGradientZueri;
+}
+
+.ShortTitleABoldGradientZueri {
+  @mixin ShortTitleABoldGradientZueri;
+}
+
+.ShortTitleAGradientPrimaryA {
+  @mixin ShortTitleAGradientPrimaryA;
+}
+
+.ShortTitleABoldGradientPrimaryA {
+  @mixin ShortTitleABoldGradientPrimaryA;
+}
+
+.ShortTitleBNeutralA {
+  @mixin ShortTitleBNeutralA;
+}
+
+.ShortTitleBGradientCaminada {
+  @mixin ShortTitleBGradientCaminada;
+}
+
+.ShortTitleBGradientZueri {
+  @mixin ShortTitleBGradientZueri;
+}
+
+.ShortTitleBGradientPrimaryA {
+  @mixin ShortTitleBGradientPrimaryA;
+}
+
+.ShortTitleCNeutralA {
+  @mixin ShortTitleCNeutralA;
+}
+
+.ShortTitleCBoldNeutralA {
+  @mixin ShortTitleCBoldNeutralA;
+}
+
+.ShortTitleCGradientCaminada {
+  @mixin ShortTitleCGradientCaminada;
+}
+
+.ShortTitleCBoldGradientCaminada {
+  @mixin ShortTitleCBoldGradientCaminada;
+}
+
+.ShortTitleCGradientZueri {
+  @mixin ShortTitleCGradientZueri;
+}
+
+.ShortTitleCBoldGradientZueri {
+  @mixin ShortTitleCBoldGradientZueri;
+}
+
+.ShortTitleCGradientPrimaryA {
+  @mixin ShortTitleCGradientPrimaryA;
+}
+
+.ShortTitleCBoldGradientPrimaryA {
+  @mixin ShortTitleCBoldGradientPrimaryA;
+}
+
+.LeadANeutralA {
+  @mixin LeadANeutralA;
+}
+
+.LeadBWhite {
+  @mixin LeadBWhite;
+}
+
+.LeadCNeutralA {
+  @mixin LeadCNeutralA;
+}
+
+.LeadD {
+  @mixin LeadD;
+}
+
+.SectionTitleNeutralA {
+  @mixin SectionTitleNeutralA;
+}
+
+.CatchQuestionsNeutralA {
+  @mixin CatchQuestionsNeutralA;
+}
+
+.ParagraphNeutralA {
+  @mixin ParagraphNeutralA;
+}
+
+.ParagraphBoldNeutralA {
+  @mixin ParagraphBoldNeutralA;
+}
+
+.ParagraphLinkNeutralA {
+  @mixin ParagraphLinkNeutralA;
+}
+
+.QuoteNeutralA {
+  @mixin QuoteNeutralA;
+}
+
+.QuoteAuthorNeutralA {
+  @mixin QuoteAuthorNeutralA;
+}
+
+.NaviNeutralA {
+  @mixin NaviNeutralA;
+}
+
+
+.HamburgerMenuANeutralA {
+  @mixin HamburgerMenuANeutralA;
+}
+
+.HamburgerMenuAWhite {
+  @mixin HamburgerMenuAWhite;
+}
+
+.HamburgerMenuBNeutralA {
+  @mixin HamburgerMenuBNeutralA;
+}
+
+.ButtonANeutralA {
+  @mixin ButtonANeutralA;
+}
+
+.ButtonAWhite {
+  @mixin ButtonAWhite;
+}
+
+.ButtonAError {
+  @mixin ButtonAError;
+}
+
+.ButtonBNeutralA {
+  @mixin ButtonBNeutralA;
+}
+
+.ButtonBWhite {
+  @mixin ButtonBWhite;
+}
+
+.ButtonBError {
+  @mixin ButtonBError;
+}
+
+.FormLabelANeutralA {
+  @mixin FormLabelANeutralA;
+}
+
+.FormLabelANeutralB {
+  @mixin FormLabelANeutralB;
+}
+
+.FormLabelANeutralD {
+  @mixin FormLabelANeutralD;
+}
+
+.FormLabelBNeutralA {
+  @mixin FormLabelBNeutralA;
+}
+
+.FormLabelBNeutralB {
+  @mixin FormLabelBNeutralB;
+}
+
+.FormLabelBNeutralD {
+  @mixin FormLabelBNeutralD;
+}
+
+.FormLabelBError {
+  @mixin FormLabelBError;
+}
+
+.InfoANeutralA {
+  @mixin InfoANeutralA;
+}
+
+.InfoABoldNeutralA {
+  @mixin InfoABoldNeutralA;
+}
+
+.InfoBNeutralA {
+  @mixin InfoBNeutralA;
+}
+
+.InfoBPrimaryB {
+  @mixin InfoBPrimaryB;
+}
+
+.InfoBBoldNeutralA {
+  @mixin InfoBBoldNeutralA;
+}
+
+.InfoCNeutralA {
+  @mixin InfoCNeutralA;
+}
+
+.InfoCBoldNeutralA {
+  @mixin InfoCBoldNeutralA;
+}
+
+.InfoCLinkNeutralA {
+  @mixin InfoCLinkNeutralA;
+}
+
+.InfoDNeutralA {
+  @mixin InfoDNeutralA;
+}
+
+.InfoDBoldNeutralA {
+  @mixin InfoDBoldNeutralA;
+}
+
+.InfoDNeutralC {
+  @mixin InfoDNeutralC;
+}
+
+.InfoENeutralA {
+  @mixin InfoENeutralA;
+}
+
+.InfoEBoldNeutralA {
+  @mixin InfoEBoldNeutralA;
+}
+
+.InfoENeutralC {
+  @mixin InfoENeutralC;
+}
+
+.InfoEBoldNeutralC {
+  @mixin InfoEBoldNeutralC;
+}
+
+.InfoFNeutralA {
+  @mixin InfoFNeutralA;
+}
+
+.InfoFBoldNeutralA {
+  @mixin InfoFBoldNeutralA;
+}
+
+.CaptionNeutralA {
+  @mixin CaptionNeutralA;
+}
+
+.ButtonSmall {
+  @mixin ButtonSmall;
+}
+
+.ButtonPrimaryBig {
+  @mixin ButtonPrimaryBig;
+}
+
+.ButtonPrimarySmall {
+  @mixin ButtonPrimarySmall;
+}
+
+.ButtonSecondaryBig {
+  @mixin ButtonSecondaryBig;
+}
+
+.ButtonSecondarySmall {
+  @mixin ButtonSecondarySmall;
+}
+
+.ButtonTertiaryBig {
+  @mixin ButtonTertiaryBig;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.TableContent {
+  color: $blackA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+}
+
+.TeaserTitle {
+  color: $blackA;
+  font-family: $fontActaDisplay;
+  font-weight: bold;
+}
+
+.TeaserTitleH1 {
+  composes: TeaserTitle;
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 5.9rem;
+  }
+}
+
+.Publishingdate {
+  color: $greyA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.TeaserLeadBlack {
+  color: $blackA;
+  font-family: $fontActaDisplay;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+}

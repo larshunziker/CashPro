@@ -1,0 +1,553 @@
+{
+  "article": {
+    "id": "bm9kZToxOTQ4NQ==",
+    "gcid": "12345",
+    "title": "Blog as article 3 (video)",
+    "lead": "Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video",
+    "shortTitle": "Blog as article 3 (video)",
+    "seoTitle": null,
+    "metaTitle": "Blog as article 3 (video) | Schweizer Illustrierte",
+    "metaDescription": "Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as",
+    "metaOgTitle": "Blog as article 3 (video) | Schweizer Illustrierte",
+    "keywords": {
+      "edges": [
+        {
+          "node": {
+            "label": "Blogs",
+            "preferredUri": "/dossier/blogs",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        },
+        {
+          "node": {
+            "label": "Royals",
+            "preferredUri": "/dossier/royals",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        }
+      ],
+      "__typename": "KeywordConnection"
+    },
+    "metaOgDescription": "Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video",
+    "metaCanonicalUrl": "",
+    "changeDate": "2018-11-27T13:07:36",
+    "publicationDate": "2018-11-27T13:11:55",
+    "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-article-3-video",
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybTo1Njk0",
+      "title": "Sale, pepe e pomodori",
+      "channelType": "blog",
+      "settings": {
+        "mainChannel": {
+          "id": "dGF4b25vbXlfdGVybTo1Njkz",
+          "title": "Blogs",
+          "__typename": "Channel"
+        },
+        "__typename": "TermSettings"
+      },
+      "landingPage": {
+        "id": "bm9kZToxOTQ4OQ==",
+        "preferredUri": "/blogs/sale-pepe-e-pomodori",
+        "__typename": "LandingPage"
+      },
+      "authors": {
+        "edges": [
+          {
+            "node": {
+              "id": "YXV0aG9yOjk1NDY=",
+              "name": "Roman Zanettin",
+              "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+              "imageParagraph": {
+                "image": {
+                  "file": {
+                    "alt": "roman",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/portrait2014.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Author"
+            },
+            "__typename": "AuthorEdge"
+          }
+        ],
+        "__typename": "AuthorConnection"
+      },
+      "__typename": "Channel"
+    },
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzU3",
+            "label": "Blogs",
+            "link": "/blogs",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzU4",
+            "label": "Sale, pepe e pomodori",
+            "link": "/blogs/sale-pepe-e-pomodori",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpVNE1qVXdPVEl6",
+            "label": "Blog as article 3 (video): Blog as article 3 (video)",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "teaserImage": {
+      "id": "test1234",
+      "image": {
+        "file": {
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/media/field_image/2018-11/5750343986001_1.jpg%3FpubId%3D2112711546001",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "subtypeValue": null,
+    "authorPrefix": "by",
+    "body": [
+      {
+        "anchorId": null,
+        "id": "179932",
+        "header": null,
+        "text": "<p>Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)Blog as article 3 (video)</p>\n",
+        "__typename": "TextParagraph"
+      }
+    ],
+    "showAuthorBox": true,
+    "authors": {
+      "edges": [],
+      "__typename": "AuthorConnection"
+    },
+    "heroImageBody": [
+      {
+        "anchorId": null,
+        "id": "179933",
+        "brightcoveId": "5750322578001",
+        "caption": null,
+        "alt": null,
+        "shortTitle": null,
+        "title": "Gitzi üs em Ofä",
+        "credit": null,
+        "image": {
+          "file": {
+            "alt": "",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/media/field_image/2018-11/5750343986001_1.jpg%3FpubId%3D2112711546001",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "recommendations": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTUwMQ==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-10",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTUwMA==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-9",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ5OQ==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-8",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ5OA==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-7",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ5Nw==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-6",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ5Ng==",
+            "title": "blog",
+            "preferredUri": "/blogs/sale-pepe-e-pomodori/blog-5",
+            "shortTitle": "blog",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk0",
+              "channelType": "blog",
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "description": "Ihr Teenie-Zimmer war voll ung ganz mit Starpostern tapeziert. Heute berichtet sie exklusiv für Style über die Outfits der Stars.",
+                      "imageParagraph": {
+                        "image": {
+                          "file": {
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg",
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "props to stephan",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/ubs_logo_neu_pascal.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        }
+      ],
+      "__typename": "RelatedContentUnionConnection"
+    },
+    "__typename": "Article"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "ministageParagraph": {
+    "id": "180554",
+    "anchorId": null,
+    "ministage": {
+      "name": "Was bringen die Sterne heute?",
+      "shortTitle": "Horoskop",
+      "__typename": "MinistageHoroscopes"
+    },
+    "__typename": "MinistageParagraph"
+  }
+}

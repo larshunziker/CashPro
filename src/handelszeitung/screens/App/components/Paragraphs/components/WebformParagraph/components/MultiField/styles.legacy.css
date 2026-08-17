@@ -1,0 +1,90 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin16;
+  margin-top: $margin8;
+  position: relative;
+  text-align: start;
+}
+
+.FieldWithHelperTextWrapper {
+  margin-bottom: $margin24;
+}
+
+.OptionWrapper {
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.OptionsColumns {
+  line-height: 0;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &:hover {
+    & input:not(:disabled),
+    & label:not(.Disabled),
+    & label:not(.Disabled) a {
+      border-color: $blackA;
+      color: $blackA;
+      cursor: pointer;
+    }
+  }
+}
+
+.ActiveCheckbox {
+  composes: FormLabelABlack from 'typography.legacy.css';
+}
+
+.Description {
+  composes: FormLabelBBlack from 'typography.legacy.css';
+  color: $greyA;
+  display: inline-block;
+  margin: 0;
+
+  &.HasError {
+    animation: LabelShakingEffectAnimation 0.1s;
+    color: $error;
+  }
+}
+
+.Required {
+  &::after {
+    content: '*';
+  }
+}
+
+.ErrorIcon {
+  color: $error;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-left: $margin8;
+  vertical-align: middle;
+}
+
+.CheckmarkIcon {
+  color: $white;
+  font-size: 20px;
+  font-weight: 900; 
+  margin: 2px 0 0 -22px;
+  pointer-events: none;
+  position: absolute;
+}
+
+@mixin LabelShakingEffectAnimation;
+
+.LabelsColumns {
+  width: calc(100% - 40px);
+}

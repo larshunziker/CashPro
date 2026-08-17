@@ -1,0 +1,22 @@
+{
+  "id": "bm9kZToyODI5Nw==",
+  "title": "UBS",
+  "teaserImage": {
+    "id": "test1234",
+    "title": null,
+    "image": {
+      "file": {
+        "alt": "",
+        "width": 320,
+        "height": 180,
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/UBS_.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "__typename": "Sponsor"
+}

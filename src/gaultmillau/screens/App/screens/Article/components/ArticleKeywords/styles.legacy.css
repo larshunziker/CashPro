@@ -1,0 +1,52 @@
+.Wrapper {
+  padding-bottom: 64px;
+  padding-top: 12px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 26px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin12;
+    padding-top: 26px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.ListItem {
+  display: inline-block;
+
+  &:nth-last-of-type(1) {
+    .Link {
+      &::after {
+        content: '';
+      }
+    }
+  }
+}
+
+.Link {
+  composes: InfoDNeutralA from 'typography.legacy.css';
+  margin-left: $margin4;
+
+  &:hover {
+    color: $primaryB;
+    text-decoration-color: $primaryB;
+  }
+
+  &::after {
+    content: ',';
+  }
+}
+
+.Header {
+  composes: InfoDBoldNeutralA from 'typography.legacy.css';
+
+  &::after {
+    content: ':';
+  }
+}

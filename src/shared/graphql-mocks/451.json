@@ -1,0 +1,14 @@
+{
+  "data": {
+    "environment": {
+      "routeByPath": {
+        "object": null,
+        "statusCode": 451,
+        "preferred": null,
+        "canonical": null,
+        "__typename": null
+      },
+      "__typename": null
+    }
+  }
+}

@@ -1,0 +1,57 @@
+.Link {
+  composes: InfoParagraphBlue from 'typography.legacy.css';
+  color: $grey90;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  text-decoration: underline;
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  background-color: $greyE;
+  border-radius: $defaultRadius;
+  margin: $margin32 auto;
+  width: 100%;
+
+  button {
+    margin: 0 auto $margin16;
+  }
+}
+
+.Lead {
+  font-family: $fontSpezia;
+  margin-bottom: $margin24;
+}
+
+.Container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 26px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 28px;
+  }
+}
+
+.LinkWrapper {
+  display: flex;
+  justify-content: flex-end;
+}

@@ -1,0 +1,26 @@
+.AlertsProfileWrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.LoginWrapper {
+  display: flex;
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Description {
+  color: $blackB;
+  @mixin fontSize 15;
+  @mixin lineHeight 24;
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 19;
+    @mixin lineHeight 28;
+    margin-bottom: $margin40;
+  }
+}

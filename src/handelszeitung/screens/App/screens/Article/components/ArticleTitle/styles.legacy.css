@@ -1,0 +1,63 @@
+.ArticleTitle {
+  position: relative;
+  z-index: $zIndexMedium;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  &.HasTimeToRead {
+    margin-bottom: $margin8;
+  }
+}
+
+.ShortTitleWrapper {
+  align-items: center;
+  display: flex;
+  margin-bottom: $margin8;
+  white-space: nowrap;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  display: inline;
+  margin-right: $margin8;
+}
+
+.ShortTitleNA{
+  composes: ShortTitleBNativeAd from 'typography.legacy.css';
+  float: left;
+  padding: $margin4 $margin8;
+  width: fit-content;
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitleBAdvertorial from 'typography.legacy.css';
+  float: left;
+  padding: $margin4 $margin8;
+  width: fit-content;
+}
+
+.BrandReportLogoWrapper {
+  display: inline-block;
+  flex-shrink: 0;
+  float: left;
+  height: 32px;
+  margin-left: 1px;
+  margin-right: $margin8;
+  margin-top: -6px;
+  width: 130px;
+
+  @media (min-width: $mdBreakpoint) {
+    width: 150px;
+  }
+}

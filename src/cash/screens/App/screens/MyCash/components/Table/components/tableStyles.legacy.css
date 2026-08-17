@@ -1,0 +1,172 @@
+.TableRow {
+  @mixin DataTable;
+  border-top: 1px solid $greyD;
+  justify-content: center;
+  padding-bottom: $margin8;
+  padding-top: $margin8;
+  text-align: left;
+  vertical-align: top;
+  white-space: nowrap;
+  width: min-content;
+  word-break: break-word;
+
+
+  @media print {
+    break-inside: avoid;
+  }
+
+  &&.Right {
+    display: table-cell;
+    text-align: right;
+
+    & > span {
+      justify-content: flex-end;
+      width: 100%;
+    }
+  }
+
+  &.Center {
+    text-align: center;
+  }
+
+  &.Last {
+    max-height: 1px;
+    min-width: auto;
+    padding: 0;
+    position: sticky;
+    right: -1px;
+    text-align: right;
+  }
+}
+
+.NameCell {
+  white-space: initial;
+  width: 150px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 170px;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.Positive {
+  color: $positive;
+}
+
+.Negative {
+  color: $primaryA;
+}
+
+.Up {
+  transform: rotate(-45deg);
+}
+
+.Down {
+  transform: rotate(45deg);
+}
+
+.SensitiveIconWrapper {
+  @mixin fontSize 15;
+  @mixin lineHeight 15;
+  align-items: baseline;
+  color: $greyB;
+  display: flex;
+  flex-direction: row-reverse;
+  gap: 4px;
+  justify-content: flex-end;
+}
+
+.MonitorIcon {
+  @mixin fontSize 15;
+  @mixin lineHeight 15;
+  display: inline-flex;
+  gap: 4px;
+}
+
+.MonitorIconWrapper {
+  display: inline-flex;
+  gap: 4px;
+  justify-content: end;
+}
+
+.ChanceIcon {
+  color: $secondaryA;
+}
+
+.Low {
+  > i {
+    color: $positive;
+  }
+}
+
+.Neutral {
+  > i {
+    color: $warning;
+  }
+}
+
+.High {
+  > i {
+    color: $primaryA;
+  }
+}
+
+.Checkbox {
+  /* stylelint-disable  */
+  min-width: 55px !important;
+  width: 55px !important;
+  /* stylelint-enable */
+
+  @media (min-width: $smBreakpoint) {
+    /* stylelint-disable  */
+    min-width: 40px !important;
+    width: 40px !important;
+    /* stylelint-enable */
+  }
+}
+
+.CommentsWrapper {
+  composes: TableRow;
+
+  max-width: 300px;
+
+  /* stylelint-disable-next-line */
+  min-width: 280px !important;
+  white-space: break-spaces;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 630px;
+  }
+}
+
+.UpperAlert {
+  composes: Positive;
+
+  > i {
+    position: relative;
+    top: 3px;
+    transform: rotate(45deg);
+  }
+}
+
+.LowerAlert {
+  composes: Negative;
+
+  > i {
+    position: relative;
+    top: 3px;
+    transform: rotate(45deg);
+  }
+}
+
+.IsBroken {
+  color: $greyB;
+}

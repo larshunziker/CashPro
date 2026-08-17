@@ -1,0 +1,250 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;  
+  margin-bottom: $margin16;
+  position: relative;
+  text-align: start;
+}
+
+.FieldWithHelperTextWrapper {
+  margin-bottom: $margin12;
+}
+
+.Input,
+.Textarea {
+  composes: FormLabelABlack from 'typography.legacy.css';
+  background-color: $greyE;
+  border: none;
+  border-bottom: 1px solid $greyC;
+  border-radius: 8px 8px 0 0;
+  height: 54px;
+  padding: 24px 12px 6px;
+  transition: border-color 300ms ease-in-out, box-shadow 300ms ease-in-out, background-color 300ms ease-in-out;
+  width: 100%;
+
+  &[type='tel'] {
+    background-color: $greyC; /* needed to override styling from _reset.legacy.css */
+  }
+
+  &:not(.Disabled):hover {
+    background-color: $greyD;
+    border-color: $blackA;
+  }
+
+  &:not(.Disabled):focus,
+  &:not(.Disabled):active {
+    background-color: $greyD;
+    border-color: $blackA;
+    outline: none;
+
+    & + label {
+      animation: none;
+      color: $blackA;
+    }
+  }
+
+  &.HasError {
+    border-color: $errorA;
+
+    &:focus,
+    &:active {
+      border-color: $error;
+      box-shadow: inset 0 -1px 0 $error;
+    }
+  }
+}
+
+.Textarea {
+  box-shadow: none;
+  padding: 24px 12px 12px;
+  resize: none;
+}
+
+.HelperText {
+  composes: FormLabelBTextSecondary from 'typography.legacy.css';
+  display: block;
+  margin-top: $margin4;
+}
+
+.ErrorMessage {
+  composes: FormLabelBError from 'typography.legacy.css';
+  animation: ErrorMessageEnterAnimation 0.1s;
+  display: block;
+  margin-top: $margin4;
+
+  &.ReplacedHelperText {
+    animation: none;
+  }
+}
+
+.ErrorIcon {
+  color: $error;
+  font-size: 18px;
+  margin-top: $margin16;
+  position: absolute;
+  right: 12px;
+}
+
+.OptionWrapper {
+  align-items: center;
+  display: flex;
+  padding-top: 16px;
+}
+
+.Option {
+  height: 24px;
+  position: relative;
+
+  & > span {
+    height: 100%;
+    left: 0;
+    pointer-events: none;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    &::after {
+      position: absolute;
+    }
+  }
+
+  & > input[type='checkbox'] {
+    appearance: none;
+    background-color: $white;
+    border: 1px solid $greyA; 
+    border-radius: 2px;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    outline: 0;
+    padding: 16px 0 0;
+    position: relative;
+    width: 24px;
+
+    &:not(.Disabled):hover {
+      background-color: $transparent;
+      border-color: $black;
+      box-shadow: none;
+    }
+
+    &:checked {
+      background-color: $white;
+      border-color: $black;
+    }
+
+    &:checked + span {
+      overflow: hidden;
+
+      &::after {
+        background-color: $black;
+        border-radius: 1px;
+        content: '';
+        height: 24px;
+        left: 0;
+        top: 0;
+        width: 24px;
+      }
+    }
+
+    &.Disabled {
+      border-color: $greyB; 
+      cursor: not-allowed;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &:checked::after {
+        top: -6px;
+      }
+    }
+  }
+
+  & > input[type='radio'] {
+    appearance: none;
+    background: $white;
+    border: 1px solid $greyA;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    outline: 0;
+    padding: 16px 0 0;
+    position: relative;
+    width: 24px;
+
+    &:not(.Disabled):hover {
+      border-color: $black;
+    }
+
+    &:checked + span::after {
+      background-color: $black;
+      border-radius: 50%;
+      content: '';
+      height: 16px;
+      left: 4px;
+      top: 4px;
+      width: 16px;
+    }
+
+    &.Disabled {
+      border-color: $greyB; 
+      cursor: not-allowed;
+    }
+  }
+}
+
+.Labels {
+  composes: FormLabelATextSecondary from 'typography.legacy.css';
+  cursor: pointer;
+  margin-left: $margin12;
+  padding: 8px 0;
+  transition: color 300ms ease-in-out;
+
+
+  &:hover,
+  &:hover a {
+    color: $black;
+  }
+
+  & a {
+    border-bottom: 1px solid $greyA;
+    color: $greyA;
+    transition: color 300ms ease-in-out;
+  }
+
+  .Required {
+    &::after {
+      content: '*';
+      display: inline;
+    }
+  }
+}
+
+.Description {
+  composes: FormLabeleBBlack from 'typography.legacy.css';
+  margin-bottom: $margin12;
+  margin-left: $margin12;
+  transition: color 300ms ease-in-out;
+
+  &:hover,
+  &:hover a {
+    color: $blackA;
+  }
+
+  & a {
+    border-bottom: 1px solid $blackA;
+    color: $blackA;
+    transition: color 300ms ease-in-out;
+  }
+}
+
+.Disabled {
+  color: $greyB !important; /* stylelint-disable-line */ /* needed to override styling from not common styles */;
+  cursor: not-allowed;
+  outline: none;
+
+  &:hover {
+    color: $greyB !important; /* stylelint-disable-line */ /* needed to override styling from not common styles */;
+  }
+}
+
+@mixin ErrorMessageEnterAnimation;

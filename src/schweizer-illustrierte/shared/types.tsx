@@ -1,0 +1,31 @@
+export type ActiveMainChannel =
+  | 'Default'
+  | 'Home'
+  | 'People'
+  | 'Entertainment'
+  | 'Style'
+  | 'Family'
+  | 'Body & Health'
+  | 'Specials'
+  | 'Blogs';
+
+export type ActiveContentType =
+  | 'Article'
+  | 'Branch'
+  | 'Channel'
+  | 'Dossier'
+  | 'ExplainingArticle'
+  | 'ImageGallery'
+  | 'Keyword'
+  | 'KeywordSettings'
+  | 'LandingPage'
+  | 'NativeAdvertising'
+  | 'Organization'
+  | 'Page'
+  | 'Person'
+  | 'Product'
+  | 'Ranking'
+  | 'Recipe'
+  | 'Sponsor'
+  | 'Teaser'
+  | 'Video';

@@ -1,0 +1,39 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  font-family: $fontGotham;
+  margin-top: -1px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: -21px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 0;
+  }
+}
+
+.TitleWrapper {
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.RelatedToTitle {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: 20px;
+  padding-top: 40px;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.Pager {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-items: center;
+}

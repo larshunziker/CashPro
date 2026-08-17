@@ -1,0 +1,9 @@
+.Title {
+  composes: Heading2A from 'typography.legacy.css';
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+    text-align: center;
+  }
+}

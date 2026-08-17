@@ -1,0 +1,367 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "id": "039fnu1",
+        "__typename": "Route",
+        "canonical": "/group/10/content/193061",
+        "preferred": "/blogs/blog",
+        "object": {
+          "__typename": "LandingPage",
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "schweizer_illustrierte_fallback",
+            "image": {
+              "__typename": "Image",
+              "id": "440747",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "438261",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/2019-03/schweizer_illustrierte_fallback_alt.jpg"
+              }
+            }
+          },
+          "id": "bm9kZToyMjIzMzk=",
+          "title": "blog",
+          "metaTitle": "Alle Blogs | Schweizer Illustrierte",
+          "metaDescription": "Die Blogs von Gülsha Adilji, Chris von Rohr, Susanne Hochuli, Natascha Knecht, Onur Ogul und Peter Rothenbühler",
+          "metaOgTitle": "Alle Blogs | Schweizer Illustrierte",
+          "metaOgDescription": "Die Blogs von Gülsha Adilji, Chris von Rohr, Susanne Hochuli, Natascha Knecht, Onur Ogul und Peter Rothenbühler",
+          "metaCanonicalUrl": "",
+          "lead": "Die Blogs von Gülsha Adilji, Chris von Rohr, Susanne Hochuli, Natascha Knecht, Onur Ogul und Peter Rothenbühler",
+          "preferredUri": "/blogs/blog",
+          "activeMenuTrail": {
+            "__typename": "ActiveMenuTrailItemConnection",
+            "edges": [
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NTQx",
+                  "label": "Der ganz normale Wahnsinn",
+                  "link": "/blogs/der-ganz-normale-wahnsinn"
+                }
+              },
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6TlRReE5UVTRNek13",
+                  "label": "Alle Blogs",
+                  "link": null
+                }
+              }
+            ]
+          },
+          "channel": {
+            "__typename": "Channel",
+            "id": "dGF4b25vbXlfdGVybTo4MTQzNA==",
+            "title": "Der ganz normale Wahnsinn"
+          },
+          "createDate": "2019-01-21T10:35:43",
+          "metaKeywords": null
+        }
+      },
+      "termsByVocabulary": {
+        "__typename": "ChannelConnection",
+        "count": 9,
+        "edges": [
+          {
+            "__typename": "ChannelEdge",
+            "node": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo4MTQzNw==",
+              "title": "Genau, Gülsha!",
+              "preferredUri": "/blogs/genau-gulsha-0",
+              "showOnBlogsOverview": true,
+              "landingPage": {
+                "__typename": "LandingPage",
+                "id": "bm9kZToyMjYxMDU=",
+                "title": "Genau,  Gülsha!",
+                "lead": "Das Leben ist seltsam. Autorin und Moderatorin Gülsha Adilji über die Kuriositäten dieser Welt.",
+                "preferredUri": "/blogs/genau-gulsha"
+              },
+              "settings": {
+                "__typename": "TermSettings",
+                "lead": "Das Leben ist seltsam. Gülsha Adilji über die Kuriositäten dieser Welt."
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjE4MjUz",
+                      "name": "Gülsha Adilji",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "993069",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "439219",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "436757",
+                            "alt": "Gülsha Adilji",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/guelsha_adilji.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "items": [
+                  {
+                    "__typename": "Article",
+                    "id": "bm9kZToyNTEzNDQ=",
+                    "title": "Frauen lästern, Männer kritisieren ",
+                    "preferredUri": "/blogs/genau-gulsha/frauen-lastern-manner-kritisieren",
+                    "shortTitle": "Genau, Gülsha!",
+                    "hasVideo": false,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "1101472",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "483514",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "482648",
+                          "alt": "Teaserbild Frauen lästern Männer kritisieren",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/teaserbild_frauen_lastern_manner_kritisieren_0.jpg"
+                        }
+                      }
+                    },
+                    "authors": {
+                      "__typename": "AuthorConnection",
+                      "edges": []
+                    },
+                    "channel": {
+                      "__typename": "Channel",
+                      "id": "dGF4b25vbXlfdGVybTo4MTQzNw==",
+                      "title": "Genau, Gülsha!",
+                      "authors": {
+                        "__typename": "AuthorConnection",
+                        "edges": [
+                          {
+                            "__typename": "AuthorEdge",
+                            "node": {
+                              "__typename": "Author",
+                              "id": "YXV0aG9yOjE4MjUz",
+                              "name": "Gülsha Adilji",
+                              "imageParagraph": {
+                                "__typename": "ImageParagraph",
+                                "id": "993069",
+                                "image": {
+                                  "__typename": "Image",
+                                  "id": "439219",
+                                  "file": {
+                                    "__typename": "ImageFile",
+                                    "id": "436757",
+                                    "alt": "Gülsha Adilji",
+                                    "focalPointX": 1000,
+                                    "focalPointY": 1000,
+                                    "relativeOriginPath": "/guelsha_adilji.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "__typename": "Article",
+                    "id": "bm9kZToyNDU4NDg=",
+                    "title": "Ex-Freunde daten",
+                    "preferredUri": "/blogs/genau-gulsha/ex-freunde-daten",
+                    "shortTitle": "Genau, Gülsha!",
+                    "hasVideo": false,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "1087540",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "477283",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "476286",
+                          "alt": "Blog Guelsha EX Freund Daten",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/2019-10/blog_guelsha_ex_freund_daten.jpg"
+                        }
+                      }
+                    },
+                    "authors": {
+                      "__typename": "AuthorConnection",
+                      "edges": [
+                        {
+                          "__typename": "AuthorEdge",
+                          "node": {
+                            "__typename": "Author",
+                            "id": "YXV0aG9yOjE4MjUz",
+                            "name": "Gülsha Adilji",
+                            "imageParagraph": {
+                              "__typename": "ImageParagraph",
+                              "id": "993069",
+                              "image": {
+                                "__typename": "Image",
+                                "id": "439219",
+                                "file": {
+                                  "__typename": "ImageFile",
+                                  "id": "436757",
+                                  "alt": "Gülsha Adilji",
+                                  "focalPointX": 1000,
+                                  "focalPointY": 1000,
+                                  "relativeOriginPath": "/guelsha_adilji.jpg"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "channel": {
+                      "__typename": "Channel",
+                      "id": "dGF4b25vbXlfdGVybTo4MTQzNw==",
+                      "title": "Genau, Gülsha!",
+                      "authors": {
+                        "__typename": "AuthorConnection",
+                        "edges": [
+                          {
+                            "__typename": "AuthorEdge",
+                            "node": {
+                              "__typename": "Author",
+                              "id": "YXV0aG9yOjE4MjUz",
+                              "name": "Gülsha Adilji",
+                              "imageParagraph": {
+                                "__typename": "ImageParagraph",
+                                "id": "993069",
+                                "image": {
+                                  "__typename": "Image",
+                                  "id": "439219",
+                                  "file": {
+                                    "__typename": "ImageFile",
+                                    "id": "436757",
+                                    "alt": "Gülsha Adilji",
+                                    "focalPointX": 1000,
+                                    "focalPointY": 1000,
+                                    "relativeOriginPath": "/guelsha_adilji.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  },
+                  {
+                    "__typename": "Article",
+                    "id": "bm9kZToyNDAyMjg=",
+                    "title": "Aus der Komfortzone ist in die Komfortzone",
+                    "preferredUri": "/blogs/genau-gulsha/aus-der-komfortzone-ist-die-komfortzone",
+                    "shortTitle": "Gülsha Adilji",
+                    "hasVideo": false,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "1065705",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "467178",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "465975",
+                          "alt": "Group of creatives working on a new project in their new office space. Co-worker is leading the meeting while other two listen to his ideas. Other co-worker is in the foreground working.",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/atelier_buro_kreativ.jpg"
+                        }
+                      }
+                    },
+                    "authors": {
+                      "__typename": "AuthorConnection",
+                      "edges": [
+                        {
+                          "__typename": "AuthorEdge",
+                          "node": {
+                            "__typename": "Author",
+                            "id": "YXV0aG9yOjE4MjUz",
+                            "name": "Gülsha Adilji",
+                            "imageParagraph": {
+                              "__typename": "ImageParagraph",
+                              "id": "993069",
+                              "image": {
+                                "__typename": "Image",
+                                "id": "439219",
+                                "file": {
+                                  "__typename": "ImageFile",
+                                  "id": "436757",
+                                  "alt": "Gülsha Adilji",
+                                  "focalPointX": 1000,
+                                  "focalPointY": 1000,
+                                  "relativeOriginPath": "/guelsha_adilji.jpg"
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    },
+                    "channel": {
+                      "__typename": "Channel",
+                      "id": "dGF4b25vbXlfdGVybTo4MTQzNw==",
+                      "title": "Genau, Gülsha!",
+                      "authors": {
+                        "__typename": "AuthorConnection",
+                        "edges": [
+                          {
+                            "__typename": "AuthorEdge",
+                            "node": {
+                              "__typename": "Author",
+                              "id": "YXV0aG9yOjE4MjUz",
+                              "name": "Gülsha Adilji",
+                              "imageParagraph": {
+                                "__typename": "ImageParagraph",
+                                "id": "993069",
+                                "image": {
+                                  "__typename": "Image",
+                                  "id": "439219",
+                                  "file": {
+                                    "__typename": "ImageFile",
+                                    "id": "436757",
+                                    "alt": "Gülsha Adilji",
+                                    "focalPointX": 1000,
+                                    "focalPointY": 1000,
+                                    "relativeOriginPath": "/guelsha_adilji.jpg"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        ]
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

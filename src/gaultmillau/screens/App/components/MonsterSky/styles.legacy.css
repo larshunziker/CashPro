@@ -1,0 +1,21 @@
+.Container {
+  position: relative;
+}
+
+.AdWrapper {
+  position: absolute;
+  right: -107px;
+  top: 5px;
+  width: 0;
+}
+
+.Ad {
+  background-color: $transparent;
+  display: inline-block;
+  position: absolute;
+}
+
+.Sticky {
+  position: fixed;
+  top: 125px;
+}

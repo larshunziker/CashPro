@@ -1,0 +1,496 @@
+include /etc/nginx/conf.d/proxy.redirects-bil-map;
+
+map $arg_f $sitemap {
+    default   "index";
+    "~.+"     "$arg_f";
+}
+
+map "$host:$arg_utm_medium" $redirectPreview {
+    ~^preview.*:email$  1;
+    default             0;
+}
+
+map $host $ampEnv {
+   default "https://d2zlz13f0o344k.cloudfront.net"; # amp.handelszeitung.ch
+  "develop.handelszeitung.ch" "https://d3ucnh9z4fd9r3.cloudfront.net"; # amp.develop.handelszeitung.ch
+  "stage.handelszeitung.ch" "https://d2crr6uidpsvdj.cloudfront.net"; # amp.stage.handelszeitung.ch
+}
+
+server {
+    listen 8080;
+
+    server_name _;
+
+    resolver 8.8.8.8 valid=30s;
+
+    # Calling the Drupal backend using cms.ringiermedienschweiz.ch goes through
+    # Akamai, which can lead to timeouts since the feeds may take a while to
+    # generate. Using the internal URL prevents this.
+    set $drupal_backend "https://nginx.prod.rasch-backend-k8s-prod.prod.ras.dev:443";
+
+    proxy_buffering on;
+    proxy_buffer_size 128k;
+    proxy_buffers 64 16k;
+    proxy_busy_buffers_size 256k;
+    proxy_cache off;
+
+    port_in_redirect off;
+
+    # Disable compression
+    gzip off;
+
+    # Proxy settings
+    set $xPublication "handelszeitung";
+    include /etc/nginx/conf.d/proxy.services;
+
+    # Redirects
+    include /etc/nginx/conf.d/proxy.redirects;
+
+    location /pageview.txt {
+      alias /etc/nginx/conf.d/pageview.txt;
+    }
+    location /robots.txt {
+      alias "/etc/nginx/conf.d/robots-handelszeitung.txt";
+    }
+    location ~ ^/xml/ {
+      return 404;
+    }
+    location ~ ^/rss/ {
+      return 404;
+    }
+    location ~ ^/wp-login.php {
+      return 404;
+    }
+
+    # News Sitemaps
+    location /sitemap-news.xml {
+      proxy_pass https://cde.hexagon.build/feeds/M3E8My?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Evergreen sitemaps
+    location ~ ^/bilanz/sitemap-articles-evergreen(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2062/sitemap-articles-evergreen-bilanz$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+    location ~ ^/sitemap-articles-evergreen-bilanz(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2062/sitemap-articles-evergreen-bilanz$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SV Evergreen sitemaps
+    location ~ ^/insurance/sitemap-articles-evergreen(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2078/sitemap-articles-evergreen-insurance$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+    location ~ ^/sitemap-articles-evergreen-insurance(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2078/sitemap-articles-evergreen-insurance$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Evergreen sitemaps
+    location ~ ^/sitemap-articles-evergreen(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2046/sitemap-articles-evergreen$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Category sitemaps
+    location /sitemap-category.xml {
+      proxy_pass https://cde.hexagon.build/feeds/9mVxB3?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SV Time-limited sitemaps
+    location ~ ^/insurance/sitemap-articles-time-limited(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2077/sitemap-articles-time-limited-insurance$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+    location ~ ^/sitemap-articles-time-limited-insurance(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2077/sitemap-articles-time-limited-insurance$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Time-limited sitemaps
+    location ~ ^/bilanz/sitemap-articles-time-limited(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2063/sitemap-articles-time-limited-bilanz$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+    location ~ ^/sitemap-articles-time-limited-bilanz(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2063/sitemap-articles-time-limited-bilanz$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZB Time-limited sitemaps
+    location ~ ^/banking/sitemap-articles-time-limited(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2071/sitemap-articles-time-limited-banking$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    location ~ ^/sitemap-articles-time-limited-banking(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2071/sitemap-articles-time-limited-banking$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Time-limited sitemaps
+    location ~ ^/sitemap-articles-time-limited(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-1840/sitemap-articles-time-limited$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;    
+    }
+
+    # HZ Sitemaps
+    location ~ ^/sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/general/handelszeitung/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Sitemaps
+    location ~ ^/bilanz/sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/general/bilanz/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Category sitemaps
+    location /bilanz/sitemap-category.xml {
+      proxy_pass https://cde.hexagon.build/feeds/D8QqMm?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL News sitemaps
+    location /bilanz/sitemap-news.xml {
+      proxy_pass https://cde.hexagon.build/feeds/DAMRKD?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SV Sitemaps
+    location ~ ^/insurance/sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/general/schweizer_versicherung/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SV News sitemaps
+    location /insurance/sitemap-news.xml {
+      proxy_pass https://cde.hexagon.build/feeds/mVe8vD?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZB Sitemaps
+    location ~ ^/banking/sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/general/hz_banking/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZB News sitemaps
+    location /banking/sitemap-news.xml {
+      proxy_pass https://cde.hexagon.build/feeds/3jW2ZD?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZ Author sitemaps
+    location ~ ^/sitemap-authors.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/author/handelszeitung/author-sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Author sitemaps
+    location ~ ^/bilanz/sitemap-authors.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/author/bilanz/author-sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SV Author sitemaps
+    location ~ ^/insurance/sitemap-authors.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/author/schweizer_versicherung/author-sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZB Author sitemaps
+    location ~ ^/banking/sitemap-authors.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/author/hz_banking/author-sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZ Image sitemap
+    location ~ ^/image-sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/image/handelszeitung/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # BIL Image sitemap
+    location ~ ^/bilanz/image-sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/image/bilanz/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # HZ SMD feed
+    location ~ ^/feed/smd$ {
+      rewrite ^/feed/smd$ /feeds/smd/3? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # BIL SMD feed
+    location ~ ^/bilanz/feed/smd$ {
+      rewrite ^/bilanz/feed/smd$ /feeds/smd/9? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.bilanz.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ RSS feed
+    location ~ ^/rss_feed$ {
+      rewrite ^/rss_feed$ /feeds/rss/3? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # BIL RSS feed
+    location ~ ^/bilanz/rss_feed$ {
+      rewrite ^/bilanz/rss_feed$ /feeds/rss/9? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.bilanz.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ RSS feed ALL Articles
+    location ~ ^/rss_all$ {
+      rewrite ^/rss_all$ /feeds/rss/3/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ RSS feed PAID Articles
+    location ~ ^/rss_paid$ {
+      rewrite ^/rss_paid$ /feeds/rss/3/paid+registered? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ RSS feed FREE Articles
+    location ~ ^/rss_free$ {
+      rewrite ^/rss_free$ /feeds/rss/3/free? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # SV RSS feed SMD
+    location ~ ^/insurance/feed/smd$ {
+      rewrite ^/insurance/feed/smd$ /feeds/smd/8? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.schweizer-versicherung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ MSN feed
+    location ~ ^/msn.xml$ {
+      rewrite ^/msn.xml$ /feeds/msn_articles/3? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # BIL MSN feed
+    location ~ ^/bilanz/msn.xml$ {
+      rewrite ^/bilanz/msn.xml$ /feeds/msn_articles/9? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.bilanz.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # socialfeed
+    location ~ ^/socialfeed.xml$ {
+      rewrite ^/socialfeed.xml$ /feeds/socialmedia/3? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed all contents
+    location ~ ^/feeds/flipboard/all$ {
+      rewrite ^/feeds/flipboard/all$ /feeds/flipboard/3/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # BIL Flipboard feed All content
+    location ~ ^/bilanz/feeds/flipboard/all$ {
+      rewrite ^/bilanz/feeds/flipboard/all$ /feeds/flipboard/9/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.bilanz.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # SV Flipboard feed All content
+    location ~ ^/insurance/feeds/flipboard/all$ {
+      rewrite ^/insurance/feeds/flipboard/all$ /feeds/flipboard/8/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.schweizer-versicherung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed Unternehmen
+    location ~ ^/feeds/flipboard/unternehmen$ {
+      rewrite ^/feeds/flipboard/unternehmen$ /feeds/flipboard/3/4859? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed Beruf
+    location ~ ^/feeds/flipboard/beruf$ {
+      rewrite ^/feeds/flipboard/beruf$ /feeds/flipboard/3/4861? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed Geld
+    location ~ ^/feeds/flipboard/geld$ {
+      rewrite ^/feeds/flipboard/geld$ /feeds/flipboard/3/4863? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed Tech
+    location ~ ^/feeds/flipboard/tech$ {
+      rewrite ^/feeds/flipboard/tech$ /feeds/flipboard/3/4860? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ Flipboard feed Panorama
+    location ~ ^/feeds/flipboard/panorama$ {
+      rewrite ^/feeds/flipboard/panorama$ /feeds/flipboard/3/107321? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # HZ, SV Google Publisher Center feed
+    location ~ ^/google_publisher_center.xml$ {
+      rewrite ^/google_publisher_center.xml$ /feeds/google_publisher_center/3+8? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.handelszeitung.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    location ~* \.(eot|otf|ttf|woff|woff2)$ {
+      add_header Access-Control-Allow-Origin *;
+
+      proxy_pass ${NGINX_PROXY_PASS};
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+    }
+
+    # hybrid app menu no-cache
+    location ~ ^/hybrid/menu.json$ {
+      expires -1;
+      proxy_no_cache 1;
+      proxy_cache_bypass $http_upgrade;
+
+      proxy_pass ${NGINX_PROXY_PASS};
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+    }
+
+        # News Showcase
+    location  /google-news-showcase.xml {
+      proxy_pass https://cde.hexagon.build/feeds/dDMZom?token=ab06a1a3-7aa7-4a8e-978e-4d2001718ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    location / {
+
+
+      #redirect rule for preview links in newsletter
+      if ($redirectPreview) {
+        rewrite ^/(.*) https://www.handelszeitung.ch/$1 permanent;
+      }
+
+      # proxying for presto amp pages
+      location ~ ^(/.*?)\/amp$ {
+        resolver 8.8.8.8;
+        proxy_set_header X-Akamai 66b92b30e83141ee1016740652f256ec1e006118df6ecb5ca4ffab9384942226;
+        proxy_pass $ampEnv$1/amp/;
+      }
+
+      # proxying for presto amp assets and static resources
+      location ~ ^/amp-assets(\/.*)$ {
+        proxy_set_header X-Akamai 66b92b30e83141ee1016740652f256ec1e006118df6ecb5ca4ffab9384942226;
+        proxy_pass $ampEnv/amp-assets$1;
+      }
+
+      proxy_pass ${NGINX_PROXY_PASS};
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+    }
+}

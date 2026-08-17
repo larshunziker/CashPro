@@ -1,0 +1,27 @@
+.Wrapper {
+  position: relative;
+}
+
+.Header {
+  composes: Header from 'Restaurants/styles.legacy.css';
+}
+
+.HeaderTitle {
+  composes: HeaderTitle from 'Restaurants/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from 'Restaurants/styles.legacy.css';
+}
+
+.SearchForm {
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    height: 54px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    height: 60px;
+  }
+}

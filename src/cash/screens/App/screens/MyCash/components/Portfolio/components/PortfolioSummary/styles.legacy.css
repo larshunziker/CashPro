@@ -1,0 +1,67 @@
+.SummaryGridWrapper {
+  background: none;
+  display: flex;
+  gap: $margin16;
+  padding: 0;
+  width: 100%;
+
+  @media print {
+    break-inside: avoid;
+  }
+
+  @media (min-width: $xsBreakpoint) {
+    flex-direction: column;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.SummaryWrapper {
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: auto;
+    margin-right: 0;
+    max-width: 324px;
+    width: 50%;
+  }
+}
+
+.Title {
+  composes: WidgetBold from 'typography.legacy.css';
+}
+
+.ContentRow {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.Positive {
+  composes: WidgetBold from 'typography.legacy.css';
+  color: $positive;
+}
+
+.Negative {
+  composes: WidgetBold from 'typography.legacy.css';
+  color: $primaryA;
+  font-weight: bold;
+}
+
+.TradingTeaserWrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  @media (min-width: $lgBreakpoint) {
+    align-items: center;
+  }
+}

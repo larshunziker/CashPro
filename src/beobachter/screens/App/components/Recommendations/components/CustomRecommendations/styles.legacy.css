@@ -1,0 +1,11 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+}
+
+.TitleWrapper {
+  width: 100%;
+}
+
+.Title {
+  composes: TitleWithLine from 'typography.legacy.css';
+}

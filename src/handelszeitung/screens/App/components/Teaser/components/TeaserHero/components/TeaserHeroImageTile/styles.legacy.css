@@ -1,0 +1,148 @@
+.Wrapper {
+  line-height: 0;
+  position: relative;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: calc($zIndexMedium - 1);
+  }
+}
+
+.Wrapper::after {
+  background: $brandRepGradientDarkSm;
+
+  @media (min-width: $smBreakpoint) {
+    background: $brandRepGradientDark;
+  }
+}
+
+.WrapperWithSponsor::before {
+  background: $brandRepGradientGlareSm;
+  height: 100%;
+  z-index: calc($zIndexMedium - 2);
+
+  @media (min-width: $smBreakpoint) {
+    background: $brandRepGradientGlare;
+  }
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: 6px;
+  max-width: 570px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 10px;
+  }
+}
+
+.InnerWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.Link {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.TeaserText {
+  bottom: 10px;
+  left: 0;
+  padding: 0 12px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 26px;
+    padding: 0 20px;
+  }
+}
+
+.ShortTitleWrapper {
+  height: 20px;
+  margin-bottom: $margin8;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 25px;
+    width: 123px;
+  }
+}
+
+.TeaserTitle {
+  composes: H3White from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.SponsorImageWrapper {
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 118px;
+  z-index: $zIndexMedium;
+
+  picture img {
+    height: 44px;
+    object-fit: contain;
+    width: auto;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 57px;
+    width: 152px;
+
+    picture img {
+      height: 57px;
+    }
+  }
+}
+
+.ImageWrapper {
+  position: relative;
+}
+
+.AuthorWrapper {
+  composes: Lead2White from 'typography.legacy.css';
+}
+
+.DedicatedPageLink {
+  composes: Meta3White from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+}
+
+.ArrowWrap {
+  margin-left: 10px;
+}
+
+.Badge {
+  bottom: 17px;
+  left: -12px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    left: -18px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: -20px;
+  }
+}

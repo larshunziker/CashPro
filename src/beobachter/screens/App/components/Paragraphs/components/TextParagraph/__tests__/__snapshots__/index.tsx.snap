@@ -1,0 +1,42 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct default header 1`] = `
+<div
+  className="Header"
+  data-testid="textparagraph-header"
+>
+  header text
+</div>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct header for FINANCE_DICTIONARY_TYPE  1`] = `
+<h3
+  className="Header"
+  data-testid="textparagraph-header-finance-dictionary"
+>
+  header text
+</h3>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct header for INFO_BOX_TYPE  1`] = `
+<div
+  className="Header"
+  data-testid="textparagraph-header-infobox-style-guider"
+>
+  header text
+</div>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for normal text paragraphs 1`] = `
+{
+  "Header": "Header",
+  "Wrapper": "RichTextWrapper",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph Should return the correct styles for text paragraphs within info boxes 1`] = `
+{
+  "Header": "Header",
+  "Wrapper": "RichTextWrapper",
+}
+`;

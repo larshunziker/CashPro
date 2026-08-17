@@ -1,0 +1,62 @@
+:global(.chart) {
+  float: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.HighchartsWrapper {
+  position: relative;
+}
+
+.NoData {
+  align-items: center;
+  display: flex;
+  font-size: 1.2rem;
+  height: 500px;
+  justify-content: center;
+  position: absolute;
+  width: 100%;
+  z-index: 99;
+}
+
+.Wrapper {
+  composes: Wrapper from '../InteractiveChart/styles.legacy.css'
+}
+
+$freqFontColor: #666;
+$freqFontFamily: 'Source Sans Pro', Helvetica, Arial, sans-serif;
+$freqBtnBgColor: #f7f7f7;
+$freqBtnBgColorHover: #e6e6e6;
+$freqBtnBgColorActive: #e6ebf5;
+
+.FrequencyWrapper {
+  color: $freqFontColor;
+  margin-left: 12px;
+
+  span {
+    font-family: $freqFontFamily;
+    font-size: 14px;
+  }
+}
+
+.FrequencyButton {
+  background: $freqBtnBgColor;
+  border: 0;
+  cursor: pointer;
+  font-family: $freqFontFamily;
+  font-size: 14px;
+  margin-right: 5px;
+  padding: 3px 6px;
+
+
+  &:hover {
+    background: $freqBtnBgColorHover;
+  }
+
+
+  &.Active{
+    background: $freqBtnBgColorActive;
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,143 @@
+.Wrapper {
+  margin-bottom: 25px;
+  margin-top: 75px;
+  padding-top: 63px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    margin-top: 84px;
+    padding-top: 85px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+    margin-top: $margin120;
+    padding-top: 115px;
+  }
+}
+
+.HeaderImageWrapper {
+  text-align: center;
+
+  &::before,
+  &::after {
+    background-color: $black;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 0;
+    width: calc(50% - 75px);
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    $borderWidth: 218px;
+
+    &::after,
+    &::before {
+      height: 2px;
+      width: 218px;
+    }
+
+    &::before {
+      left: calc(50% - 64px - 42px - $borderWidth);
+    }
+
+    &::after {
+      right: calc(50% - 64px - 42px - $borderWidth);
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    $borderWidth: 300px;
+
+    &::after,
+    &::before {
+      width: $borderWidth;
+    }
+
+    &::before {
+      left: calc(50% - 95px - 80px - $borderWidth);
+    }
+
+    &::after {
+      right: calc(50% - 95px - 80px - $borderWidth);
+    }
+  }
+}
+
+.HeaderImage {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 90px;
+  left: calc(50% - 45px);
+  max-height: 90px;
+  max-width: 90px;
+  padding: 5px;
+  position: absolute;
+  top: -45px;
+  width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 128px;
+    left: calc(50% - 64px);
+    max-height: 128px;
+    max-width: 128px;
+    padding: 6px;
+    top: -64px;
+    width: 128px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    border-width: 2px;
+    height: 190px;
+    left: calc(50% - 95px);
+    max-height: 190px;
+    max-width: 190px;
+    padding: 8px;
+    top: -95px;
+    width: 190px;
+  }
+}
+
+.ContentWrapper {
+  padding: 0 15px 15px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 auto;
+    padding: 0 136px 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 100%;
+  }
+}
+
+.Title {
+  composes: HeadingOverviewCeleb from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 15px;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+}

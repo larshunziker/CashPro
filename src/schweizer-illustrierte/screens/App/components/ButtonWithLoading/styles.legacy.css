@@ -1,0 +1,79 @@
+.Primary {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $white;
+  }
+
+  &.SY {
+    @mixin ButtonPrimaryBigSY;
+  }
+}
+
+.Secondary {
+  composes: ButtonSecondaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $redA;
+  }
+
+  &.SY {
+    @mixin ButtonSecondaryBigSY;
+
+    circle {
+      stroke: $black;
+    }
+  }
+}
+
+.Tertiary {
+  composes: ButtonTertiaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $redA;
+  }
+
+  &.SY {
+    @mixin ButtonTertiaryBigSY;
+
+    circle {
+      stroke: $black;
+    }
+  }
+}
+
+.Small {
+  margin: 0 $margin12 $margin12 0;
+
+  &.Primary {
+    @mixin ButtonPrimarySmall;
+
+    &.SY {
+      @mixin ButtonPrimarySmallSY;
+    }
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmall;
+
+    &.SY {
+      @mixin ButtonSecondarySmallSY;
+
+      circle {
+        stroke: $black;
+      }
+    }
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiarySmall;
+
+    &.SY {
+      @mixin ButtonTertiarySmallSY;
+
+      circle {
+        stroke: $black;
+      }
+    }
+  }
+}

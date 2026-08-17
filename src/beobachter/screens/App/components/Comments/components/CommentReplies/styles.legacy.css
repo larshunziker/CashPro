@@ -1,0 +1,45 @@
+.Wrapper {
+  margin: $margin16 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 50px;
+  }
+}
+
+.Toggle {
+  border-bottom: 1px solid $greyB;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ToggleLink {
+  align-items: center;
+  background: none;
+  border: none;
+  color: $greyA;
+  cursor: pointer;
+  display: flex;
+  font: bold 1.2rem $fontSpezia;
+  letter-spacing: 0.14px;
+  outline: none;
+  padding: 8px 0;
+}
+
+.Icon {
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.Hidden {
+  display: none;
+}

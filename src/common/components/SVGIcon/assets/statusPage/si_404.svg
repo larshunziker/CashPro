@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 72 72"><style>
+@keyframes a0_so { 0% { stroke-opacity: 1; } 80% { stroke-opacity: 1; } 100% { stroke-opacity: 0; } }
+@keyframes a0_fo { 0% { fill-opacity: 0; } 60% { fill-opacity: 0; } 80% { fill-opacity: 1; } 100% { fill-opacity: 1; } }
+@keyframes a0_da { 0% { stroke-dasharray: 220px 220px; } 30% { stroke-dasharray: 220px 220px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dasharray: 220px 220px; } 100% { stroke-dasharray: 220px 220px; } }
+@keyframes a0_do { 0% { stroke-dashoffset: 220px; } 30% { stroke-dashoffset: 220px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+@keyframes a1_fo { 0% { fill-opacity: 0; } 60% { fill-opacity: 0; } 70% { fill-opacity: 1; } 100% { fill-opacity: 1; } }
+@keyframes a1_do { 0% { stroke-dashoffset: 125px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+@keyframes a2_fo { 0% { fill-opacity: 0; } 60% { fill-opacity: 0; } 70% { fill-opacity: 1; } 100% { fill-opacity: 1; } }
+@keyframes a2_do { 0% { stroke-dashoffset: 13px; } 40% { stroke-dashoffset: 13px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+@keyframes a3_do { 0% { stroke-dashoffset: 3px; } 40% { stroke-dashoffset: 3px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+@keyframes a4_do { 0% { stroke-dashoffset: 9px; } 40% { stroke-dashoffset: 9px; animation-timing-function: cubic-bezier(.4,0,.6,1); } 70% { stroke-dashoffset: 0px; } 100% { stroke-dashoffset: 0px; } }
+</style>
+
+<g class="si-404-animation">
+  <ellipse rx="35" ry="35" stroke="#d8d8d8" fill="#d8d8d8" stroke-miterlimit="10" stroke-linejoin="round" stroke-width="2" stroke-dashoffset="220" fill-rule="evenodd" fill-opacity="0" stroke-dasharray="220 220" transform="translate(36,36)" style="animation: 1s linear both a0_so, 1s linear both a0_fo, 1s linear both a0_da, 1s linear both a0_do;"/><g transform="translate(21.6,16.1)"><path class="st0" d="M26.9 38.8h-25.1c-0.4 0-0.8-0.3-0.8-0.8v-30.7c0-0.3 .1-0.5 .3-0.7l5.4-5.3c.2-0.2 .4-0.3 .7-0.3h19.5c.4 0 .8 .3 .8 .8v36.3c-0.1 .4-0.4 .7-0.8 .7Z" stroke-width="2" stroke-linejoin="round" stroke="#4a4a4a" stroke-miterlimit="10" fill="#fff" fill-opacity="0" stroke-dashoffset="125" stroke-dasharray="125 125" stroke-linecap="round" style="animation: 1s linear both a1_fo, 1s linear both a1_do;"/><path class="st1" d="M1 7.5h5.5c.6 0 1-0.4 1-1v-5.5" stroke-width="2" stroke-linejoin="round" stroke="#4a4a4a" stroke-miterlimit="10" fill="none" stroke-dashoffset="13" stroke-dasharray="13 13" stroke-linecap="round" fill-opacity="0" style="animation: 1s linear both a2_fo, 1s linear both a2_do;"/><ellipse class="st3" rx=".5" ry=".5" fill="none" stroke="#4a4a4a" stroke-dashoffset="3" stroke-dasharray="3 3" transform="translate(14.3,25.9) scale(1.2,1.2)" style="animation: 1s linear both a3_do;"/><path class="st2" d="M14.3 13.9v8" stroke-width="2" stroke="#4a4a4a" stroke-miterlimit="10" fill="none" stroke-dashoffset="9" stroke-dasharray="9 9" stroke-linecap="round" stroke-linejoin="round" style="animation: 1s linear both a4_do;"/></g>
+</g>
+</svg>

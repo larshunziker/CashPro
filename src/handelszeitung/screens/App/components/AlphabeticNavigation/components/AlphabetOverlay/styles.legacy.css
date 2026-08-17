@@ -1,0 +1,27 @@
+.MobileMenu {
+  background-color: $blackB;
+  inset: 0;
+  position: fixed;
+  transform: translateY(100%);
+  transition: transform 0.3s;
+  z-index: $zIndexOverlay;
+
+  &.MobileMenuOpen {
+    transform: translateY(0);
+  }
+}
+
+.MobileMenuInner {
+  composes: Container from '@grid.legacy.css';
+  position: relative;
+  top: calc(50% - 230px);
+}
+
+.MobileCloseIconWrapper {
+  composes: Container from '@grid.legacy.css';
+  color: $white;
+  display: flex;
+  font-size: 3rem;
+  justify-content: flex-end;
+  padding: 20px;
+}

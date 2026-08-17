@@ -1,0 +1,135 @@
+.Wrapper {
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: 6px;
+  max-width: 570px;
+}
+
+.InnerWrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.Link {
+  composes: Clearfix from 'helpers.legacy.css';
+
+  /* create z-index stacking context for BE+ icon positioning */
+  display: block;
+  position: relative;
+  z-index: $zIndex1;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+
+    z-index: calc($zIndexMedium - 1);
+  }
+
+  &::after {
+    background: $brandRepGradientDarkSm;
+
+    @media (min-width: $smBreakpoint) {
+      background: $brandRepGradientDark;
+    }
+  }
+
+  &::before {
+    background: $brandRepGradientGlareSm;
+
+    z-index: calc($zIndexMedium - 2);
+
+    @media (min-width: $smBreakpoint) {
+      background: $brandRepGradientGlare;
+    }
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.SponsorImageWrapper {
+  display: flex;
+  height: 44px;
+  justify-content: flex-end;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 118px;
+  z-index: $zIndexMedium;
+
+  picture img {
+    height: 44px;
+    width: auto;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 49px;
+    width: 130px;
+
+    picture img {
+      height: 49px;
+    }
+  }
+  @media (min-width: $lgBreakpoint) {
+    height: 42px;
+    width: 111px;
+
+    picture img {
+      height: 42px;
+    }
+  }
+}
+
+.TeaserText {
+  bottom: 12px;
+  left: 0;
+  padding: 0 16px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0 32px;
+  }
+}
+
+.BrandReportWrapper {
+  margin: initial;
+  margin-bottom: $margin8;
+}
+
+.BrandReport {
+  background-color: $purple;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.68rem;
+  padding: 2px 6px;
+}
+
+.TeaserTitle {
+  composes: H3BSansSerif from 'typography.legacy.css';
+  color: $white;
+}
+
+.AuthorWrapper {
+  composes: TableContentWhite from 'typography.legacy.css';
+  margin-top: 0;
+}

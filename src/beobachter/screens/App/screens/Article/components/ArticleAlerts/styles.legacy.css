@@ -1,0 +1,21 @@
+.AlertListTitle {
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 24px;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+  }
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}

@@ -1,0 +1,18 @@
+.Wrapper {
+  background: $decoB;
+  display: block;
+  padding: $margin24;
+}
+
+.TextParagraph {
+  composes: InfoB from 'typography.legacy.css';
+
+  h4 {
+    @mixin H4;
+    margin-bottom: $margin24;
+  }
+
+  b, strong {
+    @mixin InfoBBold;
+  }
+}

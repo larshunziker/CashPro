@@ -1,0 +1,38 @@
+.Wrapper {
+  align-items: center;
+  column-gap: 28px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-start;
+    margin: 0;
+    position: relative;
+  }
+
+  &.Header {
+    display: flex;
+    justify-content: center;
+    top: 4px;
+
+    @media (min-width: $xlBreakpoint) { 
+      top: 8px;
+    }
+  }
+}
+
+.WrapperSY {
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    gap: $margin24;
+    justify-content: center; 
+  }
+}
+
+.WrapperOverlay {
+  column-gap: 28px;
+  height: auto;
+  justify-content: flex-start;
+}

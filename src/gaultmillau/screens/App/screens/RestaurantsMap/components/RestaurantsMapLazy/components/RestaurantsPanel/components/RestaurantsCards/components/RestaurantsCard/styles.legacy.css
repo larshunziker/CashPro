@@ -1,0 +1,119 @@
+.Card {
+  border-bottom: 2px solid $neutralE;
+  padding: 12px 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 15px 0;
+  }
+}
+
+.Inner {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 21px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.Rating {
+  align-items: flex-start;
+  color: $error;
+  display: flex;
+  flex-shrink: 0;
+  font-size: 5rem;
+  height: 40px;
+  justify-content: center;
+  margin-right: 10px;
+  width: 33px;
+}
+
+.Details {
+  display: flex;
+  flex-direction: column;
+  flex-grow: 2;
+  font: 1.2rem/1.4rem $fontBagueSansPro;
+  margin-right: 10px;
+  text-align: left;
+}
+
+.RatingIcon {
+  display: block;
+}
+
+.Category {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+.Name {
+  display: block;
+  font: 800 1.6rem/1 $fontActaHeadline;
+  margin: 3px 0;
+}
+
+.NameLink {
+  color: $neutralA;
+}
+
+.Text {
+  color: $neutralA;
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: calc(14 / 12);
+}
+
+.Meta {
+  align-items: center;
+  display: flex;
+  flex-direction: column-reverse;
+  height: 110px;
+  justify-content: space-between;
+  width: 35px;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+  }
+}
+
+.Icon {
+  color: $neutralA;
+  display: block;
+  font-size: 2.75rem;
+
+  .IconLink:hover & {
+    color: $neutralA;
+  }
+}
+
+.IconLink {
+  composes: TextHoverGoldGradient from 'gmHelpers.legacy.css';
+  composes: UnstyledButton from 'form.legacy.css';
+  display: block;
+}
+
+.IconLinkText {
+  composes: TextHoverGoldGradient from 'gmHelpers.legacy.css';
+  display: block;
+  margin-top: -2px;
+
+  .IconLink:hover & {
+    color: $neutralA;
+  }
+}
+
+.IconLinkLocation,
+.IconLinkPhone {
+  composes: IconLink;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}

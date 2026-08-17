@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserHeroB Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper teaser-hero-b WrapperHeroB"
+      data-testid="teaser-factory-anchor-link-wrapper"
+    >
+      <div
+        class="ContentWrapper Left"
+      >
+        <div
+          class="ShortTitle Default"
+        />
+        <div
+          class="Title"
+        >
+          <span />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

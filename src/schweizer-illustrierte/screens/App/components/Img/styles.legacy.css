@@ -1,0 +1,49 @@
+.ImageWrapper {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+
+  &:global(.placeholder-loading) {
+    &::after {
+      animation: heart-beat 1s infinite;
+      animation-direction: alternate;
+      background-color: $grayD;
+      content: '';
+      inset: 0;
+      max-height: 100%;
+      max-width: 100%;
+      position: absolute;
+      z-index: calc($zIndex1 + 1);
+    }
+  }
+}
+
+@keyframes heart-beat {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 0.3;
+  }
+}
+
+.Image {
+  height: 100%;
+  position: relative;
+  width: 100%;
+  z-index: calc($zIndex1 - 1);
+}
+
+/*
+  this class is used for all blurred
+  placeholders it must be unter the .Image class
+*/
+:global(.placeholder) {
+  inset: 0;
+  opacity: 1;
+  position: absolute !important; /* stylelint-disable-line */
+  transition: opacity 0.3s linear; /* check transition in replacePlaceholderOnLoad.js if you change this */
+  width: 100% !important; /* stylelint-disable-line */
+  z-index: $zIndex1;
+}

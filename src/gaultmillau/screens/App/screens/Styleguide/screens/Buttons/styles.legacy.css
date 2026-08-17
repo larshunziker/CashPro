@@ -1,0 +1,20 @@
+.ButtonsWrapper {
+  background: $neutralE;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 10px;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+}
+
+.Title2 {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+}

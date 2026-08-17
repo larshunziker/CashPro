@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageLogoBox Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-sponsor-logo-box"
+  >
+    <div>
+      <div
+        class="TitleClassName"
+      >
+        This is a Sponsor Logo Box
+      </div>
+      <div
+        class="SubTitleClassName"
+      >
+        subhead
+      </div>
+      <div
+        class="ItemWrapperClassName"
+      >
+        <div>
+          Mock Teaser
+        </div>
+        <div>
+          Mock Teaser
+        </div>
+        <div>
+          Mock Teaser
+        </div>
+        <div>
+          Mock Teaser
+        </div>
+        <div>
+          Mock Teaser
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

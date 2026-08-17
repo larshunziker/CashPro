@@ -1,0 +1,22 @@
+.Wrapper {
+  background-color: $errorB;
+  margin-bottom: 10px;
+  padding: 20px;
+}
+
+.Title {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.Text {
+  composes: InfoB from 'typography.legacy.css'
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}

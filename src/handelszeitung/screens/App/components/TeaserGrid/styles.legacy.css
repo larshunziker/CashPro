@@ -1,0 +1,33 @@
+.GridRow {
+  margin-bottom: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.AdContainerFull {
+  overflow: hidden;
+  width: 100%;
+}
+
+.AdContainer {
+  composes: AdContainer from 'helpers.legacy.css';
+  align-items: center;
+  background: $greyE;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: 330px;
+    min-height: 0;
+  }
+}

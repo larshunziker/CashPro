@@ -1,0 +1,60 @@
+.InnerWrapper {
+  align-items: center;
+  background: $greyE;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Text {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin: 0 $margin16 $margin24 $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    max-width: 583px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 760px;
+  }
+}
+
+.Icon {
+  animation: BellAnimation 500ms forwards;
+  animation-delay: 500ms;
+  color: $blueA;
+  font-size: 8rem;
+  line-height: 8rem;
+  margin: $margin24 auto $margin8 auto;
+  transform-origin: 50% 25%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin48 auto $margin24 auto;
+  }
+}
+
+.Wrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin56;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    background: $greyE;
+    margin-bottom: $margin40;
+    padding-bottom: 48px;
+  }
+}
+
+@mixin BellAnimation;

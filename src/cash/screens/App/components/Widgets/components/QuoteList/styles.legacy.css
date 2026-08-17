@@ -1,0 +1,64 @@
+.ActionsWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: $margin12;
+  justify-content: flex-start;
+  margin-bottom: $margin16;
+  
+  @media (min-width: 624px) {
+    justify-content: space-between;
+  }
+
+  > .ActionsWrapper {
+    max-width: calc(100% - 115px);
+    
+    @media (min-width: 624px) {
+      max-width: 100%;
+    }
+  }
+}
+
+.DropdownWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.DropdownItem {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: $margin8 $margin24;
+  width: 100%;
+
+  &:hover {
+    background-color: $greyE;
+  }
+
+  &.Title {
+    background-color: $greyE;
+    font-weight: bold;
+  }
+
+  .Icon {
+    color: $secondaryA;
+    padding-left: $margin16;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}

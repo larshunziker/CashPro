@@ -1,0 +1,44 @@
+{
+  "teaserParagraph": {
+    "__typename": "TeaserParagraph",
+    "id": "cGFyYWdyYXBoOnRlYXNlcjoxMjI1NDIwOjM0Njg2NjE=",
+    "anchorId": null,
+    "detailView": false,
+    "title": null,
+    "teasers": {
+      "__typename": "TeaserableInterfaceConnection",
+      "edges": [
+        {
+          "__typename": "TeaserableInterfaceEdge",
+          "node": {
+            "__typename": "Product",
+            "title": "Fondue aux trois laits",
+            "shortTitle": null,
+            "teaserImage": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjEyMjU0MTc6MzQ2ODY1OA==",
+              "caption": null,
+              "image": {
+                "__typename": "Image",
+                "id": "538563",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo1MzkxNzc6OjUwMCw1MDA6bGFyZ2U6",
+                  "alt": "Fondue aux trois laits ",
+                  "focalPointX": 200,
+                  "focalPointY": 200,
+                  "relativeOriginPath": "/fondue_0.jpg"
+                }
+              }
+            },
+            "preferredUri": "/group/1/content/314974",
+            "id": "bm9kZToyOTQ1MDI=",
+            "description": "<p>Diese köstliche, frische Fonduemischung begeistert durch die Zugabe von Geiss- und Schafsmilchkäse, die dem Käse aus klassischer Kuhmilch eine sämige, fast frühlingshafte Note schenken. Besonders köstlich mit frischen Birnenschnitzen serviert.</p>\n\n<p><strong>Fondue aux trois laits<br />\nInhalt 400 g<br />\nCHF 29.90</strong></p>\n",
+            "link": null
+          }
+        }
+      ]
+    },
+    "style": "default"
+  }
+}

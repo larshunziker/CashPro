@@ -1,0 +1,25 @@
+.Wrapper {
+  background-color: $greyE;
+  padding: 30px 0 40px;
+}
+
+.Title {
+  font-family: $fontGotham;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: normal;
+  line-height: 1.3rem;
+  margin-bottom: 25px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 1.4rem;
+  }
+}
+
+.SponsorItem {
+  background-color: $white;
+  margin: calc($gridGutterWidthXs / 2) 0;
+}

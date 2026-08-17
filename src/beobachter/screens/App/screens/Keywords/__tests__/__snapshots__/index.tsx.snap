@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] Keywords Should render hint if there is no data 1`] = `
+<div
+  data-testid="keywords-noresult-wrapper"
+>
+  Keine Stichworte zu diesem Buchstaben vorhanden.
+</div>
+`;

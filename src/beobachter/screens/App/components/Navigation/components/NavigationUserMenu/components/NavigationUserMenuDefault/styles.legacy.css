@@ -1,0 +1,70 @@
+.Container {
+  margin: 0 $margin16;
+  margin-inline: 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 $margin32;
+  }
+}
+
+.Wrapper {
+  background-color: $white;
+}
+
+.UserInformationWrapper {
+  background-color: $grey10;
+  margin: 0 -19px;
+  padding-block: 16px 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    padding-block: 16px 14px;
+  }
+}
+
+.UserName {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-flex;
+
+    p:first-child {
+      margin-right: 4px;
+    }
+  }
+}
+
+.UserCredentials {
+  composes: TeaserLeadWhite from 'typography.legacy.css';
+  color: $grey90;
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  margin-block: 18px;
+}
+
+.MenuItem {
+  cursor: pointer;
+  list-style: none;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 12px;
+  }
+}
+
+.MenuHeader, .MenuHeaderContent, .CloseButton, .CloseIcon {
+  display: none;
+}

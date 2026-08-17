@@ -1,0 +1,109 @@
+.Wrapper {
+  background-color: $white;
+  padding: $margin16;
+  position: relative;
+
+  &.DetailsOpen {
+    padding: $margin16 $margin16 $margin8 $margin16;
+
+    .ButtonWrapper {
+      margin-bottom: 0;
+      padding-bottom: $margin8;
+    }
+  }
+}
+
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+  color: $secondaryA;
+}
+
+.TitleWrapper {
+  align-items: center;
+  display: flex;
+  gap: $margin8;
+}
+
+.Icon {
+  color: $secondaryA;
+  font-size: 1.125rem;
+}
+
+.WelcomeText {
+  margin-top: $margin12;
+
+  ~ button {
+    margin-top: $margin24;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.TooltipLink {
+  && {
+    height: 18px;
+    position: relative;
+    top: 2px;
+    width: 18px;
+  }
+}
+
+.Currency {
+  composes: FormLabelSmall from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: 16px;
+}
+
+.RowWrapper {
+  padding: $margin8 0;
+
+  &:first-of-type {
+    border-top: 1px solid $greyD;
+  }
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $greyD;
+  }
+}
+
+.RowTitle {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.RowValue, .RowValueBold {
+  composes: InfoA from 'typography.legacy.css';
+}
+
+.RowValueBold {
+  font-weight: bold;
+}
+
+.Positive {
+  composes: WidgetBold from 'typography.legacy.css';
+  color: $positive;
+}
+
+.Negative {
+  composes: WidgetBold from 'typography.legacy.css';
+  color: $primaryA;
+}
+
+.SpaceBetween {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: -$margin8;
+  padding-top: $margin8;
+  width: 100%;
+}

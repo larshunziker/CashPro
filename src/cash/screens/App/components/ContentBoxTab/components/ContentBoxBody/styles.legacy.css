@@ -1,0 +1,73 @@
+/* shared styles for the MostReadBody and the NewestBody
+They compose the most styles from here but I wanted to
+keep them separated for each component without having
+duplicated css code */
+
+.Divider {
+  position: relative;
+
+  &::before {
+    background-color: $greyD;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: $margin8 0 0;
+    width: 100%;
+  }
+}
+
+.NumberedList {
+  float: left;
+  @mixin fontSize 28;
+  font-variant-numeric: lining-nums;
+  margin-right: $margin8;
+  margin-top: -4px;
+}
+
+.ContentBoxBodyWrapper {
+  display: inline-block;
+  margin-top: $margin8;
+  width: 100%;
+}
+
+.PublicationDate {
+  span {
+    @mixin Meta3;
+    color: $greyA;
+    font-variant: lining-nums;
+  }
+
+  span:nth-child(2) {
+    margin-left: 2px;
+  }
+}
+
+.PublicationDateWithNumberedList {
+  margin-left: 23px;
+}
+
+.LinkWrapper {
+  text-align: center;
+
+  &::before {
+    background-color: $greyD;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: $margin8 0;
+    width: 100%;
+  }
+}
+
+.Link {
+  composes: ButtonSmall from 'typography.legacy.css';
+  color: $secondaryA;
+  display: inline-block;
+  font-weight: bold;
+  margin-top: $margin8;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}

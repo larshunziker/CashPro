@@ -1,0 +1,53 @@
+.ButtonWrapper {
+  border-bottom: 1px dotted $greyC;
+  display: flex;
+  flex-direction: row;
+  margin: 15px 0;
+}
+
+.Title3 {
+  composes: H3 from 'typography.legacy.css';
+  margin: $margin12 0;
+}
+
+.TitleWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.FigmaFlag {
+  background: rgb(198 198 198 / 45.2%);
+  border-radius: 5px;
+  box-shadow: 0 0 1px 1px $greyB;
+  margin-left: 30px;
+  padding: 5px 5px 5px 0;
+  position: relative;
+  right: 0;
+
+  span {
+    background: $blackB;
+    border-radius: 3px;
+    color: $white;
+    left: 0;
+    margin-right: 10px;
+    padding: 6px;
+    top: 0;
+  }
+
+  &:hover {
+    background: $decoC;
+  }
+}
+
+.ButtonTypePreviewSection {
+  background: $white;
+  border-bottom: 1px solid $greyA;
+  border-radius: 5px;
+  box-shadow: 5px 5px 2px $greyB;
+  margin: 10px 0;
+  padding: 10px
+}
+
+.Link {
+  color: $black;
+}

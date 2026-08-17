@@ -1,0 +1,83 @@
+
+.SelectField {
+  composes: FormLabelBig from 'typography.legacy.css';
+  background-color: $greyE;
+  border-bottom: 1px solid $greyC;
+  border-left: 0;
+  border-radius: 8px 8px 0 0;
+  border-right: 0;
+  border-top: 0;
+  display: block;
+  height: 54px;
+  margin: 0;
+  padding: 16px 12px;
+  position: relative;
+  text-align: left;
+  transition: border-color 300ms ease-in-out;
+  width: 100%;
+
+  &.HasError {
+    border-color: $errorA;
+  }
+}
+
+.OptionItemsWrapper {
+  background-color: $white;
+  border: 1px solid $greyC;
+  border-top: none;
+  display: block;
+  max-height: 300px;
+  overflow-y: auto;
+  position: absolute;
+  top: 86px;
+  transform: translateY(-32px);
+  width: 100%;
+  z-index: calc($zIndex1 + 1);
+}
+
+.HasError {
+  color: $errorA;
+}
+
+.ErrorMessage {
+  padding-left: 12px;
+}
+
+.SelectFieldIcon {
+  color: $greyA;
+  float: right;
+  font-size: 1.125rem;
+  line-height: 1.375rem;
+  position: relative;
+  z-index: 0;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
+
+.Label {
+  composes: FormLabelBig from 'typography.legacy.css';
+  font-size: 11px;
+  left: 12px;
+  position: absolute;
+  top: 4px;
+  z-index: $zIndex1;
+
+  &.HasError {
+    color: $errorA;
+  }
+}
+
+.SelectedValue {
+  align-items: center;
+  bottom: 4px;
+  display: flex;
+  gap: 8px;
+  position: absolute;
+  white-space: nowrap;
+}
+
+.SelectFieldWrapper {
+  overflow: hidden;
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Monstersky Should not render component 1`] = `
+<div>
+  <div
+    data-testid="monstersky-wrapper-server"
+  />
+</div>
+`;
+
+exports[`[Common] Monstersky Should render component correctly 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="WrapperInnerClassName"
+    >
+      <div
+        class="AdWrapperClassName"
+      >
+        <div />
+        <div
+          class="ad-sky ad-wrapper ad-wrapper-tabletDesktop AdClassName"
+        >
+          <div
+            data-testid="appnexus-wrapper"
+          >
+            {
+  "slot": "SBA1",
+  "excludeSizes": null,
+  "deviceType": "tabletDesktop",
+  "isMultiPlacement": false
+}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

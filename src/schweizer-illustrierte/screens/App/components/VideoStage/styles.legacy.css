@@ -1,0 +1,236 @@
+.Wrapper {
+  composes: GridRow from 'TeaserGrid/styles.legacy.css';
+  overflow-x: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    overflow-x: visible;
+  }
+
+  @media (max-width: $smBreakpointTo) {
+    background: $gradientSkin;
+  }
+}
+
+.HeadingWrapper {
+  composes: Container from '@grid.legacy.css';
+
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 13px;
+  }
+
+  > a {
+    &.Heading {
+      &:hover {
+        color: $redA;
+
+        &::before,
+        &::after {
+          background-color: $redA;
+        }
+      }
+    }
+  }
+}
+
+.Heading {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 10px;
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+
+  &::before,
+  &::after {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    content: '';
+    display: inline-block;
+    width: 50px;
+  }
+
+  &::before {
+    margin-right: 15px;
+  }
+
+  &::after {
+    margin-left: 10px;
+  }
+}
+
+.HeadingSI {
+  composes: SectionTitle from 'typography.legacy.css';
+
+  &::before,
+  &::after {
+    border-bottom-color: $grayB;
+  }
+}
+
+.HeadingSY {
+  composes: SectionTitleSY from 'typographySY.legacy.css';
+
+  &::before,
+  &::after {
+    border-bottom-color: $skinLight;
+  }
+}
+
+.Items {
+  cursor: pointer;
+  margin-left: 19px;
+  padding-bottom: 5px;
+  padding-top: 20px;
+  width: calc(100% - 19px * 2);
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 21px;
+    padding-top: 0;
+    width: calc(100% - 19px);
+  }
+
+  &:last-child {
+    padding-bottom: 0;
+  }
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.IsActive {
+  opacity: 0.4;
+}
+
+.InnerWrapper {
+  margin-left: -$outerGapXs;
+  padding: 11px 0 20px;
+  width: calc(100% + $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    background: $gradientSkin;
+    margin-left: -$pullOutSm;
+    padding: 19px $pullOutSm 30px;
+    width: calc(100% + $pullOutSm * 2);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: -$pullOutMd;
+    padding: 19px $pullOutMd 40px;
+    width: calc(100% + $pullOutMd * 2);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: -$pullOutXl;
+    padding: 26px $pullOutXl 75px;
+    width: calc(100% + $pullOutXl * 2);
+  }
+}
+
+.StageWrapper {
+  @mixin aspectRatio16x9;
+}
+
+.Title {
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+    padding-top: 3px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: 7px;
+  }
+}
+
+.TitleSI {
+  composes: Heading3B from 'typography.legacy.css';
+}
+
+.TitleSY {
+  composes: Heading3BSY from 'typographySY.legacy.css';
+}
+
+.ShortTitle {
+  padding-top: 4px;
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: 23px;
+  }
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch2SY from 'typographySY.legacy.css';
+}
+
+.ImageCaptionWrapper {
+  composes: Margin0 from 'helpers.legacy.css';
+
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+.ContentWrapper {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 14px;
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    align-items: flex-start;
+    flex-direction: column;
+    margin-left: $outerGapXs;
+    width: calc(100% - ($outerGapXs * 2));
+  }
+}
+
+.SocialBarWrapper {
+  margin-left: -25px;
+  margin-top: $margin8;
+  position: relative;
+  right: -3px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 10px;
+    right: 4px;
+    top: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: -3px;
+    top: 15px;
+  }
+}
+
+.UtilityOverlayWrapper {
+  left: 0;
+  position: absolute;
+  width: 320px;
+
+  @media (min-width: $smBreakpoint) {
+    left: calc(-522px / 2);
+    width: 522px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    left: calc(-612px / 2);
+    width: 612px;
+  }
+}

@@ -1,0 +1,42 @@
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid $greyC;
+  display: flex;
+  flex-direction: column;
+  gap: $margin8;
+  padding: $margin16;
+}
+
+.WidgetTitle {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Row {
+  width: 100%;
+
+  &:not(:first-of-type) {
+    margin-top: $margin24;
+  }
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  height: 230px;
+  width: 100%;
+  z-index: $zIndexHighest;
+
+  @media (min-width: $smBreakpoint) {
+    height: 245px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

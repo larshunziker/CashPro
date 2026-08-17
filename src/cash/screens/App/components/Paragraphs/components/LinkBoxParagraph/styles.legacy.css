@@ -1,0 +1,31 @@
+.Title {
+  color: $blackA;
+  font-family: $fontSourceSansPro;
+  font-size: 2.3rem;
+  font-weight: bold;
+  line-height: 1;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.GroupTitle {
+  color: $blackA;
+  font-family: $fontSourceSansPro;
+  font-weight: bold;
+  line-height: 1.5;
+  margin-bottom: 1.5rem;
+  margin-top: 0;
+}
+
+.Link {
+  color: $secondaryA;
+  display: block;
+  font-family: $fontSourceSansPro;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.5;
+
+  &:visited {
+    color: $secondaryA;
+  }
+}

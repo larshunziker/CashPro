@@ -1,0 +1,38 @@
+.PageWrapper {
+  composes: ContainerPullOut from '../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+}
+
+.Table {
+  display: flex;
+  flex-direction: column;
+  gap: $margin16;
+  margin-top: $margin32;
+}
+
+.Row {
+  border-bottom: 1px solid $greyD;
+  display: flex;
+  gap: $margin16;
+  padding-bottom: $margin16;
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  border-radius: 4px;
+  height: 50px;
+  width: 100%;
+  z-index: 1000;
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

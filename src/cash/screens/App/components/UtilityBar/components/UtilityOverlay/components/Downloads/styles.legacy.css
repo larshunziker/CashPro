@@ -1,0 +1,39 @@
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: $margin16;
+  width: 100%;
+}
+
+.Link {
+  composes: InfoB from 'typography.legacy.css';
+  color: $secondaryA;
+  display: block;
+  margin-bottom: $margin16;
+}
+
+.LinkPDF {
+  &::before {
+    content: '\e924';
+    display: inline-block;
+    font-family: $fontRasch;
+    padding-right: 8px;
+    position: relative;
+    top: 2px;
+    @mixin fontSize 18;
+    @mixin lineHeight 18;
+  }
+}
+
+.LinkDownload {
+  &::before {
+    content: '\4c';
+    display: inline-block;
+    font-family: $fontRasch;
+    padding-right: 8px;
+    position: relative;
+    top: 2px;
+    @mixin fontSize 18;
+    @mixin lineHeight 18;
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "id": "n9n8403",
+        "__typename": "Route",
+        "canonical": "/group/9/content/20416",
+        "preferred": "/horoskop",
+        "object": {
+          "__typename": "LandingPage",
+          "id": "bm9kZToxOTUxNA==",
+          "title": "Horoskop",
+          "metaTitle": "Horoskop | Schweizer Illustrierte",
+          "metaDescription": "Ob Tageshoroskop oder Jahreshoroskop, wir bieten Ihnen heute den richtigen Blick in die Zukunft.",
+          "metaOgTitle": "Horoskop | Schweizer Illustrierte",
+          "metaOgDescription": "Ob Tageshoroskop oder Jahreshoroskop, wir bieten Ihnen heute den richtigen Blick in die Zukunft.",
+          "metaCanonicalUrl": "",
+          "lead": "Ob Tageshoroskop oder Jahreshoroskop, wir bieten Ihnen heute den richtigen Blick in die Zukunft.",
+          "preferredUri": "/horoskop",
+          "channel": null,
+          "createDate": "2018-12-06T12:53:34",
+          "metaKeywords": null,
+          "activeMenuTrail": {
+            "__typename": "ActiveMenuTrailItemConnection",
+            "edges": [
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Ym05a1pTMD0=",
+                  "label": "Horoskop",
+                  "link": null
+                }
+              }
+            ]
+          },
+          "body": [
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180975",
+              "characterCount": 770,
+              "isLastOfGroup": true,
+              "header": "Wissenswertes über Horoskope, Sternzeichen und Astrologie",
+              "text": "<p>Horoskope sind allgegenwärtig und mittlerweile ein täglicher Begleiter und Wegweiser für viele Menschen. Dank der Tierkreiszeichen sind Astrologen dazu in der Lage, Aussagen über die charakterlichen Besonderheiten und Persönlichkeitsmerkmale abzuleiten. Bezogen auf einen bestimmten Tag oder gar ein Jahr können Prognosen erstellt werden, die im Zusammenhang mit der Planeten-Konstellation stehen. Wörtlich übersetzt «blickt» man mit einem Horoskop «in die Stunde» oder «in die Zeit». Das Horoskop beschreibt also unter Berücksichtigung der jeweiligen Tierkreiszeichen, was die Zukunft bringen wird und fokussiert sich dabei auf wesentliche Aspekte, wie zwischenmenschliche Beziehungen und dominierende Emotionen.</p>\n",
+              "styleValue": null
+            },
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180976",
+              "characterCount": 837,
+              "isLastOfGroup": true,
+              "header": "Die Geschichte des Horoskops",
+              "text": "<p>Schon seit jeher fasziniert die Menschen der Blick in die Sterne. Das Fundament der Astrologie wie wir sie heute kennen, geht bis auf die Erkenntnisse der Ägypter um etwa 4000 v. Chr., der Sumerer um etwa 3000 v. Chr. und der Babylonier um 2000 v. Chr. zurück. Denn bereits sie teilten das Jahr und die Monate in zeitliche Abschnitte, fertigten Sternkarten an und beobachteten, inwiefern sich die Planeten-Konstellation auf die Eigenarten und das Gemüt der neugeborenen Kinder auswirkten. Auch Könige und Feldherren liessen sich vor wichtigen Entscheidungen von Astrologen beraten. Beinahe jede grössere Kultur beschäftigte sich mit Astrologie, so zum Beispiel auch die Mayas und Azteken, die sogar ihre eigene Astrologie entwickelten. Damals wie heute sind Horoskope wichtige Instrumente der Zukunftsdeutung.</p>\n",
+              "styleValue": null
+            },
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180977",
+              "characterCount": 873,
+              "isLastOfGroup": true,
+              "header": "Das persönliche 3-Dekaden-Tageshoroskop der Schweizer Illustrierte",
+              "text": "<p>Die kostenlosen Tageshoroskope der «Schweizer Illustrierten» ermöglichen eine individuelle Vorhersage, was der bevorstehende Tag bringen wird.</p>\n\n<p>Jedes der zwölf Sternzeichen wird in drei Dekaden, also Zeitabschnitte, unterschieden. Die Unterscheidung in solche Sternzeichendrittel ist eine geläufige Methode der professionellen Astrologie. Die drei Sternzeichen-Dekaden repräsentieren den Beginn, die Mitte und das Ende der jeweiligen Sternzeichen-Zyklen. Da es sich vielmehr um einen fliessenden Übergang der einzelnen Sternzeichen als um einen strengen Abschluss handelt, werden die einwirkenden Faktoren der benachbarten Sternzeichen berücksichtigt. Schliesslich ist die erste und letzte Dekade eines Sternzeichens stets gewissen Einflüssen des vorhergehenden und nachfolgenden Tierkreiszeichens ausgesetzt.</p>\n",
+              "styleValue": null
+            },
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180978",
+              "characterCount": 1180,
+              "isLastOfGroup": true,
+              "header": "Das Jahreshoroskop: Star-Astrologin Elizabeth Teissier blickt in die Sterne",
+              "text": "<p>Die bekannte Astrologin <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/dossier/elizabeth-teissier\">Elizabeth Teissier</a> wagt zum Jahreswechsel für die «Schweizer Illustrierte» den Blick in die Sterne und verrät, welche Chancen und Herausforderungen die kommenden zwölf Monate bereithalten.</p>\n\n<p>Die Ursprünge ihrer astrologischen Karriere liegen in den 1970er Jahren. Seitdem veröffentlichte <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/dossier/elizabeth-teissier\">Elizabeth Teissier</a> zahlreiche astrologische Bücher und war in vielen TV-Auftritten zu sehen. Mittlerweile berät sie sogar einflussreiche Prominente und Adlige wie den ehemaligen Spanischen König Juan Carlos.</p>\n\n<p>Basierend auf dem jeweiligen Sternzeichen und den Bewegungen der Planeten, verrät die Star- Astrologin im <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/jahreshoroskop\">kostenlosen Jahreshoroskop</a>, ob die guten Vorsätze für das neue Jahr eingehalten werden können. Jedes <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/jahreshoroskop\">Jahreshoroskop</a>umfasst dabei die drei die Kategorien Liebe &amp; Freundschaft, Geld &amp; Beruf und Fitness &amp; Gesundheit. Neben einer informativen Prognose bekommt jede der drei Kategorien zusätzlich bis zu fünf Sterne zugewiesen. Somit ist bereits auf den ersten Blick erkenntlich, wie die Sterne in Sachen zwischenmenschlicher Beziehungen, Karriere und gesundheitliches Wohlergehen stehen.</p>\n",
+              "styleValue": null
+            },
+            {
+              "__typename": "TextParagraph",
+              "anchorId": null,
+              "id": "180979",
+              "characterCount": 993,
+              "isLastOfGroup": true,
+              "header": "Das persönliche Horoskop der «Schweizer Illustrierten»",
+              "text": "<p>Neben dem 3-Dekaden-Horoskop der «Schweizer Illustrierte», das täglich auch unterwegs über die «Schweizer Illustrierte»-App abrufbar ist und dem <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/jahreshoroskop\">Jahreshoroskop</a> von Star-Astrologin <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/dossier/elizabeth-teissier\">Elizabeth Teissier</a>, bietet die «Schweizer Illustrierte» auch ein kostenpflichtiges <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/stars/indisches-horoskop-die-geheimnisse-ihres-karmas\">Charakterhoroskop</a> an.</p>\n\n<p>Das <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/stars/ihr-persoenliches-charakterhoroskop\">individuelle Charakterhoroskop</a> wird mithilfe der persönlichen Daten wie Geburtsdatum und Geburtsort erstellt. Es erfolgt eine ausführliche Analyse zu wesentlichen Themen wie der körperlichen Verfassung, Karriere und Partnerschaft. Auch die typischen Talente und Eigentümlichkeiten werden exakt herausgearbeitet und digital bereitgestellt.</p>\n\n<p>Zudem bietet die «Schweizer Illustrierte» hierbei eine weitere Besonderheit, denn zur Auswahl stehen die Versionen Normal, Light und Nasty – für das individuelle Horoskop-Vergnügen.</p>\n\n<p>Alternativ ist auch eine verkürzte Fassung des Charakterhoroskopes der «Schweizer Illustrierten» gratis als <a onclick=\"window.handleWysiwygLink(event)\" target=\"_blank\" href=\"http://localhost:3000/stars/gratis-basis-horoskop\">Basis-Horoskop</a> abrufbar.</p>\n",
+              "styleValue": null
+            }
+          ],
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "schweizer_illustrierte_fallback",
+            "image": {
+              "__typename": "Image",
+              "id": "41515",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "42066",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

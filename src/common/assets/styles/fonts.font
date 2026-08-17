@@ -1,0 +1,8 @@
+@font-face {
+  font-family: 'rasch-font';
+  src: url('../fonts/RASCH-Font.woff2?24u0vb') format('woff2'),
+       url('../fonts/RASCH-Font.woff?24u0vb') format('woff'),
+       url('../fonts/RASCH-Font.svg?24u0vb#RASCH-Font') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

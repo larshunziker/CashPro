@@ -1,0 +1,11 @@
+.Message {
+  composes: Message from 'LoginForm/styles.legacy.css';
+}
+
+.ButtonWrapper {
+  text-align: center;
+}
+
+.Button {
+  composes: Button from 'LoginForm/styles.legacy.css';
+}

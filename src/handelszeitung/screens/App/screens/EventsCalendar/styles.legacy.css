@@ -1,0 +1,14 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+}
+
+.EventsCalendarWrapper {
+  padding-bottom: 43px;
+  padding-top: 43px;
+}
+
+.EventsCalendarIframe {
+  min-width: 100%;
+  overflow: hidden;
+  width: 1px;
+}

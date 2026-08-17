@@ -1,0 +1,19 @@
+.Wrapper {
+  @mixin hideforPrint;
+  composes: Wrapper from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+  background-color: $black15;
+  display: none;
+  top: $headerHeightXl;
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+  }
+}
+
+.FadeIn {
+  composes: FadeIn from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}
+
+.BodyClass {
+  composes: BodyClass from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}

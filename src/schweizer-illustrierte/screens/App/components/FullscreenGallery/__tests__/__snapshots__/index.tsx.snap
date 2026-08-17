@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] FullscreenGallery Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="fullscreen-gallery-wrapper-loading"
+  >
+    <div
+      data-testid="mocked-modaloverlay"
+    >
+      <section
+        class="LoadingWrapper"
+        data-testid="fullscreen-gallery-loading-spinner"
+      >
+        <div
+          data-testid="mocked-loadingspinner"
+        />
+      </section>
+    </div>
+  </div>
+</div>
+`;

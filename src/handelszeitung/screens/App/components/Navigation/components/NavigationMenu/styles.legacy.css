@@ -1,0 +1,132 @@
+.NavigationMenuWrapper {
+  inset: 0;
+  overflow: auto;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 66px;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+  position: relative;
+}
+
+.MainNavList {
+  line-height: 1;
+  list-style: none;
+  margin-bottom: 18px;
+  margin-top: 15px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.SubNavList {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.SubMenuWrapper {
+  margin-bottom: 12px;
+  margin-top: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    margin-top: 0;
+  }
+}
+
+.NavListItem {
+  height: auto;
+  position: relative;
+  transition: width 0.3s $navigationTransitionFunction;
+}
+
+.LinkWrapper {
+  align-items: center;
+  display: flex;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  transition: opacity 0.3s $navigationTransitionFunction;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    padding-bottom: 8px;
+  }
+}
+
+.ActionIconClose {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: 5px;
+  z-index: $zIndexOverlay;
+}
+
+.IconXMark {
+  color: $white;
+  font-size: 3rem;
+  opacity: 0.6;
+  transition: opacity 0.3s $navigationTransitionFunction;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
+
+.SearchFormWrapper {
+  margin-bottom: 25px;
+  max-width: 460px;
+  width: calc(100% - 45px);
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 19px;
+  }
+}
+
+.SubscribeLinkWrapper {
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.SubscribeLink {
+  color: $white;
+  cursor: pointer;
+  font-family: $fontGothamBlack;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+  margin-right: 29px;
+  opacity: 1;
+  transition: opacity 0.3s $navigationTransitionFunction;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    margin-right: $margin24;
+
+    &:focus,
+    &:hover {
+      opacity: 0.6;
+    }
+  }
+}

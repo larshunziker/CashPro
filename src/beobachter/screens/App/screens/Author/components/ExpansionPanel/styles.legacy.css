@@ -1,0 +1,38 @@
+.ExpansionPanel .ShowMoreButton {
+  color: $grey70;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.ExpansionPanel {
+  background-color: $greyE;
+  border-radius: 8px;
+  color: $grey70;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin24;
+  padding: $margin12 $margin16;
+  position: relative;
+  width: 100%;
+  
+  &:hover {
+    color: $black;
+  }
+}
+
+.ShowMoreButton {
+  composes: ShowMoreButton from '../../styles.legacy.css';
+  font-weight: 700;
+}
+
+.Content {
+  background-color: $transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.Spacer {
+  position: relative;
+}

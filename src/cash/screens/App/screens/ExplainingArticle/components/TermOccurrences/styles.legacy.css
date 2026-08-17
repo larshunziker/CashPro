@@ -1,0 +1,54 @@
+.Header {
+  color: $secondaryA;
+  font-family: $fontSourceSansPro;
+  font-size: 1.9rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: bold;
+  letter-spacing: 0.8px;
+  line-height: 2.5rem;
+  text-transform: uppercase;
+
+  @media (min-width: $xsBreakpointTo) {
+    font-size: 2.3rem;
+    letter-spacing: 2.9px;
+    line-height: 3rem;
+  }
+
+  @media (min-width: $smBreakpointTo) {
+    line-height: 3.5rem;
+  }
+}
+
+.Title {
+  color: $black;
+  display: inline-block;
+  font-family: $fontSourceSansPro;
+  font-size: 1.6rem;
+  font-weight: bold;
+  letter-spacing: 1.5px;
+  line-height: 2.2rem;
+  margin-top: 10px;
+  text-transform: uppercase;
+
+  @media (min-width: $xsBreakpointTo) {
+    line-height: 2rem;
+    margin-top: 20px;
+  }
+
+  @media (min-width: $smBreakpointTo) {
+    line-height: 3.5rem;
+  }
+}
+
+.TeaserHeaderWrapper {
+  break-inside: avoid;
+
+  @media (min-width: $xsBreakpointTo) {
+    margin-bottom: 26px;
+  }
+
+  @media (min-width: $smBreakpointTo) {
+    margin-bottom: 18px;
+  }
+}

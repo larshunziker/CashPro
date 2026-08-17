@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] BookmarkButton Should render correctly 1`] = `
+<div>
+  <button
+    class="BookmarkButtonWrapperClassName"
+  >
+    <i
+      class="IconBookmark IconClassName"
+    />
+    <span
+      class="TextClassName"
+    >
+      Bookmark
+    </span>
+  </button>
+</div>
+`;
+
+exports[`[Common] BookmarkButton Should render fire authentication toast when not authenticated 1`] = `
+<div>
+  <button
+    class="BookmarkButtonWrapperClassName"
+  >
+    <i
+      class="IconBookmark IconClassName"
+    />
+    <span
+      class="TextClassName"
+    >
+      Bookmark
+    </span>
+  </button>
+</div>
+`;

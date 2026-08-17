@@ -1,0 +1,47 @@
+.Wrapper {
+  position: relative;
+}
+
+.Image {
+  max-height: 34px;
+  max-width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    max-height: 49px;
+    max-width: 132px;
+  }
+}
+
+.ImageTopRight {
+  composes: Image;
+  max-height: 29px;
+  max-width: 77px;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  z-index: $zIndexMedium;
+}
+
+.ImageCenter {
+  height: auto;
+  max-height: 60px;
+  max-width: 160px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-right: 31px;
+    max-height: 111px;
+    max-width: 295px;
+  }
+}
+
+.ImageInline {
+  margin-right: 31px;
+  max-width: 118px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    max-width: 144px;
+  }
+}

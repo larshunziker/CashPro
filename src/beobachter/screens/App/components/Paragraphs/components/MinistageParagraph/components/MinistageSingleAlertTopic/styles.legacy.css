@@ -1,0 +1,26 @@
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+
+  margin-bottom: 2.4rem;
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}
+
+.AlertItemWrapper {
+  max-width: 312px;
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 320px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+}

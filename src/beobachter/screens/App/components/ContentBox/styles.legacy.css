@@ -1,0 +1,10 @@
+.Wrapper {
+  height: 100%;
+  width: 100%;
+}
+
+.Title {
+  composes: TitleWithLine from 'typography.legacy.css';
+
+  display: block;
+}

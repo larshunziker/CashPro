@@ -1,0 +1,180 @@
+.Wrapper {
+  border-bottom: 1px solid $grayA;
+  border-top: 1px solid $grayA;
+  padding: 16px 0;
+}
+
+.ImageContentWrapper {
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+  
+  &::after {
+    clear: both;
+    content: '';
+    display:block;
+  }
+}
+
+.ImageWrapper {
+  float: left;
+  margin-right: $margin16;
+  position: relative;
+  width: 91px;
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: $margin32;
+    width: 134px;
+  }
+}
+
+.ImageWrapperSpecialOffer {
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin72;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: $margin88;
+  }
+}
+
+.Image {
+  box-shadow: 0 2px 2px 0 $black50;
+  display: block;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    box-shadow: 0 3px 3px 0 $black50;
+  }
+}
+
+.ImageSpecialOffer {
+  margin-bottom: $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SpecialOfferWrapper {
+  background-color: $black;
+  border-radius: 50%;
+  bottom: -8px;
+  height: 90px;
+  position: absolute;
+  right: -8px;
+  transform: rotate(10deg);
+  width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+    right: -56px;
+    top: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 114px;
+    right: -64px;
+    top: 54px;
+    width: 114px
+  }
+}
+
+.SpecialOfferText {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding: 0 4px;
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+}
+
+.ContentWrapper {
+  float: left;
+  width: calc(100% - 107px);
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(100% - 166px);
+  }
+}
+
+.ContentWrapperSpecialOffer {
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 163px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(100% - 222px);
+  }
+}
+
+.IssuePublishedText {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.IssueLink {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+  text-decoration: underline;
+}
+
+.MagazineText {
+  composes: Heading5 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.SkeletonTitle {
+  background-color: $grayPlaceholder;
+  height: 46px;
+  margin-bottom: 16px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) { 
+    margin-bottom: 32px;
+  }
+}
+
+.SkeletonIssuePublishedText {
+  background-color: $grayPlaceholder;
+  height: 20px;
+  margin-bottom: 8px;
+  max-width: 300px;
+  width: 100%;
+}
+
+.SkeletonButton {
+  background-color: $grayPlaceholder;
+  height: 22px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) { 
+    height: 30px;
+    width: 200px
+  }
+}

@@ -1,0 +1,102 @@
+.ButtonWrapper {
+  text-align: center;
+}
+
+.Button {
+  composes: Button from 'form.legacy.css';
+  border: none;
+  box-shadow: 0 2px 50px 0 rgb(78 78 78 / 50%);
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  height: 47px;
+  letter-spacing: -0.4px;
+  line-height: 1.23;
+  margin: 18px 0 40px;
+  padding: 0 16px;
+  position: relative;
+  text-align: left;
+  white-space: normal;
+  width: 158px;
+
+  .ButtonLabel {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 110px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    height: 75px;
+    line-height: 1.1;
+    padding: 16px 14px;
+
+    /* 760 - 959 */
+    position: absolute;
+    right: -20px;
+    top: -45px;
+    width: 230px; /* they wanted 200px but that's not enough */
+
+    .ButtonLabel {
+      width: 170px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 to infinity */
+    font-size: 2.2rem;
+    height: 86px;
+    top: -50px;
+    width: 249px;
+
+    .ButtonLabel {
+      width: 190px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1200 to infinity */
+    font-size: 2.7rem;
+    height: 93px;
+    line-height: 1.15;
+    padding: 15.3px 20.4px;
+    top: -65px;
+    width: 300px; /* they wanted 265 but it's not enough for the content */
+
+    .ButtonLabel {
+      width: 235px;
+    }
+  }
+}
+
+.ButtonArrow {
+  color: $white;
+  font-size: 2.2rem;
+  font-weight: normal;
+  margin-right: -4px;
+  margin-top: -1.1rem;
+  position: absolute;
+  right: 16px;
+  top: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 - 959 */
+    font-size: 2.5rem;
+    margin-top: -1.25rem;
+    right: 20.5px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 to infinity */
+    font-size: 2.5rem;
+    right: 28px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1200 to infinity */
+    font-size: 3rem;
+    right: 20.4px;
+  }
+}

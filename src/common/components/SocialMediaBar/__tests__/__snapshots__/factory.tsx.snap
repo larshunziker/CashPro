@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Social Media factory Should render correctly 1`] = `
+<div>
+  <ul
+    class=".Wrapper"
+  >
+    <li
+      class=".LinkItem"
+    >
+      <div
+        data-testid="social-media-factory-link"
+      />
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`[Common] Social Media factory Should render nothing if there are no socialMediaItems 1`] = `<div />`;

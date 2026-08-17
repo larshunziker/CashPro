@@ -1,0 +1,4 @@
+.NoKeywordsTextWrapper {
+  composes: Lead1 from 'typography.legacy.css';
+  padding-top: 24px;
+}

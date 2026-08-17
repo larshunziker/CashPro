@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] PortfolioSummary Should not render PortfolioSummary if portfolio prop is missing 1`] = `<div />`;
+
+exports[`[Component] PortfolioSummary Should render PortfolioSummary and rerender correctly after props changed 1`] = `
+<div>
+  <div
+    class="SummaryGridWrapper"
+  >
+    <div
+      class="TradingTeaserWrapper"
+    >
+      <div
+        class="WidgetWrapper"
+      >
+        <div
+          class="Title"
+        >
+          Ihr günstiges Depot wartet auf Sie!
+        </div>
+        <ul>
+          <li>
+            Ihr Depot würde bei cash - bank zweiplus nur CHF 25.00 pro Quartal kosten.
+          </li>
+          <li>
+            Jeder Online-Trade nur CHF 29.
+          </li>
+        </ul>
+        <div
+          class="Row"
+        >
+          <a
+            class="LinkButton"
+            href="https://www.cash.ch/online-trading?promo_name=cta_button&promo_position=portfolio"
+          >
+            Konditionen
+          </a>
+          <img
+            alt=""
+            src="SvgrURL"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="SummaryWrapper"
+    >
+      <p
+        class="Title"
+      >
+        Zusammenfassung
+      </p>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Einstand
+           
+          <span>
+            (CHF)
+          </span>
+        </p>
+        <p>
+          976'759
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Aktuell
+        </p>
+        <p>
+          212'869.60
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          +/-
+        </p>
+        <p
+          class="Negative"
+        >
+          -763'889.66
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          +/-%
+        </p>
+        <p
+          class="Negative"
+        >
+          -78.21
+          %
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Flüssige Mittel
+        </p>
+        <p>
+          -980'676.64
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Gesamtwert
+        </p>
+        <p>
+          -767'807.04
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] PortfolioSummary Should render PortfolioSummary and rerender correctly after props changed 2`] = `
+<div>
+  <div
+    class="SummaryGridWrapper"
+  >
+    <div
+      class="TradingTeaserWrapper"
+    >
+      <div
+        class="WidgetWrapper"
+      >
+        <div
+          class="Title"
+        >
+          Ihr günstiges Depot wartet auf Sie!
+        </div>
+        <ul>
+          <li>
+            Ihr Depot würde bei cash - bank zweiplus nur CHF 25.00 pro Quartal kosten.
+          </li>
+          <li>
+            Jeder Online-Trade nur CHF 29.
+          </li>
+        </ul>
+        <div
+          class="Row"
+        >
+          <a
+            class="LinkButton"
+            href="https://www.cash.ch/online-trading?promo_name=cta_button&promo_position=portfolio"
+          >
+            Konditionen
+          </a>
+          <img
+            alt=""
+            src="SvgrURL"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="SummaryWrapper"
+    >
+      <p
+        class="Title"
+      >
+        Zusammenfassung
+      </p>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Einstand
+           
+          <span>
+            (USD)
+          </span>
+        </p>
+        <p>
+          1'000.00
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Aktuell
+        </p>
+        <p>
+          999.00
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          +/-
+        </p>
+        <p
+          class="Positive"
+        >
+          888.00
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          +/-%
+        </p>
+        <p
+          class="Positive"
+        >
+          +12
+          %
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Flüssige Mittel
+        </p>
+        <p>
+          -980'676.64
+        </p>
+      </div>
+      <div
+        class="ContentRow"
+      >
+        <p>
+          Gesamtwert
+        </p>
+        <p>
+          -767'807.04
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+.Title {
+  composes: InfoCBold from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: $margin4;
+  width: 100%;
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  margin-top: 10px;
+  min-height: 49px;
+}

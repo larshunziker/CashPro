@@ -1,0 +1,50 @@
+.LoadMore {
+  background-color: $blue;
+  border: none;
+  box-shadow: 6px 6px 40px 0 rgb(0 0 0 / 25%);
+  color: $white;
+  cursor: pointer;
+  font-family: $fontGotham;
+  font-size: 1.3rem;
+  font-weight: bold;
+  margin: 20px 0 $margin40;
+  padding: 15px 25px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    margin: $margin40 0;
+    padding: 24px 17px 27px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.2rem;
+    margin: $margin40 0 20px;
+    padding: 26px 26px 28px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.7rem;
+    margin-top: 50px;
+    padding: 28px 26px 33px;
+  }
+}
+
+.IconArrowRotateRight {
+  font-size: 2.4rem;
+  margin-left: -5px;
+  margin-right: 10px;
+  margin-top: -6px;
+  position: relative;
+  top: 6px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    margin-top: -10px;
+    top: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: -8px;
+    top: 8px;
+  }
+}

@@ -1,0 +1,285 @@
+.Icon {
+  display: inline-block;
+
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: $fontIcons !important; /* stylelint-disable-line */
+  font-size: inherit;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.IconHouse::before {
+  content: '\e90f';
+}
+
+.IconInstagram::before {
+  content: '\e900';
+}
+
+.IconCamera::before {
+  content: '\e911';
+}
+
+.IconFotoMarker::before {
+  content: '\e912';
+}
+
+.IconArrowLeftButton::before {
+  content: '\e913';
+}
+
+.IconArrowLeftButtonOutline::before {
+  content: '\e914';
+}
+
+.IconArrowRightButton::before {
+  content: '\e915';
+}
+
+.IconArrowRightButtonOutline::before {
+  content: '\e916';
+}
+
+.IconCloseButtonSimple::before {
+  content: '\e917';
+}
+
+.IconCloseButtonOutline::before {
+  content: '\e919';
+}
+
+.IconMovieButton::before {
+  content: '\e91a';
+}
+
+.IconMovieOutline::before {
+  content: '\e91b';
+}
+
+.IconInfoButtonOutline::before {
+  content: '\e91c';
+}
+
+.IconFullscreenButton::before {
+  content: '\e91d';
+
+  @media print {
+    display: none;
+  }
+}
+
+.IconTwitter::before {
+  content: '\e901';
+}
+
+.IconPinterest::before {
+  content: '\e902';
+}
+
+.IconFacebook::before {
+  content: '\e904';
+}
+
+.IconTickmark::before {
+  content: '\e90c';
+}
+
+.IconEnvelope::before {
+  content: '\e920';
+}
+
+.IconMagnifyingGlass::before {
+  content: '\e921';
+}
+
+.IconArrowLeft::before {
+  content: '\e922';
+}
+
+.IconArrowRight::before {
+  content: '\e923';
+}
+
+.IconCollapse::before {
+  content: '\e924';
+}
+
+.IconExpand::before {
+  content: '\e925';
+}
+
+.IconChevronUp {
+  composes: IconCollapse;
+}
+
+.IconChevronDown {
+  composes: IconExpand;
+}
+
+.IconBell::before {
+  content: '\e92a';
+}
+
+.IconBellOn::before {
+  content: '\e93b';
+}
+
+.IconBookmark::before {
+  content: '\e949';
+}
+
+.IconBookmarkOutlineDefault::before {
+  content: '\65';
+}
+
+.IconWarning::before {
+  content: '\e92f';
+}
+
+.IconCircleCheckSolid::before {
+  content: '\e92e';
+}
+
+.IconDatepicker::before {
+  content: '\e92b';
+}
+
+.IconZodiacWidder::before {
+  content: '\e93e';
+}
+
+.IconZodiacFische::before {
+  content: '\e930';
+}
+
+.IconZodiacWassermann::before {
+  content: '\e931';
+}
+
+.IconZodiacSteinbock::before {
+  content: '\e932';
+}
+
+.IconZodiacSchutze::before {
+  content: '\e933';
+}
+
+.IconZodiacSkorpion::before {
+  content: '\e934';
+}
+
+.IconZodiacWaage::before {
+  content: '\e935';
+}
+
+.IconZodiacJungfrau::before {
+  content: '\e936';
+}
+
+.IconZodiacLowe::before {
+  content: '\e937';
+}
+
+.IconZodiacKrebs::before {
+  content: '\e938';
+}
+
+.IconZodiacZwillinge::before {
+  content: '\e939';
+}
+
+.IconZodiacStier::before {
+  content: '\e93a';
+}
+
+.IconUser::before {
+  content: '\6c';
+}
+
+.IconUserSolid::before {
+  content: '\70';
+}
+
+.IconGear::before {
+  content: '\e941';
+}
+
+.IconNewspaper::before {
+  content: '\e93f';
+}
+
+.IconArrowUpFromSquare::before {
+  content: '\e942';
+}
+
+.IconLogout {
+  composes: IconArrowUpFromSquare;
+  transform: rotate(90deg);
+}
+
+.IconInboxFull::before {
+  content: '\e93d';
+}
+
+.IconXMark {
+  composes: IconCloseButtonSimple;
+}
+
+.IconCircleInfo::before {
+  content: '\e943';
+}
+
+.IconCircleCheck::before {
+  content: '\e944';
+}
+
+.IconCircleExclamation::before {
+  content: '\e945';
+}
+
+.IconTriangleExclamation::before {
+  content: '\e946';
+}
+
+.IconDocument::before {
+  content: '\e94e';
+}
+
+.IconTrash::before {
+  content: '\e953';
+}
+
+.IconChevronLeft::before {
+  content: '\e922';
+}
+
+.IconChevronRight::before {
+  content: '\e923';
+}
+
+.IconServices::before {
+  content: '\e954';
+}
+
+.IconPlusThin::before {
+  content: '\e925';
+}
+
+.IconMinusThin::before {
+  content: '\e924';
+}
+
+.IconGoogleNews::before {
+  content: url("data:image/svg+xml,%3Csvg width='30' height='30' viewBox='0 0 30 30' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cg clip-path='url(%23clip0_215_94)'%3E%3Cpath d='M15 30C23.2843 30 30 23.2843 30 15C30 6.71573 23.2843 0 15 0C6.71573 0 0 6.71573 0 15C0 23.2843 6.71573 30 15 30Z' fill='white'/%3E%3Cpath d='M22.9252 23.658C22.9249 23.7968 22.8697 23.93 22.7714 24.0282C22.6732 24.1264 22.5401 24.1818 22.4011 24.182H7.59721C7.45829 24.1818 7.32514 24.1264 7.22691 24.0282C7.12868 23.93 7.07337 23.7968 7.07311 23.658V12.4671C7.0734 12.3281 7.12872 12.195 7.22693 12.0968C7.32516 11.9985 7.4583 11.9433 7.59721 11.943H22.401C22.54 11.9433 22.6731 11.9985 22.7713 12.0968C22.8695 12.195 22.9249 12.3281 22.9252 12.4671L22.9252 23.658ZM20.3325 20.7333V19.7107C20.3325 19.7016 20.3307 19.6927 20.3272 19.6844C20.3239 19.676 20.3188 19.6684 20.3124 19.6621C20.306 19.6557 20.2984 19.6507 20.2901 19.6472C20.2818 19.6437 20.2729 19.642 20.2639 19.642H15.669V20.8068H20.2639C20.273 20.8066 20.2821 20.8046 20.2905 20.801C20.2989 20.7974 20.3066 20.7921 20.3129 20.7855C20.3193 20.7789 20.3243 20.7711 20.3277 20.7626C20.3311 20.754 20.3328 20.745 20.3326 20.7357L20.3325 20.7333ZM21.0314 18.5203V17.493C21.0315 17.4839 21.0299 17.475 21.0266 17.4665C21.0232 17.4581 21.0184 17.4505 21.012 17.444C21.0058 17.4375 20.9983 17.4323 20.99 17.4287C20.9817 17.4251 20.9728 17.4233 20.9638 17.4231H15.6689V18.5879H20.9626C20.9715 18.588 20.9803 18.5864 20.9885 18.5831C20.9968 18.5799 21.0043 18.5751 21.0107 18.5689C21.0171 18.5628 21.0222 18.5554 21.0258 18.5472C21.0292 18.5391 21.0312 18.5303 21.0314 18.5215V18.518V18.5203ZM20.3325 16.3073V15.2753C20.3325 15.2663 20.3307 15.2574 20.3272 15.249C20.3239 15.2408 20.3188 15.2332 20.3124 15.2268C20.306 15.2204 20.2984 15.2153 20.2901 15.2119C20.2818 15.2085 20.2729 15.2066 20.2639 15.2066H15.669V16.3714H20.2639C20.2818 16.3712 20.2989 16.364 20.3117 16.3514C20.3245 16.3388 20.3319 16.3218 20.3325 16.3039V16.3073ZM11.7064 17.5384V18.5866H13.2206C13.096 19.2273 12.5321 19.692 11.7064 19.692C10.7737 19.6574 10.0457 18.8732 10.0803 17.9404C10.1131 17.0562 10.8223 16.3471 11.7064 16.3143C12.1049 16.3076 12.4899 16.4583 12.778 16.7336L13.5769 15.9358C13.0711 15.4601 12.4007 15.1988 11.7064 15.2066C10.1625 15.2066 8.91106 16.4582 8.91106 18.002C8.91106 19.5458 10.1625 20.7973 11.7064 20.7973C13.3219 20.7973 14.3854 19.6617 14.3854 18.0626C14.3845 17.8854 14.3697 17.7086 14.3411 17.5338L11.7064 17.5384ZM6.67823 12.0723C6.67886 11.9335 6.73428 11.8005 6.83243 11.7024C6.93059 11.6042 7.06353 11.5488 7.20233 11.5481H17.5976L16.5121 8.56299C16.4704 8.43573 16.3804 8.3301 16.2613 8.26883C16.1422 8.20757 16.0039 8.19565 15.8762 8.23568L5.05109 12.1759C4.92663 12.2273 4.82764 12.3259 4.77587 12.4502C4.7241 12.5745 4.72379 12.7142 4.77501 12.8387L6.67823 18.066V12.0723ZM6.67823 12.0723C6.67886 11.9335 6.73428 11.8005 6.83243 11.7024C6.93059 11.6042 7.06353 11.5488 7.20233 11.5481H17.5976L16.5121 8.56299C16.4704 8.43573 16.3804 8.3301 16.2613 8.26883C16.1422 8.20757 16.0039 8.19565 15.8762 8.23568L5.05109 12.1759C4.92663 12.2273 4.82764 12.3259 4.77587 12.4502C4.7241 12.5745 4.72379 12.7142 4.77501 12.8387L6.67823 18.066V12.0723ZM24.9052 11.8067L17.3764 9.78123L18.0193 11.5481H22.7947C22.9336 11.5484 23.0668 11.6037 23.165 11.7019C23.2632 11.8001 23.3186 11.9333 23.3188 12.0722V19.5941L25.2407 12.439C25.2799 12.3107 25.2667 12.1721 25.2037 12.0535C25.1409 11.9349 25.0335 11.8462 24.9052 11.8067ZM21.0604 10.3752V7.91649C21.0598 7.77829 21.0044 7.64598 20.9063 7.54859C20.8083 7.45119 20.6756 7.39668 20.5374 7.39699H9.46085C9.39233 7.39638 9.32435 7.40926 9.2608 7.43491C9.19725 7.46056 9.13938 7.49848 9.09051 7.5465C9.04156 7.59451 9.00264 7.65169 8.97588 7.71476C8.94904 7.77784 8.93491 7.84556 8.93435 7.91412V10.3403L16.1104 7.73012C16.2387 7.69035 16.3776 7.70309 16.4966 7.76553C16.6155 7.82798 16.7049 7.93504 16.7451 8.06325L17.211 9.34441L21.0604 10.3752Z' fill='%23DF1C41'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_215_94'%3E%3Crect width='30' height='30' fill='white'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E%0A");
+  height: 30px;
+  width: 30px;
+}
+

@@ -1,0 +1,92 @@
+.VideoContainer {
+  composes: ColSm14 from '@grid.legacy.css';
+  composes: ColOffsetSm5 from '@grid.legacy.css';
+  composes: ColXl16 from '@grid.legacy.css';
+  composes: ColOffsetXl4 from '@grid.legacy.css';
+}
+
+.SocialBarWrapper {
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    margin-left: 4px; 
+  }
+}
+
+.ArticleAlertsWrapper {
+  margin-bottom: 26px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 40px;
+  }
+}
+
+.RecommendationsWrapper {
+  margin-bottom: 33px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 34px;
+  }
+}
+
+.CTAWrapper {
+  margin-bottom: 60px;
+  text-align: center;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 105px;
+  }
+}
+
+.Loading {
+  composes: Heading1A from 'typography.legacy.css';
+  animation: blinker 1s linear infinite;
+  text-align: center;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+.UtilityBar {
+  background-color: $white;
+  border-top: 1px solid $grayA;
+  bottom: 0;
+  height: 65px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndex50;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    margin-top: $margin8;
+    position: relative;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    padding-bottom: 65px;
+  
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.Topic {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+}

@@ -1,0 +1,542 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ParallaxImageParagraph Factory Should render correctly 1`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render nothing 1`] = `<div />`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 1`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 2`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 3`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 4`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 5`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ParallaxImageParagraph Factory Should render the paragraph with parallax effect for desktop and fallback for mobile viewports 6`] = `
+<div>
+  <div
+    class="HiddenMdUp"
+  >
+    <div
+      data-testid="mobile-parallax-image"
+    >
+      <div
+        class="Placeholder_320_3x2 Placeholder_960_16x9 LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <source
+            media="(min-width:960px)"
+            srcset="/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg"
+          />
+          <img
+            alt="Berg"
+            class="ImageDefaultClassName Image"
+            height="770"
+            loading="lazy"
+            srcset="/fp/1155/770/1000/1000/sites/default/files/berg.jpeg"
+            width="1155"
+          />
+        </picture>
+      </div>
+      <span
+        class="CreditsClassName"
+      >
+        Foto
+        :
+         
+        Unsplashed
+      </span>
+    </div>
+  </div>
+  <div
+    class="HiddenMdDown"
+  >
+    <style>
+      
+  .css-1775976094 {
+    background-image: url(/fp/1155/770/1000/1000/sites/default/files/berg.jpeg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1775976094 {
+        background-image: url(/fp/2048/1152/1000/1000/sites/default/files/berg.jpeg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="paragraph parallax-image-paragraph ParallaxClassName css-1775976094"
+      data-testid="desktop-parallax-image"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <span
+          class="CreditsClassName"
+        >
+          Foto
+          :
+           
+          Unsplashed
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;

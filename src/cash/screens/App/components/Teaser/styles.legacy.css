@@ -1,0 +1,25 @@
+.Wrapper {
+  /* stylelint-disable-next-line */
+  border-bottom: 1px solid #e6e6e6;
+  display: block;
+  margin-top: 20px;
+}
+
+.Date {
+  /* stylelint-disable-next-line */
+  color: #cecece;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+}
+
+.Title {
+  color: $black;
+  @mixin fontSize 19;
+  font-weight: bold;
+  margin-bottom: 4px;
+}
+
+.Lead {
+  color: $black;
+  margin-bottom: 4px;
+}

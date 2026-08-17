@@ -1,0 +1,9 @@
+.Wrapper {
+  margin-bottom: $margin32;
+  margin-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+    margin-top: $margin64;
+  }
+}

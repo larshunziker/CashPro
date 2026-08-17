@@ -1,0 +1,59 @@
+.entityQueueDefault {
+  .Grid0 {
+    background: $white;
+    display: grid;
+    grid-row-gap: $margin24;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(1, auto);
+  
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 25; }
+    .Item2 { grid-area: 3 / 1 / 4 / 25; }
+    .Item3 { grid-area: 4 / 1 / 5 / 25; }
+    .Item4 { grid-area: 5 / 1 / 6 / 25; }
+    .Item5 { grid-area: 6 / 1 / 7 / 25; }
+    .Item6 { grid-area: 7 / 1 / 8 / 25; }
+    .Item7 { grid-area: 8 / 1 / 9 / 25; }
+    .Item8 { grid-area: 9 / 1 / 10 / 25; }
+  }
+  
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $margin16;
+      grid-row-gap: $margin24;
+      grid-template-columns: repeat(24, 1fr);
+      
+      .Item0 { grid-area: 1 / 1 / 2 / 25; }
+      .Item1 { display: none }
+      .Item2 { grid-area: 2 / 1 / 3 / 25; }
+      .Item3 { grid-area: 3 / 1 / 4 / 9; }
+      .Item4 { grid-area: 3 / 9 / 4 / 17; }
+      .Item5 { grid-area: 3 / 17 / 4 / 25; }
+      .Item6 { grid-area: 4 / 1 / 5 / 9; }
+      .Item7 { grid-area: 4 / 9 / 5 / 17; }
+      .Item8 { grid-area: 4 / 17 / 5 / 25; }
+      .Item9 { grid-area: 5 / 1 / 6 / 9; }
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $margin24;
+      grid-row-gap: $margin24;
+      grid-template-columns: repeat(24, 1fr);
+      
+      .Item0 { grid-area: 1 / 1 / 2 / 17; }
+      .Item1 { display: none }
+      .Item2 { grid-area: 1 / 17 / 2 / 25; }
+      .Item3 { grid-area: 2 / 1 / 3 / 9; }
+      .Item4 { grid-area: 2 / 9 / 3 / 17; }
+      .Item5 { grid-area: 2 / 17 / 3 / 25; }
+      .Item6 { grid-area: 3 / 1 / 4 / 9; }
+      .Item7 { grid-area: 3 / 9 / 4 / 17; }
+      .Item8 { grid-area: 3 / 17 / 4 / 25; }
+      .Item9 { grid-area: 4 / 1 / 5 / 9; }
+    }
+  }
+}

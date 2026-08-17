@@ -1,0 +1,19 @@
+{
+  "ministageDisruptor": {
+    "__typename": "MinistageDisruptor",
+    "link": {
+      "__typename": "Link",
+      "label": "Videos",
+      "path": "/videos?promo_name=disruptor&promo-position=hero",
+      "routed": true
+    },
+    "image": {
+      "__typename": "File",
+      "source": "https://cdn.stage.gaultmillau.ch/sites/default/files/2017-11/GMC_DE_disruptor_video_default_0.svg"
+    },
+    "imageHover": {
+      "__typename": "File",
+      "source": "https://cdn.stage.gaultmillau.ch/sites/default/files/2017-11/GMC_DE_disruptor_video_active_0.svg"
+    }
+  }
+}

@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 0 1`] = `<div />`;
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 1 1`] = `<div />`;
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 2 1`] = `<div />`;
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 3 1`] = `<div />`;
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 4 1`] = `
+<div>
+  <div
+    class="paragraph link-box-paragraph"
+  >
+    <div
+      class="GroupWrapperClassName"
+    >
+      <div
+        class="TitleClassName"
+      >
+        DefaultLinkBox
+      </div>
+    </div>
+    <div
+      class="GroupWrapperClassName"
+    >
+      <a
+        href="/node/1"
+      >
+        test link 1
+      </a>
+      <a
+        href="/node/2"
+      >
+        test link 2
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] LinkBoxParagraph Should match snapshot 5 1`] = `<div />`;

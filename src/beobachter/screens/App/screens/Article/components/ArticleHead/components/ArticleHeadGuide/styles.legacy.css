@@ -1,0 +1,78 @@
+.ShortTitle {
+  composes: SpitzmarkeTeaserAdvertorial from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 18px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media print {
+    margin-top: $margin64;
+  }
+}
+
+.Title {
+  composes: H1SansSerif from 'typography.legacy.css';
+  margin-bottom: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 10px;
+    text-align: left;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: left;
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyB;
+
+  /* bottom: 0; */
+  height: 70px;
+
+  /* left: 0; */
+
+  /* position: fixed; */
+
+  /* right: 0; */
+
+  /* z-index: 1000; */
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    position: relative;
+  }
+}
+
+.DateWrapper {
+  justify-content: start;
+  margin: $margin16 0 $margin40 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin24;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}

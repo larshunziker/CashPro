@@ -1,0 +1,57 @@
+.AuthorPage {
+  background: $white;
+}
+
+.HeaderWrapper {
+  background-color: $greyE;
+  margin-bottom: $margin24;
+  padding-bottom: 36px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+    padding-bottom: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+    padding-bottom: 40px;
+  }
+}
+
+.BreadcrumbsWrapper {
+  padding-top: $margin16;
+}
+
+.Description {
+  composes: RichTextWrapper from  '../../components/Paragraphs/components/TextParagraph/styles.legacy.css';
+  composes: InfoB from 'typography.legacy.css';
+  cursor: auto;
+  font-weight: 400;
+  margin-bottom: $margin16;
+  
+  a {
+    @mixin RichTextLink;
+  }
+}
+
+.InnerWrapper > div > div {
+  @media (max-width: $smBreakpointTo) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.ResultsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $margin16;
+  margin-bottom: $margin32;
+}
+
+.PagerWrapper {
+  padding-bottom: $margin80;
+}
+
+.PageHeading {
+  composes: BoxTitle from 'typography.legacy.css';
+}

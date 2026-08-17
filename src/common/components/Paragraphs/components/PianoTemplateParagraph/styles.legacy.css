@@ -1,0 +1,10 @@
+/* stylelint-disable selector-class-pattern */
+
+/* class made of piano_template_id and piano_variation_id to reduce cls */
+.OTJ28WMKGSP1_OTVAP1V95MH04 {
+  min-height: 500px;
+
+  @media screen and (min-width: $xlBreakpoint) {
+    min-height: 400px;
+  }
+}

@@ -1,0 +1,67 @@
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  display: flex;
+  gap: $margin4;
+}
+
+.Wrapper {
+  height: 100%;
+  min-height: 350px;
+  position: relative;
+}
+
+.CollapseButton {  
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  border: 0;
+  color: $secondaryA;
+  display: flex;  
+  font-size: 16px;
+  font-weight: 700;  
+  justify-content: center;
+  margin: 0 $margin16;
+  text-align: center;
+  width: calc(100% - 32px);
+
+  span {
+    margin-right: 8px;
+
+    &:hover {
+      color: $secondaryB;
+      cursor: pointer;
+    }
+  }
+}
+
+.Icon {
+  display: flex;
+  line-height: 1.1875rem;
+}
+
+.EventsWrapper {
+  position: relative;
+
+  &:has(.NoData) {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.NoData {
+  height: 64px;
+  margin-top: $margin32;
+}
+
+.PianoWidget {
+  margin-top: 6px;
+  min-height: 200px;
+  position: absolute;
+  top: 20px;
+  width: 100%;
+}
+
+.Hidden {
+  display: none;
+}
+

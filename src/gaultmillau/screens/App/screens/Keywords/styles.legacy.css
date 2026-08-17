@@ -1,0 +1,166 @@
+.ArticleBody {
+  background-color: $white;
+}
+
+.Header {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-family: $fontActaDisplay;
+    font-size: 3.5rem;
+    font-weight: 300;
+    line-height: 3.5rem;
+    margin-top: 88px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-top: 88px;
+  }
+}
+
+.Divider {
+  background-color: $neutralA;
+  clear: both;
+  height: 1px;
+}
+
+.DividerMarginBottom {
+  composes: Divider;
+  margin-bottom: 25px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-bottom: 31px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 39px;
+  }
+}
+
+.OverviewLink {
+  composes: TextButton from 'helpers.legacy.css';
+  color: $neutralA;
+  cursor: pointer;
+  float: right;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 900;
+  height: 1.5rem;
+  letter-spacing: 2px;
+  line-height: 1rem;
+  margin-bottom: 10px;
+  margin-top: 0;
+  padding: 0 2px 5px 13px;
+  position: relative;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    display: none;
+  }
+
+  &::after {
+    background: $gradientPrimaryA;
+  }
+
+  &::before {
+    color: $neutralA;
+    content: '\e909';
+    display: inline-block;
+    font-family: $fontIcon;
+    font-size: 2.2rem;
+    font-weight: 100;
+    left: -10px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    -webkit-text-fill-color: $neutralA; /* stylelint-disable-line property-no-vendor-prefix */
+    text-transform: none;
+    top: -8px;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 4.5rem;
+      left: -20px;
+      top: -19px;
+    }
+  }
+}
+
+.OverviewLinkActive {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+
+  &::before {
+    background: $gradientPrimaryA;
+    /* stylelint-disable */
+    background-clip: text !important;
+    content: '\e909';
+    display: inline-block;
+    font-family: $fontIcon;
+    font-size: 4.5rem;
+    font-weight: 100;
+    left: -20px;
+    line-height: 1;
+    padding: 0;
+    position: absolute;
+    -webkit-text-fill-color: transparent;
+    /* stylelint-enable */
+    text-transform: none;
+    top: -19px;
+  }
+}
+
+.TitleChar {
+  float: left;
+  font-family: $fontActaDisplay;
+  font-size: 10rem;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 10px;
+  margin-left: 14px;
+  margin-top: -15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    float: left;
+    font-size: 16rem;
+    margin-left: -6px;
+    margin-top: -10px;
+    position: absolute;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    font-size: 24rem;
+    margin-left: 1px;
+    margin-top: -28px;
+  }
+}
+
+.NoKeywordsTextWrapper {
+  font-size: 1.5rem;
+  padding-left: 103px;
+  padding-top: 22px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    font-size: 1.7rem;
+    min-height: 150px;
+    padding-left: 32px;
+    padding-top: 60px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    font-size: 2rem;
+    min-height: 230px;
+    padding-left: 150px;
+    padding-top: 86px;
+    text-align: center;
+  }
+}

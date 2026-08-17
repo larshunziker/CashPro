@@ -1,0 +1,114 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  min-height: 60vh;
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+}
+
+.SubTitle {
+  composes: InfoB from 'typography.legacy.css';
+  margin-bottom: 6px;
+}
+
+.Heading3 {
+  composes: InfoABold from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.MainPortfolioCurrency {
+  composes: MainPortfolioCurrency from '../Portfolio/styles.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.TableWrapper {
+  margin-bottom: $margin40;
+  position: relative;
+}
+
+.BackButtonWrapper {
+  margin-bottom: $margin16;
+}
+
+.DropdownViewLink {
+  @mixin InfoB;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+  
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 $margin24;
+  }
+
+  &:hover {
+    background-color: $greyE;
+  }
+
+  &.FirstItem {
+    position: relative;
+
+    &::after {
+      background-color: $greyC;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 19px;
+      position: absolute;
+      right: 19px;
+    }
+  }
+
+  &.Active {
+    @mixin InfoBBold;
+  }
+}
+
+.Total {
+  &.Green {
+    color: $positive;
+  }
+
+  &.Red {
+    color: $primaryA;
+  }
+}
+
+.PortfolioSelectionWrapper {
+  composes: PortfolioSelection from '../Portfolio/styles.legacy.css';
+}
+
+.DropdownListItem {
+  align-items: center;
+  display: flex;
+  @mixin InfoB;
+
+  .Icons {
+    font-size: 20px;
+    margin-right: 10px;
+    position: relative;
+  }
+}
+
+.TopButtonRow {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-between;
+}
+
+@media print {
+  .BuyPrint {
+    zoom: 87%;
+  }
+
+  .SellPrint {
+    zoom: 80%;
+  }
+}

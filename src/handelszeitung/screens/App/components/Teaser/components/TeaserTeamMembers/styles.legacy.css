@@ -1,0 +1,73 @@
+.Image {
+  align-items: center;
+  background-color: $greyC;
+  border-radius: 50%;
+  display: flex;
+  float: left;
+  height: 61px;
+  justify-content: center;
+  margin-right: 10px;
+  overflow: hidden;
+  width: 61px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 54px;
+    margin-right: 14px;
+    width: 54px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 75px;
+    width: 75px;
+  }
+}
+
+.TextWrapper {
+  float: left;
+  width: calc(100% - 71px);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 68px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc(100% - 89px);
+  }
+}
+
+.Title {
+  composes: H4Light from 'typography.legacy.css';
+  margin-top: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 11px;
+  }
+}
+
+.Link {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+}
+
+.Icon {
+  color: $greyB;
+  position: relative;
+  top: 2px;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    left: 0;
+    top: 1px;
+  }
+}
+
+.Position {
+  composes: InfoParagraphGrey from 'typography.legacy.css';
+}

@@ -1,0 +1,186 @@
+/* INFO: font-sizes & line-heights in the file have to be in px because of an rendering issue in various browsers/viewports and operating systems */
+
+.ButtonWrapper {
+  composes: ArrowText from 'typography.legacy.css';
+  background: linear-gradient(to right, $redB 0%, $redA 100%);
+
+  /* Chrome: Fix accidental space because of rounding issues */
+  background-color: $redA;
+  cursor: pointer;
+  display: inline-block;
+  filter: drop-shadow($shadowD);
+  font-size: 12px;
+  line-height: 10px;
+  margin-left: 10px;
+  outline: none;
+  padding: 5px 10px;
+  position: relative;
+
+  &:not(.DisableHover) {
+    &:hover,
+    :global(.ArrowButtonHoverArea):hover & {
+      filter: drop-shadow($shadowE);
+    }
+  }
+
+  &::before,
+  &::after {
+    border-style: solid;
+    content: '';
+    display: inline-block;
+    height: 0;
+    position: absolute;
+    top: 0;
+    width: 0;
+  }
+
+  &::before {
+    border-color: $redB;
+    border-right-color: $transparent;
+    border-width: 10px 10px 10px 0;
+    left: 0;
+    transform: rotate(180deg) translateX(100%);
+  }
+
+  &::after {
+    border-bottom: 10px solid $transparent;
+    border-left: 10px solid $redA;
+    border-right: 0;
+    border-top: 10px solid $transparent;
+    right: 0;
+    transform: translateX(100%);
+  }
+
+  &.ExtraPadding {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+.ButtonLight {
+  background: $white;
+  color: $redA;
+
+  &::before {
+    border-color: $white;
+    border-right-color: $transparent;
+  }
+
+  &::after {
+    border-left-color: $white;
+  }
+}
+
+.ButtonHoro {
+  background: $gradientHoro;
+  color: $white;
+
+  &::before {
+    border-color: $lila;
+    border-right-color: $transparent;
+  }
+
+  &::after {
+    border-left-color: $darkLila;
+  }
+}
+
+.ButtonSkin {
+  background: linear-gradient(to right, $skinGradientA 0%, $skinGradientB 100%);
+
+  /* Chrome: Fix accidental space because of rounding issues */
+  background-color: $skinGradientB;
+  color: $black;
+
+  @supports (filter: drop-shadow($shadowD)) {
+    &:not(.DisableHover) {
+      &:hover,
+      :global(.ArrowButtonHoverArea):hover & {
+        background: $white;
+        color: $skin;
+
+        &::before {
+          border-color: $white;
+          border-right-color: $transparent;
+        }
+
+        &::after {
+          border-left-color: $white;
+        }
+      }
+    }
+  }
+
+  &::before {
+    border-color: $skinGradientA;
+    border-right-color: $transparent;
+  }
+
+  &::after {
+    border-left-color: $skinGradientB;
+  }
+}
+
+.ButtonSmall {
+  font-size: 12px;
+  line-height: 6px;
+  margin-left: $margin8;
+  padding: 5px;
+
+  &::before {
+    border-width: 8px 8px 8px 0;
+  }
+
+  &::after {
+    border-width: 8px;
+  }
+}
+
+.ButtonExtraSmall {
+  font-size: 10px;
+  line-height: 6px;
+  margin-left: $margin8;
+  padding: 3px;
+
+  &::before {
+    border-width: 6px 6px 6px 0;
+  }
+
+  &::after {
+    border-width: 6px;
+  }
+
+  &.ExtraPadding {
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.ButtonLarge {
+  font-size: 14px;
+  line-height: 16px;
+  margin: 0 13px 5px;
+  padding: 5px 13px;
+
+  &::before {
+    border-width: 13px 13px 13px 0;
+  }
+
+  &::after {
+    border-width: 13px;
+  }
+
+  @media (max-width: $lgBreakpointTo) {
+    font-size: 12px;
+    line-height: 10px;
+    padding: 5px 10px;
+
+    &::before {
+      border-width: 10px 10px 10px 0;
+    }
+
+    &::after {
+      border-width: 10px;
+    }
+  }
+}

@@ -1,0 +1,68 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserParagraph Should render Inline Recipe Teaser 1`] = `
+<div>
+  <div
+    __typename="Recipe"
+    component="teaser/layout-inline-teaser-recipe"
+    data-testid="mocked-teaser"
+    description="<p>Diese köstliche, frische Fonduemischung begeistert durch die Zugabe von Geiss- und Schafsmilchkäse, die dem Käse aus klassischer Kuhmilch eine sämige, fast frühlingshafte Note schenken. Besonders köstlich mit frischen Birnenschnitzen serviert.</p>
+
+<p><strong>Fondue aux trois laits<br />
+Inhalt 400 g<br />
+CHF 29.90</strong></p>
+"
+    id="bm9kZToyOTQ1MDI="
+    preferreduri="/group/1/content/314974"
+    secondaryname=""
+    shorttitle=""
+    teaserimage="[object Object]"
+    title="Fondue aux trois laits"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserParagraph Should render normal Inline Teaser 1`] = `
+<div>
+  <div
+    __typename="Article"
+    component="teaser/layout-ml"
+    data-testid="mocked-teaser"
+    description="<p>Diese köstliche, frische Fonduemischung begeistert durch die Zugabe von Geiss- und Schafsmilchkäse, die dem Käse aus klassischer Kuhmilch eine sämige, fast frühlingshafte Note schenken. Besonders köstlich mit frischen Birnenschnitzen serviert.</p>
+
+<p><strong>Fondue aux trois laits<br />
+Inhalt 400 g<br />
+CHF 29.90</strong></p>
+"
+    id="bm9kZToyOTQ1MDI="
+    preferreduri="/group/1/content/314974"
+    secondaryname=""
+    shorttitle=""
+    teaserimage="[object Object]"
+    title="Fondue aux trois laits"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserParagraph Should render nothing if there is no teaser 1`] = `<div />`;
+
+exports[`[Component] TeaserParagraph Should render product teaser 1`] = `
+<div>
+  <div
+    data-testid="mocked-product-teaser"
+    teaserparagraph="[object Object]"
+    type="default"
+  />
+   
+</div>
+`;
+
+exports[`[Component] TeaserParagraph Should render product teaser with origin MultiColumnParagraph 1`] = `
+<div>
+  <div
+    data-testid="mocked-product-teaser"
+    teaserparagraph="[object Object]"
+    type="default"
+  />
+</div>
+`;

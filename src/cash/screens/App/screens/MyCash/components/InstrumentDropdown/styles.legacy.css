@@ -1,0 +1,25 @@
+.Wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: flex-end;
+  left: 0;
+  padding: 12px 0 15px;
+  position: sticky;
+  user-select: none;
+
+  width: calc(100vw - $outerGapXs * 2 - $gridGutterWidthXl);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2)
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2)
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    width: calc(1440px - $outerGapXl * 2)
+  }
+}
+

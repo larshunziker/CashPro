@@ -1,0 +1,31 @@
+.Wrapper {
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 26px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 50px;
+  }
+}
+
+.NoResults {
+  composes: Heading1A from 'typography.legacy.css';
+  min-height: 300px;
+}
+
+.InputLabel {
+  composes: MenuItems3 from 'typography.legacy.css';
+}
+
+.Loading {
+  composes: Heading1A from 'typography.legacy.css';
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}

@@ -1,0 +1,4 @@
+<esi:choose>
+<esi:when test="$(GEO{'country_code'}) == 'CH'">{"ch": true}</esi:when>
+<esi:otherwise>{"ch": false}</esi:otherwise>
+</esi:choose>

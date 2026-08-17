@@ -1,0 +1,89 @@
+.Wrapper {
+  line-height: 0;
+  padding-bottom: 0;
+  padding-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 44px;
+    padding-top: 56px;
+  }
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+  margin-bottom: 12px;
+}
+
+.ReferenceWrapper {
+  display: block;
+  margin-bottom: 21px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    position: relative;
+    top: -15px;
+  }
+}
+
+.Reference {
+  composes: Reference from 'SalaryCheckerPerBranch/styles.legacy.css';
+}
+
+.ReferenceLabel {
+  composes: ReferenceLabel from 'SalaryCheckerPerBranch/styles.legacy.css';
+}
+
+.ReferenceLogo {
+  bottom: -5px;
+  height: 22px;
+  position: relative;
+  width: 133px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -6px;
+    height: 28px;
+    width: 173px;
+  }
+}
+
+.IndicatorsWrapper {
+  margin-bottom: 7px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 22px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 36px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 10px;
+  }
+}
+
+.Indicator {
+  margin-bottom: 15px;
+
+  &:last-child {
+    margin-bottom: 10px;
+  }
+}
+
+.IndicatorTitle {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  text-transform: uppercase;
+}
+
+.IndicatorValue {
+  composes: H4Light from 'typography.legacy.css';
+}
+
+.CompanyDescription {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+}
+
+.Button {
+  composes: Button from 'SalaryCheckerPerBranch/styles.legacy.css';
+  composes: H4White from 'typography.legacy.css';
+}

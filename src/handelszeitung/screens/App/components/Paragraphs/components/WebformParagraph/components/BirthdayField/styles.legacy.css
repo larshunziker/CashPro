@@ -1,0 +1,23 @@
+.Label {
+  composes: Label from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}
+
+.LabelAbove {
+  composes: LabelAbove from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}
+
+.LabelInside {
+  composes: LabelInside from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}
+
+.HasError {
+  composes: HasError from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}
+
+.ErrorMessage {
+  composes: ErrorMessage from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}
+
+.HelperText {
+  composes: HelperText from 'Paragraphs/components/WebformParagraph/components/InputField/styles.legacy.css';
+}

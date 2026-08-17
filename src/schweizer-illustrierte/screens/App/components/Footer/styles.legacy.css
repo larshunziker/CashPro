@@ -1,0 +1,246 @@
+.Wrapper {
+  background: $gradientRed;
+  color: $white;
+  height: $footerHeightXs;
+  padding: 24px 0 35px;
+  position: relative;
+  z-index: calc($zIndex50 - 1);
+
+  @media (width >= 840px) {
+    height: $footerHeightLg;
+    padding: 25px 0 21px;
+  }
+
+  &.SY {
+    background: $gradientBlack;
+  }
+}
+
+.Section {
+  composes: SectionPullOut from '@sections.legacy.css';
+
+  @media (max-width: $smBreakpointTo) and (width >= 840px) {
+    margin: 0 -$pullOutMd;
+    width: calc(100% + (2 * $pullOutMd));
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: 0;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+  }
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-wrap: wrap;
+
+  @media (width >= 840px) {
+    padding-top: 10px;
+  }
+}
+
+.List {
+  display: flex;
+  justify-content: center;
+
+  .ListItem {
+    display: block;
+    text-decoration: none;
+
+    .Link {
+      color: $white;
+      display: inline-block;
+      font-family: $fontBague;
+      font-size: 1.1rem;
+      font-style: normal;
+      font-weight: 900;
+      line-height: 30px;
+      padding: 0 9px;
+      position: relative;
+      text-align: center;
+
+      @media (min-width: $smBreakpoint) {
+        font-size: 1.2rem;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        font-size: 1.4rem;
+      }
+
+      &::after {
+        border-bottom: 1px solid $transparent;
+        bottom: 7px;
+        content: ' ';
+        display: inline-block;
+        left: 9px;
+        position: absolute;
+        width: calc(100% - 18px);
+
+        @media (min-width: $smBreakpoint) {
+          bottom: 6px;
+        }
+
+        @media (min-width: $xlBreakpoint) {
+          bottom: 5px;
+          left: 13px;
+          width: calc(100% - 26px);
+        }
+      }
+
+      &:hover {
+        &::after {
+          border-bottom: 1px solid $white;
+        }
+      }
+    }
+
+    .SocialLink {
+      color: $white;
+      padding: 0 5px;
+    }
+  }
+}
+
+.NavigationWrapper {
+  text-align: center;
+  width: 100%;
+
+  @media (width >= 840px) {
+    flex: 2;
+    margin-top: 3px;
+  }
+
+  .List {
+    .ListItem {
+      .Link {
+        @media (min-width: $xlBreakpoint) {
+          padding: 0 13px;
+        }
+      }
+
+      &:first-child {
+        .Link {
+          padding-left: 0;
+          @media (min-width: $xlBreakpoint) {
+            padding: 0 13px 0 0;
+          }
+
+          &::after {
+            border-bottom: 1px solid $transparent;
+            bottom: 7px;
+            content: ' ';
+            display: inline-block;
+            left: 0;
+            position: absolute;
+            width: calc(100% - 9px);
+          }
+
+          &:hover {
+            &::after {
+              border-bottom: 1px solid $white;
+
+              @media (min-width: $smBreakpoint) {
+                bottom: 6px;
+              }
+
+              @media (min-width: $xlBreakpoint) {
+                bottom: 5px;
+                width: calc(100% - 13px);
+              }
+            }
+          }
+        }
+      }
+    }
+    @media (width >= 840px) {
+      justify-content: left;
+    }
+  }
+}
+
+.CopyMobile {
+  font-family: $fontBague;
+  font-size: 1.1rem;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 30px;
+  text-align: center;
+  width: 100%;
+
+  @media (width >= 840px) {
+    display: none;
+  }
+}
+
+.Copy {
+  display: none;
+
+  @media (width >= 840px) {
+    align-content: center;
+    display: inline-block;
+    font-family: $fontBague;
+    font-size: 1.2rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: 36px;
+    min-width: 200px;
+    padding-right: 27px;
+    padding-top: 10px;
+    position: relative;
+    text-align: right;
+    width: auto;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.Share {
+  font-size: 3rem;
+  margin-top: 12px;
+  width: 100%;
+
+  @media (width >= 840px) {
+    flex: 1;
+    margin-top: 0;
+    width: auto;
+
+    .List {
+      justify-content: center;
+    }
+  }
+
+  &.SY {
+    @media (width >= 840px) {
+      .List {
+        min-width: 160px;
+      }
+    }
+  }
+}
+
+.Logo {
+  margin-top: 18px;
+  text-align: center;
+  width: 100%;
+
+  @media (width >= 840px) {
+    display: flex;
+    flex: 2;
+    justify-content: flex-end;
+    margin-top: -10px;
+    text-align: right;
+  }
+}
+
+.FooterPullOut {
+  @media (min-width: $mdBreakpoint) {
+    margin: 0 -$pullOutMd;
+    width: calc(100% + (2 * $pullOutMd));
+  }
+}

@@ -1,0 +1,132 @@
+.ExpansionPanel {
+  position: relative;
+
+  &::after {
+    background-color: $greyC;
+    content: '';
+    display: block;
+    height: 1px;
+    margin-left: 16px;
+    width: calc(100% - 19px - 16px);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::after {
+      width: calc(100% - 16px - 16px);
+    }
+  }
+
+  .Spacer {
+    flex: 1;
+  }
+
+  .Header {
+    align-items: center;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .Icon {
+    &::before {
+      color: $black;
+      display: inline-block;
+      font-family: $fontRaschIcon;
+      @mixin fontSize 28;
+      @mixin lineHeight 28;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      line-height: 1;
+
+      &::before {
+        content: '\e906';
+      }
+    }
+  }
+
+  &:not(.IsOpen) {
+    .Icon {
+      &.ArrowIcon {
+        transform: rotateX(180deg);
+        transition: transform 0.3s ease-in-out;
+      }
+    }
+  }
+
+  .Content {
+    height: 0;
+    overflow: hidden;
+    padding-left: 19px;
+    position: relative;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: 16px;
+    }
+
+    .HeaderContentWrapper, .Content {
+      padding-left: 16px;
+    }
+  }
+
+  &.IsOpen {
+    background-color: $greyE;
+
+    .ArrowIcon {
+      transform: rotateX(0deg);
+      transition: transform 0.3s ease-in-out;
+    }
+
+    &::after {
+      display: none;
+    }
+  }
+}
+
+.HeaderContentWrapper {
+  align-items: center;
+  display: flex;
+  padding: 8px 19px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 8px 16px;
+  }
+}
+
+.LinkWrapper {
+  flex: 1;
+}
+
+.ToggleWrapper {
+  height: 100%;
+  outline: none;
+  padding-left: 8px;
+}
+
+.Title {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  min-height: 30px;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+
+  &::after {
+    background-color: $greyC;
+    content: '';
+    display: inline-block;
+    height: 30px;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 1px;
+  }
+}

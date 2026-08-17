@@ -1,0 +1,97 @@
+.Item {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    flex-wrap: wrap;
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.ImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-right: 20px;
+  max-height: 120px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 170px;
+    margin: 0 0 15px;
+    width: 170px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 194px;
+    margin-bottom: 17px;
+    width: 194px;
+  }
+}
+
+.Image {
+  align-self: flex-end;
+  flex-shrink: 0;
+  margin: 0 auto;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+
+  @media (min-width: $smBreakpoint) {
+    align-self: flex-end;
+  }
+}
+
+.ContentWrapper {
+  align-self: flex-end;
+  min-width: 0;
+  width: calc(100% - 100px - 20px);
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2SY from 'typographySY.legacy.css';
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 6px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.Title {
+  composes: Heading3ASY from 'typographySY.legacy.css';
+}
+
+.Price {
+  composes: Heading3ASY from 'typographySY.legacy.css';
+}
+
+.Currency {
+  font-variant-caps: all-small-caps;
+}
+
+.Button {
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 19px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin16;
+  }
+}

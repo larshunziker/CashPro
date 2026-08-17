@@ -1,0 +1,75 @@
+.Wrapper {
+  background-color: $white;
+  border-bottom: 1px solid $greyC;
+  display: none;
+  position: absolute;
+  top: -100%;
+  transition: transform 0.3s ease-in-out;
+  width:100%;
+  z-index: -100;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+:global(.branding-day) {
+  .Wrapper {
+    @media (min-width: $mdBreakpoint) {
+      margin: 0 auto;
+    }
+
+    @media (width >= 1200px) {
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.MoveUp {
+  transform: translateY(183%);
+}
+
+.ContentWrapper {
+  composes: Container from '@grid.legacy.css';
+  display: flex;
+}
+
+.TitleWrapper {
+  composes: Lead2 from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex: 2;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.Title {
+  composes: Lead2BlackName from 'typography.legacy.css';
+  margin-left: 5px;
+  max-width: 100%;
+  overflow: hidden;
+  padding-right:32px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.UtilityBarWrapper {
+  bottom: -8px;
+  height: 53px;
+  padding-right: 14px;
+  position: relative;
+}
+
+.UtilityOverlayWrapper {
+  max-width: calc(100% - 16px);
+  position: relative;
+  
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 694px;
+  }
+}

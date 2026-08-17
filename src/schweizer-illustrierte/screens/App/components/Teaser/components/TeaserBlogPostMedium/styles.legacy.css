@@ -1,0 +1,197 @@
+/*
+ * The short title and title elements will stretch the size of their container
+ * on mobile devices if they contain very long words. This might have something
+ * to do with the width being set to "calc(100% - 125px);". To keep it in check
+ * we've had to resort to dark magic, since various flexbox-y approaches didn't
+ * solve the issue.
+ */
+.MobileTextWrapFence {
+  @media (max-width: $xsBreakpointTo) {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+.Wrapper {
+  background: $gradientBlog;
+  display: inline-block;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    padding: 15px 15px 30px;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 20px 20px 40px;
+  }
+
+  &:hover {
+    .TitleInner {
+      border-bottom-color: $redA;
+    }
+  }
+}
+
+.EmptyWrapper {
+  composes: HiddenSmDown from '@grid.legacy.css';
+  background: none;
+}
+
+.Image {
+  display: block;
+  height: 76px;
+  max-width: 115px;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+    max-width: calc(100% + 10px);
+  }
+}
+
+.ImageWrapper {
+  background-color: $white;
+  float: left;
+  height: auto;
+  margin-right: 12px;
+  max-width: 115px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+    margin-right: 0;
+    max-width: 100%;
+    padding-bottom: 2px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 18px;
+  }
+}
+
+.ContentWrapper {
+  float: left;
+  padding-top: 12px;
+  width: calc(100% - 180px);
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $white;
+    min-height: 105px;
+    padding: 8px 10px 20px;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 118px;
+    padding: 0 20px 20px;
+  }
+}
+
+.Title {
+  composes: MobileTextWrapFence;
+  composes: Heading4 from 'typography.legacy.css';
+  padding-bottom: 21px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+  }
+}
+
+.TitleInner {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.ShortTitle {
+  composes: MobileTextWrapFence;
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  color: $redA;
+  margin-bottom: 5px;
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+  bottom: 0;
+
+  &::before {
+    bottom: 5px;
+    left: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 15px;
+      left: 15px;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 2px;
+    max-width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 18px;
+  }
+}
+
+.AuthorBox {
+  bottom: 6px;
+  margin-left: 115px;
+  position: absolute;
+  width: calc(100% - 115px);
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 10px;
+    margin-left: 0;
+    width: calc(100% - 40px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 13px;
+  }
+}
+
+.AuthorName {
+  composes: CaptionAuthorBlog from 'typography.legacy.css';
+  margin-left: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+  }
+}
+
+.AuthorImage {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 54px;
+  inset: auto -12px 4px auto;
+  padding: 3px;
+  position: absolute;
+  width: 54px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 0;
+    height: 42px;
+    right: 0;
+    width: 42px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 60px;
+    right: 20px;
+    width: 60px;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

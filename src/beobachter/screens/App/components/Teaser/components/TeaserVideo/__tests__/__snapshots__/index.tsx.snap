@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserVideo Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="empty-link"
+  >
+    <div
+      class="PlayerWrapper"
+    >
+      <span
+        class="Button"
+      />
+    </div>
+    <div>
+      <span
+        class="TeaserShortTitle"
+      />
+      <div
+        class="TeaserTitle"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserVideo Should render correctly 2 1`] = `
+<div>
+  <div
+    data-testid="empty-link"
+  >
+    <div
+      class="PlayerWrapper"
+    >
+      <span
+        class="Button ActiveButton"
+      />
+    </div>
+    <div>
+      <span
+        class="TeaserShortTitle IsActive"
+      />
+      <div
+        class="TeaserTitle IsActive"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+.Indicator {
+  background-color: $greyE;
+  color: $blueA;
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  margin-left: auto;
+  padding: 4px 0;
+  width: fit-content;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Highlight {
+  display: inline-block;
+  padding: 0 12px;
+}

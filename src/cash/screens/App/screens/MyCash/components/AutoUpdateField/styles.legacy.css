@@ -1,0 +1,41 @@
+.AnimateNeutral {
+  animation: animate-neutral 1s;
+}
+
+.AnimatePositive {
+  animation: animate-positive 1s;
+}
+
+.AnimateNegative {
+  animation: animate-negative 1s;
+}
+
+@keyframes animate-neutral {
+  0% {
+    background: $warning50;
+  }
+
+  100% {
+    background: $transparent;
+  }
+}
+
+@keyframes animate-positive {
+  0% {
+    background: $positiveB50;
+  }
+
+  100% {
+    background: $transparent;
+  }
+}
+
+@keyframes animate-negative {
+  0% {
+    background: $primaryA50;
+  }
+
+  100% {
+    background: $transparent;
+  }
+}

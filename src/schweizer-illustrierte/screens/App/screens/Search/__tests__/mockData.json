@@ -1,0 +1,620 @@
+{
+  "data": {
+    "globalSearch": {
+      "count": 24,
+      "edges": [
+        [
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Keyword",
+              "id": "dGF4b25vbXlfdGVybTo1NjU0",
+              "label": "Enrico",
+              "preferredUri": "/dossier/enrico",
+              "settings": {
+                "__typename": "TermSettings",
+                "title": "Enrico Title",
+                "headerImage": {
+                  "__typename": "Image",
+                  "id": "41384",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "41905",
+                    "alt": "Chrüter Oski",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2112711546001_5802534646001_5802548864001-vs.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Keyword",
+              "id": "dGF4b25vbXlfdGVybToxMzI3",
+              "label": "Aal",
+              "preferredUri": "/dossier/aal",
+              "settings": {
+                "__typename": "TermSettings",
+                "title": "Headline",
+                "headerImage": null
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo0MDk5MA==",
+              "preferredUri": "/specials/wallis-42018/special-article",
+              "title": "Special Article",
+              "shortTitle": "Special Article",
+              "badgeLabel": "why you no work?",
+              "badgeColor": "black",
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo1NzM2",
+                "title": "Wallis 4/2018",
+                "channelType": "special",
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "177607",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "40840",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "40925",
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "204227",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41353",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "41864",
+                    "alt": "Fredie Kühe",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2018-09/web-nr-5770.psd_.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "id": "bm9kZTo0MjUyMg==",
+              "title": "RDP-937 test embed only",
+              "shortTitle": "RDP-937",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "preferredUri": "/advertorial/galleries/rdp-937-rdp-937-test-embed-only",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "206046",
+                "image": {
+                  "__typename": "Image",
+                  "id": "63498",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "64248",
+                    "alt": "August 6, 2019, Hollywood, CA, USA: Oprah Winfrey producer of a TV series David Makes Man on her channel OWN channel Hollywood USA PUBLICATIONxINxGERxSUIxAUTxONLY - ZUMAg203 20190806_zap_g203_029 Copyright: xArmandoxGallox  ",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/imago_93259680.jpg"
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "206043"
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozNzgxNg==",
+              "preferredUri": "/people/image-test",
+              "title": "Image test",
+              "shortTitle": null,
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTc5",
+                "title": "People",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "LandingPage",
+              "id": "bm9kZTo0MjA1OQ==",
+              "title": "Test by MG / RDP-939",
+              "lead": null,
+              "shortTitle": "RDP-939",
+              "preferredUri": "/test-mg-rdp-939",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "caption": null,
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              },
+              "channel": null
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozMTk0MQ==",
+              "preferredUri": "/style/rdp-670-selectfield-paragraph-ts-style",
+              "title": "RDP-670 SelectField Paragraph to TS - STYLE",
+              "shortTitle": "RDP-670 SelectField Paragraph to TS - STYLE",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTgw",
+                "title": "Style",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "id": "bm9kZTozNTkyMA==",
+              "title": "Email test",
+              "shortTitle": "Email test",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "preferredUri": "/people/lifestyle/galleries/email-test-email-test",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "198705",
+                "image": {
+                  "__typename": "Image",
+                  "id": "62781",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "63471",
+                    "alt": "water",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/water_2.jpg"
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "198702"
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozOTg4OQ==",
+              "preferredUri": "/people/test-mg-dtcpp-1159",
+              "title": "Test by MG / DTCPP-1159",
+              "shortTitle": "DTCPP-1159",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTc5",
+                "title": "People",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "203058",
+                "image": {
+                  "__typename": "Image",
+                  "id": "60475",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "61131",
+                    "alt": "Bruce",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/bruce_wayne.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "id": "bm9kZTozNTkyMg==",
+              "title": "email test 3",
+              "shortTitle": "email test 3",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "preferredUri": "/family/galleries/email-test-3-email-test-3",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "198712",
+                "image": {
+                  "__typename": "Image",
+                  "id": "57472",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "58110",
+                    "alt": "people society",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/miniature_people_and_the_concept_of_an_aging_society.jpeg"
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "198710"
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "id": "bm9kZTozNTkyMQ==",
+              "title": "test email 2",
+              "shortTitle": "email test 2",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "preferredUri": "/style/galleries/email-test-2-test-email-2",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "198709",
+                "image": {
+                  "__typename": "Image",
+                  "id": "56774",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "57412",
+                    "alt": "rainbow",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/rainbow.jpg"
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "198706"
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "NativeAdvertising",
+              "gcid": "36901",
+              "preferredUri": "/sponsoring/ubs/die-volle-ladung-weihnachten",
+              "id": "bm9kZTozNTk1Nw==",
+              "title": "Die volle Ladung Weihnachten",
+              "shortTitle": "Das ist der Short title",
+              "hasVideo": false,
+              "trackingTeaserClick": "https://www.schweizer-illustrierte.ch?test_tracking=teaser_impression",
+              "trackingTeaserImpression": "https://www.schweizer-illustrierte.ch?test_tracking=teaser_impression",
+              "subtypeValue": "sponsoring",
+              "advertisingTypeLabel": "Sponsoring",
+              "lead": "Endlich können wir uns wieder mit Mailänderli vollstopfen, uns die Hände an heissen Glühweintassen wärmen und ganz laut zu «Last Christmas» mitsingen. Die Weihnachtszeit zieht uns einmal mehr in ihren Bann und für alle, die nicht genug davon kriegen, gibt’s im grössten Schweizer Shoppingparadies, dem Shoppi Tivoli in Spreitenbach, gleich die volle Ladung.",
+              "link": null,
+              "sponsor": {
+                "__typename": "Sponsor",
+                "id": "bm9kZToxOTMxNw==",
+                "title": "UBS"
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "198751",
+                "image": {
+                  "__typename": "Image",
+                  "id": "57620",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "58258",
+                    "alt": "shoppi tivoli",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/shoppi_tivoli.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZToyODc3Nw==",
+              "preferredUri": "/test/epg",
+              "title": "EPG ",
+              "shortTitle": null,
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTc1",
+                "title": "Test",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "190887",
+                "image": {
+                  "__typename": "Image",
+                  "id": "50039",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "50663",
+                    "alt": "tm test",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/tm_test.jpeg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "NativeAdvertising",
+              "gcid": "39501",
+              "preferredUri": "/advertorial/test-mg-rdp-890",
+              "id": "bm9kZTozODUzOA==",
+              "title": "Test by MG / RDP-890",
+              "shortTitle": "RDP-890",
+              "hasVideo": false,
+              "trackingTeaserClick": null,
+              "trackingTeaserImpression": null,
+              "subtypeValue": "advertorial",
+              "advertisingTypeLabel": "Advertorial",
+              "lead": "Test by MG / RDP-890",
+              "link": null,
+              "sponsor": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "201633",
+                "image": {
+                  "__typename": "Image",
+                  "id": "59477",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "60120",
+                    "alt": " Ladestation von dem Automobilhersteller Tesla in Berlin. 31.10.2019. Berlin Deutschland *** Charging station of the automobile manufacturer Tesla in Berlin 31 10 2019 Berlin Germany PUBLICATIONxINxGERxSUIxAUTxONLY Copyright: xFelixxZahn/photothek.netx",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/imago_images_94651295_0.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozODUzNw==",
+              "preferredUri": "/people/lifestyle/test-mg-rdp-890",
+              "title": "Test by MG / RDP-890",
+              "shortTitle": "RDP-890",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTg1",
+                "title": "Lifestyle",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "201625",
+                "image": {
+                  "__typename": "Image",
+                  "id": "59323",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "59966",
+                    "alt": "SI NR 27/2020",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/si_nr_272020.png"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozNjE1Nw==",
+              "preferredUri": "/test/stefan-webform-test-date",
+              "title": "Stefan Webform Test Date",
+              "shortTitle": null,
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTc1",
+                "title": "Test",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      ],
+      "__typename": "SearchableUnionConnection"
+    }
+  }
+}

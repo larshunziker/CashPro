@@ -1,0 +1,111 @@
+{
+  "id": "bm9kZToxOTI4OQ==",
+  "title": "Schneewittchen hinter den sieben Bergen",
+  "lead": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga perferendis nulla animi ipsum. Itaque sint maxime laudantium nisi aspernatur!",
+  "shortTitle": "Style Video Article 123",
+  "metaTitle": "Schneewittchen hinter den sieben Bergen | Schweizer Illustrierte",
+  "metaDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga perferendis nulla animi ipsum. Itaque sint maxime laudantium nisi aspernatur!",
+  "metaOgTitle": "Schneewittchen hinter den sieben Bergen | Schweizer Illustrierte",
+  "keywords": {
+    "edges": [
+      {
+        "node": {
+          "label": "Internet",
+          "preferredUri": "/dossier/internet",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      }
+    ],
+    "__typename": "KeywordConnection"
+  },
+  "metaOgDescription": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga perferendis nulla animi ipsum. Itaque sint maxime laudantium nisi aspernatur!",
+  "metaCanonicalUrl": "",
+  "changeDate": "2018-07-10T16:23:29",
+  "publicationDate": null,
+  "preferredUri": "/style/schneewittchen-hinter-den-sieben-bergen",
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQx",
+          "label": "Style",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpReE9URXhNakE1",
+          "label": "Style Video Article 123: Schneewittchen hinter den sieben Bergen",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "subtypeValue": null,
+  "authorPrefix": "by",
+  "body": [
+    {
+      "id": "179004",
+      "header": null,
+      "text": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga perferendis nulla animi ipsum. Itaque sint maxime laudantium nisi aspernatur!</p>\n\n<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Incidunt fuga perferendis nulla animi ipsum. Itaque sint maxime laudantium nisi aspernatur!</p>\n",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "showAuthorBox": false,
+  "authors": {
+    "edges": [],
+    "__typename": "AuthorConnection"
+  },
+  "teaserImage": {
+    "id": "test1234",
+    "caption": "caption",
+    "format": "auto",
+    "image": {
+      "id": "test1234fdsa",
+      "credit": "Foto: Oliver Brenneisen",
+      "file": {
+        "id": "fadsadsf",
+        "alt": "Wendy ist happy",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/_DSC9718.jpg",
+        "width": 480,
+        "height": 329,
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "heroImageBody": [
+    {
+      "id": "179006",
+      "brightcoveId": "5750322578001",
+      "caption": "caption",
+      "alt": null,
+      "credit": "Keystone",
+      "image": {
+        "id": "test1234234",
+        "file": {
+          "id": "test12341234",
+          "width": 480,
+          "height": 329,
+          "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/_DSC9718.jpg",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/_DSC9718.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "VideoParagraph"
+    }
+  ],
+  "__typename": "NativeAdvertising"
+}

@@ -1,0 +1,93 @@
+.Wrapper {
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 40px 0;
+  }
+}
+
+.Wrapper a {
+  color: $secondaryA;
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Content {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  @mixin InfoB; /* mixin because RichTextWrapper has different font-family */
+  list-style-position: inside;
+  overflow: hidden;
+  word-break: break-word;
+
+  p {
+    margin-bottom: $margin16;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.ImageBox {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Footer {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  @mixin InfoB; /* mixin because RichTextWrapper has different font-family */
+  font-weight: bold;
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.Even {
+  background-color: $greyE;
+}
+
+.Odd {
+  .ImageBox {
+    order: -1;
+
+    @media (min-width: $smBreakpoint) {
+      order: initial;
+    }
+  }
+}
+
+.ListicleItemWrapper {
+  composes: Row from '@grid.legacy.css';
+}
+
+.ListicleItemInnerWrapper {
+  composes: ListicleItemWrapper;
+}
+
+.Image {
+  max-width: 100%;
+}
+
+.IsNested {
+  width: auto;
+  
+  .Wrapper {
+    margin: 0 40px;
+    width: auto;
+  }
+}

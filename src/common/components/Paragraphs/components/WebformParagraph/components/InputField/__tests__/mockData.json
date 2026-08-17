@@ -1,0 +1,9 @@
+{
+  "input": {
+    "type": "email",
+    "title": "E-Mail Adresse",
+    "required": true,
+    "required_error": "Bitte eine gültige E-Mail Adresse angeben",
+    "fieldName": "textfield"
+  }
+}

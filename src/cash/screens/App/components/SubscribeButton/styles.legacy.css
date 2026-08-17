@@ -1,0 +1,41 @@
+.SubscribeButtonWrapper {
+  align-items: center;
+  appearance: none;
+  background: $transparent;
+  border: none;
+  color: $primaryA;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  @mixin fontSize 14;
+  outline: none;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    .Text {
+      text-decoration: underline;
+    }
+  }
+}
+
+.Text {
+  padding-right: 8px;
+}
+
+.Icon {
+  @mixin fontSize 22;
+  margin: $margin4 10px $margin4 0;
+  transform-origin: 50% 25%;
+}
+
+.Active {
+  font-weight: 600;
+}
+
+.LightTheme {
+  color: $white;
+}
+
+

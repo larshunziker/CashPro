@@ -1,0 +1,83 @@
+.Button {
+  composes: ButtonBase from 'typography.legacy.css';
+
+  &.ClickEffect:active {
+    transform: scale(0.91);
+  }
+}
+
+.Primary {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $white;
+  }
+}
+
+.Secondary {
+  composes: ButtonSecondaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $black;
+  }
+}
+
+.Tertiary {
+  composes: ButtonTertiaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $black;
+  }
+}
+
+.HighAttention {
+  &.Primary {
+    @mixin ButtonPrimaryBigHighAttention;
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondaryBigHighAttention;
+
+    circle {
+      stroke: $red;
+    }
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiaryBigHighAttention;
+
+    circle {
+      stroke: $red;
+    }
+  }
+}
+
+.Small {
+  margin: 0 $margin12 $margin12 0;
+
+  &.Primary {
+    @mixin ButtonPrimarySmall;
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmall;
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiarySmall;
+  }
+}
+
+.Small.HighAttention {
+  &.Primary {
+    @mixin ButtonPrimarySmallHighAttention;
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmallHighAttention;
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiarySmallHighAttention;
+  }
+}

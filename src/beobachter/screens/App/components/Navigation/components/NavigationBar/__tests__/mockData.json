@@ -1,0 +1,83 @@
+{
+  "navigationPrimaryMenu": {
+    "id": "bWVudTpiZW8tbmF2aWdhdGlvbi1wcmltYXJ5",
+    "name": "BEO Navigation (Primär)",
+    "links": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYw",
+            "link": {
+              "label": "Arbeit",
+              "description": null,
+              "path": "/arbeit",
+              "routed": true,
+              "expanded": false,
+              "linkRel": "follow"
+            },
+            "subtree": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYx",
+                    "link": {
+                      "label": "Arbeitsrecht",
+                      "description": null,
+                      "path": "/arbeit/arbeitsrecht",
+                      "routed": false,
+                      "expanded": true,
+                      "linkRel": "followlowlowlo"
+                    }
+                  }
+                },
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYy",
+                    "link": {
+                      "label": "Arbeitslosigkeit",
+                      "description": null,
+                      "path": "/arbeit/arbeitslosigkeit",
+                      "routed": false,
+                      "expanded": false,
+                      "linkRel": null
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MjIz",
+            "link": {
+              "label": "Bildung",
+              "description": null,
+              "path": "/bildung",
+              "routed": true,
+              "expanded": true,
+              "linkRel": null
+            },
+            "subtree": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI0",
+                    "link": {
+                      "label": "Schule",
+                      "description": null,
+                      "path": "/schule",
+                      "routed": true,
+                      "expanded": false,
+                      "linkRel": null
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

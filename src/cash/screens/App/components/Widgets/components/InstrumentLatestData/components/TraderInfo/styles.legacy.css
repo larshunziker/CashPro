@@ -1,0 +1,150 @@
+.Divider {
+  background-color: $greyD;
+  height: 1px;
+  width: 100%;
+}
+
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: $margin16;
+  padding-top: $margin16;
+}
+
+.InnerWrapper {
+  align-self: stretch;
+  display: flex;
+  justify-content: space-between;
+}
+
+.LeftWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+}
+
+.RightWrapper {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+
+  .Label {
+    justify-content: flex-end;
+  }
+}
+
+.Label {
+  composes: InfoC from 'typography.legacy.css';
+  align-items: center;
+  color: $greyA;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin4;
+}
+
+.InfoText {
+  composes: DataTable from 'typography.legacy.css';
+  color: $blackB;
+  margin-bottom: $margin16;
+
+  &.Highlighted, .Highlighted {
+    font-weight: 700;
+  }
+}
+
+.ValueAdditional {
+  composes: InfoC from 'typography.legacy.css';
+  color: $blackB;
+  min-height: 19px;
+}
+
+.BuySellBar {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  border-radius: $margin4;
+  display: flex;
+  height: 19px;
+  min-height: 19px;
+  width: 100%;
+}
+
+.BuyBar {
+  background: linear-gradient(90deg, #4acb5a 0%, #36853f 25%, #36853f 100%);
+  border-radius: 0 $margin4 $margin4 0;
+}
+
+.SellBar {
+  background: linear-gradient(90deg, #b11029 0%, #b11029 75%, #830e20 100%);
+  border-radius: $margin4 0 0 $margin4;
+}
+
+.BuyBar, .SellBar {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  color: $white;
+  display: flex;
+  justify-content: center;
+  transition: width 800ms ease-in-out;
+}
+
+.AllCornersRounded {
+  border-radius: $margin4;
+}
+
+.Text {
+  composes: DataTable from 'typography.legacy.css';
+  display: flex;
+  font-size: 1rem;
+  gap: $margin4;
+  justify-content: flex-start;
+}
+
+.ButtonsWrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: $margin8;
+
+  > * {
+    flex: 1;
+  }
+}
+
+.BuyButton, .SellButton {
+  align-items: center;
+  border-radius: $margin4;
+  color: $white;
+  cursor: pointer;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 0.875rem;
+  font-weight: 700;
+  gap: $margin12;
+  justify-content: center;
+  line-height: 1.125rem;
+  padding: $margin8 $margin16;
+}
+
+.BuyButton {
+  background-color: $positiveA;
+
+  &:hover {
+    background-color: $positiveB;
+  }
+}
+
+.SellButton {
+  background-color: $primaryA;
+
+  &:hover {
+    background-color: $primaryB;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

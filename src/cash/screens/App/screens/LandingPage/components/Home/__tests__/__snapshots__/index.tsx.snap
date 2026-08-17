@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] LandingPage Should render LandingPageHome with channelTitel Anlegen 1`] = `
+<div>
+  <div
+    data-testid="landing-page-wrapper"
+  >
+    <div
+      class="LandingPage-restricted-content"
+    />
+    <div
+      class="utility-bar-wrapper UtilityBarWrapper"
+    >
+      <div
+        class="Wrapper utility-bar"
+      >
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Teilen"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Teilen"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/share"
+            />
+            <p
+              class="Label"
+            >
+              Teilen
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Kontakt"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Kontakt"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/contact"
+            />
+            <p
+              class="Label"
+            >
+              Kontakt
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Rechner"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Rechner"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/calculator"
+            />
+            <p
+              class="Label"
+            >
+              Rechner
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Download"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Download"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/download"
+            />
+            <p
+              class="Label"
+            >
+              Download
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <a
+            aria-label="Link zu FAQ/Hilfe"
+            class="utility-button Link"
+            data-testid="routed-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"FAQ/Hilfe"}]"
+            href="/anlegen/faq"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/info"
+            />
+            <p
+              class="Label"
+            >
+              FAQ/Hilfe
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="utility-bar-overlay Wrapper WrapperPageOverlay WrapperSticky"
+        data-testid="utility-overlay-wrapper"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Screen] LandingPage Should render LandingPageHome without landingPage  1`] = `<div />`;

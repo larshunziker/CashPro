@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for Organization of type default correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  />
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for Organization of type pop correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="PopIconWrapper"
+    >
+      <img
+        alt="Gault Millau POP!"
+        class="PopIcon"
+        src="SvgrURL"
+      />
+      <div
+        class="ShortTitleWrapper Type"
+      >
+        <span>
+          Neuenburg
+        </span>
+        <span>
+           | 
+          Beiz
+        </span>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for Recipe correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="Type"
+    >
+      <div>
+        ShortTitle
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for Teaser correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="Type"
+    >
+      <span>
+        ShortTitle
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_a correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Blue"
+    >
+      <span
+        class="Bold"
+      >
+        Züri isst
+      </span>
+       | ShortTitle
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_b correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Purple"
+    >
+      <span
+        class="Bold"
+      >
+        Atelier Caminada
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_c correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        Master of wine
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_d correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        Uncorked
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_e correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        Bern isst
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_f correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        Basel isst
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_g correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Böniger tranchiert
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_h correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        Noah kocht
+      </span>
+       | 
+      Das Video
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_i correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Heller checkt ein
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_j correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Patricia fragt nach
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_k correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Schnapp kocht mit
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_l correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Hotel-Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_m correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Cruise-Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_n correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Airline-Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_o correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Icon Chefs
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_p correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      Restaurant-Test
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue blog_q correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="ShortTitleWrapper Type"
+    >
+      <span
+        class="Bold"
+      >
+        GaultMillau
+      </span>
+       | 
+      <span
+        class="BlogQFirstWord"
+      >
+        Bella
+      </span>
+       
+      <span
+        class="BlogQSecondWord"
+      >
+        Italia
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - ShortTitle Should render ShortTitle for subtypeValue journalistic correctly 1`] = `
+<div>
+  <div
+    class="Default"
+  >
+    <div
+      class="Type"
+    >
+      <div
+        class=""
+      >
+        ShortTitle
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,12 @@
+overwrite: true
+schema: ["https://graphql.dev.service.cash.ch/graphql", "https://cms.dev.ringiermedienschweiz.ch/graphql"]
+documents: null
+generates:
+  src/shared/@types/schema.gql:
+    plugins:
+      - schema-ast
+    config:
+      commentDescriptions: true
+      namingConvention:
+        enumValues: keep
+

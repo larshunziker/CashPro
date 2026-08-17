@@ -1,0 +1,765 @@
+{
+  "id": "cGFyYWdyYXBoOmVudGl0eV9xdWV1ZToyMTU5MzE6MzA2NzI5",
+  "anchorId": null,
+  "title": "Top News",
+  "landingPage": {
+    "title": "Alle News Cash",
+    "preferredUri": "/alle-news",
+    "__typename": "LandingPage",
+    "sponsor": {
+      "id": "bm9kZTo1MDcyNA==",
+      "title": "Bank 2+",
+      "colorCode": null,
+      "preferredUri": "/bank-2-52327",
+      "teaserImage": {
+        "id": "cGFyYWdyYXBoOmltYWdlOjIxNzE3MTozMDYzNTA=",
+        "title": null,
+        "format": "square",
+        "image": {
+          "id": "70880",
+          "file": {
+            "id": "ZmlsZTo3MjEyNTo6MTYxLDkwOmxhcmdlOg==",
+            "alt": "logo",
+            "relativeOriginPath": "/media/field_image/2022-08/logo_b2.png",
+            "focalPointX": 161,
+            "focalPointY": 90,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      "__typename": "Sponsor"
+    }
+  },
+  "entityQueue": {
+    "items": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZTo1MDU4NA==",
+            "title": "Börsen-Ticker: Schweizer Börse legt Rückwärtsgang ein - Roche verliert weiter - Turbulenzen bei den Kryptowährungen",
+            "lead": "Die Schweizer Börse hat am Donnerstag nur leicht Federn gelassen.",
+            "restrictionStatus": null,
+            "shortTitle": "++Märkte+++",
+            "changeDate": "2022-05-30T11:55:50+02:00",
+            "preferredUri": "/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166",
+            "publication": "cash",
+            "publicationDate": "2022-05-25T12:02:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjY0NDozMDYzNzk=",
+              "caption": null,
+              "image": {
+                "id": "70822",
+                "file": {
+                  "id": "ZmlsZTo3MjA0ODo6MzEyMCwyMDgwOmxhcmdlOg==",
+                  "alt": "trading",
+                  "relativeOriginPath": "/media/field_image/2022-04/trading.jpeg",
+                  "focalPointX": 3120,
+                  "focalPointY": 2080,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDM4OQ==",
+            "link": {
+              "label": "",
+              "path": "https://cdn.fi-box.service.cash.ch/services/esi-widgets/list-small?key=[sponsorKey]&image=[sponsorImage][compfullname]",
+              "__typename": "Link"
+            },
+            "sponsor": null,
+            "__typename": "Widget"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo0OTY2OQ==",
+            "title": "Drittquartalszahlen: Bei der UBS dürfte es weiter ziemlich rund laufen",
+            "lead": "Analysten rechnen bei der UBS mit einem erneut starken Quartal - trotz der üblichen saisonalen Schwäche. Die Grossbank stellt am morgigen Dienstag ihr Ergebnis vor..",
+            "restrictionStatus": null,
+            "shortTitle": "Banken",
+            "changeDate": "2021-10-25T16:44:19+02:00",
+            "preferredUri": "/news/drittquartalszahlen-bei-der-ubs-durfte-es-weiter-ziemlich-rund-laufen-51195",
+            "publication": "cash",
+            "publicationDate": "2021-10-25T16:45:51+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjk1NzI=",
+                    "name": "Testing test",
+                    "imageParagraph": {
+                      "id": "cGFyYWdyYXBoOmltYWdlOjIxMzYzMDoyODc2ODM=",
+                      "image": {
+                        "id": "70295",
+                        "file": {
+                          "id": "ZmlsZTo3MTEwMDo6MjcyLDU0MDpsYXJnZTo=",
+                          "alt": "Geschnitzte Kuh",
+                          "relativeOriginPath": "/schnitztier.jpeg",
+                          "focalPointX": 272,
+                          "focalPointY": 540,
+                          "__typename": "ImageFile"
+                        },
+                        "__typename": "Image"
+                      },
+                      "__typename": "ImageParagraph"
+                    },
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNDUyMDozMDAwNzA=",
+              "caption": "<p>UBS Bank</p>\n",
+              "image": {
+                "id": "70521",
+                "file": {
+                  "id": "ZmlsZTo3MTQwMjo6NDE1LDIzODpsYXJnZTo=",
+                  "alt": "ubs",
+                  "relativeOriginPath": "/media/field_image/2021-10/ubs.jpg",
+                  "focalPointX": 415,
+                  "focalPointY": 238,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDM5MA==",
+            "gcid": "51960",
+            "title": "NA External Teaser as NA Article",
+            "lead": "My Lead",
+            "shortTitle": "External",
+            "changeDate": "2022-03-25T11:07:46+01:00",
+            "trackingTeaserImpression": null,
+            "trackingTeaserClick": null,
+            "publication": "cash",
+            "publicationDate": "2022-03-25T11:10:13+01:00",
+            "preferredUri": "/external/na-external-teaser-as-na-article-51960",
+            "subtypeValue": "external",
+            "advertisingTypeLabel": "External",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo4Mjc5",
+              "title": "Native Content",
+              "__typename": "Channel"
+            },
+            "link": {
+              "path": "https://keyinvest-ch.ubs.com/blog/daily-markets?campID=DS-UBS-IB_JAHRESKOOPERATION-CH-DEU-ANY-CASH-NEWS--INFOBOARD-DAILY-MARKETS-ANY-ANY-STANDARDMEDIA",
+              "label": "Link zur externen Seite",
+              "__typename": "Link"
+            },
+            "sponsor": null,
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE1NDoyOTc4MzA=",
+              "caption": null,
+              "image": {
+                "id": "70757",
+                "file": {
+                  "id": "ZmlsZTo3MTkyNzo6NzUsODI6bGFyZ2U6MQ==",
+                  "alt": "Pourquoi et comment se constituer un comité stratégique ?",
+                  "relativeOriginPath": "/pme/blogs/2022-02-16/comite-strategique_750x410.jpg",
+                  "width": 480,
+                  "height": 262,
+                  "focalPointX": 75,
+                  "focalPointY": 82,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "NativeAdvertising"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDQyNw==",
+            "title": "Test Landing Page For Sponsor Logo Box",
+            "lead": null,
+            "shortTitle": null,
+            "preferredUri": "/test-landing-page-for-sponsor-logo-box-51997",
+            "useNativeAdvertising": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo4Mjk4",
+              "title": "Anlegen",
+              "channelType": null,
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOmNhc2hfZmFsbGJhY2s6bmV3LXpNQlBuODRj",
+              "image": {
+                "id": "70848",
+                "file": {
+                  "id": "ZmlsZTo3MjA4NDo6MTYwMCwxMjAwOmxhcmdlOg==",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "LandingPage"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDQ5NA==",
+            "title": "Wovor müssen sich Anleihen-Investoren wappnen?",
+            "lead": "Anders als von den Zentralbanken Anfang 2022 eingeschätzt, erweist sich die Inflation als hartnäckig.",
+            "restrictionStatus": null,
+            "shortTitle": null,
+            "changeDate": "2022-05-08T10:33:24+02:00",
+            "preferredUri": "/neuemissionen/wovor-mussen-sich-anleihen-investoren-wappnen-52072",
+            "publication": "cash",
+            "publicationDate": "2022-05-08T10:54:19+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo4MzYy",
+              "title": "Neuemissionen",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjUwOTozMDAwNDA=",
+              "caption": null,
+              "image": {
+                "id": "70828",
+                "file": {
+                  "id": "ZmlsZTo3MjA2NDo6NDE1LDIzODpsYXJnZTo=",
+                  "alt": "Baloise: Wovor müssen sich Anleihen-Investoren wappnen?",
+                  "relativeOriginPath": "/media/field_image/2022-05/ist_das_hier_je_zu_sehen.jpg",
+                  "focalPointX": 415,
+                  "focalPointY": 238,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDY0Ng==",
+            "title": "ContentBox Ticker",
+            "hideTitle": false,
+            "contentSourceValue": "ticker",
+            "linkLabel": null,
+            "body": [
+              {
+                "id": "cGFyYWdyYXBoOnRhYjoyMTY3ODM6MzAyNjI1",
+                "title": null,
+                "style": "default",
+                "sortBy": "newest",
+                "linkLabel": null,
+                "mode": "automatic",
+                "termReference": null,
+                "items": {
+                  "edges": [],
+                  "__typename": "NodeInterfaceConnection"
+                },
+                "__typename": "TabParagraph"
+              }
+            ],
+            "termReference": {
+              "id": "dGF4b25vbXlfdGVybTo4MzUy",
+              "tid": "8352",
+              "title": "Alle News",
+              "link": "/alle-news",
+              "__typename": "Channel"
+            },
+            "useNativeAdvertising": false,
+            "items": {
+              "edges": [],
+              "__typename": "NodeInterfaceConnection"
+            },
+            "__typename": "ContentBox"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDMwNg==",
+            "title": "Weitere News",
+            "hideTitle": false,
+            "contentSourceValue": "tabs",
+            "linkLabel": null,
+            "body": [
+              {
+                "id": "cGFyYWdyYXBoOnRhYjoyMTU5NTc6MzAyNjIz",
+                "title": "Neuemissionen",
+                "style": "default",
+                "sortBy": "newest",
+                "linkLabel": "Alle News",
+                "mode": "automatic",
+                "termReference": {
+                  "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                  "tid": "7738",
+                  "title": "News",
+                  "link": "/news",
+                  "__typename": "Channel"
+                },
+                "items": {
+                  "edges": [],
+                  "__typename": "NodeInterfaceConnection"
+                },
+                "__typename": "TabParagraph"
+              },
+              {
+                "id": "cGFyYWdyYXBoOnRhYjoyMTY3ODI6MzAyNjI0",
+                "title": "Most Read",
+                "style": "default",
+                "sortBy": "most_read",
+                "linkLabel": null,
+                "mode": "automatic",
+                "termReference": null,
+                "items": {
+                  "edges": [],
+                  "__typename": "NodeInterfaceConnection"
+                },
+                "__typename": "TabParagraph"
+              }
+            ],
+            "termReference": null,
+            "useNativeAdvertising": false,
+            "items": {
+              "edges": [],
+              "__typename": "NodeInterfaceConnection"
+            },
+            "__typename": "ContentBox"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDAzMA==",
+            "title": "Bitcoin knackt Allzeithoch: Top-Analyst verrät wie es für BTC und Co. weitergeht",
+            "lead": "Bitcoin erreicht endlich ein neues Rekordhoch. Ist die Euphorie gerechtfertigt? Ein Top-Analyst verrät es.",
+            "restrictionStatus": null,
+            "shortTitle": null,
+            "changeDate": "2021-11-25T10:13:59+01:00",
+            "preferredUri": "/news/bitcoin-knackt-allzeithoch-top-analyst-verrat-wie-es-fur-btc-und-co-weitergeht-51560",
+            "publication": "cash",
+            "publicationDate": "2021-11-25T10:16:02+01:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjg1OTQ=",
+                    "name": "Tim Radford",
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNTkzMjozMDMzMTA=",
+              "caption": null,
+              "image": {
+                "id": "70151",
+                "file": {
+                  "id": "ZmlsZTo3MDk1OTo6OTYwLDY3NDpsYXJnZTo=",
+                  "alt": "T’as pas de bitcoin ?",
+                  "relativeOriginPath": "/pme/blogs/2021-03-15/bitcoin-2007769_1920.jpg",
+                  "focalPointX": 960,
+                  "focalPointY": 674,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo0OTQ1Mg==",
+            "title": "Grösster Jahrmarkt der Schweiz in Basel trotzt der Corona-Krise",
+            "lead": "Anders als viele andere Orte in der Schweiz und im Ausland hält Basel nach einem Jahr Pause an der traditionellen Herbstmesse im Oktober und November fest. Für die meisten Austragungsplätze des grössten Jahrmarkts der Schweiz gilt die Zertifikatspflicht.",
+            "restrictionStatus": null,
+            "shortTitle": null,
+            "changeDate": "2021-09-29T12:39:08+02:00",
+            "preferredUri": "/news/grosster-jahrmarkt-der-schweiz-in-basel-trotzt-der-corona-krise-51837",
+            "publication": "cash",
+            "publicationDate": "2022-01-26T17:45:45+01:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjk1NzU=",
+                    "name": "sda",
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [
+                {
+                  "node": {
+                    "teaserImage": {
+                      "id": "cGFyYWdyYXBoOmltYWdlOmNhc2hfZmFsbGJhY2s6bmV3LXh1TnJUQk5x",
+                      "image": {
+                        "id": "70848",
+                        "file": {
+                          "id": "ZmlsZTo3MjA4NDo6MTYwMCwxMjAwOmxhcmdlOg==",
+                          "alt": "fallback",
+                          "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                          "focalPointX": 1600,
+                          "focalPointY": 1200,
+                          "__typename": "ImageFile"
+                        },
+                        "__typename": "Image"
+                      },
+                      "__typename": "ImageParagraph"
+                    },
+                    "__typename": "Person"
+                  },
+                  "__typename": "PersonEdge"
+                }
+              ],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNTkzNDozMDAwNTU=",
+              "caption": null,
+              "image": {
+                "id": "70308",
+                "file": {
+                  "id": "ZmlsZTo3MTExNzo6MTAwMCw2Njc6bGFyZ2U6",
+                  "alt": "Biomasse : découvrez la centrale Agrogaz",
+                  "relativeOriginPath": "/pme/blogs/2021-07-14/agrogaz_lignerolle_installation-7-1.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 667,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDQwNA==",
+            "title": "UBS AM verkauft japanische Beteiligung",
+            "lead": "Die Transaktion markiert das Ende der 20-jährigen Geschichte des Joint Ventures zwischen der Mitsubishi Corporation und dem Real Estate & Private Markets-Geschäft von UBS Asset Management in Japan.",
+            "restrictionStatus": null,
+            "shortTitle": null,
+            "changeDate": "2022-04-29T10:20:23+02:00",
+            "preferredUri": "/news/insider/ubs-am-verkauft-japanische-beteiligung-51975",
+            "publication": "cash",
+            "publicationDate": "2022-04-29T10:22:08+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo4MjY5",
+              "title": "Aktien",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE5ODoyOTk2MDY=",
+              "caption": "<p>UBS Gebäude</p>\n",
+              "image": {
+                "id": "70786",
+                "file": {
+                  "id": "ZmlsZTo3MTk5OTo6MTIwMCw4MDE6bGFyZ2U6",
+                  "alt": "ubs",
+                  "relativeOriginPath": "/media/field_image/2022-03/ubs.jpeg",
+                  "focalPointX": 1200,
+                  "focalPointY": 801,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDAzMQ==",
+            "title": "Top-Analyst skizziert kommende Entwicklung",
+            "lead": "Er hat Bitcoins Allzeithoch schon vor geraumer Zeit präzise vorhergesagt. Jetzt erläutert Top-Analyst Adrian K. Zduńczyk, vielen besser bekannt als „CRYPTO₿IRB“, wie sich die Märkte in den nächsten Wochen und Monaten entwickeln werden.",
+            "restrictionStatus": null,
+            "shortTitle": null,
+            "changeDate": "2021-11-25T10:18:27+01:00",
+            "preferredUri": "/news/top-analyst-skizziert-kommende-entwicklung-51561",
+            "publication": "cash",
+            "publicationDate": "2021-11-25T10:18:56+01:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjI4NzoyOTg3Mjk=",
+              "caption": null,
+              "image": {
+                "id": "70771",
+                "file": {
+                  "id": "ZmlsZTo3MTk2Mzo6NTEyLDI1NjpsYXJnZTo=",
+                  "alt": "Une année 2021 de disruption (1/2)",
+                  "relativeOriginPath": "/pme/blogs/2022-03-15/twitter-2-1024x512-1.jpg",
+                  "focalPointX": 512,
+                  "focalPointY": 256,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDI5NA==",
+            "title": "Pizza keyword test (> ",
+            "lead": "pizza",
+            "restrictionStatus": null,
+            "shortTitle": "Pizzatime",
+            "changeDate": "2022-01-28T11:06:58+01:00",
+            "preferredUri": "/news/pizza-keyword-test-51860",
+            "publication": "cash",
+            "publicationDate": "2022-01-28T11:06:58+01:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjMyMTU=",
+                    "name": "Paolo Friz",
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                },
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjQyMzA=",
+                    "name": "H. Schmidbauer",
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                },
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjM4ODk=",
+                    "name": "Edi Engeler",
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNTkxNzozMDUxMDI=",
+              "caption": null,
+              "image": {
+                "id": "54467",
+                "file": {
+                  "id": "ZmlsZTo1NTEwNTo6MTExNCwxNDU4OmxhcmdlOg==",
+                  "alt": "beste pizza",
+                  "relativeOriginPath": "/beste_pizza.jpg",
+                  "focalPointX": 1114,
+                  "focalPointY": 1458,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo1MDQ5OA==",
+            "title": "title",
+            "lead": "Lead",
+            "restrictionStatus": null,
+            "shortTitle": "Short title",
+            "changeDate": "2022-05-08T15:36:17+02:00",
+            "preferredUri": "/neuemissionen/title-52076",
+            "publication": "cash",
+            "publicationDate": "2022-05-08T15:39:47+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": false,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "relatedPersons": {
+              "edges": [],
+              "__typename": "PersonConnection"
+            },
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybTo4MzYy",
+              "title": "Neuemissionen",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOmNhc2hfZmFsbGJhY2s6bmV3LXc1TWdRUUU2",
+              "caption": null,
+              "image": {
+                "id": "70848",
+                "file": {
+                  "id": "ZmlsZTo3MjA4NDo6MTYwMCwxMjAwOmxhcmdlOg==",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RouteObjectInterfaceEdge"
+        }
+      ],
+      "__typename": "RouteObjectInterfaceConnection"
+    },
+    "__typename": "EntityQueue"
+  },
+  "__typename": "EntityQueueParagraph"
+}

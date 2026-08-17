@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] UtilityOverlay Should render correctly 1`] = `
+<div>
+  <div
+    class="utility-bar-overlay WrapperClassName WrapperStickyClassName WrapperToggleClassName"
+    data-testid="utility-overlay-wrapper"
+  >
+    <button
+      aria-label="Overlay schliessen"
+      class="CloseButtonClassName"
+      data-testid="utility-overlay-close-button"
+    />
+    <div
+      class="UtilityBarWrapper"
+    >
+      <div
+        class="UtilityBar"
+        data-testid="utility-overlay-utility-bar-wrapper"
+      />
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,35 @@
+.Wrapper {
+  composes: CaptionNeutralA from 'typography.legacy.css';
+  margin-top: $margin4;
+  text-align: left;
+  
+  em {
+    font-style: italic;
+  }
+
+  a {
+    color: $neutralA;
+    text-decoration: underline;
+
+    &:active,
+    &:visited,
+    &:hover {
+      color: $primaryA;
+      cursor: pointer;
+    }
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-top: $margin8;
+  }
+
+  @media print {
+    text-align: center;
+  }
+}

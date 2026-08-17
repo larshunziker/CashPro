@@ -1,0 +1,60 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  position: relative;
+}
+
+.HeaderTitle {
+  composes: HeadingANeutralA from '../../../../assets/styles/typography.legacy.css'; 
+  margin-bottom: $margin40;
+  margin-top: $margin40;
+}
+
+.Label {
+  composes: LeadBWhite from 'typography.legacy.css';
+  align-items: center;
+  background-color: $primaryA; 
+  border-radius: 4px;
+  display: flex;
+  justify-content: center;
+  left: 100%;
+  padding: 12px;
+  position: sticky; 
+  text-align: center;
+  top: 115px;
+  width: 150px;
+  z-index: 2;
+}
+
+.WrapperInner {
+  /* stylelint-disable-next-line */
+  background-color:rgb(250, 235, 215); 
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px $neutralE;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.Title {
+  composes: LeadBWhite from 'typography.legacy.css';
+  background-color: $neutralD;
+  border-radius: 2px; 
+  line-height: 3.4rem;
+  padding: 5px 15px 20px;
+  z-index: 0;
+}
+
+.ItemWrapper {
+  list-style: none;
+}
+
+.Input{
+  composes: FormLabelANeutralA  from 'typography.legacy.css'; 
+  margin-left: $margin4;
+}
+
+.InputLabel {
+  composes: FormLabelANeutralB from '../../../../assets/styles/typography.legacy.css';  
+  margin-right: $margin16;
+}

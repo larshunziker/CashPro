@@ -1,0 +1,93 @@
+{
+  "article": {
+    "id": "bm9kZToxOTMzNA==",
+    "title": "Aktie",
+    "metaTitle": "Aktie | Handelszeitung",
+    "metaDescription": "Aktie | Handelszeitung",
+    "metaOgTitle": "Aktie | Handelszeitung",
+    "metaKeywords": "Aktien, Aktiengesellschaft",
+    "metaOgDescription": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "metaCanonicalUrl": "",
+    "changeDate": "2018-08-22T10:26:40",
+    "publicationDate": "2018-07-25T10:00:00",
+    "preferredUri": "/finanzlexikon/aktie",
+    "canonicalUri": "/group/3/content/20476",
+    "category": "Finanzlexikon",
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToyNTc5",
+      "title": "Test",
+      "channelType": null,
+      "__typename": "Channel"
+    },
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+            "label": "People",
+            "link": "/people",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpRd016RTFNamsw",
+            "label": "Kampf gegen HIV: Prinz Harry kümmert sich um Dianas Herzensprojekt",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "sections": [
+      {
+        "body": [
+          {
+            "anchorId": null,
+            "header": "Definition",
+            "Text": "Hello world",
+            "__typename": "TextParagraph"
+          }
+        ],
+        "__typename": "SectionParagraph"
+      }
+    ],
+    "relatedArticles": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTQ2MQ==",
+            "title": "Das ist der Titel für das neue Keyword",
+            "preferredUri": "/people/das-ist-der-titel-fur-das-neue-keyword",
+            "shortTitle": "Neuer Testartikel für Keyword",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Federer freut sich",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/2018-09/federer.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        }
+      ],
+      "__typename": "RouteObjectInterfaceConnection"
+    },
+    "__typename": "ExplainingArticle"
+  }
+}

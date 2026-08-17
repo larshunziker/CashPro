@@ -1,0 +1,19 @@
+.EmptyResultWrapper {
+  margin: 20px 0 $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.Text {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+  }
+}

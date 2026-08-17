@@ -1,0 +1,18 @@
+// 🚨 AUTO-GENERATED FILE! DO NOT UPDATE MANUALLY 🚨 
+
+declare const styles: {
+  readonly "Wrapper": string;
+  readonly "MenuBodyWrapper": string;
+  readonly "UserInformationWrapper": string;
+  readonly "UserName": string;
+  readonly "UserCredentials": string;
+  readonly "MenuWrapper": string;
+  readonly "MenuItem": string;
+  readonly "MenuHeader": string;
+  readonly "MenuHeaderContent": string;
+  readonly "CloseButton": string;
+  readonly "CloseIcon": string;
+  readonly "MenuItemHiddenOnApp": string;
+};
+export = styles;
+

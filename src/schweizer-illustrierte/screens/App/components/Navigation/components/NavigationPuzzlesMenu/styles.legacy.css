@@ -1,0 +1,194 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexOverlay;
+
+  .MenuItem {
+    line-height: 5rem;
+    list-style: none;
+
+    @media (min-width: $xlBreakpoint) {
+      line-height: 6rem;
+    }
+  }
+
+  .ContentWrapper {
+    height: calc(100% - $menuHeaderHeightXs);
+    overflow-y: scroll;
+
+    @media (min-width: $smBreakpoint) {
+      height: calc(100% - $menuHeaderHeightSm);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: calc(100% - $menuHeaderHeightXl);
+    }
+
+    .MarginTop {
+      margin-top: $margin40;
+
+      @media (min-width: $smBreakpoint) {
+        margin-top: 60px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        margin-top: $margin80;
+      }
+    }
+  }
+}
+
+.MenuSubItem {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 16px;
+  transition: color 0.3s;
+  @media (min-width: $mdBreakpoint) {
+    font-size: 21px;
+    line-height: 27px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      color: $redA;
+    }
+  }
+}
+
+.SingleMenuItem {
+  margin-top: 10px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 20px;
+  }
+}
+
+.SingleMenuItem ~ .SingleMenuItem {
+  margin-top: 0;
+}
+
+.ActiveLink {
+  color: $redA;
+}
+
+.MenuListWrapper {
+  margin-bottom: $margin80;
+}
+
+.MenuEntry {
+  position: relative;
+
+  &::before,
+  &::after {
+    background-color: $grayB;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    z-index: $zIndex1;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: -1px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      &::before,
+      &::after {
+        background-color: $redA;
+        z-index: calc($zIndex1 + 1);
+      }
+
+      .ArrowIcon::before,
+      .Title,
+      .BoldTitle {
+        color: $redA;
+      }
+    }
+  }
+
+  .Spacer {
+    flex: 1;
+  }
+
+  .Header {
+    align-items: center;
+    background: $white;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .Icon {
+    &::before {
+      color: $black;
+      display: inline-block;
+      font-family: $fontIcons;
+      font-size: 3rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      line-height: 1;
+      transform: rotate(90deg);
+      transition: transform 0.3s ease-in-out;
+
+      &::before {
+        content: '\e924';
+      }
+    }
+  }
+}
+
+.HeaderContentWrapper {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.Title,
+.BoldTitle {
+  transition: color 0.3s ease-in-out;
+}
+
+.Title {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 20px;
+  font-weight: 900;
+  line-height: 40px;
+  @media (min-width: $mdBreakpoint) {
+    font-size: 30px;
+    line-height: 57px;
+  }
+}
+
+.PuzzleIcon {
+  margin-right: 10px ;
+  width: 30px;
+  
+  @media (min-width: $mdBreakpoint) {
+    margin-right: 16px;
+    width: 70px;
+  }
+
+}

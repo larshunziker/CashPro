@@ -1,0 +1,24 @@
+.Wrapper {
+  composes: Wrapper from '../ArticleLeadJournalistic/styles.legacy.css';
+}
+
+.Title {
+  composes: Title from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.AuthorWrapper {
+  composes: AuthorWrapper from '../ArticleLeadJournalistic/styles.legacy.css';
+}
+
+.ShortTitle {
+  composes: ShortTitle from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.DateWrapper {
+  composes: DateWrapper from '../ArticleLeadBlog/styles.legacy.css';
+  display: block;
+}

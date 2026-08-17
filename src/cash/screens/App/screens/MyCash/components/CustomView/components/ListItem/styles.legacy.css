@@ -1,0 +1,88 @@
+.ListItem {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  padding: 20px 8px;
+  position: relative;
+
+  &:not(.IsDragingInActive) {
+    @media (min-width: $smBreakpoint) {
+      cursor: move;
+    }
+  }
+
+  &:hover:not(.IsLoading, .IsDragingInActive) {
+    background-color: $decoB;
+  }
+
+  &.IsDraging {
+    cursor: grabbing;
+    opacity: 0;
+
+    
+    @media (hover: none) {
+      background-color: $decoB;
+      opacity: 1;
+    }
+  }
+
+  &.IsLoading {
+    cursor: wait;
+    opacity: 0.5;
+
+    .IconToTop, .IconTrash {
+      cursor: wait;
+    }
+  }
+
+  .Icon {
+    @mixin fontSize 24;
+  }
+
+  .IconToTop {
+    color: $secondaryA;
+    cursor: pointer;
+    margin-left: $margin24;
+    margin-right: $margin24;
+  }
+
+  .IconTrash {
+    color: $secondaryA;
+    cursor: pointer;
+    margin-left: auto;
+  }
+
+  .DragIcon {
+    cursor: move;
+  }
+
+  &.FirstItem {
+    .IconToTop {
+      visibility: hidden;
+    }
+
+    &::before {
+      background-color: $greyC;
+      content: '';
+      display: block;
+      height: 1px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+  }
+
+  &::after {
+    background-color: $greyC;
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+}
+

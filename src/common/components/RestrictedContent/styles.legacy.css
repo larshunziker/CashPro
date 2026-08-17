@@ -1,0 +1,4 @@
+.Wrapper {
+  filter: blur(3px);
+  user-select: none;
+}

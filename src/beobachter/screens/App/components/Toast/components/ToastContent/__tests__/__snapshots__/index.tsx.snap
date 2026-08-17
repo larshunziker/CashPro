@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Toasts - ToastContent Should return default icon 1`] = `"IconCircleInfo"`;
+
+exports[`[Component] Toasts - ToastContent Should return error icon 1`] = `"IconCircleExclamation"`;
+
+exports[`[Component] Toasts - ToastContent Should return succss icon 1`] = `"IconCircleCheck"`;
+
+exports[`[Component] Toasts - ToastContent Should return warning icon 1`] = `"IconTriangleExclamation"`;

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MenuTeaser Should render MenuTeaser correctly 1`] = `
+<div>
+  <div
+    class="menu-teaser"
+  >
+    <div>
+      <div
+        data-testid="teaser-factory-link-wrapper"
+      >
+        <a
+          class="teaser-m-l Wrapper"
+          data-testid="routed-link"
+          data-track-info="[]"
+          href="/people/lifestyle/article-about-roger-federer"
+        >
+          <div
+            class="ContentWrapper"
+          >
+            <div
+              class="ShortTitle Default"
+            >
+              <div
+                class="Type"
+              />
+            </div>
+            <div
+              class="Title"
+            >
+              <span>
+                Article about Roger Federer
+              </span>
+            </div>
+          </div>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

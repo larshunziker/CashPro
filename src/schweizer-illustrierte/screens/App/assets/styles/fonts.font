@@ -1,0 +1,90 @@
+@font-face {
+  font-family: 'si-icons';
+  src: url('../fonts/si-icons.woff2?q60hum') format('woff2'),
+       url('../fonts/si-icons.woff?q60hum') format('woff'),
+       url('../fonts/si-icons.svg?q60hum#si-icons') format('svg');
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-Regular'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Regular.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-Black'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Black.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-Italic'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Italic.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Italic.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: fallback;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-BoldItalic'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-BoldItalic.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-BoldItalic.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-Bold'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Bold.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'PFBagueSansPro';
+    src: local('PFBagueSansPro-Light'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Light.woff2') format('woff2'),
+         url('../fonts/PFBagueSansPro-optimized/subset-PFBagueSansPro-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+  font-family: 'LeJeune';
+  font-style: normal;
+  font-weight: 500;
+  src: local('LeJeunePoster-Medium-Web'),
+       url('../fonts/LeJeuneWeb-optimized/subset-LeJeunePoster-Medium-Web.woff2') format('woff2'),
+       url('../fonts/LeJeuneWeb-optimized/subset-LeJeunePoster-Medium-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'LeJeune';
+  font-style: normal;
+  font-weight: 600;
+  src: local('LeJeuneDeck-Semibold-Web'),
+       url('../fonts/LeJeuneWeb-optimized/subset-LeJeuneDeck-Semibold-Web.woff2') format('woff2'),
+       url('../fonts/LeJeuneWeb-optimized/subset-LeJeuneDeck-Semibold-Web.woff') format('woff');
+}
+
+@font-face {
+  font-family: 'ActionCond';
+  font-style: normal;
+  font-weight: 300;
+  src: local('ActionCondensedBold-Grade1-Web'),
+       url('../fonts/ActionCondensedBold-optimized/subset-ActionCondensedBold-Grade1-Web.woff2') format('woff2'),
+       url('../fonts/ActionCondensedBold-optimized/subset-ActionCondensedBold-Grade1-Web.woff') format('woff');
+}

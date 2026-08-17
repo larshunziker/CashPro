@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Magazine Issue Section Should render correctly when there is a issue id 1`] = `
+<div>
+  <div>
+    <div
+      class="WrapperClass"
+    >
+      <div
+        class="RowClass"
+      >
+        <div
+          class="ContentClass"
+        >
+          <div
+            class="TeaserMagazineIssue"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Magazine Issue Section Should render nothing when there is no issueId 1`] = `<div />`;

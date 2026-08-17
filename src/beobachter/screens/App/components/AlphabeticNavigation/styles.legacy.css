@@ -1,0 +1,69 @@
+.AlphabetInnerWrapper {
+  background-color: $grey10;
+  display: none;
+  padding: 0;
+}
+
+.MobileToggleWrapper {
+  cursor: pointer;
+  display: block;
+  padding-top: $margin32;
+  width: 100%;
+  z-index: calc($zIndexHighest + 1);
+
+  @media (width >= 480px) and (height <= 480px) {
+    display: none; /* do not show menu if screen is to low (landscape mode) */
+  }
+}
+
+.MobileToggleInnerWrapper {
+  composes: Container from '@grid.legacy.css';
+  height: inherit;
+}
+
+.MobileToggle {
+  align-items: center;
+  appearance: none;
+  background: transparent;
+  border: none;
+  display: flex;
+  gap: $margin8;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+.ActiveChar {
+  composes: ButtonSmall from 'typography.legacy.css';
+
+  color: $black;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin32;
+  }
+}
+
+.Icon {
+  color: $black;
+  font-size: 1.6rem;
+}
+
+.ThemeRed {
+  &.AlphabetWrapper {
+    background: $colorMail;
+  }
+
+  .AlphabetInnerWrapper {
+    background: $colorMail;
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  .AlphabetInnerWrapper {
+    display: flex;
+  }
+
+  .MobileToggleWrapper {
+    display: none;
+  }
+}

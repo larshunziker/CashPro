@@ -1,0 +1,34 @@
+.Wrapper {
+  line-height: 0;
+  margin: 0 auto;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.Video {
+  height: 182px;
+  margin-bottom: 0;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    height: 427px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    height: 540px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* >= 1200 */
+    height: 595px;
+  }
+
+  @media print {
+    display: none;
+  }
+}

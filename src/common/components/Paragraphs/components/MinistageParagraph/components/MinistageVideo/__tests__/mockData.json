@@ -1,0 +1,45 @@
+{
+  "ministageParagraph": {
+    "id": "180341",
+    "anchorId": null,
+    "ministage": {
+      "link": {
+        "path": "/test/foo",
+        "__typename": "Link"
+      },
+      "name": "Videos",
+      "items": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZToyMTg3MQ==",
+              "brightcoveId": "6039373377001",
+              "publicationDate": null,
+              "changeDate": "2019-05-22T16:58:25",
+              "caption": "Jürg Marquard, Medien-Tycoon und «Mister Pop», im Gespräch mit CNN Money Switzerland.",
+              "shortTitle": "Jürg Marquard",
+              "title": "«Ich habe viel Geld verdient und viel Geld verloren»",
+              "credit": "Coop",
+              "preferredUri": "/node/21871",
+              "image": {
+                "file": {
+                  "alt": "",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/media/field_image/2019-05/0520_kelly_stephanie_brightcove_video_thumb_0.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "Video"
+            },
+            "__typename": "VideoEdge"
+          }
+        ],
+        "__typename": "VideoConnection"
+      },
+      "__typename": "MinistageVideo"
+    },
+    "__typename": "MinistageParagraph"
+  }
+}

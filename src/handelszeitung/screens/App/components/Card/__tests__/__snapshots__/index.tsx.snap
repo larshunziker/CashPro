@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Card Should match the snapshot 1`] = `
+<div>
+  <a
+    data-testid="mocked-link"
+    href="https://www.sommeurl.com"
+  >
+    <div
+      class="css-class"
+    >
+      <div
+        class="Content"
+      >
+        <h3
+          class="Title"
+        >
+          title
+        </h3>
+        <span>
+          Im a child
+        </span>
+      </div>
+      <span
+        class="Link"
+      >
+        urlLabel
+      </span>
+    </div>
+  </a>
+</div>
+`;

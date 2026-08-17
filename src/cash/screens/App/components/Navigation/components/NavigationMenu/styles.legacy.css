@@ -1,0 +1,109 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  .MenuItem {
+    list-style: none;
+  }
+
+  .ContentWrapper {
+    height: calc(100% - $headerHeightXs);
+    overflow-y: scroll;
+
+    @media (min-width: $smBreakpoint) {
+      height: calc(100% - $headerHeightSm);
+    }
+  }
+}
+
+.MenuSubItem {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  margin-right: 57px;
+  min-height: 30px;
+  transition: color 0.3s;
+
+  &:hover {
+    /* @mixin HamburgerMenu2TextPrimaryB; */
+  }
+}
+
+.ExpandableMenuItem {
+  composes: InfoB from 'typography.legacy.css';
+
+  .SingleMenuItem {
+    padding-right: 57px;
+    position: relative;
+
+    &::after {
+      background-color: $greyC;
+      bottom: 0;
+      content: '';
+      display: block;
+      height: 1px;
+      margin-top: $margin8;
+      position: absolute;
+      width: calc(100% - 70px);
+    }
+
+    @media (min-width: $smBreakpoint) {
+      padding: 8px;
+
+      &::after {
+        width: calc(100% - 60px);
+      }
+    }
+  }
+}
+
+.SingleMenuItem {
+  composes: InfoB from 'typography.legacy.css';
+  padding: 8px 16px;
+}
+
+.ActiveLink {
+  color: $blackB;
+}
+
+.DecoratedMenu {
+  background-color: $decoB;
+  padding: 8px 3px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 8px 0;
+  }
+}
+
+.MainLink {
+  composes: InfoBBold from 'typography.legacy.css';
+}
+
+.BankTeaser {
+  composes: InfoA from 'typography.legacy.css';
+  background-color: $greyE;
+  border-radius: 4px;
+  margin: $margin24 19px;
+  padding: 16px;
+
+  p {
+    margin-bottom: $margin16;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  button {
+    width: 100%;
+  }
+}
+
+.AboButton {
+  display: block;
+  margin-bottom: $margin8;
+}
+

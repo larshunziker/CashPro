@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] SpecialStage factory Should render correctly 1`] = `
+<div>
+  <div
+    class="SpecialLWrapperClassName"
+  >
+    <div
+      data-testid="specialstage-factory-backgroundImage"
+    />
+    <div
+      class="InnerWrapperClassName"
+    >
+      <div
+        class="ColumnLeftClassName"
+      >
+        <div
+          data-testid="specialstage-factory-publicationLogo"
+        />
+        <a
+          class="LandingPageLinkClassName teaser"
+          data-testid="routed-link"
+          data-track-info="[{"type":"paragraph-type"},{"type":"paragraph-index","value":"NaN"},{"type":"teaser-position","value":"0"}]"
+          href="/traumdestination-karibik"
+        >
+          <div
+            data-testid="specialstage-factory-img"
+          />
+          <div
+            class="ShortTitleClassName"
+          >
+            Frühling 2018
+          </div>
+          <div
+            class="TitleClassName"
+          >
+            Traumdestination Karibik
+          </div>
+          <div
+            data-testid="specialstage-factory-button"
+          >
+            Alle Stories
+          </div>
+        </a>
+      </div>
+      <div
+        class="ColumnRightClassName ReferenceArticleWrapperClassName"
+      >
+        <a
+          class="ReferenceArticleLinkClassName teaser"
+          data-testid="routed-link"
+          data-track-info="[{"type":"paragraph-type"},{"type":"paragraph-index","value":"NaN"},{"type":"teaser-position","value":"1"}]"
+          href="/wallis/das-wallis-ist-so-schon"
+        >
+          <div
+            class="ReferenceArticleShortTitleClassName"
+          >
+            Berge Berge Berge 
+          </div>
+          <div
+            class="ReferenceArticleTitleClassName"
+          >
+            Das Wallis ist so schön
+          </div>
+        </a>
+        <a
+          class="ReferenceArticleLinkClassName teaser"
+          data-testid="routed-link"
+          data-track-info="[{"type":"paragraph-type"},{"type":"paragraph-index","value":"NaN"},{"type":"teaser-position","value":"2"}]"
+          href="/wallis/der-grosse-fotowettbewerb"
+        >
+          <div
+            class="ReferenceArticleShortTitleClassName"
+          >
+            #MeinWinterimWallis
+          </div>
+          <div
+            class="ReferenceArticleTitleClassName"
+          >
+            Der grosse Fotowettbewerb
+          </div>
+        </a>
+        <a
+          class="ReferenceArticleLinkClassName teaser"
+          data-testid="routed-link"
+          data-track-info="[{"type":"paragraph-type"},{"type":"paragraph-index","value":"NaN"},{"type":"teaser-position","value":"3"}]"
+          href="/wallis/galleries/si-event-mit-dem-bundesprasidenten-die-bilder-der-1-august-wanderung-mit-alain"
+        >
+          <div
+            class="ReferenceArticleShortTitleClassName"
+          >
+            SI-Event mit dem Bundespräsidenten
+          </div>
+          <div
+            class="ReferenceArticleTitleClassName"
+          >
+            Die Bilder der 1.-August-Wanderung mit Alain Berset
+          </div>
+        </a>
+        <a
+          class="ReferenceArticleLinkClassName teaser"
+          data-testid="routed-link"
+          data-track-info="[{"type":"paragraph-type"},{"type":"paragraph-index","value":"NaN"},{"type":"teaser-position","value":"4"}]"
+          href="/wallis/das-wallis-ist-so-schon"
+        >
+          <div
+            class="ReferenceArticleShortTitleClassName"
+          >
+            Berge Berge Berge 
+          </div>
+          <div
+            class="ReferenceArticleTitleClassName"
+          >
+            Das Wallis ist so schön
+          </div>
+        </a>
+        <div
+          data-testid="specialstage-factory-mainSponsorImage"
+        />
+      </div>
+    </div>
+    <div
+      class="PartnersWrapperClassName"
+    >
+      <div
+        class="PartnersRowClassName"
+      >
+        <div
+          class="PartnersColumnClassName"
+        >
+          <div
+            class="PartnerItemClassName"
+          >
+            Partner A
+            , 
+          </div>
+          <div
+            class="PartnerItemClassName"
+          >
+            Partner B
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] SpecialStage factory Should render nothing if there is no preferredUri 1`] = `<div />`;
+
+exports[`[Component] SpecialStage factory Should render nothing if there is no shortTitle 1`] = `<div />`;
+
+exports[`[Component] SpecialStage factory Should render nothing if there is no title 1`] = `<div />`;

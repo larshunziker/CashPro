@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Comments - CommentReplyForm Should return invisible form styles 1`] = `
+{
+  "Form": "Form",
+  "FormWrapper": "FormWrapper",
+}
+`;
+
+exports[`[Component] Comments - CommentReplyForm Should return visible form styles  1`] = `
+{
+  "Form": "Form",
+  "FormWrapper": "FormWrapperVisible",
+}
+`;

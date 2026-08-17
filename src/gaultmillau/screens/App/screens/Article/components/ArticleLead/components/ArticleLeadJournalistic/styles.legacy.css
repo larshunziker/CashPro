@@ -1,0 +1,48 @@
+.Wrapper {  
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin48;
+  }
+}
+
+.Title {
+  composes: Title from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.AuthorWrapper {
+  margin-bottom: 18px;
+  margin-top: 16px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 21px;
+    margin-top: 20px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 27px;
+    margin-top: 24px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 17px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 0;
+    margin-top: 6px;
+  }
+}
+
+.AuthorWrapper,
+.CreateDate {
+  composes: InfoENeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.ShortTitle {
+  composes: ShortTitle from '../ArticleLeadBlog/styles.legacy.css';
+}

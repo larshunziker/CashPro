@@ -1,0 +1,36 @@
+{
+  "id": "bm9kZToxOTM5MQ==",
+  "title": "Impressum",
+  "lead": "test lead",
+  "shortTitle": "test short title",
+  "preferredUri": "/impressum",
+  "metaTitle": "Create Schweizer Illustrierte: Group node (Page) | RASCH Publishing Platform",
+  "metaOgTitle": null,
+  "metaDescription": "",
+  "metaOgDescription": null,
+  "metaCanonicalUrl": "",
+  "activeMenuTrail": {
+    "count": 1,
+    "edges": [
+      {
+        "node": {
+          "label": "Impressum",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "teaserImage": null,
+  "body": [
+    {
+      "id": "179461",
+      "header": "lorem ipsum impressummi",
+      "text": "<p>lorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummilorem ipsum impressummi lorem ipsum impressummi</p>\n",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "__typename": "Page"
+}

@@ -1,0 +1,60 @@
+.Title {
+  composes: Subheader from 'typography.legacy.css';
+  margin-bottom: 20px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  &.MarketingPage {
+    @mixin Heading7;
+    margin-bottom: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      text-align: center;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.Link {
+  display: block;
+  width: fit-content
+}
+
+.Link:hover {
+  @mixin InlineHover;
+}
+
+.Link:hover .LinkIndicator {
+  transform: translateX(3px);
+  transition-duration: 200ms
+}
+
+.LinkIndicator {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.Wrapper {
+  margin-bottom: $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+  }
+  
+  &.MarketingPage {
+    margin-bottom: $margin32;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin64;
+    }
+  
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin80;
+    }
+  }
+}

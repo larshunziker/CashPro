@@ -1,0 +1,12 @@
+.Message {
+  composes: InfoParagraph from 'typography.legacy.css';
+
+  margin-bottom: $margin16;
+  @media (min-width: $xlBreakpoint) {
+    max-width: none;
+  }
+}
+
+.ButtonWrapper {
+  text-align: left;
+}

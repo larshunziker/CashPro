@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] TeaserText Should not render factory 1`] = `""`;
+
+exports[`[Common] TeaserText Should render factory correctly 1`] = `"<a href="/"><div id="anchor_tag_short_title" class="WrapperClassName"><span class="ShortTitleClassName">sample shortTitle</span><h1 id="anchor_tag_title" class="TitleClassName"><span>sample title</span></h1></div></a>"`;
+
+exports[`[Common] TeaserText Should render factory correctly with shortTitleElement 1`] = `"<a href="/"><div id="anchor_tag_short_title" class="WrapperClassName"><div><span>custom shortTitle</span></div><h1 id="anchor_tag_title" class="TitleClassName"><span>sample title</span></h1></div></a>"`;
+
+exports[`[Common] TeaserText Should render nothing if there is no title 1`] = `""`;

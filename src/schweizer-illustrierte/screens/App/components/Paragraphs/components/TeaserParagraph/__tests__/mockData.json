@@ -1,0 +1,81 @@
+{
+  "teaserParagraph": {
+    "id": "179665",
+    "teasers": {
+      "edges": [
+        {
+          "node": {
+            "__typename": "Product",
+            "title": "Aromachlogie Hitzeschutzspray",
+            "shortTitle": "L'Occitane",
+            "teaserImage": {
+              "id": "179661",
+              "image": {
+                "file": {
+                  "alt": "Aromachlogie Hitzeschutzspray",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+                }
+              }
+            },
+            "price": 25,
+            "pricePrefix": "ca.",
+            "link": {
+              "label": "L'Occitane",
+              "path": "https://ch.loccitane.com/aromachologie-hitzschutzspray,78,2,26559,544175.htm?lgw_code=4303-17BD125G14&gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFagScTFA5vYgBUvZJewqGWdu6LiQrSz6hBmT0rsc1JEFL1BADC7vZQaAnHAEALw_wcB"
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Product",
+            "title": "Cream Heat Spray",
+            "shortTitle": "Maria Nila",
+            "teaserImage": {
+              "id": "179662",
+              "image": {
+                "file": {
+                  "alt": "Cream Heat Spray",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/17901.jpg"
+                }
+              }
+            },
+            "price": 27,
+            "pricePrefix": "ca.",
+            "link": {
+              "label": "PerfectHair",
+              "path": "https://www.perfecthair.ch/de/haare/haarstyling/hitzeschutz/style-finish-cream-heat-spray?sPartner=GoogleShoppingDE&number=17901&gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFZkIz4goWhdhEbcw5RHgf9VOjGMteJOq934I6kJ7zfQELuFHrGeXIoaAhLcEALw_wcB"
+            }
+          }
+        },
+        {
+          "node": {
+            "__typename": "Product",
+            "title": "Heat Protect Spray",
+            "shortTitle": "Ghd",
+            "teaserImage": {
+              "id": "179663",
+              "image": {
+                "file": {
+                  "alt": "Heat Protect Spray",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/style_heat_protect_spray_f5ba.jpg"
+                }
+              }
+            },
+            "price": 20.5,
+            "pricePrefix": "ca.",
+            "link": {
+              "label": "shampoo.ch",
+              "path": "https://www.shampoo.ch/ghd-style-heat-protect-spray?gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFbteJFU9ZsviblzI0aUgLVXtePRizkS5aiXr2vsKBQvRX5WenBRhVUaAo8SEALw_wcB&gclsrc=aw.ds"
+            }
+          }
+        }
+      ]
+    }
+  }
+}

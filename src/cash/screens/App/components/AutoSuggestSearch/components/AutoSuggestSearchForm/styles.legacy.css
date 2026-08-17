@@ -1,0 +1,109 @@
+.Wrapper {
+  flex: 1;
+  width: auto;
+}
+
+.InputWrapper {
+  height: 34px;
+  margin: 0;
+  position: relative;
+}
+
+.InputWithIconWrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.ResetIcon {
+  align-items: center;
+  bottom: 0;
+  color: $secondaryA;
+  display: flex;
+  font-size: 21px;
+  font-weight: bold;
+  height: 40px;
+  line-height: 1;
+  margin: auto;
+  padding: 0;
+  position: absolute;
+  right: 11px;
+  top: 1px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 15px;
+  }
+}
+
+.Input[type='search'] {
+  appearance: none;
+  background-color: $white;
+  border: 1px solid $greyC;
+  border-radius: 4px;
+  font-family: $fontSourceSansPro;
+  height: 100%;
+  padding: 10px 20px;
+  text-align: center;
+  text-indent: 26px;
+  text-overflow: ellipsis;
+  width: 100%;
+  @mixin fontSize 16;
+
+  &::placeholder {
+    color: $secondaryA;
+    opacity: 1;
+  }
+
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+
+  &.Disabled {
+    cursor: not-allowed;
+  }
+}
+
+.InputStylesInputFocused {
+  .Input {
+    text-align: left;
+    text-indent: 8px;
+
+    @media (min-width: $smBreakpoint) {
+      border: 1px solid $secondaryA;
+    }
+
+    &::placeholder {
+      color: $greyA;
+    }
+  }
+
+  .InputIcon {
+    color: $greyA;
+    left: 2px;
+  }
+}
+
+.Error {
+  @mixin FormLabelSmall;
+  color: $errorA;
+}
+
+.InputIcon {
+  background-color: $white;
+  color: $secondaryA;
+  height: calc(100% - 2px);
+  left: calc(50% - 53px);
+  padding: 9px 4px 0 6px;
+  position: absolute;
+  top: 1px;
+}

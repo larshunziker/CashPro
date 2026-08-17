@@ -1,0 +1,83 @@
+.ShortTitle {
+  composes: H5Light from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 13;
+    margin-bottom: 7px;
+  }
+}
+
+.Wrapper {
+  composes: PullOutXs from 'helpers.legacy.css';
+  background-color: $greyE;
+  height: 100%;
+  margin-bottom: 30px;
+  padding: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    padding: $margin24;
+  }
+
+  &.FullWidthBackgroundWrapper {
+    @media (min-width: $smBreakpoint) {
+      padding-left: 0;
+      padding-right: 0;
+    }
+  }
+}
+
+.Container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 100%;
+  position: relative;
+}
+
+.ContentWrapper {
+  @media (min-width: $xlBreakpoint) {
+    flex: 2;
+
+    &.MarginRight {
+      margin-right: 54px;
+    }
+  }
+}
+
+.Lead {
+  composes: InfoParagraph from 'typography.legacy.css';
+  margin-bottom: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.Headline {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.ImageWrapper {
+  display: none;
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position:relative;
+  }
+}
+
+.TeaserImage {
+  display: none;
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}

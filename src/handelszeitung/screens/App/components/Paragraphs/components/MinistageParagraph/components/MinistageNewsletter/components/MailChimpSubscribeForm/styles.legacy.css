@@ -1,0 +1,130 @@
+.Form {
+  position: relative;
+  top: -28px;
+
+  @media (min-width: $smBreakpoint) {
+    top: 0;
+  }
+}
+
+.InputWrapper {
+  margin-bottom: 9px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SuccessTick {
+  height: 30px;
+  margin-bottom: 12px;
+  margin-top: $margin32;
+  width: 30px;
+
+  &::after {
+    color: $blackB;
+    content: '\ea10';
+    font-family: $fontRasch;
+    font-size: 3rem;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 50px;
+    margin-right: $margin16;
+    margin-top: 0;
+    width: 50px;
+
+    &::after {
+      font-size: 5rem;
+    }
+  }
+}
+
+.SuccessSubmission {
+  composes: H4 from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+    width: calc(100% - 64px);
+  }
+}
+
+.SuccessWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    flex-direction: row;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 885px;
+  }
+}
+
+.ButtonWrapper {
+  flex: auto;
+  padding: 0 3px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 0 12px;
+    top: 2px;
+  }
+}
+
+.EmailWrapper {
+  & > label {
+    color: $blackA;
+  }
+
+  & > input {
+    /*
+     * .DescriptionBig from 'typography.legacy.css'
+     *
+     * Can't compose from 'typography.legacy.css' here.
+     * Also we couldn't change the styles of InputField directly,
+     * because it would impact on all forms in the publication
+     * which is not expected in rebrush scope.
+    **/
+    color: $greyA;
+    font-family: $fontGothamBook;
+    font-size: 1.5rem;
+    height: 54px;
+    line-height: 2.4rem;
+    padding: 0 12px;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2rem;
+      line-height: 4rem;
+    }
+  }
+
+  & > input:hover {
+    border-color: $blackA;
+  }
+
+  & > span {
+    /* ParagraphErrorLight text style */
+    color: $errorB;
+    font-family: $fontGothamBook;
+    font-size: 1.2rem;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+    top: -8px;
+  }
+
+  &.IsHandelzeitungNewsletter {
+    & > label {
+      color: $greyA;
+    }
+
+    & > input:hover {
+      border-color: $blueA;
+    }
+  }
+}

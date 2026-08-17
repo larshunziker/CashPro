@@ -1,0 +1,7 @@
+.Wrapper {
+  fill: $neutralA;
+
+  &:hover {
+    fill: $gradientPrimaryA;
+  }
+}

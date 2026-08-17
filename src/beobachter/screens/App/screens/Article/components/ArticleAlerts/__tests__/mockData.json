@@ -1,0 +1,32 @@
+{
+  "items": [
+    {
+      "node": {
+        "label": "Arbeitgeber",
+        "tid": "22",
+        "preferredUri": "/stichworte/a/arbeitgeber",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "label": "Vorgesetzte",
+        "tid": "727",
+        "preferredUri": "/stichworte/v/vorgesetzte",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "label": "Arbeitsplatz",
+        "tid": "222",
+        "preferredUri": "/stichworte/a/arbeitsplatz",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    }
+  ],
+  "__typename": "KeywordConnection"
+}

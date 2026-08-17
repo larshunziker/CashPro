@@ -1,0 +1,33 @@
+.Button {
+  border: 1px solid transparent;
+  border-radius: 4px;
+  box-shadow: 0 2px 6px -4px $black;
+  box-sizing: border-box;
+  color: $white;
+  cursor: pointer;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.4rem;
+  overflow: hidden;
+  padding: 6px 17px;
+  text-align: center;
+  transition: all 0.2s ease;
+
+  &:hover {
+    opacity: 0.8;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.ButtonPrimary {
+  composes: Button;
+  background-color: $linkblue;
+}
+
+.ButtonSecondary {
+  composes: Button;
+  background-color: $lightgray;
+}

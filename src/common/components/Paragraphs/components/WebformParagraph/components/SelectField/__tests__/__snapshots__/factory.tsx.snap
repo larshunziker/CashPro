@@ -1,0 +1,443 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MultiField factory Should render selectfield and open the custom dropdown on viewport/xl 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="HiddenSmUp"
+    >
+      <div
+        class="select-field-mobile"
+      >
+        <label
+          class=""
+          for="select_dropdown_"
+        >
+          Select (Dropdown)
+          *
+        </label>
+        <select
+          class="SelectFieldClassName SelectFieldMobileClassName"
+          id="select_dropdown_"
+          name="select_dropdown_"
+        >
+          <option
+            class=""
+            disabled=""
+            value=""
+          />
+          <option
+            class="HiddenSmUp"
+            value="Feedback und Fehler"
+          >
+            Feedback und Fehler
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Leserbrief"
+          >
+            Leserbrief
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Familie und Weekend"
+          >
+            Familie und Weekend
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Fragen zum Abo"
+          >
+            Fragen zum Abo
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="12"
+          >
+            12
+          </option>
+        </select>
+        <div
+          data-testid="selectfield-factory-icon"
+        />
+      </div>
+    </div>
+    <div
+      class="HiddenSmDown"
+    >
+      <div
+        class="select-field-desktop"
+      >
+        <input
+          name="select_dropdown_"
+          type="hidden"
+          value=""
+        />
+        <a
+          class="SelectFieldClassName"
+          href="#toggleSelectField"
+          id="select_dropdown_"
+          tabindex="0"
+        >
+          <span
+            class=""
+          >
+            Select (Dropdown)
+            *
+          </span>
+          <div
+            data-testid="selectfield-factory-icon"
+          />
+        </a>
+        <div
+          class="OptionItemsWrapperClassName"
+        >
+          <button
+            aria-selected="false"
+            class="OptionItemClassName HiddenSmDown"
+            data-option="{"value":"Feedback und Fehler","label":"Feedback und Fehler","description":""}"
+            role="option"
+            tabindex="0"
+          >
+            Feedback und Fehler
+          </button>
+          <button
+            aria-selected="false"
+            class="OptionItemClassName HiddenSmDown"
+            data-option="{"value":"Leserbrief","label":"Leserbrief","description":""}"
+            role="option"
+            tabindex="0"
+          >
+            Leserbrief
+          </button>
+          <button
+            aria-selected="false"
+            class="OptionItemClassName HiddenSmDown"
+            data-option="{"value":"Familie und Weekend","label":"Familie und Weekend","description":""}"
+            role="option"
+            tabindex="0"
+          >
+            Familie und Weekend
+          </button>
+          <button
+            aria-selected="false"
+            class="OptionItemClassName HiddenSmDown"
+            data-option="{"value":"Fragen zum Abo","label":"Fragen zum Abo","description":""}"
+            role="option"
+            tabindex="0"
+          >
+            Fragen zum Abo
+          </button>
+          <button
+            aria-selected="false"
+            class="OptionItemClassName HiddenSmDown"
+            data-option="{"value":12,"label":12,"description":""}"
+            role="option"
+            tabindex="0"
+          >
+            12
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiField factory Should render selectfield correctly on viewport/xl 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="HiddenSmUp"
+    >
+      <div
+        class="select-field-mobile"
+      >
+        <label
+          class=""
+          for="select_dropdown_"
+        >
+          Select (Dropdown)
+          *
+        </label>
+        <select
+          class="SelectFieldClassName SelectFieldMobileClassName"
+          id="select_dropdown_"
+          name="select_dropdown_"
+        >
+          <option
+            class=""
+            disabled=""
+            value=""
+          />
+          <option
+            class="HiddenSmUp"
+            value="Feedback und Fehler"
+          >
+            Feedback und Fehler
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Leserbrief"
+          >
+            Leserbrief
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Familie und Weekend"
+          >
+            Familie und Weekend
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Fragen zum Abo"
+          >
+            Fragen zum Abo
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="12"
+          >
+            12
+          </option>
+        </select>
+        <div
+          data-testid="selectfield-factory-icon"
+        />
+      </div>
+    </div>
+    <div
+      class="HiddenSmDown"
+    >
+      <div
+        class="select-field-desktop"
+      >
+        <input
+          name="select_dropdown_"
+          type="hidden"
+          value=""
+        />
+        <a
+          class="SelectFieldClassName"
+          href="#toggleSelectField"
+          id="select_dropdown_"
+          tabindex="0"
+        >
+          <span
+            class=""
+          >
+            Select (Dropdown)
+            *
+          </span>
+          <div
+            data-testid="selectfield-factory-icon"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiField factory Should render selectfield correctly on viewport/xs 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="HiddenSmUp"
+    >
+      <div
+        class="select-field-mobile"
+      >
+        <label
+          class=""
+          for="select_dropdown_"
+        >
+          Select (Dropdown)
+          *
+        </label>
+        <select
+          class="SelectFieldClassName SelectFieldMobileClassName"
+          id="select_dropdown_"
+          name="select_dropdown_"
+        >
+          <option
+            class=""
+            disabled=""
+            value=""
+          />
+          <option
+            class="HiddenSmUp"
+            value="Feedback und Fehler"
+          >
+            Feedback und Fehler
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Leserbrief"
+          >
+            Leserbrief
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Familie und Weekend"
+          >
+            Familie und Weekend
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Fragen zum Abo"
+          >
+            Fragen zum Abo
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="12"
+          >
+            12
+          </option>
+        </select>
+        <div
+          data-testid="selectfield-factory-icon"
+        />
+      </div>
+    </div>
+    <div
+      class="HiddenSmDown"
+    >
+      <div
+        class="select-field-desktop"
+      >
+        <input
+          name="select_dropdown_"
+          type="hidden"
+          value=""
+        />
+        <a
+          class="SelectFieldClassName"
+          href="#toggleSelectField"
+          id="select_dropdown_"
+          tabindex="0"
+        >
+          <span
+            class=""
+          >
+            Select (Dropdown)
+            *
+          </span>
+          <div
+            data-testid="selectfield-factory-icon"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiField factory Should render selectfield with an error message on viewport/xs 1`] = `
+<div>
+  <div
+    class="Wrapper FieldWithHelperTextWrapper"
+  >
+    <div
+      class="HiddenSmUp"
+    >
+      <div
+        class="select-field-mobile"
+      >
+        <label
+          class=""
+          for="select_dropdown_"
+        >
+          Select (Dropdown)
+          *
+        </label>
+        <select
+          class="SelectFieldClassName SelectFieldMobileClassName HasErrorClassName undefined"
+          id="select_dropdown_"
+          name="select_dropdown_"
+        >
+          <option
+            class=""
+            disabled=""
+            value=""
+          />
+          <option
+            class="HiddenSmUp"
+            value="Feedback und Fehler"
+          >
+            Feedback und Fehler
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Leserbrief"
+          >
+            Leserbrief
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Familie und Weekend"
+          >
+            Familie und Weekend
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="Fragen zum Abo"
+          >
+            Fragen zum Abo
+          </option>
+          <option
+            class="HiddenSmUp"
+            value="12"
+          >
+            12
+          </option>
+        </select>
+        <div
+          data-testid="selectfield-factory-icon"
+        />
+      </div>
+    </div>
+    <div
+      class="HiddenSmDown"
+    >
+      <div
+        class="select-field-desktop"
+      >
+        <input
+          name="select_dropdown_"
+          type="hidden"
+          value=""
+        />
+        <a
+          class="SelectFieldClassName HasErrorClassName"
+          href="#toggleSelectField"
+          id="select_dropdown_"
+          tabindex="0"
+        >
+          <span
+            class=""
+          >
+            Select (Dropdown)
+            *
+          </span>
+          <div
+            data-testid="selectfield-factory-icon"
+          />
+        </a>
+      </div>
+    </div>
+    <span
+      class="ErrorMessageClassName"
+    >
+      "Bitte ausfüllen!"
+    </span>
+  </div>
+</div>
+`;

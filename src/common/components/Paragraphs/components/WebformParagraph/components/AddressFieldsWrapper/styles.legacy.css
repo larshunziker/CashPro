@@ -1,0 +1,28 @@
+.Wrapper {
+  margin-bottom: $margin16;
+  width: 100%;
+}
+
+.Row {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: row;
+}
+
+.Label {
+  font-size: 1.8rem;
+  margin-bottom: $margin16;
+}
+
+.Link {
+  cursor:pointer;
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.NoStreetNumberCheckbox div {
+  padding-top: 0; 
+}
+

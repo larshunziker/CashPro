@@ -1,0 +1,16 @@
+.Wrapper {
+  margin-top: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin32;
+  }
+}
+
+.Item {
+  margin-bottom: $margin32;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}

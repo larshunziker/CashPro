@@ -1,0 +1,65 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Paragraphs] MinistageParagraph - MinistageTeaser Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="ImageWrapper"
+    >
+      <div
+        class="LineHeightReset PictureWrapper"
+      >
+        <picture>
+          <img
+            alt="alt Text"
+            class="TeaserImage IsSameAspectRatio"
+            loading="lazy"
+            srcset="/sw/420/sites/default/files/image.jpeg"
+            width="420"
+          />
+        </picture>
+      </div>
+    </div>
+    <div
+      class="ContentWrapper"
+    >
+      <div
+        class="Tagline"
+      >
+        some subhead
+      </div>
+      <div
+        class="HeadlineWrapper"
+      >
+        some headline
+      </div>
+      <div
+        class="BodyTextWrapper"
+      >
+        <div
+          class="LeadWrapper"
+        >
+          <p>
+            some lead is here
+          </p>
+        </div>
+        <a
+          data-testid="routed-link"
+          href="/path"
+        >
+          <button
+            class="Button ButtonWrapper ClickEffect Primary"
+            tabindex="0"
+          >
+            <span>
+              label
+            </span>
+          </button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] createVideoObjectJsonLd Should match the snapshot 0 1`] = `
+{
+  "@context": "http://schema.org/",
+  "@id": "",
+  "@type": "VideoObject",
+  "caption": "",
+  "contentUrl": "",
+  "dateCreated": "",
+  "dateModified": "",
+  "description": "",
+  "duration": "",
+  "image": "",
+  "name": "",
+  "thumbnailUrl": "",
+  "uploadDate": "",
+}
+`;
+
+exports[`[Function] createVideoObjectJsonLd Should match the snapshot 1 1`] = `
+{
+  "@context": "http://schema.org/",
+  "@id": "",
+  "@type": "VideoObject",
+  "caption": "",
+  "contentUrl": "",
+  "dateCreated": "",
+  "dateModified": "",
+  "description": "",
+  "duration": "",
+  "image": "",
+  "name": "",
+  "thumbnailUrl": "",
+  "uploadDate": "",
+}
+`;
+
+exports[`[Function] createVideoObjectJsonLd Should match the snapshot 2 1`] = `
+{
+  "@context": "http://schema.org/",
+  "@id": "bm9kZToyNDU3MQ==",
+  "@type": "VideoObject",
+  "caption": "lecker 🍪",
+  "contentUrl": "https://www.schweizer-illustrierte.ch/videoblogs/frey-style/videos/mmmm-lecker-chocolate-chip-cookies",
+  "dateCreated": "2019-09-04T16:47:17",
+  "dateModified": "2019-09-04T16:46:34",
+  "description": "lecker 🍪",
+  "duration": "",
+  "image": "img.jpg",
+  "name": "Chocolate-Chip-Cookies",
+  "thumbnailUrl": "thumb.jpg",
+  "uploadDate": "2019-09-04T16:47:17",
+}
+`;

@@ -1,0 +1,106 @@
+.Wrapper {
+  display: block;
+  overflow: auto;
+  position: relative;
+
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    gap: 24px;
+  }
+}
+
+.ContentWrapper {
+  position: relative;
+}
+
+.Title {
+  composes: TeaserWideTitle from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: TeaserWideLead from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Lead b {
+  font-weight: 700;
+}
+
+.ShortTitleElement {
+  display: flex;
+  flex-direction: column;
+  gap: $margin4;
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    flex-direction: row;
+    gap: $margin8;
+  }
+}
+
+.ShortTitleWrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin4;
+
+  @media (min-width: $xlBreakpoint) {
+    gap: $margin8;
+  }
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  background-color: $green;
+  margin: 0;
+  padding: 2px $margin8;
+  width: fit-content;
+}
+
+.BadgeLabelFree {
+  background-color: $grey50;
+  margin-left: 8px;
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+  color: $greenDark;
+  margin: 0;
+}
+
+.BottomLine {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+}
+
+.BadgesWrapper {
+  display: flex;
+}
+
+.KMULabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  background-color: $greenDark;
+  margin: 0;
+}

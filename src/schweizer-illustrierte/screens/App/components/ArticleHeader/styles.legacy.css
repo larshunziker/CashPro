@@ -1,0 +1,115 @@
+.Wrapper {
+  margin-bottom: $margin24;
+
+  &SY {
+    text-align: center;
+  }
+}
+
+.ShortTitle {
+  display: block;
+}
+
+.ShortTitleSI {
+  margin-bottom: $margin4;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 13px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+.ShortTitleSY {
+  margin-bottom: 5px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.TitleSI {
+  margin-bottom: 5px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 15px;
+  }
+}
+
+.TitleSY {
+  margin-bottom: $margin4;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+/* ---- fonts for theme default ---- */
+
+.ShortTitleFontSI {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+}
+
+.ShortTitleFontSY {
+  composes: HeadingCatch3SY from 'typographySY.legacy.css';
+}
+
+.TitleFontSI {
+  composes: Heading1A from 'typography.legacy.css';
+}
+
+.TitleFontSY {
+  composes: Heading1ASY from 'typographySY.legacy.css';
+}
+
+.LeadSI {
+  composes: Lead1 from 'typography.legacy.css';
+}
+
+.LeadSY {
+  composes: Lead1SY from 'typographySY.legacy.css';
+}
+
+/* ---- theme for video detail page ---- */
+
+.WrapperSmall {
+  margin-bottom: 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.ShortTitleFontSmall {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+}
+
+.TitleFontSmall {
+  composes: Heading3A from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.LeadFontSmall {
+  composes: Paragraph from 'typography.legacy.css';
+}

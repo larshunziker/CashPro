@@ -1,0 +1,90 @@
+.Background {
+  background-color: $greyE;
+}
+
+.Container {
+  margin-bottom: -12px;
+  padding: 0 20px;
+}
+
+@media (min-width: $mdBreakpoint) {
+  .Container {
+    margin-bottom: 0;
+    padding: 0 24px;
+  }
+}
+
+.Wrapper {
+  background-color: $greyE;
+  padding-bottom: 0;
+  padding-top: 15px;
+  position: relative;
+}
+
+@media (min-width: $mdBreakpoint) {
+  .Wrapper {
+    padding-bottom: 2px;
+    padding-top: 36px;
+  }
+}
+
+.InnerWrapper {
+  overflow-wrap: break-word;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.HeaderWrapper {
+  overflow: hidden;
+}
+
+.HeaderText {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+}
+
+@media (min-width: $smBreakpoint) {
+  .HeaderText {
+    margin-bottom: 15px;
+  }
+}
+
+@media (min-width: $mdBreakpoint) {
+  .HeaderText {
+    margin-bottom: 21px;
+  }
+}
+
+.LeadText {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 18px;
+}
+
+@media (min-width: $smBreakpoint) {
+  .LeadText {
+    margin-bottom: 27px;
+    min-height: 78px;
+  }
+}
+
+.HiddenTeaserImage {
+  composes: HiddenMdDown from '@grid.legacy.css';
+}
+
+.TeaserImageWrapper {
+  bottom: 0;
+  line-height: 0;
+  position: absolute;
+  right: 0;
+}
+
+.TeaserImage {
+  height: auto;
+  width: 274px;
+}
+
+@media (min-width: $xlBreakpoint) {
+  .TeaserImage {
+    width: 286px;
+  }
+}

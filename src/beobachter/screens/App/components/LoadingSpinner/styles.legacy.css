@@ -1,0 +1,83 @@
+.SpinnerWrapper {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.Spinner {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+}
+
+.Path {
+  animation: dash 1.5s ease-in-out infinite;
+  stroke: $black;
+  stroke-dasharray: 1, 150;
+  stroke-dashoffset: 0;
+  stroke-linecap: butt;
+}
+
+@keyframes rotate {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes dash {
+  0% {
+    stroke-dasharray: 1, 150;
+    stroke-dashoffset: 0;
+  }
+
+  50% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -35;
+  }
+
+  100% {
+    stroke-dasharray: 90, 150;
+    stroke-dashoffset: -124;
+  }
+}
+
+/* Loader element dynamically used between Piano checkout elements */
+:global(#invitation-loader-container) {
+  display: block;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+:global(.invitation-loader-overlay) {
+  background: $white;
+  display: block;
+  height: 100%;
+  left: 0;
+  opacity: 0.6;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 999;
+}
+
+:global(.invitation-spinner-wrapper) {
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+:global(.invitation-spinner) {
+  animation: rotate 2s linear infinite;
+  z-index: 2;
+}
+
+:global(.invitation-spinner-path) {
+  animation: dash 1.5s ease-in-out infinite;
+  stroke: $black;
+  stroke-dasharray: 1, 150;
+  stroke-dashoffset: 0;
+  stroke-linecap: butt;
+}

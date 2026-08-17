@@ -1,0 +1,262 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  margin-left: -$outerGapXs;
+  margin-right: -$outerGapXs;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    width: 100%;
+  }
+
+  &::before {
+    background: $gradientTeaser;
+    bottom: 0;
+    content: '';
+    height: 140px;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    @media (min-width: $smBreakpoint) {
+      height: 300px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 355px;
+    }
+  }
+}
+
+.WrapperSI {
+  margin-bottom: 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 43px;
+  }
+
+  &:hover {
+    .TitleSI .TitleInnerSI {
+      box-shadow: $shadowH;
+    }
+  }
+}
+
+.WrapperSY {
+  margin-bottom: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 31px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  &:hover {
+    .TitleSY .TitleInnerSY {
+      border-bottom-color: $skin;
+    }
+  }
+}
+
+.ContentWrapper {
+  left: $outerGapXs;
+  max-width: 420px;
+  padding-right: 15px;
+  position: absolute;
+  word-wrap: break-word;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -20px;
+    max-width: 300px;
+    padding-right: 0;
+  }
+}
+
+.ContentWrapperSI {
+  bottom: -18px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -32px;
+    left: 20px;
+    max-width: 573px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -40px;
+    left: 30px;
+    max-width: 702px;
+  }
+}
+
+.ContentWrapperSY {
+  bottom: -16px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -30px;
+    left: 0;
+    max-width: 435px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -38px;
+    max-width: 540px;
+  }
+}
+
+.Title {
+  > .TitleInner {
+    box-decoration-break: clone;
+    padding: 0 6px 2px;
+  }
+}
+
+.TitleSI {
+  composes: Heading1B from 'typography.legacy.css';
+  display: inline;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 5.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 6.9rem;
+  }
+
+  > .TitleInnerSI {
+    background-color: $white;
+    box-decoration-break: clone;
+    box-shadow: $shadowG;
+    transition: box-shadow 0.3s;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 10px 2px;
+    }
+  }
+}
+
+.TitleSY {
+  composes: Heading1BSY from 'typographySY.legacy.css';
+  background-color: $white;
+  line-height: 3.2rem;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+    line-height: 4.8rem;
+    padding: 15px 30px 11px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 60px;
+    padding: 17px 30px 20px;
+  }
+
+  > .TitleInnerSY {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  padding: 0 6px 5px;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 225px;
+    padding: 0 10px 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 400px;
+  }
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch1SY from 'typographySY.legacy.css';
+  background-color: $white;
+  padding: 0 8px 5px;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    max-width: 290px;
+    padding: 0 30px 5px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 375px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 475px;
+  }
+}
+
+.Badge {
+  margin-bottom: 5px;
+  white-space: nowrap;
+
+  &SI {
+    padding-left: 6px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: 10px;
+    }
+  }
+
+  &SY {
+    padding-left: 0;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: 30px;
+    }
+  }
+}
+
+.IconStyle {
+  color: $white;
+  display: inline-block;
+  font-size: 1.2rem;
+  left: 6px;
+  position: relative;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  top: -5px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    left: 10px;
+    top: -10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.IconStyleSY {
+  left: 0;
+
+  @media (min-width: $smBreakpoint) {
+    left: 30px;
+    top: -10px;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+  font-size: 5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 8rem;
+  }
+}

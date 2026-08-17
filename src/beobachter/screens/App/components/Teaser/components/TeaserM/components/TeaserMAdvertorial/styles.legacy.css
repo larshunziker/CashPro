@@ -1,0 +1,47 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  background-color: $beigeA;
+  display: block;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.ContentWrapper {
+  padding: 0 10px 10px;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 10px 20px;
+  }
+}
+
+.Title {
+  composes: TeaserAdvertorialSmallTitleH1 from 'typography.legacy.css';
+
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserAdvertorial from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.Lead {
+  composes: TeaserLeadBlack from 'typography.legacy.css';
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ImageWrapper {
+  composes: ImageWrapper from 'Teaser/components/TeaserM/components/TeaserMDefault/styles.legacy.css';
+}
+
+.Image {
+  composes: Image from 'Teaser/components/TeaserM/components/TeaserMDefault/styles.legacy.css';
+}

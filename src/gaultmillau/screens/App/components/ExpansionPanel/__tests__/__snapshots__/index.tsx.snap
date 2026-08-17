@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ExpansionPanel Should return the correct styles for Popstage 1`] = `
+{
+  "ArrowIcon": "ArrowIcon",
+  "BoldTitle": "BoldTitle",
+  "Content": "Content",
+  "ExpansionPanel": "ExpansionPanel",
+  "Header": "HeaderCentered",
+  "HeaderContentWrapper": "HeaderContentWrapper",
+  "Icon": "Icon",
+  "IsOpen": "IsOpen",
+  "Spacer": "",
+  "Title": "Title",
+}
+`;
+
+exports[`[Component] ExpansionPanel Should return the correct styles for default case 1`] = `
+{
+  "ArrowIcon": "ArrowIcon",
+  "BoldTitle": "",
+  "Content": "Content",
+  "ExpansionPanel": "ExpansionPanel",
+  "Header": "Header",
+  "HeaderContentWrapper": "HeaderContentWrapper",
+  "Icon": "Icon",
+  "IsOpen": "IsOpen",
+  "Spacer": "",
+  "Title": "Title",
+}
+`;

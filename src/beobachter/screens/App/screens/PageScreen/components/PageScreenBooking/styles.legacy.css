@@ -1,0 +1,26 @@
+.Wrapper {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+}
+
+.Title {
+  composes: Title from 'Article/components/ArticleLead/components/ArticleLeadRatgeber/styles.legacy.css';
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.MainTitle {
+  composes: H1SansSerif from 'typography.legacy.css';
+  text-align: left;
+}
+
+.Lead {
+  composes: Paragraph from 'typography.legacy.css';
+
+  font-family: $fontSpezia;
+  margin-bottom: $margin16;
+  text-align: left;
+}
+
+.ParagraphsContainer p {
+  font-family: $fontSpezia;
+}

@@ -1,0 +1,173 @@
+.Header {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+}
+
+.RichTextWrapper,
+.RichTextWrapperFirst {
+  @mixin ParagraphNeutralA;
+  clear: both;
+}
+
+.RichTextWrapper p,
+.RichTextWrapperFirst p {
+  @mixin ParagraphNeutralA;
+  margin-top: $margin16;
+}
+
+.RichTextWrapper ul, ol {
+  margin: 16px 0 0 38px;
+  @mixin ParagraphNeutralA;
+}
+
+.RichTextWrapper ol li::marker {
+  font-weight: bold;
+}
+
+.RichTextWrapper b:first-child,
+.RichTextWrapper strong:first-child,
+.RichTextWrapperFirst b:first-child,
+.RichTextWrapperFirst strong:first-child {
+  @mixin CatchQuestionsNeutralA;
+}
+
+/* Spans */
+.RichTextWrapper em {
+  font-style: italic;
+}
+
+.RichTextWrapper strong {
+  font-weight: 700;
+}
+
+/* Links */
+.RichTextWrapper a,
+.RichTextWrapperFirst a {
+  @mixin ParagraphLinkNeutralA;
+
+  /* DTCPP-2162 - Mark links to external sites with an icon. */
+  &:not([href*='gaultmillau.ch']) {
+    &:not([href^='#']) {
+      &:not([href^='/']) {
+        &:not([href^='mailto:']) {
+          &:not([href^='tel:']) {
+            &:not([class*='teaser']) {
+              &:not([class*='utility-button']) {
+                &:not([class*='Icon']) {
+                  &::after {
+                    @mixin GMIconFiles;
+                    content: '\e939';
+                    margin-left: 3px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media print {
+    border-bottom: 0;
+
+    &::after {
+      display: none !important; /* stylelint-disable-line */
+    }
+  }
+}
+
+.RichTextWrapper :global(.cta_button a) {
+  border-bottom: none;
+  color: $white;
+}
+
+/* Simple external link. */
+.RichTextWrapper :global(a.Link) {
+  @mixin ParagraphLinkNeutralA;
+}
+
+/* Links without title text (printed domains) */
+.RichTextWrapper :global(a.RawLink) {
+  background-color: $transparent;
+}
+
+/* Page anchor link with down arrow */
+.RichTextWrapper :global(a.AnchorLink i.fa) {
+  color: $neutralG;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+}
+
+.RichTextWrapperFirst > div > h1,
+.RichTextWrapperFirst > div > h2,
+.RichTextWrapperFirst > div > h3,
+.RichTextWrapperFirst > div > h4,
+.RichTextWrapper > div > h1,
+.RichTextWrapper > div > h2,
+.RichTextWrapper > div > h3,
+.RichTextWrapper > div > h4 {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  margin: 2rem 0;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.RichTextWrapper h1,
+.RichTextWrapperFirst h1 {
+  @mixin HeadingANeutralA;
+}
+
+.RichTextWrapper > div > h2,
+.RichTextWrapperFirst > div > h2 {
+  @mixin HeadingBNeutralA;
+}
+
+.RichTextWrapper > div > h3,
+.RichTextWrapperFirst > div > h3 {
+  @mixin HeadingCNeutralA;
+
+}
+
+.RichTextWrapper h4,
+.RichTextWrapperFirst h4 {
+  @mixin HeadingCNeutralA;
+}
+
+.RichTextWrapper blockquote,
+.RichTextWrapperFirst blockquote {
+  @mixin ParagraphNeutralA;
+  font-style: italic;
+}
+
+
+:global(.IconWord) {
+  &::before {
+    @mixin GMIconFiles;
+    content: '\e93a';
+  }
+}
+
+:global(.IconExcel) {
+  &::before {
+    @mixin GMIconFiles;
+    content: '\e93b';
+  }
+}
+
+:global(.IconPdf) {
+  &::before {
+    @mixin GMIconFiles;
+    content: '\e93c';
+  }
+}
+
+:global(.IconDocument) {
+  &::before {
+    @mixin GMIconFiles;
+    content: '\e93e';
+  }
+}
+

@@ -1,0 +1,3 @@
+.Link {
+  composes: FormLabelBigBlackC from 'typography.legacy.css';
+}

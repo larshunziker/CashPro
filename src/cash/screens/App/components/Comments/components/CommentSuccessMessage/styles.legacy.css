@@ -1,0 +1,26 @@
+.Wrapper {
+  color: $white;
+  margin-bottom: $margin16;
+  padding: 16px 19px;
+}
+
+.Heading {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Icon {
+  color: $black;
+  display: inline-block;
+  @mixin fontSize 30;
+  margin-right: 10px;
+}
+
+.Title {
+  composes: H4 from 'typography.legacy.css';
+}
+
+.Paragraph {
+  composes: InfoParagraph from 'typography.legacy.css';
+}

@@ -1,0 +1,43 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+}
+
+/* Margins are not fully consistent with rule 4/8/16/24/32/40/48/64
+because of the design requirement to fit the top of tight column into the main article title */
+.AsideContent {
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 74px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-top: $margin64;
+    padding-bottom: 48px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 84px;
+  }
+}
+
+.TopContent {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.Search {
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.FullWidthColumn {
+  padding-left: 0 !important; /* stylelint-disable-line declaration-no-important */
+  padding-right: 0 !important; /* stylelint-disable-line declaration-no-important */
+}

@@ -1,0 +1,11 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+}
+
+.Title {
+  composes: TitleWithLine from 'typography.legacy.css';
+}
+
+.RecommendationsItem {
+  padding-bottom: 25px;
+}

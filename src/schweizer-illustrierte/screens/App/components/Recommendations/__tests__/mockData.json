@@ -1,0 +1,144 @@
+{
+  "recommendations": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTI1NQ==",
+          "title": "Darum sind Mules die Trendschuhe für den Sommer",
+          "preferredUri": "/style/darum-sind-mules-die-trendschuhe-fur-den-sommer",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Schöni Schüeli",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/mules.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4NA==",
+          "title": "Heidi Klum zeigt ganz New York, was sie zu bieten hat",
+          "preferredUri": "/people/heidi-klum-zeigt-ganz-new-york-was-sie-zu-bieten-hat",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Heidi Klum nackt",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/heidi-klum.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTIzMg==",
+          "title": "«Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»",
+          "preferredUri": "/people/lifestyle/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Die Frau Bruni",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/media/field_image/2018-06/carla_bruni_french_touch_2017_credit_universal_music_3.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI2Nw==",
+          "title": "Pietro Lombardi hat eine Zürcher Señorita",
+          "preferredUri": "/people/pietro-lombardi-hat-eine-zurcher-senorita",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Während dem Dreh sind sich das Model und der Sänger sehr nahe gekommen.",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/whatsapp_image_2018-05-08_at_18.32.30.jpeg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI1Ng==",
+          "title": "Blut, Bashing, ein Betrunkener und die Bachelorette",
+          "preferredUri": "/people/blut-bashing-ein-betrunkener-und-die-bachelorette",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "See mit Bergen",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/DSC_1555.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4MQ==",
+          "title": "My Title",
+          "preferredUri": "/family/my-title",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Air Berlin Flugzeug Luft",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/air-berlin_1.jpeg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "RelatedContentUnionEdge"
+      }
+    ]
+  }
+}

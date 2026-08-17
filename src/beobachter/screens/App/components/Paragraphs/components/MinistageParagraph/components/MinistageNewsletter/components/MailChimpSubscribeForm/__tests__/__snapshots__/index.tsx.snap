@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MailChimpSubscribeForm Should render correctly 1`] = `
+<div>
+  <form
+    action=""
+    class="Form"
+    method="post"
+    novalidate=""
+    target="_blank"
+  >
+    <div>
+      <input
+        aria-label="E-Mail"
+        class="Input"
+        name="EMAIL"
+        placeholder="Email-Adresse"
+        type="email"
+        value=""
+      />
+      <span
+        class="ErrorMessage"
+      />
+    </div>
+    <div
+      aria-hidden="true"
+      style="position: absolute; left: -5000px;"
+    >
+      <input
+        name="b_473f4e993658c5bc9c5199135_1d31f5f40a"
+        tabindex="-1"
+        type="text"
+      />
+    </div>
+    <div
+      class="ButtonWrapper"
+    >
+      <button
+        class="Button Button ClickEffect Primary"
+        tabindex="0"
+        type="submit"
+      >
+        <span>
+          <span
+            class="ButtonLabel"
+          >
+            Jetzt Newsletter abonnieren
+          </span>
+        </span>
+      </button>
+    </div>
+  </form>
+</div>
+`;

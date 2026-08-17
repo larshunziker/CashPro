@@ -1,0 +1,14 @@
+.Wrapper {
+  margin-bottom: 40px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 60px;
+  }
+}
+
+.BlogQ {
+  background-color: $pink;
+  padding-bottom: 1px;
+}

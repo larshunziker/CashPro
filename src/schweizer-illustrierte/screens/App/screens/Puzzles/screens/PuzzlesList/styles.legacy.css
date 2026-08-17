@@ -1,0 +1,167 @@
+.Wrapper {
+  cursor: default;
+  margin: auto;
+  max-width: 400px;
+  text-align: center;
+}
+
+.HeaderIcon {
+  margin-top: $margin32;
+}
+
+.Title {
+  font-family: $fontBague;
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 5px;
+  line-height: 24px;
+  margin-bottom: $margin16;
+  text-transform: uppercase
+}
+
+.Description {
+  font-family: $fontBague;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: $margin16;
+}
+
+.PuzzleTitle {
+  color: $black;
+  display: block;
+  font-family: $fontBague;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 0.5px;
+  line-height: 14px;
+  margin: $margin4 0;
+  text-transform: uppercase;
+}
+
+.PuzzleIcon {
+  display: inline-block;
+  float: left;
+  margin-left: 12px;
+  padding-right: 12px;
+}
+
+.PuzzleListItem {
+  border-top: 1px solid $grayA;
+  clear: both;
+  list-style: none;
+  padding: 16px 0 16px 16px;
+  position: relative;  
+
+  &:hover {
+    background-color: $grayF;
+  }
+
+  &:hover > .Link:visited::before {
+    background: $grayF;
+  }
+}
+
+.ListingWrapper {
+  margin-bottom: $margin32;
+  text-align: initial;
+}
+
+.Link {
+  color: $black;
+  cursor: pointer;
+
+  &:visited {
+    * {
+      color: $grayB;
+    }
+
+    &::before {
+      background: $white;
+    }
+  }
+
+  &::after {
+    @mixin SIIconFiles;
+    content: '\e923';
+    font-size: 32px;
+    margin-left: 3px;
+    margin-top: -8px;
+    position: absolute;
+    right: 0;
+    top: 36px;
+  }
+
+  &::before {
+    background: $black;
+    border-radius: 50%;
+    content: '\A';
+    display: inline-block;
+    height: 6px;
+    left: 0;
+    margin-left: 12px;
+    position: absolute;
+    top: 36px;
+    width: 6px;
+  }
+}
+
+.Date {
+  display: block;
+  font-family: $fontLeJeune;
+  font-size: 18px;
+  line-height: 22px;
+
+  @media (width >= 760px) {
+    font-size: 21px;
+    line-height: 27px;
+  }
+}
+
+.FreePlayButton {
+  display: flex;
+  justify-content: center;
+  margin: $margin24;
+}
+
+.GameInstructionsButton {
+  align-items: center;
+  border: 0;
+  border-radius: 0;
+  color: $grayD;
+  cursor: pointer;
+  display: flex;
+  font-family: $fontBague;
+  font-size: 15px;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 20px;
+  margin-bottom: $margin24;
+  width: 100%;
+}
+
+.Icon {
+  color: $grayB;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 2px;
+}
+
+.Icon, .IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}
+
+.GameInstructionsContainer {
+  font-family: $fontBague;
+  font-size: 18px;
+  font-weight: 300;
+  line-height: 25px;
+  margin-bottom: $margin40;
+  text-align: left;
+  white-space: pre-line;
+}

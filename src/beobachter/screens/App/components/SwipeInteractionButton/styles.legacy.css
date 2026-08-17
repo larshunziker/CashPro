@@ -1,0 +1,81 @@
+$duration: 1800ms;
+$delay: 1200ms;
+$iterations: 3;
+
+.HideButton {
+  animation: fade-out-and-hide linear 300ms forwards;
+}
+
+.InViewAnimationRight {
+  animation: in-view-animation-right $duration linear $delay infinite,
+    fade-out-and-hide linear 300ms forwards calc($duration * $iterations + $delay);
+}
+
+.InViewAnimationLeft {
+  animation: in-view-animation-left $duration linear $delay infinite,
+    fade-out-and-hide linear 300ms forwards calc($duration * $iterations + $delay);
+}
+
+.Right {
+  right: 0;
+}
+
+.Left {
+  left: 0;
+}
+
+.Button {
+  background-color: $transparent;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  filter: drop-shadow(0 0 2px $black);
+  font-size: 3rem;
+  outline: none;
+  padding: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: opacity 300ms;
+  z-index: $zIndex1;
+}
+
+@keyframes in-view-animation-right {
+  0%,
+  29%,
+  61%,
+  100% {
+    animation-timing-function: ease-out;
+    transform: translate(0, -50%);
+  }
+
+  14%,
+  44% {
+    animation-timing-function: ease-out;
+    transform: translate(10px, -50%);
+  }
+}
+
+@keyframes in-view-animation-left {
+  0%,
+  29%,
+  61%,
+  100% {
+    animation-timing-function: ease-out;
+    transform: translate(0, -50%);
+  }
+
+  14%,
+  44% {
+    animation-timing-function: ease-out;
+    transform: translate(-10px, -50%);
+  }
+}
+
+@keyframes fade-out-and-hide {
+  100% {
+    opacity: 0;
+    visibility: hidden;
+  }
+}

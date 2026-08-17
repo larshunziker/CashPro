@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Footer Should render correctly 1`] = `
+<div>
+  <a
+    aria-label="Startseite"
+    data-testid="routed-link"
+    href="/"
+    title="Startseite"
+  >
+    <img
+      alt="cash"
+      class="FooterLogo"
+      src="SvgrURL"
+    />
+  </a>
+</div>
+`;

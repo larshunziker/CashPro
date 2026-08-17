@@ -1,0 +1,36 @@
+.TeaserTopic {
+  background: $white;
+  background-color: $white;
+  color: $redA;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.67;
+  margin-bottom: 2px;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0 5px;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    font-size: 1.3rem;
+    margin-bottom: -3px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    font-size: 1.4rem;
+    padding: 0 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1600 */
+    font-size: 1.8rem;
+    line-height: 1.3;
+    margin-bottom: -5px;
+    padding: 2px 5px;
+  }
+}

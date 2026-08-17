@@ -1,0 +1,52 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 60vh;
+  }
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Lead {
+  composes: InfoA from 'typography.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.Bold {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.BackButtonWrapper {
+  margin-bottom: $margin16;
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+}
+
+.SubTitle {
+  composes: InfoB from 'typography.legacy.css';
+  margin-bottom: 24px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.ListWrapper {
+  margin-bottom: $margin40;
+}
+
+.List {
+  margin-bottom: $margin16;
+}
+
+.StarIcon {
+  color: $black;
+  margin-left: $margin12;
+  position: relative;
+}

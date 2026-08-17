@@ -1,0 +1,40 @@
+.Wrapper {
+  background-color: $white;
+  position: relative;
+  z-index: calc($zIndexHeader + 1);
+}
+
+.Placeholder {
+  height: calc($headerHeightXs - 1px);
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    height: $headerHeightSm;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: $headerHeightXl;
+  }
+
+  &.MarketingPage {
+    height: $headerHeightMarketingPageXs;
+
+    @media (min-width: $smBreakpoint) {
+      height: $headerHeightMarketingPageSm;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: $headerHeightMarketingPageXl;
+    }
+  }
+}
+
+.IsSticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+
+  @media print {
+    position: static;
+  }
+}

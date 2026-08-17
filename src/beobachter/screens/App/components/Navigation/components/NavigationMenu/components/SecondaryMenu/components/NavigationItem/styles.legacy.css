@@ -1,0 +1,16 @@
+.LinkWrapper:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.NavLink {
+  border-bottom: 1px solid transparent;color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 25.2px;
+  transition: border-color .3s ease-in-out;
+
+  &:hover {
+    border-color: $black;
+  }
+}

@@ -1,0 +1,50 @@
+.SubscribeButtonWrapper {
+  align-self: center;
+  margin: 0;
+  width: 144px;
+}
+
+.SubscribeButtonActive {
+  composes: ButtonPrimarySmall from 'typography.legacy.css';
+}
+
+.SubscribeButtonInactive {
+  composes: ButtonSecondarySmall from 'typography.legacy.css';
+}
+
+.Icon {
+  height: 18px;
+  margin-right: $margin8;
+  width: 18px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 21px;
+    width: 21px;
+  }
+}
+
+.Animating {
+  animation: BellAnimation 500ms;
+}
+
+.LightTheme {
+  color: $white;
+
+  &.SubscribeButtonInactive {
+    color: $black;
+
+    &:hover {
+      color: $grey80;
+    }
+  }
+
+  &:hover {
+    border-color: $grey80;
+  }
+}
+
+:global(.RedBackground .LightTheme) {
+  color: $black;
+}
+
+@mixin BellAnimation;

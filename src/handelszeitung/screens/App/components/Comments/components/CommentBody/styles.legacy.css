@@ -1,0 +1,26 @@
+.Body {
+  margin: $margin32 0 0;
+}
+
+.Name {
+  composes: InfoH2Black from 'typography.legacy.css';
+}
+
+.Date {
+  composes: InfoParagraphGrey from 'typography.legacy.css';
+  display: block;
+  margin-top: $margin4;
+}
+
+.Text {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin: $margin8 0 0;
+}
+
+.Logo {
+  height: 13px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+  }
+}

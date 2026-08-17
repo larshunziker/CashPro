@@ -1,0 +1,70 @@
+.TeaserIcon {
+  align-items: center;
+  background: $white;
+  border-radius: 50%;
+  box-shadow: 0 1px 12px 0 rgb(0 0 0 / 50%);
+  color: $redA;
+  display: flex;
+  font-size: 24px;
+  height: 32px;
+  padding-left: 5px;
+  padding-top: 1px;
+  width: 32px;
+  z-index: calc($zIndex1 + 2);
+}
+
+.TeaserHeroMainIcon {
+  composes: TeaserIcon;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.8rem;
+    height: 40px;
+    padding-left: 7px;
+    padding-top: 0;
+    width: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+    height: 60px;
+    padding-left: 8px;
+    right: 42px;
+    top: 40px;
+    width: 60px;
+  }
+}
+
+.TeaserPlayButton {
+  height: 40px;
+  max-height: 40px;
+  max-width: 40px;
+  width: 40px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 48px;
+    max-height: 48px;
+    max-width: 48px;
+    width: 48px;
+  }
+}
+
+.TeaserQuote {
+  height: 20px;
+  max-height: 20px;
+  max-width: 28px;
+  width: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 32px;
+    max-height: 32px;
+    max-width: 44px;
+    width: 44px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 39px;
+    max-height: 39px;
+    max-width: 54px;
+    width: 54px;
+  }
+}

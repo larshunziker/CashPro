@@ -1,0 +1,23 @@
+.Sidebar {
+  margin-bottom: $margin32;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    border-left: 1px solid $grey30;
+    height: calc(100% - 20px - 50px);
+    margin: 20px 0 50px $margin12;
+    padding-left: 28px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: calc(100% - 20px - 64px);
+    margin-block: 20px $margin64;
+  }
+}
+
+.PianoIntegrationWrapper {
+  margin-bottom: $margin64;
+}

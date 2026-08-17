@@ -1,0 +1,22 @@
+export const LOGO_BIL = 'logo/bilanz';
+export const LOGO_HZ = 'logo/handelszeitung';
+export const LOGO_ABO_BADGE = 'logo/abo-badge';
+export const LOGO_ABO_BADGE_S = `${LOGO_ABO_BADGE}-s`;
+export const LOGO_ABO_BADGE_M = `${LOGO_ABO_BADGE}-m`;
+export const LOGO_ABO_BADGE_L = `${LOGO_ABO_BADGE}-l`;
+export const LOGO_ABO_BADGE_SLLLL = `${LOGO_ABO_BADGE}-sllll`;
+export const LOGO_ABO_BADGE_SSSSM = `${LOGO_ABO_BADGE}-ssssm`;
+export const LOGO_ABO_BADGE_SXXXS = `${LOGO_ABO_BADGE}-sxxxs`;
+export const LOGO_ABO_BADGE_XXXXS = `${LOGO_ABO_BADGE}-xxxxs`;
+export const LOGO_HZ_INSURANCE = 'logo/insurance';
+export const LOGO_HZ_BRAND_REPORT = 'logo/brand-report';
+export const LOGO_HZ_CLAIM = 'logo/hz-claim';
+export const LOGO_COLOR_WHITE = 'logo/logo-color-white';
+export const LOGO_ABO_FLEXIBLE = `${LOGO_ABO_BADGE}-flexible`;
+export const LOGO_PARTNER_BILANZ = 'logo/partner-bilanz';
+export const LOGO_PARTNER_BILANZ_LABEL = 'Logo for partner Bilanz';
+export const LOGO_PARTNER_HZ = 'logo/partner-hz';
+export const LOGO_PARTNER_HZ_LABEL = 'Logo for partner Handelszeitung';
+
+export const ABO_BADGE_TITLE = 'Lesen Sie diesen Inhalt mit Ihrem Abo';
+export const ABO_BADGE_LABEL = 'Abo Icon';

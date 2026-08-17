@@ -1,0 +1,82 @@
+.Wrapper {
+  display: flex;
+  flex: 1;
+  height: 100%;
+  position: relative;
+}
+
+.ControlsWrapper {
+  display: flex;
+  justify-content: space-between;
+  z-index: 2;
+}
+
+.Controls {
+  display: flex;
+  position: absolute;
+  right: 0;
+  top: 0;
+  transform: translate(-22px, 10px);
+}
+
+/* Note: this will be appended to the google maps component */
+.ZoomControls {
+  composes: Controls;
+  transform: translate(-112px, 10px);
+}
+
+.Button {
+  composes: UnstyledButton from 'form.legacy.css';
+  background: $white;
+  border: 1px solid $neutralB;
+  color: $neutralA;
+  height: 41px;
+  width: 41px;
+
+  & + .Button {
+    border-left: none;
+  }
+}
+
+.Icon {
+  font-size: 2.75rem;
+  height: 100%;
+  line-height: 39px;
+  width: 100%;
+}
+
+.IconActive {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+}
+
+.Minus {
+  composes: Icon;
+  display: block;
+  position: relative;
+
+  &::before {
+    background: $neutralA;
+    content: '';
+    height: 1px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 18px;
+  }
+}
+
+.Plus {
+  composes: Minus;
+
+  &::after {
+    background: $neutralA;
+    content: '';
+    height: 18px;
+    left: 50%;
+    position: absolute;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    width: 1px;
+  }
+}

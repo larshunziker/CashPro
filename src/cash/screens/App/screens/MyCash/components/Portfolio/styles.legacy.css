@@ -1,0 +1,333 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+  min-height: 60vh;
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.PortfolioNewsWrapper {
+  min-height: 0;
+
+  @media print {
+    display: none;
+  }
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 200px;
+  position: relative;
+
+  &.Centered {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media print {
+    min-height: 0;
+  }
+}
+
+.NoResult {
+  composes: InfoA from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.NewPortfolioButtonWrapper {
+  margin-top: 56px;
+}
+
+.PortfolioSelectionWrapper {
+  display: flex;
+
+  button {
+    span {
+      @media (max-width: $smBreakpoint) {
+        max-width: 183px;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    i {
+      color: $secondaryA;
+      padding-left: 8px;
+      margin-top: -2px !important; /* stylelint-disable-line */
+      vertical-align: middle !important; /* stylelint-disable-line */
+
+      &::before {
+        font-size: 22px;
+      }
+    }
+  }
+}
+
+.PortfolioSelection {
+  margin-right: 12px;
+  position: relative;
+
+  button {
+    span {
+      @media (max-width: $smBreakpoint) {
+        max-width: 183px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    i {
+      color: $secondaryA;
+      padding-left: 8px;
+      margin-top: 2px !important; /* stylelint-disable-line */
+
+      &::before {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media print {
+    i {
+      display: none;
+    }
+  }
+}
+
+.AddInstrumentButtonWrapper {
+  button {
+    align-items: baseline;
+    height: 34px;
+    padding-left: 0 !important; /* stylelint-disable-line */
+    width: 42px;
+
+    i {
+      margin: 0;
+      padding-left: 17px !important; /* stylelint-disable-line */
+
+      &::before {
+        color: $white;
+        font-size: 22px;
+      }
+    }
+    @media print {
+      display: none;
+    }
+
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.PortfolioDropdownItem {
+  composes: InfoB from 'typography.legacy.css';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 280px;
+    min-width: 250px;
+  }
+
+  &:first-child {
+    margin-top: $margin12;
+  }
+
+  &:hover {
+    color: $secondaryA;
+    cursor: pointer;
+  }
+
+  .RowWrapper {
+    display: flex;
+    gap: 10px;
+    position: relative;
+
+    .DefaultIcon {
+      i {
+        &::before {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .CheckmarkIcon {
+      position: absolute;
+      right: -11px;
+      top: 0;
+
+      i {
+        font-size: 22px;
+      }
+    }
+
+    .ActiveItem {
+      @mixin InfoBBold;
+      max-width: 80%;
+    }
+  }
+
+  &.NewPortfolio,
+  &.AllPortfolios {
+    align-items: center;
+    border-top: 1px solid $greyC;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    margin: 0;
+    padding: 16px 0;
+
+    @media (min-width: $smBreakpoint) {
+      margin: 0 auto 8px;
+    }
+
+    i {
+      font-size: 20px;
+      padding-left: 24px;
+
+      @media (min-width: $smBreakpoint) {
+        padding-left: 12px;
+      }
+    }
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+
+  &.AllPortfolios {
+    border-bottom: 1px solid $greyC;
+    border-top: 0;
+    margin: 0 auto 8px;
+    padding: 12px 19px;
+  }
+}
+
+.DropdownViewLink {
+  @mixin InfoB;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 19px;
+  }
+
+  &:hover {
+    background-color: $greyE;
+  }
+}
+
+.MainPortfolioCurrency {
+  composes: FormLabelSmall from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: 32px;
+}
+
+.HeadingSkeleton {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyC;
+  width: 40%;
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.FallbackText {
+  padding: 40px 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 40px 240px;
+  }
+}
+
+.SearchWrapperDrawer {
+  margin: 20px 29px 29px 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 20px 19px;
+    max-height: 416px;
+    width: 388px;
+  }
+}
+
+.InputSearchWrapper {
+  padding: 20px 19px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 20px 218px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 20px 446px;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}
+
+.AddTitleWrapper {
+  align-items: center;
+  color: $secondaryA;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 1rem;
+  line-height: 1;
+  margin: auto;
+  padding: 0 5px 15px;
+
+  @media (max-width: $smBreakpoint) {
+    padding: 0 3px 0 0;
+  }
+
+  &:hover {
+    color: $secondaryB;
+  }
+
+  i {
+    font-size: 20px;
+  }
+}
+
+.AddTitleLink {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 0 24px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 19px;
+  }
+}
+
+.BackButtonWrapper {
+  margin-bottom: $margin16;
+}

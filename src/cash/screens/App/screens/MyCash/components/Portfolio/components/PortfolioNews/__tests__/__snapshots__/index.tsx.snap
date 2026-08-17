@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] PortfolioNews Should render PortfolioNews error 1`] = `<div />`;
+
+exports[`[Component] PortfolioNews Should render PortfolioNews with 4 items 1`] = `
+<div>
+  <div
+    id="portfolio-news"
+  >
+    <h2
+      class="Title"
+    >
+      Portfolio News
+    </h2>
+    <div
+      class="PortfolioNewsWrapper"
+    >
+      <div
+        count="4"
+        data-testid="mocked-skeleton"
+      />
+    </div>
+    <div
+      class="PortfolioNewsWrapper"
+    >
+      <div
+        data-testid="mocked-teasergrid"
+        items="[object Object],[object Object]"
+        layout="portfolioNews"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] PortfolioNews Should render PortfolioNews with 16 items 1`] = `
+<div>
+  <div
+    id="portfolio-news"
+  >
+    <h2
+      class="Title"
+    >
+      Portfolio News
+    </h2>
+    <div
+      class="PortfolioNewsWrapper"
+    >
+      <div
+        count="10"
+        data-testid="mocked-skeleton"
+      />
+    </div>
+    <div
+      class="PortfolioNewsWrapper"
+    >
+      <div
+        data-testid="mocked-teasergrid"
+        items="[object Object],[object Object]"
+        layout="portfolioNews"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <a
+        class="page-loader-prev-btn PageLink PrevButton Disabled"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronLeft Icon"
+        />
+      </a>
+      <a
+        class="page-loader-btn PageLink ActiveItem"
+        data-testid="default-link"
+      >
+        1
+      </a>
+      <a
+        class="page-loader-btn PageLink"
+        data-testid="default-link"
+      >
+        2
+      </a>
+      <a
+        class="page-loader-next-btn PageLink NextButton"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronRight Icon"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] PortfolioNews Should render PortfolioNews with 16 items 2`] = `
+<div>
+  <div
+    id="portfolio-news"
+  >
+    <h2
+      class="Title"
+    >
+      Portfolio News
+    </h2>
+    <div
+      class="PortfolioNewsWrapper"
+    >
+      <div
+        data-testid="mocked-teasergrid"
+        items="[object Object],[object Object]"
+        layout="portfolioNews"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <a
+        class="page-loader-prev-btn PageLink PrevButton Disabled"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronLeft Icon"
+        />
+      </a>
+      <a
+        class="page-loader-btn PageLink ActiveItem"
+        data-testid="default-link"
+      >
+        1
+      </a>
+      <a
+        class="page-loader-btn PageLink"
+        data-testid="default-link"
+      >
+        2
+      </a>
+      <a
+        class="page-loader-next-btn PageLink NextButton"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronRight Icon"
+        />
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] PortfolioNews Should render PortfolioNews with fallback message "Keine Nachrichten" 1`] = `
+<div>
+  <div
+    id="portfolio-news"
+  >
+    <h2
+      class="Title"
+    >
+      Portfolio News
+    </h2>
+    <div>
+      Keine Nachrichten
+    </div>
+  </div>
+</div>
+`;

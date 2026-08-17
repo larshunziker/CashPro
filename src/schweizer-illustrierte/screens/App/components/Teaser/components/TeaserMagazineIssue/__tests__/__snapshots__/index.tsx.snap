@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserMagazineIssue Should generate special offer stylesByProps correctly 1`] = `
+{
+  "ContentWrapper": "ContentWrapper ContentWrapperSpecialOffer",
+  "Image": "Image ImageSpecialOffer",
+  "ImageContentWrapper": "ImageContentWrapper",
+  "ImageWrapper": "ImageWrapper ImageWrapperSpecialOffer",
+  "IssueLink": "IssueLink",
+  "IssuePublishedText": "IssuePublishedText",
+  "MagazineText": "MagazineText",
+  "SkeletonButton": "SkeletonButton",
+  "SkeletonIssuePublished": "SkeletonIssuePublishedText",
+  "SkeletonTitle": "SkeletonTitle",
+  "SpecialOfferText": "SpecialOfferText",
+  "SpecialOfferWrapper": "SpecialOfferWrapper",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] TeaserMagazineIssue Should generate stylesByProps correctly 1`] = `
+{
+  "ContentWrapper": "ContentWrapper",
+  "Image": "Image",
+  "ImageContentWrapper": "ImageContentWrapper",
+  "ImageWrapper": "ImageWrapper",
+  "IssueLink": "IssueLink",
+  "IssuePublishedText": "IssuePublishedText",
+  "MagazineText": "MagazineText",
+  "SkeletonButton": "SkeletonButton",
+  "SkeletonIssuePublished": "SkeletonIssuePublishedText",
+  "SkeletonTitle": "SkeletonTitle",
+  "SpecialOfferText": "SpecialOfferText",
+  "SpecialOfferWrapper": "SpecialOfferWrapper",
+  "Wrapper": "Wrapper",
+}
+`;

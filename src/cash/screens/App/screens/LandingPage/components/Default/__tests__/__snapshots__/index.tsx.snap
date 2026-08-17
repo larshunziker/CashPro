@@ -1,0 +1,247 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] LandingPage Should render LandingPageDefault with channelTitel Anlegen 1`] = `
+<div>
+  <div
+    class="Wrapper"
+    data-testid="landing-page-wrapper"
+  >
+    <div
+      class="HeadWrapper PullOutWrapper"
+    >
+      <div
+        data-testid="sponsor-banner-wrapper"
+      >
+        <div
+          class="sponsor-banner Wrapper"
+          data-testid="empty-link"
+        >
+          <div>
+            <div
+              class=""
+            >
+              <div
+                class="Banner"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class="LineHeightReset PictureWrapper"
+                  >
+                    <picture>
+                      <img
+                        alt="logo"
+                        class="SponsorBannerLogo IsSameAspectRatio"
+                        height="180"
+                        loading="lazy"
+                        srcset="/sh/180/sites/default/files/media/field_image/2022-08/logo_b2.png"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="NoLead"
+        data-testid="wrapper"
+      >
+        <h1>
+          <span
+            class="Title"
+            data-testid="title"
+          >
+            Alle News Cash
+          </span>
+        </h1>
+      </div>
+    </div>
+    <div
+      class="utility-bar-wrapper UtilityBarWrapper"
+    >
+      <div
+        class="Wrapper utility-bar"
+      >
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Teilen"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Teilen"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/share"
+            />
+            <p
+              class="Label"
+            >
+              Teilen
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Kontakt"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Kontakt"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/contact"
+            />
+            <p
+              class="Label"
+            >
+              Kontakt
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Rechner"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Rechner"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/calculator"
+            />
+            <p
+              class="Label"
+            >
+              Rechner
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <div
+            aria-label="Link zu Download"
+            class="utility-button Link"
+            data-testid="empty-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"Download"}]"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/download"
+            />
+            <p
+              class="Label"
+            >
+              Download
+            </p>
+          </div>
+        </div>
+        <div
+          data-testid="utility-link-wrapper"
+        >
+          <a
+            aria-label="Link zu FAQ/Hilfe"
+            class="utility-button Link"
+            data-testid="routed-link"
+            data-track-info="[{"type":"data-utility-button-type","value":"utility bar"},{"type":"data-utility-button-target","value":"FAQ/Hilfe"}]"
+            href="/anlegen/faq"
+            target="_self"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/info"
+            />
+            <p
+              class="Label"
+            >
+              FAQ/Hilfe
+            </p>
+          </a>
+        </div>
+      </div>
+      <div
+        class="utility-bar-overlay Wrapper WrapperPageOverlay WrapperSticky"
+        data-testid="utility-overlay-wrapper"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Screen] LandingPage Should render LandingPageDefault with squareSponsorLogo 1`] = `
+<div>
+  <div
+    class="Wrapper"
+    data-testid="landing-page-wrapper"
+  >
+    <div
+      class="HeadWrapper PullOutWrapper"
+    >
+      <div
+        data-testid="sponsor-banner-wrapper"
+      >
+        <div
+          class="sponsor-banner Wrapper"
+          data-testid="empty-link"
+        >
+          <div>
+            <div
+              class=""
+            >
+              <div
+                class="Banner"
+              >
+                <div
+                  class=""
+                >
+                  <div
+                    class="LineHeightReset PictureWrapper"
+                  >
+                    <picture>
+                      <img
+                        alt="logo"
+                        class="SponsorBannerLogo IsSameAspectRatio"
+                        height="180"
+                        loading="lazy"
+                        srcset="/sh/180/sites/default/files/media/field_image/2022-08/logo_b2.png"
+                      />
+                    </picture>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="NoLead"
+        data-testid="wrapper"
+      >
+        <h1>
+          <span
+            class="Title"
+            data-testid="title"
+          >
+            Alle News Cash
+          </span>
+        </h1>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Screen] LandingPage Should render LandingPageDefault without landingPage  1`] = `<div />`;

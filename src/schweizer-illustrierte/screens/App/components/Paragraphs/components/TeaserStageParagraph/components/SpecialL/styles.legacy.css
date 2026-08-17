@@ -1,0 +1,264 @@
+.SpecialLWrapper {
+  margin-bottom: 30px;
+  overflow: hidden;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: inline-block;
+    position: relative;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    background-image: $gradientSpecialStage;
+    margin-bottom: $margin40;
+    position: relative;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.InnerWrapper {
+  min-height: 320px;
+
+  @media (max-width: $xsBreakpointTo) {
+    height:100%;
+    left: 0;
+    min-height: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+    z-index: 1;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 480px;
+  }
+}
+
+.LandingPageLink {
+  display: block;
+  margin-bottom: 25px;
+
+  @media (max-width: $xsBreakpointTo) {
+    height:100%;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
+}
+
+.Spacing {
+  margin-bottom: 15px;
+  
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 25px;
+    margin-top: 45px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 35px;
+    margin-top: 85px;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.SpecialImage {
+  height: 100%;
+  margin-bottom: 15px;
+  max-height: 70px;
+  max-width: 206px;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-top: 5%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 25px;
+    max-height: 115px;
+    max-width: 338px;
+  }
+}
+
+.PublicationLogo {
+  display: block;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 36px;
+    margin: 28px 0 34px;
+    width: 112px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 64px;
+    margin: 38px 0 58px;
+    width: 198px;
+  }
+}
+
+.Title {
+  composes: Heading7 from 'typography.legacy.css';
+  color: $white;
+  margin-bottom: 10px;
+  margin-top: 5%;
+  padding: 0 8px;
+  text-shadow: $shadowA;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 20px;
+    padding: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 35px;
+  }
+}
+
+.ImageWrapperIE {
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: -65px;
+  width: 100%;
+  z-index: $zIndexBehindContent;
+
+  @media (min-width: $xlBreakpoint) {
+    top: -120px;
+  }
+}
+
+@supports (object-fit: cover) {
+  .ImageWrapper {
+    composes: ImageWrapperIE;
+    height: 100%;
+    object-fit: cover;
+    top: 0;
+    z-index: 0;
+
+    @media (max-width: $xsBreakpointTo) {
+      position: relative;
+    }
+  }
+}
+
+.ReferenceArticleWrapper {
+  margin-top: 28px;
+  text-align: right;
+
+  @media (max-width: $xsBreakpointTo) {
+    position: absolute;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 38px;
+  }
+}
+
+.ReferenceArticleLink {
+  display: block;
+  margin-bottom: 20px;
+
+  &:hover {
+    .ReferenceArticleTitle {
+      text-decoration: underline;
+      text-decoration-color: $white;
+    }
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.ReferenceArticleShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  color: $redA;
+  text-shadow: $shadowB;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.ReferenceArticleTitle {
+  composes: Heading4 from 'typography.legacy.css';
+  color: $white;
+  text-decoration: none;
+  text-decoration-color: $transparent;
+  text-shadow: $shadowB;
+  transition: text-decoration-color 300ms;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.PartnersWrapper {
+  bottom: 0;
+  height: 20px;
+  left: 0;
+  position: absolute;
+  text-align: right;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    display: flex;
+    flex-direction: column;
+    height: 30px;
+    justify-content: center;
+  }
+}
+
+.PartnerItem {
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+  color: $white;
+  display: inline-block;
+  margin-right: 2px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 2px 3px 0;
+  }
+}
+
+.MainSponsorLink {
+  background: $white;
+  display: inline-block;
+  line-height: 0;
+  margin: 30px 0 $margin40;
+
+  @media (min-width: $xsBreakpoint) {
+    margin: 12px 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 75px 0;
+  }
+}
+
+.MainSponsorImage {
+  height: auto;
+  width: 75px;
+
+  @media (max-width: $xsBreakpointTo) {
+    height: 20px;
+    width: auto;
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    width: 92px;
+  }
+}

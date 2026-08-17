@@ -1,0 +1,6 @@
+.ButtonsWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin8;
+  justify-content: flex-end;
+}

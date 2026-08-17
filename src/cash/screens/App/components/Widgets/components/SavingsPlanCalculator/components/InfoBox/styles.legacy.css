@@ -1,0 +1,74 @@
+.Toggle {
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  background: #ecfafc;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: -$margin16;
+  padding: 8px;
+
+  span {
+    align-items: center;
+    display: flex;
+  }
+
+  &.IsOpen {
+    border-radius: 4px 4px 0 0;
+    margin-bottom: 0;
+  }
+}
+
+.IconInfo {
+  color: $secondaryA;
+  font-size: 1.5rem;
+  margin-right: 8px;
+}
+
+.IconToggle {
+  color: $secondaryA;
+  font-size: 1.5rem;
+  margin-top: 2px;
+  transition: transform 0.4s ease;
+
+  &.IsOpen {
+    margin-top: 0;
+    transform: rotate(180deg);
+  }
+}
+
+.Content {
+  background: $transparent;
+  border-radius: 0 0 4px 4px;
+  color: $transparent;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 8px 8px 12px;
+  transform: translateY(-40px);
+  transition: color 0.4s ease, transform 0.4s ease;
+
+  p:not(:last-child) {
+    margin-bottom: 8px;
+  }
+
+  b {
+    font-weight: bold;
+  }
+
+  i {
+    display: block;
+    font-style: italic;
+    margin-top: 16px;
+  }
+
+  &.IsOpen {
+    background: #ecfafc;
+    color: $blackB;
+    max-height: 1000px; /* Large enough value to accommodate the content */
+    opacity: 1;
+    transform: translateY(0);
+  }
+}

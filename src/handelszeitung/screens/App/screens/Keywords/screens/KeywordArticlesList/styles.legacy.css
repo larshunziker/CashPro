@@ -1,0 +1,62 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.Background {
+  background-color: $greyE;
+  height: 265px;
+  position: absolute;
+  width: 100%;
+  z-index: $zIndexBackground;
+
+  @media (min-width: $smBreakpoint) {
+    height: 270px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 345px;
+  }
+}
+
+.OverviewLink {
+  composes: MobileToggle from 'AlphabeticNavigation/styles.legacy.css';
+  display: block;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+    padding: 11px 16px;
+    width: auto;
+  }
+}
+
+.TitleWrapper {
+  align-content: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.SubscribeButtonWrapper {
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-flex;
+    margin-left: $margin24;
+    margin-top: 0;
+    transform: translateY(-3px);
+  }
+}
+
+.Title {
+  composes: KeywordsH1 from 'typography.legacy.css';
+}

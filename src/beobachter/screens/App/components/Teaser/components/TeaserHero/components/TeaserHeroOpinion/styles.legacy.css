@@ -1,0 +1,156 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+  line-height: 0;
+  min-height: 249px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 412px;
+  }
+}
+
+.ContentWrapper {
+  background-color: $greyC;
+  line-height: 0;
+  min-height: 100%;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 24px;
+  }
+}
+
+.Title {
+  composes: TeaserTitleH3 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: Lead from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+  padding-bottom: 75px;
+}
+
+.ShortTitle {
+  composes: ShortTitle from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}
+
+.AuthorWrapper {
+  bottom: 16px;
+  left: 0;
+  margin-top: 20px;
+  padding: 0 21px;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0 24px;
+  }
+}
+
+.BeoPlusLogo {
+  composes: BeoPlusLogo from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+  height: 19px;
+  width: 30px;
+}
+
+.AuthorContent {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+  }
+}
+
+.AuthorAvatar {
+  border-radius: 50%;
+  height: auto;
+  width: 58px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin8;
+  }
+}
+
+.Authors {
+  composes: AuthorBook from 'typography.legacy.css';
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  strong {
+    font-weight: 900;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.ImageWrapper {
+  height: 249px;
+  line-height: 0;
+  position: relative;
+  width: 249px;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+    min-width: 422px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-width: 732px;
+  }
+}
+
+.AuthorsImageWrapper {
+  display: flex;
+  margin-top: auto;
+}
+
+.GuideImageWrapper {
+  composes: GuideImageWrapper from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}
+
+.Image {
+  composes: Image from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LazyLoading Should render the Mehr laden label 1`] = `
+<span
+  data-testid="Lazy-Loading-load-more-wrapper"
+>
+  Mehr laden
+</span>
+`;
+
+exports[`[Component] LazyLoading Should render the Wird geladen ... label 1`] = `
+<span
+  data-testid="Lazy-Loading-loading-wrapper"
+>
+  Wird geladen ...
+</span>
+`;

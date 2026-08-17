@@ -1,0 +1,79 @@
+.LegendWrapper {
+  display: flex;
+  justify-content: flex-end;
+  padding-bottom: $margin16;
+  -webkit-tap-highlight-color: $transparent;
+}
+
+.Legend {
+  display: flex;
+  gap: 6px;
+  position: relative;
+}
+
+.LegendIcon {
+  color: $bilanzA;
+  transform: translateY(3px);
+}
+
+.TooltipWrapper {
+  background: $white;
+  border-radius: 4px;
+  box-shadow: 6px 6px 40px 0 $blackA2;
+  display: grid;
+  gap: $margin8;
+  padding: $margin8 $margin16;
+  position: absolute;
+  right: 11px;
+  -webkit-tap-highlight-color: $transparent;
+  top: 31px;
+  visibility: hidden;
+  z-index: 1;
+
+  /* tooltip triangle */
+  &::before {
+    border-color: $transparent;
+    border-bottom-color: $white;
+    border-style: solid;
+    border-width: 0 10px 13px;
+    content: '';
+    display: none;
+    height: 13px;
+    position: absolute;
+    right: 32px;
+    top: -10px;
+    width: 21px;
+    z-index: 2;
+  }
+
+  &.IsOpen {
+    visibility: visible;
+  }
+}
+
+.LegendLabel {
+  composes: InfoC from 'typography.legacy.css';
+  user-select: none;
+}
+
+.TooltipTable {
+  border-collapse: separate;
+  border-spacing: 4px 8px;
+}
+
+.LegendItem {
+  composes: InfoC from 'typography.legacy.css';
+  padding-left: 4px;
+}
+
+.LegendItemIcon {
+  transform: translateX(-4px);
+}
+
+.Positive {
+  color: $positiveA;
+}
+
+.Negative {
+  color: $errorA;
+}

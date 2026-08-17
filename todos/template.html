@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>TODOOM</title>
+    <style>
+      * {
+        -webkit-box-sizing: border-box;
+        -moz-box-sizing: border-box;
+        box-sizing: border-box;
+      }
+
+      html,
+      button,
+      input,
+      select,
+      textarea {
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+          Oxygen-Sans, Ubuntu, Cantarell, 'Helvetica Neue', sans-serif;
+      }
+
+      body {
+        line-height: 1.7em;
+        color: #fff8e1;
+        font-size: 16px;
+        background-color: #212121;
+      }
+
+      h1 {
+        font-size: 3em;
+      }
+
+      h1,
+      h2,
+      h3,
+      h4,
+      h5,
+      h6,
+      label {
+        font-weight: 300;
+        color: #dce775;
+      }
+
+      a {
+        color: #42a5f5;
+        text-decoration: none;
+      }
+
+      a:hover,
+      a:active {
+        color: #ffd54f;
+        text-decoration: underline;
+      }
+
+      .monospace {
+        font-family: SFMono-Regular, Menlo, 'Fira Code', 'Fira Code Retina',
+          Monaco, Consolas, 'Liberation Mono', 'Courier New', monospace;
+      }
+
+      .todos {
+        max-width: 1200px;
+        margin: 0 auto;
+      }
+
+      .todo {
+        background-color: #111;
+        padding: 1em;
+        margin: 0 0 2em;
+        border-radius: 5px;
+      }
+
+      header {
+        text-align: center;
+        padding-bottom: 2em;
+      }
+
+      h2 {
+        margin: 0;
+        padding: 0;
+      }
+
+      .btn {
+        color: #42a5f5;
+        text-decoration: none;
+        word-break: break-all;
+        cursor: pointer;
+      }
+
+      .btn:hover,
+      .btn:active {
+        color: #ffd54f;
+        text-decoration: underline;
+      }
+
+      .github {
+        float: right;
+      }
+
+      .success-msg {
+        position: absolute;
+        z-index: 10;
+        border-radius: 3px;
+        border-width: 1px;
+        border-color: #42a5f5;
+        border-style: solid;
+        font-size: 1em;
+        background-color: #222;
+        color: #fff8e1;
+        padding: 0 0.6em;
+        transition: opacity 1s;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>TODOOM</h1>
+      <class class="info"></class>
+    </header>
+
+    <div class="todos"></div>
+
+    <template id="todo">
+      <div class="todo">
+        <a class="btn github" target="_blank">Github</a>
+        <h2></h2>
+        <p class="text"></p>
+        <div class="btn edit">Edit</div><br />
+      </div>
+    </template>
+
+    <template id="successMsg">
+      <span class="success-msg"></span>
+    </template>
+
+    <script>
+      const todos /* TODO_DATA */;
+
+      const infoEl = document.querySelector('.info');
+      infoEl.textContent = `${todos.length} total`;
+
+      const todosEl = document.querySelector('.todos');
+      const todosFragment = document.createDocumentFragment();
+
+      const template = document.querySelector('#todo');
+      const successMsgTemplate = document.querySelector('#successMsg');
+
+      for (let index = 0; index < todos.length; index++) {
+        const clone = document.importNode(template.content, true);
+        let title = clone.querySelector('h2');
+        let text = clone.querySelector('.text');
+        let btnEdit = clone.querySelector('.edit');
+        let btnGithub = clone.querySelector('.github');
+
+        const todo = todos[index];
+
+        title.textContent = todo.title;
+        text.innerHTML = todo.comment.replace('\n', '<br>');
+        const fileUri = `${todo.file}:${todo.line}`; 
+        btnEdit.textContent = fileUri;
+        btnEdit.addEventListener('click', e => {
+          showSuccessMsg(e.pageX, e.pageY);
+          copyToClipboard(e.target.textContent);
+        });
+        btnGithub.href = `https://github.com/rasch-dtc/rasch-stack/blob/develop/${todo.file}#L${todo.line}`;
+        todosFragment.appendChild(clone);
+      }
+
+      todosEl.append(todosFragment);
+
+      const copyToClipboard = (str) => {
+        const el = document.createElement('textarea');
+        el.value = str;
+        el.setAttribute('readonly', '');
+        el.style.position = 'absolute';
+        el.style.left = '-9999px';
+        document.body.appendChild(el);
+        el.select();
+        document.execCommand('copy');
+        document.body.removeChild(el);
+      };
+
+      const showSuccessMsg = (x, y) => {
+        const clone = document.importNode(successMsgTemplate.content, true);
+        const span = clone.querySelector('span');
+        span.classList.add('success-clone');
+        span.style.left = `${x - 30}px`;
+        span.style.top = `${y + 30}px`;
+        span.textContent = 'Copied to clipboard';
+        document.body.appendChild(clone);
+
+        setTimeout(() => {
+          span.style.opacity = '0';
+          setTimeout(() => {
+            document.body.removeChild(span);
+          }, 1100);
+        }, 1500);
+      };
+    </script>
+  </body>
+</html>

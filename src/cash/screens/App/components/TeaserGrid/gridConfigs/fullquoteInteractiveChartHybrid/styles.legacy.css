@@ -1,0 +1,64 @@
+.fullquoteInteractiveChartHybrid {
+  .Grid0 {
+    background: $white;
+    display: grid;
+    grid-row-gap: $margin24;
+    grid-template-columns: repeat(24, 1fr);
+
+    .Item {
+      max-width: 100%;
+    }
+
+    .Item0 {
+      grid-area: 1 / 1 / 2 / 25;
+    }
+
+    .Item1 {
+      grid-area: 2 / 1 / 3 / 25;
+    }
+
+    .Item2 {
+      grid-area: 3 / 1 / 4 / 25;
+
+    }
+
+    .Item3 {
+      grid-area: 4 / 1 / 5 / 25;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $margin16;
+
+      .Item0 {
+        grid-area: 1 / 1 / 2 / 25;
+        min-height: 164px;
+      }
+
+      .Item1 {
+        grid-area: 2 / 1 / 3 / 25;
+      }
+
+      .Item2 {
+        grid-area: 3 / 1 / 4 / 25;
+      }
+
+      .Item3 {
+        grid-area: 4 / 1 / 5 / 25;
+      }
+    }
+  }
+}
+
+.Item0 {
+  min-height: 220px;
+}
+
+.Item1 {
+  min-height: 1030px;
+}
+
+.Item2 {
+  min-height: 35px;
+}

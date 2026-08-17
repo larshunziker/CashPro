@@ -1,0 +1,57 @@
+.AlertsUnsubscribeWrapper {
+  composes: Container from '@grid.legacy.css';
+  margin-bottom: $margin40;
+  margin-top: $margin40;
+  min-height: 200px;
+  text-align: center;
+}
+
+.LoginWrapper {
+  composes: Container from '@grid.legacy.css';
+  margin-bottom: $margin40;
+  margin-top: $margin40;
+  min-height: 200px;
+}
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin24;
+}
+
+.Img {
+  height: 50px;
+  width: 50px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 60px;
+    width: 60px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0;
+  }
+}
+
+.Text {
+  /* use Heading2A as soon as mixings work */
+
+  color: $black;
+  font-family: $fontLeJeune;
+  font-size: 2.4rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 3.2rem;
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+}

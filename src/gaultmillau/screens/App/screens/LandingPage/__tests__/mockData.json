@@ -1,0 +1,401 @@
+{
+  "id": "bm9kZToxOTA5Mw==",
+  "nid": "19093",
+  "title": "Starchefs",
+  "lead": "Der GaultMillau-Channel blickt hinter die Kulissen! Videos, Geschichten und Tipps von den besten K\u00f6chen im Land. Starchef-Interviews.",
+  "shortTitle": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "editContentUri": null,
+  "metaTitle": "Starchefs | GaultMillau",
+  "seoTitle": null,
+  "metaCanonicalUrl": "https://www.gaultmillau.ch/starchefs",
+  "metaDescription": "Der GaultMillau-Channel blickt hinter die Kulissen! Videos, Geschichten und Tipps von den besten K\u00f6chen im Land. Starchef-Interviews.",
+  "grid": {
+    "count": 2962,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZTo3MTMzNTE=",
+          "title": "Saibling fischt der Chef aus dem Lago Bianco",
+          "lead": "So geht \u00abKronenhof\u00bb Pontresina: Spitzenk\u00fcche, Spa, Wildbeobachtung, Fackelwanderungen \u0026 Eisbach-Kneippen.",
+          "shortTitle": "DER GAULTMILLAU-HOTELTEST",
+          "publicationDate": "2024-08-19T16:45:38+02:00",
+          "preferredUri": "/starchefs/saibling-fischt-der-chef-aus-dem-lago-bianco-734608",
+          "subtypeValue": "blog_l",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAxNjc6ODcxMzA3Ng==",
+            "caption": "\u003Cp\u003EHeller checkt ein Kronenhof Pontresina\u003C/p\u003E\n",
+            "image": {
+              "id": "801602",
+              "file": {
+                "id": "ZmlsZTo4Mzc3MzU6OjE2eDlfNTYwOjoxNzIyNDMyOTQx",
+                "alt": "Heller checkt ein Kronenhof Pontresina",
+                "relativeOriginPath": "/media/field_image/2024-07/heller_checkt_ein_kronenhof_pontresina.jpg",
+                "focalPointX": 1600,
+                "focalPointY": 900,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTM3MzQ=",
+          "title": "Tsch\u00fcss \u00abVerve\u00bb! Titz kocht in der Klinik Gut",
+          "lead": "15 Punkte, ein Stern: Sebastian Titz hat in Bad Ragaz einen guten Job gemacht. Neues Ziel: Fl\u00e4sch, Klinik Gut.",
+          "shortTitle": "BREAKING NEWS",
+          "publicationDate": "2024-07-30T16:55:40+02:00",
+          "preferredUri": "/starchefs/tschuss-verve-titz-kocht-in-der-klinik-gut-734991",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzkxNzQ6ODcwMjM2MQ==",
+            "caption": "\u003Cp\u003EGrand Ressort Bad Ragaz 2021\u003C/p\u003E\n",
+            "image": {
+              "id": "801432",
+              "file": {
+                "id": "ZmlsZTo4Mzc1NjA6OjE2eDlfNTYwOjoxNzIyMzQ5Njg4",
+                "alt": "Grand Ressort Bad Ragaz 2021",
+                "relativeOriginPath": "/media/field_image/2024-07/grand_ressort_bad_ragaz_2021.jpg",
+                "focalPointX": 1400,
+                "focalPointY": 933,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTMxNzI=",
+          "title": "News! Bella Tola, Hatecke in Z\u00fcrich \u0026 Martina",
+          "lead": "Die Sommer-News: Neue Chefs im historischen Hotel. Ein Talent im Engadin. Ein Kult-Metzger im Z\u00fcrcher Seefeld.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-30T09:33:25+02:00",
+          "preferredUri": "/starchefs/news-bella-tola-hatecke-in-zurich-martina-734426",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzgyMTE6ODcwMTE0Nw==",
+            "caption": "\u003Cp\u003EChez Ida, Bella Tola\u003C/p\u003E\n",
+            "image": {
+              "id": "801178",
+              "file": {
+                "id": "ZmlsZTo4MzcyOTc6OjE2eDlfNTYwOjoxNzIyMjY1Nzc2",
+                "alt": "Bella Tola",
+                "relativeOriginPath": "/media/field_image/2024-07/bella_tola.jpg",
+                "focalPointX": 1600,
+                "focalPointY": 900,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDcyNDA=",
+          "title": "\u00abDining Room\u00bb! Zu Gast bei Freunden in Cham  ",
+          "lead": "Wohnzimmer-Atmosph\u00e4re und erstklassige K\u00fcche: Christopher Knippschild \u0026 Johanna Hagen sind die Gastgeber.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-29T07:04:32+02:00",
+          "preferredUri": "/starchefs/dining-room-zu-gast-bei-freunden-in-cham-728481",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjQ4OTg6ODY5NDA4MQ==",
+            "caption": "\u003Cp\u003EThe Dining Room, Cham mit Gastgeberin Johanna Hagen und K\u00fcchenchef Christopher Knippschild\u003C/p\u003E\n",
+            "image": {
+              "id": "797859",
+              "file": {
+                "id": "ZmlsZTo4MzM4MDQ6OjE2eDlfNTYwOjoxNzIwNTE2MTkw",
+                "alt": "The Dining Room, Cham mit Gastgeberin Johanna Hagen und K\u00fcchenchef Christopher Knippschild ",
+                "relativeOriginPath": "/media/field_image/2024-07/the_dining_room_cham_mit_gastgeberin_johanna_hagen_und_kuchenchef_christopher_knippschild_.jpg",
+                "focalPointX": 1600,
+                "focalPointY": 900,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDkxMDY=",
+          "title": "\u00abIch habe nur eine Vorgabe: die Qualit\u00e4t\u00bb",
+          "lead": "Matthias Schmidberger hat im 7132 Hotel besondere Umst\u00e4nde: Besitzer Remo Stoffel gibt die K\u00fcchenrichtung vor.",
+          "shortTitle": "Starchefs",
+          "publicationDate": "2024-07-28T05:00:00+02:00",
+          "preferredUri": "/starchefs/ich-habe-nur-eine-vorgabe-die-qualitat-730353",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjkwOTE6ODY5NTU0OA==",
+            "caption": null,
+            "image": {
+              "id": "798945",
+              "file": {
+                "id": "ZmlsZTo4MzQ5NjY6OjE2eDlfNTYwOjoxNzIxMDU3Mjg4",
+                "alt": "Matthias Schmidberger Vals",
+                "relativeOriginPath": "/media/field_image/2024-07/matthias_schmidberger_vals.jpg",
+                "focalPointX": 1500,
+                "focalPointY": 1000,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDczNjE=",
+          "title": "Verlosung: Genussmarkt \u0026 \u00dcbernachtung f\u00fcr 2!",
+          "lead": "Mitmachen \u0026 Gewinnen. Culinary Market im \u00abCaspar\u00bb\u00a0Muri AG. Sebastian Rabe pr\u00e4sentiert am 8.9. sechs Topk\u00f6che.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-28T05:00:00+02:00",
+          "preferredUri": "/starchefs/verlosung-genussmarkt-ubernachtung-fur-2-728602",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjUyMDY6ODY4ODMxMA==",
+            "caption": "\u003Cp\u003ECulinary Market, Caspar, Muri, Verlosung\u003C/p\u003E\n",
+            "image": {
+              "id": "797914",
+              "file": {
+                "id": "ZmlsZTo4MzM4NTk6OjE2eDlfNTYwOjoxNzIwNTMwNDE2",
+                "alt": "Culinary Market, Caspar, Muri, Verlosung",
+                "relativeOriginPath": "/media/field_image/2024-07/caspar_muri_culinary_market.jpg",
+                "focalPointX": 693,
+                "focalPointY": 462,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDY4OTQ=",
+          "title": "16 Punkte! Ein Kloster-Koch startet durch",
+          "lead": "Hamburger, Scampi, Seeteufel: Pascal Schwarz vom Klostergasthaus L\u00f6wen in St. Urban LU ist \u00abKoch des Monats\u00bb.",
+          "shortTitle": "KOCH DES MONATS I POWERED BY MERCEDES-BENZ",
+          "publicationDate": "2024-07-28T05:00:00+02:00",
+          "preferredUri": "/starchefs/16-punkte-ein-kloster-koch-startet-durch-728126",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjQ1NTY6ODcwMTU2NQ==",
+            "caption": "\u003Cp\u003ENegral, St.Urban\u003C/p\u003E\n",
+            "image": {
+              "id": "797723",
+              "file": {
+                "id": "ZmlsZTo4MzM2NjU6OjE2eDlfNTYwOjoxNzIwNDQ5MDk4",
+                "alt": "Negral, St.Urban",
+                "relativeOriginPath": "/media/field_image/2024-07/negral_st.urban.jpg",
+                "focalPointX": 1600,
+                "focalPointY": 900,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDQzNDg=",
+          "title": "Dolder: Hummer, Kaninchen, Krautwickel \u0026 Masu",
+          "lead": "Wie gut isst man im \u00abHotel des Jahres 2024\u00bb? GaultMillau-Chef Urs Heller checkte im \u00abDolder Grand\u00bb Z\u00fcrich ein.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-28T05:00:00+02:00",
+          "preferredUri": "/starchefs/dolder-hummer-kaninchen-krautwickel-masu-725578",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjAzMDE6ODY4ODI5OA==",
+            "caption": "\u003Cp\u003E28.08.2023 - Z\u00fcrich - Hotel des Jahres Dolder Grand. Gault Millau 2024, v.l Heiko Nieder mit seinem Kochteam v.l Julian Mai mit Atsushi Hlraoka und Robin Briner\u003C/p\u003E\n",
+            "image": {
+              "id": "796617",
+              "file": {
+                "id": "ZmlsZTo4MzI1MTY6OjE2eDlfNTYwOjoxNzE5OTE1NjU0",
+                "alt": "28.08.2023 - Z\u00fcrich - Hotel des Jahres Dolder Grand. Gault Millau 2024, v.l Heiko Nieder mit seinem Kochteam v.l Julian Mai mit Atsushi Hlraoka und Robin Briner",
+                "relativeOriginPath": "/media/field_image/2024-07/gault_millau_-_hotel_des_jahres.jpg",
+                "focalPointX": 2250,
+                "focalPointY": 390,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MTI0MjE=",
+          "title": "Grandios: Eppissers Pop-up im \u00abSablier\u00bb!",
+          "lead": "Das Ehepaar bringt erneut Asien als kulinarisches Feuerwerk nach Z\u00fcrich. Die Weine? Sind von Markus Segm\u00fcller.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-27T09:18:43+02:00",
+          "preferredUri": "/starchefs/grandios-eppissers-pop-up-im-sablier-733675",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMzYzNDU6ODY5MjUzMA==",
+            "caption": "\u003Cp\u003EEppissers am Markt\u003C/p\u003E\n",
+            "image": {
+              "id": "800700",
+              "file": {
+                "id": "ZmlsZTo4MzY4MDc6OjE2eDlfNTYwOjoxNzIxOTE3MTQ5",
+                "alt": "Eppissers am Markt",
+                "relativeOriginPath": "/media/field_image/2024-07/eppissers_am_markt.jpg",
+                "focalPointX": 2000,
+                "focalPointY": 987,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDM1NDk=",
+          "title": "Das Taggenberg-Team und seine tolle Terrasse",
+          "lead": "Gastgeber Filip Strobl vom Das Taggenberg setzt neu auf K\u00fcchenchef Andreas Laufer. Das passt: 14 Punkte.",
+          "shortTitle": "STARCHEFS",
+          "publicationDate": "2024-07-26T06:00:00+02:00",
+          "preferredUri": "/starchefs/das-taggenberg-team-und-seine-tolle-terrasse-724773",
+          "subtypeValue": "journalistic",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxNTcw",
+            "title": "Starchefs",
+            "__typename": "Channel"
+          },
+          "sponsor": null,
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMTY2MjQ6ODY4NTI2OA==",
+            "caption": "\u003Cp\u003EDas Taggenberg\u003C/p\u003E\n",
+            "image": {
+              "id": "795694",
+              "file": {
+                "id": "ZmlsZTo4MzE1MzU6OjE2eDlfNTYwOjoxNzE5Mzk1NTI2",
+                "alt": "Das Taggenberg",
+                "relativeOriginPath": "/media/field_image/2024-06/das_taggenberg.jpg",
+                "focalPointX": 900,
+                "focalPointY": 506,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "__typename": "LandingPage"
+}

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Paragraphs - TextParagraph default factory Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph text-paragraph TestWrapperClass"
+    data-testid="textparagraph-outer-div"
+  >
+    <div
+      class="TestHeaderClass"
+      data-testid="textparagraph-header"
+    >
+      TextHeader
+    </div>
+    <div
+      data-testid="textparagraph-text"
+    >
+      Man trifft hier immer bekannte Gesichter
+    </div>
+  </div>
+</div>
+`;

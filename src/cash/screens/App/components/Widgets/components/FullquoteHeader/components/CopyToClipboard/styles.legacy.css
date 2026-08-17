@@ -1,0 +1,44 @@
+.Button {
+  composes: InfoC from 'typography.legacy.css';
+  border: none;
+  color: $greyA;
+  cursor: pointer;
+  padding-left: 0;
+  position: relative;
+}
+
+.Icon {
+  color: $secondaryA;
+  margin-left: 4px;
+  position: absolute;
+  top: 3px;
+  width: 12px;
+  
+  path {
+    fill: $secondaryA;
+  }
+}
+
+.Info {
+  border-bottom: 13px solid $blackB;
+  border-left: 11px solid transparent;
+  border-radius: 4px;
+  border-right: 11px solid transparent;
+  bottom: -10px;
+  content: '';
+  height: 0;
+  left: -5px;
+  margin: auto;
+  position: absolute;
+  width: 0;
+
+  span {
+    background-color: $blackB;
+    border-radius: 4px;
+    color: $white;
+    left: -30px;
+    padding: 8px;
+    position: absolute;
+    top: 10px;
+  }
+}

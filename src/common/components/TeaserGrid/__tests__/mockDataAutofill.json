@@ -1,0 +1,73 @@
+{
+  "gridGroups": [
+    {
+      "config": {
+        "hasContainer": false,
+        "autoFill": true
+      },
+      "items": [
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "teaser/layout-wide",
+          "downloadPriority": "high"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "title": "mockData1"
+    },
+    {
+      "title": "mockData2"
+    },
+    {
+      "title": "mockData3"
+    },
+    {
+      "title": "mockData4"
+    },
+    {
+      "title": "mockData5"
+    },
+    {
+      "title": "mockData6"
+    },
+    {
+      "title": "mockData7"
+    },
+    {
+      "title": "mockData8"
+    }
+  ]
+}

@@ -1,0 +1,1137 @@
+strong {
+  font-weight: bold;
+}
+
+p {
+  margin-top: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: $bodyFontSize;
+  margin: 0;
+  padding: 0;
+}
+
+.AuthorDate {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  letter-spacing: -0.08px;
+  line-height: 1.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    letter-spacing: -0.08px;
+    line-height: 2.5rem;
+  }
+}
+
+.AuthorDateBook {
+  composes: AuthorDate;
+  font-family: $fontGothamBook;
+}
+
+.AuthorDateBlack {
+  composes: AuthorDate;
+  font-family: $fontGothamBlack;
+}
+
+.BoxTitle {
+  @mixin BoxTitle;
+}
+
+.BoxTitleSmall {
+  @mixin BoxTitleSmall;
+}
+
+.Button {
+  color: $white;
+  font-family: $fontGothamBlack;
+  font-size: 1.4rem;
+  font-weight: 900;
+  text-align: center;
+  text-decoration: none;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.ChannelTitle {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 3rem;
+  letter-spacing: -0.04px;
+  line-height: 3.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    letter-spacing: -0.15px;
+    line-height: 3.8rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.6rem;
+  }
+}
+
+.ChannelTitleWhite {
+  composes: ChannelTitle;
+  color: $white;
+}
+
+.ChapterTitle {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.9rem;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 1.8rem;
+  }
+}
+
+.ChapterTitleInactive {
+  composes: ChapterTitle;
+  color: $greyA;
+}
+
+.FooterParagraphWhite {
+  color: $white;
+  font-family: $fontGothamBook;
+  font-size: 1.7rem;
+  letter-spacing: -0.25px;
+}
+
+.Claim {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.3rem;
+  letter-spacing: 0.09px;
+  line-height: 1.7rem;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    letter-spacing: 0.1px;
+    line-height: 2rem;
+  }
+}
+
+.ClaimGrey {
+  composes: Claim;
+  color: $greyA;
+}
+
+.ClaimWhite {
+  composes: Claim;
+  color: $white;
+}
+
+.DescriptionBig {
+  color: $greyB;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 4rem;
+  }
+}
+
+.TeaserLeadBlack {
+  color: $blackA;
+  font-family: $fontGotham;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+}
+
+.TeaserTitle {
+  color: $blackA;
+  font-family: $fontGothamBlack;
+  font-weight: bold;
+}
+
+.TeaserTitleH1 {
+  composes: TeaserTitle;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+}
+
+.H1 {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 2.5rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    letter-spacing: -0.64px;
+    line-height: 4.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    letter-spacing: -0.8px;
+    line-height: 5.5rem;
+  }
+}
+
+.H1White {
+  composes: H1;
+  color: $white;
+}
+
+.H2 {
+  @mixin H2;
+}
+
+.H2Center {
+  @mixin H2Center;
+}
+
+.H2White {
+  composes: H2;
+  color: $white;
+}
+
+.H3 {
+  color: $blackB;
+  font-family: $fontGothamNarrow;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+}
+
+.H3White {
+  composes: H3;
+  color: $white;
+}
+
+.H3Light {
+  composes: H3;
+  color: $greyA;
+}
+
+.H3Extended {
+  font-family: $fontGothamBlack;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+}
+
+.H3ExtendedWhite {
+  composes: H3Extended;
+  color: $white;
+}
+
+.H4 {
+  @mixin H4;
+}
+
+/* same as H4 but not growing over VP's
+was used for the partner inhalte on the right article column */
+.H4b {
+  color: $blackB;
+  font-family: $fontGothamNarrow;
+  font-size: 1.6rem;
+  line-height: 2rem;
+}
+
+.H4Light {
+  composes: H4;
+  color: $greyA;
+}
+
+.H4White {
+  composes: H4;
+  color: $white;
+}
+
+.H5 {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+.H5White {
+  composes: H5;
+  color: $white;
+}
+
+.H5Light {
+  composes: H5;
+  color: $greyA;
+  font-family: $fontGothamBook;
+  line-height: 1.9rem;
+}
+
+.H5LightInactive {
+  composes: H5Light;
+}
+
+.H6 {
+  color: $greyA;
+  font-family: $fontGothamBlack;
+  font-size: 1.6rem;
+  letter-spacing: 0.63px;
+  line-height: 2.2rem;
+}
+
+.Header {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  line-height: 1.8rem
+}
+
+.HeaderWhite {
+  composes: Header;
+  color: $white;
+}
+
+.HeaderSmall {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  letter-spacing: -0.2px;
+  line-height: 1.4rem
+}
+
+.ImageParagraph {
+  color: $greyB;
+  font-family: $fontGothamBook;
+  font-size: 1.4rem;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.ImageParagraphBlack {
+  composes: ImageParagraph;
+  color: $greyB;
+}
+
+.ImageParagraphMeta {
+  color: $greyB;
+  font-family: $fontGothamBook;
+  font-size: 1rem;
+  line-height: 1.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    letter-spacing: 0.08px;
+    line-height: 1.9rem;
+  }
+}
+
+.ImageParagraphMetaBold {
+  composes: ImageParagraphMeta;
+  font-family: $fontGothamBlack;
+}
+
+.ImageParagraphMetaBlack {
+  composes: ImageParagraphMeta;
+  color: $greyB;
+}
+
+.InfoH1Black {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.3rem;
+    line-height: 3rem;
+  }
+}
+
+.InfoH2Black {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+}
+
+.InfoH2Grey {
+  composes: InfoH2Black;
+  color: $greyA;
+}
+
+.InfoParagraphBlack {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.InfoParagraphBlackCenter {
+  composes: InfoParagraphBlack;
+  text-align: center;
+}
+
+.InfoParagraphBlue {
+  composes: InfoParagraphBlack;
+  color: $blue;
+}
+
+.InfoParagraphBlackUppercase {
+  composes: InfoParagraphBlack;
+  text-transform: uppercase;
+}
+
+.InfoParagraphGrey {
+  composes: InfoParagraphBlack;
+  color: $greyC;
+}
+
+.InfoParagraphWhite {
+  composes: InfoParagraphBlack;
+  color: $white;
+}
+
+.InfoParagraphLink {
+  color: $blackB;
+  font-family: $fontGothamNarrow;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  text-decoration: underline;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.ParagraphError {
+  color: $errorA;
+  font-family: $fontGothamBook;
+  font-size: 1.2rem;
+}
+
+.ParagraphErrorLight {
+  composes: ParagraphError;
+  color: $errorB;
+}
+
+.Initial {
+  color: $greyB;
+  font-family: $fontGothamBlack;
+  font-size: 10.4rem;
+  line-height: 12rem;
+}
+
+.KeywordsH1 {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 3rem;
+  letter-spacing: -0.37px;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4.5rem;
+    letter-spacing: -0.16px;
+    line-height: 5rem;
+  }
+}
+
+.KeywordsH2 {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 2.8rem;
+  letter-spacing: -0.4px;
+  line-height: 3.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    letter-spacing: -0.16px;
+    line-height: 4.5rem;
+  }
+}
+
+
+.Lead {
+  color: $blackA;
+  font-family: $fontGotham;
+  font-size: 1.8rem;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 3.2rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Lead1 {
+  @mixin Lead1;
+  color: $blackB;
+}
+
+.Lead1Grey {
+  composes: Lead1;
+  color: $greyC;
+}
+
+.Lead2 {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.3rem;
+  line-height: 1.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.Lead2White {
+  composes: Lead2;
+  color: $white;
+}
+
+.Lead2Grey {
+  composes: Lead2;
+  color: $greyA;
+}
+
+.Lead2BlackName {
+  composes: Lead2;
+  font-family: $fontGothamBlack;
+}
+
+.Publishingdate {
+  color: $greyA;
+  font-family: $fontGotham;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.Menu {
+  color: $white;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  letter-spacing: -0.5px;
+  line-height: 1.8rem;
+}
+
+.Metadata {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+}
+
+.Meta1 {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    letter-spacing: -0.1px;
+    line-height: 1.9rem;
+  }
+}
+
+.Meta3 {
+  font-family: $fontGothamBook;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.Meta3White {
+  composes: Meta3;
+  color: $white;
+}
+
+.Meta3Black {
+  composes: Meta3;
+  color: $blackB;
+}
+
+.Meta3Light {
+  composes: Meta3;
+  color: $greyB;
+}
+
+.Meta3WhiteBold {
+  color: $white;
+  font-family: $fontGothamBlack;
+  font-size: 1.4rem;
+  line-height: 1.9rem;
+}
+
+.Meta4WhiteBold {
+  color: $white;
+  font-family: $fontGothamNarrow;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.Paragraph {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 1.7rem;
+  letter-spacing: -0.1px;
+  line-height: 1.471em;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    letter-spacing: -0.1px;
+    line-height: 3.2rem;
+  }
+}
+
+.ParagraphBold {
+  composes: Paragraph;
+  font-weight: 700;
+}
+
+.PersonQuoteBook {
+  font-family: $fontGothamBook;
+  font-size: 4.4rem;
+  line-height: 4.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 6rem;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 6.5rem;
+    line-height: 7rem;
+  }
+}
+
+.PersonQuote {
+  font-family: $fontGotham;
+  font-size: 2.4rem;
+  line-height: 3.5rem;
+}
+
+.QuoteAuthor {
+  color: $greyB;
+  font-family: $fontGothamBlack;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    letter-spacing: 0.62px;
+    line-height: 1.7rem;
+  }
+}
+
+.QuoteMain {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 2.1rem;
+  letter-spacing: -0.09px;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.7rem;
+    letter-spacing: -0.1px;
+    line-height: 3.7rem;
+  }
+}
+
+.CategoryNavigationH1 {
+  /* rubriken_navigation_h1 */
+  color: $blackA;
+  font-family: $fontGothamBlack;
+  font-size: 1.7rem;
+  letter-spacing: 0.57px;
+  line-height: 2.2rem;
+}
+
+.CategoryNavigationH2 {
+  /* rubriken_navigation_h2 */
+  color: $greyA;
+  font-family: $fontGothamBlack;
+  font-size: 1.5rem;
+  line-height: 4.3rem;
+}
+
+.CategoryParagraph {
+  /* rubriken_navigation_paragraph */
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.7rem;
+  line-height: 4.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    line-height: 4rem;
+  }
+}
+
+.CategoryParagraphWhite {
+  /* rubriken_navigation_paragraph */
+  composes: CategoryParagraph;
+  color: $white;
+}
+
+.Subtitle {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.6rem;
+  letter-spacing: -0.09px;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+    letter-spacing: -0.02px;
+    line-height: 2.5rem;
+  }
+}
+
+.ContentBoxBig {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 2.1rem;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 2.4rem;
+  }
+}
+
+.ContentBoxSmall {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+.ContentBoxSmallLight {
+  color: $greyB;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+.Themes {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  letter-spacing: -0.1px;
+  line-height: 2.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    letter-spacing: -0.11px;
+    line-height: 2.9rem;
+  }
+}
+
+.ThemesNumbers {
+  color: $greyA;
+  font-family: $fontGothamBlack;
+  font-size: 2.1rem;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.3rem;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 2.4rem;
+  }
+}
+
+.ThemesParagraph {
+  color: $blackA;
+  font-family: $fontGothamBook;
+  font-size: 1.6rem;
+  letter-spacing: 0.18px;
+  line-height: 1.9rem;
+}
+
+.ThemesTitle {
+  color: $greyA;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  line-height: 1.4rem;
+}
+
+.ThemesTitleInactive {
+  composes: ThemesTitle;
+  color: $greyB;
+}
+
+.ShortTitle {
+  /* spitzmarke */
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.1rem;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+  }
+}
+
+.ShortTitleWhite {
+  composes: ShortTitle;
+  color: $white;
+}
+
+.ShortTitleA {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+  }
+}
+
+.ShortTitleBGreyA {
+  composes: ShortTitleA;
+  color: $greyA;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+  }
+}
+
+.ShortTitleBWhite{
+  composes: ShortTitleBGreyA;
+  color: $white;
+}
+
+.ShortTitleC {
+  composes: ShortTitleA;
+  font-size: 1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+    line-height: 1.6rem;
+  }
+}
+
+.ShortTitleD {
+  composes: ShortTitleC;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1rem;
+    letter-spacing: 0.5px;
+    line-height: 1.2rem;
+  }
+}
+
+.ShortTitleBAdvertorial {
+  composes: ShortTitleBGreyA;
+  background-color: $decoB;
+  border-radius: 4px;
+  padding: 0 $margin4;
+  width: fit-content;
+}
+
+.ShortTitleBNativeAd {
+  composes: ShortTitleBAdvertorial;
+  background-color: $decoA;
+}
+
+.ShortTitleDAdvertorial {
+  composes: ShortTitleD;
+  background-color: $decoB;
+  border-radius: 4px;
+  padding: 2px $margin4;
+  width: fit-content;
+}
+
+.ShortTitleDNativeAd {
+  composes: ShortTitleDAdvertorial;
+  background-color: $decoA;
+}
+
+.PersonH1 {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 2.7rem;
+  line-height: 3.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+}
+
+.PersonH2 {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 2.2rem;
+  letter-spacing: -0.1rem;
+  line-height: 2.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 4rem;
+  }
+}
+
+.PersonH3 {
+  color: $blackB;
+  font-family: $fontGothamBlack;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-decoration: none;
+}
+
+.SelectFieldParagraph {
+  composes: PersonQuote;
+  color: $blackB;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.8rem;
+  }
+}
+
+.InfoA {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+.InfoABlack {
+  composes: InfoA;
+  font-family: $fontGothamBlack;
+  font-weight: 900;
+}
+
+.InfoB {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.1rem;
+}
+
+.InfoBBlack {
+  composes: InfoB;
+  font-family: $fontGothamBlack;
+  font-weight: 900;
+}
+
+.InfoC {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 1.9rem;
+}
+
+.InfoCBlack {
+  composes: InfoC;
+  font-family: $fontGothamBlack;
+  font-weight: 900;
+}
+
+.InfoD {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.6rem;
+}
+
+.InfoDBlack {
+  composes: InfoD;
+  font-family: $fontGothamBlack;
+  font-weight: 900;
+}
+
+.InfoE {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+.InfoEBlack {
+  composes: InfoE;
+  font-family: $fontGothamBlack;
+  font-weight: 900;
+}
+
+.CreditsWhite {
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  letter-spacing: -0.2px;
+  line-height: 1.3rem;
+}
+
+.ButtonPrimaryBig {
+  @mixin ButtonPrimaryBig;
+}
+
+.ButtonPrimarySmall {
+  @mixin ButtonPrimarySmall;
+}
+
+.ButtonSecondaryBig {
+  @mixin ButtonSecondaryBig;
+}
+
+.ButtonSecondarySmall {
+  @mixin ButtonSecondarySmall;
+}
+
+.ButtonTertiaryBig {
+  @mixin ButtonTertiaryBig;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.ButtonBilanzPrimaryBig {
+  @mixin ButtonBilanzPrimaryBig;
+}
+
+.ButtonBilanzPrimarySmall {
+  @mixin ButtonBilanzPrimarySmall;
+}
+
+.ButtonBilanzSecondaryBig {
+  @mixin ButtonBilanzSecondaryBig;
+}
+
+.ButtonBilanzSecondarySmall {
+  @mixin ButtonBilanzSecondarySmall;
+}
+
+.ButtonBilanzTertiaryBig {
+  @mixin ButtonBilanzTertiaryBig;
+}
+
+.ButtonBilanzTertiarySmall {
+  @mixin ButtonBilanzTertiarySmall;
+}
+
+.FormLabelABlack {
+  @mixin FormLabelABlack;
+}
+
+.FormLabelATextSecondary {
+  @mixin FormLabelATextSecondary;
+}
+
+.FormLabelBBlack {
+  @mixin FormLabelBBlack;
+}
+
+.FormLabelBError {
+  @mixin FormLabelBError;
+}
+
+.FormLabelBTextSecondary {
+  @mixin FormLabelBTextSecondary;
+}
+
+.RankA {
+  @mixin RankA;
+}
+
+.RankB {
+  @mixin RankB;
+}
+
+.RankC {
+  @mixin RankC;
+}
+
+.RankParagraph {
+  @mixin RankParagraph;
+}
+
+.InfoF {
+  @mixin InfoF;
+}

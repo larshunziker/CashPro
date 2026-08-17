@@ -1,0 +1,163 @@
+.Wrapper {
+  @mixin hideforPrint;
+  position: relative;
+}
+
+.Slide {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.SliderWrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ImageWrapper {
+  display: inline-flex;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  width: auto;
+}
+
+.Image {
+  height: auto;
+  left: 50%;
+  max-height: 405px;
+  max-width: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  position: relative;
+  transform: translate(-50%, 0);
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 395px;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 448px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0;
+    max-height: 848px;
+  }
+}
+
+.Lead {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.45;
+  margin: 20px 0;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 1.45;
+    margin: 26px 0 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 12px 0 $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 25px 0;
+    text-align: center;
+  }
+}
+
+.IndicatorWrapper {
+  height: 9px;
+  margin-block: 8px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 10px;
+    left: calc(50% - 12px);
+    margin: 0;
+    position: absolute;
+  }
+}
+
+.SwipeInteractionButton {
+  cursor: pointer;
+  pointer-events: all !important; /* stylelint-disable-line */
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.ControlWrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    column-gap: 16px;
+    display: flex;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.Basic {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  cursor: pointer;
+  filter: invert(1);
+  height: 40px;
+  margin-top: 8px;
+  outline: none;
+  padding: 0;
+  position: relative;
+  transition: filter .3s;
+  width: 40px;
+
+  &:hover {
+    background-color: $black;
+    border-radius: 50%;
+    filter: invert(0);
+
+    &::after {
+      border-radius: 50%;
+      box-shadow: inset 0 0 0 3px $black;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top:0;
+      width: 100%;
+    }
+  }
+
+  &:hover .Basic {
+    overflow: hidden;
+    transition: filter .3s;
+  }
+}
+
+.UnderSlidesWrapper {
+  column-gap: 8px;
+  display: flex;
+  justify-content: space-between;
+}

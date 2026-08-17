@@ -1,0 +1,22 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  position: relative;
+  
+  @media print {
+    display: none;
+  }
+}
+
+.Slide {
+  align-items: center;
+  display: inline-block;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+
+  @media screen and (min-width: $smBreakpoint) {
+    display: inline-flex;
+  }
+}

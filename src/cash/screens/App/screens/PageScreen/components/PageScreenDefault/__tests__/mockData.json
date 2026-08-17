@@ -1,0 +1,268 @@
+{
+  "pageScreen": {
+    "__typename": "Page",
+    "nid": "50338",
+    "id": "bm9kZTo1MDMzOA==",
+    "title": "Normal Default Test Page",
+    "lead": "Die Hypertext Markup Language (HTML, englisch für Hypertext-Auszeichnungssprache) ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von Metainformationen enthalten, z. B. über die im Text verwendeten Sprachen, den Autor oder den zusammengefassten Inhalt des Textes.",
+    "subtypeValue": "default_page",
+    "shortTitle": "this is a short title",
+    "metaTitle": "Normal Default Test Page | CASH",
+    "metaOgTitle": "Normal Default Test Page",
+    "metaDescription": "Die Hypertext Markup Language (HTML, englisch für Hypertext-Auszeichnungssprache) ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer",
+    "metaOgDescription": "Die Hypertext Markup Language (HTML, englisch für Hypertext-Auszeichnungssprache) ist eine textbasierte Auszeichnungssprache zur Strukturierung elektronischer Dokumente wie Texte mit Hyperlinks, Bildern und anderen Inhalten. HTML-Dokumente sind die Grundlage des World Wide Web und werden von Webbrowsern dargestellt. Neben den vom Browser angezeigten Inhalten können HTML-Dateien zusätzliche Angaben in Form von Metainformationen enthalten, z. B. über die im Text verwendeten Sprachen, den Autor oder den zusammengefassten Inhalt des Textes.",
+    "metaCanonicalUrl": "https://www.cash.ch/news/normal-default-test-page",
+    "canonicalUri": "/group/18/content/51909",
+    "editContentUri": "https://cms.ringiermedienschweiz.ch/node/360447/edit",
+    "editRelationUri": "https://cms.ringiermedienschweiz.ch/group/18/content/382342/edit",
+    "cloneContentUri": "https://cms.ringiermedienschweiz.ch/clone/360447/quick_clone",
+    "publication": "cash",
+    "preferredUri": "/news/normal-default-test-page",
+    "restrictionStatus": null,
+    "channel": {
+      "__typename": "Channel",
+      "id": "dGF4b25vbXlfdGVybTo3NzM4",
+      "suppressAds": false,
+      "title": "News",
+      "settings": {
+        "__typename": "TermSettings",
+        "mainChannel": {
+          "__typename": "Channel",
+          "id": "dGF4b25vbXlfdGVybTo3NzM4",
+          "title": "News"
+        }
+      }
+    },
+    "activeMenuTrail": {
+      "__typename": "ActiveMenuTrailItemConnection",
+      "edges": [
+        {
+          "__typename": "ActiveMenuTrailItemEdge",
+          "node": {
+            "__typename": "ActiveMenuTrailItem",
+            "label": "News",
+            "link": "/news"
+          }
+        },
+        {
+          "__typename": "ActiveMenuTrailItemEdge",
+          "node": {
+            "__typename": "ActiveMenuTrailItem",
+            "label": "Normal Default Test Page",
+            "link": null
+          }
+        }
+      ]
+    },
+    "teaserImage": {
+      "__typename": "ImageParagraph",
+      "id": "cGFyYWdyYXBoOmltYWdlOmNhc2hfZmFsbGJhY2s6bmV3LWpFODF2WHoz",
+      "caption": null,
+      "image": {
+        "__typename": "Image",
+        "id": "70848",
+        "credit": "cash.ch",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "ZmlsZTo3MjA4NDo6MTYwMCwxMjAwOjE2eDlfNTYwOjE=",
+          "alt": "fallback",
+          "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+          "focalPointX": 1600,
+          "focalPointY": 1200,
+          "width": 840,
+          "height": 473
+        }
+      }
+    },
+    "body": [
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2MDcwOjMwNTI2Ng==",
+        "characterCount": 132,
+        "isLastOfGroup": true,
+        "header": "Dummy Title",
+        "text": "<p>This is a <strong>dummy text</strong> because this page is only to test if the page is working as it should.</p>\n\n<p><em>What happens with italic text?</em></p>\n",
+        "styleValue": null
+      },
+      {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOjIxNjA3MTozMDUyNjc=",
+        "anchorId": null,
+        "title": null,
+        "caption": "<p>This is a caption</p>\n",
+        "alt": null,
+        "link": null,
+        "fullWidth": false,
+        "image": {
+          "__typename": "Image",
+          "id": "70756",
+          "showOriginal": false,
+          "credit": "socialmedia",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo3MTkyNjo6NjIyLDQxNTppbmxpbmVfaW1hZ2VfMTIwMDox",
+            "relativeOriginPath": "/pme/blogs/2022-02-16/enac-1.jpg",
+            "focalPointX": 622,
+            "focalPointY": 415,
+            "alt": "Les clusters au cœur de l’ENAC « Le futur doit se penser de manière collective »",
+            "width": 900,
+            "height": 600,
+            "origin": "https://dev.cash.ch/sites/default/files/pme/blogs/2022-02-16/enac-1.jpg"
+          }
+        }
+      },
+      {
+        "__typename": "ListicleItemParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOmxpc3RpY2xlX2l0ZW06MjE2MDczOjMwNTI2OQ==",
+        "title": "Listicle Item",
+        "text": "<p>Here is a Listicle Item</p>\n",
+        "footer": "<p>FOOTER</p>\n",
+        "image": {
+          "__typename": "ImageParagraph",
+          "id": "cGFyYWdyYXBoOmltYWdlOjIxNjA3MjozMDUyNjg=",
+          "caption": null,
+          "image": {
+            "__typename": "Image",
+            "id": "70755",
+            "file": {
+              "__typename": "ImageFile",
+              "id": "ZmlsZTo3MTkyNTo6NjQwLDE2MjpsYXJnZTo=",
+              "alt": "Qu’est-ce qui ronge ou amplifie efficacement ta liberté d’action en entreprise, tous les jours?",
+              "relativeOriginPath": "/pme/blogs/2022-02-16/cropped-banblog.jpg",
+              "focalPointX": 640,
+              "focalPointY": 162
+            }
+          }
+        },
+        "link": null
+      },
+      {
+        "__typename": "TeaserStageParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToyMTYwNzQ6MzA1Mjcw",
+        "style": null,
+        "termReference": null,
+        "title": null,
+        "entities": {
+          "__typename": "SearchableUnionConnection",
+          "count": 3,
+          "edges": [
+            {
+              "__typename": "SearchableUnionEdge",
+              "node": {
+                "__typename": "Article",
+                "id": "bm9kZTo1MDI5NA==",
+                "title": "Pizza keyword test (> ",
+                "lead": "pizza",
+                "changeDate": "2022-01-28T11:06:58+01:00",
+                "publicationDate": "2022-01-28T11:06:58+01:00",
+                "preferredUri": "/news/pizza-keyword-test-51860",
+                "publication": "cash",
+                "subtypeValue": "news",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "channel": {
+                  "__typename": "Channel",
+                  "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                  "title": "News"
+                },
+                "teaserImage": {
+                  "__typename": "ImageParagraph",
+                  "id": "cGFyYWdyYXBoOmltYWdlOjIxNTkxNzozMDUxMDI=",
+                  "image": {
+                    "__typename": "Image",
+                    "id": "54467",
+                    "file": {
+                      "__typename": "ImageFile",
+                      "id": "ZmlsZTo1NTEwNTo6MTExNCwxNDU4OmxhcmdlOg==",
+                      "alt": "beste pizza",
+                      "relativeOriginPath": "/beste_pizza.jpg",
+                      "focalPointX": 1114,
+                      "focalPointY": 1458
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "__typename": "SearchableUnionEdge",
+              "node": {
+                "__typename": "Article",
+                "id": "bm9kZTo1MDAzMA==",
+                "title": "Bitcoin knackt Allzeithoch: Top-Analyst verrät wie es für BTC und Co. weitergeht",
+                "lead": "Bitcoin erreicht endlich ein neues Rekordhoch. Ist die Euphorie gerechtfertigt? Ein Top-Analyst verrät es.",
+                "changeDate": "2021-11-25T10:13:59+01:00",
+                "publicationDate": "2021-11-25T10:16:02+01:00",
+                "preferredUri": "/news/bitcoin-knackt-allzeithoch-top-analyst-verrat-wie-es-fur-btc-und-co-weitergeht-51560",
+                "publication": "cash",
+                "subtypeValue": "news",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "channel": {
+                  "__typename": "Channel",
+                  "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                  "title": "News"
+                },
+                "teaserImage": {
+                  "__typename": "ImageParagraph",
+                  "id": "cGFyYWdyYXBoOmltYWdlOjIxNTkzMjozMDMzMTA=",
+                  "image": {
+                    "__typename": "Image",
+                    "id": "70151",
+                    "file": {
+                      "__typename": "ImageFile",
+                      "id": "ZmlsZTo3MDk1OTo6OTYwLDY3NDpsYXJnZTo=",
+                      "alt": "T’as pas de bitcoin ?",
+                      "relativeOriginPath": "/pme/blogs/2021-03-15/bitcoin-2007769_1920.jpg",
+                      "focalPointX": 960,
+                      "focalPointY": 674
+                    }
+                  }
+                }
+              }
+            },
+            {
+              "__typename": "SearchableUnionEdge",
+              "node": {
+                "__typename": "Article",
+                "id": "bm9kZTo0OTY2OQ==",
+                "title": "Drittquartalszahlen: Bei der UBS dürfte es weiter ziemlich rund laufen",
+                "lead": "Analysten rechnen bei der UBS mit einem erneut starken Quartal - trotz der üblichen saisonalen Schwäche. Die Grossbank stellt am morgigen Dienstag ihr Ergebnis vor..",
+                "changeDate": "2021-10-25T16:44:19+02:00",
+                "publicationDate": "2021-10-25T16:45:51+02:00",
+                "preferredUri": "/news/drittquartalszahlen-bei-der-ubs-durfte-es-weiter-ziemlich-rund-laufen-51195",
+                "publication": "cash",
+                "subtypeValue": "news",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "channel": {
+                  "__typename": "Channel",
+                  "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                  "title": "News"
+                },
+                "teaserImage": {
+                  "__typename": "ImageParagraph",
+                  "id": "cGFyYWdyYXBoOmltYWdlOjIxNDUyMDozMDAwNzA=",
+                  "image": {
+                    "__typename": "Image",
+                    "id": "70521",
+                    "file": {
+                      "__typename": "ImageFile",
+                      "id": "ZmlsZTo3MTQwMjo6NDE1LDIzODpsYXJnZTo=",
+                      "alt": "ubs",
+                      "relativeOriginPath": "/media/field_image/2021-10/ubs.jpg",
+                      "focalPointX": 415,
+                      "focalPointY": 238
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

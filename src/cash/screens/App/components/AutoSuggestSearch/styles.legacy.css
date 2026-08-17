@@ -1,0 +1,44 @@
+.Wrapper {
+  max-height: 198px;
+  outline: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: none;
+  }
+}
+
+.ResultWrapper {
+  background-color: $white;
+  border-radius: 4px;
+  margin-top: 12px;
+  overflow-y: auto;
+  position: absolute;
+  width: 100%;
+  z-index: 3;
+}
+
+.Border {
+  @mixin ChartsForPrint;
+  border: 1px solid $greyC;
+}
+
+.HasSearchResults {
+  padding-top: 10px;
+}
+
+.ResultWrapperWithoutBorder {
+  transition: height 0.4s;
+}
+
+.Error {
+  color: $errorA;
+  font-family: $fontSourceSansPro;
+  font-size: 1rem;
+  height: 100%;
+  line-height: 1;
+  margin: auto;
+  padding: 10px 0;
+  text-align: center;
+  text-overflow: ellipsis;
+}

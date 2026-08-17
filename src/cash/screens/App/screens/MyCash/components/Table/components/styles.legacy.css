@@ -1,0 +1,199 @@
+.ScrollableTable {
+  overflow: auto;
+  padding-bottom: 12px;
+
+  table {
+    margin-top: 0;
+  }
+
+  &:last-child {
+    &::after {
+      background-color: $greyD;
+      content: '';
+      display: block;
+      height: 1px;
+      width: 100%;
+    }
+  }
+
+  @media print {
+    overflow: hidden;
+    zoom: 80%;
+  }
+}
+
+.Table {
+  table-layout: auto;
+  width: 100%;
+
+  th,
+  td {
+    padding: $margin8 $margin12 $margin8 0;
+
+    &:first-child {
+      background: $white85;
+      left: 0;
+      padding-left: 0;
+      position: sticky;
+      z-index: 1;
+    }
+  }
+
+  tr {
+    position: relative;
+    z-index: 0;
+  }
+}
+
+.Header {
+  min-width: 100%;
+  width: auto;
+
+  .TableRow {
+    @mixin ContentBoxSmall;
+    border-top: none;
+    overflow-wrap: break-word;
+    position: relative;
+    text-transform: uppercase;
+    white-space: break-spaces;
+    word-break: auto-phrase;
+
+    @media print {
+      break-inside: avoid;
+    }
+
+    & > div {
+      display: inline-block;
+      position: relative;
+      white-space: break-spaces;
+      word-break: auto-phrase;
+    }
+  }
+}
+
+.Toggle {
+  color: $secondaryA;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 24px;
+  width: 30px;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.TotalsSpacer {
+  height: 40px;
+}
+
+.LoadMoreWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 16px;
+}
+
+.StickyTableHeaderContainer {
+  max-width: 100%;
+  position: sticky;
+  top: $headerHeightXs;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: calc($smBreakpoint - $outerGapSm * 2);
+    top: $headerHeightSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: calc($mdBreakpoint - $outerGapMd * 2);
+    top: $headerHeightXl;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: calc(1440px - $outerGapXl * 2);
+  }
+
+  @media print {
+    display: none;
+  }
+
+  &.IsHybrid {
+    top: 0;
+  }
+}
+
+.TableHeaderWrapper {
+  background: $white;
+  max-width: 100%;
+  opacity: 0;
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-top: 0;
+  position: relative;
+  width: 100%;
+
+  @media print {
+    overflow: hidden;
+  }
+
+  &.IsVisible {
+    opacity: 1;
+  }
+}
+
+.HeaderTable {
+  margin-top: 0;
+  overflow: visible;
+  table-layout: fixed;
+  width: 100%;
+}
+
+
+.MainTable {
+  th {
+    visibility: hidden;
+  }
+
+  @media print {
+    margin-top: 0;
+
+    th {
+      visibility: visible;
+    }
+  }
+}
+
+.UpperAlert {
+  color: $positive;
+
+  > i {
+    position: relative;
+    top: 3px;
+    transform: rotate(45deg);
+  }
+}
+
+.LowerAlert {
+  color: $errorA;
+
+  > i {
+    position: relative;
+    top: 3px;
+    transform: rotate(45deg);
+  }
+}
+
+/* TODO: find a nice solution for mobile with team/ux */
+.Sticky {
+  @media (min-width: $smBreakpoint) {
+    background: $white85;
+    left: 0;
+    position: sticky;
+    z-index: 2;
+  }
+
+  @media print {
+    position: static !important; /* stylelint-disable-line */
+  }
+}

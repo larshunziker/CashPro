@@ -1,0 +1,25 @@
+.Container {
+  overscroll-behavior: none;
+}
+
+.ContainerInit {
+  height: 0;
+  transition: height ease-in .3s;
+}
+
+.PulledContent {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+}
+
+.IconContainer {
+  margin-bottom: 2px;
+  transform: rotateX(0);
+  transition: transform .3s ease-in;
+}
+
+.Rotated {
+  transform: rotate(180deg);
+}

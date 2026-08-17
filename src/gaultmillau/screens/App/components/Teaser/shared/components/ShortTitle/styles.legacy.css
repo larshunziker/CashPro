@@ -1,0 +1,100 @@
+.Default {
+  .Type {
+    @mixin ShortTitleCNeutralA;
+
+    .Bold {
+      @mixin ShortTitleCBoldNeutralA;
+    }
+  }
+
+  .Blue {
+    @mixin ShortTitleCGradientZueri;
+
+    .Bold {
+      font-weight: 900;
+    }
+  }
+  
+  .Gold {
+    @mixin ShortTitleCGradientPrimaryA;
+
+    .Bold {
+      font-weight: 900;
+    }
+  }
+  
+  .Purple {
+    @mixin ShortTitleCGradientCaminada;
+
+    .Bold {
+      font-weight: 900;
+    }
+  }
+
+  .Pink {    
+    @mixin ShortTitleCNeutralA;
+
+    .Bold {
+      @mixin ShortTitleCBoldNeutralA;
+    }
+  }
+}
+
+.ShortTitleWrapper {
+  display: block;
+}
+
+.PopIconWrapper {
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 10px;
+  }
+}
+
+.PopIcon {
+  height: 30px;
+  left: 50%;
+  margin-left: -15px;
+  position: absolute;
+  top: -36px;
+  width: 30px;
+  z-index: 1;
+
+  @media (min-width: $mdBreakpoint) {
+    top: -40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 40px;
+    margin-left: -20px;
+    top: -48px;
+    width: 40px;
+  }
+}
+
+.Hero {
+  .Type {
+    @mixin ShortTitleBNeutralA;
+  }
+
+  .Blue {
+    @mixin ShortTitleBNeutralA;
+  }
+  
+  .Gold {
+    @mixin ShortTitleBNeutralA;   
+  }
+  
+  .Purple {
+    @mixin ShortTitleBNeutralA;
+  }
+
+  .Pink {
+    @mixin ShortTitleBNeutralA;
+  }
+}
+
+.NewLabel {
+  composes: NewLabel from 'App/screens/Organization/screens/Restaurant/styles.legacy.css';
+}

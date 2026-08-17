@@ -1,0 +1,474 @@
+{
+  "article": {
+    "id": "bm9kZToxOTMzNA==",
+    "gcid": "1234",
+    "title": "Prinz Harry kümmert sich um Dianas Herzensprojekt",
+    "lead": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "shortTitle": "Kampf gegen HIV",
+    "seoTitle": null,
+    "metaTitle": "Prinz Harry kümmert sich um Dianas Herzensprojekt | Schweizer Illustrierte",
+    "metaDescription": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "metaOgTitle": "Prinz Harry kümmert sich um Dianas Herzensprojekt | Schweizer Illustrierte",
+    "keywords": {
+      "edges": [
+        {
+          "node": {
+            "label": "Royals",
+            "preferredUri": "/dossier/royals",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        },
+        {
+          "node": {
+            "label": "Roger Federer",
+            "preferredUri": "/dossier/roger-federer",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        },
+        {
+          "node": {
+            "label": "fashion",
+            "preferredUri": "/dossier/fashion",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        }
+      ],
+      "__typename": "KeywordConnection"
+    },
+    "metaOgDescription": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "metaCanonicalUrl": "",
+    "changeDate": "2018-08-22T10:26:40",
+    "publicationDate": "2018-07-25T10:00:00",
+    "preferredUri": "/people/prinz-harry-kummert-sich-um-dianas-herzensprojekt",
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToyNTc5",
+      "title": "People",
+      "channelType": null,
+      "sponsors": {
+        "edges": [
+          {
+            "node": {
+              "teaserImage": {
+                "caption": "Fahr lieber Audi",
+                "link": {
+                  "path": "https://www.volkswagen.ch/de.html",
+                  "__typename": "Link"
+                },
+                "image": {
+                  "file": {
+                    "alt": "Volkswagen",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/volkswagen.png",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "backgroundImage": {
+                "file": {
+                  "alt": "vw-12-1-banner",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/vwbanner.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "Sponsor"
+            },
+            "__typename": "SponsorEdge"
+          }
+        ],
+        "__typename": "SponsorConnection"
+      },
+      "settings": {
+        "mainChannel": {
+          "id": "dGF4b25vbXlfdGVybToyNTc5",
+          "title": "People",
+          "__typename": "Channel"
+        },
+        "__typename": "TermSettings"
+      },
+      "landingPage": {
+        "id": "bm9kZToxOTI1MQ==",
+        "preferredUri": "/people",
+        "__typename": "LandingPage"
+      },
+      "authors": {
+        "edges": [
+          {
+            "node": {
+              "id": "YXV0aG9yOjk1NjI=",
+              "name": "Zoe Torinesi",
+              "description": "\u003Cp\u003EAt age 21, Zoe decided to start an apprenticeship to a travel agent\u00a0and\u00a0successfully graduated in 2004.\u00a0\u003C/p\u003E\n",
+              "imageParagraph": {
+                "image": {
+                  "file": {
+                    "alt": "zoe",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/zoe.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Author"
+            },
+            "__typename": "AuthorEdge"
+          }
+        ],
+        "__typename": "AuthorConnection"
+      },
+      "__typename": "Channel"
+    },
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+            "label": "People",
+            "link": "/people",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpRd016RTFNamsw",
+            "label": "Kampf gegen HIV: Prinz Harry kümmert sich um Dianas Herzensprojekt",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "teaserImage": {
+      "id": "test1234",
+      "image": {
+        "file": {
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/web-gettyimages-111145872.jpg.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "subtypeValue": null,
+    "authorPrefix": "by",
+    "body": [
+      {
+        "anchorId": null,
+        "id": "179229",
+        "header": null,
+        "text": "<p>Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. <strong>Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.</strong></p>\n\n<p>Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. <strong>Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. </strong>Prinzessin Diana <span style=\"font-size: 1em;\">erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. <strong>Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.</strong> Die Fotos aus dem Spital gingen um die Welt.</span></p>\n",
+        "__typename": "TextParagraph"
+      }
+    ],
+    "showAuthorBox": false,
+    "authors": {
+      "edges": [],
+      "__typename": "AuthorConnection"
+    },
+    "heroImageBody": [
+      {
+        "anchorId": null,
+        "id": "179230",
+        "format": "landscape",
+        "caption": null,
+        "image": {
+          "credit": "asdfadsf",
+          "file": {
+            "alt": "a",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/web-gettyimages-111145872.jpg.jpg",
+            "width": 480,
+            "height": 321,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "recommendations": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTQ2MQ==",
+            "title": "Das ist der Titel für das neue Keyword",
+            "preferredUri": "/people/das-ist-der-titel-fur-das-neue-keyword",
+            "shortTitle": "Neuer Testartikel für Keyword",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Federer freut sich",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/2018-09/federer.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ1Ng==",
+            "title": "Zum testen des Timestamps",
+            "preferredUri": "/people/zum-testen-des-timestamps",
+            "shortTitle": "Neuer Artikel",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "(160121) -- BERLIN, Jan. 21, 2016 (Xinhua) -- Models display creations of Italian brand DIMITRI during the Mercedes-Benz Fashion Week Berlin Autumn/Winter 2016 in Berlin, capital of Germany, on Jan. 21, 2016. The Mercedes-Benz Fashion Week Berlin Autumn/Winter 2016 kicked off on Tuesday. (Xinhua/Zhang Fan)",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/berlin_fashion_week.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ4MA==",
+            "title": "This is the Webform Article",
+            "preferredUri": "/people/webform-article",
+            "shortTitle": "Article with Webform",
+            "badgeLabel": null,
+            "badgeColor": null,
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjg5MjI=",
+                    "name": "Nina Homberger",
+                    "description": null,
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Dürre",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/2018-09/web-nr-4916.jpg.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ1Mg==",
+            "title": "New Roger Federer Article just for fun",
+            "preferredUri": "/people/new-roger-federer-article-just-fun",
+            "shortTitle": "new rf article",
+            "badgeLabel": "new new",
+            "badgeColor": "petrol",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "new media",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/new_media.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTQ1MQ==",
+            "title": "Another Roger Federer Article",
+            "preferredUri": "/people/another-roger-federer-article",
+            "shortTitle": "Another",
+            "badgeLabel": "new",
+            "badgeColor": "petrol",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjc5MzU=",
+                    "name": "Fondazione Hermann Hesse Montagnola",
+                    "description": null,
+                    "imageParagraph": null,
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Federer freut sich",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/2018-09/federer.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTM5MA==",
+            "title": "The People Article",
+            "preferredUri": "/people/people-article",
+            "shortTitle": "Test People Article",
+            "badgeLabel": "Fooo",
+            "badgeColor": "black",
+            "hasVideo": true,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToyNTc5",
+              "channelType": null,
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "__typename": "Channel"
+            },
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Honolulu",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/waikiki-honolulu.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "RelatedContentUnionEdge"
+        }
+      ],
+      "__typename": "RelatedContentUnionConnection"
+    },
+    "__typename": "Article"
+  }
+}

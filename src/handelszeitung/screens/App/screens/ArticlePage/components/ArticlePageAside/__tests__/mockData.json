@@ -1,0 +1,352 @@
+{
+  "props": {
+    "id": "bm9kZTo3MTM5MDc=",
+    "gcid": "735164",
+    "nid": "713907",
+    "title": "SNB-Gewinn schrumpft auf 56,8 Milliarden Franken",
+    "publication": "handelszeitung",
+    "lead": "Die Schweizerische Nationalbank hat im zweiten Quartal einen kleinen Verlust erlitten. Für das ganze erste Halbjahr resultiert jedoch ein Plus von 56,8 Milliarden.",
+    "shortTitle": "Zwischenergebnis der Nationalbank",
+    "metaTitle": "SNB-Gewinn schrumpft auf 56,8 Milliarden Franken | Handelszeitung",
+    "seoTitle": null,
+    "editContentUri": null,
+    "editRelationUri": null,
+    "cloneContentUri": null,
+    "socialMediaTitle": null,
+    "canonicalUri": "/group/3/content/735164",
+    "ampUrl": "/newsticker/snb-gewinn-schrumpft-auf-568-milliarden-franken-735164/amp",
+    "metaDescription": "Die Schweizerische Nationalbank hat im zweiten Quartal einen kleinen Verlust erlitten. Für das ganze erste Halbjahr resultiert jedoch ein Plus von 56,8",
+    "metaKeywords": "Geldpolitik",
+    "time2read": 55,
+    "source": null,
+    "keywords": {
+      "edges": [
+        {
+          "node": {
+            "label": "Geldpolitik",
+            "tid": "36351",
+            "__typename": "Keyword"
+          },
+          "__typename": "KeywordEdge"
+        }
+      ],
+      "__typename": "KeywordConnection"
+    },
+    "authorPrefix": "by",
+    "metaOgTitle": "SNB-Gewinn schrumpft auf 56,8 Milliarden Franken",
+    "metaOgDescription": "Die Schweizerische Nationalbank hat im zweiten Quartal einen kleinen Verlust erlitten. Für das ganze erste Halbjahr resultiert jedoch ein Plus von 56,8 Milliarden.",
+    "changeDate": "2024-07-31T07:37:02+02:00",
+    "createDate": "2024-07-31T07:37:00+02:00",
+    "publicationDate": "2024-07-31T07:35:43+02:00",
+    "showUpdated": false,
+    "preferredUri": "/newsticker/snb-gewinn-schrumpft-auf-568-milliarden-franken-735164",
+    "subtypeValue": "news",
+    "restrictionStatus": null,
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "label": "Newsticker",
+            "link": "/newsticker",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "label": "SNB-Gewinn schrumpft auf 56,8 Milliarden Franken",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "issue": null,
+    "relatedPersons": {
+      "edges": [],
+      "__typename": "PersonConnection"
+    },
+    "relatedOrganizations": {
+      "edges": [],
+      "__typename": "OrganizationConnection"
+    },
+    "metaCanonicalUrl": "https://www.handelszeitung.ch/newsticker/snb-gewinn-schrumpft-auf-568-milliarden-franken-735164",
+    "authors": {
+      "edges": [
+        {
+          "node": {
+            "id": "YXV0aG9yOjE3Njc0",
+            "name": "SDA",
+            "shortDescription": null,
+            "hasProfilePage": false,
+            "preferredUri": "/unsere-redaktion/sda-0",
+            "imageParagraph": null,
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        }
+      ],
+      "__typename": "AuthorConnection"
+    },
+    "commentStatus": "closed",
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToxMzM5MDM=",
+      "title": "Newsticker",
+      "suppressAds": false,
+      "channelType": null,
+      "settings": {
+        "hierarchy": {
+          "count": 1,
+          "edges": [
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybToxMzM5MDM=",
+                "title": "Newsticker",
+                "tid": "133903",
+                "__typename": "Channel"
+              },
+              "__typename": "ChannelEdge"
+            }
+          ],
+          "__typename": "ChannelConnection"
+        },
+        "__typename": "TermSettings"
+      },
+      "articles": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTo3MTQ0ODE=",
+              "title": "Schindler gewinnt Grossauftrag in Saudi-Arabien",
+              "lead": "Schindler hat einen Grossauftrag in der saudi-arabischen Hauptstadt Riad gewonnen. Der Lift- und Rolltreppenhersteller darf insgesamt 293 Aufzüge, Fahrtreppen und Fahrsteige für das neue Mehrzweckprojekt The Avenues liefern.",
+              "hasVideo": false,
+              "authorPrefix": "by",
+              "subtypeValue": "news",
+              "shortTitle": null,
+              "changeDate": "2024-08-13T07:35:23+02:00",
+              "publicationDate": "2024-08-13T07:30:38+02:00",
+              "showUpdated": false,
+              "restrictionStatus": "free",
+              "preferredUri": "/newsticker/schindler-gewinnt-grossauftrag-in-saudi-arabien-735738",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMzM5MDM=",
+                "title": "Newsticker",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE3Njc0",
+                      "name": "SDA",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIyNDA5NzU6ODcxMTY5Nw==",
+                "image": {
+                  "id": "801899",
+                  "file": {
+                    "id": "ZmlsZTo4MzgwMzM6OmxhcmdlOjE6MTcyMzUyNzI0MA==",
+                    "alt": "Schindler wird für ein saudi-arabisches Grossprojekt 150 Fahrtreppen sowie135 Aufzüge und acht Fahrsteige liefern. (Archivbild)",
+                    "width": 480,
+                    "height": 360,
+                    "relativeOriginPath": "/handelszeitung/newsImport/2024-08-13/20240813073042842.jpg",
+                    "focalPointX": 512,
+                    "focalPointY": 384,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "useAutoHyphens": false,
+              "__typename": "Article"
+            },
+            "__typename": "ArticleEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTo3MTQ0ODA=",
+              "title": "Bell verdient im ersten Halbjahr leicht weniger",
+              "lead": "Bell hat im ersten Halbjahr 2024 zwar leicht mehr umgesetzt, unter dem Strich aber etwas weniger verdient. Für den weiteren Jahresverlauf gibt sich der Fleischverarbeiter und Convenience-Spezialist zuversichtlich.",
+              "hasVideo": false,
+              "authorPrefix": "by",
+              "subtypeValue": "news",
+              "shortTitle": null,
+              "changeDate": "2024-08-13T07:05:28+02:00",
+              "publicationDate": "2024-08-13T07:03:25+02:00",
+              "showUpdated": false,
+              "restrictionStatus": "free",
+              "preferredUri": "/newsticker/bell-verdient-im-ersten-halbjahr-leicht-weniger-735737",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMzM5MDM=",
+                "title": "Newsticker",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE3Njc0",
+                      "name": "SDA",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIyNDA5NzM6ODcxMTY5Mw==",
+                "image": {
+                  "id": "801898",
+                  "file": {
+                    "id": "ZmlsZTo4MzgwMzI6OmxhcmdlOjE6MTcyMzUyNTQ0MA==",
+                    "alt": "Bell Schweiz hat den Umsatz trotz bisher durchzogener Grillsaison gesteigert. (Archivbild)",
+                    "width": 480,
+                    "height": 360,
+                    "relativeOriginPath": "/handelszeitung/newsImport/2024-08-13/20240813070330903.jpg",
+                    "focalPointX": 512,
+                    "focalPointY": 384,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "useAutoHyphens": false,
+              "__typename": "Article"
+            },
+            "__typename": "ArticleEdge"
+          }
+        ],
+        "__typename": "ArticleConnection"
+      },
+      "__typename": "Channel"
+    },
+    "topics": {
+      "edges": [
+        {
+          "node": {
+            "preferredUri": "/stichworte/g/geldpolitik",
+            "label": "Geldpolitik",
+            "tid": "36351",
+            "__typename": "Keyword"
+          },
+          "__typename": "ProfileKeywordUnionEdge"
+        }
+      ],
+      "__typename": "ProfileKeywordUnionConnection"
+    },
+    "heroImageBody": [
+      {
+        "id": "cGFyYWdyYXBoOmltYWdlOjIyMzk0MjI6ODcwNDIyMA==",
+        "anchorId": null,
+        "title": null,
+        "caption": "SNB erzielt hohen Gewinn im ersten Halbjahr (Archivbild)",
+        "suppressSource": false,
+        "fullWidth": false,
+        "image": {
+          "id": "801462",
+          "credit": "KEYSTONE/MICHAEL BUHOLZER",
+          "showOriginal": false,
+          "file": {
+            "id": "ZmlsZTo4Mzc1OTQ6OmlubGluZV9pbWFnZV8xMjAwOjE6MTcyMjQwNDI4MA==",
+            "relativeOriginPath": "/handelszeitung/newsImport/2024-07-31/20240731073548951.jpg",
+            "focalPointX": 512,
+            "focalPointY": 384,
+            "alt": "SNB erzielt hohen Gewinn im ersten Halbjahr (Archivbild)",
+            "height": 675,
+            "width": 900,
+            "origin": "https://stage.handelszeitung.ch/sites/default/files/handelszeitung/newsImport/2024-07-31/20240731073548951.jpg",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "teaserImage": {
+      "id": "cGFyYWdyYXBoOmltYWdlOjIyMzk0MjI6ODcwNDIyMA==",
+      "caption": "SNB erzielt hohen Gewinn im ersten Halbjahr (Archivbild)",
+      "image": {
+        "id": "801462",
+        "credit": "KEYSTONE/MICHAEL BUHOLZER",
+        "file": {
+          "id": "ZmlsZTo4Mzc1OTQ6OjE2eDlfNTYwOjE6MTcyMjQwNDI4MA==",
+          "alt": "SNB erzielt hohen Gewinn im ersten Halbjahr (Archivbild)",
+          "relativeOriginPath": "/handelszeitung/newsImport/2024-07-31/20240731073548951.jpg",
+          "focalPointX": 512,
+          "focalPointY": 384,
+          "width": 840,
+          "height": 473,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "body": [
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6MjIzOTQyMDo4NzA0MjE5",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>Laut Mitteilung vom Mittwoch betrug der Gewinn für die Periode von Januar bis Juni des laufenden Jahres 56,8 Milliarden Franken. Nach einem Gewinn von 58,8 Milliarden im ersten Quartal resultierte im zweiten Jahresviertel damit ein Minus von 2,0 Milliarden Franken.</p>",
+        "characterCount": 265,
+        "isLastOfGroup": false,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJ1aXR3bGxmOm5ldy14eGowOG4yMw==",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>Während die Nationalbank im Semester auf ihren Fremdwährungspositionen ein Plus von 49,3 Milliarden erzielte, gab es auf dem mengenmässig unveränderten Goldbestand einen Bewertungsgewinn von 12,2 Milliarden. Auf den Frankenpositionen resultierte dagegen ein Verlust von 4,5 Mrd Franken.</p>",
+        "characterCount": 286,
+        "isLastOfGroup": false,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBpZ1diVzlNOm5ldy1hcFZqU2kyUg==",
+        "anchorId": null,
+        "header": null,
+        "text": "<h3>Ausschüttungen weiter unwahrscheinlich</h3>\n\n<p>Eine Ausschüttung an Bund und Kantone ist trotz des hohen Gewinns der SNB im ersten Halbjahr aus heutiger Sicht weiter sehr unsicher. Die SNB müsste laut den Ökonomen der UBS für eine Minimalausschüttung einen 2024er-Gewinn von mindestens 65 Milliarden erzielen, für eine Maximalausschüttung müsste er gar mehr als 105 Milliarden betragen.</p>",
+        "characterCount": 377,
+        "isLastOfGroup": false,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhpTFV0aUQ3Om5ldy11czI0T1Jndw==",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>Die SNB betont denn auch wie üblich, dass ihr Ergebnis überwiegend von der Entwicklung der Gold-, Devisen und Kapitalmärkte abhängig ist. Starke Schwankungen seien deshalb die Regel und Rückschlüsse vom Zwischenergebnis auf das Jahresergebnis nur bedingt möglich.</p>",
+        "characterCount": 263,
+        "isLastOfGroup": false,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5mWGY4dTFUOm5ldy1hWUt5eTh6Ug==",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>Letztes Jahr beispielsweise hatte die Nationalbank im ersten Quartal ebenfalls einen hohen Gewinn eingefahren (26,9 Mrd.), musste dann aber zum Jahresabschluss einen Verlust von 3,2 Milliarden Franken ausweisen. Das Ergebnis kann wegen der hohen Abhängigkeit von den Finanzmärkten allerdings in beide Richtungen stark ausschlagen.</p>",
+        "characterCount": 330,
+        "isLastOfGroup": true,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      }
+    ],
+    "__typename": "Article"
+  }
+}

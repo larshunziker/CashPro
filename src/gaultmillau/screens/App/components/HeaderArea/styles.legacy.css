@@ -1,0 +1,33 @@
+.ChannelLogo {
+  composes: Container from '@grid.legacy.css';
+  display: flex;
+  justify-content: center;
+  margin: $margin24 auto;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin32 auto;
+  }
+}
+
+.LogoWrapper {
+  margin-bottom: -8px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: -18px;
+  }
+}
+
+.LogoWrapper svg {
+  height: 50px;
+  width: 154px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 65px;
+    width: 200px;
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    height: 77px;
+    width: 242px;
+  }
+}

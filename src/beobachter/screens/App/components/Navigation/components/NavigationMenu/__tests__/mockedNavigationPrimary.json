@@ -1,0 +1,878 @@
+{
+  "id": "bWVudTpiZW8tbmF2aWdhdGlvbi1wcmltYXJ5",
+  "name": "BEO Navigation (Primär)",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYw",
+          "link": {
+            "label": "Arbeit",
+            "description": null,
+            "path": "/arbeit",
+            "routed": true,
+            "expanded": false,
+            "image": {
+              "source": "https://api.dev.beobachter.ch/sites/default/files/styles/beo_menu_background/public/2017-04/Fallback-Beobachter-Arbeit.jpg"
+            }
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYx",
+                  "link": {
+                    "label": "Arbeitsrecht",
+                    "description": null,
+                    "path": "/arbeit/arbeitsrecht",
+                    "routed": false,
+                    "expanded": true,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYy",
+                  "link": {
+                    "label": "Arbeitslosigkeit",
+                    "description": null,
+                    "path": "/arbeit/arbeitslosigkeit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTY0",
+                  "link": {
+                    "label": "Arbeitgeber",
+                    "description": null,
+                    "path": "/arbeit/arbeitgeber",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTYz",
+                  "link": {
+                    "label": "Stellensuche",
+                    "description": null,
+                    "path": "/arbeit/stellensuche",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTY2",
+                  "link": {
+                    "label": "Selbständigkeit",
+                    "description": null,
+                    "path": "/arbeit/selbstaendigkeit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc2",
+          "link": {
+            "label": "Digital",
+            "description": null,
+            "path": "/digital",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc3",
+                  "link": {
+                    "label": "Multimedia",
+                    "description": null,
+                    "path": "/digital/multimedia",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc4",
+                  "link": {
+                    "label": "Sicherheit",
+                    "description": null,
+                    "path": "/digital/sicherheit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTY3",
+          "link": {
+            "label": "Familie",
+            "description": null,
+            "path": "/familie",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTY5",
+                  "link": {
+                    "label": "Ehe",
+                    "description": null,
+                    "path": "/familie/ehe",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTc0",
+                  "link": {
+                    "label": "Erziehung",
+                    "description": null,
+                    "path": "/familie/erziehung",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTcz",
+                  "link": {
+                    "label": "Jugend & Pubertät",
+                    "description": null,
+                    "path": "/familie/jugend-pubertaet/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTcy",
+                  "link": {
+                    "label": "Kinder",
+                    "description": null,
+                    "path": "/familie/kinder",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTcw",
+                  "link": {
+                    "label": "Konkubinat",
+                    "description": null,
+                    "path": "/familie/konkubinat",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTY4",
+                  "link": {
+                    "label": "Partnerschaft",
+                    "description": null,
+                    "path": "/familie/partnerschaft",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTc2",
+                  "link": {
+                    "label": "Sozialfragen",
+                    "description": null,
+                    "path": "/familie/sozialfragen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTc3",
+                  "link": {
+                    "label": "Trennung & Scheidung",
+                    "description": null,
+                    "path": "/familie/trennung-scheidung",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ4",
+          "link": {
+            "label": "Geld",
+            "description": null,
+            "path": "/geld",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ5",
+                  "link": {
+                    "label": "Schulden & Betreibungen",
+                    "description": null,
+                    "path": "/geld/schulden-betreibungen/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUz",
+                  "link": {
+                    "label": "3. Säule",
+                    "description": null,
+                    "path": "/geld/3-saeule",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU1",
+                  "link": {
+                    "label": "AHV / IV",
+                    "description": null,
+                    "path": "/geld/ahviv",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU5",
+                  "link": {
+                    "label": "Erben",
+                    "description": null,
+                    "path": "/geld/erben",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUw",
+                  "link": {
+                    "label": "Geldanlage",
+                    "description": null,
+                    "path": "/geld/geldanlage/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUx",
+                  "link": {
+                    "label": "Hypotheken",
+                    "description": null,
+                    "path": "/geld/hypotheken",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU2",
+                  "link": {
+                    "label": "Krankenkasse",
+                    "description": null,
+                    "path": "/geld/krankenkasse",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUy",
+                  "link": {
+                    "label": "Pensionskasse",
+                    "description": null,
+                    "path": "/geld/pensionskasse",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU4",
+                  "link": {
+                    "label": "Sozialhilfe",
+                    "description": null,
+                    "path": "/geld/sozialhilfe",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU3",
+                  "link": {
+                    "label": "Steuern",
+                    "description": null,
+                    "path": "/geld/steuern",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTU0",
+                  "link": {
+                    "label": "Versicherungen",
+                    "description": null,
+                    "path": "/geld/versicherungen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTM5",
+          "link": {
+            "label": "Gesundheit",
+            "description": null,
+            "path": "/gesundheit",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQw",
+                  "link": {
+                    "label": "Krankheiten A-Z",
+                    "description": null,
+                    "path": "/gesundheit/Krankheit/list/A",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQx",
+                  "link": {
+                    "label": "Symptome A-Z",
+                    "description": null,
+                    "path": "/gesundheit/Symptom/list/A",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzk5",
+                  "link": {
+                    "label": "Behandlung A-Z",
+                    "description": null,
+                    "path": "/gesundheit/behandlung/list/A",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQy",
+                  "link": {
+                    "label": "Medizin & Krankheit",
+                    "description": null,
+                    "path": "/gesundheit/medizin-krankheit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQz",
+                  "link": {
+                    "label": "Wohlfühlen & Prävention",
+                    "description": null,
+                    "path": "/gesundheit/wohlfuehlen-praevention/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ0",
+                  "link": {
+                    "label": "Ernährung & Genuss",
+                    "description": null,
+                    "path": "/gesundheit/ernaehrung-genuss/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ1",
+                  "link": {
+                    "label": "Sexualität",
+                    "description": null,
+                    "path": "/gesundheit/sexualitaet/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ2",
+                  "link": {
+                    "label": "Psychologie",
+                    "description": null,
+                    "path": "/gesundheit/psychologie/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTQ3",
+                  "link": {
+                    "label": "Abnehmen",
+                    "description": null,
+                    "path": "/gesundheit/abnehmen/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTc4",
+          "link": {
+            "label": "Konsum",
+            "description": null,
+            "path": "/konsum",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTc5",
+                  "link": {
+                    "label": "Konsumentenschutz",
+                    "description": null,
+                    "path": "/konsum/konsumentenschutz",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTgx",
+                  "link": {
+                    "label": "Dienstleistungen",
+                    "description": null,
+                    "path": "/konsum/dienstleistungen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTgw",
+                  "link": {
+                    "label": "Kauf & Leasing ",
+                    "description": null,
+                    "path": "/konsum/kauf-leasing ",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTgy",
+                  "link": {
+                    "label": "Multimedia",
+                    "description": null,
+                    "path": "/konsum/multimedia",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTgz",
+                  "link": {
+                    "label": "Reisen",
+                    "description": null,
+                    "path": "/konsum/reisen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg0",
+          "link": {
+            "label": "Wohnen",
+            "description": null,
+            "path": "/wohnen",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg3",
+                  "link": {
+                    "label": "Bauen & Renovieren",
+                    "description": null,
+                    "path": "/wohnen/bauen-renovieren",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg2",
+                  "link": {
+                    "label": "Eigentum",
+                    "description": null,
+                    "path": "/wohnen/eigentum",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTkw",
+                  "link": {
+                    "label": "Garten & Balkon",
+                    "description": null,
+                    "path": "/wohnen/garten-balkon",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg1",
+                  "link": {
+                    "label": "Miete",
+                    "description": null,
+                    "path": "/wohnen/miete",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg4",
+                  "link": {
+                    "label": "Nachbarn",
+                    "description": null,
+                    "path": "/wohnen/nachbarn",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTg5",
+                  "link": {
+                    "label": "Umzug",
+                    "description": null,
+                    "path": "/wohnen/umzug",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MjIz",
+          "link": {
+            "label": "Bildung",
+            "description": null,
+            "path": "/bildung",
+            "routed": true,
+            "expanded": true,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI0",
+                  "link": {
+                    "label": "Schule",
+                    "description": null,
+                    "path": "/schule",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI1",
+                  "link": {
+                    "label": "Lehre & Studium ",
+                    "description": null,
+                    "path": "/lehre-studium",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI2",
+                  "link": {
+                    "label": "Weiterbildung",
+                    "description": null,
+                    "path": "/weiterbildung",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTkx",
+          "link": {
+            "label": "Weitere Themen",
+            "description": null,
+            "path": "/weitere-themen",
+            "routed": true,
+            "expanded": true,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTk1",
+                  "link": {
+                    "label": "Politik",
+                    "description": null,
+                    "path": "/politik",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTkz",
+                  "link": {
+                    "label": "Gesellschaft",
+                    "description": null,
+                    "path": "/gesellschaft",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTk0",
+                  "link": {
+                    "label": "Wirtschaft",
+                    "description": null,
+                    "path": "/wirtschaft",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTk2",
+                  "link": {
+                    "label": "Bürger & Verwaltung",
+                    "description": null,
+                    "path": "/buerger-verwaltung",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MTk4",
+                  "link": {
+                    "label": "Strassenverkehr",
+                    "description": null,
+                    "path": "/strassenverkehr",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6MjAy",
+                  "link": {
+                    "label": "Natur & Umwelt",
+                    "description": null,
+                    "path": "/natur-umwelt",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+}

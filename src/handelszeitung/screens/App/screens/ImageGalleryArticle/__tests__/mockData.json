@@ -1,0 +1,127 @@
+{
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+          "label": "People",
+          "link": "/",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzB5TlRnMQ==",
+          "label": "Lifestyle",
+          "link": "/",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpCNVRsUm5NVFk1TmpBMU1RPT0=",
+          "label": "Carla Bruni: \u00abIch habe nicht wirklich das Gef\u00fchl, viel erreicht zu haben\u00bb",
+          "link": "/",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "authors": { "edges": [], "__typename": "AuthorConnection" },
+  "body": [
+    {
+      "alt": null,
+      "id": "jfaklösjdfas",
+      "image": {
+        "file": {
+          "alt": "",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    }
+  ],
+  "canonicalUri": "/group/3/content/21733",
+  "changeDate": "2019-04-10T09:59:03",
+  "id": "bm9kZToyMDgxMA==",
+  "keywords": {
+    "edges": [
+      {
+        "node": {
+          "label": "horoskop",
+          "preferredUri": "/dossier/horoskop",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      }
+    ],
+    "__typename": "KeywordConnection"
+  },
+  "lead": "Was macht den Preis für eine Übernachtung aus? Eine neue Studie liefert erstmals Antworten.",
+  "metaCanonicalUrl": "",
+  "metaDescription": "Was macht den Preis für eine Übernachtung aus? Eine neue Studie liefert erstmals Antworten.",
+  "metaTitle": "Bildergalerie Fondue: Was den Preis für das Hotelzimmer in die Höhe treibt | Handelszeitung",
+  "nid": "20810",
+  "preferredUri": "/tech/digital-switzerland/bildergalerie/fondue-was-den-preis-fur-das-hotelzimmer-die-hohe-treibt",
+  "publicationDate": "2019-04-10T10:02:08",
+  "relatedGalleries": {
+    "edges": [
+      {
+        "node": {
+          "authors": { "edges": [], "__typename": "AuthorConnection" },
+          "id": "jfalkd",
+          "lead": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe culpa consequuntur quibusdam? Placeat enim magnam quibusdam veniam sit, nisi facilis, ullam autem ex porro distinctio vel facere, velit eligendi! Velit dolorum hic impedit.",
+          "preferredUri": "/node/19294",
+          "shortTitle": "Für einen guten Zweck",
+          "teaserImage": {
+            "alt": null,
+            "caption": null,
+            "id": "jfaklösjdfas",
+            "image": {
+              "file": {
+                "alt": "",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "title": "How to write catchy headlines",
+          "__typename": "ImageGallery"
+        },
+        "__typename": "ImageGalleryEdge"
+      }
+    ],
+    "__typename": "ImageGalleryConnection"
+  },
+  "shortTitle": "Fondue",
+  "teaserImage": {
+    "alt": null,
+    "caption": null,
+    "id": "jfaklösjdfas",
+    "image": {
+      "file": {
+        "alt": "",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "title": "Was den Preis für das Hotelzimmer in die Höhe treibt",
+  "__typename": "ImageGallery"
+}

@@ -1,0 +1,157 @@
+.SubTitle {
+  composes: Lead1 from 'typography.legacy.css';
+  font-weight: bold;
+  margin-top: 35px;
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 50px;
+  }
+}
+
+.ButtonWrapper {
+  text-align: center;
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+  }
+}
+
+.ErrorPanelWrapper {
+  background: $errorA;
+  color: $white;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 20;
+  margin: 40px 0;
+  padding: 60px 30px;
+  text-align: center;
+}
+
+.Loading {
+  opacity: 0.5;
+}
+
+.ToggleFormAppear {
+  opacity: 0.01;
+}
+
+.ToggleFormAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleFormLeave {
+  opacity: 1;
+}
+
+.ToggleFormLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleErrorAppear {
+  opacity: 0.01;
+}
+
+.ToggleErrorAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+  transition-delay: 0.6s;
+}
+
+.ToggleErrorLeave {
+  opacity: 1;
+}
+
+.ToggleErrorLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.Description {
+  composes: InfoParagraph from 'typography.legacy.css';
+  position: relative;
+  top: 0;
+
+  & > a {
+    color: $errorA;
+  }
+
+  &.Required {
+    &::after {
+      content: '*';
+      display: inline;
+    }
+  }
+}
+
+.SuccessWrapper {
+  background-color: $greyE;
+  padding: 20px 12px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 38px 30px;
+  }
+}
+
+.SuccessTitle {
+  composes: InfoH1 from 'typography.legacy.css';
+  color: $secondaryA;
+  display: block;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 23;
+  }
+}
+
+.SuccessMessage {
+  composes: InfoParagraph from 'typography.legacy.css';
+  display: block;
+  margin-bottom: 30px;
+
+  & > a {
+    color: $errorA;
+  }
+}
+
+.ErrorPanelHeader {
+  display: none;
+}
+
+.RecaptchaWrapper {
+  margin-top: $margin24;
+}
+
+.ClosedContainer {
+  align-items: center;
+  border-bottom: 1px solid $greyA;
+  border-top: 1px solid $greyA;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin32;
+  padding: 8px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 16px;
+  }
+}
+
+.ClosedIcon {
+  @mixin fontSize 50;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 60;
+  }
+}
+
+.ClosedMessage {
+  composes: H3 from 'typography.legacy.css';
+  text-align: center;
+}
+
+.RichTextWrapper {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+}

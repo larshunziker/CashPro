@@ -1,0 +1,391 @@
+.ButtonsActions {
+  position: relative;
+
+  &.Collapsed {
+    padding-top: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    overflow: initial;
+  }
+}
+
+.InnerWrapper {
+  display: flex;
+  justify-content: space-between;
+  line-height: 1;
+  padding-block: 10px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding-block: 16px;
+  }
+
+  &.MarketingPage {
+    justify-content: center;
+
+    .Logo {
+      transform: translateX(0);
+    }
+  }
+}
+
+.Col {
+  display: flex;
+}
+
+.BrandAndVerticalWrapper {
+  align-items: center;
+  display: flex;
+  line-height: 2.4rem;
+}
+
+.BrandWrapper {
+  display: flex;
+}
+
+.MenuButton {
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  height: 40px;
+  opacity: 0;
+  padding-top: 16px;
+  transition: opacity .3s ease;
+  width: 30px;
+
+  &.Collapsed {
+    left: -2px;
+    margin-right: 4px;
+    max-height: 32px;
+    opacity: 1;
+    padding: 0;
+    position: relative;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Logo {
+  height: 34px;
+  transform: translateX(-30px);
+  transition: transform 0.3s ease, height 0.1s linear;
+  width: 155px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 48px;
+    width: 219px;
+  }
+
+  &.Collapsed {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+      height: 40px;
+      transform: translateX(0);
+      width: 182px;
+    }
+  }
+
+  @media print {
+    transform: none;
+    transition: none;
+    width: 135px;
+    z-index: 9;
+  }
+}
+
+.Action {
+  composes: NavigationBottom from 'typography.legacy.css';
+  align-items: center;
+  background: none;
+  border: 0;
+  color: $grey70;
+  cursor: pointer;
+  display: flex;
+  fill: $grey70;
+  font-size: 1.4rem;
+  justify-content: space-between;
+  margin: 0;
+  outline: none;
+  padding: 10px 12px;
+  transition: color .3s ease;
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 1.6rem;
+    padding: 10px 20px;
+  }
+
+  &:hover {
+    color: $black;
+    text-decoration-line: underline;
+  }
+
+  &.Collapsed {
+    @media (min-width: $smBreakpoint) {
+      padding: 10px 12px;
+    }
+  }
+}
+
+.BackButtonLogoWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.ActionIcon {
+  fill: inherit;
+  height: auto;
+  width: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin8;
+  }
+
+  &:hover {
+    fill: inherit;
+  }
+}
+
+.BackAction {
+  z-index: 10;
+}
+
+.BackAction svg {
+  fill: $grey70;
+  height: 18px;
+  width: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    transform: translateY(-0.25px);
+  }
+
+  &:hover {
+    fill: $grey70;
+  }
+}
+
+.MembershipAction {
+  @mixin ButtonSecondarySmallHighAttention;
+
+  &:hover {
+    text-decoration-line: none;
+  }
+}
+
+.SearchAction {
+  font-size: 2rem;
+}
+
+.NewsletterAction {
+  display: none;
+  fill: $grey70;
+
+  &:hover {
+    color: $black;
+    fill: $black;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    display: flex;
+  }
+}
+
+.LoginAction {
+  fill: $grey70;
+
+  &:hover {
+    fill: $black;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-right: 0;
+  }
+}
+
+.LoginLabel {
+  display: inline-block;
+  max-width: 80px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 200px;
+  }
+}
+
+
+.Actions {
+  @mixin hideforPrint;
+  align-items: center;
+  display: flex;
+  justify-content: flex-end;
+  transition: transform 0.3s ease;
+
+  @media screen and (min-width: $smBreakpoint) {
+    padding-left: 0;
+  }
+}
+
+.SearchWrapper {
+  margin-right: 40px;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.MoveUp {
+  transform: translateY(-100%);
+
+  @media (min-width: $smBreakpoint) {
+    transform: none;
+  }
+}
+
+.SearchFormHeaderWrapper {
+  padding: 8px 19px;
+}
+
+.SearchForm {
+  border-bottom: 1px solid $grey70;
+  padding-left: 22px;
+
+  input,
+  input:focus {
+    color: $grey70;
+    font-weight: 100;
+    opacity: 1;
+  }
+}
+
+.SearchButtonClass {
+  height: 32px;
+  left: 0;
+  right: auto;
+
+  i {
+    color: $grey70;
+    font-size: 16px;
+    top: -6px;
+  }
+}
+
+.Hidden {
+  display: none;
+}
+
+.HidingAnimation {
+  padding: 0;
+  visibility: hidden;
+}
+
+.TabsWrapper {
+  background-color: $grey10;
+  height: 40px;
+  transition: height 0.3s ease, translate 0.3s ease;
+  translate: 0;
+
+  @media (max-width: $smBreakpoint) {
+    margin-left: -20px;
+  }
+}
+
+.MoveUpTabs {
+  height: 0;
+  overflow: hidden;
+  translate: 0 -40px;
+}
+
+.Tabs {
+  display: flex;
+
+  @media (max-width: $smBreakpoint) {
+    overflow-x: auto;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+  }
+}
+
+.TabLink {
+  color: $grey40;
+  cursor: pointer;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  font-weight: 700;
+  margin-right: $margin8;
+  padding-block: 6px;
+  padding-inline: 16px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin16;
+  }
+
+  @media (max-width: 390px) {
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.TabMagazine {
+  &:hover,
+  &.TabLinkActive {
+    background-color: $white;
+    color: $black;
+  }
+}
+
+.TabAdvisory {
+  color: $greenDark;
+
+  &:hover,
+  &.TabLinkActive {
+    background-color: $white;
+    color: $green;
+  }
+}
+
+.TabCommunity {
+  color: $blueDark;
+
+  &:hover,
+  &.TabLinkActive {
+    background-color: $white;
+    color: $blue;
+  }
+}
+
+.TabEdition {
+  display: none;
+}
+
+.SVGWrapper {
+  fill: $grey70;
+  width: 100%;
+}
+
+/* Business requirement: max width 390px as standard iPhone view */
+.ScrollWrapper {
+  @media (max-width: 390px) {
+    margin-left: 0;
+  }
+}
+
+.ScrollContainer {
+  @media (max-width: 390px) {
+    width: 100%;
+  }
+}
+
+.VisibilityHidden {
+  opacity: 0;
+  visibility: hidden;
+}

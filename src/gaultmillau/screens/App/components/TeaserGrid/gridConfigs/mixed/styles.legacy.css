@@ -1,0 +1,180 @@
+.mixed {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(18, auto);
+
+    .Item {
+      margin-bottom: 30px;
+    }
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 25; }
+    .Item2 { grid-area: 3 / 1 / 4 / 25; }
+    .Item3 { grid-area: 4 / 1 / 5 / 25; }
+    .Item4 { grid-area: 5 / 1 / 6 / 25; }
+    .Item5 { grid-area: 6 / 1 / 7 / 25; }
+    .Item6 { grid-area: 7 / 1 / 8 / 25; }
+    .Item7 { grid-area: 8 / 1 / 9 / 25; }
+    .Item8 { grid-area: 9 / 1 / 10 / 25; }
+    .Item9 { grid-area: 10 / 1 / 11 / 25; }
+    .Item10 { grid-area: 11 / 1 / 12 / 25; }
+    .Item11 { grid-area: 12 / 1 / 13 / 25; }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(4, auto);
+
+      .Item {
+        margin-bottom: $margin40;
+      }
+
+      .Item0 {
+        border-right: 1px solid $neutralC;
+        grid-area: 1 / 1 / 2 / 9;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item1 {
+        border-right: 1px solid $neutralC;
+        grid-area: 1 / 9 / 2 / 17;
+        margin-left: 2px;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item2 {
+        grid-area: 1 / 17 / 2 / 25;
+        margin-left: 2px;
+        padding-right: 1px;
+      }
+
+      .Item3 {
+        border-right: 1px solid $neutralC;
+        grid-area: 2 / 1 / 3 / 13;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item4 {
+        grid-area: 2 / 13 / 3 / 25;
+        margin-left: 2px;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item5 {
+        display: block;
+        grid-area: 3 / 1 / 4 / 25;
+        margin-left: 2px;
+        padding-right: 1px;
+      }
+
+      .Item6 {
+        border-right: 1px solid $neutralC;
+        grid-area: 4 / 1 / 5 / 9;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item7 {
+        border-right: 1px solid $neutralC;
+        grid-area: 4 / 9 / 5 / 17;
+        margin-left: 2px;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item8 {
+        grid-area: 4 / 17 / 5 / 25;
+        margin-left: 2px;
+        padding-right: 1px;
+      }
+
+      .Item9 {
+        border-right: 1px solid $neutralC;
+        grid-area: 5 / 1 / 6 / 13;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item10 {
+        grid-area: 5 / 13 / 6 / 25;
+        margin-left: 2px;
+        padding-right: 1px;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+
+      .Item {
+        margin-bottom: 50px;
+      }
+
+      .Item0 {
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item1 {
+        margin-left: 0;
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item2 {
+        margin-left: 0;
+      }
+
+      .Item3 {
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item4 {
+        margin-left: 0;
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item5 {
+        margin-left: 0;
+      }
+
+      .Item6 {
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item7 {
+        margin-left: 0;
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item8 {
+        margin-left: 0;
+      }
+
+      .Item9 {
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item10 {
+        margin-left: 0;
+      }
+    }
+  }
+}

@@ -1,0 +1,123 @@
+.LongReadArticleHeader {
+  composes: LongFormHeaderArticleSpacing from 'typography.legacy.css';
+}
+
+.ShortTitle {
+  composes: TaglineXl from 'typography.legacy.css';
+  margin-bottom: $margin4;
+
+  text-align: center;
+  @media (min-width: $mdBreakpoint) and (max-width: $lgBreakpointTo) {
+    text-align: left;
+  }
+}
+
+.Title {
+  composes: HeadlineXl from 'typography.legacy.css';
+
+  color: $black;
+  margin-bottom: $margin8;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+  @media (min-width: $mdBreakpoint) and (max-width: $lgBreakpointTo) {
+    text-align: left;
+  }
+}
+
+.Description {
+  composes: Lead from 'typography.legacy.css';
+
+  color: $black;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) and (max-width: $lgBreakpointTo) {
+    text-align: left;
+  }
+}
+
+.AuthorDateBlock {
+  justify-content: center;
+  padding-bottom: 0;
+  padding-top: 24px;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 16px;
+  }
+  
+  @media (min-width: $mdBreakpoint) and (max-width: $lgBreakpointTo) {
+    justify-content: left;
+  }
+}
+
+.HeroImage {
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
+
+.Caption {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 140%;
+  margin-top: $margin8;
+
+  /* 728 407 331 */
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+  }
+
+  em {
+    font-style: italic;
+  }
+
+  p {
+    display: inline;
+  }
+}
+
+.ArticleImageCredit {
+  font-size: 1.2rem;
+  font-style: italic;
+  line-height: 140%;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.UtilityBarWrapper {
+  margin-top: 20px;
+  padding-left: 0;
+  padding-right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-block: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-block: 60px 48px;
+  }
+}
+
+.PlayerWrapper {
+  margin-bottom: $margin16;
+  margin-top: -$margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    margin-top: $margin16;
+  }
+}
+
+.Hidden {
+  display: none;
+}

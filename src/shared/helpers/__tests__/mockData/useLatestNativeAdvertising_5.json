@@ -1,0 +1,696 @@
+[
+  {
+    "id": "203535",
+    "anchorId": null,
+    "title": "Breaking EQ",
+    "style": "default",
+    "landingPage": null,
+    "entityQueue": {
+      "items": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTo4MDU=",
+              "title": "Check-up f\u00fcr Gesundheits-Websites",
+              "shortTitle": null,
+              "lead": "Die Qualit\u00e4t von Gesundheits-Websites schwankt stark. Auswahlhilfen bieten entweder die Website-Selection auf beobachter.ch oder virtuelle Bewertungsassistenten, die die Websites auf Herz und Nieren pr\u00fcfen.",
+              "createDate": "2000-09-26T00:00:00",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/check-fur-gesundheits-websites-0",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": true,
+              "channel": null,
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjMzNjE=",
+                      "name": "Urs Zanoni",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "beobachter_fallback",
+                "image": {
+                  "file": {
+                    "alt": "fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxMzQzMg==",
+              "title": "Die krankhafte Angst vor der Krankheit",
+              "shortTitle": "Hypochondrie",
+              "lead": "Hypochonder glauben fest daran, dass sie krank sind. Ihr K\u00f6rper ist zwar gesund, aber sie leiden an \u00c4ngsten, die krank machen. Dann brauchen sie psychologische Hilfe.",
+              "createDate": "2002-01-07T00:00:00",
+              "revisionDate": "2020-01-22T09:23:27",
+              "preferredUri": "/psychologie/hypochondrie-die-krankhafte-angst-vor-der-krankheit",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": true,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDIz",
+                "title": "Psychologie",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM3MDQ=",
+                      "name": "Ruth Jahn",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "24635",
+                "image": {
+                  "file": {
+                    "alt": "Innenraumluft \u2013 So k\u00f6nnen Allergiker aufatmen",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2020-01/innenraumluft_-_so_konnen_allergiker_aufatmen.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjY1OA==",
+              "title": "Was man \u00fcber die Krankheit weiss",
+              "shortTitle": "Demenz",
+              "lead": "Demenz ist der h\u00e4ufigste Grund f\u00fcr Pflegebed\u00fcrftigkeit im Alter. Elf Fragen und Antworten zur Krankheit.",
+              "createDate": "2015-11-10T09:48:11",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/medizin-krankheit/demenz-was-man-uber-die-krankheit-weiss",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": true,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDI0",
+                "title": "Medizin \u0026 Krankheit",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjU3NTE=",
+                      "name": "Bernhard Raos",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "158680",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/demenz_02.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNTY1NQ==",
+              "title": "Eine verfluchte Krankheit",
+              "shortTitle": "Tourette-Syndrom",
+              "lead": "Die Patienten zucken, fluchen und schreien: Das Tourette-Syndrom ist noch wenig bekannt. Betroffene wie Adrian Kraft hoffen auf eine bessere Information der \u00d6ffentlichkeit.",
+              "createDate": "2003-05-27T00:00:00",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/tourette-syndrom-eine-verfluchte-krankheit",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": true,
+              "channel": null,
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM2NTY=",
+                      "name": "Meili Dschen",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "27029",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Online_Only_Bilder/2012/tourette-syndrom.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjUxOQ==",
+              "title": "Gesund mit Sauerkraut und K\u00fcrbis",
+              "shortTitle": "Winteressen",
+              "lead": "Sie sind anf\u00e4llig f\u00fcr Grippe und Erk\u00e4ltungen? Eine ausgewogene Ern\u00e4hrung kann Ihnen beim Vorbeugen helfen.",
+              "createDate": "2000-11-28T00:00:00",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/ernahrung-genuss/winteressen-gesund-mit-sauerkraut-und-kurbis",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": true,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDkz",
+                "title": "Ern\u00e4hrung \u0026 Genuss",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM2MzM=",
+                      "name": "Dominique Spirgi",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "26507",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/gesund-kuerbissuppe.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozOTE5Nw==",
+              "gcid": "40166",
+              "preferredUri": "/external/get-yourself-tesla",
+              "title": "Get yourself a tesla!",
+              "lead": "Jetzt neuen Tesla bestellen und freie km sichern!",
+              "shortTitle": "short title kommt",
+              "hasVideo": false,
+              "createDate": "2020-08-03T10:38:29",
+              "trackingTeaserImpression": null,
+              "trackingTeaserClick": null,
+              "revisionDate": "2020-08-03T15:19:30",
+              "subtypeValue": "external",
+              "restrictionStatus": null,
+              "channel": null,
+              "link": {
+                "path": "https://ts.la/rostislav11609",
+                "label": "Jetzt bestellen",
+                "__typename": "Link"
+              },
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "202350",
+                "image": {
+                  "file": {
+                    "alt": "Tesla",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/tesla_1.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "NativeAdvertising"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxMzA4NQ==",
+              "title": "Aus eigener Kraft",
+              "shortTitle": "Selbstheilung",
+              "lead": "Unser Gehirn ist f\u00e4hig, Krankheiten zu besiegen. \u00ad\u00c4rzte versuchen, dieses Potential zu nutzen \u2013 f\u00fcr Patienten und Gesunde.",
+              "createDate": "2012-03-30T10:31:41",
+              "revisionDate": "2020-04-09T17:39:30",
+              "preferredUri": "/medizin-krankheit/selbstheilung-aus-eigener-kraft",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": "paid",
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDI0",
+                "title": "Medizin \u0026 Krankheit",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjc5MjI=",
+                      "name": "Helga Kessler",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "152340",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/selbstheilung.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjI4NA==",
+              "title": "Geduld ist die beste Medizin",
+              "shortTitle": "Grippevirus",
+              "lead": "Im Winter haben sie immer wieder Konjunktur: Grippe und Erk\u00e4ltungen. Was man \u00fcber sie wissen sollte.",
+              "createDate": "2013-01-18T15:22:47",
+              "revisionDate": "2019-10-15T12:51:31",
+              "preferredUri": "/medizin-krankheit/grippevirus-geduld-ist-die-beste-medizin",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDI0",
+                "title": "Medizin \u0026 Krankheit",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjU4MzE=",
+                      "name": "Vera Sohmer",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "157890",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/grippe-erkaeltung.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTo5NTIw",
+              "title": "Futtern f\u00fcr die gute Laune",
+              "shortTitle": "Ern\u00e4hrung",
+              "lead": "Ger\u00e4t man leicht in Stress oder ist hin und wieder schlecht drauf, gibt es eine ganze Reihe Lebensmittel, die die Laune aufhellen k\u00f6nnen.",
+              "createDate": "2015-08-20T16:55:50",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/ernahrung-genuss/ernahrung-futtern-fur-die-gute-laune",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDkz",
+                "title": "Ern\u00e4hrung \u0026 Genuss",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjMzOTM=",
+                      "name": "Marianne Botta Diener",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "138956",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/moodfood.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjY1OQ==",
+              "title": "Nie zu alt f\u00fcr Sport",
+              "shortTitle": null,
+              "lead": "Man ist nie zu alt, um sportlich aktiv zu werden. Doch immer gilt: Eine sorgf\u00e4ltige Vorbereitung ist Pflicht.",
+              "createDate": "2010-04-07T14:28:41",
+              "revisionDate": "2019-05-22T09:10:08",
+              "preferredUri": "/gesundheit/wohlfuhlen-pravention/nie-zu-alt-fur-sport",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDkx",
+                "title": "Wohlf\u00fchlen \u0026 Pr\u00e4vention",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjY2MjI=",
+                      "name": "Walter Aeschimann",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjcwMTQ=",
+                      "name": "Susanne Loacker",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "115640",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/sport-alter.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjU0Nw==",
+              "title": "Schnell und gesund",
+              "shortTitle": "Fastfood",
+              "lead": "Viele Berufst\u00e4tige ern\u00e4hren sich einseitig: Sandwiches und vorgefertigte Speisen machen sich bald in Form \u00fcberfl\u00fcssiger Pfunde bemerkbar. Doch es gibt leichte Alternativen.",
+              "createDate": "2011-05-24T16:03:28",
+              "revisionDate": "2016-11-24T07:34:33",
+              "preferredUri": "/ernahrung-genuss/fastfood-schnell-und-gesund",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDkz",
+                "title": "Ern\u00e4hrung \u0026 Genuss",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjY2MjQ=",
+                      "name": "Susanne Wagner",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "145821",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/fastfood.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxNjUyMw==",
+              "title": "Vitaminreich durch den Winter",
+              "shortTitle": "Saisongem\u00fcse",
+              "lead": "Spitzenk\u00f6che wissen es l\u00e4ngst: Mit Wintergem\u00fcse aus der Region l\u00e4sst sich besser punkten als mit importiertem Treibhausgew\u00e4chs. Nur: Welche Gem\u00fcse gibt es im Winter? Und wie bereitet man sie zu?",
+              "createDate": "2010-11-26T09:19:51",
+              "revisionDate": "2020-07-03T12:23:06",
+              "preferredUri": "/ernahrung-genuss/saisongemuse-vitaminreich-durch-den-winter",
+              "subtypeValue": "guide",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDkz",
+                "title": "Ern\u00e4hrung \u0026 Genuss",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "145841",
+                "image": {
+                  "file": {
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/wintergemuese.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxMDk4Nw==",
+              "title": "K\u00fcssen besser als H\u00e4ndesch\u00fctteln",
+              "shortTitle": "Hygiene",
+              "lead": "Wer sich vor einer Erk\u00e4ltung sch\u00fctzen m\u00f6chte, sollte sein Gegen\u00fcber besser mit einem K\u00fcsschen als mit H\u00e4ndedruck begr\u00fcssen.",
+              "createDate": "2009-10-22T08:54:41",
+              "revisionDate": "2019-06-18T10:45:36",
+              "preferredUri": "/medizin-krankheit/hygiene-kussen-besser-als-handeschutteln",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "useNativeAdvertising": false,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDI0",
+                "title": "Medizin \u0026 Krankheit",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "117746",
+                "image": {
+                  "file": {
+                    "alt": "Mund",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/fileadmin/dateien/Gesundheit/mediaimage47b44d0a-a0fc-438d-80ea-ca4681c5ffb5.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          }
+        ],
+        "__typename": "RouteObjectInterfaceConnection"
+      },
+      "__typename": "EntityQueue"
+    },
+    "__typename": "EntityQueueParagraph"
+  },
+  {
+    "id": "203536",
+    "anchorId": null,
+    "termReference": {
+      "id": "dGF4b25vbXlfdGVybTo2MTQw",
+      "label": "Geld",
+      "preferredUri": "/stichworte/g/geld",
+      "__typename": "Keyword"
+    },
+    "title": null,
+    "entities": {
+      "count": 1,
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZTozODQzMA==",
+            "title": "nowy testowy artyku\u0142",
+            "shortTitle": null,
+            "lead": "\u043d\u0430\u0448\u0435 \u043c\u0438\u043d\u0438-\u043e\u0431\u043e\u0437\u0440\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 :)",
+            "createDate": "2020-07-17T12:55:00",
+            "revisionDate": "2020-08-03T10:53:52",
+            "preferredUri": "/arbeit/nowy-testowy-artykul",
+            "publication": "beobachter",
+            "subtypeValue": "ratgeber_aktuell",
+            "hasVideo": false,
+            "restrictionStatus": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDE5",
+              "title": "Arbeit",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "201500",
+              "image": {
+                "file": {
+                  "alt": "Roadster 2",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/tesla_roadster_2.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "TeaserStageParagraph"
+  }
+]

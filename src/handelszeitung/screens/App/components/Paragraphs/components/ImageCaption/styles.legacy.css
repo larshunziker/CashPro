@@ -1,0 +1,44 @@
+.Wrapper {
+  composes: ImageParagraph from 'typography.legacy.css';
+  display: inline-block;
+  margin: 0;
+  padding: 8px 0;
+  text-align: left;
+  width: 100%;
+  word-break: break-word;
+
+  em {
+    font-style: italic;
+  }
+
+  a {
+    border-bottom: 1px solid;
+
+    /* the variable $blueA can not be found for some reason. therefore I used the hex here as a workaround */
+
+    /* color: $blueA; */
+
+    color: #192a6b; /* stylelint-disable-line sh-waqar/declaration-use-variable */
+    padding: 1px;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  @media print {
+    text-align: left;
+  }
+}
+
+.CaptionMarketingPage {
+  @mixin InfoParagraphBlack;
+}
+
+.Credits {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+  margin-top: $margin4;
+  position: relative;
+  top: -1px;
+}

@@ -1,0 +1,115 @@
+.ContentStageHeader {
+  background-color: $blackB;
+  color: $white;
+  font-family: $fontGotham;
+  font-weight: 300;
+  margin-bottom: 23px;
+  padding-bottom: 95px;
+  padding-top: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 238px;
+    padding-top: 38px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+    padding-bottom: 95px;
+    padding-top: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 118px;
+    padding-top: 27px;
+  }
+}
+
+.ContentStageTitle {
+  color: $white;
+  font-size: 2.6rem;
+  font-weight: 900;
+  letter-spacing: 0.3px;
+  line-height: 2.9rem;
+  margin-bottom: $margin8;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4.5rem;
+    line-height: 5rem;
+    margin-bottom: 7px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 5.6rem;
+    letter-spacing: 0.37px;
+    line-height: 6.5rem;
+    margin-bottom: 3px;
+  }
+}
+
+.ContentStageLead {
+  font-size: 1.3rem;
+  letter-spacing: -0.17px;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 2.2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    letter-spacing: -0.2px;
+  }
+}
+
+.LinkOutWrapper {
+  background-color: $blackB;
+  color: $white;
+  font-size: 1.5rem;
+  margin-top: $mediumMargin;
+  padding: $mediumPadding 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 49px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 55px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 79px;
+  }
+}
+
+.LinkOutLink {
+  color: $white;
+  display: block;
+  font-family: $fontGotham;
+  padding-right: 35px;
+  position: relative;
+}
+
+.ArrowWrap {
+  align-items: center;
+  border: 1px solid $white;
+  border-radius: 50%;
+  color: $white;
+  display: inline-block;
+  flex: 0 0 20px;
+  font-size: 2.5rem;
+  justify-content: center;
+  margin-left: 10px;
+  margin-top: -5px;
+  padding: 2.5px;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 15px;
+    margin-top: -3px;
+    right: initial;
+  }
+}

@@ -1,0 +1,125 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "id": "fnkln2350",
+        "__typename": "Route",
+        "object": {
+          "__typename": "Video",
+          "id": "bm9kZToyNDU3MQ==",
+          "newer": null,
+          "older": {
+            "__typename": "RelatedContentUnionConnection",
+            "edges": [
+              {
+                "__typename": "RelatedContentUnionEdge",
+                "node": {
+                  "__typename": "Video",
+                  "id": "bm9kZToyMDIyOA==",
+                  "preferredUri": "/videoblogs/frey-style/videos/schuhe-wo-man-nur-hinschaut-wer-braucht-das-schon",
+                  "title": "Wer braucht das schon?",
+                  "shortTitle": "Schuhe wo man nur hinschaut",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "new-lgbjx7mg",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "42127",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "42704",
+                        "alt": "",
+                        "focalPointX": 1000,
+                        "focalPointY": 1000,
+                        "relativeOriginPath": "/media/field_image/2019-04/style_mode_trends_brightcove_video_thumb.jpg"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "__typename": "RelatedContentUnionEdge",
+                "node": {
+                  "__typename": "Video",
+                  "id": "bm9kZToxOTY2Mg==",
+                  "preferredUri": "/videoblogs/frey-style/videos/lets-play-game-cive-und-sanja-spielen-tabu",
+                  "title": "Cive und Sanja spielen Tabu",
+                  "shortTitle": "Lets play a game",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "new-ndfydchB",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "41552",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "42103",
+                        "alt": "",
+                        "focalPointX": 1000,
+                        "focalPointY": 1000,
+                        "relativeOriginPath": "/media/field_image/2019-02/cive_und_sanja_spielen_tabu_brightcove_video_thumb.jpg"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "__typename": "RelatedContentUnionEdge",
+                "node": {
+                  "__typename": "Video",
+                  "id": "bm9kZToxOTY2MQ==",
+                  "preferredUri": "/videoblogs/frey-style/videos/look-me-christa-rigozzi-gewahrt-einblick-ihre-luxus-garderobe",
+                  "title": "Christa Rigozzi gewährt Einblick in ihre Luxus-Garderobe",
+                  "shortTitle": "Look at me",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "new-dFldrWCN",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "41551",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "42102",
+                        "alt": "christina",
+                        "focalPointX": 1000,
+                        "focalPointY": 1000,
+                        "relativeOriginPath": "/christina.jpeg"
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "__typename": "RelatedContentUnionEdge",
+                "node": {
+                  "__typename": "Video",
+                  "id": "bm9kZToxOTY1OQ==",
+                  "preferredUri": "/videoblogs/frey-style/videos/gesundheit-schnee-essen-der-diat-tipp-fur-2019",
+                  "title": "Schnee essen, der Diät-Tipp für 2019",
+                  "shortTitle": "Gesundheit!",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "new-kbylqCRX",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "41548",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "42099",
+                        "alt": "",
+                        "focalPointX": 1000,
+                        "focalPointY": 1000,
+                        "relativeOriginPath": "/media/field_image/2019-02/gesundheit_danke._-_ist_schnee_essen_gefahrlich_brightcove_video_thumb.jpg"
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

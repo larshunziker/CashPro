@@ -1,0 +1,51 @@
+// 🚨 AUTO-GENERATED FILE! DO NOT UPDATE MANUALLY 🚨 
+
+declare const styles: {
+  readonly "Heading1SpecialSY": string;
+  readonly "Heading1ASY": string;
+  readonly "Heading1BSY": string;
+  readonly "Heading2ASY": string;
+  readonly "Heading2BSY": string;
+  readonly "Heading3ASY": string;
+  readonly "Heading3BSY": string;
+  readonly "Heading6SY": string;
+  readonly "Heading6WhiteSY": string;
+  readonly "Heading7SY": string;
+  readonly "HeadingCatch1SY": string;
+  readonly "HeadingCatch1SpecialSY": string;
+  readonly "HeadingCatch2SY": string;
+  readonly "HeadingCatch2BlackSY": string;
+  readonly "HeadingCatch3SY": string;
+  readonly "HeadingCatch4SY": string;
+  readonly "HeadingOverviewSY": string;
+  readonly "HeadingOverviewDossierSY": string;
+  readonly "HeadingOverviewCelebSY": string;
+  readonly "SectionTitleSY": string;
+  readonly "SectionTitleRelatedSY": string;
+  readonly "Lead1SY": string;
+  readonly "Lead2SY": string;
+  readonly "CatchQuestionsSY": string;
+  readonly "ParagraphSY": string;
+  readonly "Paragraph2SY": string;
+  readonly "ParagraphBoldSY": string;
+  readonly "CaptionAuthorParagraphSY": string;
+  readonly "CaptionAuthorCopyRightSY": string;
+  readonly "CaptionTitleAuthorParagraphSY": string;
+  readonly "BreadcrumbsWordsSY": string;
+  readonly "BreadcrumbsSymbolSY": string;
+  readonly "QuoteSY": string;
+  readonly "QuoteAuthorSY": string;
+  readonly "TagBanderoleSY": string;
+  readonly "InlineHoverSY": string;
+  readonly "TeaserHoverSY": string;
+  readonly "ButtonBigSY": string;
+  readonly "ButtonSmallSY": string;
+  readonly "ButtonPrimaryBigSY": string;
+  readonly "ButtonPrimarySmallSY": string;
+  readonly "ButtonSecondaryBigSY": string;
+  readonly "ButtonSecondarySmallSY": string;
+  readonly "ButtonTertiaryBigSY": string;
+  readonly "ButtonTertiarySmallSY": string;
+};
+export = styles;
+

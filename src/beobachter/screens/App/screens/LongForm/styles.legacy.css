@@ -1,0 +1,105 @@
+.Wrapper {
+  position: relative;
+}
+
+.ArticleHeader {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+}
+
+.AuthorBoxContainer {
+  border-bottom: 1px solid $grey30;
+  margin-bottom: 32px;
+  padding-bottom: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 48px;
+  }
+}
+
+.AuthorBoxWrapper {
+  border-top: 3px solid $black;
+}
+
+.Recommendations {
+  margin-top: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+}
+
+.CommentsWrapper {
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 8px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 24px;
+  }
+}
+
+.ArticleRecommendations {
+  margin-top: 32px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 40px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-top: 48px;
+  }
+}
+
+.AlertsWrapper {
+  margin-top: 32px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 48px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 64px;
+  }
+}
+
+:global(.paywall-cliffhanger) {
+  @media (min-width: $mdBreakpoint) {
+    margin-top: -$margin64;
+  }
+}
+
+.Paywall {
+  background-color: $white;
+  bottom: 0;
+  margin-bottom: 80px;
+  opacity: 1;
+  position: relative;
+  transition: opacity 0.3s;
+  width: 100%;
+
+  @media screen {
+    &::before {
+      background: linear-gradient(180deg, rgb(255 255 255 / 0%) 0.02%, $white 100%);
+      content: '';
+      display: inline-block;
+      height: 200px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: -200px;
+
+      @media print {
+        display: none;
+      }
+    }
+  }
+
+  :global(#piano-inlined) {
+    position: relative;
+    z-index: 1;
+  }
+}

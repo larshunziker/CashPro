@@ -1,0 +1,24 @@
+.SkeletonWrapper {
+  border-bottom: 1px solid $greyE;
+  display: flex;
+  padding: 10px 0 5px;
+}
+
+.SkeletonLeft {
+  background-color: $greyE;
+  height: 30px;
+  margin-bottom: 5px;
+  margin-right: 15px;
+  width: 30px;
+}
+
+.SkeletonRight {
+  width: 100%;
+}
+
+.SkeletonContent {
+  background-color: $greyE;
+  height: 20px;
+  margin-bottom: 5px;
+  width: 100%;
+}

@@ -1,0 +1,260 @@
+.Wrapper {
+  align-items: center;
+  background-color: $white;
+  box-shadow: 0 2px 8px 0 $black15;
+  height: $headerHeightXs;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  transition: padding-bottom $basicShortTransition;
+  z-index: calc($zIndexHeader + 3);
+
+  @media (min-width: $smBreakpoint) {
+    height: $headerHeightSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: auto;
+  }
+
+  @media print {
+    position: static;
+  }
+}
+
+:global(.branding-day) {
+  .Wrapper {
+    margin: 0 auto;
+    width: $mdBreakPointBrandingDayContainerWidth;
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.Header {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  padding-bottom: 6px;
+  padding-top: 6px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: $margin16;
+    padding-top: $margin16;
+  }
+}
+
+.LoginButton {
+  margin-right: 4px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin16;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-right: 0;
+  }
+}
+
+.Button {
+  composes: InfoD from 'typography.legacy.css';
+  align-items: center;
+  border: none;
+  color: $secondaryA;
+  display: flex;
+  flex-direction: column;
+  margin-left: 8px;
+  padding: 0 4px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+  }
+
+  svg {
+    fill: $secondaryA;
+    height: 18px;
+    margin-bottom: 2px;
+  }
+}
+
+.MenuButton {
+  padding-right: 0;
+}
+
+.MenuIconContainer {
+  align-items: center;
+  display: flex;
+  height: 18px;
+  justify-content: center;
+  margin: 1px 0 2px;
+}
+
+.MenuIcon {
+  background-color: $secondaryA;
+  height: 2px;
+  width: 16px;
+
+  &::before, &::after {
+    background-color: $secondaryA;
+    content: '';
+    display: block;
+    height: 100%;
+    transition: transform $basicShortTransition;
+    width: 100%;
+  }
+
+  &::before {
+    transform: translateY(-6px);
+  }
+
+  &::after {
+    transform: translateY(4px);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 24px;
+  }
+}
+
+.MenuIconOpen {
+  background-color: $transparent;
+
+  &::before {
+    transform: translateY(1px) rotate(45deg);
+  }
+
+  &::after {
+    transform: translateY(-1px) rotate(-45deg);
+  }
+}
+
+.HeaderLogo {
+  height: 25px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 34px;
+  }
+}
+
+.SearchContainer {
+  flex: 1;
+}
+
+.SearchWrapper {
+  margin: 8px auto;
+  width: 70%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 auto;
+    position: relative;
+    width: 70%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 60%;
+  }
+
+  &.IsHybridApp {
+    margin-left: 0;
+    margin-right: 0;
+
+    /* 
+      95% = 100% - 5% from CloseIconWrapper
+      26px = close icon
+      12px = gap between close and submit buttons
+    */
+    width: calc(95% - 26px - 12px); 
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: Container from '@grid.legacy.css';
+  position: fixed;
+  top: 163px;
+  z-index: $zIndexHeaderAd;
+}
+
+.Icon {
+  fill: $secondaryA;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.ButtonWithIcon {
+  align-items: center;
+  display: flex;
+}
+
+.MobileSearchFormWrapper {
+  background: $white;
+  border-bottom: 1px solid $greyC;
+  display: flex;
+  height: 50px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: calc($zIndexHeader + 10);
+}
+
+.CloseIconWrapper {
+  background-color: $white;
+  width: 5%;
+
+  .CloseIcon {
+    align-items: center;
+    bottom: 0;
+    color: $secondaryA;
+    cursor: pointer;
+    display: flex;
+    font-size: 1.6rem;
+    height: 40px;
+    left: 20px;
+    line-height: 1;
+    margin: auto;
+    padding: 0;
+    position: absolute;
+    top: 0;
+  }
+
+  &.IsHybridApp {
+    .CloseIcon {
+      left: auto;
+      right: 16px;
+    }
+  }
+}
+
+.Hidden {
+  display: none;
+}
+
+.MarketingPage {
+  display: flex;
+  justify-content: center;
+}
+
+@media print {
+  .Wrapper {
+    box-shadow: none;
+    height: auto;
+  }
+
+  .Button,
+  .MenuButton,
+  .SearchContainer {
+    display: none;
+  }
+
+  .HeaderLogo {
+    height: auto;
+    width: 200px;
+
+    @media print {
+      margin-left: $margin24;
+    }
+  }
+}
+

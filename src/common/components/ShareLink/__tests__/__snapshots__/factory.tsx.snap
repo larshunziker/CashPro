@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] ShareLink Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="sharelink-wrapper"
+  >
+    <a
+      class="SharePanelItem"
+      data-testid="mocked-link"
+      href="https://www.facebook.com/sharer/sharer.php?u=http://localhost:3000/test/mick-jagger-grosser-auftritt-fur-mister-nimmersatt%3Fwtmc%3Dsocialmedia.facebook.shared.web"
+    >
+      <i
+        class="Icon IconFacebookF IconClass"
+      />
+    </a>
+  </div>
+</div>
+`;

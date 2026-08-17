@@ -1,0 +1,127 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  background-color: $white;
+  display: block;
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.Left,
+.Right {
+  @media (min-width: $smBreakpoint) {
+    width: 50%;
+  }
+}
+
+.Left {
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    & > div {
+      height: auto;
+      padding-bottom: 0;
+    }
+  }
+}
+
+.Right {
+  border-bottom: 1px solid $greyA;
+  min-height: 200px; /* CLS */
+  padding-bottom: 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $gridGutterWidthXl;
+    min-height: 234px;
+  }
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: -6px;
+    padding-top: 0;
+  }
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: Lead2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.BottomLine,
+.SponsoredContent {
+  composes: Metadata from 'typography.legacy.css';
+  bottom: 0;
+  position: absolute;
+}
+
+.BottomLine {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Icon {
+  bottom: 19px;
+  position: absolute;
+  right: 23px;
+  z-index: 1;
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.Badge {
+  bottom: 19px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 35px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleBGreyA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+    margin-top: 0;
+  }
+}
+
+.ShortTitleNA{
+  composes: ShortTitleDNativeAd from 'typography.legacy.css';
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitleDAdvertorial from 'typography.legacy.css';
+}

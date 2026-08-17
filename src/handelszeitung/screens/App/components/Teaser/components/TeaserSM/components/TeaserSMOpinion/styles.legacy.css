@@ -1,0 +1,58 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  background-color: $greyE;
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  min-height: 113px;
+
+  padding: 8px;
+  position: relative;
+}
+
+.ContentWrapper {
+  line-height: 0;
+}
+
+.Title {
+  composes: H4b from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ShortTitle {
+  composes: ShortTitleC from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.AuthorWrapper {
+  left: 0;
+  margin-top: 20px;
+  position: relative;
+  right: 0;
+}
+
+.AuthorContent {
+  position: relative;
+}
+
+.AuthorAvatar {
+  border-radius: 50%;
+  height: auto;
+  width: 30px;
+}
+
+.Authors {
+  composes: Lead2 from 'typography.legacy.css';
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  strong {
+    font-family: $fontGothamBlack;
+  }
+}

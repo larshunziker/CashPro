@@ -1,0 +1,153 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 1;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    border-bottom-color: $redA;
+  }
+}
+
+.Button {
+  bottom: 38px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  text-align: center;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.ContentWrapper {
+  inset: 0;
+  position: absolute;
+  text-align: center;
+  z-index: calc($zIndex1 + 1);
+}
+
+.ShortTitle {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  bottom: 54px;
+  left: 0;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 98px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 130px;
+  }
+}
+
+.Title {
+  composes: Heading7 from 'typography.legacy.css';
+  bottom: 32px;
+  color: $white;
+  display: inline;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  text-shadow: $shadowA;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 62px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 70px;
+  }
+}
+
+.SpecialWrapper {
+  height: 100%;
+  position: relative;
+
+  &::after {
+    background-image: $gradientTeaser;
+    bottom: 0;
+    content: '';
+    height: 200px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: calc($zIndex1 - 1);
+  }
+}
+
+.SpecialImage {
+  bottom: 76px;
+  left: 0;
+  margin: auto;
+  max-height: 85px;
+  max-width: 183px;
+  position: absolute;
+  right: 0;
+  width: 100%;
+  z-index: $zIndex1;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 167px;
+    max-height: 120px;
+    max-width: 337px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 250px;
+    max-height: 180px;
+    max-width: 530px;
+  }
+}
+
+.PartnerWrapper {
+  background: $white;
+  display: inline;
+  line-height: 0;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.PartnerImage {
+  background-color: $white;
+  max-height: 23px;
+  max-width: 162px;
+  width: auto;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 40px;
+    max-width: 156px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 50px;
+    max-width: 240px;
+  }
+}
+
+.SponsorWrapper {
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+  bottom: 0;
+  color: $white;
+  left: 0;
+  min-height: 21px;
+  padding: 4px 20px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    text-align: right;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 9px 20px;
+  }
+}

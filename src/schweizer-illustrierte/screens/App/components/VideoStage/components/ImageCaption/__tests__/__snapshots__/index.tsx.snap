@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] VideoStage - ImageCaption Should generate ImageCaption styles correctly for activeMainChannel People 1`] = `
+{
+  "Credit": "Credit",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] VideoStage - ImageCaption Should generate ImageCaption styles correctly for activeMainChannel Style 1`] = `
+{
+  "Credit": "Credit",
+  "Wrapper": "Wrapper",
+}
+`;

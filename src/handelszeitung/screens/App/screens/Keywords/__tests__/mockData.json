@@ -1,0 +1,110 @@
+{
+  "data": {
+    "environment": {
+      "keywordsByChar": {
+        "edges": [
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToxMzI4",
+              "label": "Abama",
+              "preferredUri": "/stichworte/a/abama",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToyMTk=",
+              "label": "Abgangsentschädigung",
+              "preferredUri": "/stichworte/a/abgangsentschadigung",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybTo5OTE=",
+              "label": "Abredeversicherung",
+              "preferredUri": "/stichworte/a/abredeversicherung",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToyNTU1",
+              "label": "Amazon",
+              "preferredUri": "/stichworte/a/amazon",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToxMjgx",
+              "label": "An Test",
+              "preferredUri": "/stichworte/a/test",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToyNjA=",
+              "label": "Arbeitgeber",
+              "preferredUri": "/stichworte/a/arbeitgeber",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybTo4",
+              "label": "Arbeitslosigkeit",
+              "preferredUri": "/stichworte/a/arbeitslosigkeit",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybTo5",
+              "label": "Arbeitsunfähigkeit",
+              "preferredUri": "/stichworte/a/arbeitsunfahigkeit",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybTo5NA==",
+              "label": "Auto",
+              "preferredUri": "/stichworte/a/auto",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          }
+        ],
+        "__typename": "KeywordConnection"
+      },
+      "routeByPath": {
+        "id": "bm9kZToyODkyOA==",
+        "canonical": "/group/3/content/29867",
+        "preferred": "/stichworte",
+        "object": {
+          "publication": "handelszeitung",
+          "id": "bm9kZToyODkyOA==",
+          "title": "Stichworte",
+          "shortTitle": "Stichworte",
+          "preferredUri": "/stichworte",
+          "createDate": "2020-01-09T16:45:00",
+          "sponsor": null,
+          "channel": null,
+          "__typename": "LandingPage"
+        },
+        "__typename": "Route"
+      },
+      "__typename": "Environment"
+    }
+  }
+}

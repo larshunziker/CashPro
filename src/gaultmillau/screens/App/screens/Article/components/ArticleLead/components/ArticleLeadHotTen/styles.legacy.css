@@ -1,0 +1,23 @@
+.Title {
+  composes: HeadingANeutralA from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+}
+
+.SubTitle {
+  composes: Title from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Authors {
+  composes: InfoDNeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.DateWrapper {
+  composes: DateWrapper from '../ArticleLeadBlog/styles.legacy.css';
+  display: block;
+}

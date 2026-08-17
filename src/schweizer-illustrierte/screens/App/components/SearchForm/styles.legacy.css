@@ -1,0 +1,233 @@
+.Wrapper {
+  position: absolute;
+  top: 42px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+    position: relative;
+    top: 0;
+    width: auto;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 54px;
+  }
+}
+
+.InputWrapper {
+  height: 40px;
+  margin: 0;
+  z-index: calc($zIndex1 + 2);
+
+  @media (min-width: $xlBreakpoint) {
+    height: 50px;
+  }
+}
+
+.SubmitButton {
+  left: 0;
+  position: absolute;
+}
+
+.SubmitButton,
+.ResetIcon {
+  border: none;
+  bottom: 0;
+  height: 40px;
+  line-height: 1;
+  margin: auto;
+  padding: 0;
+  top: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 50px;
+  }
+}
+
+.SubmitIcon {
+  color: $white;
+  pointer-events: none;
+
+  &::before {
+    display: inline-block;
+    font-family: $fontIcons;
+    font-size: 4rem;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 5.1rem;
+    }
+  }
+}
+
+.ResetIcon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  right: 11px;
+
+  @media (min-width: $smBreakpoint) {
+    right: 45px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: 60px;
+  }
+
+  &::before {
+    color: $white;
+    font-size: 2rem;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      color: $black;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 3rem;
+    }
+  }
+
+  &:hover {
+    &::before {
+      color: $redA;
+    }
+  }
+}
+
+/* button styles if input has focus */
+.ButtonStylesInputHasFocus {
+  background: $grayA;
+  cursor: pointer;
+  left: auto;
+  opacity: 0;
+  pointer-events: unset;
+  right: 0;
+  visibility: hidden;
+  z-index: calc($zIndexHeader - 1);
+
+  @media (min-width: $smBreakpoint) {
+    opacity: 1;
+    visibility: visible;
+  }
+
+  &:hover {
+    background: $redA;
+
+    &::before {
+      color: $white;
+    }
+
+    .SubmitIcon {
+      @media (min-width: $smBreakpoint) {
+        color: $white;
+      }
+    }
+  }
+
+  &::before {
+    color: $black;
+  }
+
+  .SubmitIcon {
+    @media (min-width: $smBreakpoint) {
+      color: $black;
+    }
+  }
+}
+
+.Input[type='search'] {
+  @mixin MenuItems4;
+  /* stylelint-disable */
+  -webkit-appearance: none;
+  appearance: none;
+  /* stylelint-enable */
+  border: none;
+  border-bottom: 1px solid $grayC;
+  border-radius: 0;
+  color: $white;
+  font-size: 1.6rem;
+  height: 100%;
+  padding-left: 40px;
+  transition: border-bottom 0.3s ease-in-out, background 0.3s ease-in-out;
+  width: 100%;
+
+  &::placeholder {
+    color: $white;
+    font-weight: 100;
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    &:active,
+    &:focus {
+      background: color($white a(10%));
+      border-bottom-color: $transparent;
+    }
+  }
+
+  &:hover {
+    background: color($white a(10%));
+    border-bottom-color: $transparent;
+  }
+
+  &:placeholder-shown {
+    & + .SubmitButton {
+      pointer-events: none;
+    }
+  }
+
+  /* stylelint-disable */
+  &:-ms-input-placeholder {
+    & + .SubmitButton {
+      pointer-events: none;
+    }
+  }
+
+  /* stylelint-enable */
+
+  @media (min-width: $smBreakpoint) {
+    width: 286px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    padding-left: 49px;
+    width: 462px;
+  }
+
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+
+  &.InputStylesInputFocused {
+    padding-left: 15px;
+
+    &::placeholder {
+      color: $white;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      background: $white;
+      border-bottom-color: $white;
+      color: $black;
+      padding-left: 20px;
+
+      &::placeholder {
+        color: $black;
+      }
+    }
+  }
+}

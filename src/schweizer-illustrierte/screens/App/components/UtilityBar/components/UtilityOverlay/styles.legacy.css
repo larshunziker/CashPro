@@ -1,0 +1,105 @@
+.Wrapper {
+  background-color: $white;
+  box-shadow: 0 3px 6px 0 $black50;
+  display: flex;
+  flex-flow: wrap;
+  height: 0;
+  left: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 535px;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0 $margin24;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: $margin12;
+  transition: height 0.3s ease, padding 0.3s ease, opacity 0.3s ease;
+  z-index: $zIndex50;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+    margin: 0;
+    top: auto;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 600px;
+  }
+}
+
+.WrapperSticky {
+  bottom: calc(-100% + 128px);
+  left: 0;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+  }
+}
+
+.WrapperHeaderOverlay {
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  top: 17px;
+}
+
+.WrapperInPageOverlay {
+  @media (min-width: $smBreakpoint) {
+    margin-left: -4px;
+    margin-top: 16px;
+  }
+}
+
+.WrapperPageOverlaySY {
+  @media (min-width: $smBreakpoint) {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.Title {
+  composes: CaptionTitleAuthorParagraph from 'typography.legacy.css'; 
+  display: inline-block;
+  margin-bottom: $margin8;
+  width: 100%;
+}
+
+.CloseButton {
+  background-color: $transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  outline:none;
+  position: absolute;
+  right: 24px;
+  top: 11px;
+  transition: color 0.3s ease-in-out;
+
+  &::after {
+    content: '\E917';
+    display: inline-block;
+    font-family: $fontIcons;
+    font-size: 2.4rem;
+  }
+
+  &:hover {
+    color: $redA;
+  }
+}
+
+.WrapperToggle {
+  height: auto;
+  opacity: 1;
+  padding-bottom: 8px;
+  padding-top: 16px;
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  margin-top: 10px;
+  min-height: 49px;
+}

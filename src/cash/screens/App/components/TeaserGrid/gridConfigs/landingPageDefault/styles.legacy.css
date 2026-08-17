@@ -1,0 +1,35 @@
+.landingPageDefault {
+  .Grid0 {
+    display: grid;
+    grid-auto-rows: auto;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+
+    /*
+      minmax(0, ...) instead of a plain 1fr: a plain 1fr resolves to
+      minmax(auto, 1fr), which lets the widest item (an ad creative can be
+      wider than the content column) push the track - and with it every
+      teaser - beyond the column.
+    */
+    grid-template-columns: minmax(0, 1fr);
+    margin-bottom: 30px;
+  }
+
+  /*
+    Single-column stack: teasers and interleaved ad slots simply flow in order.
+    The item count is variable (ads are inserted after every Nth teaser), so we
+    rely on auto placement instead of per-index grid-area definitions.
+    min-width overrides the default "auto" of grid items, which would otherwise
+    refuse to shrink below the content width.
+  */
+  .Item {
+    margin-bottom: 32px;
+    min-width: 0;
+  }
+
+  /* Keep oversized ad creatives inside the content column */
+  .Item :global(.ad-wrapper) {
+    max-width: 100%;
+    overflow: hidden;
+  }
+}

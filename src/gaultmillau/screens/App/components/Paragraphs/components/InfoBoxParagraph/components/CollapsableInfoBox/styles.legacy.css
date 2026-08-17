@@ -1,0 +1,61 @@
+.Container {
+  border-bottom: 1px solid $neutralE;
+  border-top: 3px solid $neutralA;
+  margin-inline: auto;
+  padding-top: 8px;
+}
+
+.Title {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin-block: $margin8 $margin16;
+}
+
+.Content {
+  overflow: hidden;
+}
+
+.ToggleWrapper {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: $neutralA;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  gap: 8px;
+  margin-block: $margin16 $margin24;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.InnerWrapper {
+  break-inside: avoid;
+}
+
+.RecipeTitle {
+  composes: SectionTitleNeutralA from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+}
+
+.ParagraphTitle {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin-bottom: 18px;
+  text-align: center;
+}
+
+.StyledParagraphContainer {
+  @media (min-width: $smBreakpoint) {
+    margin-left: 6px;
+    margin-right: 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: $margin24;
+    margin-right: 22px;
+  }
+}

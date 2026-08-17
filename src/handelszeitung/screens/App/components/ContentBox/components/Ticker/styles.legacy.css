@@ -1,0 +1,55 @@
+.Wrapper {
+  composes: PullOutXs from 'helpers.legacy.css';
+  background-color: $greyE;
+  height: 100%;
+  min-height: 150px;
+  padding: 16px 24px;
+}
+
+.Title {
+  color: $blackB;
+  display: inline-block;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  height: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  margin-bottom: 7px;
+  text-transform: uppercase;
+  word-break: break-all;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 18px;
+  }
+}
+
+.TeaserWrapper {
+  /* only show three elements for the ticker box on mobile */
+  > :nth-child(n + 4) {
+    display: none
+  }
+
+  /* revert snd show all 6 teaer if not mobile VP */
+  @media (min-width: $smBreakpoint) {
+    > :nth-child(n + 4) {
+      display: block;
+    }
+  }
+}
+
+.Link {
+  color: $blackB;
+  display: inline-block;
+  font-family: $fontGothamBook;
+  font-size: 1.1rem;
+  font-weight: normal;
+  line-height: 2.4rem;
+  margin: 4px 0;
+  text-decoration: underline;
+
+  @media (min-width: $smBreakpoint) {
+    font-family: $fontGothamNarrow;
+    font-size: 1.4rem;
+    margin: 16px 0 0;
+  }
+}

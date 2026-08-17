@@ -1,0 +1,67 @@
+.Link {
+  cursor: pointer;
+  display: inline-block;
+  max-height: 34px;
+  outline: none;
+  padding: 0 24px 15px;
+  position: relative;
+
+  &:hover {
+    .Label,
+    .Icon {
+      color: $greyA;
+      fill: $greyA;
+      transition: color 0.3s, fill 0.3s;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 38px;
+  }
+}
+
+.Icon {
+  display: flex;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.Label {
+  composes: InfoD from 'typography.legacy.css';
+  bottom: -8px;
+  left: -5px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+}
+
+.LinkOverlay {
+  margin-bottom: 18px;
+  max-height: 38px;
+  padding: 0 35px 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0
+  }
+}
+
+.LinkHeader {
+  max-height: 34px;
+  padding: 0 34px 12px;
+}
+
+.Animating {
+  animation: ScaleAnimation 0.5s;
+}
+
+@mixin ScaleAnimation;
+
+.Restricted {
+  .Label,
+  .Icon {
+    color: $greyA;
+    fill: $greyA;
+    transition: color 0.3s, fill 0.3s;
+  }
+}

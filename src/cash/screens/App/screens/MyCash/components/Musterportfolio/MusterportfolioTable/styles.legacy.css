@@ -1,0 +1,4 @@
+.TableHeading {
+  composes: InfoABold from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}

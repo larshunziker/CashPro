@@ -1,0 +1,246 @@
+.TableWrapper {
+  composes: InfoC from 'typography.legacy.css';
+  margin-bottom: 24px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 48px;
+  }
+}
+
+.TableHeader, .TableRow {
+  border-bottom: 1px solid $greyD;
+  display: flex;
+  gap: 4px;
+
+  @media (min-width: $smBreakpoint) {
+    gap: 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    gap: 34px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    gap: 88px;
+  }
+
+  :first-child {
+    min-width: 135px;
+
+    @media (min-width: $mdBreakpoint) {
+      min-width: 175px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      min-width: 277px;
+    }
+
+    &.Link {
+      width: fit-content;
+    }
+  }
+
+  &.NewEmissionTableHeader, &.TableRowNewEmission {
+    gap: 55px;
+
+    @media (min-width: $mdBreakpoint) {
+      gap: 80px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      gap: 157px;
+    }
+  }
+
+  &.WikifolioTableHeader, &.TableRowWikifolio {
+    gap: 70px;
+
+    @media (min-width: $mdBreakpoint) {
+      gap: 116px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      gap: 191px;
+    }
+  }
+
+  &.CryptoTableHeader, &.TableRowCryptoCurrency {
+    gap: 37px;
+
+    @media (min-width: $mdBreakpoint) {
+      gap: 58px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      gap: 122px;
+    }
+  }
+}
+
+
+.TableHeaderItem {
+  font-weight: bold;
+  min-width: 100px;
+  padding-bottom: 4px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    min-width: 85px;
+  }
+
+  &.RightAlignedItem {
+    margin-right: 20px;
+    text-align: right;
+  }
+}
+
+.TableBody {
+  position: relative;
+}
+
+.TableRowItem {
+  align-items: center;
+  display: flex;
+  padding: 8px 0;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 85px;
+  }
+
+  &.RightAlignedItem {
+    margin-right: 20px;
+    text-align: right;
+  }
+
+  &.TableRowItemNewEmission {
+    width: 110px;
+
+    @media (min-width: $mdBreakpoint) {
+      width: 136px;
+    }
+
+  }
+}
+
+.SwissDotsItem {
+  &&& {
+    display: flex;
+    gap: 4px;
+    justify-content: space-between;
+
+    i {
+      font-size: 1.3rem;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      min-width: 185px;
+
+      i {
+        font-size: 1.6rem;
+      }
+
+      a {
+        display: flex;
+        justify-content: flex-end;
+        min-width: initial;
+        width: 100%;
+      }
+    }
+    @media (min-width: $mdBreakpoint) {
+      min-width: 215px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      min-width: 315px;
+    }
+  }
+}
+
+.Link {
+  composes: InfoC from 'typography.legacy.css';
+  color: $secondaryA;
+  display: block;
+  word-break: break-word;
+
+  &:hover {
+    color: $secondaryB;
+  }
+
+  &&.WithIcon {
+    align-items: center;
+    display: flex;
+    gap: 4px;
+    width: auto;
+
+    i {
+      min-width: initial;
+    }
+  }
+}
+
+.TermSheetIcon {
+  color: $secondaryA;
+  font-size: 1.3rem;
+  margin-left: $margin8;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.CTAWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: $margin8 0;
+  padding-bottom: 15px;
+}
+
+.MobileWrapper {
+  border-bottom: 1px solid $greyD;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8px;
+}
+
+.WikifolioFlag {
+  composes: InfoD from 'typography.legacy.css';
+}
+
+.ToggleIcon {
+  align-self: center;
+  color: $secondaryA;
+  display: inline-block;
+  font-size: 1.2rem;
+  width: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+  }
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.MobileInlineContent {
+  align-items: flex-start;
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.ItemName {
+  @mixin InfoB;
+  color: $secondaryA;
+}
+
+.ItemAttributs {
+  @mixin InfoD;
+  color: $greyA;
+}

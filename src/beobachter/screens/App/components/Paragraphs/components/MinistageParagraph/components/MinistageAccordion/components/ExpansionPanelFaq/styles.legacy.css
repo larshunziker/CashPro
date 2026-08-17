@@ -1,0 +1,99 @@
+.ExpansionPanel {
+  position: relative;
+
+  &:last-of-type {
+    .Header {
+      margin-bottom: 0;
+    }
+
+    .Content {
+      > div {
+        padding-top: $margin16;
+      }
+    }
+
+    &.IsOpen {
+      margin-bottom: -$margin32;
+    }
+  }
+
+  .Header {
+    align-items: center;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .HeaderContentWrapper {
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+
+  .Icon {
+    &::before {
+      color: $black;
+      display: inline-block;
+      font-family: $fontRaschIcon;
+      font-size: 2.4rem;
+    }
+
+    &.ArrowIcon {
+      align-items: center;
+      display: flex;
+      height: 2.7rem;
+      line-height: 1;
+      margin-right: $margin8;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+      &::before {
+        content: '\e906';
+      }
+    }
+  }
+
+  &.IsOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.Content {
+  composes: ParagraphSansSerif from 'typography.legacy.css';
+  height: 0;
+  margin-left: $margin32;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  position: relative;
+  word-break: break-word;
+
+  @media print {
+    height: auto !important; /* stylelint-disable-line */
+  }
+}
+
+.Title {
+  composes: SubheadMD from 'typography.legacy.css';
+  line-height: 2.7rem;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 2.7rem;
+  }
+
+  .Header:hover & {
+    text-decoration: underline;
+  }
+}
+
+.Header {
+  margin-bottom: $margin32;
+}

@@ -1,0 +1,48 @@
+.BookmarkButtonWrapper {
+  align-items: center;
+  background: $transparent;
+  border: 1px solid $greyA;
+  bottom: 0;
+  box-shadow: 0 15px 30px -20px $blackA;
+  cursor: pointer;
+  display: flex;
+  height: 36px;
+  justify-content: center;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  width: 111px;
+  
+  &:hover {
+    border: 1px solid $blackA;
+
+    .Icon {
+      color: $blackB;
+    }
+
+    .Text {
+      color: $blackB;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    position: static;
+  }
+}
+
+.Text {
+  composes: Lead2 from 'typography.legacy.css';
+}
+
+.Icon {
+  color: $greyA;
+  @mixin fontSize 16;
+  margin-right: $margin4;
+  transform-origin: 50% 25%;
+}
+
+.Animating {
+  animation: BookmarkAnimation 500ms;
+}
+
+@mixin BookmarkAnimation;

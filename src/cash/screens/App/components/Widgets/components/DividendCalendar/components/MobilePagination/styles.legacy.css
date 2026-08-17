@@ -1,0 +1,51 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  height: 35px;
+  justify-content: space-between;
+  margin: 0 auto;
+  width: 60%
+}
+
+.IndicatorDotsWrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  width: 100%;
+
+}
+
+.NavigationItem {
+  border: none;
+  z-index: 1000;
+
+  &.Left {
+    left: -15px;
+  }
+
+  &.Right {
+    right: -15px;
+  }
+
+  i {
+    color: $secondaryA;
+
+    &::before {
+      font-size: 36px;
+    }
+
+    &:hover {
+      color: $secondaryB;
+      cursor: pointer;
+    }
+
+    &.Disabled {
+      color: $greyC;
+
+      &:hover {
+        cursor: default;
+      }
+    }
+  }
+}

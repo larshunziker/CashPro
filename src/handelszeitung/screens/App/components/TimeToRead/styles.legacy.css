@@ -1,0 +1,14 @@
+.Wrapper {
+  composes: AuthorDateBook from 'typography.legacy.css';
+
+  .IconClock {
+    margin-right: 4px;
+    vertical-align: middle;
+    width: 13px; /* width is needed to prevent CLS */
+    
+    @media (min-width: $smBreakpoint) {
+      width: 16px; /* width is needed to prevent CLS */
+    }
+  }
+
+}

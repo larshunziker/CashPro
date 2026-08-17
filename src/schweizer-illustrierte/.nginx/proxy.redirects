@@ -1,0 +1,25 @@
+# search screen
+if ($args ~ "search=(.*)") {
+  set $search $1;
+  rewrite ^/suche?$ https://$host/suche/$search? permanent;
+}
+
+# images redirects for google image search
+rewrite ^/sites/schweizer-illustrierte.ch/files/(.*)$ https://cdn.schweizer-illustrierte.ch/sites/default/files/bz-files/files/$1 permanent;
+
+# image redirects for legacy URIs
+rewrite ^(/schweizer_illustrierte/newsImport|/media/field_image|/si/gallery)(.*).(jpg|jpeg|png)$ https://cdn.schweizer-illustrierte.ch/sw/1200/sites/default/files/$1/$2.$3 permanent;
+rewrite ^/([\w.]+).(jpg|jpeg|png)$ https://cdn.schweizer-illustrierte.ch/sw/1200/sites/default/files/$1.$2 permanent;
+
+# redirect style magazine dossiers
+rewrite ^/style/dossier/(.*)$ /dossier/$1 permanent;
+
+# redirect deprecated feed urls
+rewrite ^/feeds/rss$ /rss_feed permanent;
+rewrite ^/feeds/atom$ /rss_feed permanent;
+rewrite ^/style/feeds/rss$ /rss_feed permanent;
+rewrite ^/style/feeds/atom$ /rss_feed permanent;
+rewrite ^/feeds/blinkfeed(.*)$ /rss_feed permanent;
+
+# Ads.txt
+rewrite ^/ads.txt https://adm-adstxt.s3.eu-central-1.amazonaws.com/schweizer-illustrierte_ch/ads.txt permanent;

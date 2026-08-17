@@ -1,0 +1,120 @@
+.BreadcrumbsContainer,
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Row {
+  display: flex;
+}
+
+.Title {
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 3.2rem;
+  font-weight: 600;
+  line-height: 4rem;
+  margin: 0 0 22px;
+  padding: 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5.3rem;
+    line-height: 6.5rem;
+    margin-bottom: 28px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.VideoContainer {
+  padding: 0;
+}
+
+.ShortTitle {
+  color: $blue;
+  font-family: $fontGotham;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  margin-bottom: $margin4;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+  }
+}
+
+.Lead {
+  font-family: $fontGotham;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.ArticleAlertsWrapper {
+  margin-bottom: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 52px;
+  }
+}
+
+.SocialBarWrapper {
+  margin-bottom: 40px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 62px;
+  }
+}
+
+.RecommendationsWrapper {
+  margin-bottom: 33px;
+
+  @media (min-width: $smBreakpointTo) {
+    margin-bottom: 11px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 34px;
+  }
+}
+
+.CTAWrapper {
+  margin-bottom: 80px;
+  text-align: center;
+}
+
+.Button {
+  composes: Button from 'typography.legacy.css';
+  background-color: $blueA;
+  display: inline-block;
+  padding: 4px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 14px;
+    transition: background-color 0.3s ease;
+    width: 218px;
+
+    &:hover {
+      background-color: $blueC;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 17px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 19px;
+  }
+}

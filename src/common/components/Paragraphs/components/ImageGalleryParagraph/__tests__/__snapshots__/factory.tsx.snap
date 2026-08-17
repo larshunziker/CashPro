@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ImageGalleryParagraph Factory Should render correctly with given props 1`] = `
+<div>
+  <div
+    class="paragraph image-gallery-paragraph"
+    data-testid="imagegalleryparagraph-container"
+  >
+    <div
+      component="foo"
+      data-testid="image-gallery-component-mock"
+      gallery="[object Object]"
+      origin="example"
+      title=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ImageGalleryParagraph Factory Should render correctly with given props 2`] = `
+<div>
+  <div
+    class="paragraph image-gallery-paragraph"
+    data-testid="imagegalleryparagraph-container"
+  >
+    <div
+      component="foo"
+      data-testid="image-gallery-component-mock"
+      gallery="[object Object]"
+      origin="example"
+      title="test"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ImageGalleryParagraph Factory Should render nothing if there are no props 1`] = `<div />`;

@@ -1,0 +1,98 @@
+{
+  "node": {
+    "id": "bm9kZTozMzQ3MzM=",
+    "title": "Banken empfehlen auch für 2022 am liebsten Aktien",
+    "lead": "Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.",
+    "restrictionStatus": null,
+    "authorPrefix": "by",
+    "shortTitle": "Anlegen",
+    "changeDate": "2021-12-20T15:21:27+01:00",
+    "preferredUri": "/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien",
+    "publication": "handelszeitung",
+    "publicationDate": "2021-12-21T06:58:08+01:00",
+    "subtypeValue": "news",
+    "useNativeAdvertising": false,
+    "authors": {
+      "__typename": "AuthorConnection",
+      "edges": [
+        {
+          "__typename": "AuthorEdge",
+          "node": {
+            "__typename": "Author",
+            "id": "YXV0aG9yOjU4MDk=",
+            "name": "Conny Schmid",
+            "headline": "Freie Mitarbeiterin",
+            "imageParagraph": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjE5MTc4NzY6Njg2NTMyNA==",
+              "image": {
+                "__typename": "Image",
+                "id": "720959",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo3NTMxNDY6OmxhcmdlOjoxNjgyNjk1NTY5",
+                  "alt": "Conny Schmid",
+                  "relativeOriginPath": "/media/field_image/2023-04/conny_schmid.jpg",
+                  "focalPointX": 972,
+                  "focalPointY": 828
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "relatedPersons": {
+      "edges": [
+        {
+          "node": {
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOmhhbmRlbHN6ZWl0dW5nX2ZhbGxiYWNrOm5ldy1qVUpGdk1kYQ==",
+              "image": {
+                "id": "613628",
+                "file": {
+                  "id": "ZmlsZTo2MTU1MTE6OjE2MDAsMTIwMDpsYXJnZTo=",
+                  "alt": "Handelszeitung Logo",
+                  "relativeOriginPath": "/2021-10/handelszeitung_fallback.png",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Person"
+          },
+          "__typename": "PersonEdge"
+        }
+      ],
+      "__typename": "PersonConnection"
+    },
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToxMzA4NDU=",
+      "title": "Börsennews",
+      "__typename": "Channel"
+    },
+    "hasVideo": false,
+    "teaserImage": {
+      "id": "cGFyYWdyYXBoOmltYWdlOjE0MTYzMTA6NDcyODgzOA==",
+      "caption": "<p>Gutes Jahr für Schweizer Aktien: Passanten vor Kurs-Bildschirmen einer Bank.</p>\n",
+      "image": {
+        "id": "623626",
+        "file": {
+          "id": "ZmlsZTo2MjY2MTU6OjkzNiw0Nzc6bGFyZ2U6",
+          "alt": "Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)",
+          "relativeOriginPath": "/media/field_image/2021-12/schweiz_boerse_zuerich.jpg",
+          "focalPointX": 936,
+          "focalPointY": 477,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "__typename": "Article"
+  },
+  "__typename": "RouteObjectInterfaceEdge"
+}

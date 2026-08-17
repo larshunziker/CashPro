@@ -1,0 +1,252 @@
+.Wrapper {
+  margin-bottom: 13px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 5px;
+  }
+}
+
+.SliderAndNavigationWrapper {
+  position: relative;
+}
+
+.GalleryItem {
+  height: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  width: auto;
+}
+
+.IndicatorWrapper {
+  bottom: 26px;
+  left: calc(50% - 12px);
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 35px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 45px;
+  }
+}
+
+.NavigationWrapper {
+  display: none;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -56px;
+    display: block;
+    right: -16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    right: -7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -66px;
+    right: -4px;
+  }
+}
+
+.ImageCaptionWrapper {
+  margin: 5px auto 17px;
+  padding-left: 0;
+  width: calc(100% - 38px);
+
+  @media (min-width: $smBreakpoint) {
+    margin: 6px 0 0;
+    width: 100%;
+  }
+}
+
+.ImageWrapper {
+  display: inline-flex;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  transition: opacity .2s ease-in-out;
+  width: 100%;
+
+  @media (min-width: $xsBreakpoint) {
+    max-height: calc(56.5vw);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 405px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 459px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 729px;
+  }
+}
+
+.ImageFormat-landscape {
+  height: 287px;
+  width: 510px;
+
+  @media (width >= 480px) {
+    height: 304px;
+    width: 540px;
+  }
+
+  @media (width >= 540px) {
+    height: 473px;
+    width: 840px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 591px;
+    width: 1050px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 675px;
+    width: 1200px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 996px;
+    width: 1770px;
+  }
+}
+
+.ImageFormat-portrait {
+  height: 810px;
+  width: 540px;
+
+  @media (width >= 540px) {
+    height: 1710px;
+    width: 1140px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 686px;
+    width: 458px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 1710px;
+    width: 1140px;
+  }
+}
+
+.ImageFormat-square {
+  height: 615px;
+  width: 615px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 960px;
+    width: 960px;
+  }
+}
+
+
+.FullscreenGalleryButton-landscape {
+  position: absolute;
+  width: 100%;
+}
+
+.FullscreenGalleryButton-portrait {
+  position: absolute;
+  width: 70%;
+
+  @media (width >= 540px) {
+    width: 69%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 74%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 69%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 71.5%;
+  }
+}
+
+.FullscreenGalleryButton-square {
+  position: absolute;
+  width: 79%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 79%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 88%;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.PrevButton {
+  composes: IconArrowLeftButtonOutline from 'raschFont.legacy.css';
+  margin-right: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e913';
+  }
+}
+
+.NextButton {
+  composes: IconArrowRightButtonOutline from 'raschFont.legacy.css';
+  margin-left: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e915';
+  }
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  font-size: 40px;
+  outline: none;
+  padding: 5px;
+  transition: opacity 0.3s;
+
+  &:not(.DisabledButton):hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 50px;
+  }
+}
+
+.PrevButtonSI,
+.NextButtonSI {
+  color: $redA;
+}
+
+.PrevButtonSY,
+.NextButtonSY {
+  color: $black;
+}
+
+.DisabledButton {
+  opacity: 0.3;
+}

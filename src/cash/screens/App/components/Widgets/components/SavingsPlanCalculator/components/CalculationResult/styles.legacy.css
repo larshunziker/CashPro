@@ -1,0 +1,145 @@
+.ChartExplanation {
+  composes: InfoB from 'typography.legacy.css';
+}
+
+.Wrapper {  
+  container-type: inline-size;
+  margin-top: $margin32;
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    flex-direction: row;
+    gap: 78px;
+  }
+
+  @container (max-width: $smBreakpoint) {
+    flex-direction: column;
+  }
+}
+
+.ResultBreakdown {
+  @media (min-width: $xlBreakpoint) {
+    min-width: 354px;
+  }
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  color: $blackB;
+}
+
+.Group {
+  align-items: space-between;
+  border-bottom: 2px solid $greyB;
+  display: flex;
+  flex-direction: column;
+  padding: $margin12 0;
+}
+
+.GroupRow {
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+
+  div {
+    display: flex;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}
+
+.Circle {
+  border-radius: 50%;
+  display: block;
+  height: 16px;
+  margin-right: $margin8;
+  margin-top: 2px;
+  width: 16px;
+}
+
+.Blue {
+  background: $secondaryA;
+}
+
+.Grey {
+  background: $greyC;
+}
+
+.Red {
+  background: $primaryA;
+}
+
+.ResultExplanation {
+  composes: InfoB from 'typography.legacy.css';
+  margin-top: 26px;
+}
+
+.Highlighted {
+  font-size: 1.125rem;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.Button {
+  composes: ButtonPrimaryBig from 'form.legacy.css';
+  align-items: center;
+  background: $primaryA;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 1.125rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 1.375rem;
+  margin-bottom: $margin24;
+  margin-top: $margin24;
+  padding: 16px 24px;
+  text-align: center;
+  width: 100%;
+
+  &:hover {
+    background: $primaryB;
+  }
+
+  @media (max-width: $smBreakpoint) {
+    padding: 8px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.ButtonInfos {
+  border: none;
+  color: $secondaryA;
+  cursor: pointer;
+  display: block;
+  font-family: $fontSourceSansPro;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  padding: 16px 24px;
+  text-align: center;
+  width: 100%;
+}
+
+.Disclaimer {
+  composes: InfoB from 'typography.legacy.css';
+
+  p {
+    margin-bottom: $margin16;
+  }
+}

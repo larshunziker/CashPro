@@ -1,0 +1,305 @@
+{
+  "__typename": "Keyword",
+  "id": "dGF4b25vbXlfdGVybTo1NTk5",
+  "label": "Royals",
+  "preferredUri": "/dossier/royals",
+  "entities": {
+    "count": 14,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Nw==",
+          "title": "«Ich geniesse es, mal nicht zu frieren»",
+          "preferredUri": "/sports/ich-geniesse-es-mal-nicht-zu-frieren",
+          "shortTitle": "Mit Wendy Holdener in den Ferien",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234",
+              "file": {
+                "id": "test1234234",
+                "alt": "Wendy Holdener am Strand",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/CF063676.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Ng==",
+          "title": "Der wohl knappste Bikini-Trend 2018",
+          "preferredUri": "/style/der-wohl-knappste-bikini-trend-2018",
+          "shortTitle": "Die Strand-Tangas sind zurück",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234adsf",
+              "file": {
+                "id": "test123412341",
+                "alt": "Sexy Bikini Trend",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/bildschirmfoto-2018-07-04-um-14.15.37.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4NA==",
+          "title": "Heidi Klum zeigt ganz New York, was sie zu bieten hat (video)",
+          "preferredUri": "/people/heidi-klum-zeigt-ganz-new-york-was-sie-zu-bieten-hat-video",
+          "shortTitle": "Nackt, nackter, Heidi",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12123434",
+              "file": {
+                "id": "te32st1234",
+                "alt": "Table",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/april_2017.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Mw==",
+          "title": "Kaffee ist ungesund",
+          "preferredUri": "/sports/kaffee-ist-ungesund",
+          "shortTitle": "Article with Square Hero Image",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12312344",
+              "file": {
+                "id": "t23est1234",
+                "alt": "test",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/Advertorials_.jpeg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI1NQ==",
+          "title": "Darum sind Mules die Trendschuhe für den Sommer 12345",
+          "preferredUri": "/style/darum-sind-mules-die-trendschuhe-fur-den-sommer-12345",
+          "shortTitle": "Tauglich für Büro und Apéro 12345",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test123412",
+              "file": {
+                "id": "t23est1234",
+                "alt": "Schöni Schüeli",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/mules.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTIzMg==",
+          "title": "«Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»",
+          "preferredUri": "/people/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+          "shortTitle": "Carla Bruni",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12344123",
+              "file": {
+                "id": "test123123224",
+                "alt": "Krankheiten / Symptome",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/media/field_image/2018-07/Fallback_Krankheiten_Symptome.png"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5OA==",
+          "title": "So kommen wir cool durch die Hundstage",
+          "preferredUri": "/style/so-kommen-wir-cool-durch-die-hundstage",
+          "shortTitle": "Jetzt gehts in die heisse Phase",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1231234",
+              "file": {
+                "id": "test1234l",
+                "alt": "Es Glassee",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/gettyimages-602981803.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5Nw==",
+          "title": "Meghans Bruder fleht Queen an: «Lasst sie nicht sterben!»",
+          "preferredUri": "/people/meghans-bruder-fleht-queen-lasst-sie-nicht-sterben",
+          "shortTitle": "Prinz Harrys Frau unter Dauerbeschuss",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234p",
+              "file": {
+                "id": "test12334",
+                "alt": "Meghan Markle hat keine ruhige Minute mehr, seit sich ihre Familie an die Medien gewandt hat.",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-meghan_markle_traurig1.jpg.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5Mw==",
+          "title": "InfoBox Backend Issue (aki)",
+          "preferredUri": "/sports/infobox-backend-issue-aki",
+          "shortTitle": "test InfoBox bug",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12324",
+              "file": {
+                "id": "test1234.",
+                "alt": "Saufen!",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/CF063618.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5Mg==",
+          "title": "Strong Tag in Paragraph Test",
+          "preferredUri": "/style/strong-tag-paragraph-test",
+          "shortTitle": "Strong Tag in Paragraph Test",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12341",
+              "file": {
+                "id": "test1234we",
+                "alt": "you shall not pass",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/hobbit-lotr-5-armies-gandalf-hat.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4OQ==",
+          "title": "Schneewittchen hinter den sieben Bergen",
+          "preferredUri": "/style/schneewittchen-hinter-den-sieben-bergen",
+          "shortTitle": "Style Video Article 123",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test12we34",
+              "file": {
+                "id": "test12h34",
+                "alt": "Wendy ist happy",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/_DSC9718.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4OA==",
+          "title": "Test article with inline gallery - titile",
+          "preferredUri": "/sports/test-article-inline-gallery-titile",
+          "shortTitle": "Test article with inline gallery - short title",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234a",
+              "file": {
+                "id": "test1234x",
+                "alt": "Alternativer Text",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/images.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4MQ==",
+          "title": "Lirum Larum Löffelstiel",
+          "preferredUri": "/family/lirum-larum-loffelstiel",
+          "shortTitle": "Vorsicht Gefahr!",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234x",
+              "file": {
+                "id": "test1234q",
+                "alt": "baum",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/fileadmin/dateien/bilder-editionen/2016/Weihnachtsbaum_Online.jpg"
+              }
+            }
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI2Nw==",
+          "title": "Pietro Lombardi hat eine Zürcher Señorita",
+          "preferredUri": "/people/pietro-lombardi-hat-eine-zurcher-senorita",
+          "shortTitle": "Sie kommen sich sehr nahe",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "id": "test1234g",
+              "file": {
+                "id": "test1234hg",
+                "alt": "Während dem Dreh sind sich das Model und der Sänger sehr nahe gekommen.",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  }
+}

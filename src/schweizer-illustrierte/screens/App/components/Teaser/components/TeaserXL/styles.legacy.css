@@ -1,0 +1,245 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  margin-bottom: 22px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+    margin-left: 0;
+    margin-right: 0;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+
+  &::before {
+    background: $gradientTeaser;
+    bottom: 0;
+    content: '';
+    height: 140px;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    @media (min-width: $smBreakpoint) {
+      height: 265px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 424px;
+    }
+  }
+
+  &.WrapperSY {
+    margin-bottom: 25px;
+
+    &:hover {
+      .TitleSY .TitleInner {
+        border-bottom-color: $skin;
+      }
+    }
+  }
+
+  &:hover {
+    .TitleSI .TitleInner {
+      box-shadow: $shadowH;
+    }
+  }
+}
+
+.Image {
+  height: 100%;
+  width: 100%;
+}
+
+.ContentWrapper {
+  max-width: 90%;
+  padding-right: 15px;
+  position: absolute;
+  word-wrap: break-word;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    padding-right: 0;
+  }
+}
+
+.ContentWrapperSY {
+  bottom: -25px;
+  left: 0;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -15px;
+    max-width: 650px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -24px;
+    max-width: 1164px;
+  }
+}
+
+.ContentWrapperSI {
+  bottom: -21px;
+  left: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -19px;
+    left: 13px;
+    max-width: 685px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -27px;
+    left: 30px;
+    max-width: 1158px;
+  }
+}
+
+.Title {
+  > .TitleInner {
+    box-decoration-break: clone;
+  }
+}
+
+.TitleSY {
+  composes: Heading1SpecialSY from 'typographySY.legacy.css';
+  background-color: $white;
+  line-height: 3rem;
+  padding: 3px 6px;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 7.9rem;
+    padding: 0 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 12.1rem;
+    padding: 0 30px;
+  }
+
+  > .TitleInner {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.TitleSI {
+  composes: Heading1B from 'typography.legacy.css';
+  display: inline;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5rem;
+    line-height: 7.2rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 8rem;
+    line-height: 10.9rem;
+  }
+
+  > .TitleInner {
+    background-color: $white;
+    box-shadow: $shadowG;
+    padding: 0 6px 1px;
+    transition: box-shadow 0.3s;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 2px 10px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding: 0 24px 4px;
+    }
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch1SpecialSY from 'typographySY.legacy.css';
+  padding: 0 8px 5px;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    padding: 0 24px 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0 30px 10px;
+  }
+
+  &.ShortTitleSI {
+    letter-spacing: 0.5px;
+    padding: 0 8px 1px;
+    text-shadow: $shadowC;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 10px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding: 0 24px 8px;
+    }
+  }
+}
+
+.Badge {
+  margin-bottom: 5px;
+  padding-left: 8px;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 5px;
+    padding-left: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-left: 23px;
+  }
+}
+
+.BadgeSY {
+  @media (min-width: $smBreakpoint) {
+    padding-left: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-left: 30px;
+  }
+}
+
+.IconStyle {
+  color: $white;
+  display: inline-block;
+  font-size: 1.2rem;
+  left: 8px;
+  position: relative;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  top: -4px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    left: 10px;
+    top: -10px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+    left: 24px;
+  }
+}
+
+.IconStyleSY {
+  @media (min-width: $smBreakpoint) {
+    left: 24px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    left: 30px;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

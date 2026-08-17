@@ -1,0 +1,29 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/agio-aufschlag",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Agio",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    },
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/agio-aufschlag",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Aufschlag",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    }
+  ],
+  "__typename": "TitleAliasConnection"
+}

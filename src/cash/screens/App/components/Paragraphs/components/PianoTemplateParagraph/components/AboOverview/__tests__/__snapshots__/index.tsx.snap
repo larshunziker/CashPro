@@ -1,0 +1,1465 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should render a AboOverview 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper"
+    >
+      <div />
+      <div
+        class="Wrapper BorderRight"
+      >
+        <p
+          class="Title"
+        >
+          Basic
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Gratis
+        </p>
+        <p
+          class="SubTitle"
+        >
+          ‌
+        </p>
+        <div
+          class="Button"
+        >
+          <button
+            class="Primary Small"
+            tabindex="0"
+          >
+            <span>
+              Registrieren
+            </span>
+          </button>
+        </div>
+        <p>
+          ‌
+        </p>
+      </div>
+      <div
+        class="Wrapper BorderRight"
+      >
+        <div
+          class="BadgeWrapper"
+        >
+          <div
+            class="Badge"
+          >
+            Beliebt
+          </div>
+        </div>
+        <p
+          class="Title"
+        >
+          Anleger
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Ab 9.90 CHF /
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Monat
+        </p>
+        <div
+          class="Button"
+        >
+          <button
+            class="Primary Small"
+            tabindex="0"
+          >
+            <span>
+              <i
+                class="Icon IconCart"
+              />
+              Bestellen
+            </span>
+          </button>
+        </div>
+        <p>
+          ‌
+        </p>
+      </div>
+      <div
+        class="Wrapper BorderRight"
+      >
+        <p
+          class="Title"
+        >
+          Realtime
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Ab 20.75 CHF /
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Monat
+        </p>
+        <div
+          class="Button"
+        >
+          <button
+            class="Primary Small"
+            tabindex="0"
+          >
+            <span>
+              <i
+                class="Icon IconCart"
+              />
+              Bestellen
+            </span>
+          </button>
+        </div>
+        <p>
+          ‌
+        </p>
+      </div>
+      <div
+        class="Wrapper"
+      >
+        <p
+          class="Title"
+        >
+          Profi
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Ab 119 CHF /
+        </p>
+        <p
+          class="SubTitle"
+        >
+          Monat
+        </p>
+        <div
+          class="Button"
+        >
+          <button
+            class="Primary Small"
+            tabindex="0"
+          >
+            <span>
+              <i
+                class="Icon IconCart"
+              />
+              Bestellen
+            </span>
+          </button>
+        </div>
+        <p
+          class="Info"
+        >
+          Gratis für
+          <a
+            class="Link"
+            data-testid="routed-link"
+            href="/services/boersenabo#bankInfoBox"
+          >
+             Bankkunden
+          </a>
+          *
+        </p>
+      </div>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Virtuelles Portfolio und Watchlist
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Personalisierung der Ansichten für Portfolio und Watchlist
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Portfolio-Alerts via E-Mail
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Realtime Quotes der SIX Swiss Exchange - Structured Products
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Aktienmonitor theScreener
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Kursalerts per Email
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Kursalerts per SMS
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Werbefreie Nutzung (Display Ads)
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Derivate Simulator
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          theScreener keyPoints
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Corporate Actions
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          AWP Analyser
+        </span>
+        <span
+          class="Wrapper"
+          role="button"
+          tabindex="0"
+        >
+          <span
+            class="Icon"
+          >
+            <i
+              class="Icon IconCircleInfo"
+            />
+          </span>
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Realtime Quotes der Schweizer Börse SWX
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Text"
+        >
+          Realtime Einblick ins Orderbuch der Schweizer Börse (10 Zeilen)
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon BorderRight"
+        >
+          ‌
+        </span>
+      </span>
+      <span
+        class="Cell"
+      >
+        <span
+          class="Icon"
+        >
+          <i
+            class="Icon IconCheck"
+          />
+        </span>
+      </span>
+      <div />
+      <a
+        class="Link"
+        data-testid="routed-link"
+        href="/boersenabo/basic"
+      >
+        mehr erfahren
+      </a>
+      <a
+        class="Link"
+        data-testid="routed-link"
+        href="/boersenabo/anleger"
+      >
+        mehr erfahren
+      </a>
+      <a
+        class="Link"
+        data-testid="routed-link"
+        href="/boersenabo/realtime-kurse"
+      >
+        mehr erfahren
+      </a>
+      <a
+        class="Link"
+        data-testid="routed-link"
+        href="/boersenabo/profi"
+      >
+        mehr erfahren
+      </a>
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div>
+        <div
+          class="Wrapper"
+        >
+          <div
+            class="BadgeWrapper"
+          >
+            <div
+              class="Badge"
+            >
+              Beliebt
+            </div>
+          </div>
+          <div
+            class="TitleRow"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="Title"
+            >
+              Anleger Abo
+            </span>
+            <i
+              class="Icon IconChevronUp"
+            />
+          </div>
+          <div
+            class="ContentOpen Content"
+          >
+            <p
+              class="Text"
+            >
+              Anlegen für Fortgeschrittene. Dies ist eine Erweiterung des gratis Basic-Abos mit zusätzlichen Möglichkeiten wie der Nutzung des Derivate-Simulators, dem Erhalt von Kursalerts per SMS und relevanten Corporate Actions.
+            </p>
+            <p
+              class="Price"
+            >
+              Ab 9.90 CHF / Monat
+            </p>
+            <div
+              class="Button"
+            >
+              <button
+                class="Primary"
+                tabindex="0"
+              >
+                <span>
+                  <i
+                    class="Icon IconCart"
+                  />
+                  Bestellen
+                </span>
+              </button>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Alle Funktionen des Basic Abos
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Corporate Actions
+              <span
+                class="Wrapper"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="Icon"
+                >
+                  <i
+                    class="Icon IconCircleInfo"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Kursalerts per SMS
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Derivate Simulator
+              <span
+                class="Wrapper"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="Icon"
+                >
+                  <i
+                    class="Icon IconCircleInfo"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Werbefreie Nutzung (Display Ads)
+            </div>
+            <a
+              class="Link"
+              data-testid="routed-link"
+              href="/boersenabo/anleger"
+            >
+              Mehr erfahren
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="Wrapper"
+        >
+          <div
+            class="TitleRow"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="Title"
+            >
+              Realtime Abo
+            </span>
+            <i
+              class="Icon IconChevronDown"
+            />
+          </div>
+          <div
+            class="ContentClosed Content"
+          >
+            <p
+              class="Text"
+            >
+              Börsenkurse in Echtzeit. Sie können die Kurse der SWX in Echtzeit verfolgen, Kurswarnungen per SMS erhalten und die Website und Apps ohne Display-Werbung nutzen.
+            </p>
+            <p
+              class="Price"
+            >
+              Ab 20.75 CHF / Monat
+            </p>
+            <div
+              class="Button"
+            >
+              <button
+                class="Primary"
+                tabindex="0"
+              >
+                <span>
+                  <i
+                    class="Icon IconCart"
+                  />
+                  Bestellen
+                </span>
+              </button>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Alle Funktionen des Basic Abos
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Realtime Quotes der Schweizer Börse SWX
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Kursalerts per SMS
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Derivate Simulator
+              <span
+                class="Wrapper"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="Icon"
+                >
+                  <i
+                    class="Icon IconCircleInfo"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Werbefreie Nutzung (Display Ads)
+            </div>
+            <a
+              class="Link"
+              data-testid="routed-link"
+              href="/boersenabo/realtime-kurse"
+            >
+              Mehr erfahren
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="Wrapper"
+        >
+          <div
+            class="TitleRow"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="Title"
+            >
+              Profi Abo
+            </span>
+            <i
+              class="Icon IconChevronDown"
+            />
+          </div>
+          <div
+            class="ContentClosed Content"
+          >
+            <p
+              class="Text"
+            >
+              Das volle Programm für Profis. Das Profi-Abo vereint alle Funktionen des Anleger- und des Realtime-Abos und gibt Anlegern einen Realtime Einblick ins Orderbuch der Schweizer Börse.
+            </p>
+            <p
+              class="Price"
+            >
+              Ab 119 CHF / Monat
+            </p>
+            <div
+              class="Button"
+            >
+              <div>
+                <button
+                  class="Secondary"
+                  tabindex="0"
+                >
+                  <span>
+                    <i
+                      class="Icon IconCart"
+                    />
+                    Bestellen
+                  </span>
+                </button>
+                <p
+                  class="ProfiText"
+                >
+                  oder
+                </p>
+                <p
+                  class="ProfiTitle"
+                >
+                  Gratis für Bankkunden
+                </p>
+                <a
+                  data-testid="routed-link"
+                  href="/boersenabo/realtime_kurse"
+                >
+                  <button
+                    class="Primary"
+                    tabindex="0"
+                  >
+                    <span>
+                      Depot eröffnen
+                    </span>
+                  </button>
+                </a>
+              </div>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Alle Funktionen des Anleger Abos
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Alle Funktionen des Realtime Abos
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Realtime Einblick ins Orderbuch der Schweizer Börse (10 Zeilen)
+            </div>
+            <a
+              class="Link"
+              data-testid="routed-link"
+              href="/boersenabo/profi"
+            >
+              Mehr erfahren
+            </a>
+          </div>
+        </div>
+      </div>
+      <div>
+        <div
+          class="Wrapper"
+        >
+          <div
+            class="TitleRow"
+            role="button"
+            tabindex="0"
+          >
+            <span
+              class="Title"
+            >
+              Basic Abo
+            </span>
+            <i
+              class="Icon IconChevronDown"
+            />
+          </div>
+          <div
+            class="ContentClosed Content"
+          >
+            <p
+              class="Text"
+            >
+              Ihr Einstieg in die Welt von Börse & Trading ohne Abo und komplett kostenfrei.
+            </p>
+            <p
+              class="Price"
+            />
+            <div
+              class="Button"
+            >
+              <button
+                class="Primary"
+                tabindex="0"
+              >
+                <span>
+                  Registrieren
+                </span>
+              </button>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Virtuelles Portfolio und Watchlist
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Personalisierung der Ansichten für Portfolio und Watchlist
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Kurs und Portfolio-Alerts via E-Mail
+              <span
+                class="Wrapper"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="Icon"
+                >
+                  <i
+                    class="Icon IconCircleInfo"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Aktienanalyse von theScreener.com
+              <span
+                class="Wrapper"
+                role="button"
+                tabindex="0"
+              >
+                <span
+                  class="Icon"
+                >
+                  <i
+                    class="Icon IconCircleInfo"
+                  />
+                </span>
+              </span>
+            </div>
+            <div
+              class="Advantage"
+            >
+              <i
+                class="Icon IconCheck"
+              />
+              Realtime Quotes der SIX Swiss Exchange - Structured Products
+            </div>
+            <a
+              class="Link"
+              data-testid="routed-link"
+              href="/boersenabo/basic"
+            >
+              Mehr erfahren
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+</div>
+`;

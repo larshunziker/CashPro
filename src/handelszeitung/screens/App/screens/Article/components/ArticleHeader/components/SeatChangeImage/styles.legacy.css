@@ -1,0 +1,55 @@
+.Wrapper {
+  margin-bottom: 27px;
+  margin-top: $margin16;
+  position: relative;
+  z-index: calc($zIndexLow + 1);
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 33px;
+    margin-top: 36px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 43px;
+  }
+}
+
+.Image {
+  border-radius: 50%;
+  display: inline-block;
+  height: 140px;
+  width: 140px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 210px;
+    width: 210px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 250px;
+    width: 250px;
+  }
+}
+
+.Image:first-of-type {
+  box-shadow: 2px 4px 21px 0 $blackB;
+}
+
+.Image:last-of-type {
+  left: 100px;
+  position: absolute;
+  z-index: -1;
+
+  @media (min-width: $smBreakpoint) {
+    left: 180px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: 210px;
+  }
+}
+
+.Image:only-of-type {
+  left: 0;
+  position: relative;
+}

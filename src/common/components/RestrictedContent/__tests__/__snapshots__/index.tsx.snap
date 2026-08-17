@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] Ranking | RestrictedContent Should render with span wrapper 1`] = `
+<div>
+  <span
+    class="Wrapper"
+  >
+    <p
+      class="text-style"
+    >
+      Aaa
+    </p>
+  </span>
+</div>
+`;
+
+exports[`[Screen] Ranking | RestrictedContent Should render without wrapper 1`] = `
+<div>
+  <p
+    class="text-style Wrapper"
+  >
+    Aaa
+  </p>
+</div>
+`;

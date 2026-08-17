@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Paragraphs] EntityQueueParagraph Should render with default grid config 1`] = `"entityQueueDefault"`;
+
+exports[`[Paragraphs] EntityQueueParagraph Should render with first grid config 1`] = `"entityQueueDefaultFirst"`;

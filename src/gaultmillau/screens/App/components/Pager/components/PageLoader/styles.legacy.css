@@ -1,0 +1,101 @@
+.Wrapper {
+  composes: Unselectable from 'helpers.legacy.css';
+  display: block;
+  justify-content: space-between;
+  margin: 25px 0;
+  margin-bottom: 50px;
+  text-align: center;
+  width: 100%;
+}
+
+.PageLink {
+  color: $neutralA;
+  cursor: pointer;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: normal;
+  letter-spacing: 4px;
+  line-height: 1.3rem;
+  padding-right: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 1.3rem;
+    line-height: 1.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+}
+
+.PagerPlaceholder {
+  display: inline;
+}
+
+.PrevLabel,
+.NextLabel {
+  color: $neutralA;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.3rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+    line-height: 1.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.5rem;
+    line-height: 1.9rem;
+  }
+}
+
+.Disabled {
+  color: $neutralE;
+  cursor: not-allowed;
+}
+
+.PrevSlash {
+  font-size: 3rem;
+  font-weight: normal;
+  left: -8px;
+  opacity: 0.4;
+  position: relative;
+  top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 6rem;
+    line-height: 1.6rem;
+    top: 21px;
+  }
+}
+
+.NextSlash {
+  font-size: 3rem;
+  font-weight: normal;
+  left: -3px;
+  opacity: 0.4;
+  position: relative;
+  top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 6rem;
+    line-height: 1.6rem;
+    top: 21px;
+  }
+}
+
+.ActiveItem {
+  color: $neutralA;
+  font-weight: bold;
+}

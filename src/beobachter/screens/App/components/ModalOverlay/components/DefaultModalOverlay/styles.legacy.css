@@ -1,0 +1,17 @@
+.Wrapper {
+  composes: Wrapper from 'ModalOverlay/styles.legacy.css';
+
+  background-color: $blackAlpha6;
+}
+
+.FadeIn {
+  composes: FadeIn from 'ModalOverlay/styles.legacy.css';
+}
+
+.FadeOut {
+  composes: FadeOut from 'ModalOverlay/styles.legacy.css';
+}
+
+.BodyClass {
+  composes: BodyClass from 'ModalOverlay/styles.legacy.css';
+}

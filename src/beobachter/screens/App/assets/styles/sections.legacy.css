@@ -1,0 +1,61 @@
+.Section {
+  width: 100%;
+}
+
+.SectionRed {
+  composes: Section;
+  background-color: $redA;
+}
+
+.SectionDark {
+  composes: Section;
+  background-color: $black;
+}
+
+.SectiongreyAWarm {
+  composes: Section;
+  background-color: $greyB;
+}
+
+.SectionGrayLightest {
+  composes: Section;
+  background-color: $greyC;
+}
+
+.SectionPullOut {
+  composes: SectionPullOut from '@sections.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 -18px;
+    width: calc(100% + 36px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+  }
+}
+
+.SectionDotted {
+  background: rgb(0 0 0 / 0%) url('../graphics/guider_bg.png') repeat top
+    center;
+  width: 100%;
+}
+
+.SectionDefaultMargin {
+  margin-bottom: 20px;
+}
+
+.PublicationSection {
+  composes: Section;
+  background: $black;
+
+  @media print {
+    background: $white;
+  }
+}

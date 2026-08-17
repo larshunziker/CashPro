@@ -1,0 +1,42 @@
+.Wrapper {
+  @media (min-width: $smBreakpoint) {
+    margin-left: 200px;
+    margin-top: 30px;
+  }
+}
+
+.Thumbnail {
+  height: 80px;
+  width: 80px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 104px;
+    width: 104px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 160px;
+    width: 160px;
+  }
+}
+
+.PersonName {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin-left: $margin12;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin24;
+  }
+}
+
+.ListItem {
+  align-items: center;
+  display: flex;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}

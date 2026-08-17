@@ -1,0 +1,52 @@
+{
+  "ministageParagraph": {
+    "__typename": "MinistageParagraph",
+    "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToyMTMyNzQ6MjgzNjQw",
+    "anchorId": null,
+    "ministage": {
+      "__typename": "MinistageListicle",
+      "headline": null,
+      "links": {
+        "__typename": "LinkConnection",
+        "edges": [
+          {
+            "__typename": "LinkEdge",
+            "node": {
+              "__typename": "Link",
+              "path": "/schweizer-versicherung/fpvs/fpvs",
+              "label": "Freitagsgespräche",
+              "routed": true
+            }
+          },
+          {
+            "__typename": "LinkEdge",
+            "node": {
+              "__typename": "Link",
+              "path": "/schweizer-versicherung/asda/asda",
+              "label": "Women in Insurance",
+              "routed": true
+            }
+          },
+          {
+            "__typename": "LinkEdge",
+            "node": {
+              "__typename": "Link",
+              "path": "/schweizer-versicherung/svvg/svvg",
+              "label": "Marketing Opinions",
+              "routed": true
+            }
+          },
+          {
+            "__typename": "LinkEdge",
+            "node": {
+              "__typename": "Link",
+              "path": "/schweizer-versicherung/pierin-vincenz-am-pranger",
+              "label": "Insurance Forum",
+              "routed": true
+            }
+          }
+        ]
+      }
+    }
+  }
+}

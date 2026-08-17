@@ -1,0 +1,19 @@
+html {
+  font-size: 62.5%;
+
+  /* stylelint-disable-next-line */
+  -webkit-text-size-adjust: 100%;
+
+  * {
+    font-variant-numeric: oldstyle-nums proportional-nums;
+  }
+}
+
+body {
+  color: $black;
+  font-family: $fontSansSerif;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-tap-highlight-color: $transparent;
+}

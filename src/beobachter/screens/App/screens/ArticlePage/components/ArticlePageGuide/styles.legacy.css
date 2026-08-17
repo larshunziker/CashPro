@@ -1,0 +1,96 @@
+/* show hint that the image might not have been downloaded */
+:global(.article-guide-detail .default-image-paragraph .print-info) {
+  @media print {
+    display: flex;
+    width: 25%;
+  }
+}
+
+:global(.article-guide-detail) {
+  margin-bottom: $margin16 0;
+  margin-top: $wrapperMarginXs;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    margin-top: $wrapperMarginSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $wrapperMarginMd;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $wrapperMarginXl;
+  }
+}
+
+$paywallHeightXs: 1338px;
+$paywallHeightSm: 714px;
+
+:global(.paywall-cliffhanger) {
+  @media (min-width: $mdBreakpoint) {
+    margin-top: -$margin64;
+  }
+}
+
+.Paywall {
+  background-color: $white;
+  bottom: 40px;
+  opacity: 1;
+  padding-bottom: 80px;
+  position: relative;
+  transition: opacity 0.3s;
+  width: 100%;
+
+  @media screen {
+    &::before {
+      background: linear-gradient(180deg, rgba(255 255 255 / 0%) 0.02%, $white 100%);
+      content: '';
+      display: inline-block;
+      height: 200px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      top: -200px;
+
+      @media print {
+        display: none;
+      }
+    }
+  }
+
+  &.IsSectionParagraph {
+    bottom: 80px;
+  }
+
+  :global(#piano-inlined) {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.HiddenPaywall {
+  opacity: 0;
+  padding-bottom: 0;
+}
+
+/* TODO: remove this when HiddenMdUp is fixed in common */
+.HiddenMdUp {
+  @media (min-width: $mdBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+:global(.PaywallSkeleton) {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyE;
+  border-top: 1px solid $greyB;
+  min-height: $paywallHeightXs;
+  position: absolute;
+  top: 0;
+  z-index: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: $paywallHeightSm;
+  }
+}

@@ -1,0 +1,53 @@
+.Wrapper {
+  margin: 50px 0 100px;
+}
+
+.InnerContainer {
+  margin: 0 auto;
+  max-width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 660px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 730px;
+  }
+}
+
+.Title {
+  composes: Heading3A from 'typography.legacy.css';
+  composes: InnerContainer;
+
+  margin-bottom: 15px;
+}
+
+.Description {
+  composes: Paragraph from 'typography.legacy.css';
+  composes: InnerContainer;
+}
+
+.CallToAction {
+  display: block;
+  line-height: 2rem;
+  margin: 20px auto $margin80 auto;
+  white-space: nowrap;
+  width: 104px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin40 auto;
+    width: 122px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 2.6rem;
+    margin: 50px auto 127px;
+  }
+}
+
+.Icon {
+  height: 72px;
+  margin-bottom: 37px;
+  max-height: 72px;
+  max-width: none;
+}

@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Paragraphs] MinistageParagraph - MinistageAccordion Should render default styles 1`] = `
+{
+  "FAQInner": "",
+  "InnerWrapper": "",
+  "Paragraphs": "Paragraphs",
+  "Row": "",
+  "Title": "Title",
+}
+`;
+
+exports[`[Paragraphs] MinistageParagraph - MinistageAccordion Should render guide styles 1`] = `
+{
+  "FAQInner": "",
+  "InnerWrapper": "",
+  "Paragraphs": "Paragraphs",
+  "Row": "",
+  "Title": "Title",
+}
+`;
+
+exports[`[Paragraphs] MinistageParagraph - MinistageAccordion Should render headerContent styles 1`] = `
+{
+  "FAQInner": "",
+  "InnerWrapper": "",
+  "Paragraphs": "Paragraphs",
+  "Row": "",
+  "Title": "Title",
+}
+`;
+
+exports[`[Paragraphs] MinistageParagraph - MinistageAccordion Should render marketing page with default header styles 1`] = `
+{
+  "FAQInner": "",
+  "InnerWrapper": "",
+  "Paragraphs": "Paragraphs",
+  "Row": "",
+  "Title": "Title",
+}
+`;
+
+exports[`[Paragraphs] MinistageParagraph - MinistageAccordion Should render marketing page with reduced header styles 1`] = `
+{
+  "FAQInner": "",
+  "InnerWrapper": "",
+  "Paragraphs": "Paragraphs",
+  "Row": "",
+  "Title": "Title",
+}
+`;

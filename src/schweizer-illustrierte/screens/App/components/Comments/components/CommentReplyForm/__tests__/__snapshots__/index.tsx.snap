@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentReplyForm Should generate CommentReplyForm styles correctly when isFormVisible is false 1`] = `
+{
+  "Form": "Form",
+  "FormWrapper": "FormWrapper",
+}
+`;
+
+exports[`[Component] CommentReplyForm Should generate CommentReplyForm styles correctly when isFormVisible is true 1`] = `
+{
+  "Form": "Form",
+  "FormWrapper": "FormWrapperVisible",
+}
+`;

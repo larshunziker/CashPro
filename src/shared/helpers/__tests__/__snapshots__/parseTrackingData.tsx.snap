@@ -1,0 +1,218 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] parseTrackingData Should match the snapshot 0 1`] = `
+{
+  "articleId": null,
+  "articlePremium": "0",
+  "articleType": "NotFound",
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": null,
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 1 1`] = `
+{
+  "articleId": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.id",
+    ],
+  },
+  "articlePremium": "0",
+  "articleType": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.__typename",
+    ],
+  },
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.title",
+    ],
+  },
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 2 1`] = `
+{
+  "articleId": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.id",
+    ],
+  },
+  "articlePremium": "0",
+  "articleType": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.__typename",
+    ],
+  },
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.title",
+    ],
+  },
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 3 1`] = `
+{
+  "articleId": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.tid",
+    ],
+  },
+  "articlePremium": "0",
+  "articleType": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.__typename",
+    ],
+  },
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.label",
+    ],
+  },
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 4 1`] = `
+{
+  "articleId": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.id",
+    ],
+  },
+  "articlePremium": "0",
+  "articleType": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.__typename",
+    ],
+  },
+  "keywordCat": null,
+  "keywords": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.keywords.edges",
+      "node.label",
+    ],
+  },
+  "olid": "0",
+  "publication": "test app",
+  "subsection": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.environment.routeByPath.object.channel.title",
+    ],
+  },
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 5 1`] = `
+{
+  "articleId": null,
+  "articlePremium": "0",
+  "articleType": "NotFound",
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": null,
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 6 1`] = `
+{
+  "articleId": null,
+  "articlePremium": "0",
+  "articleType": "NotFound",
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": null,
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 7 1`] = `
+{
+  "articleId": null,
+  "articlePremium": "0",
+  "articleType": "NotFound",
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": null,
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 8 1`] = `
+{
+  "articleId": "1",
+  "articlePremium": "0",
+  "articleType": "news",
+  "keywordCat": null,
+  "keywords": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.routeByPath.object.keywords.edges",
+      "node.label",
+    ],
+  },
+  "olid": "0",
+  "publication": "test app",
+  "subsection": {
+    "type": "extract-data/type-path",
+    "value": [
+      "data.routeByPath.object.channel.title",
+    ],
+  },
+  "usersi": "0",
+}
+`;
+
+exports[`[Function] parseTrackingData Should match the snapshot 9 1`] = `
+{
+  "articleId": null,
+  "articlePremium": "0",
+  "articleType": "NotFound",
+  "keywordCat": null,
+  "keywords": null,
+  "olid": "0",
+  "publication": "test app",
+  "subsection": null,
+  "usersi": "0",
+}
+`;

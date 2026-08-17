@@ -1,0 +1,24 @@
+.ContentWrapper {
+  > h2 {
+    @mixin CatchQuestionsNeutralA;
+    background-color: $primaryB;
+    color: $white;
+    margin-bottom: $margin8;
+    margin-top: $margin80;
+    padding: 5px 15px;
+    z-index: 0;
+
+    @media (min-width: $smBreakpoint) {
+      line-height: 2.7rem;
+    }
+  }
+}
+
+.Title {
+  composes: HeadingANeutralA from 'typography.legacy.css'; 
+  margin: $margin40 auto;
+}
+
+:global(.component-MinistageDisruptor){ /* stylelint-disable-line */
+  position: relative;
+}

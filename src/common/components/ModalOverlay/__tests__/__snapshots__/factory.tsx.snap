@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] modal overlay component Should modal overlay component match snapshot 0  1`] = `
+<div>
+  <div
+    id="MODAL_ROOT"
+  >
+    <div>
+      <div
+        class="ClassNameWrapper ClassNameFadeIn"
+        data-testid="modal-wrapper"
+      >
+        <div>
+          test
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] modal overlay component Should modal overlay component match snapshot 1  1`] = `
+<div>
+  <div
+    id="MODAL_ROOT"
+  >
+    <div>
+      <div
+        class="ClassNameWrapper"
+        data-testid="modal-wrapper"
+        style="visibility: hidden; z-index: -1;"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] modal overlay component Should not present modal when isVisible is false 1`] = `
+<div>
+  <div
+    id="MODAL_ROOT"
+  >
+    <div>
+      <div
+        class="ClassNameWrapper"
+        data-testid="modal-wrapper"
+        style="visibility: hidden; z-index: -1;"
+      />
+    </div>
+  </div>
+</div>
+`;

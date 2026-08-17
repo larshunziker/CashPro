@@ -1,0 +1,72 @@
+.Wrapper {
+  background-color: $greyE;
+  padding-bottom: 24px;
+  padding-top: 24px;
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.Subtitle {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 24px;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-bottom: 8px;
+  }
+}
+
+.FormLogosWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 24px;
+  justify-items: space-between;
+
+  @media (max-width: $xsBreakpointTo) {
+    flex-direction: column;
+  }
+}
+
+.Form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  width: 100%;
+}
+
+.Logos {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  justify-content: center;
+  width: 100%;
+}
+
+.Presented {
+  composes: InfoD from 'typography.legacy.css';
+}
+
+
+.JobsCH {
+  height: 36px;
+  width: 180px;
+}
+
+.HZinsurance {
+  height: 23px;
+  width: 244px;
+}
+
+.Button {
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 16px);
+
+  button {
+    margin: 0;
+  }
+}
+

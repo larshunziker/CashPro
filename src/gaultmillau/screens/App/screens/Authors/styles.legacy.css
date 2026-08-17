@@ -1,0 +1,43 @@
+.HeaderWrapper {
+  background-color: $greyE;
+  padding-bottom: 40px;
+
+}
+
+.ShortTitle {
+  composes: ShortTitle1TextSecondary from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: TeaserTitleH1 from 'typography.legacy.css';
+  margin: 0 auto $margin8;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  
+  color: $blackB;
+  font-family: $fontBagueSansPro;
+  font-size: 22px;
+  font-weight: 400;
+  line-height: 32px; 
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: left !important; /* stylelint-disable-line */ /* to override compose Lead */
+  }
+}
+
+.AuthorsWrapper {
+  padding: 24px 0;
+}
+
+.Divider {
+  background-color: $greyD;
+  height: 1px;
+}

@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Teaser helpers Should compose tracking data correctly. 1`] = `
+{
+  "cms_target_channel_level_1": "",
+  "cms_target_channel_level_2": "",
+  "cms_target_channel_level_3": "",
+  "cms_target_channel_level_4": "",
+  "cms_target_page_id": "45343",
+  "cms_target_page_sponsor": "",
+  "cms_target_page_title": "Test Article Title",
+  "cms_target_page_type": "Article",
+  "cms_target_preferredUri": "/unternehmen/test-article",
+  "event_name": "teaser_click",
+  "tealium_event": "teaser_click",
+}
+`;

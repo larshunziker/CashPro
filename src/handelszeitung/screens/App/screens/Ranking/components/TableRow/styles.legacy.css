@@ -1,0 +1,132 @@
+.CardWrapper {
+  background: $white;
+  border-bottom: 1px solid $greyE;
+  border-radius: 4px;
+  box-shadow: 1px 3px 5px 2px rgb(0 0 0 / 15%);
+  cursor: pointer;
+  display: grid;
+  gap: $margin16;
+  margin-bottom: $margin16;
+  overflow: hidden;
+  padding: $margin16;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    box-shadow: none;
+    display: table-row;
+    line-height: 23px;
+    padding: 0;
+  }
+
+  &.IsOpen {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-color: $white;
+    margin-bottom: 0;
+  }
+
+  &:hover {
+    background-color: $greyE;
+  }
+}
+
+.TableCell {
+  display: grid;
+
+  @media (min-width: $smBreakpoint) {
+    display: table-cell;
+    padding: 8px;
+    user-select: none;
+
+    &:nth-last-child(2) {
+      padding-right: 16px;
+    }
+  }
+}
+
+.AlignedLeft {
+  height: 0; /* this, combined with `top: -16px` from .AlignedRight, brings both <td> to the the same height */
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    width: auto;
+  }
+}
+
+.AlignedRight {
+  margin-bottom: -$margin16;
+  margin-left: auto;
+  max-width: 60%;
+  position: relative;
+  text-align: right;
+  top: -$margin16;
+
+
+  @media (min-width: $smBreakpoint) {
+    position: static;
+    right: 0;
+    text-align: left;
+    width: auto;
+  }
+}
+
+.FieldHeader {
+  composes: RankB from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.FieldValue {
+  composes: RankC from 'typography.legacy.css';
+  display: flex;
+}
+
+.WealthWrapper {
+  white-space: nowrap;
+}
+
+.ToggleIconWrapper {
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+  }
+}
+
+.ToggleIcon {
+  color: $bilanzA;
+  font-size: 32px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+  transition: all 0.4s ease;
+  
+  @media (min-width: $smBreakpoint) {
+    font-size: 18px;
+    right: 8px;
+    top: 11px;
+  }
+
+  &.IsActive {
+    transform: rotate(180deg);
+  }
+}
+
+.RankingPosition {
+  composes: RankA from 'typography.legacy.css';
+}
+
+.RankingTitle {
+  composes: RankC from 'typography.legacy.css';
+}
+
+.HiddenSmDown {
+  @media (max-width: $smBreakpoint) {
+    display: none !important; /* stylelint-disable-line */
+  }
+}

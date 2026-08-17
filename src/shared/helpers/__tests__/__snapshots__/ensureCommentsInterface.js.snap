@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] ensureCommentsInterface Should match the snapshot 0 1`] = `null`;
+
+exports[`[Function] ensureCommentsInterface Should match the snapshot 1 1`] = `
+[
+  {
+    "body": "",
+    "commentReplies": {
+      "edges": [
+        {
+          "node": {
+            "body": "",
+            "canonicalUri": "https://beobachter.ch/artikel",
+            "cid": "12",
+            "createDate": "12.12.2019",
+            "id": "1",
+            "name": "",
+          },
+        },
+      ],
+    },
+    "createDate": "",
+    "id": "",
+    "name": "",
+  },
+]
+`;
+
+exports[`[Function] ensureCommentsInterface Should match the snapshot 2 1`] = `
+[
+  {
+    "body": "",
+    "commentReplies": {
+      "edges": [
+        {
+          "node": {
+            "body": "test commentw",
+            "canonicalUri": "https://beobachter.ch/artikel",
+            "cid": "12",
+            "createDate": "12.12.2019",
+            "id": "1",
+            "name": "Peter",
+          },
+        },
+      ],
+    },
+    "createDate": "",
+    "id": "",
+    "name": "",
+  },
+]
+`;

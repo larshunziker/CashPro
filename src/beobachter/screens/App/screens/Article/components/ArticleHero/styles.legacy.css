@@ -1,0 +1,89 @@
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  border-top: 1px solid $greyB;
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 0;
+    margin-block: $margin8 $margin24;
+    position: relative;
+    width: auto;
+    z-index: $zIndexHigh;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 0;
+    text-align: center;
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: Row from '@grid.legacy.css';
+  left: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    top: 4px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 732px;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    @media screen {
+      padding-bottom: 70px;
+    }
+  
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.ArticleHeroWrapper {
+  background-color: $white;
+  padding-bottom: 32px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 40px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 48px;
+  }
+}
+
+.ArticleHeroWrapperNativeAdvertising {
+  background-color: $greyC;
+}
+
+.ArticleHeroWrapperPublireportage {
+  background-color: $purpleLight;
+  margin-bottom: $margin32;
+  padding-bottom: 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: $margin48;
+  }
+}
+
+.PlayerWrapper {
+  margin-bottom: $margin16;
+  margin-top: -$margin16;
+
+  @media (min-width: $xsBreakpoint) {
+    margin-bottom: 0;
+    margin-top: $margin16;
+  }
+}
+
+.Hidden {
+  display: none;
+}

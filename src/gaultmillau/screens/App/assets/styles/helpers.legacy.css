@@ -1,0 +1,112 @@
+.Clearfix {
+  *zoom: 1;
+
+  &::before,
+  &::after {
+    content: '';
+    display: table;
+  }
+
+  &::after {
+    clear: both;
+  }
+}
+
+.FloatRight {
+  float: right;
+}
+
+.FloatLeft {
+  float: left;
+}
+
+.Unselectable {
+  user-select: none;
+}
+
+.TextEllipsis {
+  display: inline-block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+/* ASPECT RATIOS */
+.AspectRatio {
+  position: relative;
+
+  &::before {
+    content: ' ';
+    display: block;
+  }
+}
+
+.AspectRatioContent {
+  inset: 0;
+  position: absolute;
+}
+
+.AspectRatio1x1 {
+  composes: AspectRatio;
+
+  &::before {
+    padding-top: 100%;
+  }
+
+  @media print {
+    padding-top: initial;
+  }
+}
+
+.AspectRatio3x2 {
+  composes: AspectRatio;
+
+  &::before {
+    padding-top: 66.6667%;
+
+    @media print {
+      padding-top: initial;
+    }
+  }
+}
+
+.AspectRatio16x9 {
+  composes: AspectRatio;
+
+  &::before {
+    padding-top: 56.25%;
+
+    @media print {
+      padding-top: initial;
+    }
+  }
+}
+
+.TextButton {
+  /* Corrects inability to style clickable `input` types in iOS */
+  appearance: none;
+
+  background: transparent;
+  border: none;
+
+  /* inherit font & color from ancestor */
+  color: $inherit;
+  font: inherit;
+
+  /* Corrects font smoothing for webkit */
+  -webkit-font-smoothing: inherit;
+  -moz-osx-font-smoothing: inherit;
+
+  /* Normalize `line-height`. Cannot be changed from `normal` in Firefox 4+. */
+  line-height: normal;
+  margin: 0;
+  overflow: visible;
+  padding: 0;
+  width: auto;
+
+  /* Remove excess padding and border in Firefox 4+ */
+  &::-moz-focus-inner {
+    border: 0;
+    padding: 0;
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "activeChannelTitle": "News",
+  "colStyle": "ColMd18__grid-legacy__3izAS ColXl17__grid-legacy__3mxNk",
+  "origin": "SECTION_PARAGRAPH_news",
+  "paragraph": {
+    "__typename": "SectionParagraph",
+    "id": "cGFyYWdyYXBoOnNlY3Rpb246MjA4MjI4OjI5MzgwNw==",
+    "title": "Section Paragraph H2",
+    "adSlots": [
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB2-MR"
+      }
+    ],
+    "anchorId": null,
+    "body": [
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "characterCount": 707,
+        "header": "Text Content H3",
+        "id": "cGFyYWdyYXBoOnRleHQ6MjA4MjI3OjI5MzgwNQ==",
+        "isLastOfGroup": true,
+        "styleValue": null,
+        "text": "<p>Vestibulum nec nunc a ex molestie porttitor. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Nam non nunc dictum, luctus felis ut, aliquet ante. Sed lacinia porttitor cursus. Curabitur imperdiet, sem vel egestas tristique, velit erat maximus justo, eget congue ex enim quis turpis. In hac habitasse platea dictumst. Proin at mi ultrices, condimentum nulla quis, luctus velit. Curabitur varius mollis erat nec convallis. Duis pulvinar enim non blandit ve..."
+      },
+      {
+        "__typename": "VideoParagraph",
+        "anchorId": null,
+        "brightcoveId": null,
+        "caption": null,
+        "credit": null,
+        "duration": null,
+        "id": "cGFyYWdyYXBoOnZpZGVvOjIxMjkyNjoyOTM4MDY=",
+        "image": null,
+        "shortTitle": null,
+        "title": null,
+        "video": {
+          "__typename": "Video",
+          "brightcoveId": "5968879364001",
+          "caption": "Die amtierende Miss Schweiz Jastina knutscht an der Energy Star Night mit dem Moderator Jontsch.",
+          "changeDate": "2019-01-18T16:25:19+01:00",
+          "credit": null,
+          "duration": "62805",
+          "id": "bm9kZToxOTYxNw==",
+          "image": {
+            "id": "41527",
+            "__typename": "Image",
+            "file": {
+              "__typename": "ImageFile",
+              "alt": "",
+              "focalPointX": 640,
+              "focalPointY": 360,
+              "id": "ZmlsZTo0MjA3ODo6MCwwOmxhcmdlOg==",
+              "relativeOriginPath": "/media/field_image/2019-01/kiss-cam_miss_schweiz_jastina_und_moderator_jontsch_brightcove_video_thumb.jpg"
+            }
+          },
+          "publicationDate": null,
+          "shortTitle": null,
+          "title": "test video content"
+        }
+      }
+    ]
+  }
+}

@@ -1,0 +1,38 @@
+@define-mixin ErrorMessageEnterAnimation {
+  @keyframes ErrorMessageEnterAnimation {
+    0% {
+      transform: scale(1, 0) translateY(-100%);
+    }
+    100% {
+      transform: scale(1, 1) translateY(0);
+    }
+  }
+}
+
+@define-mixin LabelAboveShakingEffectAnimation {
+  @keyframes LabelAboveShakingEffectAnimation {
+    0% {
+      transform: scale(0.7) translate(0, -18px);
+    }
+    50% {
+      transform: scale(0.7) translate(5px, -18px);
+    }
+    100% {
+      transform: scale(0.7) translate(0, -18px);
+    }
+  }
+}
+
+@define-mixin LabelShakingEffectAnimation {
+  @keyframes LabelShakingEffectAnimation {
+    0% {
+      transform: translateX(0);
+    }
+    50% {
+      transform: translateX(5px);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+}

@@ -1,0 +1,23 @@
+.Wrapper {
+  composes: TextWrapper from 'Paragraphs/components/ImageCaption/styles.legacy.css';
+  composes: CaptionAuthorParagraph from 'typography.legacy.css';
+  composes: Margin0 from 'helpers.legacy.css';
+
+  margin-bottom: 0;
+  position: absolute;
+  right: 0;
+  text-align: right;
+  top: 0;
+}
+
+.WrapperSY {
+  composes: CaptionAuthorParagraphSY from 'typographySY.legacy.css';
+}
+
+.Credit {
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+}
+
+.CreditSY {
+  composes: CaptionAuthorCopyRightSY from 'typographySY.legacy.css';
+}

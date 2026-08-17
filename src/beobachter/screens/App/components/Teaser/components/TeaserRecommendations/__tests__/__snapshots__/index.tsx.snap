@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserRecommendations Should render BeoPlusBadge correctly 1`] = `
+<div>
+  <div
+    class="PaidArticleBadge"
+  >
+    <div
+      data-testid="paid-article-teaser-badge"
+    >
+      <img
+        alt="Beobachter Plus"
+        class="Image Wrapper"
+        height="13"
+        src="SvgrURL"
+        width="26"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserRecommendations Should return shortTitle by props 1`] = `
+<div
+  className="ShortTitle"
+>
+  Some Short Title
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserRecommendations Should return shortTitle by props 2`] = `
+<div
+  className="ShortTitle"
+>
+  Some label Title
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserRecommendations Should return styles by props 1`] = `
+{
+  "ContentWrapper": "TeaserText",
+  "Image": "Image",
+  "ImageWrapper": "ImageWrapper",
+  "SkeletonContentWrapper": "SkeletonContentWrapper",
+  "SkeletonShortTitle": "SkeletonShortTitle",
+  "SkeletonTitle": "SkeletonTitle",
+  "SkeletonWrapper": "SkeletonWrapper",
+  "Title": "TeaserTitle",
+  "Wrapper": "teaser-recommendations Wrapper addClass",
+}
+`;

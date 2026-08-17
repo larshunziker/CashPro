@@ -1,0 +1,140 @@
+.OuterWrapper {
+  padding-bottom: 24px;
+  transform: translateY(24px);
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 40px;
+    transform: translateY(40px);
+  }
+}
+
+.OuterWrapperVertical {
+  padding-bottom: 40px;
+  transform: translateY(40px);
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+    transform: translateY(60px);
+  }
+}
+
+.Wrapper {
+  composes: SectionPullOut from 'sections.legacy.css';
+  display: flex;
+  height: 100%;
+  position: relative;
+  width: 739px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 277px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 384px;
+    width: 1024px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 496px;
+    width: 1321px;
+  }
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: 6px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.Link {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: calc($zIndexMedium - 1);
+  }
+
+  &::after {
+    background: $brandRepGradientDarkSm;
+
+    @media (min-width: $smBreakpoint) {
+      background: $brandRepGradientDark;
+    }
+  }
+}
+
+.ImageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.ContentWrapper {
+  bottom: 10px;
+  left: 0;
+  padding: 0 12px;
+  position: absolute;
+  text-align: left;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 24px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 1024px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0 40px;
+    width: 1321px;
+  }
+}
+
+.TeaserTitle {
+  composes: TeaserTitleH1White from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Icon {
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  z-index: 2;
+
+  @media (min-width: $xlBreakpoint) {
+    right: 42px;
+    top: 40px;
+  }
+}
+
+.BeoPlusLogo {
+  display: inline-block;
+  padding-right: 12px;
+  position: relative;
+  width: 54px;
+
+  @media (min-width: $xlBreakpoint) {
+    width: 74px;
+  }
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserHero from 'typography.legacy.css';
+  background-color: $white;
+  display: inline-block;
+  margin-bottom: $margin8;
+  padding: 2px 4px;
+  position: relative;
+  white-space: nowrap;
+}

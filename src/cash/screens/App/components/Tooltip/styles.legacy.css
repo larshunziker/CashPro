@@ -1,0 +1,168 @@
+.Wrapper {
+  flex-shrink: 2;
+  line-height: 1;
+  position: relative;
+}
+
+.Button {
+  cursor: pointer;
+  display: inline-block;
+  outline: none;
+  position: relative;
+  text-align: center;
+  transition: background-color 0.3s ease-in-out;
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      color: $blackB;
+    }
+  }
+}
+
+.ButtonText {
+  position: relative;
+
+  &:hover {
+    color: $blackB;
+  }
+
+  &::after {
+    content: '\e91c';
+    display: block;
+    font-family: $fontRasch;
+    font-size: 14px;
+    -webkit-font-smoothing: antialiased;
+    text-align: center;
+    width: 13px;
+  }
+}
+
+.RotatedFromLeft {
+  .TooltipWrapper {
+    left: unset;
+    right: 272px;
+    top: -55px;
+  }
+
+  .Tooltip {
+    min-width: 257px;
+  }
+
+  .ButtonOpen::after {
+    border-bottom: 11px solid transparent;
+    border-left: 13px solid rgb(41 46 50 / 100%);
+    border-right: 11px solid transparent;
+    border-top: 11px solid transparent;
+    bottom: -1px;
+    left: -17px;
+  }
+}
+
+.Rotated {
+  .ButtonOpen::after {
+    bottom: unset;
+    top: -15px;
+    transform: rotate(180deg);
+  }
+
+  .Tooltip {
+    bottom: 37px;
+    top: unset;
+  }
+}
+
+.ButtonOpen {
+  &::after {
+    border-bottom: 13px solid $blackB;
+    border-left: 11px solid transparent;
+    border-radius: 4px;
+    border-right: 11px solid transparent;
+    bottom: -15px;
+    content: '';
+    height: 0;
+    left: -5.5px; /* half of the border width */
+    margin: auto;
+    position: absolute;
+    width: 0;
+    z-index: calc($zIndexHighest + 1);
+  }
+
+  .ButtonText {
+    &::after {
+      content: '\2715';
+      display: block;
+      font-size: 14px;
+    }
+  }
+}
+
+.TooltipWrapper {
+  left: -58px;
+  position: relative;
+  white-space: normal;
+}
+
+.Tooltip {
+  background-color: $blackB;
+  border-radius: 4px;
+  font-weight: normal;
+  max-width: 480px;
+  min-width: 320px;
+  padding: 10px;
+  position: absolute;
+  text-align: left;
+  top: 11px;
+  z-index: calc($zIndexHighest + 1);
+}
+
+.Content {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $white;
+  text-transform: none;
+  user-select: none;
+}
+
+.LinkContent {
+  cursor: initial;
+  font-weight: normal;
+
+  a {
+    display: inline-block;
+  }
+
+  & * {
+    color: $white;
+  }
+
+  b {
+    font-weight: bold;
+  }
+}
+
+.Link {
+  composes: Meta3Bold from 'typography.legacy.css';
+  display: inline;
+}
+
+.BrandreportWrapper {
+  height: 20px;
+}
+
+.CloseIconWithin {
+  border: 0;
+  border-radius: 50%;
+  box-shadow: none;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 0.875rem;
+  outline: none;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+
+  &::after {
+    content: '\24';
+    display: inline-block;
+    font-family: $fontRasch;
+  }
+}

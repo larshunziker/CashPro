@@ -1,0 +1,367 @@
+.Header {
+  composes: H2 from 'typography.legacy.css';
+}
+
+.TableCaptionLeft {
+  table caption {
+    font-weight: 600;
+    text-align: left;
+  }
+}
+
+.RichTextWrapper {
+  composes: Paragraph from 'typography.legacy.css';
+  clear: both;
+
+  @media print {
+    text-align: justify;
+  }
+
+  &.MarketingPage {
+    p {
+      @mixin Lead1;
+      @media (min-width: $smBreakpoint) {
+        text-align: center;
+      }
+    }
+  }
+
+  :global(ul.BenefitList) {
+    li {
+      margin-left: 40px;
+      padding-left: 0;
+    }
+
+    > li::before {
+      @mixin RaschIconFiles;
+      background-color: $positive;
+      color: $white;
+      content: '\ea10';
+      font-size: 20px;
+      margin-left: -40px;
+      margin-right: 16px;
+      padding: 2px;
+      position: relative;
+      top: 1px;
+      transform: rotate(-4.50deg);
+    }
+  }
+
+  table {
+    @mixin InfoB;
+    border: 1px solid $secondaryA;
+    border-collapse: collapse;
+    border-spacing: 0;
+    text-align: left;
+
+    th, td {
+      border: 1px solid $secondaryA;
+      padding: 8px;
+      vertical-align: middle;
+
+      strong {
+        @mixin InfoB;
+      }
+    }
+  }
+
+  &.TableWithoutBorder {
+    table {
+      border-color: $transparent;
+
+      th, td {
+        border-color: $transparent;
+      }
+    }
+  }
+
+  &.TableStriped {
+    table {
+      border: 0;
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    /* stylelint-disable */
+    thead {
+      border-color: $transparent;
+      background-color: #e1dad2;
+      border-bottom: 1px solid #81725e;
+      border-top: 1px solid #81725e;
+      text-align: left;
+      font-weight: 600;
+    }
+
+    th, td {
+      border-color: $transparent;
+      padding: 5px;
+      vertical-align: top;
+    }
+
+    th:first-child {
+      min-width: 100px;
+    }
+
+    th:last-child {
+      min-width: 70px;
+      width: 10%;
+    }
+
+    tr {
+      border-bottom: 1px solid #e1dad2;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f3f1ed;
+    }
+    /* stylelint-enable */
+  }
+}
+
+.RichTextWrapper h2,
+.RichTextWrapper h3 {
+  @mixin Subtitle;
+
+  &.MarketingPage {
+    @mixin H2;
+    margin-bottom: $margin8;
+    padding-top: 25px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+      text-align: center;
+    }
+  }
+}
+
+/* Spans */
+.RichTextWrapper em {
+  font-style: italic;
+}
+
+.RichTextWrapper strong {
+  @mixin ParagraphBold;
+}
+
+/* Blocks */
+.RichTextWrapper h2,
+.RichTextWrapper h3,
+.RichTextWrapper p {
+  margin-bottom: 1.5rem;
+}
+
+.RichTextWrapper sup {
+  @mixin fontSize 15;
+  vertical-align: super;
+}
+
+.RichTextWrapper sub {
+  @mixin fontSize 15;
+  position: relative;
+  top: -2px;
+  vertical-align: sub;
+}
+
+.RichTextWrapper u {
+  text-decoration: none;
+}
+
+/* Links */
+.RichTextWrapper a {
+  @mixin RichTextLink;
+}
+
+:global(.IconWord) {
+  &::after {
+    @mixin RaschIconFiles;
+    content: '\e922';
+  }
+}
+
+:global(.IconExcel) {
+  &::after {
+    @mixin RaschIconFiles;
+    content: '\e923';
+  }
+}
+
+:global(.IconPdf) {
+  &::after {
+    @mixin RaschIconFiles;
+    content: '\e924';
+  }
+}
+
+:global(.IconDocument) {
+  &::after {
+    @mixin RaschIconFiles;
+    content: '\26'; /* ticket DTCPP-2162 - for other documents we will use general document icon */
+  }
+}
+
+/* Blockquote */
+.RichTextWrapper blockquote {
+  margin-top: 7px;
+
+  p {
+    @mixin QuoteMain;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 28;
+    @mixin lineHeight 37;
+    margin-top: $margin12;
+  }
+
+  &:first-of-type {
+    margin-top: 27px;
+
+    &::before {
+      background-color: $blackB;
+      content: ' ';
+      display: block;
+      height: 4px;
+      margin-bottom: $margin8;
+      width: 69px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 25px;
+    }
+  }
+}
+
+/* List styling */
+.RichTextWrapper ul {
+  $bulletwidth: 9px;
+  @mixin Paragraph;
+  list-style-type: none;
+  margin-left: 0;
+
+  li {
+    margin-left: $margin12;
+    padding-left: calc($bulletwidth + 19px); /* bullet width and padding */
+    position: relative;
+
+    @media (min-width: $mdBreakpoint) {
+      padding-left: calc($bulletwidth + 24px); /* bullet width and padding */
+    }
+  }
+
+  li::before {
+    background-color: $blackB;
+    border-radius: 50%;
+    content: ' ';
+    height: 9px;
+    left: 0;
+    position: absolute;
+    top: 8px;
+    width: 9px;
+
+    @media (min-width: $smBreakpoint) {
+      top: 11px;
+    }
+
+    p {
+      display: inline;
+    }
+  }
+}
+
+.RichTextWrapper ol {
+  @mixin Paragraph;
+  margin-left: 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 24px;
+  }
+
+  li {
+    padding-left: 19px;
+
+    &::marker {
+      font-weight: bold;
+      padding-left: 12px;
+    }
+
+    b,
+    strong {
+      font-weight: bold;
+    }
+  }
+}
+
+.Overflow {
+  overflow-x: auto;
+
+  &::before, &::after {
+    bottom: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    transition: opacity .1s;
+    width: 32px;
+  }
+
+  &::before {
+    background: linear-gradient(to right, $white, $transparent);
+    left: 0;
+  }
+
+  &::after {
+    background: linear-gradient(to left, $white, $transparent);
+    right: 0;
+  }
+
+  &.Infobox {
+    &::before {
+      background: linear-gradient(to right, $greyB, $transparent);
+    }
+
+    &::after {
+      background: linear-gradient(to left, $greyB, $transparent);
+    }
+
+    &.Tip {
+      &::before {
+        background: linear-gradient(to right, $primaryA, $transparent);
+      }
+
+      &::after {
+        background: linear-gradient(to left, $primaryA, $transparent);
+      }
+    }
+
+    &.Info {
+      &::before {
+        background: linear-gradient(to right, $primaryB, $transparent);
+      }
+
+      &::after {
+        background: linear-gradient(to left, $primaryB, $transparent);
+      }
+    }
+
+    &.Warning {
+      &::before {
+        background: linear-gradient(to right, $primaryA, $transparent);
+      }
+
+      &::after {
+        background: linear-gradient(to left, $primaryA, $transparent);
+      }
+    }
+  }
+
+  &.HideLeftShadow {
+    &::before {
+      opacity: 0;
+    }
+  }
+
+  &.HideRightShadow {
+    &::after {
+      opacity: 0;
+    }
+  }
+}

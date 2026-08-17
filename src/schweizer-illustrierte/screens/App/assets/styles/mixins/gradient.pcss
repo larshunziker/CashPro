@@ -1,0 +1,15 @@
+
+@define-mixin gradientToRightDown $colorA, $stopA, $colorB, $stopB {
+  background: -moz-linear-gradient(-45deg, $(colorA) $(stopA), $(colorB) $stopB);
+  background: -webkit-linear-gradient(-45deg, $(colorA) $(stopA), $(colorB) $stopB);
+  background: linear-gradient(135deg, $(colorA) $(stopA), $(colorB) $stopB);
+}
+
+
+@define-mixin gradientSiDefault {
+  @mixin gradientToRightDown color($redB), 0%, $redA, 100%;
+}
+
+@define-mixin gradientSiFooter {
+  @mixin gradientToRightDown color($grayUpperLeft a(0%)), 0%, $black, 100%;
+}

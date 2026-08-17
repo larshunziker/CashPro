@@ -1,0 +1,35 @@
+.Wrapper {
+  background-color: $white;
+  z-index: calc($zIndexHighest + 1);
+}
+
+:global(.branding-day) {
+  .Wrapper {
+    margin: 0 auto;
+
+    @media (min-width: $mdBreakpoint) {
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      background-color: $transparent;
+      width: 100%;
+    }
+  }
+}
+
+.Placeholder {
+  height: $headerHeight;
+}
+
+.IsSticky {
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  width: 100%;
+
+  @media print {
+    position: static;
+  }
+}

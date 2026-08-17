@@ -1,0 +1,54 @@
+.InputIcon {
+  background-color: $white;
+  color: $secondaryA;
+  height: calc(100% - 2px);
+  left: calc(50% - 90px);
+  padding: 9px 4px 0 6px;
+  position: absolute;
+  top: 1px;
+}
+
+.DropdownWatchlistWrapper {
+  overflow-x: hidden;
+  padding: 20px 0 0;
+}
+
+.DropdownWatchlistTitle {
+  composes: InfoCBold from 'typography.legacy.css';
+  padding: 0 18px $margin12 18px;
+}
+
+.DropdownWatchlistLink {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 $margin24;
+  }
+
+  &:hover {
+    background-color: $greyE;
+    color: $secondaryA;
+  }
+
+  &.NewWatchlist {
+    align-items: center;
+    border-top: 1px solid $greyC;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+    padding-top: 16px;
+
+    i {
+      font-size: 20px;
+    }
+  }
+}
+
+.NoWatchlist {
+  composes: InfoB from 'typography.legacy.css';
+  padding: 18px 3px 23px 40px;
+}

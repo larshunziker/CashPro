@@ -1,0 +1,37 @@
+.Title {
+  border-bottom: 1px solid $white;
+  color: $white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 140%;
+  margin-bottom: 24px;
+  padding-bottom: 6px;
+}
+
+.List {
+  font-size: 1.6rem;
+  line-height: 140%;
+  list-style: none;
+}
+
+.FooterNavigation {
+  font-size: 1.6rem;
+  line-height: 140%;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 5px;
+  }
+}
+
+.FooterNavigationList {
+  columns: 1;
+}
+
+.ListItem {
+  composes: ListItem from '../../styles.legacy.css';
+}
+
+.Link {
+  composes: Link from '../../styles.legacy.css';
+}

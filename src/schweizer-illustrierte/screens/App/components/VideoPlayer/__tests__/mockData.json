@@ -1,0 +1,22 @@
+{
+  "video": {
+    "id": "179006",
+    "brightcoveId": "5750322578001",
+    "caption": "caption",
+    "alt": null,
+    "credit": "Keystone",
+    "image": {
+      "file": {
+        "width": 480,
+        "height": 329,
+        "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/_DSC9718.jpg",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/_DSC9718.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "VideoParagraph"
+  }
+}

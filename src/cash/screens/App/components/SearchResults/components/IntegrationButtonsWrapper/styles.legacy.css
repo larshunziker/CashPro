@@ -1,0 +1,38 @@
+.Wrapper {
+  border-bottom: 1px solid $greyD;
+  border-top: 2px solid $white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: -9px 0 $margin8;
+  padding: $margin8 0;
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom: 1px solid $greyD;
+    justify-content: flex-end;
+    margin-top: -2px;
+    padding: $margin16 60px $margin16 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: $margin16 78px $margin16 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $margin16 132px $margin16 0;
+  }
+
+  &.IsCryptoCurrency {
+    @media (min-width: $smBreakpoint) {
+      padding: $margin16 82px $margin16 0;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      padding: $margin16 102px $margin16 0;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding: $margin16 169px $margin16 0;
+    }
+  }
+}

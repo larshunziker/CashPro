@@ -1,0 +1,80 @@
+{
+  "component": "teaser/m",
+  "origin": "fullquote-page-fullquoteDefault",
+  "itemIndex": 6,
+  "__typename": "Widget",
+  "node": {
+    "__typename": "Widget",
+    "id": "bm9kZTo1MDk5NQ==",
+    "link": {
+      "__typename": "Link",
+      "label": "",
+      "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/integrations/passende_produkte/cs/30071145"
+    },
+    "timePeriodValues": ["threeMonths"],
+    "valors": {
+      "__typename": "ValorConnection",
+      "items": []
+    },
+    "sponsor": {
+      "__typename": "Sponsor",
+      "id": "bm9kZTo1MDQwMg==",
+      "title": "Credit Suisse",
+      "key": "CS",
+      "preferredUri": "/credit-suisse-51973",
+      "teaserImage": {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE4NjoyOTczNTc=",
+        "image": {
+          "__typename": "Image",
+          "id": "70785",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo3MTk5Nzo6MTI4MCwyODY6Og==",
+            "relativeOriginPath": "/media/field_image/2022-03/credit_suisse_logo_0.jpg",
+            "alt": "Credit Suisse logo"
+          }
+        }
+      }
+    }
+  },
+  "id": "bm9kZTo1MDk5NQ==",
+  "link": {
+    "__typename": "Link",
+    "label": "",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/integrations/passende_produkte/cs/30071145"
+  },
+  "timePeriodValues": ["threeMonths"],
+  "valors": {
+    "__typename": "ValorConnection",
+    "items": []
+  },
+  "sponsor": {
+    "__typename": "Sponsor",
+    "id": "bm9kZTo1MDQwMg==",
+    "title": "Credit Suisse",
+    "key": "CS",
+    "preferredUri": "/credit-suisse-51973",
+    "teaserImage": {
+      "__typename": "ImageParagraph",
+      "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE4NjoyOTczNTc=",
+      "image": {
+        "__typename": "Image",
+        "id": "70785",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "ZmlsZTo3MTk5Nzo6MTI4MCwyODY6Og==",
+          "relativeOriginPath": "/media/field_image/2022-03/credit_suisse_logo_0.jpg",
+          "alt": "Credit Suisse logo"
+        }
+      }
+    }
+  },
+  "createDate": "",
+  "title": "",
+  "lead": "",
+  "shortTitle": "",
+  "teaserImage": null,
+  "preferredUri": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/integrations/passende_produkte/cs/30071145",
+  "downloadPriority": "default"
+}

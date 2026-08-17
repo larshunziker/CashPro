@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] PopStage Should render City correctly 1`] = `
+<div>
+  <li
+    class="CityLink"
+  >
+    <a
+      data-testid="mocked-link"
+      href="/bern"
+    >
+      Bern
+    </a>
+  </li>
+</div>
+`;

@@ -1,0 +1,42 @@
+{
+  "id": "bWVudTpoei1mb290ZXItcHJpbWFyeQ==",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzA1",
+          "link": {
+            "label": "Services"
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzc3",
+                  "link": {
+                    "label": "Multimedia",
+                    "description": null,
+                    "path": "/digital/multimedia",
+                    "routed": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Mzdf4",
+                  "link": {
+                    "label": "",
+                    "description": null,
+                    "path": "/",
+                    "routed": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  "name": "PME Footer (Primär)"
+}

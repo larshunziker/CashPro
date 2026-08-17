@@ -1,0 +1,4160 @@
+{
+  "id": "bm9kZToxNzM5OA==",
+  "nid": "17398",
+  "title": "News & Infos vom sozialsten Netzwerk der Schweiz",
+  "shortTitle": null,
+  "lead": "Wissen, was wichtig ist: Was sind die neusten Abzocker-Tricks? Welchen Firmen und Politikern muss man genau auf die Finger schauen? Hier erfahren Sie es.",
+  "publication": "beobachter",
+  "landingPageType": null,
+  "metaCanonicalUrl": "https://www.beobachter.ch/home",
+  "metaTitle": "News & Infos vom sozialsten Netzwerk der Schweiz | Beobachter",
+  "preferredUri": "/home",
+  "metaDescription": "Wissen, was wichtig ist: Was sind die neusten Abzocker-Tricks? Welchen Firmen und Politikern muss man genau auf die Finger schauen? Hier erfahren Sie es.",
+  "sponsorLabel": null,
+  "changeDate": "2021-12-27T10:46:50+01:00",
+  "createDate": "2016-11-24T09:03:38+01:00",
+  "restrictionStatus": null,
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "channel": null,
+  "sponsor": null,
+  "correspondingLandingPage": null,
+  "activeMenuTrail": {
+    "count": 1,
+    "edges": [
+      {
+        "node": {
+          "label": "News & Infos vom sozialsten Netzwerk der Schweiz",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "teaserImage": {
+    "id": "cGFyYWdyYXBoOmltYWdlOmJlb2JhY2h0ZXJfZmFsbGJhY2s6bmV3LWFsVnZ0M2tE",
+    "image": {
+      "id": "42712",
+      "file": {
+        "id": "ZmlsZTo0Mjk2NDo6OTAwLDU0MDoxNng5XzU2MDo=",
+        "alt": "fallback",
+        "relativeOriginPath": "/media/field_image/2017-04/beobachter-fallback2.jpg",
+        "focalPointX": 900,
+        "focalPointY": 540,
+        "origin": "https://cdn.beobachter.ch/sites/default/files/media/field_image/2017-04/beobachter-fallback2.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "body": [
+    {
+      "id": "cGFyYWdyYXBoOmVudGl0eV9xdWV1ZToxMzEyNzU5OjQ3NDY3MDQ=",
+      "anchorId": null,
+      "title": null,
+      "style": "default",
+      "landingPage": null,
+      "entityQueue": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZTozMzQ4NDA=",
+                "title": "Was ändert sich 2022?",
+                "shortTitle": "Rechtliche Neuerungen",
+                "lead": "Günstiger online einkaufen, etwas bessere Bedingungen bei Versicherungen, Hilfe beim Eintreiben von Alimenten: Das wird im Jahr 2022 neu.",
+                "changeDate": "2021-12-22T11:04:00+01:00",
+                "publicationDate": "2021-12-22T11:03:00+01:00",
+                "revisionDate": "2021-12-23T14:07:20+01:00",
+                "preferredUri": "/gesetze-recht/rechtliche-neuerungen-was-andert-sich-2022",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDk1",
+                  "title": "Gesetze & Recht",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjkwMzM=",
+                        "name": "Katharina Siegrist",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTg6NDcxNjQwMw==",
+                          "image": {
+                            "id": "623067",
+                            "file": {
+                              "id": "ZmlsZTo2MjU5ODA6OjMzNSwyNTc6bGFyZ2U6",
+                              "alt": "Katharina Siegrist",
+                              "relativeOriginPath": "/media/field_image/2021-12/katharina_siegrist_beobachter_0.jpg",
+                              "focalPointX": 335,
+                              "focalPointY": 257,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTcxNTY6NDc0MTk5MA==",
+                  "image": {
+                    "id": "623899",
+                    "file": {
+                      "id": "ZmlsZTo2MjY5MjI6OjEyNDcsNTg1OmxhcmdlOg==",
+                      "alt": "Ein Bücherregal aus den Zahlen 2022",
+                      "relativeOriginPath": "/media/field_image/2021-12/buecherregal_2022.jpg",
+                      "focalPointX": 1247,
+                      "focalPointY": 585,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzUyMDU=",
+                "title": "Bundesgericht pfeift Aargauer Behörden zurück",
+                "shortTitle": "Rückzahlung von Sozialhilfe",
+                "lead": "Gemeinden dürfen sich nicht mehr uneingeschränkt an der Altersvorsorge von Sozialhilfebeziehenden bedienen. Das hat das Bundesgericht entschieden. Doch es gibt auch Kritik am Urteil.",
+                "changeDate": "2021-12-27T11:25:36+01:00",
+                "publicationDate": "2021-12-27T14:24:44+01:00",
+                "revisionDate": "2021-12-27T14:40:18+01:00",
+                "preferredUri": "/geld/sozialhilfe/ruckzahlung-von-sozialhilfe-bundesgericht-pfeift-aargauer-behorden-zuruck",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTAw",
+                  "title": "Sozialhilfe",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjgxMTc=",
+                        "name": "Nicole Müller",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTc6NDcxNjQwMg==",
+                          "image": {
+                            "id": "623066",
+                            "file": {
+                              "id": "ZmlsZTo2MjU5Nzk6OjMxMywyNTc6bGFyZ2U6",
+                              "alt": "Nicole Müller",
+                              "relativeOriginPath": "/media/field_image/2021-12/nicole_muller_beobachter_0.jpg",
+                              "focalPointX": 313,
+                              "focalPointY": 257,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTkwMDA6NDc0ODAwMg==",
+                  "image": {
+                    "id": "624522",
+                    "file": {
+                      "id": "ZmlsZTo2Mjc2Njk6OjY2MywyNzQ6bGFyZ2U6",
+                      "alt": "Der Sitz des Bundesgerichts in Luzern",
+                      "relativeOriginPath": "/media/field_image/2021-12/bundesgericht_luzern.jpg",
+                      "focalPointX": 663,
+                      "focalPointY": 274,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQ5NjE=",
+                "title": "Universität Zürich droht Professorin mit rechtlichen Schritten",
+                "shortTitle": "Wüster Streit um Doktorarbeit",
+                "lead": "Der Grossvater von Universitätsprofessorin Henriette Haas engagierte sich für Rassenhygiene. Nun ist ihr Kampf um seinen Ruf eskaliert.",
+                "changeDate": "2021-12-22T10:36:48+01:00",
+                "publicationDate": "2021-12-22T16:34:30+01:00",
+                "revisionDate": "2021-12-23T15:47:59+01:00",
+                "preferredUri": "/gesellschaft/wuster-streit-um-doktorarbeit-universitat-zurich-droht-professorin-mit-rechtlichen",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTg0",
+                  "title": "Gesellschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjk1NTc=",
+                        "name": "Yves Demuth",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NDE6MzMwMzU2MQ==",
+                          "image": {
+                            "id": "528123",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTM6OjMwNywyNDI6bGFyZ2U6",
+                              "alt": "Yves Demuth, Beobachter-Redaktor",
+                              "relativeOriginPath": "/yves_demuth_beobachter.jpg",
+                              "focalPointX": 307,
+                              "focalPointY": 242,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTc4NDQ6NDc0MjgzOA==",
+                  "image": {
+                    "id": "624078",
+                    "file": {
+                      "id": "ZmlsZTo2MjcxMjk6OjEzNjgsNDg2OmxhcmdlOg==",
+                      "alt": "Das Hauptgebäude der Universität Zürich",
+                      "relativeOriginPath": "/media/field_image/2021-12/universitat_zurich_hauptgebaude.jpg",
+                      "focalPointX": 1368,
+                      "focalPointY": 486,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNjcyODY=",
+                "title": "Meistgelesen",
+                "contentSourceValue": "most_read",
+                "useNativeAdvertising": false,
+                "items": {
+                  "edges": [],
+                  "__typename": "NodeInterfaceConnection"
+                },
+                "__typename": "ContentBox"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQ4MjE=",
+                "title": "Das tragische Ende einer 45-jährigen Freundschaft",
+                "shortTitle": "Trauriger Abschied",
+                "lead": "Sie lernten sich vor 45 Jahren in London kennen und blieben tief verbunden. Bis die eine gegen ihren Willen ins Pflegeheim eingewiesen wurde.",
+                "changeDate": "2021-12-06T00:00:00+01:00",
+                "publicationDate": "2021-12-21T12:00:23+01:00",
+                "revisionDate": "2021-12-21T12:00:23+01:00",
+                "preferredUri": "/gesellschaft/trauriger-abschied-das-tragische-ende-einer-45-jahrigen-freundschaft",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTg0",
+                  "title": "Gesellschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjg4Mzc=",
+                        "name": "Peter Aeschlimann",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjExNjU5MzY6MzAyMTA3MQ==",
+                          "image": {
+                            "id": "528139",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NzA6OjI4NSwzMDM6bGFyZ2U6",
+                              "alt": "Peter Aeschlimann, Beobachter-Redaktor",
+                              "relativeOriginPath": "/peter_aeschlimann_beobachter.jpg",
+                              "focalPointX": 285,
+                              "focalPointY": 303,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTY3MzA6NDczMDQwOA==",
+                  "image": {
+                    "id": "623732",
+                    "file": {
+                      "id": "ZmlsZTo2MjY3NDU6OjEyMDAsNDQ2OmxhcmdlOg==",
+                      "alt": "Illustration zweier bester Freundinnen",
+                      "relativeOriginPath": "/media/field_image/2021-12/beste_freundinnen.jpg",
+                      "focalPointX": 1200,
+                      "focalPointY": 446,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToxNDEyNTY=",
+                "title": "...und täglich stresst mich mein Partner",
+                "shortTitle": "Beziehung",
+                "lead": "Was tun, wenn der Partner nervt? Ihn ändern zu wollen, ist der falsche Weg. Eher helfen Gelassenheit und eine Prise Pragmatismus.",
+                "changeDate": "2020-09-04T16:20:00+02:00",
+                "publicationDate": "2017-11-24T15:46:18+01:00",
+                "revisionDate": "2020-09-16T14:17:07+02:00",
+                "preferredUri": "/gesundheit/psychologie/beziehung-und-taglich-stresst-mich-mein-partner",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": true,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDIz",
+                  "title": "Psychologie",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjkyMzA=",
+                        "name": "Christine Harzheim",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjU3MzQ5MTozNDAyNjc5",
+                  "image": {
+                    "id": "193750",
+                    "file": {
+                      "id": "ZmlsZToxOTExODY6OjkxOCwyNzQ6bGFyZ2U6",
+                      "alt": "Chaos am Frühstückstisch.",
+                      "relativeOriginPath": "/psychologie-chaos.jpg",
+                      "focalPointX": 918,
+                      "focalPointY": 274,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQxMTM=",
+                "title": "Ein fieser Erreger aus dem Nichts",
+                "shortTitle": "Hasenpest",
+                "lead": "Hasenpest ist beim Menschen eigentlich sehr selten. Doch dieses Jahr haben die Fälle sprunghaft zugenommen – ein Betroffener erzählt seine Leidensgeschichte.",
+                "changeDate": "2021-12-07T00:00:00+01:00",
+                "publicationDate": "2021-12-17T10:46:21+01:00",
+                "revisionDate": "2021-12-17T10:46:21+01:00",
+                "preferredUri": "/gesundheit/medizin-krankheit/hasenpest-ein-fieser-erreger-aus-dem-nichts",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDI0",
+                  "title": "Medizin & Krankheit",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE3MjI3",
+                        "name": "Chantal Hebeisen",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjYwMDgyNDo4NDgwNTY=",
+                          "image": {
+                            "id": "528119",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NDk6OjI3NiwyNzA6bGFyZ2U6",
+                              "alt": "Chantal Hebeise, Beobachter-Redaktorin",
+                              "relativeOriginPath": "/chantal_hebeisen_beobachter.jpg",
+                              "focalPointX": 276,
+                              "focalPointY": 270,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTM4Nzg6NDcyMTg3Ng==",
+                  "image": {
+                    "id": "622881",
+                    "file": {
+                      "id": "ZmlsZTo2MjU3NjI6OjY0OCwyMTg6bGFyZ2U6",
+                      "alt": "Markus Dibsdale, Feuerwehrmann, erkrankte an der Hasenpest.",
+                      "relativeOriginPath": "/media/field_image/2021-12/hasenpest.jpg",
+                      "focalPointX": 648,
+                      "focalPointY": 218,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQ3MDU=",
+                "title": "Die Möwe aus Minsk",
+                "shortTitle": "Zufallsbegegnung am Fenster",
+                "lead": "Steppenmöwen breiten sich zusehends in der Schweiz aus. Woher kommen sie? Unser Autor hat einer Zufallsbekanntschaft an seinem Fenster nachgeforscht – und plötzlich Post aus Belarus erhalten.",
+                "changeDate": "2021-12-06T00:00:00+01:00",
+                "publicationDate": "2021-12-21T11:16:17+01:00",
+                "revisionDate": "2021-12-23T14:11:21+01:00",
+                "preferredUri": "/umwelt/flora-fauna/zufallsbegegnung-am-fenster-die-mowe-aus-minsk",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDcw",
+                  "title": "Flora & Fauna",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjgzMzA=",
+                        "name": "René Ammann",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTY2NzY6NDc0MjAxMQ==",
+                  "image": {
+                    "id": "623712",
+                    "file": {
+                      "id": "ZmlsZTo2MjY3MjI6OjE4MzYsNTQyOmxhcmdlOg==",
+                      "alt": "Die Steppenmöwe «Google» aus Minsk ist mittlerweile in Zürich unterwegs",
+                      "relativeOriginPath": "/media/field_image/2021-12/steppenmowe_schweiz_zurich.jpg",
+                      "focalPointX": 1836,
+                      "focalPointY": 542,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQyMDc=",
+                "title": "«Wir können kein Multitasking»",
+                "shortTitle": "Hirnforscher Lutz Jäncke",
+                "lead": "Die Digitalisierung überfordert uns, manchmal schaltet das Hirn dann quasi ab. Der Hirnforscher Lutz Jäncke weiss, was sich dagegen tun lässt.",
+                "changeDate": "2021-11-15T00:00:00+01:00",
+                "publicationDate": "2021-12-20T15:25:49+01:00",
+                "revisionDate": "2021-12-20T15:25:49+01:00",
+                "preferredUri": "/gesundheit/psychologie/hirnforscher-lutz-jancke-wir-konnen-kein-multitasking",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDIz",
+                  "title": "Psychologie",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM3MTI=",
+                        "name": "Andres Büchi",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjExNDI4MTM6MjgzMTM2OQ==",
+                          "image": {
+                            "id": "502108",
+                            "file": {
+                              "id": "ZmlsZTo1MDE3MDU6OjE0OCwxMjg6bGFyZ2U6",
+                              "alt": "Andres Büchi, Beobachter-Chefredaktor",
+                              "relativeOriginPath": "/andres_buchi_beobachter_chefredaktor_0.jpg",
+                              "focalPointX": 148,
+                              "focalPointY": 128,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQwNTQ6NDcyNzU2Ng==",
+                  "image": {
+                    "id": "622933",
+                    "file": {
+                      "id": "ZmlsZTo2MjU4MTg6OjE1MzYsNTU0OmxhcmdlOg==",
+                      "alt": "Hirnforscher und Professor für Neuropsychologie Prof. Dr. Lutz Jäncke hält das Modell eines Gehirns hoch.",
+                      "relativeOriginPath": "/media/field_image/2021-12/lutz_jancke_interview_gehirnforscher.jpg",
+                      "focalPointX": 1536,
+                      "focalPointY": 554,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQzMDY=",
+                "title": "Wer kann die Behörden rascher bremsen?",
+                "shortTitle": "Verletzung von Grundrechten",
+                "lead": "Die Corona-Massnahmen schränken die Grundrechte ein, verletzen sie teils sogar. Und bis die Gerichte sie prüfen, ist es fast immer zu spät. Was für Lösungen gibt es für das Dilemma?",
+                "changeDate": "2021-12-01T00:00:00+01:00",
+                "publicationDate": "2021-12-17T16:18:34+01:00",
+                "revisionDate": "2021-12-17T16:18:34+01:00",
+                "preferredUri": "/gesetze-recht/verletzung-von-grundrechten-wer-kann-die-behorden-rascher-bremsen",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDk1",
+                  "title": "Gesetze & Recht",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjkwMzM=",
+                        "name": "Katharina Siegrist",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTg6NDcxNjQwMw==",
+                          "image": {
+                            "id": "623067",
+                            "file": {
+                              "id": "ZmlsZTo2MjU5ODA6OjMzNSwyNTc6bGFyZ2U6",
+                              "alt": "Katharina Siegrist",
+                              "relativeOriginPath": "/media/field_image/2021-12/katharina_siegrist_beobachter_0.jpg",
+                              "focalPointX": 335,
+                              "focalPointY": 257,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ0MzM6NDcyMzU5Nw==",
+                  "image": {
+                    "id": "623446",
+                    "file": {
+                      "id": "ZmlsZTo2MjY0MDY6OjExMjgsMzkyOmxhcmdlOg==",
+                      "alt": "Polizist trägt Abschrankung – im Hintergrund das Bundeshaus in Bern (28. November 2021)",
+                      "relativeOriginPath": "/media/field_image/2021-12/grundrechte_verbot_kundgebung.jpg",
+                      "focalPointX": 1128,
+                      "focalPointY": 392,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            }
+          ],
+          "__typename": "RouteObjectInterfaceConnection"
+        },
+        "__typename": "EntityQueue"
+      },
+      "__typename": "EntityQueueParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVudGl0eV9xdWV1ZToxNDE4ODkzOjQ3NDY3MDU=",
+      "anchorId": null,
+      "title": "Das Beste von 2021",
+      "style": "default",
+      "landingPage": null,
+      "entityQueue": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZTozMDM1NTk=",
+                "title": "So läuft es hinter den Kulissen der Chatportale ab",
+                "shortTitle": "Die Dating-Falle",
+                "lead": "Auf der Suche nach Sex, Gesellschaft oder Liebe landen Tausende Männer auf dubiosen Chatportalen – und in einer teuren Abhängigkeit. Ein Insiderbericht.",
+                "changeDate": "2020-12-23T11:31:16+01:00",
+                "publicationDate": "2020-12-29T11:36:16+01:00",
+                "revisionDate": "2020-12-29T11:55:20+01:00",
+                "preferredUri": "/digital/die-dating-falle-so-lauft-es-hinter-den-kulissen-der-chatportale-ab",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybTo3OTEwMA==",
+                  "title": "Digital",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjc3ODA=",
+                        "name": "Thomas Angeli",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMTc2Nzg6MzQwNzAyNA==",
+                          "image": {
+                            "id": "534578",
+                            "file": {
+                              "id": "ZmlsZTo1MzUwNzY6OjIwMCwxODA6bGFyZ2U6",
+                              "alt": "Thomas Angeli",
+                              "relativeOriginPath": "/thomas_angeli.jpg",
+                              "focalPointX": 200,
+                              "focalPointY": 180,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEyNTQ2MTk6MzY3ODE2MQ==",
+                  "image": {
+                    "id": "550672",
+                    "file": {
+                      "id": "ZmlsZTo1NTE2NTI6OjEyMDAsNzM2OmxhcmdlOg==",
+                      "alt": "Frau spielt an Slip herum",
+                      "relativeOriginPath": "/datingportale_geschaft_betrug.jpg",
+                      "focalPointX": 1200,
+                      "focalPointY": 736,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjMxNTk=",
+                "title": "Im Schatten der Glitzerfassaden",
+                "shortTitle": "Bedürftige stehen stundenlang für Essen an",
+                "lead": "Hunderte warten hinter den Gleisen des Zürcher Hauptbahnhofs auf ein warmes Essen. Jeden Abend. Stundenlang. Seit über einem Jahr. Ein Reporter des Beobachters half zehn Tage lang beim Verteilen.",
+                "changeDate": "2021-07-07T00:00:00+02:00",
+                "publicationDate": "2021-07-16T16:23:46+02:00",
+                "revisionDate": "2021-07-19T10:45:23+02:00",
+                "preferredUri": "/gesellschaft/bedurftige-stehen-stundenlang-fur-essen-an-im-schatten-der-glitzerfassaden",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTg0",
+                  "title": "Gesellschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjgxMjU=",
+                        "name": "René Ammann",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzNTY1OTA6NDI2NzMzMg==",
+                  "image": {
+                    "id": "603516",
+                    "file": {
+                      "id": "ZmlsZTo2MDQ5ODU6OjEyNDgsNTI3OmxhcmdlOg==",
+                      "alt": "Anstehen für Essen in Zürich",
+                      "relativeOriginPath": "/incontro_zurich_essen_anstehen.jpg",
+                      "focalPointX": 1248,
+                      "focalPointY": 527,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMTgxODE=",
+                "title": "Das Wunderwasser der Gläubigen",
+                "shortTitle": "Chlordioxid",
+                "lead": "Die ätzende Substanz Chlordioxid soll Malaria, Krebs und Covid-19 heilen. Die Leute dahinter agieren aus der Schweiz. Sie sind eng verflochten mit einer US-Sekte.",
+                "changeDate": "2021-05-03T00:00:00+02:00",
+                "publicationDate": "2021-05-06T07:42:59+02:00",
+                "revisionDate": "2021-05-17T09:00:35+02:00",
+                "preferredUri": "/gesundheit/medizin-krankheit/chlordioxid-das-wunderwasser-der-glaubigen",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDI0",
+                  "title": "Medizin & Krankheit",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE3MjI3",
+                        "name": "Chantal Hebeisen",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjYwMDgyNDo4NDgwNTY=",
+                          "image": {
+                            "id": "528119",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NDk6OjI3NiwyNzA6bGFyZ2U6",
+                              "alt": "Chantal Hebeise, Beobachter-Redaktorin",
+                              "relativeOriginPath": "/chantal_hebeisen_beobachter.jpg",
+                              "focalPointX": 276,
+                              "focalPointY": 270,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    },
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM3MDY=",
+                        "name": "Otto Hostettler",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjExNDQwMjU6Mjg0MTMyMg==",
+                          "image": {
+                            "id": "528128",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTg6OjI5MiwyNTE6bGFyZ2U6",
+                              "alt": "Otto Hostettler, Beobachter-Redaktor",
+                              "relativeOriginPath": "/otto_hostettler_beobachter.jpg",
+                              "focalPointX": 292,
+                              "focalPointY": 251,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzMjc2NDc6NDA2NTY1NQ==",
+                  "image": {
+                    "id": "594026",
+                    "file": {
+                      "id": "ZmlsZTo1OTU1NzY6OjIwNzAsMTE5NjpsYXJnZTo=",
+                      "alt": "Eine Frau hält ein Fläschchen mit einer Chlordioxid-Lösung in der Hand.",
+                      "relativeOriginPath": "/chlordioxid_0.jpg",
+                      "focalPointX": 2070,
+                      "focalPointY": 1196,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMTI5NDU=",
+                "title": "«Heute sehe ich, wie abhängig ich die ganze Zeit war»",
+                "shortTitle": "Verheiratet mit einem Narzissten",
+                "lead": "Eine Frau ist machtlos gegen die Launen ihres narzisstischen Mannes. Bis sie sein Doppelleben aufdeckt. Jetzt ist er auf der Flucht.",
+                "changeDate": "2021-02-03T00:00:00+01:00",
+                "publicationDate": "2021-02-18T13:19:22+01:00",
+                "revisionDate": "2021-02-19T09:55:52+01:00",
+                "preferredUri": "/familie/beziehung-partnerschaft/verheiratet-mit-einem-narzissten-heute-sehe-ich-wie-abhangig-ich",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDk2",
+                  "title": "Beziehung & Partnerschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM0NjQ=",
+                        "name": "Daniel Benz",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMzQ2NTk6MzUyMTYyMw==",
+                          "image": {
+                            "id": "542131",
+                            "file": {
+                              "id": "ZmlsZTo1NDI4NDY6OjI1NywyNTY6bGFyZ2U6",
+                              "alt": "Daniel Benz, Beobachter-Ressortleiter",
+                              "relativeOriginPath": "/daniel_benz_beobachter_0.jpg",
+                              "focalPointX": 257,
+                              "focalPointY": 256,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEyOTg2Mjc6MzgzMjcwOA==",
+                  "image": {
+                    "id": "585165",
+                    "file": {
+                      "id": "ZmlsZTo1ODYzMTQ6OjEwMDAsNTYzOmxhcmdlOg==",
+                      "alt": "Leben mit einem Narzissten",
+                      "relativeOriginPath": "/narzissmus_beziehung_leben.jpg",
+                      "focalPointX": 1000,
+                      "focalPointY": 563,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjc1MDk=",
+                "title": "«Ein Baby verdient ein klares Ja»",
+                "shortTitle": "Tabuthema Abtreibung",
+                "lead": "Selbstbestimmung – aber nur mit Schuldgefühlen. Anne-Sophie Keller hat die Heuchelei satt und schrieb öffentlich über ihren Schwangerschaftsabbruch.",
+                "changeDate": "2021-08-24T00:00:00+02:00",
+                "publicationDate": "2021-09-24T11:13:42+02:00",
+                "revisionDate": "2021-09-27T14:28:40+02:00",
+                "preferredUri": "/gesellschaft/tabuthema-abtreibung-ein-baby-verdient-ein-klares-ja",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTg0",
+                  "title": "Gesellschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjY5OTM=",
+                        "name": "Nicole Krättli",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzODA3MTA6NDQ2NDQ2Mg==",
+                  "image": {
+                    "id": "611862",
+                    "file": {
+                      "id": "ZmlsZTo2MTM2NjE6OjEyNTQsNjYxOmxhcmdlOg==",
+                      "alt": "Anne-Sophie Keller",
+                      "relativeOriginPath": "/anne-sophie_keller_0.jpg",
+                      "focalPointX": 1254,
+                      "focalPointY": 661,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMTUyOTg=",
+                "title": "«Es war schlicht abartig»",
+                "shortTitle": "Mieter-Ärger mit Nachbarn und Verwaltung",
+                "lead": "Viktor Kalbermatten* zieht mit seiner Freundin in eine vermeintliche Traumwohnung. Der Ärger beginnt schon bei der Schlüsselübergabe.",
+                "changeDate": "2021-03-12T00:00:00+01:00",
+                "publicationDate": "2021-03-31T12:28:48+02:00",
+                "revisionDate": "2021-03-31T12:28:48+02:00",
+                "preferredUri": "/wohnen/miete/mieter-arger-mit-nachbarn-und-verwaltung-es-war-schlicht-abartig",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDM4",
+                  "title": "Miete",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjg4Mzc=",
+                        "name": "Peter Aeschlimann",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjExNjU5MzY6MzAyMTA3MQ==",
+                          "image": {
+                            "id": "528139",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NzA6OjI4NSwzMDM6bGFyZ2U6",
+                              "alt": "Peter Aeschlimann, Beobachter-Redaktor",
+                              "relativeOriginPath": "/peter_aeschlimann_beobachter.jpg",
+                              "focalPointX": 285,
+                              "focalPointY": 303,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzMTQwNDU6Mzk0Mzk4Mw==",
+                  "image": {
+                    "id": "589925",
+                    "file": {
+                      "id": "ZmlsZTo1OTEyNzI6OjEyMDAsNjc2OmxhcmdlOg==",
+                      "alt": "Illustration: Mann blickt von Balkon auf Nachbarschaft",
+                      "relativeOriginPath": "/pech_mit_mietwohnung.jpg",
+                      "focalPointX": 1200,
+                      "focalPointY": 676,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjE2NTY=",
+                "title": "Damit nach Papas Tod noch etwas bleibt",
+                "shortTitle": "Hörschatz",
+                "lead": "Remo Rosenberger, 34, ist sterbenskrank. Mit einem speziellen Hörbuch will er für seine Kinder noch ein wenig da sein, wenn er nicht mehr ist.",
+                "changeDate": "2021-06-23T11:49:10+02:00",
+                "publicationDate": "2021-06-24T16:58:57+02:00",
+                "revisionDate": "2021-06-25T14:31:28+02:00",
+                "preferredUri": "/familie/horschatz-damit-nach-papas-tod-noch-etwas-bleibt",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxODI3",
+                  "title": "Familie",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE3MzUx",
+                        "name": "Raphael Brunner",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjYzMDAzMjoxMDY0MDkw",
+                          "image": {
+                            "id": "528135",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NjU6OjEzMjEsMTA3NDpsYXJnZTo=",
+                              "alt": "Raphael Brunner, Beobachter-Redaktor",
+                              "relativeOriginPath": "/raphael_brunner_beobachter.jpg",
+                              "focalPointX": 1321,
+                              "focalPointY": 1074,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzNDc2MTc6NDIwMDYxMg==",
+                  "image": {
+                    "id": "600447",
+                    "file": {
+                      "id": "ZmlsZTo2MDE4MTE6OjcwNyw0NzI6bGFyZ2U6",
+                      "alt": "Remo Rosenberger",
+                      "relativeOriginPath": "/remo_rosenberger.jpg",
+                      "focalPointX": 707,
+                      "focalPointY": 472,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjM5Mjc=",
+                "title": "Der Vitamin-Schwindel",
+                "shortTitle": "Überschätzte und unkontrollierte Zusatzpräparate",
+                "lead": "Sie werden gekauft wie nie – ob nötig oder nicht: Vitaminpräparate sind ein Riesengeschäft. Was wirklich in den Pillen, Kapseln und Pülverchen steckt, kontrolliert aber niemand. Das kann ganz schön gefährlich werden.",
+                "changeDate": "2021-07-20T00:00:00+02:00",
+                "publicationDate": "2021-07-29T16:48:35+02:00",
+                "revisionDate": "2021-08-02T14:57:52+02:00",
+                "preferredUri": "/ernahrung/uberschatzte-und-unkontrollierte-zusatzpraparate-der-vitamin-schwindel",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybTozMDYwOQ==",
+                  "title": "Ernährung",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE1Mjg5",
+                        "name": "Peter Johannes Meier",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NTU6MzMwMzY2MA==",
+                          "image": {
+                            "id": "528126",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTY6OjIzOCwyNDg6bGFyZ2U6",
+                              "alt": "Peter Johannes Meier, Beobachter-Redaktor",
+                              "relativeOriginPath": "/peter_johannes_meier_beobachter.jpg",
+                              "focalPointX": 238,
+                              "focalPointY": 248,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    },
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM0NDU=",
+                        "name": "Andrea Haefely",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEzNjEwMzg6NDMwNDE1NA==",
+                          "image": {
+                            "id": "604999",
+                            "file": {
+                              "id": "ZmlsZTo2MDY1MjY6OjI0MywyMjI6bGFyZ2U6",
+                              "alt": "Andrea Haefely, Beobachter-Redaktorin",
+                              "relativeOriginPath": "/andrea_haefely_beobachter.png",
+                              "focalPointX": 243,
+                              "focalPointY": 222,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzNjA4Mjg6NDMxNDUyMQ==",
+                  "image": {
+                    "id": "604934",
+                    "file": {
+                      "id": "ZmlsZTo2MDY0NTg6OjExMTIsNjI2OmxhcmdlOg==",
+                      "alt": "Heidelbeeren in einer Medikamenten-Blisterpackung",
+                      "relativeOriginPath": "/vitaminpraparate_sinnvoll.jpg",
+                      "focalPointX": 1112,
+                      "focalPointY": 626,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjAxMzg=",
+                "title": "«Du bist willkommen auf dieser Welt»",
+                "shortTitle": "Mutter auf Zeit für elternlose Babys",
+                "lead": "Sabine Walde ist ein Mami auf Zeit. Die 50-jährige Pflegerin aus Niederlenz AG kümmert sich als Übergangspflegemutter mit Liebe um Neugeborene, die noch keine Familie haben.",
+                "changeDate": "2021-05-26T00:00:00+02:00",
+                "publicationDate": "2021-06-04T10:21:34+02:00",
+                "revisionDate": "2021-06-04T10:21:34+02:00",
+                "preferredUri": "/familie/mutter-auf-zeit-fur-elternlose-babys-du-bist-willkommen-auf-dieser-welt",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxODI3",
+                  "title": "Familie",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzMzg2NDY6NDEyNzU2Ng==",
+                  "image": {
+                    "id": "597738",
+                    "file": {
+                      "id": "ZmlsZTo1OTg5NjY6OjY3MiwyODQ6bGFyZ2U6",
+                      "alt": "Sabine Walde ist eine Übergangspflegemutter",
+                      "relativeOriginPath": "/mutter_auf_zeit.jpg",
+                      "focalPointX": 672,
+                      "focalPointY": 284,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjU1MDA=",
+                "title": "Zwangsarbeit in der Spinnerei",
+                "shortTitle": "Akte Bührle",
+                "lead": "Nach dem Zweiten Weltkrieg mussten Hunderte Mädchen in einer Fabrik des Industriellen Emil Bührle arbeiten. Fürsorgeämter zwangen sie dazu. Eine unrühmliche Rolle spielte die Stadt Zürich.",
+                "changeDate": "2021-08-25T14:15:26+02:00",
+                "publicationDate": "2021-08-26T09:59:31+02:00",
+                "revisionDate": "2021-10-22T10:00:45+02:00",
+                "preferredUri": "/gesellschaft/akte-buhrle-zwangsarbeit-in-der-spinnerei",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMTg0",
+                  "title": "Gesellschaft",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjk1NTc=",
+                        "name": "Yves Demuth",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NDE6MzMwMzU2MQ==",
+                          "image": {
+                            "id": "528123",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTM6OjMwNywyNDI6bGFyZ2U6",
+                              "alt": "Yves Demuth, Beobachter-Redaktor",
+                              "relativeOriginPath": "/yves_demuth_beobachter.jpg",
+                              "focalPointX": 307,
+                              "focalPointY": 242,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzNzAwMzc6NDUzNjA1Mw==",
+                  "image": {
+                    "id": "608097",
+                    "file": {
+                      "id": "ZmlsZTo2MDk4MDM6OjEyMDAsNjc1OmxhcmdlOg==",
+                      "alt": "Foto von Elfriede Steiger aus dem Kinderheim",
+                      "relativeOriginPath": "/elfriede_steiger_kinderheim.jpg",
+                      "focalPointX": 1200,
+                      "focalPointY": 675,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            }
+          ],
+          "__typename": "RouteObjectInterfaceConnection"
+        },
+        "__typename": "EntityQueue"
+      },
+      "__typename": "EntityQueueParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVudGl0eV9xdWV1ZToxMTU1NzQyOjQ3NDY3MDY=",
+      "anchorId": null,
+      "title": "Unsere Empfehlungen",
+      "style": "default",
+      "landingPage": null,
+      "entityQueue": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZTozMzQ3NTc=",
+                "preferredUri": "/videos/beobachter-story/videos/niedriglohn-ausbeutung-als-geschaftsmodell",
+                "shortTitle": "Niedriglohn",
+                "title": "Ausbeutung als Geschäftsmodell?",
+                "lead": "Tausende Arbeitnehmende leben trotz Vollzeitjob an der Armutsgrenze. Muss die Politik für einen fairen Mindestlohn sorgen oder können sich die Betroffenen selbst helfen?",
+                "brightcoveId": "6287791359001",
+                "publicationDate": "2021-12-20T17:12:47+01:00",
+                "changeDate": "2021-12-20T16:32:18+01:00",
+                "caption": "Tausende Arbeitnehmende leben trotz Vollzeitjob an der Armutsgrenze. Muss die Politik für einen fairen Mindestlohn sorgen oder können sich die Betroffenen selbst helfen?",
+                "credit": "Beobachter Bewegtbild",
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1wNEh6czJGNDpuZXctaWVzUWN6RDU=",
+                  "image": {
+                    "id": "623647",
+                    "file": {
+                      "id": "ZmlsZTo2MjY2Mzg6Ojk2MCw1NDA6bGFyZ2U6",
+                      "relativeOriginPath": "/media/field_image/2021-12/niedriglohn_ausbeutung_als_geschaftsmodell.jpg",
+                      "focalPointX": 960,
+                      "focalPointY": 540,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Video"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQyMDI=",
+                "title": "12'000 Franken für die Fische",
+                "shortTitle": "Bizarrer Rechtsstreit um Parkplatz",
+                "lead": "Ein Hobbyfischer benutzt jahrelang denselben Parkplatz am Thunersee. Doch plötzlich erhält er sechs Bussen in Folge. Das kann er nicht auf sich sitzen lassen.",
+                "changeDate": "2021-11-29T00:00:00+01:00",
+                "publicationDate": "2021-12-17T10:48:47+01:00",
+                "revisionDate": "2021-12-17T10:48:47+01:00",
+                "preferredUri": "/burger-verwaltung/bizarrer-rechtsstreit-um-parkplatz-12000-franken-fur-die-fische",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDQx",
+                  "title": "Bürger & Verwaltung",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM2MDU=",
+                        "name": "Thomas Angeli",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMTc2ODE6MzQwNzAyNw==",
+                          "image": {
+                            "id": "534578",
+                            "file": {
+                              "id": "ZmlsZTo1MzUwNzY6OjIwMCwxODA6bGFyZ2U6",
+                              "alt": "Thomas Angeli",
+                              "relativeOriginPath": "/thomas_angeli.jpg",
+                              "focalPointX": 200,
+                              "focalPointY": 180,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQwNDM6NDcyMTg5Nw==",
+                  "image": {
+                    "id": "622937",
+                    "file": {
+                      "id": "ZmlsZTo2MjU4MjI6OjY3NCwyMDY6bGFyZ2U6",
+                      "alt": "Hobbyfischer Heinz Lehmann am Thunersee",
+                      "relativeOriginPath": "/media/field_image/2021-12/heinz_lehmann_hotel_du_lac_darligen.jpg",
+                      "focalPointX": 674,
+                      "focalPointY": 206,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQyMDA=",
+                "title": "Leben mit Assistenz – eine fast unlösbare Aufgabe",
+                "shortTitle": "«Meine Selbstbestimmung ist mir sehr wichtig»",
+                "lead": "Nadja Schmid hat eine seltene Krankheit. Sie kann nur mit Hilfe selbstbestimmt leben – und muss deshalb 14 Angestellte managen. Wie sieht ihr Alltag aus?",
+                "changeDate": "2021-12-02T00:00:00+01:00",
+                "publicationDate": "2021-12-17T10:42:00+01:00",
+                "revisionDate": "2021-12-17T10:42:00+01:00",
+                "preferredUri": "/geld/ahviv/meine-selbstbestimmung-ist-mir-sehr-wichtig-leben-mit-assistenz-eine-fast-unlosbare",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDQ0",
+                  "title": "AHV/IV",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjM1ODM=",
+                        "name": "Birthe Homann",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NTA6MzMwMzYwNA==",
+                          "image": {
+                            "id": "528124",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTQ6OjMwMiwyNTc6bGFyZ2U6",
+                              "alt": "Birthe Homann, Beobachter-Redaktorin",
+                              "relativeOriginPath": "/birthe_homann_beobachter.jpg",
+                              "focalPointX": 302,
+                              "focalPointY": 257,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQwMjQ6NDcyMTg1NQ==",
+                  "image": {
+                    "id": "622926",
+                    "file": {
+                      "id": "ZmlsZTo2MjU4MDk6OjU4NCwyNDQ6bGFyZ2U6",
+                      "alt": "Nadja Schmid mit Julia Urech",
+                      "relativeOriginPath": "/media/field_image/2021-12/muskelatrophie_leben_nadja_schmid_julia_urech.jpg",
+                      "focalPointX": 584,
+                      "focalPointY": 244,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQzNTU=",
+                "title": "Das kleinere Risiko",
+                "shortTitle": "Corona-Impfung für Kinder",
+                "lead": "Bald können auch 5- bis 11-jährige Kinder gegen Covid-19 geimpft werden. Wie sinnvoll ist das? Welche Nebenwirkungen drohen? Eine Entscheidungshilfe.",
+                "changeDate": "2021-12-10T00:00:00+01:00",
+                "publicationDate": "2021-12-16T16:42:30+01:00",
+                "revisionDate": "2021-12-16T16:42:30+01:00",
+                "preferredUri": "/gesundheit/medizin-krankheit/corona-impfung-fur-kinder-das-kleinere-risiko",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDI0",
+                  "title": "Medizin & Krankheit",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjkyMjg=",
+                        "name": "Frederik Jötten",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ2NTU6NDcyMDMxMw==",
+                  "image": {
+                    "id": "623074",
+                    "file": {
+                      "id": "ZmlsZTo2MjU5ODc6OjEzNDQsNTgwOmxhcmdlOg==",
+                      "alt": "Ein Mädchen wird geimpft",
+                      "relativeOriginPath": "/media/field_image/2021-12/kind_impfung_corona.jpg",
+                      "focalPointX": 1344,
+                      "focalPointY": 580,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzMxODk=",
+                "title": "Die fatale Falschauskunft",
+                "shortTitle": "Kampf mit IV und AHV",
+                "lead": "Mit 61 wird Jrma Mohr gekündigt. Wegen Fehlern der Behörden muss sie immer wieder neu für ihr Recht kämpfen. Dann wirft ihre Rechtsschutzversicherung sie raus.",
+                "changeDate": "2021-11-23T00:00:00+01:00",
+                "publicationDate": "2021-12-08T14:35:19+01:00",
+                "revisionDate": "2021-12-10T12:17:04+01:00",
+                "preferredUri": "/geld/ahviv/kampf-mit-iv-und-ahv-die-fatale-falschauskunft",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDQ0",
+                  "title": "AHV/IV",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE4OTkx",
+                        "name": "Raphael Brunner",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTEzNDc6NDcwMzI3OA==",
+                  "image": {
+                    "id": "622088",
+                    "file": {
+                      "id": "ZmlsZTo2MjQ4Mjk6OjE3MjEsNzA5OmxhcmdlOg==",
+                      "alt": "Jrma Mohr ist nicht arbeitsfähig. Doch sie bestürmt ihren Arzt, dass er sie arbeitsfähig schreibt.",
+                      "relativeOriginPath": "/media/field_image/2021-12/arztgesprach.jpg",
+                      "focalPointX": 1721,
+                      "focalPointY": 709,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzI4Nzc=",
+                "title": "Teure Überraschung auf Spitalrechnung",
+                "shortTitle": "Zusatzversicherter soll 7500 Franken zahlen",
+                "lead": "Ein Mann landet als Notfall im Spital Langenthal. Nun soll er 7500 Franken aus der eigenen Tasche bezahlen – weil das Spital keinen Vertrag mit seiner Krankenkasse hat.",
+                "changeDate": "2021-11-23T00:00:00+01:00",
+                "publicationDate": "2021-12-03T10:49:02+01:00",
+                "revisionDate": "2021-12-03T10:50:06+01:00",
+                "preferredUri": "/geld/krankenkasse/zusatzversicherter-soll-7500-franken-zahlen-teure-uberraschung-auf-spitalrechnung",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDg3",
+                  "title": "Krankenkasse",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjk1NTc=",
+                        "name": "Yves Demuth",
+                        "imageParagraph": {
+                          "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NDE6MzMwMzU2MQ==",
+                          "image": {
+                            "id": "528123",
+                            "file": {
+                              "id": "ZmlsZTo1Mjg0NTM6OjMwNywyNDI6bGFyZ2U6",
+                              "alt": "Yves Demuth, Beobachter-Redaktor",
+                              "relativeOriginPath": "/yves_demuth_beobachter.jpg",
+                              "focalPointX": 307,
+                              "focalPointY": 242,
+                              "__typename": "ImageFile"
+                            },
+                            "__typename": "Image"
+                          },
+                          "__typename": "ImageParagraph"
+                        },
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MDg3NjA6NDY2Njg3OQ==",
+                  "image": {
+                    "id": "621219",
+                    "file": {
+                      "id": "ZmlsZTo2MjM4NTI6OjEyNDgsNjA4OmxhcmdlOg==",
+                      "alt": "Arzt und Pflegefachkraft schieben Spitalbett durch Gang",
+                      "relativeOriginPath": "/media/field_image/2021-12/spital_gang_bett.jpg",
+                      "focalPointX": 1248,
+                      "focalPointY": 608,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzEzNzY=",
+                "title": "Wenn eine Hausbesitzerin das halbe Dorf terrorisiert",
+                "shortTitle": "Quälgeist im Quartier",
+                "lead": "Beschimpfungen, Bedrohungen, Betreibungen – seit Jahren macht eine Hausbesitzerin im St. Galler Rheintal den Nachbarn das Leben schwer. Stoppen lässt sie sich durch nichts und niemanden.",
+                "changeDate": "2021-11-08T00:00:00+01:00",
+                "publicationDate": "2021-11-26T11:42:25+01:00",
+                "revisionDate": "2021-12-01T11:17:38+01:00",
+                "preferredUri": "/wohnen/nachbarn/qualgeist-im-quartier-wenn-eine-hausbesitzerin-das-halbe-dorf-terrorisiert",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": "paid",
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDM2",
+                  "title": "Nachbarn",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE2NDE2",
+                        "name": "Bernhard Raos",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MDA0NTA6NDY1NjY4Mg==",
+                  "image": {
+                    "id": "620118",
+                    "file": {
+                      "id": "ZmlsZTo2MjI2MTY6OjE0MTMsNzI0OmxhcmdlOg==",
+                      "alt": "Schimpfende Nachbarin mit Gartenschere",
+                      "relativeOriginPath": "/media/field_image/2021-11/nachbarschaftsstreit_.jpg",
+                      "focalPointX": 1413,
+                      "focalPointY": 724,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            }
+          ],
+          "__typename": "RouteObjectInterfaceConnection"
+        },
+        "__typename": "EntityQueue"
+      },
+      "__typename": "EntityQueueParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMzA2NTE2OjQ3NDY3MDc=",
+      "anchorId": null,
+      "ministage": {
+        "name": "Wie können wir Ihnen helfen?",
+        "headline": " ",
+        "image": null,
+        "callToActionLink": {
+          "path": "https://www.beobachter.ch/service/wie-durfen-wir-ihnen-helfen",
+          "label": "weitere Anliegen",
+          "routed": false,
+          "__typename": "Link"
+        },
+        "links": {
+          "edges": [
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/themenvorschlag-fur-die-redaktion",
+                "label": "Ich möchte einen Themenvorschlag einreichen",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/leserbriefe-an-die-redaktion",
+                "label": "Einen Leserbrief an die Redaktion schreiben",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/neues-abonnement-bestellen",
+                "label": "Ein Beobachter-Abonnement bestellen",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/probleme-mit-loginzugriff",
+                "label": "Probleme mit dem Login/Zugriff melden",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/anpassen-der-adressdaten",
+                "label": "Eine Adressänderung melden",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/auskunft-zur-rechnung",
+                "label": "Eine Auskunft zu einer Abo-Rechnung erhalten",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/service/melden-eines-zustellungsproblems",
+                "label": "Ein Zustellproblem melden",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            }
+          ],
+          "__typename": "LinkConnection"
+        },
+        "__typename": "MinistageListicle"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMTYzNzE2OjQ3NDY3MDg=",
+      "anchorId": null,
+      "ministage": {
+        "headline": "Mehr lesen über",
+        "keywords": {
+          "edges": [
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybToxMTQyMzk=",
+                "label": "Coronavirus",
+                "preferredUri": "/stichworte/c/coronavirus",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTozNTc5MQ==",
+                "label": "Geschichte",
+                "preferredUri": "/stichworte/g/geschichte",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo5OTk=",
+                "label": "Wissenschaft",
+                "preferredUri": "/stichworte/w/wissenschaft",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo3MDc=",
+                "label": "Arzt",
+                "preferredUri": "/stichworte/a/arzt",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybToyMQ==",
+                "label": "Datenschutz",
+                "preferredUri": "/stichworte/d/datenschutz",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo1NTM=",
+                "label": "Medizin",
+                "preferredUri": "/stichworte/m/medizin",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo2ODE=",
+                "label": "Impfungen",
+                "preferredUri": "/stichworte/i/impfungen",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo0MDQ=",
+                "label": "Ämter und Behörden",
+                "preferredUri": "/stichworte/a/amter-und-behorden",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo2MzQ=",
+                "label": "IV",
+                "preferredUri": "/stichworte/i/iv",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            }
+          ],
+          "__typename": "KeywordConnection"
+        },
+        "__typename": "MinistageTrendingTopics"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVudGl0eV9xdWV1ZToxMTM0NDMxOjQ3NDY3MDk=",
+      "anchorId": null,
+      "title": "Gesundheit",
+      "style": "default",
+      "landingPage": {
+        "id": "bm9kZToxNzQwNw==",
+        "title": "Gesundheit",
+        "preferredUri": "/gesundheit",
+        "__typename": "LandingPage"
+      },
+      "entityQueue": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZTozMzQ2NzU=",
+                "title": "Welche Blutdruckmessgeräte zuverlässig sind",
+                "shortTitle": "Blutdruck messen",
+                "lead": "Zu hoher Blutdruck schädigt auf Dauer Gefässe und Organe. Genaues Messen ist daher wichtig. Wir zeigen, wie es geht und welche Geräte sich eignen.",
+                "changeDate": "2021-12-21T08:52:00+01:00",
+                "publicationDate": "2021-12-21T08:51:00+01:00",
+                "revisionDate": "2021-12-21T08:52:03+01:00",
+                "preferredUri": "/gesundheit/pravention/blutdruck-messen-welche-blutdruckmessgerate-zuverlassig-sind",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybTo4MTIwMg==",
+                  "title": "Prävention",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjQ3MTM=",
+                        "name": "Andreas Grote",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTYzNDg6NDcyODk3NQ==",
+                  "image": {
+                    "id": "623639",
+                    "file": {
+                      "id": "ZmlsZTo2MjY2MzA6OjExODgsNjkyOmxhcmdlOg==",
+                      "alt": "Ein Mann misst seinen Blutdruck mit einer Oberarmmanschette.",
+                      "relativeOriginPath": "/media/field_image/2021-12/blutdruckmessgeraet.jpg",
+                      "focalPointX": 1188,
+                      "focalPointY": 692,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNjgyMzI=",
+                "title": "Die Kraft des kalten Wassers",
+                "shortTitle": "Kalt abduschen lohnt sich",
+                "lead": "Wer den Körper regelmässig mit kaltem Wasser reizt, kann das Immunsystem stärken und chronische Schmerzen lindern.",
+                "changeDate": "2020-02-25T15:03:28+01:00",
+                "publicationDate": "2020-02-29T14:36:03+01:00",
+                "revisionDate": "2020-03-06T16:32:41+01:00",
+                "preferredUri": "/gesundheit/pravention/kalt-abduschen-lohnt-sich-die-kraft-des-kalten-wassers",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": true,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybTo4MTIwMg==",
+                  "title": "Prävention",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjQ3MTM=",
+                        "name": "Andreas Grote",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjExMzc4MzE6MjgyMzIxMQ==",
+                  "image": {
+                    "id": "499900",
+                    "file": {
+                      "id": "ZmlsZTo0OTk0MDk6OjkwMCw1MDc6bGFyZ2U6",
+                      "alt": "Füsse mit gespreizten Zehen unter der Dusche",
+                      "relativeOriginPath": "/kalt_duschen.jpg",
+                      "focalPointX": 900,
+                      "focalPointY": 507,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjg5MDI=",
+                "title": "Von Schweissfüssen, Blähungen und Mundgeruch",
+                "shortTitle": "Unangenehmer Körpergeruch",
+                "lead": "Über Stinkfüsse, schlechten Atem und Blähungen redet niemand gern. Warum man solche Probleme trotzdem offen ansprechen sollte.",
+                "changeDate": "2021-08-16T00:00:00+02:00",
+                "publicationDate": "2021-10-14T17:03:39+02:00",
+                "revisionDate": "2021-10-14T17:03:39+02:00",
+                "preferredUri": "/gesundheit/pravention/unangenehmer-korpergeruch-von-schweissfussen-blahungen-und-mundgeruch",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybTo4MTIwMg==",
+                  "title": "Prävention",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjMyNDE=",
+                        "name": "Vera Bueller",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzODg0MTE6NDUxNjY5Nw==",
+                  "image": {
+                    "id": "614537",
+                    "file": {
+                      "id": "ZmlsZTo2MTY0NjU6OjEyMjQsNTI3OmxhcmdlOg==",
+                      "alt": "Illustration: Manche haben Achselschweiss, manche Blähungen und andere Mundgeruch",
+                      "relativeOriginPath": "/achselschweiss_blahungen_mundgeruch.jpg",
+                      "focalPointX": 1224,
+                      "focalPointY": 527,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzQwNzQ=",
+                "title": "Was im Körper passiert, wenn wir Musik hören oder machen",
+                "shortTitle": "Die Macht der Klänge",
+                "lead": "Wenn wir Musik hören, ein Lied singen oder ein Instrument spielen, geschieht Faszinierendes in unserem Gehirn. Das macht sich auch die Musik­therapie zunutze.",
+                "changeDate": "2021-11-03T00:00:00+01:00",
+                "publicationDate": "2021-12-13T17:04:25+01:00",
+                "revisionDate": "2021-12-13T17:05:23+01:00",
+                "preferredUri": "/gesundheit/medizin-krankheit/die-macht-der-klange-was-im-korper-passiert-wenn-wir-musik-horen-oder",
+                "subtypeValue": "ratgeber_aktuell",
+                "hasVideo": false,
+                "restrictionStatus": null,
+                "useNativeAdvertising": false,
+                "channel": {
+                  "id": "dGF4b25vbXlfdGVybToxMDI0",
+                  "title": "Medizin & Krankheit",
+                  "__typename": "Channel"
+                },
+                "authors": {
+                  "edges": [
+                    {
+                      "node": {
+                        "id": "YXV0aG9yOjE5NDIz",
+                        "name": "Susanne Wagner",
+                        "imageParagraph": null,
+                        "__typename": "Author"
+                      },
+                      "__typename": "AuthorEdge"
+                    }
+                  ],
+                  "__typename": "AuthorConnection"
+                },
+                "teaserImage": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE0MTM0MzY6NDcwOTAxMQ==",
+                  "image": {
+                    "id": "622764",
+                    "file": {
+                      "id": "ZmlsZTo2MjU2MjI6OjE2ODAsNjc1OmxhcmdlOg==",
+                      "alt": "Mann spielt zuhause Gitarre",
+                      "relativeOriginPath": "/media/field_image/2021-12/musiktherapie_gitarre_spielen.jpg",
+                      "focalPointX": 1680,
+                      "focalPointY": 675,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            }
+          ],
+          "__typename": "RouteObjectInterfaceConnection"
+        },
+        "__typename": "EntityQueue"
+      },
+      "__typename": "EntityQueueParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4MzkzOjQ3NDY3MTA=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMTg0",
+        "title": "Gesellschaft",
+        "landingPage": {
+          "id": "bm9kZToxNzQ1MQ==",
+          "preferredUri": "/gesellschaft",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Gesellschaft",
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzUwMjQ=",
+              "title": "Was der Beobachter 2021 bewegt hat",
+              "shortTitle": "10 Beispiele",
+              "lead": "Auch in diesem Jahr haben wir aufgedeckt, kritisiert, angeregt. Was hat es gebracht? Zehn Beispiele, wie der Beobachter die Schweiz ein bisschen besser gemacht hat.",
+              "changeDate": "2021-12-22T16:03:53+01:00",
+              "publicationDate": "2021-12-27T14:33:03+01:00",
+              "revisionDate": "2021-12-27T14:33:42+01:00",
+              "preferredUri": "/gesellschaft/10-beispiele-was-der-beobachter-2021-bewegt-hat",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg0",
+                "title": "Gesellschaft",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjg5NzU=",
+                      "name": "Beobachter Redaktion",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTc5MDM6NDc0Nzk4Mg==",
+                "image": {
+                  "id": "624104",
+                  "file": {
+                    "id": "ZmlsZTo2MjcxNzA6OjEyMDAsNjc1OmxhcmdlOg==",
+                    "alt": "Was der Beobachter 2021 bewegt hat",
+                    "relativeOriginPath": "/media/field_image/2021-12/beobachter_2021.jpg",
+                    "focalPointX": 1200,
+                    "focalPointY": 675,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzQyMDM=",
+              "title": "Ein Plädoyer für mehr Genuss",
+              "shortTitle": "Genug verzichtet!",
+              "lead": "Selbstkontrolle und Verzicht gelten als Tugenden. Gut tut das Gegenteil, sagt die Wissenschaft. Höchste Zeit, mal wieder richtig zu geniessen.",
+              "changeDate": "2021-12-07T00:00:00+01:00",
+              "publicationDate": "2021-12-16T15:54:59+01:00",
+              "revisionDate": "2021-12-16T15:54:59+01:00",
+              "preferredUri": "/gesellschaft/genug-verzichtet-ein-pladoyer-fur-mehr-genuss",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg0",
+                "title": "Gesellschaft",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM0NjQ=",
+                      "name": "Daniel Benz",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjEyMzQ2NTk6MzUyMTYyMw==",
+                        "image": {
+                          "id": "542131",
+                          "file": {
+                            "id": "ZmlsZTo1NDI4NDY6OjI1NywyNTY6bGFyZ2U6",
+                            "alt": "Daniel Benz, Beobachter-Ressortleiter",
+                            "relativeOriginPath": "/daniel_benz_beobachter_0.jpg",
+                            "focalPointX": 257,
+                            "focalPointY": 256,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQwNDc6NDcxOTk3Nw==",
+                "image": {
+                  "id": "622938",
+                  "file": {
+                    "id": "ZmlsZTo2MjU4MjQ6OjE0NjUsNzQ2OmxhcmdlOg==",
+                    "alt": "Zuprostender Arm und üppig mit Lebensmitteln bestückter Tisch",
+                    "relativeOriginPath": "/media/field_image/2021-12/genuss.jpg",
+                    "focalPointX": 1465,
+                    "focalPointY": 746,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzQzMzM=",
+              "title": "Ein Soundtrack zum Geniessen",
+              "shortTitle": "Playlist mit 11 Songs",
+              "lead": "Von Lou Reed über Cyndi Lauper bis Campari Soda: Eine Auswahl der besten Genuss-Songs – zusammengestellt und beschrieben von Musikjournalist Eric Facon.",
+              "changeDate": "2021-12-15T14:40:19+01:00",
+              "publicationDate": "2021-12-16T15:54:09+01:00",
+              "revisionDate": "2021-12-16T15:56:25+01:00",
+              "preferredUri": "/gesellschaft/playlist-mit-11-songs-ein-soundtrack-zum-geniessen",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg0",
+                "title": "Gesellschaft",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ2OTY6NDcxOTk5OA==",
+                "image": {
+                  "id": "623085",
+                  "file": {
+                    "id": "ZmlsZTo2MjU5OTk6OjEwMzIsNDA1OmxhcmdlOg==",
+                    "alt": "Mann liegt auf Sofa und hört genüsslich Musik",
+                    "relativeOriginPath": "/media/field_image/2021-12/musik_geniessen_sofa.jpg",
+                    "focalPointX": 1032,
+                    "focalPointY": 405,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZTo2NTQ4MjU6NDc0NjcxMQ==",
+      "anchorId": null,
+      "ministage": {
+        "link": {
+          "path": "https://www.beobachter.ch/videos",
+          "__typename": "Link"
+        },
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZTozMzQ3NTc=",
+                "brightcoveId": "6287791359001",
+                "publicationDate": "2021-12-20T17:12:47+01:00",
+                "changeDate": "2021-12-20T16:32:18+01:00",
+                "caption": "Tausende Arbeitnehmende leben trotz Vollzeitjob an der Armutsgrenze. Muss die Politik für einen fairen Mindestlohn sorgen oder können sich die Betroffenen selbst helfen?",
+                "shortTitle": "Niedriglohn",
+                "title": "Ausbeutung als Geschäftsmodell?",
+                "credit": "Beobachter Bewegtbild",
+                "duration": "648683",
+                "image": {
+                  "id": "623647",
+                  "file": {
+                    "id": "ZmlsZTo2MjY2Mzg6Ojk2MCw1NDA6bGFyZ2U6",
+                    "alt": "Beobachter Bewegtbild Redaktorin Jenny Keller spricht mit einer anonymisierten Reinigungsfachkraft.",
+                    "relativeOriginPath": "/media/field_image/2021-12/niedriglohn_ausbeutung_als_geschaftsmodell.jpg",
+                    "focalPointX": 960,
+                    "focalPointY": 540,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "Video"
+              },
+              "__typename": "VideoEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzAzMjk=",
+                "brightcoveId": "6280125965001",
+                "publicationDate": "2021-11-05T09:36:25+01:00",
+                "changeDate": "2021-11-03T15:30:59+01:00",
+                "caption": "Daniel Buchschacher bietet im «Onkel Emma»-Laden in Zürich vorgeliebte Klamotten und Gegenstände an. Aber auch Ausbildungen für junge Leute mit schwieriger Biografie.",
+                "shortTitle": " «Onkel Emma» Daniel Buchschacher",
+                "title": "«Wir möchten jungen Leuten eine Chance geben»",
+                "credit": "Beobachter Bewegtbild",
+                "duration": "257472",
+                "image": {
+                  "id": "616809",
+                  "file": {
+                    "id": "ZmlsZTo2MTg5MjI6OjY0MCwzNjA6bGFyZ2U6",
+                    "alt": "Daniel Buchschacher sitzt im «Onkel Emma»-Laden.",
+                    "relativeOriginPath": "/media/field_image/2021-11/zeitgenosse_daniel_buchschacher_onkel_emma_secondhand.jpg",
+                    "focalPointX": 640,
+                    "focalPointY": 360,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "Video"
+              },
+              "__typename": "VideoEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMjkxODI=",
+                "brightcoveId": "6277819156001",
+                "publicationDate": "2021-10-21T18:03:26+02:00",
+                "changeDate": "2021-10-19T13:38:17+02:00",
+                "caption": "Viele Palästinenser leben seit Jahrzehnten im Exil, auch in der Schweiz. Trotzdem erfahren sie wenig Solidarität. Sami Daher hat es sich zur Lebensaufgabe gemacht, Kultur und Geschichte seines Volkes zu vermitteln.",
+                "shortTitle": "Menschen aus Palästina",
+                "title": "Im Schatten der Geschichte",
+                "credit": "Beobachter Bewegtbild",
+                "duration": "306048",
+                "image": {
+                  "id": "615299",
+                  "file": {
+                    "id": "ZmlsZTo2MTcyODM6Ojk2MCw1NDA6bGFyZ2U6",
+                    "alt": "Palästinenser Sami Daher steht vor seiner Pittaria in Solothurn und redet mit einem Kunden.",
+                    "relativeOriginPath": "/palastinenser_sami_daher_pittaria_solothurn.jpg",
+                    "focalPointX": 960,
+                    "focalPointY": 540,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "Video"
+              },
+              "__typename": "VideoEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZTozMzAzMDY=",
+                "brightcoveId": "6280091479001",
+                "publicationDate": "2021-11-04T14:32:05+01:00",
+                "changeDate": "2021-11-03T11:57:15+01:00",
+                "caption": "Viele stecken wegen Corona in der Krise. Die Milliarden des Bundes erreichen aber nicht alle Betroffene. Dazu gehört das Ehepaar Milazzo: Trotz staatlicher Hilfen fallen sie zwischen Stuhl und Bank. Mit Hilfe von SOS Beobachter konnten sie ausstehende AHV-Beiträge begleichen.",
+                "shortTitle": "Die stillen Verlierer der Corona-Pandemie",
+                "title": "«Wir hätten uns gewünscht, dass geholfen wird»",
+                "credit": "Beobachter Bewegtbild",
+                "duration": "178069",
+                "image": {
+                  "id": "616751",
+                  "file": {
+                    "id": "ZmlsZTo2MTg4NjA6OjY0MCwzNjA6bGFyZ2U6",
+                    "alt": "Giuseppe und Renate Milazzo sitzen in ihrem Antiquitätengeschäft.",
+                    "relativeOriginPath": "/media/field_image/2021-11/sos_beobachter_die_stillen_verlierer_der_corona-pandemie_neuunternehmer-paar_giuseppe_und_renate_milazzo.jpg",
+                    "focalPointX": 640,
+                    "focalPointY": 360,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "Video"
+              },
+              "__typename": "VideoEdge"
+            }
+          ],
+          "__typename": "VideoConnection"
+        },
+        "__typename": "MinistageVideo"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMjM0MTE1OjQ3NDY3MTI=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMTk3",
+        "title": "Konsumentenschutz",
+        "landingPage": {
+          "id": "bm9kZToxNzQ0MA==",
+          "preferredUri": "/konsum/konsumentenschutz",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Konsumentenschutz",
+      "entities": {
+        "count": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzQxNzk=",
+              "title": "Ist diese Nachricht wirklich vom Lieferdienst?",
+              "shortTitle": "Verdächtige SMS",
+              "lead": "Gestern wurde ich von einer unbekannten Telefonnummer aufgefordert, die Versanddetails für ein Paket zu bestätigen. Tatsächlich habe ich etwas bestellt, doch ist die Nachricht echt?",
+              "changeDate": "2021-12-14T17:37:00+01:00",
+              "publicationDate": "2021-12-14T17:35:00+01:00",
+              "revisionDate": "2021-12-14T17:37:09+01:00",
+              "preferredUri": "/konsum/konsumentenschutz/verdachtige-sms-ist-diese-nachricht-wirklich-vom-lieferdienst",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": true,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTk3",
+                "title": "Konsumentenschutz",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE5NjEy",
+                      "name": "Yann Lengacher",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjEzNjA1MTE6NDI5OTcxNA==",
+                        "image": {
+                          "id": "604853",
+                          "file": {
+                            "id": "ZmlsZTo2MDYzNzU6OjI3NiwyNDE6bGFyZ2U6",
+                            "alt": "Yann Lengacher",
+                            "relativeOriginPath": "/yann_lengacher_beobachter_0.jpg",
+                            "focalPointX": 276,
+                            "focalPointY": 241,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTM4NjE6NDcxMzQ1NA==",
+                "image": {
+                  "id": "622874",
+                  "file": {
+                    "id": "ZmlsZTo2MjU3NTM6OjI0NDgsMTQwNDpsYXJnZTo=",
+                    "alt": "Ein Mann blickt auf seinen Handybildschirm mit einer SMS, in der steht: «Ihr Paket ist versandfertig. Bestätigen Sie Ihre Versanddetails.» In der Nachricht ist ausserdem ein Link angegeben, auf den man klicken soll.",
+                    "relativeOriginPath": "/media/field_image/2021-12/handybildschirm_sms-nachricht.jpg",
+                    "focalPointX": 2448,
+                    "focalPointY": 1404,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzI4Njg=",
+              "title": "Warum wir viel zu viel für Medikamente zahlen",
+              "shortTitle": "Geheimrabatte und zögernde Politik",
+              "lead": "In der Schweiz sind sogar Generika viel teurer als im Rest Europas. Es ginge auch hier massiv günstiger – etwa mit Parallelimporten. Oder mit einer Einkaufstour über die Grenze.",
+              "changeDate": "2021-11-17T00:00:00+01:00",
+              "publicationDate": "2021-12-06T15:04:02+01:00",
+              "revisionDate": "2021-12-06T15:05:08+01:00",
+              "preferredUri": "/konsum/konsumentenschutz/geheimrabatte-und-zogernde-politik-warum-wir-viel-zu-viel-fur-medikamente",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTk3",
+                "title": "Konsumentenschutz",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE5NjEz",
+                      "name": "Christian Bernhart",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTAwODA6NDY4NTgwNg==",
+                "image": {
+                  "id": "621651",
+                  "file": {
+                    "id": "ZmlsZTo2MjQzMzE6OjEyODMsNzUxOmxhcmdlOg==",
+                    "alt": "Zwei pillen",
+                    "relativeOriginPath": "/media/field_image/2021-12/medikamente_kosten_schweiz.jpg",
+                    "focalPointX": 1283,
+                    "focalPointY": 751,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4OTczOjQ3NDY3MTM=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxODI3",
+        "title": "Familie",
+        "landingPage": {
+          "id": "bm9kZToxNzQwMQ==",
+          "preferredUri": "/familie",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Familie",
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzUwMDM=",
+              "title": "Darf ich meinen Hund essen?",
+              "shortTitle": "Rechtliche Regeln bei Haustieren",
+              "lead": "Was bei Hund, Katze, Schlange oder Tarantel gilt – und was ins Mythenreich gehört. 6 Fragen und Antworten.",
+              "changeDate": "2021-12-22T18:27:00+01:00",
+              "publicationDate": "2021-12-22T18:27:47+01:00",
+              "revisionDate": "2021-12-23T10:21:49+01:00",
+              "preferredUri": "/familie/haustiere/rechtliche-regeln-bei-haustieren-darf-ich-meinen-hund-essen",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": true,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMjM4",
+                "title": "Haustiere",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE4OTk0",
+                      "name": "Julia Gubler",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjE0MDIzMTY6NDYxMDU0Nw==",
+                        "image": {
+                          "id": "618936",
+                          "file": {
+                            "id": "ZmlsZTo2MjEyNzU6OjQ0MCwzNzY6bGFyZ2U6",
+                            "alt": "Julia Gubler vom Beobachter-Beratungszentrum",
+                            "relativeOriginPath": "/media/field_image/2021-11/julia_gubler_beobachter.jpg",
+                            "focalPointX": 440,
+                            "focalPointY": 376,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTgwNDA6NDczOTk2Nw==",
+                "image": {
+                  "id": "624117",
+                  "file": {
+                    "id": "ZmlsZTo2MjcxODI6OjEyNTEsNjc5OmxhcmdlOg==",
+                    "alt": "Eine Bulldogge mit teuflischen Hörnern liegt gemütlich auf einem Sofa.",
+                    "relativeOriginPath": "/media/field_image/2021-12/bulldogge_teufel.jpg",
+                    "focalPointX": 1251,
+                    "focalPointY": 679,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzQwNzA=",
+              "title": "Zwei Farben, mehr Umsatz",
+              "shortTitle": "Gender-Marketing im Kinderzimmer",
+              "lead": "Auch dieses Jahr werden wieder rosa Puppen für Mädchen und blaue Autos für Buben unter dem Weihnachtsbaum liegen. Was steckt dahinter?",
+              "changeDate": "2021-10-07T00:00:00+02:00",
+              "publicationDate": "2021-12-13T16:27:16+01:00",
+              "revisionDate": "2021-12-13T16:27:16+01:00",
+              "preferredUri": "/familie/kinder/gender-marketing-im-kinderzimmer-zwei-farben-mehr-umsatz",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDMw",
+                "title": "Kinder",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjY5OTM=",
+                      "name": "Nicole Krättli",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTMzOTQ6NDcwODc3NQ==",
+                "image": {
+                  "id": "622750",
+                  "file": {
+                    "id": "ZmlsZTo2MjU2MDU6OjEyMDAsNDQ2OmxhcmdlOg==",
+                    "alt": "Gender-Marketing im Kinderzimmer",
+                    "relativeOriginPath": "/media/field_image/2021-12/gender_kinderzimmer.jpg",
+                    "focalPointX": 1200,
+                    "focalPointY": 446,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzEzNjg=",
+              "title": "«Wir wollen nicht ins Heim»",
+              "shortTitle": "Plötzlich weniger Geld für Pflegefamilien",
+              "lead": "Weil der Kanton Bern die Familienpflege neu regelt, erhalten einige Pflegeeltern viel weniger Entschädigung. Ihren Kindern droht nun der Gang ins Heim. Dabei wäre eine Familie besser.",
+              "changeDate": "2021-11-08T00:00:00+01:00",
+              "publicationDate": "2021-11-19T10:40:17+01:00",
+              "revisionDate": "2021-11-19T19:09:15+01:00",
+              "preferredUri": "/familie/plotzlich-weniger-geld-fur-pflegefamilien-wir-wollen-nicht-ins-heim",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": "paid",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxODI3",
+                "title": "Familie",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM1ODM=",
+                      "name": "Birthe Homann",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjEyMDI0NTA6MzMwMzYwNA==",
+                        "image": {
+                          "id": "528124",
+                          "file": {
+                            "id": "ZmlsZTo1Mjg0NTQ6OjMwMiwyNTc6bGFyZ2U6",
+                            "alt": "Birthe Homann, Beobachter-Redaktorin",
+                            "relativeOriginPath": "/birthe_homann_beobachter.jpg",
+                            "focalPointX": 302,
+                            "focalPointY": 257,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDEwNDA6NDYxMTg1OA==",
+                "image": {
+                  "id": "618818",
+                  "file": {
+                    "id": "ZmlsZTo2MjExNTA6OjEwNTAsNDU4OmxhcmdlOg==",
+                    "alt": "Pflegekinder verdecken ihr Gesicht mit Hunden",
+                    "relativeOriginPath": "/media/field_image/2021-11/pflegekinder_bern_pflegefamilie.jpg",
+                    "focalPointX": 1050,
+                    "focalPointY": 458,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4OTcyOjQ3NDY3MTQ=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMTgx",
+        "title": "Umwelt",
+        "landingPage": {
+          "id": "bm9kZToxNzQ2MQ==",
+          "preferredUri": "/umwelt",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Umwelt",
+      "entities": {
+        "count": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzQxMjc=",
+              "title": "Ökoalternative mit einem Haken",
+              "shortTitle": "Heizen mit Biogas",
+              "lead": "In Gasheizungen wird immer mehr Biogas verbrannt. Das klingt gut und ökologisch, hat aber einen Haken.",
+              "changeDate": "2021-12-14T09:47:50+01:00",
+              "publicationDate": "2021-12-14T11:39:59+01:00",
+              "revisionDate": "2021-12-14T11:39:59+01:00",
+              "preferredUri": "/umwelt/heizen-mit-biogas-okoalternative-mit-einem-haken",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTgx",
+                "title": "Umwelt",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE3MjQy",
+                      "name": "Tina Berg",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjYwMzAyODo4NjM3MzQ=",
+                        "image": {
+                          "id": "528133",
+                          "file": {
+                            "id": "ZmlsZTo1Mjg0NjM6OjMyNCwyODI6bGFyZ2U6",
+                            "alt": "Tina Berg, Beobachter-Redaktorin",
+                            "relativeOriginPath": "/tina_berg_beobachter.jpg",
+                            "focalPointX": 324,
+                            "focalPointY": 282,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTM2MTQ6NDcxMDc0OA==",
+                "image": {
+                  "id": "622814",
+                  "file": {
+                    "id": "ZmlsZTo2MjU2ODU6OjkwMCw1Nzc6bGFyZ2U6",
+                    "alt": "Biogas Anlage der Agro Energie Schwyz in Ibach am 21. Maerz 2017. (KEYSTONE/Gaetan Bally)",
+                    "relativeOriginPath": "/media/field_image/2021-12/schweiz_biogas_agro_energie_schwyz.jpg",
+                    "focalPointX": 900,
+                    "focalPointY": 577,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzAyODU=",
+              "title": "Gegen die Giftstoffe in der Verpackung",
+              "shortTitle": "PFAS in Lebensmitteln",
+              "lead": "Hochgiftig und überall drin: Eine Motion verlangt ein Verbot von PFAS-Chemikalien in Lebensmittelpackungen.",
+              "changeDate": "2021-10-29T00:00:00+02:00",
+              "publicationDate": "2021-11-09T15:53:04+01:00",
+              "revisionDate": "2021-11-09T15:53:04+01:00",
+              "preferredUri": "/umwelt/umweltpolitik/pfas-in-lebensmitteln-gegen-die-giftstoffe-in-der-verpackung",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDcx",
+                "title": "Umweltpolitik",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE3MjQy",
+                      "name": "Tina Berg",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjYwMzAyODo4NjM3MzQ=",
+                        "image": {
+                          "id": "528133",
+                          "file": {
+                            "id": "ZmlsZTo1Mjg0NjM6OjMyNCwyODI6bGFyZ2U6",
+                            "alt": "Tina Berg, Beobachter-Redaktorin",
+                            "relativeOriginPath": "/tina_berg_beobachter.jpg",
+                            "focalPointX": 324,
+                            "focalPointY": 282,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjEzOTc2MDk6NDU4MDY0Nw==",
+                "image": {
+                  "id": "617435",
+                  "file": {
+                    "id": "ZmlsZTo2MTk1OTE6Ojk3Miw0MzU6bGFyZ2U6",
+                    "alt": "Fastfood Verpackung Mc Donalds",
+                    "relativeOriginPath": "/media/field_image/2021-11/fastfood_lebensmittelverpackung_burger_pommes_frites.jpg",
+                    "focalPointX": 972,
+                    "focalPointY": 435,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMzEyNzU1OjQ3NDY3MTU=",
+      "anchorId": null,
+      "ministage": {
+        "headline": "Die besten Artikel – Woche für Woche",
+        "subhead": "Der Beobachter-Newsletter",
+        "lead": null,
+        "type": "ratgeber",
+        "mailchimpList": "1d31f5f40a",
+        "mailchimpInterest": "224da1a707",
+        "image": {
+          "id": "ZmlsZTo1MzQxOTQ6OjQ1MCw1NjM6Og==",
+          "relativeOriginPath": "/2020-09/chantal-hebeisen.png",
+          "focalPointX": 450,
+          "focalPointY": 563,
+          "__typename": "ImageFile"
+        },
+        "__typename": "MinistageNewsletter"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMjQxNjU2OjQ3NDY3MTY=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMTg2",
+        "title": "Politik",
+        "landingPage": {
+          "id": "bm9kZToxNzQ1Mg==",
+          "preferredUri": "/politik",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": null,
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzQ1NDg=",
+              "title": "Parlament gegen mehr Transparenz bei Impfstoffbeschaffung",
+              "shortTitle": "Geheime Verträge mit Impfherstellern",
+              "lead": "Darf die Öffentlichkeit erfahren, was in den Verträgen des Bundes mit den Impfherstellern steht? Das Parlament hat einen entsprechenden Vorstoss abgelehnt. Der Beobachter verlangt darum erneut die Offenlegung der Verträge.",
+              "changeDate": "2021-12-17T10:50:47+01:00",
+              "publicationDate": "2021-12-17T11:20:37+01:00",
+              "revisionDate": "2021-12-17T11:20:37+01:00",
+              "preferredUri": "/politik/geheime-vertrage-mit-impfherstellern-parlament-gegen-mehr-transparenz-bei",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg2",
+                "title": "Politik",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjM4MDk=",
+                      "name": "Gian Signorell",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjEyMDk4NTE6MzM1NTc1NA==",
+                        "image": {
+                          "id": "531213",
+                          "file": {
+                            "id": "ZmlsZTo1MzE2MDA6OjI5MCwyMzI6bGFyZ2U6",
+                            "alt": "Gian Signorell, Beobachter-Redaktor",
+                            "relativeOriginPath": "/gian_signorell_beobachter.jpg",
+                            "focalPointX": 290,
+                            "focalPointY": 232,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTU0Mjk6NDcyMjE5Mw==",
+                "image": {
+                  "id": "623377",
+                  "file": {
+                    "id": "ZmlsZTo2MjYzMzM6OjY0OCw2MDg6bGFyZ2U6",
+                    "alt": "Mitarbeitende blickt in Impfzentrum hinter einen Vorhang",
+                    "relativeOriginPath": "/media/field_image/2021-12/impfzentrum_vorhang.jpg",
+                    "focalPointX": 648,
+                    "focalPointY": 608,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzIyOTU=",
+              "title": "«Glücklicherweise bin ich eine Optimistin»",
+              "shortTitle": "SVP-Nationalrätin Céline Amaudruz",
+              "lead": "Wie viele andere kam auch Céline Amaudruz zur Politik, weil ihre Partei, die SVP, geeignete Kandidatinnen aktiv anging. Mit Einsatz und Leidenschaft hat sie sich in der Partei hochgekämpft.",
+              "changeDate": "2021-11-24T00:00:00+01:00",
+              "publicationDate": "2021-12-09T10:34:50+01:00",
+              "revisionDate": "2021-12-09T10:34:50+01:00",
+              "preferredUri": "/politik/svp-nationalratin-celine-amaudruz-glucklicherweise-bin-ich-eine-optimistin",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg2",
+                "title": "Politik",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE5NzIz",
+                      "name": "Linda Bourget",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDQ4NjE6NDY5NzA0Mw==",
+                "image": {
+                  "id": "619854",
+                  "file": {
+                    "id": "ZmlsZTo2MjIyOTg6OjM5MjUsMTY5MTpsYXJnZTo=",
+                    "alt": "Celine Amaudruz, Nationalraetin SVP-GE, portraitiert am 10. Dezember 2019 in Bern. (KEYSTONE/Gaetan Bally)",
+                    "relativeOriginPath": "/media/field_image/2021-11/celine_amaudruz.jpg",
+                    "focalPointX": 3925,
+                    "focalPointY": 1691,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzI5MzM=",
+              "title": "Die diskrete Macht der Anwaltslobby",
+              "shortTitle": "Ein Sechstel des Parlaments",
+              "lead": "Keine Branche ist im Parlament besser vertreten als Anwältinnen und Anwälte. Wie gross ist ihr Einfluss? Und wessen Interessen vertreten sie eigentlich? Eine Analyse.",
+              "changeDate": "2021-11-22T00:00:00+01:00",
+              "publicationDate": "2021-12-03T12:15:01+01:00",
+              "revisionDate": "2021-12-08T09:49:43+01:00",
+              "preferredUri": "/politik/ein-sechstel-des-parlaments-die-diskrete-macht-der-anwaltslobby",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": "paid",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMTg2",
+                "title": "Politik",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjkzNDQ=",
+                      "name": "Daniel Bütler",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDc3NDU6NDY5MTkxNw==",
+                "image": {
+                  "id": "620803",
+                  "file": {
+                    "id": "ZmlsZTo2MjM0MDE6OjI2MzksMTQ4NDpsYXJnZTo=",
+                    "alt": "Nationalrat Philipp Matthias Bregy, CVP-VS, links, und Staenderat Beat Rieder, CVP-VS, an der Sommersession der Eidgenoessischen Raete.",
+                    "relativeOriginPath": "/media/field_image/2021-12/philipp_matthias_bregy_beat_rieder_anwalte.jpg",
+                    "focalPointX": 2639,
+                    "focalPointY": 1484,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMDkzNjc4OjQ3NDY3MTc=",
+      "anchorId": null,
+      "ministage": {
+        "name": "Beobachter+",
+        "headline": "Beliebt bei",
+        "image": {
+          "id": "ZmlsZTo0NzkyMTY6OjE5OSwxOTk6Og==",
+          "alt": "Beobachter+ Logo",
+          "relativeOriginPath": "/2019-10/BeobachterPlusSQ_0.png",
+          "__typename": "ImageFile"
+        },
+        "callToActionLink": {
+          "path": "/stichworte/b/beobachterplus",
+          "label": "zu den Artikeln",
+          "routed": true,
+          "__typename": "Link"
+        },
+        "links": {
+          "edges": [
+            {
+              "node": {
+                "path": "/digital/die-dating-falle-so-lauft-es-hinter-den-kulissen-der-chatportale-ab",
+                "label": "So läuft es hinter den Kulissen der Chatportale ab",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/familie/trennung-scheidung/trennung-muss-man-das-gerichtlich-regeln",
+                "label": "Trennung in der Ehe: Muss man das gerichtlich regeln?",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/familie/beziehung-partnerschaft/verheiratet-mit-einem-narzissten-heute-sehe-ich-wie-abhangig-ich",
+                "label": "Verheiratet mit einem Narzissten: «Heute sehe ich, wie abhängig ich die ganze Zeit war»",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/familie/trennung-scheidung/alimente-wie-viel-unterhalt-ist-angemessen",
+                "label": "Alimente: Wie viel Unterhalt ist angemessen?",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/wohnen/miete/mieter-arger-mit-nachbarn-und-verwaltung-es-war-schlicht-abartig",
+                "label": "Mieter-Ärger mit Nachbarn und Verwaltung: «Es war schlicht abartig»",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/familie/trennung-scheidung/scheidung-so-tut-scheiden-weniger-weh",
+                "label": "Rechtsfragen rund um die Scheidung: So tut Scheiden weniger weh",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/familie/psychische-gewalt-an-kindern-die-unsichtbaren-narben-des-11-jahrigen-matteo",
+                "label": "Psychische Gewalt an Kindern: Die unsichtbaren Narben des 11-jährigen Matteo*",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/digital/missbrauch-im-internet-das-versagen-der-schweiz-im-kampf-gegen-kinderpornografie",
+                "label": "Kampf gegen Kinderpornografie: Das Versagen der Schweiz",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/arbeit/arbeitsrecht/kundigung-was-der-arbeitgeber-darf-und-was-nicht",
+                "label": "Kündigung: Was der Arbeitgeber darf – und was nicht",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "/wirtschaft/traumjobs-beim-bund-der-staat-das-neue-google",
+                "label": "Traumjobs beim Bund: Der Staat, das neue Google",
+                "routed": true,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            }
+          ],
+          "__typename": "LinkConnection"
+        },
+        "__typename": "MinistageListicle"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4OTcxOjQ3NDY3MTg=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybTo3OTEwMA==",
+        "title": "Digital",
+        "landingPage": {
+          "id": "bm9kZToxNTUwNDk=",
+          "preferredUri": "/digital",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Digital",
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzE1MjM=",
+              "title": "Schutz gegen digitales Mobbing, Stalking & Co.",
+              "shortTitle": "Cybercrime",
+              "lead": "Immer mehr Straftaten finden online statt – das macht sie für die Opfer nicht weniger schlimm. Betroffen sind Kinder und Erwachsene. Wie man sich wehrt.",
+              "changeDate": "2021-11-18T10:56:00+01:00",
+              "publicationDate": "2021-11-18T00:00:00+01:00",
+              "revisionDate": "2021-11-18T10:56:37+01:00",
+              "preferredUri": "/digital/sicherheit/cybercrime-schutz-gegen-digitales-mobbing-stalking-co",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": true,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybTo3OTEwMg==",
+                "title": "Sicherheit",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjg0MDI=",
+                      "name": "Norina Meyer",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDEzNTQ6NDYwNTIzMA==",
+                "image": {
+                  "id": "618589",
+                  "file": {
+                    "id": "ZmlsZTo2MjA4OTM6OjEyNTEsNzIxOmxhcmdlOg==",
+                    "alt": "Eine junge Frau sitzt auf dem Teppichboden ihres abgedunkelten Apartments und blickt gegen Tränen ankämpfend auf den Handybildschirm.",
+                    "relativeOriginPath": "/media/field_image/2021-11/traurig_handybildschirm.jpg",
+                    "focalPointX": 1251,
+                    "focalPointY": 721,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzA4NjY=",
+              "preferredUri": "/digital/videos/digitale-selbstverteidigung-so-schutzen-sie-sich-vor-datenverlust",
+              "publication": "beobachter",
+              "shortTitle": "Digitale Selbstverteidigung",
+              "title": "So schützen Sie sich vor Datenverlust",
+              "brightcoveId": "6281424939001",
+              "publicationDate": "2021-11-11T11:42:51+01:00",
+              "changeDate": "2021-11-11T11:31:32+01:00",
+              "caption": "Ein regelmässiges Back-up kann Ihnen viel Ärger ersparen. Beobachter-Redaktor Thomas Angeli erklärt, worauf Sie bei der Datensicherung achten sollten.",
+              "credit": "Beobachter Bewegtbild",
+              "lead": "Ein regelmässiges Back-up kann Ihnen viel Ärger ersparen. Beobachter-Redaktor Thomas Angeli erklärt, worauf Sie bei der Datensicherung achten sollten.",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybTo3OTEwMA==",
+                "title": "Digital",
+                "__typename": "Channel"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1rVXlWM1FEbDpuZXcteTAwaWprb0M=",
+                "image": {
+                  "id": "617683",
+                  "file": {
+                    "id": "ZmlsZTo2MTk4Njg6OjY0MCwzNjA6bGFyZ2U6",
+                    "relativeOriginPath": "/media/field_image/2021-11/videotutorial_thomas_angeli_datensicherung_back-up_schutz_vor_datenverlust.jpg",
+                    "focalPointX": 640,
+                    "focalPointY": 360,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Video"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzA0MTk=",
+              "preferredUri": "/digital/videos/digitale-selbstverteidigung-bitte-nicht-das-cookie-monster-futtern",
+              "publication": "beobachter",
+              "shortTitle": "Digitale Selbstverteidigung",
+              "title": "Bitte nicht das Cookie-Monster füttern!",
+              "brightcoveId": "6280284362001",
+              "publicationDate": "2021-11-04T14:45:16+01:00",
+              "changeDate": "2021-11-04T14:36:25+01:00",
+              "caption": "Im Internet wird praktisch jeder Klick registriert und ausgewertet, manchmal zu Ihren Gunsten, manchmal weniger. Beobachter-Redaktor Thomas Angeli erklärt, was es mit Cookies und Trackern auf sich hat.",
+              "credit": "Beobachter Bewegtbild",
+              "lead": "Im Internet wird praktisch jeder Klick registriert und ausgewertet, manchmal zu Ihren Gunsten, manchmal weniger. Beobachter-Redaktor Thomas Angeli erklärt, was es mit Cookies und Trackern auf sich hat.",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybTo3OTEwMA==",
+                "title": "Digital",
+                "__typename": "Channel"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOm5ldy12Ykc2WVJleTpuZXctdW53YUlyUUM=",
+                "image": {
+                  "id": "616938",
+                  "file": {
+                    "id": "ZmlsZTo2MTkwNjg6OjY0MCwzNjA6bGFyZ2U6",
+                    "relativeOriginPath": "/media/field_image/2021-11/videotutorial_digitale_selbstverteidigung_thomas_angeli_cookies_und_tracker.jpg",
+                    "focalPointX": 640,
+                    "focalPointY": 360,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Video"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4Mzk2OjQ3NDY3MTk=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMjAy",
+        "title": "Geld",
+        "landingPage": {
+          "id": "bm9kZToxNzM5OQ==",
+          "preferredUri": "/geld",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Geld",
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzUyNTA=",
+              "title": "Was verheissen diese Transaktionen?",
+              "shortTitle": "Aktienmanipulation",
+              "lead": "Frage: Bei einer Aktie in meinem Depot gab es ungewöhnliche Transaktionen. Die Firma war unlängst in den Schlagzeilen. Was ist da los?",
+              "changeDate": "2021-12-28T11:08:00+01:00",
+              "publicationDate": "2021-12-28T11:08:55+01:00",
+              "revisionDate": "2021-12-28T11:08:55+01:00",
+              "preferredUri": "/geld/geldanlage/aktienmanipulation-was-verheissen-diese-transaktionen",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": "paid",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDQ1",
+                "title": "Geldanlage",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE4OTY0",
+                      "name": "Carlos Pérez",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTkxNzA6NDc1MDQ5NQ==",
+                "image": {
+                  "id": "624570",
+                  "file": {
+                    "id": "ZmlsZTo2Mjc3MjU6OjEzMTQsNzM1OmxhcmdlOg==",
+                    "alt": "Ein junger Mann schaut geschockt und irritiert in einen Bildschirm und hat dabei seine Hände wie zu einem Gebet vor seinen Mund gelegt.",
+                    "relativeOriginPath": "/media/field_image/2021-12/boersenspekulant_irritiert.jpg",
+                    "focalPointX": 1314,
+                    "focalPointY": 735,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzQ5MDk=",
+              "title": "Umstrittene Änderungen per 2022",
+              "shortTitle": "Invalidenversicherung",
+              "lead": "Behindertenorganisationen kritisieren die Änderungen bei der IV, die ab 2022 in Kraft treten. Die wichtigsten Eckpunkte zu den Neuerungen im Überblick.",
+              "changeDate": "2021-12-22T10:57:00+01:00",
+              "publicationDate": "2021-12-22T10:55:00+01:00",
+              "revisionDate": "2021-12-22T10:57:44+01:00",
+              "preferredUri": "/geld/ahviv/invalidenversicherung-umstrittene-anderungen-per-2022",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDQ0",
+                "title": "AHV/IV",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjkwMzM=",
+                      "name": "Katharina Siegrist",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTg6NDcxNjQwMw==",
+                        "image": {
+                          "id": "623067",
+                          "file": {
+                            "id": "ZmlsZTo2MjU5ODA6OjMzNSwyNTc6bGFyZ2U6",
+                            "alt": "Katharina Siegrist",
+                            "relativeOriginPath": "/media/field_image/2021-12/katharina_siegrist_beobachter_0.jpg",
+                            "focalPointX": 335,
+                            "focalPointY": 257,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTcxODI6NDczNTI4Mg==",
+                "image": {
+                  "id": "623907",
+                  "file": {
+                    "id": "ZmlsZTo2MjY5MzI6OjExODgsNzIxOmxhcmdlOg==",
+                    "alt": "Eine medizinische Gutachterin spricht mit einer Patientin.",
+                    "relativeOriginPath": "/media/field_image/2021-12/aerztliche_konsultation.jpg",
+                    "focalPointX": 1188,
+                    "focalPointY": 721,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzQxODA=",
+              "title": "Kann ich meine Altersvorsorge damit verbessern?",
+              "shortTitle": "Freiwilliger PK-Einkauf",
+              "lead": "Frage: Ich bin 35, habe etwas Geld auf der Seite und überlege mir, mich damit in meine Pensionskasse (PK) einzukaufen. Was halten Sie davon?",
+              "changeDate": "2021-12-15T17:08:00+01:00",
+              "publicationDate": "2021-12-15T17:00:00+01:00",
+              "revisionDate": "2021-12-15T17:08:12+01:00",
+              "preferredUri": "/geld/pensionskasse/freiwilliger-pk-einkauf-kann-ich-meine-altersvorsorge-damit-verbessern",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": true,
+              "restrictionStatus": "paid",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDQ4",
+                "title": "Pensionskasse",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjg5MDI=",
+                      "name": "Martin Müller",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ2ODE6NDcxNzA2NQ==",
+                "image": {
+                  "id": "623082",
+                  "file": {
+                    "id": "ZmlsZTo2MjU5OTc6OjEwNjEsNjkzOmxhcmdlOg==",
+                    "alt": "Eine junge Frau Mitte 30 schaut auf einen Computerbildschirm, auf dem senkrechte Balkendiagramme abgebildet sind.",
+                    "relativeOriginPath": "/media/field_image/2021-12/frau_bildschirm.jpg",
+                    "focalPointX": 1061,
+                    "focalPointY": 693,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTg5OTQ2OjQ3NDY3MjA=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMDQx",
+        "title": "Bürger & Verwaltung",
+        "landingPage": {
+          "id": "bm9kZToxNzQ1MA==",
+          "preferredUri": "/burger-verwaltung",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Bürger & Verwaltung",
+      "entities": {
+        "count": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzI5NDk=",
+              "title": "War das Unglück verhinderbar? Jetzt wird untersucht",
+              "shortTitle": "Bondo – vier Jahre danach",
+              "lead": "Vier Jahre nach dem Bergsturz von Bondo soll nun doch ein unabhängiges Gutachten Klarheit schaffen, ob man den Tod von acht Menschen hätte verhindern können.",
+              "changeDate": "2021-11-22T00:00:00+01:00",
+              "publicationDate": "2021-12-07T15:33:08+01:00",
+              "revisionDate": "2021-12-07T19:24:10+01:00",
+              "preferredUri": "/burger-verwaltung/bondo-vier-jahre-danach-war-das-ungluck-verhinderbar-jetzt-wird-untersucht",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDQx",
+                "title": "Bürger & Verwaltung",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE4OTcy",
+                      "name": "Stefanie Hablützel",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDc4OTc6NDY5MTMyOQ==",
+                "image": {
+                  "id": "620864",
+                  "file": {
+                    "id": "ZmlsZTo2MjM0NjY6OjEwNDIsNTg2OmxhcmdlOg==",
+                    "alt": "Anwohner von Promongno und Bondo beobachten den zweiten Murgang ",
+                    "relativeOriginPath": "/media/field_image/2021-12/bergsturz_bondo.jpg",
+                    "focalPointX": 1042,
+                    "focalPointY": 586,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzI4NTY=",
+              "title": "BAG erfasst Impfdurchbrüche nicht konsequent",
+              "shortTitle": "Chaos in der Statistik",
+              "lead": "Wie viele Impfdurchbrüche gibt es? In Deutschland und Österreich weiss man das relativ genau, in der Schweiz beim BAG nicht. Der Grund: fehlender Wille und mangelnde Koordination mit den Kantonen.",
+              "changeDate": "2021-11-26T00:00:00+01:00",
+              "publicationDate": "2021-12-02T09:55:08+01:00",
+              "revisionDate": "2021-12-03T13:15:54+01:00",
+              "preferredUri": "/burger-verwaltung/chaos-in-der-statistik-bag-erfasst-impfdurchbruche-nicht-konsequent",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDQx",
+                "title": "Bürger & Verwaltung",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjE4ODc1",
+                      "name": "Lukas Lippert",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDc4MzI6NDY2NzUzMQ==",
+                "image": {
+                  "id": "620846",
+                  "file": {
+                    "id": "ZmlsZTo2MjM0NDQ6OjEwMDgsMTAxMzpsYXJnZTo=",
+                    "alt": "Illustration: Coronavirus im Scheinwerferlicht",
+                    "relativeOriginPath": "/media/field_image/2021-12/coronavirus.jpg",
+                    "focalPointX": 1008,
+                    "focalPointY": 1013,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRlYXNlcl9zdGFnZToxMTU4Mzk1OjQ3NDY3MjE=",
+      "anchorId": null,
+      "style": null,
+      "termReference": {
+        "id": "dGF4b25vbXlfdGVybToxMTg5",
+        "title": "Arbeit",
+        "landingPage": {
+          "id": "bm9kZToxNzQwMA==",
+          "preferredUri": "/arbeit",
+          "__typename": "LandingPage"
+        },
+        "__typename": "Channel"
+      },
+      "title": "Arbeit",
+      "entities": {
+        "count": 3,
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZTozMzQzNTc=",
+              "title": "Was tun, wenn das Zeugnis falsch datiert ist?",
+              "shortTitle": "Datum im Arbeitszeugnis",
+              "lead": "Frage: Das Datum auf meinem Arbeitszeugnis entspricht nicht dem letzten Arbeitstag. Ist das schlimm? Wenn ja, was kann ich unternehmen?",
+              "changeDate": "2021-12-22T12:35:00+01:00",
+              "publicationDate": "2021-12-22T11:40:00+01:00",
+              "revisionDate": "2021-12-22T12:36:51+01:00",
+              "preferredUri": "/arbeit/arbeitsrecht/datum-im-arbeitszeugnis-was-tun-wenn-das-zeugnis-falsch-datiert-ist",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": true,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDM0",
+                "title": "Arbeitsrecht",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjkwMzM=",
+                      "name": "Katharina Siegrist",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTg6NDcxNjQwMw==",
+                        "image": {
+                          "id": "623067",
+                          "file": {
+                            "id": "ZmlsZTo2MjU5ODA6OjMzNSwyNTc6bGFyZ2U6",
+                            "alt": "Katharina Siegrist",
+                            "relativeOriginPath": "/media/field_image/2021-12/katharina_siegrist_beobachter_0.jpg",
+                            "focalPointX": 335,
+                            "focalPointY": 257,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTc1NzY6NDczNjM5NQ==",
+                "image": {
+                  "id": "624014",
+                  "file": {
+                    "id": "ZmlsZTo2MjcwNTg6OjEwODIsNzM1OmxhcmdlOg==",
+                    "alt": "Eine Angestellte weist ihre Vorgesetzte darauf hin, ein Dokument zu unterzeichnen.",
+                    "relativeOriginPath": "/media/field_image/2021-12/unterschrift_vorgesetzte.jpg",
+                    "focalPointX": 1082,
+                    "focalPointY": 735,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzMzNjg=",
+              "title": "Ist das Pensionskassengeld weg?",
+              "shortTitle": "Mit Einzelfirma in Konkurs",
+              "lead": "Frage: Ich habe eine Einzelfirma, der Konkurs wurde eröffnet. Was passiert jetzt mit dem Pensionskassengeld, das ich mir auszahlen liess?",
+              "changeDate": "2021-12-06T15:06:55+01:00",
+              "publicationDate": "2021-12-06T15:06:55+01:00",
+              "revisionDate": "2021-12-06T15:13:18+01:00",
+              "preferredUri": "/arbeit/selbstandigkeit-kmu/mit-einzelfirma-in-konkurs-ist-das-pensionskassengeld-weg",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDg5",
+                "title": "Selbständigkeit & KMU",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjgxMTc=",
+                      "name": "Nicole Müller",
+                      "imageParagraph": {
+                        "id": "cGFyYWdyYXBoOmltYWdlOjE0MTQ1OTc6NDcxNjQwMg==",
+                        "image": {
+                          "id": "623066",
+                          "file": {
+                            "id": "ZmlsZTo2MjU5Nzk6OjMxMywyNTc6bGFyZ2U6",
+                            "alt": "Nicole Müller",
+                            "relativeOriginPath": "/media/field_image/2021-12/nicole_muller_beobachter_0.jpg",
+                            "focalPointX": 313,
+                            "focalPointY": 257,
+                            "__typename": "ImageFile"
+                          },
+                          "__typename": "Image"
+                        },
+                        "__typename": "ImageParagraph"
+                      },
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MTAxMDY6NDY4NTkxMQ==",
+                "image": {
+                  "id": "621664",
+                  "file": {
+                    "id": "ZmlsZTo2MjQzNDI6OjEyNTEsNzM1OmxhcmdlOg==",
+                    "alt": "Ein besorgt dreinblickender Mann mittleren Alters lehnt sich mit der rechten Hand und seinem Kopf gegen eine Glaswand.",
+                    "relativeOriginPath": "/media/field_image/2021-12/besorgter_mann.jpg",
+                    "focalPointX": 1251,
+                    "focalPointY": 735,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZTozMzMxMjU=",
+              "title": "Gilt das als Berufs- oder Freizeitunfall?",
+              "shortTitle": "Im Homeoffice gestolpert",
+              "lead": "Frage: In der Pandemie arbeite ich öfter zu Hause. Gestern bin ich auf dem Weg zur Toilette über das LAN-Kabel gestolpert und habe mir den Fuss verstaucht. Ist das ein Freizeitunfall?",
+              "changeDate": "2021-12-02T18:35:00+01:00",
+              "publicationDate": "2021-12-02T18:35:50+01:00",
+              "revisionDate": "2021-12-02T18:35:50+01:00",
+              "preferredUri": "/arbeit/arbeitsrecht/im-homeoffice-gestolpert-gilt-das-als-berufs-oder-freizeitunfall",
+              "publication": "beobachter",
+              "subtypeValue": "ratgeber_aktuell",
+              "hasVideo": false,
+              "restrictionStatus": null,
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMDM0",
+                "title": "Arbeitsrecht",
+                "__typename": "Channel"
+              },
+              "authors": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "YXV0aG9yOjc0NTg=",
+                      "name": "Anne Sciavilla",
+                      "imageParagraph": null,
+                      "__typename": "Author"
+                    },
+                    "__typename": "AuthorEdge"
+                  }
+                ],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjE0MDg4NTM6NDY2NTkwMg==",
+                "image": {
+                  "id": "621243",
+                  "file": {
+                    "id": "ZmlsZTo2MjM4Nzc6OjEyMzIsNzQ4OmxhcmdlOg==",
+                    "alt": "Ein Angestellter im Homeoffice liegt auf dem Fussboden, weil er über ein Kabel am Boden gestolpert ist.",
+                    "relativeOriginPath": "/media/field_image/2021-12/stolpern_homeoffice.jpg",
+                    "focalPointX": 1232,
+                    "focalPointY": 748,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "TeaserStageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMDgyNjU3OjQ3NDY3MjI=",
+      "anchorId": null,
+      "ministage": {
+        "name": "GYL MS Beratungsangebote",
+        "headline": "Wann es einen Anwalt braucht?",
+        "image": null,
+        "callToActionLink": {},
+        "links": {
+          "edges": [],
+          "__typename": "LinkConnection"
+        },
+        "__typename": "MinistageListicle"
+      },
+      "__typename": "MinistageParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxMDAwOTUxOjQ3NDY3MjM=",
+      "anchorId": null,
+      "ministage": {
+        "name": "Krankheiten",
+        "headline": "Die 10 meistgesuchten",
+        "image": null,
+        "callToActionLink": {
+          "path": "https://www.beobachter.ch/gesundheit/krankheit/",
+          "label": "weitere Krankheiten",
+          "routed": false,
+          "__typename": "Link"
+        },
+        "links": {
+          "edges": [
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/gurtelrose-herpes-zoster",
+                "label": "Gürtelrose",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/norovirus-norovirus-infektion-norwalk-virus",
+                "label": "Norovirus",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/pfeiffersches-drusenfieber-mononukleose-kusskrankheit",
+                "label": "Pfeiffersches Drüsenfieber",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/borreliose-lyme-borreliose-wanderrote-borrelia-burgdorferi",
+                "label": "Borreliose",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/scharlach-scarlatina",
+                "label": "Scharlach",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/lungenentzundung-pneumonie",
+                "label": "Lungenentzündung",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/multiple-sklerose-ms-polysklerose",
+                "label": "Multiple Sklerose",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/hamorrhoiden-hamorriden",
+                "label": "Hämorrhoiden",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/schilddrusenunterfunktion-hypothyreose",
+                "label": "Schilddrüsenunterfunktion",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            },
+            {
+              "node": {
+                "path": "https://www.beobachter.ch/gesundheit/krankheit/asperger-syndrom",
+                "label": "Asperger Syndrom",
+                "routed": false,
+                "__typename": "Link"
+              },
+              "__typename": "LinkEdge"
+            }
+          ],
+          "__typename": "LinkConnection"
+        },
+        "__typename": "MinistageListicle"
+      },
+      "__typename": "MinistageParagraph"
+    }
+  ],
+  "grid": null,
+  "__typename": "LandingPage"
+}

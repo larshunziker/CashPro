@@ -1,0 +1,35 @@
+.TeaserIcon {
+  align-items: center;
+  background: $greyE;
+  border-radius: 50%;
+  color: $black;
+  display: flex;
+  @mixin fontSize 24;
+  height: 34px;
+  padding-left: 6px;
+  padding-top: 1px;
+  width: 34px;
+  z-index: calc($zIndex1 + 2);
+
+  @media (min-width: $mdBreakpoint) {
+    height: 37px;
+    padding-left: 8px;
+    width: 37px;
+  }
+}
+
+.VideoTeaserIcon {
+  composes: TeaserIcon;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-left: 8px;
+  }
+}
+
+.GalleryTeaserIcon {
+  composes: TeaserIcon;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-left: 7px;
+  }
+}

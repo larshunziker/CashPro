@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Empty Result Should render correctly 1`] = `
+<div>
+  <div
+    class="EmptyResultWrapper Container"
+  >
+    <h2
+      class="EmptyResultTitle"
+    >
+      Leider wurden keine mit Ihrer Suchanfrage übereinstimmenden Dokumente gefunden.
+    </h2>
+    <span
+      class="EmptyResultSubtitle"
+    >
+      Für die nächste Suche:
+    </span>
+    <ul
+      class="EmptyResultTips"
+    >
+      <li
+        class="EmptyResultTip"
+      >
+        Achten Sie darauf, dass alle Wörter richtig geschrieben sind.
+      </li>
+      <li
+        class="EmptyResultTip"
+      >
+        Probieren Sie es mit anderen Suchbegriffen.
+      </li>
+      <li
+        class="EmptyResultTip"
+      >
+        Probieren Sie es mit allgemeineren Suchbegriffen.
+      </li>
+    </ul>
+  </div>
+</div>
+`;

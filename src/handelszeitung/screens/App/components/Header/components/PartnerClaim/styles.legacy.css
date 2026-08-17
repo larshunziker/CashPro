@@ -1,0 +1,36 @@
+.Wrapper {
+  background: $greyE;
+  width: 100%;
+}
+
+:global(.branding-day) {
+  .Wrapper {
+    margin: 0 auto;
+    width: $mdBreakPointBrandingDayContainerWidth;
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.Content {
+  composes: Container from '@grid.legacy.css';
+  align-items: center;
+  display: flex;
+  height: 27px;
+  justify-content: flex-end;
+}
+
+
+.BilanzLogoWrapper {
+  display: grid;
+  height: 11px;
+  width: 115px;
+}
+
+.HZLogoWrapper {
+  display: grid;
+  height: 8px;
+  width: 162px;
+}

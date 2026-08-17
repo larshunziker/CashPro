@@ -1,0 +1,97 @@
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: $margin8;
+}
+
+.TableWrapper {
+  overflow-x: auto;
+  width: 100%;
+
+  th {
+    font-weight: bold;
+  }
+
+  th, td {
+    font-size: 0.875rem;
+    padding: 6px 2px;
+    text-align: right;
+    vertical-align: middle;
+
+    &:first-child {
+      text-align: left;
+    }
+
+    &:last-child {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  tr {
+    border-bottom: 1px solid $greyD;
+
+    &:hover {
+      background: $greyE;
+    }
+  }
+}
+
+.PartnerButton {
+  && { /* hack to override the default button styles */
+    background: $white;
+    border: 1px solid $primaryA;
+    color: $primaryA;
+    font-size: 13px;
+    font-weight: normal;
+    height: 31px;
+    padding: 4px 6px;
+
+    &:hover, &:focus {
+      background: $primaryA;
+      color: $white;
+    }
+  }
+}
+
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+}
+
+.Footer {
+  color: $greyB;
+  font-size: 0.75rem;
+  margin-top: $margin16;
+  text-align: center;
+  width: 100%;
+
+  img {
+    width: 271px;
+  }
+}
+
+.Skeleton {
+  padding: 8px;
+
+  &:hover {
+    /* stylelint-disable-next-line */
+    background-color: $transparent !important;
+  }
+
+  span {
+    animation: pulsing 1s infinite;
+    background: $greyD;
+    display: block;
+    height: 23px;
+    width: 50px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

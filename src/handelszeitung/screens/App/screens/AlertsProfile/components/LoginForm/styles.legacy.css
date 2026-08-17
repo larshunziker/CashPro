@@ -1,0 +1,34 @@
+.LoginFormWrapper {
+  width: 100%;
+}
+
+.Message {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.7rem;
+  margin: 0 auto 20px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.Button {
+  composes: Button from 'form.legacy.css';
+
+  cursor: pointer;
+  display: block;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  font-weight: bold;
+  letter-spacing: 0;
+  margin: 10px auto 52px 0;
+  padding: 14px 12px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 240px;
+  }
+}

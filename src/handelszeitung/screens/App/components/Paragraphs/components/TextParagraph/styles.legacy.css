@@ -1,0 +1,235 @@
+.Header {
+  composes: Subtitle from 'typography.legacy.css';
+  margin-bottom: 16px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 32px;
+  }
+
+  &.MarketingPage {
+    @mixin H2Center;
+  }
+
+  &.Longform {
+    @mixin H2;
+  }
+}
+
+.RichTextWrapper h2,
+.RichTextWrapper h3,
+.RichTextWrapper h4 {
+  color: $blackB;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3rem;
+  }
+}
+
+.RichTextWrapper {
+  composes: Paragraph from 'typography.legacy.css';
+  clear: both;
+
+  @media print {
+    text-align: justify;
+  }
+
+  &.MarketingPage {
+    @mixin Lead1;
+    text-align: center;
+  }
+
+  &.Longform {
+    @mixin Lead1;
+  }
+}
+
+/* Spans */
+.RichTextWrapper em {
+  font-style: italic;
+}
+
+.RichTextWrapper strong {
+  font-weight: bold;
+}
+
+/* Blocks */
+.RichTextWrapper h2,
+.RichTextWrapper h3,
+.RichTextWrapper p,
+.RichTextWrapper ul,
+.RichTextWrapper li {
+  margin-bottom: 1.5rem;
+}
+
+.RichTextWrapper h2 {
+  font-weight: bold;
+}
+
+/* Links */
+.RichTextWrapper a {
+  @mixin RichTextLink;
+}
+
+/* Blockquote */
+.RichTextWrapper blockquote {
+  color: $greyA;
+  font-family: $fontGeorgia;
+  font-size: 2.4rem;
+  letter-spacing: -0.1px;
+  line-height: 3.1rem;
+  margin-top: 7px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.7rem;
+    margin-top: 12px;
+  }
+
+  &:first-of-type {
+    margin-top: 27px;
+
+    &::before {
+      background-color: $blue;
+      content: ' ';
+      display: block;
+      height: 4px;
+      margin-bottom: $margin8;
+      width: 69px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-top: 25px;
+    }
+  }
+}
+
+.RichTextWrapper :global(.quotesource) {
+  color: $greyB;
+  font-family: $fontGotham;
+  font-size: 1.1rem;
+  font-weight: bold;
+  letter-spacing: 0.6px;
+  line-height: 1.6rem;
+  margin-bottom: 42px;
+  margin-top: 14px;
+  text-transform: uppercase;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.2rem;
+    line-height: 1.7rem;
+    margin-bottom: $margin40;
+    margin-top: $margin16;
+  }
+}
+
+/* Simple external link. */
+.RichTextWrapper :global(a.Link) {
+  background-color: $greyB;
+  border-bottom: 1px solid $greyB;
+}
+
+/* Links without title text (printed domains) */
+.RichTextWrapper :global(a.RawLink) {
+  background-color: $transparent;
+}
+
+/* Guider link with directional icon. */
+.RichTextWrapper :global(a.GuiderLink) {
+  background-color: $greyB;
+  border-bottom: 1px solid $greyB;
+}
+
+.RichTextWrapper :global(a.GuiderLink i.fa) {
+  margin-left: 0.3em;
+}
+
+/* Page anchor link with down arrow */
+.RichTextWrapper :global(a.AnchorLink i.fa) {
+  color: $greyB;
+  font-size: 0.9em;
+  margin-left: 0.2em;
+}
+
+/* List styling */
+.RichTextWrapper ul {
+  list-style-type: none;
+  margin-left: 0;
+}
+
+.RichTextWrapper ul li {
+  padding-left: calc(9px + 15px); /* bullet with and padding */
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    /* >= 1600  */
+    padding-left: calc(9px + 13px); /* bullet with and padding */
+  }
+}
+
+.RichTextWrapper ul li::before {
+  background-color: $greyA;
+  border-radius: 50%;
+  content: ' ';
+  height: 9px;
+  left: 0;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+
+  @media (min-width: $smBreakpoint) {
+    top: 9px;
+  }
+}
+
+.RichTextWrapper ol {
+  list-style-position: inside;
+}
+
+:global(.IconWord) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e922';
+  }
+}
+
+:global(.IconExcel) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e923';
+  }
+}
+
+:global(.IconPdf) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e924';
+  }
+}
+
+:global(.IconDocument) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\26'; /* ticket DTCPP-2162 - for other documents we will use general document icon */
+  }
+}
+
+/* Drop caps for the first paragraph. */
+.RichTextWrapperFirst {
+  composes: RichTextWrapper;
+
+  p:first-child::first-letter {
+    @media screen and (min-width: $smBreakpoint), print {
+      color: $greyB;
+      float: left;
+      font-family: $fontGothamBlack;
+      font-size: 104px;
+      font-weight: 900;
+      line-height: 0.75;
+      margin: 12px 10px 0 0;
+    }
+  }
+}

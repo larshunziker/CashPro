@@ -1,0 +1,96 @@
+.Wrapper {
+  margin-bottom: 11px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SliderAndNavigationWrapper{
+  margin-bottom: 16px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Caption {
+  height: 100%;
+  margin: 0 auto 11px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+}
+
+.Type {
+  margin-bottom: $margin4;
+  margin-top: $margin8;
+}
+
+.Title {
+  composes: TeaserTitleANeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  margin-bottom: $margin8;
+  max-width: 310px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 520px;
+  }
+}
+
+.Lead {
+  composes: LeadCNeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  padding: 0 58px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0;
+  }
+}
+
+.NavigationWrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.Slide {
+  overflow: hidden;
+}
+
+.PrevButton {
+  padding: 10px;
+}
+
+.NextButton {
+  padding: 10px;
+  right: 0;
+}
+
+.NextButton,
+.PrevButton {
+  background-color: $transparent;
+  border: none;
+  color: $white;
+  font-size: 42px;
+  outline: none;
+  position: absolute;
+  text-shadow: 0 1px 1px $neutralA50;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  @media print {
+    display: none;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}
+

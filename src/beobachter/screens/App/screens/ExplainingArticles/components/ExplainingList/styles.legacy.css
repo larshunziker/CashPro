@@ -1,0 +1,61 @@
+.ListItem {
+  border-bottom: 1px solid $grey30;
+  padding-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin24;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $margin32;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin48;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin32;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin48;
+    }
+  }
+}
+
+.Link {
+  composes: SubheadXL from 'typography.legacy.css';
+
+  align-items: center;
+  color: $black;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-top: 0;
+  padding-top: $smallPadding;
+  transition: color 0.3s;
+  width: 90%;
+  word-break: break-word;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.Icon {
+  height: 34px;
+  max-height: 34px;
+  max-width: 34px;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 48px;
+    max-height: 48px;
+    max-width: 48px
+  }
+}

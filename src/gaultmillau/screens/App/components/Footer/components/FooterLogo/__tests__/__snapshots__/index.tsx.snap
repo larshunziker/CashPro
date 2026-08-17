@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Footer Should render Logo with French Link correctly 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/fr"
+  >
+    <img
+      alt="Gault & Millau Logo"
+      class="FooterLogo"
+      src="SvgrURL"
+    />
+  </a>
+</div>
+`;
+
+exports[`[Component] Footer Should render Logo with German Link correctly 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/"
+  >
+    <img
+      alt="Gault & Millau Logo"
+      class="FooterLogo"
+      src="SvgrURL"
+    />
+  </a>
+</div>
+`;

@@ -1,0 +1,65 @@
+.Wrapper {
+  display: block;
+  overflow: auto;
+  padding-bottom: $margin16;
+  position: relative;
+
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+}
+
+.ContentWrapper {
+  position: relative;
+}
+
+.Title {
+  composes: HeadlineSm from 'typography.legacy.css';
+
+  color: $black;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+}
+
+.ShortTitleElement {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+  }
+}
+
+.ShortTitleWrapper {
+  align-items: center;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 4px;
+
+  @media (min-width: $xlBreakpoint) {
+    gap: 8px;
+  }
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+  background-color: $green;
+
+  padding: 2px 8px;
+  width: fit-content;
+}
+
+.ShortTitle {
+  composes: TeaserHeroShortTitle from 'typography.legacy.css';
+
+  color: $greenDark;
+}
+

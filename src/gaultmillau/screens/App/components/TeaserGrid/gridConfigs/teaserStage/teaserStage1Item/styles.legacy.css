@@ -1,0 +1,14 @@
+/* Make sure to change Grid0 */
+.teaserStage1Item {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+
+  }
+}

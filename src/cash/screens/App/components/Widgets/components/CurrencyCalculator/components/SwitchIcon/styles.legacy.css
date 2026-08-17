@@ -1,0 +1,12 @@
+.Icon {
+  fill: $secondaryA;
+  height: 30px;
+  max-height: 30px;
+  max-width: 30px;
+  width: 30px;
+
+  &:hover {
+    cursor: pointer;
+    fill: $secondaryB;
+  }
+}

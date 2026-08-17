@@ -1,0 +1,36 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: -14px;
+  padding-bottom: 0;
+
+  @media (width >= 375px) {
+    margin-bottom: -16px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: -24px;
+  }
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  display: block;
+  margin: $margin16 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin24 0;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  display: block;
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from '../../../Article/components/ArticleTitle/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}

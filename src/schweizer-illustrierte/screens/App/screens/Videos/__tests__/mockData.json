@@ -1,0 +1,852 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "id": "m023507791",
+        "__typename": "Route",
+        "canonical": "/group/9/content/20479",
+        "preferred": "/videos",
+        "object": {
+          "__typename": "LandingPage",
+          "id": "bm9kZToxOTU3OQ==",
+          "title": "Videos",
+          "metaTitle": "Videos | Schweizer Illustrierte",
+          "metaDescription": "Stars und Style im Video: Beauty- und Frisuren-Tutorials, Mode-Tipps, Star-Interviews und Bastel-Ideen - mit Anja Zeidler, Anina Frey, Sandra Boner, Gülsha",
+          "metaOgTitle": "Videos | Schweizer Illustrierte",
+          "metaOgDescription": "Stars und Style im Video: Beauty- und Frisuren-Tutorials, Mode-Tipps, Star-Interviews und Bastel-Ideen - mit Anja Zeidler, Anina Frey, Sandra Boner, Gülsha Adilji.",
+          "metaCanonicalUrl": "",
+          "lead": "Stars und Style im Video: Beauty- und Frisuren-Tutorials, Mode-Tipps, Star-Interviews und Bastel-Ideen - mit Anja Zeidler, Anina Frey, Sandra Boner, Gülsha Adilji.",
+          "preferredUri": "/videos",
+          "activeMenuTrail": {
+            "__typename": "ActiveMenuTrailItemConnection",
+            "edges": [
+              {
+                "__typename": "ActiveMenuTrailItemEdge",
+                "node": {
+                  "__typename": "ActiveMenuTrailItem",
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6Ym05a1pTMD0=",
+                  "label": "Videos",
+                  "link": null
+                }
+              }
+            ]
+          },
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "schweizer_illustrierte_fallback",
+            "image": {
+              "__typename": "Image",
+              "id": "41515",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "42066",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+              }
+            }
+          },
+          "channel": null,
+          "createDate": "2019-01-10T11:08:35",
+          "metaKeywords": null
+        }
+      },
+      "termsByVocabulary": {
+        "__typename": "ChannelConnection",
+        "count": 3,
+        "edges": [
+          {
+            "__typename": "ChannelEdge",
+            "node": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo1Nzc2",
+              "title": "another video section",
+              "preferredUri": "/videoblogs/another-video-section",
+              "showOnVideoOverview": true,
+              "landingPage": {
+                "__typename": "LandingPage",
+                "id": "bm9kZToxOTY1MA==",
+                "title": "FreyStyle",
+                "lead": null,
+                "preferredUri": "/videoblogs/freystyle"
+              },
+              "settings": {
+                "__typename": "TermSettings",
+                "lead": "test"
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjk1NjI=",
+                      "name": "Zoe Torinesi",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "180048",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "41490",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "42030",
+                            "alt": "zoe",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/zoe.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "items": [
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToxOTcxMQ==",
+                    "title": "aaa",
+                    "preferredUri": "/videoblogs/another-video-section/videos/aaa",
+                    "shortTitle": null,
+                    "changeDate": "2019-02-21T14:37:29",
+                    "metaDescription": "Wendy Holdener fliegt im Privatjet zur WM nach Are.",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "aaa | Schweizer Illustrierte",
+                    "caption": "Wendy Holdener fliegt im Privatjet zur WM nach Are.",
+                    "publicationDate": "2019-02-21T14:38:27",
+                    "brightcoveId": "5997946780001",
+                    "credit": null,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-dfSUncoY",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "41597",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "42161",
+                          "alt": "",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-02/privatjet-flug_wendy_holdener_brightcove_video_thumb_3.jpg"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "ChannelEdge",
+            "node": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo1NzU0",
+              "title": "Video Foo",
+              "preferredUri": "/videoblogs/video-foo-0",
+              "showOnVideoOverview": true,
+              "landingPage": {
+                "__typename": "LandingPage",
+                "id": "bm9kZToxOTY0OA==",
+                "title": "Video Foo",
+                "lead": null,
+                "preferredUri": "/videoblogs/video-foo"
+              },
+              "settings": {
+                "__typename": "TermSettings",
+                "lead": "Video Foo bringt wöchentlich Make-Up-Tipps für Piraten. 60 Zeichen."
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjk1NjI=",
+                      "name": "Zoe Torinesi",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "180048",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "41490",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "42030",
+                            "alt": "zoe",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/zoe.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "items": [
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToxOTY2NA==",
+                    "title": "Privatjet-Flug Wendy Holdener",
+                    "preferredUri": "/videoblogs/video-foo/videos/fly-high-privatjet-flug-wendy-holdener",
+                    "shortTitle": "Fly high",
+                    "changeDate": "2019-02-04T10:18:04",
+                    "metaDescription": "Wendy Holdener gibt ihre Ski-Karriere auf, Sie wird jetzt Pilotin",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "Privatjet-Flug Wendy Holdener | Schweizer Illustrierte",
+                    "caption": "Wendy Holdener gibt ihre Ski-Karriere auf, Sie wird jetzt Pilotin",
+                    "publicationDate": "2019-03-04T10:19:22",
+                    "brightcoveId": "5997946780001",
+                    "credit": "Keystone",
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-aSneEPly",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "41553",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "42104",
+                          "alt": "",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-02/privatjet-flug_wendy_holdener_brightcove_video_thumb.jpg"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToxOTYyNw==",
+                    "title": "Video Test Artikel #2",
+                    "preferredUri": "/videoblogs/video-foo/videos/video-test-ii-video-test-artikel-2",
+                    "shortTitle": "Video Test II",
+                    "changeDate": "2019-01-22T11:07:23",
+                    "metaDescription": "Mittels schwarzem Tintenschreiber hat die ehemalige Miss Schweiz 30 Fabelwesen illustriert und stellt diese in der Galerie «J.-J. Hofstetter» in Fribourg aus.",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "Video Test Artikel #2 | Schweizer Illustrierte",
+                    "caption": "Mittels schwarzem Tintenschreiber hat die ehemalige Miss Schweiz 30 Fabelwesen illustriert und stellt diese in der Galerie «J.-J. Hofstetter» in Fribourg aus. ",
+                    "publicationDate": "2019-01-22T11:08:40",
+                    "brightcoveId": "5989954671001",
+                    "credit": null,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-wn5solTZ",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "41534",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "42085",
+                          "alt": "",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-01/gitzi_us_em_ofa_brightcove_video_thumb.jpg"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "__typename": "ChannelEdge",
+            "node": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo1NzU5",
+              "title": "Frey Style",
+              "preferredUri": "/videoblogs/frey-style",
+              "showOnVideoOverview": true,
+              "landingPage": {
+                "__typename": "LandingPage",
+                "id": "bm9kZToxOTY1MA==",
+                "title": "FreyStyle",
+                "lead": null,
+                "preferredUri": "/videoblogs/freystyle"
+              },
+              "settings": {
+                "__typename": "TermSettings",
+                "lead": "Annina Frey berichtet wöchentlich über die neusten Trends."
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjk1NjM=",
+                      "name": "Annina Frey",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "180351",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "41546",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "42097",
+                            "alt": "Annina Frey",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/annina_frey.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "items": [
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToyNDU3MQ==",
+                    "title": "Chocolate-Chip-Cookies",
+                    "preferredUri": "/videoblogs/frey-style/videos/mmmm-lecker-chocolate-chip-cookies",
+                    "shortTitle": "Mmmm lecker...",
+                    "changeDate": "2019-09-04T16:46:34",
+                    "metaDescription": "lecker 🍪",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "Chocolate-Chip-Cookies | Schweizer Illustrierte",
+                    "caption": "lecker 🍪",
+                    "publicationDate": "2019-09-04T16:47:17",
+                    "brightcoveId": "6082555596001",
+                    "credit": "Brightcove",
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-c9dHbhAf",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "46412",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "47034",
+                          "alt": "Chocolate-Chip-Cookies",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-09/chocolate-chip-cookies.jpg"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToyMDIyOA==",
+                    "title": "Wer braucht das schon?",
+                    "preferredUri": "/videoblogs/frey-style/videos/schuhe-wo-man-nur-hinschaut-wer-braucht-das-schon",
+                    "shortTitle": "Schuhe wo man nur hinschaut",
+                    "changeDate": "2019-04-03T15:38:46",
+                    "metaDescription": "hallo welt",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "Wer braucht das schon? | Schweizer Illustrierte",
+                    "caption": "hallo welt",
+                    "publicationDate": "2019-04-03T15:38:33",
+                    "brightcoveId": "5591811728001",
+                    "credit": null,
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-dzwtLtVr",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "42127",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "42704",
+                          "alt": "",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-04/style_mode_trends_brightcove_video_thumb.jpg"
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "__typename": "Video",
+                    "id": "bm9kZToxOTY2Mg==",
+                    "title": "Cive und Sanja spielen Tabu",
+                    "preferredUri": "/videoblogs/frey-style/videos/lets-play-game-cive-und-sanja-spielen-tabu",
+                    "shortTitle": "Lets play a game",
+                    "changeDate": "2019-02-04T10:13:14",
+                    "metaDescription": "Beim ersten Liebes-Interview testen die beiden, wie fit sie im Tabu-Spiel sind und haben dabei eine Menge Spass.",
+                    "metaKeywords": null,
+                    "metaCanonicalUrl": "",
+                    "metaTitle": "Cive und Sanja spielen Tabu | Schweizer Illustrierte",
+                    "caption": "Beim ersten Liebes-Interview testen die beiden, wie fit sie im Tabu-Spiel sind und haben dabei eine Menge Spass.",
+                    "publicationDate": "2019-02-04T10:13:40",
+                    "brightcoveId": "5981030280001",
+                    "credit": "Keystone",
+                    "teaserImage": {
+                      "__typename": "ImageParagraph",
+                      "id": "new-jUJJGePa",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "41552",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "42103",
+                          "alt": "",
+                          "focalPointX": 1000,
+                          "focalPointY": 1000,
+                          "relativeOriginPath": "/media/field_image/2019-02/cive_und_sanja_spielen_tabu_brightcove_video_thumb.jpg"
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        ]
+      },
+      "videoStageSearch": {
+        "__typename": "SearchableUnionConnection",
+        "count": 35,
+        "edges": [
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZTozNjI5OA==",
+              "title": "LM SS FUTURE OF MOBILITY DEBATE PT 1 - WEB VERSION- BURNED CG  DIGI BUMPER",
+              "preferredUri": "/sports/videos/lm-ss-future-mobility-debate-pt-1-web-version-burned-cg-digi-bumper",
+              "shortTitle": null,
+              "changeDate": "2020-06-08T10:13:50",
+              "metaDescription": "",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "LM SS FUTURE OF MOBILITY DEBATE PT 1 - WEB VERSION- BURNED CG  DIGI BUMPER | Schweizer Illustrierte",
+              "caption": null,
+              "publicationDate": "2020-06-08T14:49:31",
+              "brightcoveId": "6071866887001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-x81922Jl",
+                "image": {
+                  "__typename": "Image",
+                  "id": "57954",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "58592",
+                    "alt": "LM SS FUTURE OF MOBILITY DEBATE PT 1 - WEB VERSION- BURNED CG  DIGI BUMPER",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2020-06/lm_ss_future_of_mobility_debate_pt_1_-_web_version-_burned_cg_digi_bumper.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZTozNTk2NQ==",
+              "title": "Die coolsten Autos 2017",
+              "preferredUri": "/style/videos/die-coolsten-autos-2017",
+              "shortTitle": null,
+              "changeDate": "2020-06-02T09:27:19",
+              "metaDescription": "",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Die coolsten Autos 2017 | Schweizer Illustrierte",
+              "caption": null,
+              "publicationDate": "2020-06-02T09:27:55",
+              "brightcoveId": "5355007953001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-oEPHPjHH",
+                "image": {
+                  "__typename": "Image",
+                  "id": "57627",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "58265",
+                    "alt": "Die coolsten Autos 2017",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2020-06/die_coolsten_autos_2017.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZTozMzQ5Nw==",
+              "title": "191015_Zeitgenossen_DRG_Carli_Tomaschett",
+              "preferredUri": "/people/lifestyle/videos/short-title-191015zeitgenossendrgcarlitomaschett",
+              "shortTitle": "Short title",
+              "changeDate": "2020-04-16T17:28:09",
+              "metaDescription": "Carli Tomaschett archiviert den rätoromanischen Wortschatz",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "191015_Zeitgenossen_DRG_Carli_Tomaschett | Schweizer Illustrierte",
+              "caption": "Carli Tomaschett archiviert den rätoromanischen Wortschatz",
+              "publicationDate": "2020-04-16T17:29:25",
+              "brightcoveId": "6096464094001",
+              "credit": "schweizer-illustrierte.ch",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-cIJcYBFv",
+                "image": {
+                  "__typename": "Image",
+                  "id": "55204",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "55842",
+                    "alt": "191015_Zeitgenossen_DRG_Carli_Tomaschett",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2020-04/191015_zeitgenossen_drg_carli_tomaschett.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZTozMzMyOQ==",
+              "title": "keywords",
+              "preferredUri": "/horoskop/videos/keywords-keywords",
+              "shortTitle": "keywords",
+              "changeDate": "2020-04-14T10:32:55",
+              "metaDescription": "",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "keywords | Schweizer Illustrierte",
+              "caption": null,
+              "publicationDate": "2020-04-14T10:33:30",
+              "brightcoveId": "6062974270001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      },
+      "globalSearch": {
+        "__typename": "SearchableUnionConnection",
+        "count": 35,
+        "edges": [
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZTozMzMyMg==",
+              "title": "Test by MG / RDP-702",
+              "preferredUri": "/people/royals-test/videos/test-mg-rdp-702",
+              "shortTitle": null,
+              "changeDate": "2020-04-14T09:15:18",
+              "metaDescription": "Um den britischen Lehrkräften für ihren unermüdlichen Einsatz in der Krisenzeit zu danken, riefen Kate und William das Schulpersonal der Casterton Primary",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Test by MG / RDP-702 | Schweizer Illustrierte",
+              "caption": "Um den britischen Lehrkräften für ihren unermüdlichen Einsatz in der Krisenzeit zu danken, riefen Kate und William das Schulpersonal der Casterton Primary Academy per Videokonferenz an.",
+              "publicationDate": "2020-04-14T09:20:01",
+              "brightcoveId": "6148347263001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-gIICTD9h",
+                "image": {
+                  "__typename": "Image",
+                  "id": "55042",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "55680",
+                    "alt": "Um sich zu bedanken: William und Kate skypen mit Lehrern",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2020-04/um_sich_zu_bedanken_william_und_kate_skypen_mit_lehrern.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToyNDU3MQ==",
+              "title": "Chocolate-Chip-Cookies",
+              "preferredUri": "/videoblogs/frey-style/videos/mmmm-lecker-chocolate-chip-cookies",
+              "shortTitle": "Mmmm lecker...",
+              "changeDate": "2019-09-04T16:46:34",
+              "metaDescription": "lecker 🍪",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Chocolate-Chip-Cookies | Schweizer Illustrierte",
+              "caption": "lecker 🍪",
+              "publicationDate": "2019-09-04T16:47:17",
+              "brightcoveId": "6082555596001",
+              "credit": "Brightcove",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-c9dHbhAf",
+                "image": {
+                  "__typename": "Image",
+                  "id": "46412",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "47034",
+                    "alt": "Chocolate-Chip-Cookies",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-09/chocolate-chip-cookies.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToyMjY3MA==",
+              "title": "Andrina und Kenny fallen sich um den Hals",
+              "preferredUri": "/body-health/videos/andrina-und-kenny-fallen-sich-um-den-hals",
+              "shortTitle": null,
+              "changeDate": "2019-07-09T10:52:38",
+              "metaDescription": "Am Public Viewing im Zürcher Kaufleuten haben Bachelorette Andrina und ihr Auserwählter Kenny die letzte Nacht der Rosen Seite and Seite nochmals hautnah",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Andrina und Kenny fallen sich um den Hals | Schweizer Illustrierte",
+              "caption": "Am Public Viewing im Zürcher Kaufleuten haben Bachelorette Andrina und ihr Auserwählter Kenny die letzte Nacht der Rosen Seite and Seite nochmals hautnah miterlebt. ",
+              "publicationDate": "2019-07-09T10:52:57",
+              "brightcoveId": "6054456022001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-o8LY9GAE",
+                "image": {
+                  "__typename": "Image",
+                  "id": "44573",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "45193",
+                    "alt": "Andrina und Kenny fallen sich um den Hals",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-07/andrina_und_kenny_fallen_sich_um_den_hals.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToyMDIyOA==",
+              "title": "Wer braucht das schon?",
+              "preferredUri": "/videoblogs/frey-style/videos/schuhe-wo-man-nur-hinschaut-wer-braucht-das-schon",
+              "shortTitle": "Schuhe wo man nur hinschaut",
+              "changeDate": "2019-04-03T15:38:46",
+              "metaDescription": "hallo welt",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Wer braucht das schon? | Schweizer Illustrierte",
+              "caption": "hallo welt",
+              "publicationDate": "2019-04-03T15:38:33",
+              "brightcoveId": "5591811728001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-dzwtLtVr",
+                "image": {
+                  "__typename": "Image",
+                  "id": "42127",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42704",
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-04/style_mode_trends_brightcove_video_thumb.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToxOTY2NA==",
+              "title": "Privatjet-Flug Wendy Holdener",
+              "preferredUri": "/videoblogs/video-foo/videos/fly-high-privatjet-flug-wendy-holdener",
+              "shortTitle": "Fly high",
+              "changeDate": "2019-02-04T10:18:04",
+              "metaDescription": "Wendy Holdener gibt ihre Ski-Karriere auf, Sie wird jetzt Pilotin",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Privatjet-Flug Wendy Holdener | Schweizer Illustrierte",
+              "caption": "Wendy Holdener gibt ihre Ski-Karriere auf, Sie wird jetzt Pilotin",
+              "publicationDate": "2019-03-04T10:19:22",
+              "brightcoveId": "5997946780001",
+              "credit": "Keystone",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-aSneEPly",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41553",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42104",
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-02/privatjet-flug_wendy_holdener_brightcove_video_thumb.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToxOTcxNA==",
+              "title": "Monacos Zwillinge entdecken ihre afrikanischen Wurzeln",
+              "preferredUri": "/people/videos/new-video-about-little-boiiii-monacos-zwillinge-entdecken-ihre-afrikanischen-wurzeln",
+              "shortTitle": "new video about little boiiii",
+              "changeDate": "2019-02-21T16:54:37",
+              "metaDescription": "Caption herererererer",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "Monacos Zwillinge entdecken ihre afrikanischen Wurzeln | Schweizer Illustrierte",
+              "caption": "Caption herererererer",
+              "publicationDate": "2019-03-01T16:55:05",
+              "brightcoveId": "6004503582001",
+              "credit": "Keystone",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-xDgGxQIo",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41598",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42162",
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-02/monacos_zwillinge_entdecken_ihre_afrikanischen_wurzeln_brightcove_video_thumb.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToxOTcxMQ==",
+              "title": "aaa",
+              "preferredUri": "/videoblogs/another-video-section/videos/aaa",
+              "shortTitle": null,
+              "changeDate": "2019-02-21T14:37:29",
+              "metaDescription": "Wendy Holdener fliegt im Privatjet zur WM nach Are.",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "aaa | Schweizer Illustrierte",
+              "caption": "Wendy Holdener fliegt im Privatjet zur WM nach Are.",
+              "publicationDate": "2019-02-21T14:38:27",
+              "brightcoveId": "5997946780001",
+              "credit": null,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-dfSUncoY",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41597",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42161",
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-02/privatjet-flug_wendy_holdener_brightcove_video_thumb_3.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Video",
+              "id": "bm9kZToxOTcwMQ==",
+              "title": "New test Video",
+              "preferredUri": "/family/videos/new-test-video",
+              "shortTitle": null,
+              "changeDate": "2019-02-13T14:45:34",
+              "metaDescription": "Das Schweizer Ski-Team ist in heller Aufregung! Alle könnens kaum erwarten, bis der Winter endlich da ist. Worauf sich Beat Feuz, Wendy Holdener und Ramon",
+              "metaKeywords": null,
+              "metaCanonicalUrl": "",
+              "metaTitle": "New test Video | Schweizer Illustrierte",
+              "caption": "Das Schweizer Ski-Team ist in heller Aufregung! Alle könnens kaum erwarten, bis der Winter endlich da ist. Worauf sich Beat Feuz, Wendy Holdener und Ramon Zenhäusernn am Meisten freuen? Sie verraten es im Video.",
+              "publicationDate": "2019-02-13T14:46:07",
+              "brightcoveId": "5969459623001",
+              "credit": "Credit",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "new-b9vm2EsR",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41567",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42120",
+                    "alt": "",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/media/field_image/2019-02/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

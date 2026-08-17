@@ -1,0 +1,27 @@
+.SkeletonWrapper {
+  width: 100%
+}
+
+.Skeleton {
+  td {
+    padding: 5px;
+    width: 100px;
+  }
+
+  background-color: $transparent !important; /* stylelint-disable-line */
+
+  span {
+    animation: pulsing 1s infinite;
+    background: $greyD;
+    display: block;
+    height: 52px;
+
+    width: auto;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

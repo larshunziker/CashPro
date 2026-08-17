@@ -1,0 +1,30 @@
+.Wrapper {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+}
+
+.Timeline {
+  border-left: 1px solid $black;
+  margin-top: 24px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 32px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 40px;
+  }
+}
+
+.Item {
+  border-bottom: 1px solid $grey30;
+  margin-bottom: 24px;
+  margin-left: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin32;
+  }
+}
+
+.DividerWrapper {
+  display: flex;
+}

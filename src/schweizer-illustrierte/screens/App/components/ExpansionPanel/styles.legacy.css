@@ -1,0 +1,132 @@
+.ExpansionPanel {
+  position: relative;
+
+  &::before,
+  &::after {
+    background-color: $grayB;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    z-index: $zIndex1;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: -1px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      &::before,
+      &::after {
+        background-color: $redA;
+        z-index: calc($zIndex1 + 1);
+      }
+
+      .ArrowIcon::before,
+      .Title,
+      .BoldTitle {
+        color: $redA;
+      }
+
+      &.IsOpen {
+        &::before,
+        &::after {
+          background-color: $grayB;
+          z-index: $zIndex1;
+        }
+
+        .ArrowIcon::before,
+        .Title,
+        .BoldTitle {
+          color: $black;
+        }
+      }
+    }
+  }
+
+  .Spacer {
+    flex: 1;
+  }
+
+  .Header {
+    align-items: center;
+    background: $white;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .Icon {
+    &::before {
+      color: $black;
+      display: inline-block;
+      font-family: $fontIcons;
+      font-size: 3rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      line-height: 1;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out;
+
+      &::before {
+        content: '\e924';
+      }
+    }
+  }
+
+  .Content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+  }
+
+  &.IsOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+    }
+
+    .Header {
+      @media (min-width: $smBreakpoint) {
+        &:hover {
+          .ArrowIcon::before {
+            color: $redA;
+          }
+        }
+      }
+    }
+  }
+}
+
+.HeaderContentWrapper {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.Title,
+.BoldTitle {
+  transition: color 0.3s ease-in-out;
+}
+
+.Title {
+  composes: MenuItems1 from 'typography.legacy.css';
+}
+
+.BoldTitle {
+  composes: MenuItems2 from 'typography.legacy.css';
+}

@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "node": {
+        "id": 1,
+        "createDate": "2020-02-25T08:50:35+0100",
+        "title": "title",
+        "shortTitle": "short title",
+        "teaserImage": null,
+        "preferredUri": "https://example.com"
+      }
+    },
+    {
+      "node": {
+        "id": 2,
+        "createDate": "2020-02-25T08:50:35+0100",
+        "title": "title",
+        "shortTitle": "short title",
+        "teaserImage": null,
+        "preferredUri": "https://example.com"
+      }
+    }
+  ]
+}

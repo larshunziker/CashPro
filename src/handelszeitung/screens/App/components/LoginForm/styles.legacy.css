@@ -1,0 +1,4 @@
+.Message {
+  composes: InfoH2Grey from 'typography.legacy.css';
+  max-width: 540px;
+}

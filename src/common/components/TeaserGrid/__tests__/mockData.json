@@ -1,0 +1,62 @@
+{
+  "gridGroups": [
+    {
+      "config": {
+        "hasContainer": true
+      },
+      "items": [
+        {
+          "type": "TYPE_HEROSLIDER_HOME_STYLE",
+          "items": [
+            {
+              "type": "teaser-grid/teaser",
+              "teaserType": "TEASER_LAYOUT_HERO_XL_2_X_1"
+            },
+            {
+              "type": "teaser-grid/teaser",
+              "teaserType": "TEASER_LAYOUT_HERO_XL_2_X_1"
+            }
+          ]
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "TEASER_LAYOUT_S",
+          "downloadPriority": "high"
+        },
+        {
+          "type": "teaser-grid/ad"
+        },
+        {
+          "type": "teaser-grid/teaser",
+          "teaserType": "TEASER_LAYOUT_S"
+        }
+      ]
+    }
+  ],
+  "items": [
+    {
+      "title": "mockData1"
+    },
+    {
+      "title": "mockData2"
+    },
+    {
+      "title": "mockData3"
+    },
+    {
+      "title": "mockData4"
+    },
+    {
+      "title": "mockData5"
+    },
+    {
+      "title": "mockData6"
+    },
+    {
+      "title": "mockData7"
+    },
+    {
+      "title": "mockData8"
+    }
+  ]
+}

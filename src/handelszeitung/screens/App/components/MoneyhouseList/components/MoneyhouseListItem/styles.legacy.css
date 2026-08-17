@@ -1,0 +1,65 @@
+.Body {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  padding-bottom: 2px;
+  padding-top: 5px;
+
+  &:nth-of-type(1) {
+    order: 1;
+  }
+
+  &:nth-of-type(2) {
+    order: 3;
+  }
+
+  &:nth-of-type(3) {
+    order: 2;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom: 1px solid $greyC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+
+    &:nth-of-type(n + 1) {
+      order: 1;
+    }
+  }
+}
+
+.BodyTitleLink {
+  composes: PersonH3 from 'typography.legacy.css';
+}
+
+.BodyTitle {
+  border-bottom: 1px solid $blueA;
+  padding-bottom: 0;
+  padding-top: 24px;
+
+  @media (min-width: $smBreakpoint) {
+    border-bottom: 1px solid $greyC;
+    padding-bottom: 10px;
+    padding-top: 10px;
+  }
+}
+
+.ValidFromLabel {
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.Position {
+  display: list-item;
+  list-style-type: disc;
+  margin-left: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-left: auto;
+  }
+}
+
+.Date {
+  border-bottom: 1px solid $greyC;
+  padding-top: 10px;
+}

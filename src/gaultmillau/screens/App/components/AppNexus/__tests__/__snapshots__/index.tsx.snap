@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] AppNexus Should return correct styles for adslot  1`] = `
+{
+  "AdSlot": "AdSlot",
+}
+`;
+
+exports[`[Component] AppNexus Should return correct styles for adslot IAV1 1`] = `
+{
+  "AdSlot": "AdSlot IAV1",
+}
+`;
+
+exports[`[Component] AppNexus Should return correct styles for adslot MMR1 1`] = `
+{
+  "AdSlot": "AdSlot MMR1",
+}
+`;
+
+exports[`[Component] AppNexus Should return correct styles for adslot SBA1 1`] = `
+{
+  "AdSlot": "AdSlot SBA1",
+}
+`;
+
+exports[`[Component] AppNexus Should return correct styles for adslot WB1 1`] = `
+{
+  "AdSlot": "AdSlot WB1",
+}
+`;

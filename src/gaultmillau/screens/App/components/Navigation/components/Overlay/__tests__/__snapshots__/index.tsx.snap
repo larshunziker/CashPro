@@ -1,0 +1,316 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Overlay Should render MainLinks correctly 1`] = `
+<div>
+  <div
+    class="menu-link-0-870-restaurant-tests NavListItem"
+    data-index="0"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        870 Restaurant Tests
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-1-züri-isst NavListItem"
+    data-index="1"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Züri isst
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-2-atelier-caminada NavListItem"
+    data-index="2"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Atelier Caminada
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-3-gaultmillau-pop! NavListItem"
+    data-index="3"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        GaultMillau POP!
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-4-starchefs NavListItem"
+    data-index="4"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Starchefs
+      </div>
+    </span>
+    <a
+      class="ToggleSubnavi"
+      href="#toggleSubnavi"
+    >
+      <div
+        data-testid="mocked-icon"
+      >
+        IconChevronDown
+      </div>
+    </a>
+    <div
+      class="SubNav"
+    >
+      <div
+        data-testid="sublink"
+      />
+    </div>
+  </div>
+  <div
+    class="menu-link-5-rezepte NavListItem"
+    data-index="5"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Rezepte
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-6-videos NavListItem"
+    data-index="6"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Videos
+      </div>
+    </span>
+    <a
+      class="ToggleSubnavi"
+      href="#toggleSubnavi"
+    >
+      <div
+        data-testid="mocked-icon"
+      >
+        IconChevronDown
+      </div>
+    </a>
+    <div
+      class="SubNav"
+    >
+      <div
+        data-testid="sublink"
+      />
+    </div>
+  </div>
+  <div
+    class="menu-link-7-wine-&-cigars- NavListItem"
+    data-index="7"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Wine & Cigars 
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-link-8-life-&-style NavListItem"
+    data-index="8"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Life & Style
+      </div>
+    </span>
+    <a
+      class="ToggleSubnavi"
+      href="#toggleSubnavi"
+    >
+      <div
+        data-testid="mocked-icon"
+      >
+        IconChevronDown
+      </div>
+    </a>
+    <div
+      class="SubNav"
+    >
+      <div
+        data-testid="sublink"
+      />
+    </div>
+  </div>
+  <div
+    class="menu-link-9-partner NavListItem"
+    data-index="9"
+    data-testid="main-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-3"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Partner
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`[Component] Overlay Should render SubLinks correctly 1`] = `
+<div>
+  <div
+    class="menu-sublink-undefined-0-gaultmillau-travel SubNavListItem Active"
+    data-testid="sub-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-4"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        GaultMillau Travel
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-sublink-undefined-1-hot-ten SubNavListItem Active"
+    data-testid="sub-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-4"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Hot Ten
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-sublink-undefined-2-bücher SubNavListItem Active"
+    data-testid="sub-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-4"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Bücher
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-sublink-undefined-3-schweizer-fleisch SubNavListItem Active"
+    data-testid="sub-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-4"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Schweizer Fleisch
+      </div>
+    </span>
+  </div>
+  <div
+    class="menu-sublink-undefined-4-wallis SubNavListItem Active"
+    data-testid="sub-link-item"
+  >
+    <span
+      aria-hidden="true"
+      role="link"
+      tabindex="-4"
+    >
+      <div
+        data-testid="mocked-link"
+      >
+        Wallis
+      </div>
+    </span>
+  </div>
+</div>
+`;
+
+exports[`[Component] Overlay Should render no MainLinks when there are no links 1`] = `<div />`;
+
+exports[`[Component] Overlay Should render no Sublinks when there are no links 1`] = `<div />`;

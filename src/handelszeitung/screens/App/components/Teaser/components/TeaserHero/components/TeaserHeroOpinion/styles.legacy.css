@@ -1,0 +1,155 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.ContentWrapper {
+  background-color: $greyE;
+  line-height: 0;
+  padding: 16px 21px 112px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 16px 16px 82px;
+    width: 306px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 20px 20px 104px;
+    width: 463px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 16px 16px 104px;
+    width: 532px;
+  }
+}
+
+.Title {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: Lead2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.AuthorWrapper {
+  bottom: 16px;
+  left: 0;
+  margin-top: 20px;
+  padding: 0 21px;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0 16px;
+  }
+}
+
+.AuthorContent {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+    flex-direction: column;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+  }
+}
+
+.AuthorAvatar {
+  border-radius: 50%;
+  height: auto;
+  width: 58px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin8;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: 0;
+  }
+}
+
+.Authors {
+  composes: Lead2 from 'typography.legacy.css';
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  strong {
+    font-family: $fontGothamBlack;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.ImageWrapper {
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+    width: 394px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 333px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 740px;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.ShortTitle {
+  composes: ShortTitleBGreyA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+    margin-top: 0;
+  }
+}

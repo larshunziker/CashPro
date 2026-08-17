@@ -1,0 +1,20 @@
+.Wrapper {
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.Label {
+  color: $blackB;
+  font-family: $fontGotham;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  text-align: center;
+}
+
+.Banner {
+  padding: 10px 0;
+}
+

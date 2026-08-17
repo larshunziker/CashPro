@@ -1,0 +1,99 @@
+{
+  "paragraphIndex": 1,
+  "teaserStage": {
+    "hasSponsoring": true,
+    "termReference": {
+      "label": "Royals",
+      "preferredUri": "/dossier/royals",
+      "sponsors": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZToxOTcxOA==",
+              "title": "Tesla",
+              "prefix": "Sponsored by",
+              "teaserImage": {
+                "id": "180551",
+                "link": {
+                  "path": "https://www.tesla.com",
+                  "__typename": "Link"
+                }
+              },
+              "logoStandalone": {
+                "file": {
+                  "alt": "Tesla Logo",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/tesla_logo_0.jpg"
+                }
+              }
+            }
+          }
+        ],
+        "__typename": "SponsorConnection"
+      },
+      "__typename": "Channel"
+    },
+    "title": "Royals",
+    "layoutFormat": "landscape",
+    "entities": {
+      "count": 2,
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTM5MA==",
+            "title": "Test People Article",
+            "preferredUri": "/people/test-people-article",
+            "shortTitle": "Test People Article",
+            "badgeLabel": "Fooo",
+            "badgeColor": "black",
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Honolulu",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/waikiki-honolulu.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTI5OA==",
+            "title": "So kommen wir cool durch die Hundstage",
+            "preferredUri": "/style/so-kommen-wir-cool-durch-die-hundstage",
+            "shortTitle": "Jetzt gehts in die heisse Phase",
+            "badgeLabel": "Global Warming",
+            "badgeColor": "default",
+            "teaserImage": {
+              "id": "test1234",
+              "image": {
+                "file": {
+                  "alt": "Es Glassee",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/gettyimages-602981803.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "TeaserStageParagraph"
+  }
+}

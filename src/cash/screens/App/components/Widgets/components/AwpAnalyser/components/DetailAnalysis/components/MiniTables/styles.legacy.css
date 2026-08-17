@@ -1,0 +1,75 @@
+.Table {
+  @mixin DataTable;
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 2px rgb(0 0 0 / 15%);
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+  padding: 8px;
+}
+
+.PredictionTableWrapper {
+  border-radius: 4px;
+  box-shadow: 0 2px 7px 2px rgb(0 0 0 / 15%);
+  padding: 8px;
+
+  table {
+    width: 100%;
+  }
+
+  tr {
+    border-bottom: 1px solid $greyC;
+  }
+
+  tr:last-child {
+    border-bottom: 0;
+  }
+
+  tr td:first-child {
+    font-weight: 700;
+    text-align: left;
+  }
+
+  th, td {
+    padding: 6px 0;
+    text-align: right;
+  }
+
+  th {
+    font-weight: 700;
+  }
+}
+
+.Cell {
+  align-items: flex-start;
+  display: flex;
+  flex: 1 0 0;
+  flex-direction: column;
+}
+
+.CellInfo {
+  composes: InfoD from 'typography.legacy.css';
+  color: $greyA;
+}
+
+.CellValue {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: 900;
+}
+
+.RatingRow {
+  border-bottom: 1px solid $greyC;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 8px;
+
+  &:last-child {
+    border: 0;
+    padding: 8px 0 0;
+  }
+}
+
+.Border {
+  @mixin ChartsForPrint;
+  padding-bottom: 8px;
+}

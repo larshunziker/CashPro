@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageAccordionParagraph Should match snapshot 0 1`] = `<div />`;
+
+exports[`[Component] MinistageAccordionParagraph Should match snapshot 1 1`] = `<div />`;
+
+exports[`[Component] MinistageAccordionParagraph Should match snapshot 2 1`] = `<div />`;
+
+exports[`[Component] MinistageAccordionParagraph Should match snapshot 3 1`] = `<div />`;
+
+exports[`[Component] MinistageAccordionParagraph Should match snapshot 4 1`] = `<div />`;
+
+exports[`[Component] MinistageAccordionParagraph Should render correctly 1`] = `
+<div>
+  <article
+    class="WrapperClassName"
+  >
+    <div
+      class="FAQInnerClassName"
+    >
+      <div>
+        <div>
+          <div
+            class="InnerWrapperClassName"
+          >
+            <div
+              class="TitleClassName"
+            >
+              Titel
+            </div>
+            <div
+              data-testid="expansionpanel"
+            >
+              <div
+                data-testid="multicolumn-sparagraphs-renderer"
+              >
+                192180
+                 - 
+              </div>
+               - 
+              Was ist «Beobachter+»?
+            </div>
+            <div
+              data-testid="expansionpanel"
+            >
+              <div
+                data-testid="multicolumn-sparagraphs-renderer"
+              >
+                192182
+                 - 
+              </div>
+               - 
+              Ich habe bereits ein Beobachter Abonnement. Wie kann ich auf Beobachter+ und das ePaper zugreifen?
+            </div>
+            <div
+              data-testid="expansionpanel"
+            >
+              <div
+                data-testid="multicolumn-sparagraphs-renderer"
+              >
+                192184
+                 - 
+              </div>
+               - 
+               Wo kann ich mein Abonnement verwalten?
+            </div>
+            <div
+              data-testid="expansionpanel"
+            >
+              <div
+                data-testid="multicolumn-sparagraphs-renderer"
+              >
+                192186
+                 - 
+              </div>
+               - 
+              Wie verlängert sich ein Beobachter+ Abonnement?
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </article>
+</div>
+`;

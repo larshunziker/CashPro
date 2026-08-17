@@ -1,0 +1,117 @@
+.Container {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+}
+
+.BreadcrumbsContainer {
+  color: $black;
+  margin-bottom: 60px;
+
+  a {
+    color: $black;
+  }
+}
+
+.ArticleHeaderContainer {
+  margin-top: 32px;
+}
+
+.Title {
+  composes: Title from 'Article/components/ArticleHead/components/ArticleHeadDefault/styles.legacy.css';
+  color: $black;
+
+  margin-bottom: 16px;
+  padding-left: 0;
+}
+
+.ShortTitle {
+  composes: TaglineXl from 'typography.legacy.css';
+
+  display: block;
+  margin-bottom: 4px;
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+}
+
+.VideoContainer {
+  padding: 0;
+}
+
+.SocialBarWrapper {
+  margin-block: 8px 24px;
+}
+
+.ArticleAlertsWrapper {
+  margin-bottom: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 52px;
+  }
+}
+
+.RecommendationsWrapper {
+  margin-bottom: 11px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 34px;
+  }
+}
+
+.CTAWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 23px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Button {
+  margin-bottom: 60px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 120px;
+  }
+}
+
+.UtilityBarWrapper {
+  margin-block: $margin24 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-block: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: Row from '@grid.legacy.css';
+  left: 0;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 732px;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    @media screen {
+      padding-bottom: 70px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}

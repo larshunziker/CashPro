@@ -1,0 +1,88 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Paragraphs - Entity Queue factory Should render a title 1`] = `
+<div>
+  <div>
+    <div
+      class=".SampleTitleWrapperClass"
+    >
+      <div
+        class=".SampleInnerContainerClass"
+      >
+        <div
+          data-testid="empty-link"
+        >
+          <h2
+            class=".SampleTitleClass"
+            data-testid="entity-queue-paragraph-title"
+          >
+            This is a great title.
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="entity-queue-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Common] Paragraphs - Entity Queue factory Should render a title with a link 1`] = `
+<div>
+  <div>
+    <div
+      class=".SampleTitleWrapperClass"
+    >
+      <div
+        class=".SampleInnerContainerClass"
+      >
+        <a
+          data-testid="routed-link"
+          href="/lovelyLandingPage"
+        >
+          <h2
+            class=".SampleTitleClass"
+            data-testid="entity-queue-paragraph-title"
+          >
+            Digital Switzerland
+          </h2>
+        </a>
+      </div>
+    </div>
+    <div
+      data-testid="entity-queue-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Common] Paragraphs - Entity Queue factory Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class=".SampleTitleWrapperClass"
+    >
+      <div
+        class=".SampleInnerContainerClass"
+      >
+        <div
+          data-testid="empty-link"
+        >
+          <h2
+            class=".SampleTitleClass"
+            data-testid="entity-queue-paragraph-title"
+          >
+            Digital Switzerland
+          </h2>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="entity-queue-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Common] Paragraphs - Entity Queue factory Should render nothing 1`] = `<div />`;

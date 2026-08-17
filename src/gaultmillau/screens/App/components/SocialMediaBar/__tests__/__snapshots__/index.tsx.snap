@@ -1,0 +1,109 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] SocialMediaBar Should render SocialMediaIcons Facebook correctly 1`] = `
+<div>
+  <div
+    data-testid="mocked-link"
+  >
+    <div
+      class="Icon"
+    >
+      <div>
+        Icon
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] SocialMediaBar Should return social media bar icons for language  correctly 1`] = `
+[
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-facebook"
+    />,
+    "link": "https://www.facebook.com/gaultmillau.schweiz",
+    "type": "Facebook",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-instagram"
+    />,
+    "link": "https://www.instagram.com/gaultmillau_schweiz",
+    "type": "Instagram",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-youtube"
+    />,
+    "link": "https://www.youtube.com/channel/UCe0fhq9hRLoXCfvMDNFnC-Q",
+    "type": "Youtube",
+  },
+]
+`;
+
+exports[`[Component] SocialMediaBar Should return social media bar icons for language de correctly 1`] = `
+[
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-facebook"
+    />,
+    "link": "https://www.facebook.com/gaultmillau.schweiz",
+    "type": "Facebook",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-instagram"
+    />,
+    "link": "https://www.instagram.com/gaultmillau_schweiz",
+    "type": "Instagram",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-linkedin"
+    />,
+    "link": "https://www.linkedin.com/company/gaultmillau-schweiz/",
+    "type": "Linkedin",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-pinterest"
+    />,
+    "link": "https://www.pinterest.com/gaultmillauschweiz/",
+    "type": "Pinterest",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-youtube"
+    />,
+    "link": "https://www.youtube.com/channel/UCe0fhq9hRLoXCfvMDNFnC-Q",
+    "type": "Youtube",
+  },
+]
+`;
+
+exports[`[Component] SocialMediaBar Should return social media bar icons for language fr correctly 1`] = `
+[
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-facebook"
+    />,
+    "link": "https://www.facebook.com/gaultmillau.suisse",
+    "type": "Facebook",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-instagram"
+    />,
+    "link": "https://www.instagram.com/gaultmillau_suisse",
+    "type": "Instagram",
+  },
+  {
+    "component": <Unknown
+      type="svg-logo/type/footer-youtube"
+    />,
+    "link": "https://www.youtube.com/channel/UCe0fhq9hRLoXCfvMDNFnC-Q",
+    "type": "Youtube",
+  },
+]
+`;

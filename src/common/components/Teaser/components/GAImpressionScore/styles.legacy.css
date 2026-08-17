@@ -1,0 +1,13 @@
+.GAScoreWrapper {
+  background: $greyA;
+  border-radius: 3px;
+  color: $white;
+  /* stylelint-disable-next-line sh-waqar/declaration-use-variable */
+  font-family: Arial, sans-serif;
+  font-size: 13px;
+  font-weight: 900;
+  line-height: 1;
+  margin-bottom: 2px;
+  padding: 5px;
+  width: 100%
+}

@@ -1,0 +1,49 @@
+.Wrapper {
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin56;
+  }
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+
+  border-top: 3px solid $black;
+  margin-bottom: $margin24;
+  padding-top: 6px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.Keyword {
+  @mixin ButtonSecondarySmall;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin ButtonSecondaryBig;
+  }
+}
+
+.KeywordWrapper {
+  @media (min-width: $smBreakpoint) {
+    column-gap: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    row-gap: 12px
+  }
+  @media (min-width: $xlBreakpoint) {
+    column-gap: 24px;
+    row-gap: 16px
+  }
+}
+
+.ContentWrapperInGuideArticle {
+  margin-left: 0;
+  width: 100%;
+}

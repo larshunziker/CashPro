@@ -1,0 +1,25 @@
+{
+  "__typename": "ImageParagraph",
+  "anchorId": null,
+  "caption": "<p>Big City Life</p>\n",
+  "id": "cGFyYWdyYXBoOmltYWdlOjIxMzc2MjoyOTIzNzU=",
+  "image": {
+    "__typename": "Image",
+    "credit": "Romande Energie",
+    "file": {
+      "__typename": "ImageFile",
+      "alt": "COMMUNAUTÉS D’AUTOCONSOMMATEURS : L’AVENIR DE L’ÉNERGIE ?",
+      "focalPointX": 674,
+      "focalPointY": 450,
+      "height": 600,
+      "id": "ZmlsZTo3MTEyNTo6Njc0LDQ1MDppbmxpbmVfaW1hZ2VfMTIwMDox",
+      "origin": "https://api.dev.handelszeitung.ch/sites/default/files/pme/blogs/2021-07-14/istock-589118460.jpg",
+      "relativeOriginPath": "/pme/blogs/2021-07-14/istock-589118460.jpg",
+      "width": 900
+    },
+    "id": "70316",
+    "showOriginal": false
+  },
+  "title": null,
+  "adSlots": []
+}

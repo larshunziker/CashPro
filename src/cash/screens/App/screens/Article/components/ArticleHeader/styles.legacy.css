@@ -1,0 +1,68 @@
+.Wrapper {
+  position: relative;
+
+  em {
+    font-style: italic;
+  }
+
+  &::before {
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.Caption {
+  composes: ImageParagraph from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  :global(.catchquestion) {
+    text-transform: uppercase;
+  }
+
+  @media print {
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.ArticleBody {
+  :global(.app) {
+    padding-bottom: 70px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.Credit {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+  display: block;
+  margin-top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin4;
+  }
+}
+
+.DateWrapper {
+  min-height: 54px; /* CLS */
+  @media (min-width: $smBreakpoint) {
+    min-height: auto;
+  }
+
+  span {
+    @mixin AuthorDate;
+    color: $black;
+  }
+}

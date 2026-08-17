@@ -1,0 +1,364 @@
+[
+  {
+    "node": {
+      "link": {
+        "label": "People",
+        "description": null,
+        "path": "/people",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "People Home",
+                "description": null,
+                "path": "/people",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Swiss Stars",
+                "description": null,
+                "path": "/people/start",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Royals",
+                "description": null,
+                "path": "/dossier/royals",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Talk of the Town",
+                "description": null,
+                "path": "/people/talk-of-the-town",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Klartext",
+                "description": null,
+                "path": "/people/klartext",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Videos",
+                "description": null,
+                "path": "/people/videos",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Horoskop",
+                "description": null,
+                "path": "/people/horoskop",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Hot Ten (nur People)",
+                "description": null,
+                "path": "/people/hot-ten",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Style",
+        "description": null,
+        "path": "/style",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Style Home",
+                "description": null,
+                "path": "/style",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Beuty",
+                "description": null,
+                "path": "/beauty",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Fashon",
+                "description": null,
+                "path": "/fashon",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Lifestyle",
+                "description": null,
+                "path": "/lifestyle",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Family",
+        "description": null,
+        "path": "/family",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Family Home",
+                "description": null,
+                "path": "/family",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Sports",
+        "description": null,
+        "path": "/sports",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Sports Home",
+                "description": null,
+                "path": "/sports",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Blogs",
+        "description": null,
+        "path": "/blogs",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Blogs SubMenu",
+                "description": null,
+                "path": "/blog-test",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Specials",
+        "description": null,
+        "path": "/specials",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Specials Submenu",
+                "description": null,
+                "path": "/specials-test",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Videos",
+        "description": null,
+        "path": "/videos-page",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Videos Submenu",
+                "description": null,
+                "path": "/videos-submenu",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Wettbewerb",
+        "description": null,
+        "path": "/wettbewerb",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Kontakt",
+        "description": null,
+        "path": "/kontakt",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Impressum",
+        "description": null,
+        "path": "/impressum",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Datenschutz",
+        "description": null,
+        "path": "/datenschutz",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "AGB",
+        "description": null,
+        "path": "/agb",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  }
+]

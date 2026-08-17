@@ -1,0 +1,23 @@
+.SponsorBannerWrapper {
+  @mixin hideforPrint;
+  display: flex;
+  margin-bottom: 73px;
+  position: relative;
+
+  h3 {
+    color: $greyB;
+    font-family: $fontSpezia;
+    opacity: 1;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-bottom: 87px;
+    margin-top: 6px;
+  }
+}
+
+.SponsorBannerLogo {
+  composes: SponsorBannerLogo from 'LandingPage/components/LandingPageDefault/styles.legacy.css';
+  width: auto;
+}

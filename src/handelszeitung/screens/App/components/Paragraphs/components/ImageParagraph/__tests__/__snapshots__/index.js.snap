@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ImageParagraph should render correctly  1`] = `
+<div>
+  <div
+    class="paragraph image-paragraph ImageWrapper"
+    data-testid="image-paragraph-wrapper"
+  >
+    <div
+      class="LineHeightReset PictureWrapper"
+    >
+      <picture>
+        <img
+          alt="COMMUNAUTÉS D’AUTOCONSOMMATEURS : L’AVENIR DE L’ÉNERGIE ?"
+          class="IsSameAspectRatio"
+          height="600"
+          loading="lazy"
+          srcset="/sw/900/sites/default/files/pme/blogs/2021-07-14/istock-589118460.jpg"
+          width="900"
+        />
+      </picture>
+    </div>
+    <div
+      class="ImageCaptionWrapper"
+    >
+      <div
+        class="image-caption Wrapper"
+      >
+        <span
+          class=""
+        >
+          <p>
+            Big City Life
+          </p>
+          
+
+        </span>
+        <div
+          class="Credits"
+        >
+          Quelle: 
+          Romande Energie
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ImageParagraph should render nothing  1`] = `<div />`;

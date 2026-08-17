@@ -1,0 +1,11 @@
+.LoadMore {
+  composes: ButtonPrimarySmall from 'form.legacy.css';
+
+
+}
+
+.IconArrowRotateRight {
+  padding-right: 6px;
+  position: relative;
+  top: 1px;
+}

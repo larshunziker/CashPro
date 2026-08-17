@@ -1,0 +1,28 @@
+.Wrapper {
+  margin-bottom: $margin16;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.Quote {
+  composes: QuoteMain from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  &:first-of-type {
+    &::before {
+      background-color: $blackB;
+      content: ' ';
+      display: block;
+      height: 4px;
+      margin-bottom: $margin8;
+      width: 69px;
+    }
+  }
+}
+
+.QuoteAuthor {
+  composes: QuoteName from 'typography.legacy.css';
+  text-transform: uppercase;
+}

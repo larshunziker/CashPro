@@ -1,0 +1,303 @@
+.Wrapper {
+  display: block;
+  overflow: auto;
+  padding-bottom: 24px;
+}
+
+.ContentWrapper {
+  max-width: 100%;
+  padding-inline: 0 8px;
+
+  &.Numbered {
+    padding-left: 37px;
+
+    @media (min-width: $xlBreakpoint) {
+      padding-left: 45px;
+    }
+  }
+}
+
+.Title {
+  composes: TeaserSMColumnHeadline from 'typography.legacy.css';
+
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+
+  .Wrapper:hover & {
+    text-decoration-color: $black;
+  }
+
+  .SkeletonContentWrapper & {
+    text-decoration: none;
+  }
+
+  &.Advertising {
+    font-family: $fontSpezia;
+  }
+}
+
+.ShortTitleWrapper {
+  flex-grow: 1;
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+}
+
+.BeoPlusLogo {
+  composes: TeaserBeoPlusLogo from 'typography.legacy.css';
+  margin: 2px 6px 0 0;
+}
+
+.Image {
+  min-height: 83px;
+  min-width: 83px;
+
+  &.Opinion {
+    border-radius: 50%;
+  }
+}
+
+.ImageWrapper {
+  float:  right;
+  margin-left: 3px;
+  min-width: 83px;
+  padding: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 83px;
+  }
+
+  &.Gradient {
+    &::after {
+      background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 64px);
+      content: '';
+      height: 100%;
+      left: 3px;
+      position: absolute;
+      top: 0;
+      width: calc(100% - 3px);
+      z-index: 1;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &::after {
+        left: 0;
+        width: 100%;
+      }
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      max-width: 68px;
+    }
+    @media (min-width: $xlBreakpoint) {
+      max-width: 83px;
+
+      &::after {
+        background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 152px);
+      }
+    }
+  }
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  &.Red {
+    background-color: $red;
+  }
+
+  &.Green {
+    background-color: $green;
+  }
+
+  &.Blue {
+    background-color: $blue;
+  }
+
+  &.Black {
+    background-color: $black;
+  }
+
+  &.Advertising {
+    background-color: $purple;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.92rem;
+    padding: 2px 8px;
+
+    @media (min-width: $mdBreakpoint) {
+      font-size: 1.4rem;
+      line-height: 1.68rem;
+      padding: 2px 6px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.8rem;
+      line-height: 2.16rem;
+      padding: 2px 8px;
+    }
+  }
+}
+
+.Icon {
+  align-items: center;
+  bottom: 8px;
+  display: flex;
+  left: 11px;
+  position: absolute;
+  z-index: 2;
+
+  &.PlayButton {
+    bottom: unset;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+
+  &.Quote {
+    bottom: unset;
+    left: -5px;
+    top: 5px;
+
+    @media (max-width: $xsBreakpointTo) {
+      svg {
+        height: 6.25vw; /* 100vw / 16 */
+        max-height: 40px;
+        max-width: 48px;
+        min-height: 20px;
+        min-width: 28px;
+        width: 6.25vw; /* 100vw / 16 */
+      }
+    }
+  }
+}
+
+.PlayIcon {
+  height: 24px;
+  width: 24px;
+
+  .PlayButton & {
+    filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+    height: 38px;
+    width: 38px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 52px;
+      max-height: 52px;
+      max-width: 52px;
+      width: 52px;
+    }
+  }
+}
+
+.IconQuote {
+  height: 19.5px;
+  width: 27px;
+}
+
+.Index {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 700;
+  height: 100%;
+  left: 0;
+  line-height: 1;
+  position: absolute;
+
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.2rem;
+  }
+
+  &.CustomIndex {
+    line-height: 0.8;
+  }
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+  display: flex;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    width: initial;
+  }
+
+  .ImageWrapper {
+    @mixin aspectRatio1x1;
+
+    @media (min-width: $smBreakpoint) {
+      &::before {
+        display: none;
+      }
+    }
+
+    > img {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+
+      @media (min-width: $smBreakpoint) {
+        height: auto;
+        max-height: 124px;
+        position: relative;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        max-height: 104px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        max-height: 158px;
+      }
+    }
+  }
+}
+
+.SkeletonContentWrapper {
+  height: 100%;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: 83px;
+  }
+}
+
+.SkeletonShortTitle,
+.SkeletonTitle {
+  background: $grayPlaceholder;
+  border-radius: 3px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+}
+
+.SkeletonShortTitle {
+  max-width: 120px;
+  top: 0;
+  width: calc(100% - 70px);
+}
+
+.SkeletonTitle {
+  height: 30px;
+  max-width: 200px;
+  top: 30px;
+  width: calc(100% - 20px);
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

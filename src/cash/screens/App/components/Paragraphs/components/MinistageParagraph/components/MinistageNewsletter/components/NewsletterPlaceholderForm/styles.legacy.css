@@ -1,0 +1,29 @@
+.Wrapper {
+  padding-bottom: 20px;
+  padding-top: 15px;
+}
+
+@media (min-width: $mdBreakpoint) {
+  .Wrapper {
+    padding-top: 24px;
+  }
+}
+
+.InputWrapper {
+  margin-bottom: 12px;
+}
+
+.Input {
+  border: 1px solid $greyC;
+  font-family: $fontSourceSansPro;
+  font-size: 1.5rem;
+  max-width: 320px;
+  padding: 12px;
+  width: 100%;
+}
+
+.Hint {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 0;
+  margin-top: 8px;
+}

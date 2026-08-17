@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[withHelmet] Should add parselyTags correctly 1`] = `
+[
+  {
+    "content": "600908",
+    "name": "parsely-post-id",
+  },
+  {
+    "content": "post",
+    "name": "parsely-type",
+  },
+  {
+    "content": "Der Franken und der Euro sind stärker denn je",
+    "name": "parsely-title",
+  },
+  {
+    "content": "https://www.rasch-stack.ch/konjunktur/der-franken-und-der-euro-sind-starker-denn-je-622053",
+    "name": "parsely-link",
+  },
+  {
+    "content": "someImageUrl",
+    "name": "parsely-image-url",
+  },
+  {
+    "content": "2023-07-24T13:39:38+02:00",
+    "name": "parsely-pub-date",
+  },
+  {
+    "content": "Konjunktur",
+    "name": "parsely-section",
+  },
+  {
+    "content": "print_article:0,Euro,Dollar,Geldpolitik,Franken,article_type:news,publication:handelszeitung,restriction_status:paid,page_type:Article",
+    "name": "parsely-tags",
+  },
+]
+`;

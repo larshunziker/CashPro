@@ -1,0 +1,99 @@
+{
+  "mockInstrumentKeysAnonymous": [
+    {
+      "listingKey": "998089-4-1",
+      "constituents": true,
+      "isMarketOpen": true
+    },
+    {
+      "listingKey": "998089-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1222171-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "43249246-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "21048333-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "3017040-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1064593-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1221405-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "2523886-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "2575132-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1384101-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "3886335-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1200526-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "2460882-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1203204-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "41879292-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1254978-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1485278-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "12688156-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "874251-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "24476758-4-1",
+      "isMarketOpen": false
+    },
+    {
+      "listingKey": "1107539-4-1",
+      "isMarketOpen": false
+    }
+  ],
+  "mockInstrumentKeysCustom": [
+    {
+      "listingKey": "998089-4-1",
+      "isMarketOpen": false
+    }
+  ]
+}

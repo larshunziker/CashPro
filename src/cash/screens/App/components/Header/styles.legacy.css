@@ -1,0 +1,51 @@
+.Wrapper {
+  width: 100%;
+}
+
+:global(.branding-day) {
+  .Wrapper {
+
+    @media (min-width: $mdBreakpoint) {
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.Placeholder {
+  height: $headerHeightXs;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    height: $headerHeightSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: $headerHeightXl;
+  }
+
+  @media print {
+    height: auto;
+  }
+
+  &.MarketingPage {
+    height: $headerHeightMarketingPageXs;
+
+    @media (min-width: $smBreakpoint) {
+      height: $headerHeightMarketingPageSm;
+    }
+  
+    @media (min-width: $mdBreakpoint) {
+      height: $headerHeightMarketingPageMd;
+    }
+  }
+}
+
+.IsSticky {
+  /* position: fixed;
+  top: 0;
+  width: 100%; */
+}

@@ -1,0 +1,34 @@
+{
+  "listicleItem": {
+    "__typename": "ListicleItemParagraph",
+    "anchorId": null,
+    "id": "cGFyYWdyYXBoOmxpc3RpY2xlX2l0ZW06MTI5NDg2NzozODE4NzIz",
+    "title": "Kartoffel-Curry von Tanja Grandits",
+    "text": "<p>Die «Köchin des Jahres 2020» rührt ihr Curry im grossen Topf an. Mit Kartoffeln und roten Linsen. Für den vollen Geschmack: Die Gewürze im Fett anbraten. </p>\n",
+    "footer": "<p>Stucki / Tanja Grandits:<br />\n19 Pnkte<br />\nBruderholzallee 42<br />\n4059 Basel<br />\n </p>\n",
+    "image": {
+      "__typename": "ImageParagraph",
+      "id": "cGFyYWdyYXBoOmltYWdlOjEyOTQ4NjY6MzgxODcyMg==",
+      "title": null,
+      "caption": null,
+      "image": {
+        "__typename": "Image",
+        "id": "474226",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "ZmlsZTo0NzMxMzk6OjAsMDpsYXJnZTo=",
+          "alt": "Kartoffel-Curry ",
+          "relativeOriginPath": "/media/field_image/2019-09/kartoffel-curry_.jpg"
+        }
+      }
+    },
+    "featured": false,
+    "link": {
+      "__typename": "Link",
+      "label": "",
+      "path": "https://www.gaultmillau.ch/starchefs/kartoffel-curry-tanja-grandits",
+      "routed": false
+    }
+  },
+  "listicleIndex": 0
+}

@@ -1,0 +1,60 @@
+{
+  "id": "bm9kZToxMTIyMA==",
+  "nid": "13964",
+  "title": "80 Jahre sind uns nicht genug",
+  "shortTitle": "Editorial",
+  "subtypeValue": "ratgeber_aktuell",
+  "preferredUri": "/home/editorial-80-jahre-sind-uns-nicht-genug",
+  "commentStatus": "open",
+  "socialMediaTitle": null,
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzB4TURJeQ=="
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpCNFRVUkplVGMzTWpVM01RPT0="
+        }
+      }
+    ]
+  },
+  "heroImageBody": [
+    {
+      "id": "184717"
+    }
+  ],
+  "lead": "«Basis unseres Erfolgs sind eine Million Leserinnen und Leser. Wir danken Ihnen herzlich für die aussergewöhnliche Treue.»",
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybToxMDIy",
+    "title": "Digital",
+    "landingPage": {
+      "id": "bm9kZToxOTQ4OQ==",
+      "title": "Digital landingpage",
+      "lead": "this is the lead",
+      "preferredUri": "/digital",
+      "__typename": "LandingPage",
+      "sponsor": {
+        "id": "bm9kZToxOTUwNg==",
+        "title": "Tui",
+        "teaserImage": {
+          "id": "179970",
+          "caption": null,
+          "image": {
+            "file": {
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/tui.png",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "__typename": "Sponsor"
+      }
+    }
+  }
+}

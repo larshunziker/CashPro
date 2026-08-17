@@ -1,0 +1,15 @@
+.teaserSMColumn {
+  margin-bottom: $margin48;
+
+  .Item {
+    border-bottom: 1px solid $grey30;
+
+    &:last-child {
+      border-bottom: none;
+    }
+
+    &:not(:last-child) {
+      margin-bottom: $margin16;
+    }
+  }
+}

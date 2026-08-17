@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] format Should match the snapshot 0 1`] = `"tel:0441231212"`;
+
+exports[`[Function] format Should match the snapshot 1 1`] = `"tel:0041123219856"`;
+
+exports[`[Function] format Should match the snapshot 2 1`] = `"tel:0041093232343"`;
+
+exports[`[Function] format Should match the snapshot 3 1`] = `"tel:0313213254"`;

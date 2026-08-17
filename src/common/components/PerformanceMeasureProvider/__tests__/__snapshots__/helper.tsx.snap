@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should replace hyphens with underline 0 1`] = `"hi_ther_friend"`;
+
+exports[`should replace hyphens with underline 1 1`] = `"das ist ____ein_test"`;
+
+exports[`should replace hyphens with underline 2 1`] = `"_1_2_3_3__3"`;
+
+exports[`should replace hyphens with underline 3 1`] = `"_2_3_3"`;
+
+exports[`should replace hyphens with underline 4 1`] = `"test"`;

@@ -1,0 +1,31 @@
+@define-mixin gradientVertical $colorA, $stopA, $colorB, $stopB {
+  background: -moz-linear-gradient(top, $(colorA) $(stopA), $(colorB) $(stopB)); /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, $(colorA) $(stopA), $(colorB) $(stopB)); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, $(colorA) $(stopA), $(colorB) $(stopB));
+}
+
+@define-mixin gradientHorizontal $colorA, $stopA, $colorB, $stopB, $colorC, $stopC {
+  background: -moz-linear-gradient(left, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC)); /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC)); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC));
+}
+
+@define-mixin gradientToRight $colorA, $stopA, $colorB, $stopB {
+  background: -moz-linear-gradient(left, $(colorA) $(stopA), $(colorB) $(stopB));
+  background: -webkit-linear-gradient(left, $(colorA) $(stopA), $(colorB) $(stopB));
+  background: linear-gradient(to right, $(colorA) $(stopA), $(colorB) $(stopB));
+}
+
+@define-mixin gradientDark {
+  @mixin gradientVertical color($neutralA a(0%)), 0%, $neutralA, 100%;
+}
+
+@define-mixin gradientDarkArticleImage {
+  @mixin gradientVertical color($neutralA a(0%)), 0%, $neutralA, 70%;
+}
+
+@define-mixin gradientFocusBox $colorA, $stopA, $colorB, $stopB, $colorC, $stopC, $colorD, $stopD {
+  background: -moz-linear-gradient(top, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC), $(colorD) $(stopD));
+  background: -webkit-linear-gradient(top, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC), $(colorD) $(stopD));
+  background: linear-gradient(to bottom, $(colorA) $(stopA), $(colorB) $(stopB), $(colorC) $(stopC), $(colorD) $(stopD));
+}

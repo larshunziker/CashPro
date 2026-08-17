@@ -1,0 +1,104 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] UtilityHeaderBar Should not render UtilityHeaderBar if array of enabled Utilities is empty 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+    data-testid="utility-header-bar-wrapper"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleWrapperClassName"
+      >
+        Sie lesen:
+        <div
+          class="TitleClassName"
+        >
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] UtilityHeaderBar Should not render UtilityHeaderBar if enabledUtilities is not an array 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+    data-testid="utility-header-bar-wrapper"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleWrapperClassName"
+      >
+        Sie lesen:
+        <div
+          class="TitleClassName"
+        >
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] UtilityHeaderBar Should not render UtilityHeaderBar if there are no enabledUtilities 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+    data-testid="utility-header-bar-wrapper"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleWrapperClassName"
+      >
+        Sie lesen:
+        <div
+          class="TitleClassName"
+        >
+          Title
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] UtilityHeaderBar Should render correctly 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+    data-testid="utility-header-bar-wrapper"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleWrapperClassName"
+      >
+        Sie lesen:
+        <div
+          class="TitleClassName"
+        >
+          Title
+        </div>
+      </div>
+      <div
+        class="UtilityBarWrapperClassName"
+      >
+        <div
+          class="MockUtilityBar"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,55 @@
+.Wrapper {
+  background-color: $greyE;
+  margin-bottom: $margin56;
+  padding: 24px 0;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+    padding: 20px;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 0;
+      padding: 24px;
+    }
+  }
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Keyword {
+  composes: InfoB from 'typography.legacy.css';
+  background-color: $blueA;
+  border-radius: 4px;
+  color: $white;
+  display: inline-block;
+  margin-bottom: $margin8;
+  margin-right: $margin8;
+  padding: 8px;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      background-color: $blueC;
+    }
+  }
+}
+
+:global(.Bilanz) {
+  .Keyword {
+    background-color: $bilanzA;
+
+    @media (min-width: $smBreakpoint) {
+      &:hover {
+        background-color: $bilanzC;
+      }
+    }
+  }
+}

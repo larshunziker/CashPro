@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] Img Should render an img tag with all provided props 1`] = `
+<div>
+  <img
+    alt="Dies ist der alt text"
+    class="Someclass"
+    data-testid="image-wrapper"
+    height="953"
+    src="https://cdn.stage.beobachter.ch/sites/default/files/styles/16x9_1130/public/placeholder.jpg"
+  />
+</div>
+`;
+
+exports[`[Components] Img Should render image without alt 1`] = `
+<div>
+  <img
+    alt=""
+    data-testid="image-wrapper"
+    src="https://cdn.stage.beobachter.ch/sites/default/files/styles/16x9_1130/public/placeholder.jpg"
+  />
+</div>
+`;
+
+exports[`[Components] Img Should render image wrapper 1`] = `
+<div>
+  <img
+    alt="Dies ist der alt text"
+    data-testid="image-wrapper"
+    src="https://cdn.stage.beobachter.ch/sites/default/files/styles/16x9_1130/public/placeholder.jpg"
+  />
+</div>
+`;
+
+exports[`[Components] Img Should render image wrapper with its children 1`] = `
+<div>
+  <div
+    data-testid="image-children-wrapper"
+  >
+    <img
+      alt="Dies ist der alt text"
+      data-testid="image-wrapper"
+      src="https://cdn.stage.beobachter.ch/sites/default/files/styles/16x9_1130/public/placeholder.jpg"
+    />
+    Hallo ich bin eine caption!
+  </div>
+</div>
+`;

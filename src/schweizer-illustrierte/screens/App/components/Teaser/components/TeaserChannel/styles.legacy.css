@@ -1,0 +1,95 @@
+.Wrapper {
+  background: $gradientBlog;
+  display: inline-block;
+  height: 139px;
+  margin-top: 50px;
+  padding: 60px 20px 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 198px;
+
+    @media (max-width: $smBreakpointTo) {
+      padding: 60px 10px 20px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 212px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 301px;
+    margin-top: 75px;
+    padding: 95px 30px 30px;
+    width: 300px;
+  }
+}
+
+$maxHeightSm: 42px;
+$maxHeightXl: 71px;
+
+.ShortTitle {
+  composes: SectionTitle from 'typography.legacy.css';
+  margin-bottom: 15px;
+  max-height: 30px;
+  overflow: hidden;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 5px;
+    max-height: $maxHeightSm;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 20px;
+    max-height: $maxHeightXl;
+  }
+}
+
+$maxHeightSm: 80px;
+$maxHeightXl: 100px;
+
+.Title {
+  composes: Heading4 from 'typography.legacy.css';
+  max-height: 27px;
+  overflow: hidden;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: $maxHeightSm;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: $maxHeightXl;
+  }
+}
+
+.Image {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 100px;
+  left: calc(50% - 50px);
+  max-height: 100px;
+  max-width: 100px;
+  padding: 5px;
+  position: absolute;
+  top: -50px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 4px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 150px;
+    left: 75px;
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+    top: -75px;
+    width: 150px;
+  }
+}

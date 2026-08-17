@@ -1,0 +1,10 @@
+.teaserStage1Item {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+
+    .Item0 { grid-area: 1 / 1 / 2 / 2; }
+  }
+}

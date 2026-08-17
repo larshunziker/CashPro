@@ -1,0 +1,59 @@
+.Wrapper {
+  composes: Unselectable from 'helpers.legacy.css';
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  max-width: 500px;
+  text-align: center;
+  @media (min-width: $smBreakpoint) {
+    max-width: none;
+  }
+}
+
+.PageLink {
+  composes: InfoABold from 'typography.legacy.css';
+  color: $secondaryA;
+  cursor: pointer;
+  padding: 5px 10px;
+}
+
+
+
+.PrevButton,
+.NextButton {
+  padding: 3px 0;
+}
+
+.Disabled {
+  cursor: not-allowed;
+  opacity: 0.2;
+  pointer-events: none;
+}
+
+.Icon {
+  color: $secondaryA;
+  @mixin fontSize 30;
+  margin-top: -10px;
+  position: relative;
+  top: 8px;
+}
+
+.ActiveItem {
+  color: $blackA;
+}
+
+@media (min-width: $smBreakpoint) {
+  .Wrapper {
+    display: block;
+  }
+
+  .PageLink {
+    @mixin fontSize 15;
+    padding: 10px 20px;
+  }
+
+  .PrevButton,
+  .NextButton {
+    padding: 10px 20px;
+  }
+}

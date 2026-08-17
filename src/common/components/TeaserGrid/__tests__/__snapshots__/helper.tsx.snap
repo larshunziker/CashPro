@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ComponentName Should render autofilled items only if data is present.... 1`] = `
+[
+  [
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData1",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData2",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData3",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+  ],
+]
+`;
+
+exports[`[Component] ComponentName Should render items with autofilled items.... 1`] = `
+[
+  [
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData1",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData2",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData3",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData4",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData5",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData6",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData7",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData8",
+      },
+      "downloadPriority": "high",
+      "teaserType": "teaser/layout-wide",
+      "type": "teaser-grid/teaser",
+    },
+  ],
+]
+`;
+
+exports[`[Component] ComponentName Should render with .... 1`] = `
+[
+  [
+    {
+      "items": [
+        {
+          "data": {
+            "downloadPriority": "default",
+            "title": "mockData1",
+          },
+          "teaserType": "TEASER_LAYOUT_HERO_XL_2_X_1",
+          "type": "teaser-grid/teaser",
+        },
+        {
+          "data": {
+            "downloadPriority": "default",
+            "title": "mockData2",
+          },
+          "teaserType": "TEASER_LAYOUT_HERO_XL_2_X_1",
+          "type": "teaser-grid/teaser",
+        },
+      ],
+      "type": "TYPE_HEROSLIDER_HOME_STYLE",
+    },
+    {
+      "data": {
+        "downloadPriority": "high",
+        "title": "mockData3",
+      },
+      "downloadPriority": "high",
+      "teaserType": "TEASER_LAYOUT_S",
+      "type": "teaser-grid/teaser",
+    },
+    {
+      "type": "teaser-grid/ad",
+    },
+    {
+      "data": {
+        "downloadPriority": "default",
+        "title": "mockData4",
+      },
+      "teaserType": "TEASER_LAYOUT_S",
+      "type": "teaser-grid/teaser",
+    },
+  ],
+]
+`;

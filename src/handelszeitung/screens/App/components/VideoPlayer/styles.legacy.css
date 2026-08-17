@@ -1,0 +1,35 @@
+.Wrapper {
+  background-color: $blackA;
+  height: 100%;
+  left: 0;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  :global(.is-in-view) {
+    height: 100%;
+  }
+
+  > iframe {
+    height: inherit;
+    width: 100%;
+  }
+}
+
+.LoaderWrapper {
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.Loader {
+  color: $white;
+  display: inline-block;
+  font-size: 2rem;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}

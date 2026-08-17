@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+  -webkit-text-size-adjust: 100%; /* stylelint-disable-line */
+
+  @media (min-width: $xsBreakpoint) and (max-width: $xsBreakpointTo) {
+    font-size: 72%;
+  }
+}
+
+html,
+* {
+  scroll-margin-top: calc($headerHeightXs + $utilityBarHeight);
+
+  @media (min-width: $lgBreakpoint) {
+    scroll-margin-top: calc($headerHeightLg + $utilityBarHeight);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    scroll-margin-top: calc($headerHeightXl + $utilityBarHeight);
+  }
+}
+
+body {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.4em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  line-height: $bodyLineHeight;
+  overflow-anchor: none;
+  
+  /* Used to hack-expand full width body sections. */
+
+  /* overflow-x: hidden; <- causes issues on safari */
+
+  @media print {
+    &::after {
+      bottom: -5px;
+      content: '\00a9  2024 Gault&Millau';
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 18mm;
+    size: A4;
+  }
+
+  html, body {
+    height: 297mm;
+    width: 210mm;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $margin8;
+    page-break-inside: avoid;
+  }
+}

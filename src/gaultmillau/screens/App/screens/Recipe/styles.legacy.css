@@ -1,0 +1,79 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+
+.ContentWrapper {
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: -10px;
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid $neutralA;
+    margin-bottom: 35px;
+    margin-top: $margin24;
+    min-height: 500px;
+    padding-top: 40px;
+  }
+
+  @media print {
+    border-top: none;
+  }
+
+  ul, ol  {
+    margin: -6px 0 0;
+    @mixin ParagraphNeutralA;
+  }
+
+  li {
+    list-style-position: inside;
+    margin-bottom: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.Divider {
+  composes: Divider from 'gmHelpers.legacy.css';
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-top: 35px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.HeadlessPlaceholder {
+  height: 20px;
+}
+
+.Copyright {
+  display: none;
+
+  @media print {
+    display: block;
+    min-height: 20px;
+  }
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from 'Article/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: initial;
+    padding-bottom: initial;
+  }
+}

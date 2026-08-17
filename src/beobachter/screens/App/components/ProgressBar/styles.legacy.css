@@ -1,0 +1,14 @@
+.ProgressBar {
+  background: $black;
+  height: 2px;
+  margin-bottom: -4px;
+  position: relative;
+  top: -1px;
+  transform-origin: 0 50%;
+  width: 100%;
+
+  @media(min-width: $smBreakpoint) {
+    height: 3px;
+    margin-bottom: -5px;
+  }
+}

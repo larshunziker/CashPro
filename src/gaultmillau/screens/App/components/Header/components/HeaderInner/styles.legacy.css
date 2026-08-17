@@ -1,0 +1,173 @@
+.Wrapper {
+  overflow: hidden;
+}
+
+/* The placement of the search form was not yet decided on. */
+.FixSearchForm {
+  background-color: $white;
+  position: fixed;
+  width:100%;
+  z-index: 0;
+}
+
+.InnerWrapper {
+  background-color: $white;
+  border-bottom: 1px solid $neutralC;
+  height: 48px;
+  left: 0;
+  line-height: 1;
+  position: relative;
+  right:0;
+  top: 0;
+  transition: border-color 0.3s ease;
+
+  @media (min-width: $smBreakpoint) {
+    height: 54px;
+  }
+  
+  & .BrandWrapper {
+    opacity: 1;
+  }
+
+  &.OnHomeAndTop {
+    border-bottom: 1px solid $white;
+
+    &::after{
+      background: $gradientPrimaryA;
+      content: '';
+      height: 3px;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width:100%;
+    }
+
+    & .BrandWrapper {
+      opacity: 0;
+    }
+  }
+}
+
+.NavigationOpen {
+  position: static;
+}
+
+.HeaderLogo {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  & svg {
+    height: 100%;
+    width: 100%;
+  }
+
+  @media print {
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+.BrandWrapper {
+  display: block;
+  height: 14px;
+  margin: 0 auto;
+  position: relative;
+  transition: opacity 0.3s ease;
+  width: 93px;
+  z-index: $zIndexLow;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 120px;
+  }
+
+  @media print {
+    width: 100%;
+  }
+}
+
+.ActionGroup {
+  height: 100%;
+}
+
+.Container {
+  height: 100%;
+}
+
+.BackLink {
+  composes: ActionLink from './components/MenuItems/styles.legacy.css';
+  border: none;
+  display: none;
+  outline: none;
+  padding-left: 0;
+
+  &::before {
+    display: none;
+  }
+
+  &:hover {
+    svg {
+      fill: $primaryA;
+    }
+  }
+
+  svg {
+    height: 16px;
+    margin-right: 12px;
+    position: relative;
+    top: 3px;
+    width: 16px;
+  }
+
+  span {
+    display: none;
+  }
+}
+
+/* transitions */
+.ToggleSearchAppear {
+  opacity: 0.01;
+}
+
+.ToggleSearchAppearActive {
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+}
+
+.ToggleSearchLeave {
+  opacity: 1;
+}
+
+.ToggleSearchLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.3s ease-in;
+}
+
+.Menu {
+  align-items: center;
+  display: flex;
+
+  &.FlexEnd {
+    justify-content: flex-end;
+  }
+
+  & > button {
+    &:focus{
+      background-color: $transparent;
+      outline: none;
+    }
+  }
+}
+
+.Visible {
+  display: inline-block;
+}
+
+.UtilityOverlayWrapper {
+  composes: Container from '@grid.legacy.css';
+  position: relative;
+  top: 39px;
+}

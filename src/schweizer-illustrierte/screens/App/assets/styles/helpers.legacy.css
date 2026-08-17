@@ -1,0 +1,82 @@
+.TextNowrap {
+  white-space: nowrap !important; /* stylelint-disable-line */
+}
+
+.TextTruncate {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.TextLineHeightZero {
+  line-height: 0;
+}
+
+.TextLeft {
+  text-align: left !important; /* stylelint-disable-line */
+}
+
+.TextRight {
+  text-align: right !important; /* stylelint-disable-line */
+}
+
+.TextCenter {
+  text-align: center !important; /* stylelint-disable-line */
+}
+
+.AlignItemsCenter {
+  align-items: center;
+}
+
+.PullOutXs {
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: -$outerGapXs;
+    margin-right: -$outerGapXs;
+    width: calc(100% + $outerGapXs * 2);
+  }
+}
+
+.PullOutSm {
+  composes: SectionPullOut from '@sections.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.Margin0 {
+  margin: 0;
+}
+
+.PositionRelative {
+  position: relative;
+}
+
+@media (min-width: $mdBreakpoint) {
+  .TextLgLeft {
+    text-align: left !important; /* stylelint-disable-line */
+  }
+
+  .TextLgRight {
+    text-align: right !important; /* stylelint-disable-line */
+  }
+
+  .TextLgCenter {
+    text-align: center !important; /* stylelint-disable-line */
+  }
+}
+
+@media (min-width: $xlBreakpoint) {
+  .TextXlLeft {
+    text-align: left !important; /* stylelint-disable-line */
+  }
+
+  .TextXlRight {
+    text-align: right !important; /* stylelint-disable-line */
+  }
+
+  .TextXlCenter {
+    text-align: center !important; /* stylelint-disable-line */
+  }
+}

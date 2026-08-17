@@ -1,0 +1,207 @@
+.OuterWrapper {
+  background-color: $white;
+  box-shadow: 0 2px 8px rgb(0 0 0 / 8%);
+
+  @media print {
+    box-shadow: none;
+  }
+}
+
+:global(.branding-day) {
+  .OuterWrapper {
+    @media (min-width: $mdBreakpoint) {
+      margin: 0 auto;
+    }
+
+    @media (width >= 1200px) {
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+  height: $headerHeight;
+}
+
+.Content {
+  display: grid;
+  grid-template-columns: 32px auto 76px;
+
+  @media (min-width: $smBreakpoint) {
+    grid-template-columns: 200px auto 200px; /* Keep left & right col the same size, so the logo is centered on the page */
+  }
+}
+
+.LeftNav {
+  display: flex;
+  list-style: none;
+  margin-left: -8px; /* equal to the padding of the button */
+
+  @media print {
+    display: none;
+  }
+}
+
+.LogoWrapper {
+  align-items: center;
+  display: flex;
+  height: 50px;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+
+  @media (min-width: $smBreakpoint) {
+    cursor: default;
+    justify-content: center;
+    opacity: 0;
+
+    &.isCollapsed,
+    &.isVisible {
+      cursor: pointer;
+      opacity: 1;
+    }
+  }
+
+  @media print {
+    margin-top: -$margin40;
+  }
+}
+
+.RightNav {
+  display: flex;
+  justify-content: flex-end;
+  list-style: none;
+  margin-right: -8px; /* padding of the buttons */
+
+  @media print {
+    display: none;
+  }
+}
+
+.Action {
+  composes: Header from 'typography.legacy.css';
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  padding: 4px 8px;
+
+  &:hover {
+    background-color: $greyD;
+  }
+}
+
+.NavItem {
+  align-items: center;
+  display: flex;
+  height: $headerHeight;
+}
+
+.MenuButton {
+  composes: Action;
+
+  svg {
+    height: 18px;
+    margin-top: 1px;
+    width: 18px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 83px;  /* To avoid jump when webfont is loaded */
+  }
+
+  &.Hidden{
+    /* We hide the menu button when back button is shown */
+    @media (max-width: $xsBreakpointTo) {
+      display: none;
+    }
+  }
+}
+
+.BackButton {
+  composes: Action;
+
+  svg {
+    height: 16px;
+    width: 16px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 96px;  /* To avoid jump when webfont is loaded */
+  }
+}
+
+.SearchButton {
+  composes: Action;
+  margin-left: $margin16;
+
+  svg {
+    height: 17px;
+    width: 15px;
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.AboButton {
+  composes: HeaderWhite from 'typography.legacy.css';
+
+  background-color: $blackB;
+  border-radius: 4px;
+  padding: 4px 8px;
+  width: 49px; /* To avoid jump when webfont is loaded */
+
+  &:hover {
+    background-color: $blackA;
+  }
+
+  @media (width <= 359px) {
+    display: none;
+  }
+}
+
+.NewsletterButton {
+  composes: Action;
+  margin-left: $margin8;
+  width: 101px; /* To avoid jump when webfont is loaded */
+
+  @media (max-width: $smBreakpointTo) {
+    display: none;
+  }
+}
+
+.ActionLabel {
+  margin-left: 6px;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+.MarketingPage {
+  .Content {
+    grid-template-columns: auto;
+  }
+
+  .LeftNav,
+  .RightNav {
+    display: none;
+  }
+
+  .LogoWrapper {
+    justify-content: center;
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: Container from '@grid.legacy.css';
+  position: relative;
+  top: 53px;
+}

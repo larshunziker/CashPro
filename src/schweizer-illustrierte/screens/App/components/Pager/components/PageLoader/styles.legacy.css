@@ -1,0 +1,40 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin80;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 110px;
+  }
+}
+
+.PageLink {
+  composes: Paging from 'typography.legacy.css';
+  margin: 0 10px;
+}
+
+.PrevButton,
+.NextButton {
+  font-size: 2em;
+}
+
+.PrevButton {
+  margin: 0 $margin24 0 0;
+}
+
+.NextButton {
+  margin: 0 0 0 $margin24;
+}
+
+.Disabled {
+  cursor: not-allowed;
+}
+
+.ActiveItem {
+  composes: PagingActive from 'typography.legacy.css';
+}

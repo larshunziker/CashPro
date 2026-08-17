@@ -1,0 +1,8 @@
+.Slider {
+  position: relative;
+}
+
+.Slide {
+  overflow: hidden;
+  width: 100vw;
+}

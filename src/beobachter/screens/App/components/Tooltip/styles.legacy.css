@@ -1,0 +1,316 @@
+.Wrapper {
+  position: relative;
+}
+
+.WrapperNativeAdvertising {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: $margin8;
+
+  @media (min-width: $mdBreakpoint) {
+    justify-content: center;
+  }
+}
+
+.WrapperGuiderBox {
+  display: inline;
+  z-index: $zIndexMedium;
+}
+
+.Button {
+  composes: TeaserTitleH4White from 'typography.legacy.css';
+
+  background-color: $grey90;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  outline: none;
+  position: relative;
+  text-align: center;
+  top: 4px;
+  width: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+
+    &:hover {
+      background-color: $greyA;
+    }
+  }
+}
+
+@-moz-document url-prefix('') {
+  .Button {
+    top: 4px;
+  }
+}
+
+.ButtonText {
+  inset: 1px 0 0;
+  position: absolute;
+
+  &::after {
+    content: 'i';
+    display: block;
+    left: 50%;
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+.ButtonOpen {
+  &::after {
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    bottom: -15px;
+    content: '';
+    height: 0;
+    left: -3px;
+    margin: auto;
+    position: absolute;
+    width: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::after {
+      right: -1px;
+    }
+  }
+
+  .ButtonText {
+    top: 0;
+
+    &::after {
+      content: '\2715';
+      display: block;
+      font-size: 1.5rem;
+    }
+  }
+}
+
+.ButtonTextGuiderBox {
+  color: $greyA;
+  top: 0;
+}
+
+.ButtonOpenGuiderBox {
+  color: $greyA;
+
+  .ButtonTextGuiderBox {
+    top: -1px;
+  }
+}
+
+.TooltipWrapper {
+  position: absolute;
+  top: 39px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    top: 46px;
+  }
+}
+
+.Tooltip {
+  max-width: 480px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 10px 10px 13px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: auto;
+    max-width: 700px;
+    padding: 10px 10px 12px;
+    text-align: left;
+  }
+}
+
+.Content {
+  composes: H3SansSerifWhite from 'typography.legacy.css';
+}
+
+.Link {
+  composes: H3SansSerifWhiteBold from 'typography.legacy.css';
+  display: inherit;
+}
+
+.ButtonAdvertorial {
+  &::after {
+    border-bottom: 13px solid $grey90;
+  }
+}
+
+.TooltipWrapperGuiderBox {
+  margin-top: $margin12;
+  position: relative;
+  top: 0;
+  width: initial;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+    position: absolute;
+    top: 33px;
+    transform: translateX(46%);
+  }
+
+  .Tooltip {
+    background-color: $greyA;
+    padding: 10px 7px;
+    white-space: wrap;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 10px 13px;
+    }
+
+    a {
+      border: none;
+      color: $white;
+
+      &:hover {
+        color: $greyB;
+      }
+    }
+  }
+}
+
+.ButtonMinistage {
+  background-color: $transparent;
+  border: 1px solid $redA;
+  color: $redA;
+  margin-left: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    height: 20px;
+    line-height: 2rem;
+    position: relative;
+    top: 4px;
+    width: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    top: 2px;
+  }
+
+  &::after {
+    border-bottom: 9px solid $greyA;
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $transparent;
+  }
+}
+
+.ButtonGuiderBox {
+  background-color: $transparent;
+  border: solid 1px $greyB;
+  color: $greyA;
+  margin-left: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    height: 20px;
+    line-height: 2rem;
+    position: relative;
+    top: 4px;
+    width: 20px;
+  }
+
+  &::after {
+    border-bottom: 9px solid $greyA;
+    
+    /* hide external icon on this element */
+    content: '' !important; /* stylelint-disable-line */ 
+  }
+
+  &:hover,
+  &:focus {
+    background-color: $transparent;
+    color: $white;
+  }
+}
+
+
+.TooltipWrapperMinistage {
+  top: 34px;
+
+  @media (min-width: $smBreakpoint) {
+    top: 42px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    top: 50px;
+  }
+
+  .Tooltip {
+    background-color: $greyA;
+    padding: 10px 7px;
+    white-space: wrap;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 10px 13px;
+    }
+  }
+}
+
+.ButtonNativeAdvertising {
+  font-family: $fontSpezia;
+  height: 23px;
+  top: 0;
+  transition: background-color 0.3s;
+  width: 23px;
+
+  &:hover,
+  &.ButtonOpen {
+    background-color: $grey70;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 25px;
+    top: -1px;
+    width: 25px;
+  }
+
+  &::after {
+    border-bottom: 9px solid $black;
+  }
+}
+
+.TooltipWrapperNativeAdvertising {
+  top: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    top: 37px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: 60px;
+    top: 39px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    top: 37px;
+  }
+
+  .Tooltip {
+    background-color: $black;
+    border-radius: 4px;
+    max-width: 427px;
+    padding: 10px 12px;
+    width: fit-content;
+
+    a {
+      display: inline;
+      text-decoration: underline;
+    }
+  }
+}

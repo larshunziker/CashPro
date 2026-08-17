@@ -1,0 +1,24 @@
+.Quote {
+  composes: QuoteMain from 'typography.legacy.css';
+
+  &:first-of-type {
+    &::before {
+      background-color: $blueA;
+      content: ' ';
+      display: block;
+      height: 4px;
+      margin-bottom: $margin8;
+      width: 69px;
+    }
+  }
+}
+
+.QuoteAuthor {
+  composes: QuoteAuthor from 'typography.legacy.css';
+  margin-top: 7px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 17px;
+  }
+}

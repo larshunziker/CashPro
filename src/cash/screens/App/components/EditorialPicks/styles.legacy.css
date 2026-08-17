@@ -1,0 +1,8 @@
+.Wrapper {
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: BoxTitleSmall from '../../assets/styles/typography.legacy.css';
+  margin-bottom: $margin16;
+}

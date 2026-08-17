@@ -1,0 +1,104 @@
+.Container {
+  position: relative;
+  z-index: $zIndexHighest;
+}
+
+.AdWrapper {
+  position: absolute;
+  right: -78px;
+  width: 0;
+  z-index: 1;
+
+  &:has([class*=AdSlot][class*=adm-empty]) {
+    height: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: -28px;
+  }
+
+  &.UtilityBarPresent:not(&.MiniWidgetsPresent) {
+    top: 57px;
+  }
+
+  &.UtilityBarPresent {
+    .Children {
+      top: 165px;
+    }
+  }
+
+  &.MiniWidgetsPresent {
+    .Sticky {
+      position: relative;
+    }
+  }
+}
+
+.Children {
+  margin-top: -5px;
+  max-width: 300px;
+  min-width: 300px;
+  position: sticky;
+  top: 114px;
+  transition: top 0.3s ease-in-out;
+
+  > div {
+    margin-bottom: 4px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+:global(.status-page-404) {
+  .Children {
+    display: none;
+  }
+}
+
+:global(.branding-day) {
+  .AdWrapper {
+    @media (min-width: $xlBreakpoint) {
+      right: -24px;
+    }
+
+    @media (width >= 1800px) {
+      right: -36px;
+    }
+
+    @media (width >= 2000px) {
+      right: -50px;
+    }
+  }
+
+  .Children {
+    z-index: $zIndex10;
+    @media (min-width: $xlBreakpoint) {
+      min-width: 180px;
+    }
+
+    @media (width >= 1800px) {
+      min-width: 220px;
+    }
+
+    @media (width >= 1900px) {
+      min-width: 260px;
+    }
+
+    @media (width >= 1945px) {
+      min-width: 300px;
+    }
+  }
+}
+
+.Ad {
+  background-color: $transparent;
+  display: block;
+}
+
+.Sticky {
+  position: fixed;
+  transition: top 0.3s ease-in-out;
+  z-index: calc($zIndexHeaderAd - 1); /* should be over piano overlay */
+}

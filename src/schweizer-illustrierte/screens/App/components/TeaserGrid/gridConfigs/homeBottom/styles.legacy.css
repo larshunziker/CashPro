@@ -1,0 +1,46 @@
+.homeBottom {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(7, auto);
+    margin-bottom: $margin32;
+  }
+
+  .Item0 { grid-area: 1 / 1 / 2 / 25; }
+  .Item1 { grid-area: 2 / 1 / 3 / 25; }
+  .Item2 { grid-area: 3 / 1 / 4 / 25; }
+  .Item3 { grid-area: 4 / 1 / 5 / 25; }
+  .Item4 { grid-area: 5 / 1 / 6 / 25; }
+  .Item5 { grid-area: 6 / 1 / 7 / 25; }
+  .Item6 { grid-area: 7 / 1 / 8 / 25; }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-row-gap: $margin40;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(3, auto);
+    }
+    
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 7; }
+    .Item2 { grid-area: 2 / 7 / 3 / 13; }
+    .Item3 { grid-area: 2 / 13 / 3 / 19; }
+    .Item4 { grid-area: 2 / 19 / 3 / 25; }
+    .Item5 { grid-area: 3 / 1 / 4 / 13; }
+    .Item6 { grid-area: 3 / 13 / 4 / 25; }
+  }
+
+  /* Desktop */
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+      grid-row-gap: 50px;
+    }
+  }
+}

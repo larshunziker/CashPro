@@ -1,0 +1,152 @@
+{
+  "component": "teaser/layout-secondary",
+  "node": {
+    "id": "bm9kZToyMzYzNw==",
+    "title": "Technology",
+    "contentSourceValue": "manual",
+    "items": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToyMjY2MQ==",
+            "restrictionStatus": "paid",
+            "title": "Hello world! :) I'm also sticky and I have an extraextraextralonglonglong word",
+            "preferredUri": "/tech/digital-switzerland/hello-world-im-also-sticky-and-i-have-extraextraextralonglonglong-word",
+            "publication": "handelszeitung",
+            "subtypeValue": "headless",
+            "__typename": "Article"
+          },
+          "__typename": "NodeInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToz",
+            "restrictionStatus": null,
+            "title": "Komplementärmedizin: Mit Beratern finden Sie Ihr Naturheil",
+            "preferredUri": "https://www.beobachter.ch/gesundheit/komplementarmedizin-mit-beratern-finden-sie-ihr-naturheil-0",
+            "publication": null,
+            "subtypeValue": null,
+            "__typename": "Article"
+          },
+          "__typename": "NodeInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxMw==",
+            "restrictionStatus": null,
+            "title": "Prominente Galabesucher zur Wahl",
+            "preferredUri": "https://www.beobachter.ch/prominente-galabesucher-zur-wahl-0",
+            "publication": null,
+            "subtypeValue": null,
+            "__typename": "Article"
+          },
+          "__typename": "NodeInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOQ==",
+            "restrictionStatus": null,
+            "title": "PC: Sicherheitsrisiko Passwort",
+            "preferredUri": "https://www.beobachter.ch/pc-sicherheitsrisiko-passwort-0",
+            "publication": null,
+            "subtypeValue": null,
+            "__typename": "Article"
+          },
+          "__typename": "NodeInterfaceEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToyODcy",
+            "restrictionStatus": null,
+            "title": "WWF und Pro Natura gehen vor Gericht",
+            "preferredUri": "https://www.beobachter.ch/natur-umweltschutz/wolfsabschusse-wwf-und-pro-natura-gehen-vor-gericht",
+            "publication": null,
+            "subtypeValue": null,
+            "__typename": "Article"
+          },
+          "__typename": "NodeInterfaceEdge"
+        }
+      ],
+      "__typename": "NodeInterfaceConnection"
+    },
+    "__typename": "ContentBox",
+    "createDate": "",
+    "shortTitle": "",
+    "teaserImage": null,
+    "preferredUri": ""
+  },
+  "id": "bm9kZToyMzYzNw==",
+  "title": "Technology",
+  "contentSourceValue": "manual",
+  "items": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToyMjY2MQ==",
+          "restrictionStatus": "paid",
+          "title": "Hello world! :) I'm also sticky and I have an extraextraextralonglonglong word",
+          "preferredUri": "/tech/digital-switzerland/hello-world-im-also-sticky-and-i-have-extraextraextralonglonglong-word",
+          "publication": "handelszeitung",
+          "subtypeValue": "headless",
+          "__typename": "Article"
+        },
+        "__typename": "NodeInterfaceEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToz",
+          "restrictionStatus": null,
+          "title": "Komplementärmedizin: Mit Beratern finden Sie Ihr Naturheil",
+          "preferredUri": "https://www.beobachter.ch/gesundheit/komplementarmedizin-mit-beratern-finden-sie-ihr-naturheil-0",
+          "publication": null,
+          "subtypeValue": null,
+          "__typename": "Article"
+        },
+        "__typename": "NodeInterfaceEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxMw==",
+          "restrictionStatus": null,
+          "title": "Prominente Galabesucher zur Wahl",
+          "preferredUri": "https://www.beobachter.ch/prominente-galabesucher-zur-wahl-0",
+          "publication": null,
+          "subtypeValue": null,
+          "__typename": "Article"
+        },
+        "__typename": "NodeInterfaceEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOQ==",
+          "restrictionStatus": null,
+          "title": "PC: Sicherheitsrisiko Passwort",
+          "preferredUri": "https://www.beobachter.ch/pc-sicherheitsrisiko-passwort-0",
+          "publication": null,
+          "subtypeValue": null,
+          "__typename": "Article"
+        },
+        "__typename": "NodeInterfaceEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToyODcy",
+          "restrictionStatus": null,
+          "title": "WWF und Pro Natura gehen vor Gericht",
+          "preferredUri": "https://www.beobachter.ch/natur-umweltschutz/wolfsabschusse-wwf-und-pro-natura-gehen-vor-gericht",
+          "publication": null,
+          "subtypeValue": null,
+          "__typename": "Article"
+        },
+        "__typename": "NodeInterfaceEdge"
+      }
+    ],
+    "__typename": "NodeInterfaceConnection"
+  },
+  "__typename": "ContentBox",
+  "createDate": "",
+  "shortTitle": "",
+  "teaserImage": null,
+  "preferredUri": "",
+  "viewportLabel": "viewport/xl"
+}

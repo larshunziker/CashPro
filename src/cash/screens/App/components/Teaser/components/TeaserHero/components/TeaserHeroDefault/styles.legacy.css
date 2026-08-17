@@ -1,0 +1,114 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  background-color: $white;
+  display: block;
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+  }
+}
+
+.Left,
+.Right {
+  @media (min-width: $smBreakpoint) and (max-width: $smBreakpointTo) {
+    width: 50%;
+  }
+}
+
+.Left {
+  line-height: 0;
+  position: relative;
+}
+
+.Right {
+  @media (min-width: $smBreakpoint) and (max-width: $smBreakpointTo) {
+    margin-left: $gridGutterWidthMd;
+  }
+
+  .TeaserTitleWrapper {
+    margin-bottom: $margin8;
+
+    @media (min-width: $smBreakpoint) {
+      padding-top: 0;
+    }
+  }
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin H2;
+  }
+}
+
+.Lead {
+  composes: TeaserLead from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+  display: inline-table;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  
+}
+
+.BottomLine:nth-of-type(2) {
+  display: inline;
+}
+
+.BottomLine:nth-of-type(2)::before {
+  content: '\2000|\2000';
+}
+
+.Icon {
+  bottom: 19px;
+  position: absolute;
+  right: 23px;
+  z-index: 1;
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 20px;
+    right: 20px;
+  }
+}
+
+.Image {
+  height: auto;
+  margin-bottom: $margin8;
+  width: 100%;
+}
+
+.Badge {
+  bottom: 19px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 35px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleB from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin8;
+}

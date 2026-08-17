@@ -1,0 +1,36 @@
+.Wrapper {
+  color: $secondaryA;
+  display: inline-block;
+  position: relative;
+  white-space: break-spaces;
+  word-break: auto-phrase;
+
+  &:hover {
+    cursor: pointer;
+
+    .TriangleButton {
+      display: inline-block;
+    }
+  }
+}
+
+.TriangleButton {
+  border-color: $transparent $transparent $secondaryA;
+  border-style: solid;
+  border-width: 0 3px 5px;
+  display: none;
+  height: 0;
+  position: absolute;
+  right: -8px;
+  top: 5px;
+  transform: rotate(0deg);
+  width: 0;
+}
+
+.IsActive {
+  display: inline-block;
+}
+
+.IsDesc {
+  transform: rotate(180deg);
+}

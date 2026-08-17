@@ -1,0 +1,27 @@
+@import url('./onetrustConsent.legacy.css');
+@import url('./onetrustPc.legacy.css');
+@import url('./onetrustPcList.legacy.css');
+
+:global(#onetrust-consent-sdk *), :global(#onetrust-consent-sdk #onetrust-pc-sdk *) {
+  box-sizing: border-box;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk div[role='dialog']:has(#ot-pc-content.ot-hide)) {
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+  height: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk div[role='dialog']:has(#ot-pc-lst .ot-pgph-contr)) {
+  grid-template-rows: auto 1fr;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk div[role='dialog']:has(#ot-pc-lst .ot-pgph-contr) #ot-pc-hdr) {
+  flex: 0 1 auto;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk div[role='dialog']:has(#ot-pc-lst.ot-hide)) {
+  display: grid;
+  grid-template-rows: auto auto auto auto;
+  height: 100%;
+}

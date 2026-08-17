@@ -1,0 +1,13 @@
+.LoginFormWrapper {
+  margin-bottom: 20px;
+  width: 100%;
+}
+
+.ButtonWrapper {
+  display: inline-block;
+}
+
+.Message {
+  @mixin ParagraphBold;
+  margin-bottom: 20px;
+}

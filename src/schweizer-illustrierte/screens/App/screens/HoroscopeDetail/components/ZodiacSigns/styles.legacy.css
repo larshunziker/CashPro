@@ -1,0 +1,94 @@
+.IconList {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+
+.IconWrapper {
+  $circleSizeXs: 45px;
+  $circleSizeXl: 50px;
+  border-radius: 50%;
+  height: $circleSizeXs;
+  list-style: none;
+  overflow: hidden;
+  width: $circleSizeXs;
+
+  @media (min-width: $xlBreakpoint) {
+    height: $circleSizeXl;
+    width: $circleSizeXl;
+  }
+}
+
+.Icon {
+  align-items: center;
+  background: $white;
+  border: 1px solid $redA;
+  border-radius: 50%;
+  color: $redA;
+  display: inline-flex;
+  font-size: 4.5rem;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  transition: color 0.3s, background 0.3s, border-color 0.3s;
+  width: 100%;
+  z-index: $zIndex1;
+
+  &::before {
+    background: $gradientRed2;
+    border-radius: 50%;
+    content: '';
+    display: block;
+    height: calc(100% + 3px);
+    left: -1px;
+    opacity: 0;
+    position: absolute;
+    top: -1px;
+    transition: opacity 0.3s;
+    width: calc(100% + 3px);
+    z-index: $zIndexBehindContent;
+  }
+
+  &.Yearly {
+    border: 1px solid $lila;
+    color: $lila;
+
+    &::before {
+      background: $gradientHoro;
+    }
+  }
+
+  &.Active,
+  &:hover {
+    border-color: $transparent;
+    color: $white;
+
+    &::before {
+      opacity: 1;
+    }
+  }
+
+  &:focus {
+    background-color: $transparent;
+  }
+
+  @media (hover: none) {
+    &:not(.Active):hover {
+      border-color: $redA;
+      color: $redA;
+
+      &.Yearly {
+        border-color: $lila;
+        color: $lila;
+      }
+
+      &::before {
+        opacity: 0;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+  }
+}

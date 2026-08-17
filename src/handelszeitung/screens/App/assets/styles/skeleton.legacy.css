@@ -1,0 +1,59 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  font-size: 62.5%;
+
+  /* avoid weird font-size scaling on iOS landscape */
+  -webkit-text-size-adjust: 100%; /* stylelint-disable-line */
+}
+
+html,
+* {
+  scroll-margin-top: $headerHeight;
+}
+
+body {
+  color: $blackA;
+  font-family: $fontGeorgia;
+  font-size: 1.4em;
+  -webkit-font-smoothing: antialiased;
+  font-weight: 300;
+  line-height: $bodyLineHeight;
+  overflow-anchor: none;
+
+  /* Used to hack-expand full width body sections. */
+
+  /* overflow-x: hidden; <- causes issues on safari */
+
+  @media print {
+    &::after {
+      bottom: -5px;
+      content: '\00a9  2024 Handelszeitung';
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 18mm;
+    size: A4;
+  }
+
+  html, body {
+    height: 297mm;
+    width: 210mm;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $margin8;
+    page-break-inside: avoid;
+  }
+}

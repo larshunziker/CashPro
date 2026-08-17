@@ -1,0 +1,143 @@
+.Wrapper {
+  position: relative;
+}
+
+.Slider {
+  display: flex !important; /* stylelint-disable-line */
+  overflow-x: hidden !important; /* stylelint-disable-line */
+}
+
+.Slide {
+  @mixin aspectRatio3x2;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 350px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 396px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    max-height: 400px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 596px;
+  }
+}
+
+.SliderWrapper {
+  height: 100%;
+  position: relative;
+}
+
+.ImageWrapper {
+  display: flex;
+  height: 100%;
+  max-width: 100%;
+  position: relative;
+  transition: opacity .2s ease-in-out;
+  width: 100%;
+
+  &::before {
+    background-color: $greyE;
+    content: '';
+    inset: 0;
+    padding-top: 100%;
+    position: absolute;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $greyE;
+    position: relative;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.Title {
+  composes: Subtitle from 'typography.legacy.css';
+  padding-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 32px;
+  }
+}
+
+.Image {
+  height: auto;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  position: absolute !important; /* stylelint-disable-line */
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    object-fit: fill;
+    width: auto;
+  }
+}
+
+.InactiveSlide {
+  overflow-x: hidden;
+}
+
+.PrevButton {
+  left: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    left: 5px;
+  }
+}
+
+.NextButton {
+  right: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    right: 5px;
+  }
+}
+
+.NextButton,
+.PrevButton {
+  /* stylelint-disable-next-line sh-waqar/declaration-use-variable */
+  background-color: rgb(255 255 255 / 50%);
+  border: none;
+  border-radius: 50%;
+  color: $blueA;
+  display: flex;
+  outline: none;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+
+  i {
+    font-size: 3rem;
+  }
+  
+  @media print {
+    display: none;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}

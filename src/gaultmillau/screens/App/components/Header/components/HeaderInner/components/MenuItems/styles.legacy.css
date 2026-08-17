@@ -1,0 +1,90 @@
+.ActionLink {
+  composes: NaviNeutralA from 'typography.legacy.css';
+  background-color: $transparent;
+  border: none;
+  cursor: pointer;
+  height: 15px;
+  margin-left: 4px; /* this compensates for the ::before */
+  margin-right: 5px;
+  margin-top: 2px;
+  padding-left: 14px;
+  position: relative;
+
+  &::before {
+    background: $black;
+    content: '';
+    height: 1px;
+    left: -4px;
+    position: absolute;
+    top: 7px;
+    transform: rotateZ(-58deg);
+    width: 14px;
+
+    @media (min-width: $smBreakpoint) {
+      left: -6px;
+      top: 7px;
+      transform: rotateZ(-60deg);
+      width: 26px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      top: 20px;
+    }
+  }
+
+  &:hover {
+    color: $primaryB;
+
+    &::before {
+      background: $primaryB;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 27px;
+    margin-top: 0;
+    padding-left: 24px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 42px;
+    line-height: 42px;
+    margin-right: 18px; 
+  }
+}
+
+.ActionLinkRight {
+  float: right;
+  margin-left: 4px;
+  margin-right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 24px;
+  }
+}
+
+.ActiveLink {
+  color: $primaryA;
+
+  &::after {
+    background: $gradientPrimaryA;
+  }
+}
+
+.CloseButton {
+  background-color: $transparent;
+  border: none;
+  color: $neutralA;
+  cursor: pointer;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  padding-left: 0;
+
+  &:hover {
+    color: $primaryB;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.5rem;
+  }
+}

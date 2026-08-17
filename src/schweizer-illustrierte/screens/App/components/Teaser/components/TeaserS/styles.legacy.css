@@ -1,0 +1,216 @@
+/*
+ * The short title and title elements will stretch the size of their container
+ * on mobile devices if they contain very long words. This might have something
+ * to do with the width being set to "calc(100% - 125px);". To keep it in check
+ * we've had to resort to dark magic, since various flexbox-y approaches didn't
+ * solve the issue.
+ */
+.MobileTextWrapFence {
+  @media (max-width: $xsBreakpointTo) {
+    display: table;
+    table-layout: fixed;
+    width: 100%;
+  }
+}
+
+.Wrapper {
+  display: inline-block;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    width: 100%;
+  }
+
+  &:hover {
+    .TitleSY span {
+      border-bottom-color: $skin;
+    }
+
+    .TitleSI span {
+      border-bottom-color: $redA;
+    }
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  max-width: 115px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 100%;
+  }
+}
+
+.ImageWrapper {
+  float: left;
+  height: auto;
+  margin-right: 9px;
+  max-width: 115px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+    margin-bottom: 12px;
+    margin-right: 0;
+    max-width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 18px;
+  }
+}
+
+.ContentWrapper {
+  float: left;
+  width: calc(100% - 125px);
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    width: 100%;
+  }
+}
+
+.ContentWrapperSY {
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Title {
+  composes: MobileTextWrapFence;
+
+  &.IsBlack {
+    color: $white;
+  }
+
+  span {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.TitleSI {
+  composes: Heading3A from 'typography.legacy.css';
+}
+
+.TitleSY {
+  composes: Heading3ASY from 'typographySY.legacy.css';
+}
+
+.ShortTitle {
+  composes: MobileTextWrapFence;
+
+  &.IsBlack {
+    color: $white;
+  }
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  margin-bottom: 5px;
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch2SY from 'typographySY.legacy.css';
+  margin-bottom: 1px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 3px;
+  }
+}
+
+.Badge {
+  position: absolute;
+  right: calc(100% - 115px);
+  top: -7px;
+  white-space: nowrap;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    right: 0;
+  }
+}
+
+.BadgePositionBottom {
+  bottom: -7px;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -10px;
+  }
+}
+
+.ArrowButtonAddClass {
+  @media (min-width: $smBreakpoint) {
+    /* has to be in px because its used inside the ArrowButton component */
+    font-size: 14px;
+  }
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+  bottom: 0;
+
+  &::before {
+    bottom: 5px;
+    left: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 15px;
+      left: 15px;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 100%;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+}
+
+.SkeletonContentWrapper {
+  height: 60px;
+  position: relative;
+}
+
+.SkeletonShortTitle,
+.SkeletonTitle {
+  background: $grayPlaceholder;
+  border-radius: 3px;
+  height: 17px;
+  left: 0;
+  position: absolute;
+}
+
+.SkeletonShortTitle {
+  max-width: 120px;
+  top: 0;
+  width: calc(100% - 70px);
+}
+
+.SkeletonTitle {
+  max-width: 200px;
+  top: 30px;
+  width: calc(100% - 20px);
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

@@ -1,0 +1,9 @@
+.Wrapper {
+  align-content: center;
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 40vh;
+}

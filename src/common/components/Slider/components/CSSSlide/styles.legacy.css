@@ -1,0 +1,19 @@
+.Slide {
+  position: absolute;
+  transition: transform 0.5s, opacity 0.5s;
+  transition-timing-function: cubic-bezier(0.19, 1, 0.22, 1);
+  will-change: transform;
+
+  @media print {
+    max-width: 100%;
+  }
+}
+
+.NoAnimation {
+  transition: none;
+  will-change: none;
+}
+
+.ActiveSlide {
+  z-index: $zIndexMedium;
+}

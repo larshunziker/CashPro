@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Screen] LandingPageOtherPublications Should render SV Home correctly 1`] = `
+<div
+  class="Container"
+  data-testid="teaser-grid-title-wrapper"
+>
+  <h2
+    class="TeaserGridTitle"
+  >
+    Alle Artikel
+  </h2>
+</div>
+`;

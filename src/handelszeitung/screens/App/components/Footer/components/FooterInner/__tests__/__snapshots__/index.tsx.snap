@@ -1,0 +1,169 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] FooterInner Should call auth service when clicking on login button 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation HideForPrint"
+  >
+    <div
+      class="Title"
+    >
+      Services
+    </div>
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+        data-testid="footer-inner-ringier-connect-item"
+      >
+        <button
+          class="LinkButton"
+          data-testid="footer-inner-auth-button"
+        >
+          Anmelden
+        </button>
+      </li>
+      <li
+        class="ListItem"
+      >
+        Multimedia
+      </li>
+      <li
+        class="ListItem"
+      >
+        Sicherheit
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should not render auth link in menus other than Services 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation HideForPrint"
+  >
+    <div
+      class="Title"
+    >
+      Kontakt
+    </div>
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        Multimedia
+      </li>
+      <li
+        class="ListItem"
+      >
+        Sicherheit
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should not render subtree items without label 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation HideForPrint"
+  >
+    <div
+      class="Title"
+    />
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        Multimedia
+      </li>
+      <li
+        class="ListItem"
+      >
+        Sicherheit
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render footer items correctly when authenticated 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation HideForPrint"
+  >
+    <div
+      class="Title"
+    >
+      Services
+    </div>
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+        data-testid="footer-inner-ringier-connect-item"
+      >
+        Mein Profil
+      </li>
+      <li
+        class="ListItem"
+      >
+        Multimedia
+      </li>
+      <li
+        class="ListItem"
+      >
+        Sicherheit
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render footer items correctly when not authenticated 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation HideForPrint"
+  >
+    <div
+      class="Title"
+    >
+      Services
+    </div>
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+        data-testid="footer-inner-ringier-connect-item"
+      >
+        <button
+          class="LinkButton"
+          data-testid="footer-inner-auth-button"
+        >
+          Anmelden
+        </button>
+      </li>
+      <li
+        class="ListItem"
+      >
+        Multimedia
+      </li>
+      <li
+        class="ListItem"
+      >
+        Sicherheit
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render nothing 1`] = `<div />`;

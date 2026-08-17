@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Toast - ToastContent Should return style for toastType  1`] = `
+{
+  "CloseButton": "CloseButton",
+  "CloseIcon": "CloseIcon",
+  "Content": "Content",
+  "ContentWrapper": "ContentWrapper",
+  "Link": "Link",
+  "ToastIcon": "ToastIcon",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Toast - ToastContent Should return style for toastType null 1`] = `
+{
+  "CloseButton": "CloseButton",
+  "CloseIcon": "CloseIcon",
+  "Content": "Content",
+  "ContentWrapper": "ContentWrapper",
+  "Link": "Link",
+  "ToastIcon": "ToastIcon",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Toast - ToastContent Should return style for toastType toast-content/type-error 1`] = `
+{
+  "CloseButton": "CloseButton",
+  "CloseIcon": "CloseIcon",
+  "Content": "Content",
+  "ContentWrapper": "ContentWrapper",
+  "Link": "Link",
+  "ToastIcon": "ToastIcon",
+  "Wrapper": "Wrapper WrapperError",
+}
+`;
+
+exports[`[Component] Toast - ToastContent Should return style for toastType toast-content/type-success 1`] = `
+{
+  "CloseButton": "CloseButton",
+  "CloseIcon": "CloseIcon",
+  "Content": "Content",
+  "ContentWrapper": "ContentWrapper",
+  "Link": "Link",
+  "ToastIcon": "ToastIcon",
+  "Wrapper": "Wrapper WrapperSuccess",
+}
+`;
+
+exports[`[Component] Toast - ToastContent Should return style for toastType toast-content/type-warning 1`] = `
+{
+  "CloseButton": "CloseButton",
+  "CloseIcon": "CloseIcon",
+  "Content": "Content",
+  "ContentWrapper": "ContentWrapper",
+  "Link": "Link",
+  "ToastIcon": "ToastIcon",
+  "Wrapper": "Wrapper WrapperWarning",
+}
+`;

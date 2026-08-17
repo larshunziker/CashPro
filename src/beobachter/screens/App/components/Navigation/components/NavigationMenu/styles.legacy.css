@@ -1,0 +1,59 @@
+.NavigationMenuWrapper {
+  background: $white;
+  inset: 0;
+  overflow: auto;
+  position: absolute;
+  width: 100vw;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.NavigationHeader {
+  align-items: center;
+  border-bottom: 1px solid $grey20;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  padding: 10px 19px;
+}
+
+.LogoWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.Logo {
+  height: 100%;
+  margin-top: -2px;
+  width: 126px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+  }
+}
+
+.Icon {
+  align-items: center;
+  background: none;
+  border: 0;
+  color: $grey80;
+  cursor: pointer;
+  display: flex;
+  font-size: 2.2rem;
+  line-height: 1;
+  outline: none;
+  padding: 0;
+  transition: color .3s ease-in-out;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+.Content {
+  height: calc(100% - 50px);
+  overflow-y: scroll;
+}

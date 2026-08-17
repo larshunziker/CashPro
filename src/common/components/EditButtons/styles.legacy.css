@@ -1,0 +1,51 @@
+.Wrapper {
+  background: $lightgray;
+  border-radius: 4px;
+  font-family: $fontSansSerif;
+  font-size: $bodyFontSize;
+  font-weight: 400;
+}
+
+.WrapperInner {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+}
+
+.ListWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  text-align: right;
+}
+
+.ListItem,
+.CloseButtonWrapper {
+  color: $white;
+  display: inline-block;
+  list-style: none;
+}
+
+.CloseButtonWrapper {
+  vertical-align: middle;
+
+  .CloseButton {
+    appearance: none;
+    background-color: $transparent;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    line-height: 2.5rem;
+    margin: $smallMargin;
+    min-height: 25px;
+    min-width: 25px;
+  }
+}
+
+.Link {
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  margin-right: $smallMargin;
+}

@@ -1,0 +1,11 @@
+FROM python:3.7
+
+RUN python3 -m pip install locustio
+
+RUN mkdir /scripts
+WORKDIR /scripts
+
+EXPOSE 8089
+
+ENTRYPOINT ["locust"]
+CMD []

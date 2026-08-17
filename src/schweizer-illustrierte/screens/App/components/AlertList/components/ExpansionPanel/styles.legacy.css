@@ -1,0 +1,69 @@
+.ExpansionPanel {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  width: 100%;
+
+  .HeaderCentered {
+    align-items: center;
+    background: $transparent;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    margin-top: -8px;
+    outline: none;
+    padding: 12px 0;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: -12px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &:hover {
+        .HeaderIcon {
+          color: $redA;
+        }
+      }
+    }
+  }
+
+  .HeaderContent {
+    align-items: center;
+    color: $grayD;
+    display: flex;
+    font-family: $fontBague;
+    font-size: 1.4rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+  }
+
+  .HeaderContentThemeLight {
+    color: $white;
+  }
+
+  .HeaderIcon {
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    margin-left: $margin4;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .IconOpenState {
+    transform: rotate(180deg);
+  }
+
+  .Content {
+    background-color: $transparent;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    margin-bottom: 5px;
+    overflow: hidden;
+    position: relative;
+  }
+}

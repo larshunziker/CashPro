@@ -1,0 +1,38 @@
+.KeywordListItem {
+  border-bottom: 1px solid $grey30;
+  padding-bottom: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin24;
+  }
+
+  &:not(:last-child) {
+    margin-bottom: $margin24;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin32;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin48;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.Label {
+  composes: SubheadXL from 'typography.legacy.css';
+
+  color: $black;
+  display: block;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}

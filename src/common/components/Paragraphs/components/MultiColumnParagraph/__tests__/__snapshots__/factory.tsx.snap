@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 0 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 1 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 2 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 3 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 4 1`] = `
+<div>
+  <div
+    class="ContainerClass paragraph multi-column-paragraph"
+  >
+    <div
+      class="RowClass"
+    >
+      <div
+        class="grid.ColSm8"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193360
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+      <div
+        class="grid.ColSm8"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193361
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+      <div
+        class="grid.ColSm8"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193362
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 5 1`] = `
+<div>
+  <div
+    class="ContainerClass paragraph multi-column-paragraph"
+  >
+    <div
+      class="RowClass"
+    >
+      <div
+        class="grid.ColSm12"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193360
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+      <div
+        class="grid.ColSm12"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193361
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+      <div
+        class="grid.ColSm12"
+        data-testid="multi-column-paragraph"
+      >
+        <div
+          data-testid="multicolumn-sparagraphs-renderer"
+        >
+          193362
+           - 
+          MultiColumnParagraph
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

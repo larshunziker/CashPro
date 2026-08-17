@@ -1,0 +1,35 @@
+User-agent: *
+Disallow: /suche/
+Disallow: /fr/search/
+Disallow: /authorize/
+Disallow: /logout/
+Disallow: /profile/
+Disallow: /group/*/content/
+Disallow: /node/
+Disallow: /_/
+Disallow: /static/js/
+Disallow: /assets/*.js
+
+# Sitemaps
+Sitemap: https://www.gaultmillau.ch/sitemap.xml
+Sitemap: https://www.gaultmillau.ch/sitemap-authors.xml
+Sitemap: https://www.gaultmillau.ch/sitemap-articles-time-limited-index.xml
+Sitemap: https://www.gaultmillau.ch/sitemap-news.xml
+Sitemap: https://www.gaultmillau.ch/image-sitemap.xml
+
+Sitemap: https://www.gaultmillau.ch/fr/sitemap.xml
+Sitemap: https://www.gaultmillau.ch/fr/sitemap-authors.xml
+Sitemap: https://www.gaultmillau.ch/fr/sitemap-articles-time-limited-index.xml
+Sitemap: https://www.gaultmillau.ch/fr/sitemap-news.xml
+Sitemap: https://www.gaultmillau.ch/fr/image-sitemap.xml
+
+# Parameters
+Disallow: *?*email_address=
+Disallow: *?*form_build_id=
+Disallow: *?*form_id=
+Disallow: *?*search_form_block=
+Disallow: *?*view_dom_id=
+Disallow: *?*pkBerichtNr=
+Disallow: *?*$Version=*
+Disallow: *?*$Path=*
+Disallow: *?*_ptid=*

@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`NavigationBar should render button correctly 1`] = `
+<div
+  class="Menu"
+  data-testid="menu"
+>
+  <button
+    class="AllContents"
+    data-testid="menu-button"
+  >
+    <div
+      class="Wrapper Icon"
+      type="svg-icons/type/menu"
+    />
+    <span
+      class="HiddenSmDown AllContentsLabel"
+    >
+      Menü
+    </span>
+  </button>
+  <div
+    class="MainLinks"
+  >
+    <button
+      class="IconButton Hide"
+    >
+      <div
+        class="Wrapper Icon"
+        type="svg-icons/type/chevron-left"
+      />
+    </button>
+    <div
+      class="Links"
+    >
+      <span>
+        <a
+          class="Link"
+          data-testid="mocked-link"
+          href="/arbeit"
+        >
+          Arbeit
+        </a>
+      </span>
+    </div>
+    <button
+      class="IconButton IconRight Hide"
+    >
+      <div
+        class="Wrapper Icon"
+        type="svg-icons/type/chevron-right"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`NavigationBar should render correctly 1`] = `
+<div>
+  <div
+    class="HomeNavigation HideForPrint"
+  >
+    <div
+      class="Container NavContainer"
+    >
+      <nav
+        class="Bar"
+      >
+        <div
+          class="Menu"
+          data-testid="menu"
+        >
+          <button
+            class="AllContents"
+            data-testid="menu-button"
+          >
+            <div
+              class="Wrapper Icon"
+              type="svg-icons/type/menu"
+            />
+            <span
+              class="HiddenSmDown AllContentsLabel"
+            >
+              Menü
+            </span>
+          </button>
+          <div
+            class="MainLinks"
+          >
+            <button
+              class="IconButton Hide"
+            >
+              <div
+                class="Wrapper Icon"
+                type="svg-icons/type/chevron-left"
+              />
+            </button>
+            <div
+              class="Links"
+            >
+              <span>
+                <a
+                  class="Link"
+                  data-testid="mocked-link"
+                  href="/arbeit"
+                >
+                  Arbeit
+                </a>
+              </span>
+            </div>
+            <button
+              class="IconButton IconRight Hide"
+            >
+              <div
+                class="Wrapper Icon"
+                type="svg-icons/type/chevron-right"
+              />
+            </button>
+          </div>
+        </div>
+        <div
+          class="UtilityHeaderBar HiddenSmDown"
+        />
+      </nav>
+    </div>
+    <div
+      class="utility-bar-wrapper UtilityBarWrapper HideForPrint"
+    >
+      <div
+        id="utility-bar-overlay"
+      />
+    </div>
+  </div>
+</div>
+`;

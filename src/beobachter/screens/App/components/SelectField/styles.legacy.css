@@ -1,0 +1,82 @@
+.SelectField {
+  composes: SelectFieldDescription from 'typography.legacy.css';
+  background-color: $greyC;
+  border-bottom: 1px solid $greyB;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+  cursor: pointer;
+  display: block;
+  margin: $margin24 0 0;
+  outline: none;
+  padding: 6px 8px 4px;
+  text-align: left;
+  width: 100%;
+}
+
+.SelectFieldIcon {
+  color: color($greyA a(70%));
+  float: right;
+  font-size: 1.3rem;
+  letter-spacing: -0.9px;
+  margin-top: 7px;
+  pointer-events: none;
+}
+
+.MobileIcon {
+  font-size: 1.7rem;
+  position: relative;
+  right: 6px;
+  top: -28px;
+}
+
+.HasError {
+  border-color: $redA;
+  color: $redA;
+}
+
+.ErrorMessage {
+  color: $redA;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1rem;
+  font-weight: 400;
+  height: 0;
+  line-height: 1.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 2;
+  }
+}
+
+.OptionItemsWrapper {
+  background-color: $greyC;
+  box-shadow: 3px 3px 20px $greyA;
+  display: block;
+  margin-left: -5px;
+  margin-right: -5px;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 13px 33px;
+  position: absolute;
+  width: calc(100% + 10px);
+  z-index: 1;
+}
+
+.OptionItem {
+  composes: SelectFieldOption from 'typography.legacy.css';
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: block;
+  height: 30px;
+  outline: none;
+  padding: 0;
+  text-align: left;
+  width: 100%;
+
+  &:hover {
+    color: $redA;
+  }
+}

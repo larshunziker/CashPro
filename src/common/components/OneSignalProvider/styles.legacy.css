@@ -1,0 +1,53 @@
+/*
+ * OneSignal notification bell dialog — Safari fix (shared across all publications).
+ *
+ * OneSignal v16 positions the bell's click dialog (an open `popover` in the top
+ * layer) with the CSS Anchor Positioning API:
+ *   .onesignal-bell-launcher-button { anchor-name: --bell-button; }
+ *   .onesignal-bell-launcher-dialog { position: fixed; inset: auto;
+ *                                     position-anchor: --bell-button; }
+ *   .onesignal-bell-launcher-bottom-right .onesignal-bell-launcher-dialog {
+ *                                     bottom: anchor(top); right: anchor(right); }
+ *
+ * Anchor positioning only shipped in Safari 26; on Safari <= 18 the `anchor()`
+ * insets are invalid and dropped, leaving the popover with `inset: auto`, so it
+ * detaches from the bell and renders in the wrong place. The bell button uses
+ * normal positioning, so only the dialog is affected.
+ *
+ * We can't rely on `@supports (anchor-name)`: some Safari builds parse the
+ * property without supporting `anchor()`, giving a false positive. Instead we
+ * re-pin the popover unconditionally — the bell is always bottom/right: 20px and
+ * `--bell-size` tall (default 48px), so these explicit insets reproduce the
+ * exact placement Chrome/Safari 26+ derive from anchor positioning. The
+ * `:popover-open` pseudo raises specificity so we win regardless of the order in
+ * which OneSignal injects its runtime stylesheet, and `var(--bell-size, 48px)`
+ * guards against the custom property not inheriting onto the top-layer popover.
+ *
+ * Colocated with OneSignalProvider so any publication rendering the provider
+ * gets the fix automatically.
+ */
+/* stylelint-disable-next-line */
+:global(#onesignal-bell-container.onesignal-reset .onesignal-bell-launcher.onesignal-bell-launcher-bottom-right .onesignal-bell-launcher-dialog:popover-open) {
+  position: fixed;
+  /* stylelint-disable-next-line */
+  top: auto;
+  /* stylelint-disable-next-line */
+  left: auto;
+  /* stylelint-disable-next-line */
+  right: 20px;
+  /* stylelint-disable-next-line */
+  bottom: calc(20px + var(--bell-size, 48px));
+}
+
+/* stylelint-disable-next-line */
+:global(#onesignal-bell-container.onesignal-reset .onesignal-bell-launcher.onesignal-bell-launcher-bottom-left .onesignal-bell-launcher-dialog:popover-open) {
+  position: fixed;
+  /* stylelint-disable-next-line */
+  top: auto;
+  /* stylelint-disable-next-line */
+  right: auto;
+  /* stylelint-disable-next-line */
+  left: 20px;
+  /* stylelint-disable-next-line */
+  bottom: calc(20px + var(--bell-size, 48px));
+}

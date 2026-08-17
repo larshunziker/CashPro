@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TableRow Should render TableRow with type "portfolio"  1`] = `
+<div>
+  <tr
+    class=""
+  >
+    <td
+      class="Sticky"
+    >
+      <div>
+        "ams-OSRAM I"
+      </div>
+    </td>
+    <td
+      class=""
+    >
+      –
+    </td>
+    <td
+      class=""
+    >
+      <a
+        class="Toggle"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronDown ToggleIcon"
+        />
+      </a>
+    </td>
+  </tr>
+</div>
+`;
+
+exports[`[Component] TableRow Should render with TableRow with type "watchlist"  1`] = `
+<div>
+  <tr
+    class=""
+  >
+    <td
+      class="Sticky"
+    >
+      <div>
+        "ams-OSRAM I"
+      </div>
+    </td>
+    <td
+      class=""
+    >
+      –
+    </td>
+    <td
+      class=""
+    >
+      <a
+        class="Toggle"
+        data-testid="default-link"
+      >
+        <i
+          class="Icon IconChevronDown ToggleIcon"
+        />
+      </a>
+    </td>
+  </tr>
+</div>
+`;

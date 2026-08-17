@@ -1,0 +1,21 @@
+{
+  "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxNjU5NTI6MjkzMDAx",
+  "anchorId": null,
+  "ministage": {
+    "headline": "Jeden Freitag direkt in Ihre Mailbox.",
+    "subhead": "Der Beobachter Newsletter",
+    "lead": "Matthias Pflume, Mitglied der Chefredaktion",
+    "type": "ratgeber",
+    "mailchimpList": "1d31f5f40a",
+    "mailchimpInterest": null,
+    "image": {
+      "id": "ZmlsZTozOTkzODo6MTgyLDIyNTo6",
+      "relativeOriginPath": "/2016-12/Matthias_Pflume_NL.png",
+      "focalPointX": 182,
+      "focalPointY": 225,
+      "__typename": "ImageFile"
+    },
+    "__typename": "MinistageNewsletter"
+  },
+  "__typename": "MinistageParagraph"
+}

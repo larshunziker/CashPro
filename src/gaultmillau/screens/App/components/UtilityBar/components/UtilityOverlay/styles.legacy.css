@@ -1,0 +1,92 @@
+.Wrapper {
+  background-color: $white;
+  border: 1px solid $neutralC;
+  bottom: 24px;
+  display: flex;
+  flex-flow: wrap;
+  left: $outerGapXs;
+  opacity: 0;
+  padding: 16px 0 16px 16px;
+  position: fixed;
+  right: $outerGapXs;
+  visibility: hidden;
+  width: calc(100% - ($outerGapXs * 2));
+
+  @media (min-width: $smBreakpoint) {
+    bottom: none;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    padding: 12px;
+    position: absolute;
+    width: 208px;
+  }
+}
+
+.WrapperSticky {
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+  }
+}
+
+.WrapperHeaderOverlay {
+  left: auto;
+  margin: 0;
+  right: 0;
+  width: auto;
+}
+
+.Title {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  display: inline-block;
+  line-height: 1;
+  margin-bottom: $margin4;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: 700;
+  }
+}
+
+.CloseButton {
+  background-color: $transparent;
+  border: 0;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  outline:none;
+  padding: 0;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+
+  &::after {
+    content: '\e91d';
+    display: inline-block;
+    font-family: $fontIcon;
+  }
+
+  &:hover {
+    color: $primaryB;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    right: 12px;
+    top: 12px;
+  }
+}
+
+.WrapperToggle {
+  height: auto;
+  opacity: 1;
+  transition: opacity 0.3s ease;
+  visibility: visible;
+  z-index: $zIndexHighest;
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  margin-top: $margin12;
+  min-height: 32px;
+}

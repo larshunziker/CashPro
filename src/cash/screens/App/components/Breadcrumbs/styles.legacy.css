@@ -1,0 +1,73 @@
+.Wrapper {
+  line-height: 1;
+  margin-bottom: $margin16;
+  overflow: hidden;
+  position: relative;
+
+  @media print {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.Placeholder {
+  line-height: 1;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.BreadcrumbList {
+  align-items: center;
+  display: flex;
+  left: 0;
+  list-style: none;
+  margin: 0 auto;
+  max-width: 100%;
+  position: relative;
+  transition: left 1s;
+  white-space: nowrap;
+  z-index: calc($zIndex1);
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+  }
+}
+
+.BreadcrumbLink {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+  display: inline-block;
+  padding: 0 2px;
+
+  &:first-of-type {
+    padding-left: 0;
+  }
+
+  &:last-of-type {
+    padding-right: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 12;
+  }
+
+  &::after {
+    content: '\003e';
+    display: inline-block;
+    padding-left: 6px;
+    padding-right: 6px;
+  }
+}
+
+.Title {
+  composes: ImageParagraphMetaBold from 'typography.legacy.css';
+
+  &::after {
+    display: none;
+  }
+}

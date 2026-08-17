@@ -1,0 +1,73 @@
+.Wrapper {
+  border-top: 1px solid $greyD;
+  flex-direction: row;
+  padding: $margin8 0;
+  width: 100%;
+  
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+
+  &.Header {
+    border-bottom: none;
+  }
+}
+
+.SponsorWrapper {
+  composes: Widget from '../../../../assets/styles/typography.legacy.css';
+  flex:0 0 50%;
+}
+
+.ArticleWrapper {
+  flex:0 0 50%;
+}
+
+.Link {
+  composes: Widget from '../../../../assets/styles/typography.legacy.css';
+  color: $secondaryA;
+}
+
+.Header {
+  composes: WidgetBold from '../../../../assets/styles/typography.legacy.css';
+  display: none;
+
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+
+  .SponsorWrapper {
+    @mixin WidgetBold;
+  }
+}
+
+.NoBorder {
+  border-top: none;
+  padding-top: 0;
+
+  &:not(.Header) {
+    @media (min-width: $mdBreakpoint) {
+      border-top: 1px solid $greyD;
+      padding-top: $margin8;
+    }
+  }
+}
+
+.SkeletonTitle {
+  > span {
+    animation: pulsing 1.5s infinite;
+    background: $grayPlaceholder;
+    border-radius: 3px;
+    display: inline-block;
+    width: 100%;
+
+    @media (min-width: $mdBreakpoint) {
+      width: calc(100% - 60px);
+    }
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

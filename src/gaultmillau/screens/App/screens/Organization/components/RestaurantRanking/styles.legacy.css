@@ -1,0 +1,91 @@
+.Wrapper {
+  margin-top: 20px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-top: 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    margin-top: 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* >= 1200 */
+    margin-top: 23px;
+  }
+}
+
+.HatWrapper {
+  font-size: 4.9rem;
+  line-height: 1;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6.7rem;
+  }
+}
+
+.HatIcon {
+  color: $error;
+  font-size: 4.9rem;
+  font-weight: 500;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    font-size: 6.7rem;
+  }
+}
+
+.WithArrow {
+  display: inline-block;
+  position: relative;
+}
+
+.WithArrowUp {
+  composes: WithArrow;
+
+  &::after {
+    color: $error;
+    content: '\e91b';
+    font-family: $fontIcon;
+    font-size: 1.3rem;
+    position: absolute;
+    right: -10px;
+    top: 6px;
+  }
+}
+
+.WithArrowDown {
+  &::before {
+    color: $error;
+    content: '\e91a';
+    font-family: $fontIcon;
+    font-size: 1.3rem;
+    right: -2px;
+    top: -10px;
+    visibility: hidden;
+  }
+
+  &::after {
+    color: $error;
+    content: '\e91a';
+    font-family: $fontIcon;
+    font-size: 1.3rem;
+    position: relative;
+    right: 3px;
+    top: 1px;
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      top: -1px;
+    }
+  }
+}
+
+.SimpleRankingPoints,
+.NoRankingPoints {
+  composes: NewLabel from 'App/screens/Organization/screens/Restaurant/styles.legacy.css';
+}

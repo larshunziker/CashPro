@@ -1,0 +1,84 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] RestaurantRanking Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <div
+        class="WithArrowUp"
+      >
+        <div
+          data-testid="mocked-icon"
+        >
+          IconPoints19
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] RestaurantRanking Should render correctly if points but no hat is disabled 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <span
+        class="SimpleRankingPoints"
+      >
+        8/20
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] RestaurantRanking Should render correctly if there are no points/no ranking 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    0
+    <div
+      class="NoRankingPoints"
+    >
+      o.N.
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] RestaurantRanking Should render correctly if trend is disabled 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div>
+      <div
+        class=""
+      >
+        <div
+          data-testid="mocked-icon"
+        >
+          IconPoints19
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 11 and isProvisional is false 1`] = `"IconPoints11"`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 12 and isProvisional is true 1`] = `"IconPoints12Bracket"`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 14 and isProvisional is true 1`] = `"IconPoints14Bracket"`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 18 and isProvisional is false 1`] = `"IconPoints18"`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 19 and isProvisional is true 1`] = `"IconPoints19Bracket"`;
+
+exports[`[Component] RestaurantRanking Should return correct iconType when the ranking is 20 and isProvisional is false 1`] = `"IconPoints20"`;

@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>gaultmillau.ch</ShortName>
+    <Description>Der GaultMillau – Channel führt zuverlässig zu den 800 besten Restaurants der Schweiz. Täglich exklusive Videos, Rezepte und Stories von den Starchefs.</Description>
+    <Url type="text/html" method="get" template="https://www.gaultmillau.ch/suche/{searchTerms}"/>
+</OpenSearchDescription>

@@ -1,0 +1,122 @@
+.PageWrapper {
+  composes: ContainerPullOut from '@grid.legacy.css';
+  cursor: default;
+  margin-bottom: $margin64;
+  margin-top: $margin32;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin80;
+    margin-top: $margin40;
+  }
+}
+
+.OverviewCatch {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  font-size: 12;
+  margin-bottom: $margin8;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.OverviewHeading {
+  composes: Heading1A from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  text-align: center;
+}
+
+.OverviewLead {
+  composes: Lead1 from 'typography.legacy.css';
+  line-height: 33px;
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.GameTeaserGrid {
+  column-gap: 8px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  row-gap: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    column-gap: 19px;
+    row-gap: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    column-gap: 24px;
+    row-gap: 24px;
+  }
+}
+
+.AboSectionTitleWrapper {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: $margin16;
+  margin-top: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+    margin-top: $margin40;
+  }
+}
+
+.AboSectionTitleLines {
+  text-align: center;
+  width: 100%;
+}
+
+.AboSectionTitle {
+  composes: SectionTitle from 'typography.legacy.css';
+  display: inline-block;
+  font-size: 16px;
+  max-width: 70%;
+  position: relative;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 24px;
+    line-height: 24px;
+  }
+
+  /* display lines before and after title */
+  &::before, &::after {
+    border-bottom: 1px solid;
+    color: $grayD;
+    content: '';
+    margin: 0 $margin24;
+    position: absolute;
+    top: 50%;
+    width: 37px;
+
+    @media (min-width: $smBreakpoint) {
+      width: 100px;
+    }
+  }
+
+  &::before {
+    right: 100%;
+  }
+
+  &::after {
+    left: 100%;
+  }
+} 
+
+.OfferWrapper {
+  margin-top: $margin32;
+}

@@ -1,0 +1,4 @@
+export {
+  UTILITYBAR_CONFIG_ARTICLE,
+  UTILITYBAR_OVERLAY_CONFIG_ARTICLE,
+} from '../Article/constants';

@@ -1,0 +1,13 @@
+.Wrapper {
+  margin: 36px 0 $margin16;
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.Description {
+  composes: FormLabelATextSecondary from 'typography.legacy.css'; 
+  margin-bottom: 36px;
+}

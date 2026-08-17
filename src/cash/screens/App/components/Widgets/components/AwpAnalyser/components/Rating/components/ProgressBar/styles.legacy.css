@@ -1,0 +1,29 @@
+.RainbowWrapper {
+  background-color: $greyD;
+  border-radius: 4px;
+  height: 18px;
+  margin-bottom: $margin8;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.Point {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 0;
+
+  &.Red {
+    background-color: $primaryA;
+  }
+
+  &.Neutral {
+    background-color: $warning;
+  }
+
+  &.Green {
+    background-color: $positiveA;
+  }
+}

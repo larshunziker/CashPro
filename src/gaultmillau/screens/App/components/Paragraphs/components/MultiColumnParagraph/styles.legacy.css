@@ -1,0 +1,62 @@
+.Container {
+  composes: Container from 'sections.legacy.css';
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    max-width: calc($mdBreakpoint - $outerGapXl);
+    width: auto;
+  }
+}
+
+.Wrapper {
+  composes: Row from '@grid.legacy.css';
+
+  & > div:not(:last-child) {
+    margin-bottom: 17px;
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      margin-bottom: 0;
+    }
+  }
+
+  img {
+    display: block;
+    height: auto;
+    width: 100%;
+  }
+
+  img + div {
+    /* caption */
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-left: 0;
+    margin-top: 8px;
+    padding-left: 0;
+    text-align: left;
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      margin-top: 4.3px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* >= 960 */
+      margin-top: 10px;
+    }
+  }
+}
+
+.SmallerCol {
+  & > div {
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      padding: 0 2.75px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* >= 960 */
+      padding: 0 26.5px;
+    }
+  }
+}

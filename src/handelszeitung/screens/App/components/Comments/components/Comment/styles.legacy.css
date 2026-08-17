@@ -1,0 +1,7 @@
+.Comment {
+  border-bottom: 1px solid $greyB;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 10px 0;
+  }
+}

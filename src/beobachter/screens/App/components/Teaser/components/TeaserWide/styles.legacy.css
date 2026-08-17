@@ -1,0 +1,428 @@
+.Wrapper {
+  display: block;
+  overflow: auto;
+  padding-bottom: $margin24;
+  position: relative;
+
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    gap: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin32;
+  }
+}
+
+.ContentWrapper {
+  position: relative;
+}
+
+.Title {
+  composes: TeaserWideTitle from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+
+  &.Advertising {
+    font-family: $fontSpezia;
+  }
+}
+
+.Lead , .Summary {
+  composes: TeaserWideLead from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  &.Opinion {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.ShortTitleElement {
+  composes: TeaserShortTitleElement from 'typography.legacy.css';
+}
+
+.ShortTitleWrapper {
+  flex-grow: 1;
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  &.Red {
+    background-color: $red;
+  }
+
+  &.Green {
+    background-color: $green;
+  }
+
+  &.Blue {
+    background-color: $blue;
+  }
+
+  &.Black {
+    background-color: $black;
+  }
+
+  &.Advertising {
+    background-color: $purple;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 2px 6px;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.6rem;
+      line-height: 1.92rem;
+      padding: 2px 8px;
+    }
+  }
+}
+
+.SponsorLogo {
+  max-height: 34px;
+  width: auto;
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+}
+
+.Icon {
+  bottom: 8px;
+  left: 12px;
+  position: absolute;
+  z-index: 2;
+
+  &.Quote {
+    bottom: unset;
+    left: -12px;
+    top: 6px;
+
+    @media (max-width: $xsBreakpointTo) {
+      svg {
+        height: 6.25vw; /* 100vw / 16 */
+        max-height: 40px;
+        max-width: 48px;
+        min-height: 20px;
+        min-width: 28px;
+        width: 6.25vw; /* 100vw / 16 */
+      }
+    }
+  }
+
+  &.PlayButton {
+    bottom: unset;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 12px;
+    left: 12px;
+
+    &.Quote {
+      bottom: unset;
+      left: 32px;
+      top: 16px;
+    }
+
+    &.Portrait {
+      left: 57px;
+    }
+  }
+
+
+  @media (min-width: $mdBreakpoint) {
+    &.Portrait {
+      left: 64px;
+    }
+  }
+
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 16px;
+    left: 16px;
+
+    &.Quote {
+      bottom: unset;
+      left: 48px;
+      top: 24px;
+    }
+
+    &.Portrait {
+      left: 83px;
+    }
+  }
+}
+
+.PlayButtonIcon {
+  height: 24px;
+  width: 24px;
+
+  .PlayButton & {
+    filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+    height: 38px;
+    width: 38px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 52px;
+      width: 52px;
+    }
+  }
+}
+
+.BeoPlusLogo {
+  composes: TeaserBeoPlusLogo from 'typography.legacy.css';
+  margin: 2px 6px 0 0;
+}
+
+.ImageWrapper {
+  display: flex;
+  float: right;
+  justify-content: center;
+  line-height: 0;
+  margin-bottom: $margin16;
+  margin-left: $margin16;
+  min-width: 66px;
+  position: relative;
+
+  &.Gradient {
+    &::after {
+      background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 64px);
+      content: '';
+      height: 100%;
+      left: 3px;
+      position: absolute;
+      top: 0;
+      width: calc(100% - 3px);
+      z-index: 1;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &::after {
+        left: 0;
+        width: 100%;
+      }
+
+      &.Portrait {
+        &::after {
+          left: 45px;
+        }
+      }
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      &.Portrait {
+        &::after {
+          left: 52px;
+        }
+      }
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      &::after {
+        background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 96px);
+      }
+
+      &.Portrait {
+        &::after {
+          left: 67px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+    height: 100%;
+    margin: 0;
+    max-width: 222px;
+    min-width: 222px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 236px;
+    min-width: 236px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 300px;
+    min-width: 300px;
+  }
+}
+
+.Image {
+  height: 100%;
+  min-width: 66px;
+  width: 100%;
+
+  &.Opinion {
+    border-radius: 50%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 222px;
+    min-width: 222px;
+
+    &.Opinion {
+      max-width: 132px;
+      min-width: 132px;
+    }
+
+    &.Portrait {
+      max-height: 175px;
+      max-width: 132px;
+      min-width: 132px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 236px;
+    min-width: 236px;
+
+    &.Opinion {
+      max-width: 132px;
+      min-width: 132px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: auto;
+    max-width: 300px;
+    min-width: 300px;
+
+    &.Opinion {
+      max-width: 165px;
+      min-width: 165px;
+    }
+
+    &.Portrait {
+      max-height: 219px;
+      max-width: 165px;
+      min-width: 165px;
+    }
+  }
+}
+
+.BottomLine {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+  font-size: 1.4rem;
+}
+
+.AuthorOpinionWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.AuthorName {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+}
+
+.AuthorHeadline {
+  composes: TeaserHeroAuthorHeadline from 'typography.legacy.css';
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+  display: flex;
+  width: 100%;
+
+  .ImageWrapper {
+    @mixin aspectRatio1x1;
+    margin-bottom: 0;
+    margin-right: 20px;
+
+    @media (min-width: $smBreakpoint) {
+      &::before {
+        display: none;
+      }
+    }
+
+    > img {
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+
+      @media (min-width: $smBreakpoint) {
+        height: auto;
+        max-height: 124px;
+        position: relative;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        max-height: 104px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        max-height: 158px;
+      }
+    }
+  }
+}
+
+.SkeletonContentWrapper {
+  height: 100%;
+  position: relative;
+  width: 250px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 83px;
+    width: 400px;
+  }
+}
+
+.SkeletonShortTitle,
+.SkeletonTitle {
+  background: $grayPlaceholder;
+  border-radius: 3px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+}
+
+.SkeletonShortTitle {
+  max-width: 120px;
+  top: 0;
+  width: calc(100% - 70px);
+}
+
+.SkeletonTitle {
+  height: 30px;
+  max-width: 400px;
+  top: 30px;
+  width: calc(100% - 20px);
+}
+
+.BottomBrandReport {
+  display: none;
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

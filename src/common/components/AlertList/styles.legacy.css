@@ -1,0 +1,35 @@
+.ItemCount {
+  > .ListItem:nth-child(n+4) {
+    display: none;
+  }  
+
+  @media (min-width: $smBreakpoint) {
+    > .ListItem:nth-child(n+4) {
+      display: block;
+    }  
+  }
+}
+
+.ExpansionPanelHiddenOnDesktop {
+  @media (min-width: $mdBreakpoint) {    
+    display: none;
+  }
+}
+
+.ItemCountExpansionPanel {
+  width: 100%;
+  
+  .ListItem {
+    display: block;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .ListItem:nth-child(-n+3) {
+      display: none;
+    }
+
+    .ListItem:nth-child(n+4) {
+      display: block;
+    }
+  }
+}

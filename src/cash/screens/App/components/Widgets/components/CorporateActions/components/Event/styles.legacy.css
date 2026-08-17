@@ -1,0 +1,38 @@
+.Wrapper {
+  border-bottom: 1px solid $greyD;
+  margin-bottom: 12px;
+}
+
+.Row {
+  display: flex;
+  flex-direction: row;
+  gap: 8px;
+  margin-bottom: 10px;
+  position: relative
+}
+
+.Icon {
+  height: 20px;
+  margin-left: 2px;
+  margin-right: 2px;
+  position: absolute;
+  top: 2px;
+  width: 20px;
+}
+
+.Date {
+  composes: DataTable from '../../../../../../assets/styles/typography.legacy.css';
+  font-weight: 700;
+  margin-left: 28px;
+}
+
+.Title {
+  composes: DataTable from '../../../../../../assets/styles/typography.legacy.css';
+  font-weight: 700;
+}
+
+.Text {
+  composes: DataTable from '../../../../../../assets/styles/typography.legacy.css';
+  display: flex;
+  flex-direction: column;
+}

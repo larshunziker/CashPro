@@ -1,0 +1,99 @@
+.LargeTitle {
+  font-size: 1.8rem;
+  line-height: 1.15;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1600 to infinity */
+    font-size: 3rem;
+  }
+}
+
+.MediumTitle {
+  font-size: 1.8rem;
+  line-height: 1.15;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    font-size: 1.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    font-size: 1.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1600 to infinity */
+    font-size: 2.4rem;
+  }
+}
+
+.SmallTitle {
+  font-size: 1.8rem;
+  line-height: 1.15;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    font-size: 1.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1600 to infinity */
+    font-size: 2rem;
+  }
+}
+
+.TeaserText {
+  bottom: 0;
+  left: 0;
+  padding: 6px 12px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 10px 16px;
+  }
+}
+
+.AuthorWrapper {
+  color: $greyA;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  line-height: 1.7rem;
+  margin-top: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    line-height: 1.9rem;
+    margin-top: $margin8;
+  }
+}
+
+.TeaserTitleBase {
+  color: $greyA;
+  font-family: $fontSpezia;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.7rem;
+    line-height: 3.3rem;
+    margin-bottom: 10px;
+  }
+}
+
+.TeaserTitleWrapper {
+  line-height: 0;
+}

@@ -1,0 +1,25 @@
+{
+  "video": {
+    "id": "179017",
+    "brightcoveId": "5163744839001",
+    "caption": "Video Caption (Video without Shorttitle and Title)",
+    "alt": null,
+    "shortTitle": "Video ShortTitle",
+    "title": "WeeklyVIP vom 6. Oktober 2016",
+    "credit": "Keystone",
+    "image": {
+      "file": {
+        "width": 480,
+        "height": 270,
+        "origin": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/styles/header_16_9_large/public/_DSC9718.jpg",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/media/field_image/2018-07/5163746082001_0.jpg?pubId=2112711546001",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "VideoParagraph"
+  },
+  "origin": "articleDefault"
+}

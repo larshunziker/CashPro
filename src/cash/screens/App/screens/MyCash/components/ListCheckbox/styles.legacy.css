@@ -1,0 +1,11 @@
+.CheckboxWrapper label {
+  display: none;
+}
+
+.CheckboxWrapper > div {
+  margin: 0;
+}
+
+.CheckboxWrapper > div > div {
+  padding: 0;
+}

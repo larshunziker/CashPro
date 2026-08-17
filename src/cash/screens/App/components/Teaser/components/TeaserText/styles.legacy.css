@@ -1,0 +1,52 @@
+.Wrapper {
+  display: block;
+  letter-spacing: 0;
+}
+
+.ContentWrapper {
+  width: 100%;
+  word-break: break-word;
+}
+
+.Number {
+  color: $blackB;
+  @mixin fontSize 24;
+  font-weight: 900;
+}
+
+.NumberWrapper {
+  align-items: center;
+  padding-right: 23px;
+  padding-top: 10px;
+  position: relative;
+  width: 13px;
+  @media (min-width: $lgBreakpoint) {
+    padding-top: 9px;
+  }
+}
+
+.TitleTickerBox {
+  composes: ContentBoxParagraph from 'typography.legacy.css';
+  /* stylelint-disable-next-line */
+  -webkit-box-orient: vertical;
+  /* stylelint-disable-next-line */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  margin:0;
+  overflow: hidden;
+}
+
+.TeaserTitle {
+  composes: ContentBoxParagraph from 'typography.legacy.css';
+  word-wrap: break-word;
+  /* stylelint-disable-next-line */
+  -webkit-box-orient: vertical;
+  /* stylelint-disable-next-line */
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    -webkit-line-clamp: 3;
+  }
+}

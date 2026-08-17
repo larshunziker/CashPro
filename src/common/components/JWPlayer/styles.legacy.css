@@ -1,0 +1,46 @@
+.Wrapper {
+  color: $white;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.Loader {
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.Player {
+  height: 100%;
+  opacity: 0.01;
+  transition: opacity 0.4s;
+  width: 100%;
+
+  :global(.jw-state-idle .jw-controls) {
+    background: transparent;
+  }
+}
+
+.Loaded {
+  > .Player {
+    opacity: 1;
+  }
+}
+
+.ErrorPanel {
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+  span {
+    background: rgb(0 0 0 / 50%);
+    line-height: 4rem;
+    text-align: center;
+    width: 100%;
+  }
+}
+

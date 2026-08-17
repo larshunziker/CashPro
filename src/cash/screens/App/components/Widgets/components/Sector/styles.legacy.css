@@ -1,0 +1,19 @@
+.Wrapper {
+  gap: 32px;
+  width: 100%;
+
+  &>div {
+    flex: 1;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  font-size: 20px;
+  margin-bottom: $margin8;
+}
+

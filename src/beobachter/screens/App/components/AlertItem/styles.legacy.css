@@ -1,0 +1,57 @@
+.AlertItemWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin: $margin12 0;
+}
+
+.AlertItemImageWrapper {
+  position: relative;
+  width: 100%;
+
+  &::after {
+    background: linear-gradient(180deg, $transparent 0%, $greyA 100%);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+  }
+}
+
+.AlertItemImage {
+  display: block;
+  width: 100%;
+}
+
+.Text {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin: $margin4 $margin4 $margin4 0;
+  max-width: calc(100% - 178px);
+
+  > a,
+  > div {
+    color: $black;
+    font-family: $fontSpezia;
+    white-space: break-spaces;
+    word-break: break-word;
+  }
+
+  > a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.ChildWrapper {
+  align-items: center;
+  display: flex;
+}

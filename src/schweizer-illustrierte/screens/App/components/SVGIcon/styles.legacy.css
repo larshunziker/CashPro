@@ -1,0 +1,16 @@
+.Wrapper {
+  fill: $black;
+  max-height: 76px;
+  max-width: 76px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 72px;
+    max-height: 72px;
+    max-width: 72px;
+    width: 72px;
+  }
+
+  &:hover {
+    fill: $redA;
+  }
+}

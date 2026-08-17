@@ -1,0 +1,74 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  min-height: 80px;
+  padding: 10px 8px;
+  word-break: break-word;
+}
+
+.WrapperError {
+  border-left: 6px solid $error;
+
+  .ToastIcon {
+    color: $error;
+  }
+}
+
+.WrapperWarning {
+  border-left: 6px solid $warning;
+
+  .ToastIcon {
+    color: $warning;
+  }
+}
+
+.WrapperSuccess {
+  border-left: 6px solid $success;
+
+  .ToastIcon {
+    color: $success;
+  }
+}
+
+.ContentWrapper {
+  align-items: center;
+  display: flex;
+  min-height: 100%;
+  width: 100%;
+}
+
+.Content {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  padding-right: 8px;
+}
+
+.Link {
+  composes: InfoParagraphLink from 'typography.legacy.css';
+  display: inline-block;
+}
+
+.CloseButton {
+  border: none;
+  cursor: pointer;
+  padding: 0;
+  position: relative;
+}
+
+.CloseIcon {
+  color: $blackA;
+  font-size: 2.5rem;
+  opacity: 1;
+  transition: opacity 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    opacity: 0.8;
+  }
+}
+
+.ToastIcon {
+  font-size: 3.2rem;
+  margin-right: $margin8;
+}

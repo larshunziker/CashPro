@@ -1,0 +1,386 @@
+map $arg_f $sitemap {
+    default   "index";
+    "~.+"     "$arg_f";
+}
+
+map "$host:$arg_utm_medium" $redirectPreview {
+    ~^preview.*:email$  1;
+    default             0;
+}
+
+server {
+    listen 8080 default_server;
+
+    server_name _;
+
+    resolver 8.8.8.8 valid=30s;
+
+    # Calling the Drupal backend using cms.ringiermedienschweiz.ch goes through
+    # Akamai, which can lead to timeouts since the feeds may take a while to
+    # generate. Using the internal URL prevents this.
+    set $drupal_backend "https://nginx.prod.rasch-backend-k8s-prod.prod.ras.dev:443";
+
+    proxy_buffering on;
+    proxy_buffer_size 128k;
+    proxy_buffers 64 16k;
+    proxy_busy_buffers_size 256k;
+
+    port_in_redirect off;
+
+    # Proxy settings
+    set $xPublication "beobachter";
+    include /etc/nginx/conf.d/proxy.services;
+
+    # Redirects
+    include /etc/nginx/conf.d/proxy.redirects;
+    include /etc/nginx/conf.d/proxy.redirects-guider;
+
+    # Disable compression
+    gzip off;
+
+    location /robots.txt {
+      alias /etc/nginx/conf.d/robots.txt;
+    }
+    location /pageview.txt {
+      alias /etc/nginx/conf.d/pageview.txt;
+    }
+
+
+    # Return 404 for old routes
+    location ~ ^/index.php {
+      if ($arg_id != '') {
+        return 404;
+      }
+      if ($arg_eID != '') {
+        return 404;
+      }
+      rewrite ^/index.php https://www.beobachter.ch/? permanent;
+    }
+    location ~ /rss.xml$ {
+      return 404;
+    }
+    location ~ ^/typo3temp/(?!dd_googlesitemap/).* {
+      return 404;
+    }
+    location ~ ^/typo3conf/.* {
+      return 404;
+    }
+    location ~ ^/wp-login.php {
+      return 404;
+    }
+
+    # News Sitemaps
+    location /sitemap-news.xml {
+      proxy_pass https://cde.hexagon.build/feeds/O3vza3?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Time-limited sitemaps
+    location ~ ^/sitemap-articles-time-limited(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-1661/sitemap-articles-time-limited$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;    
+    }
+
+    # Sitemaps
+    location ~ ^/sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/general/beobachter/$sitemap.xml";
+      proxy_set_header Host $proxy_host;
+      proxy_http_version 1.1;
+    }
+
+    # Image sitemaps
+    location ~ ^/image-sitemap.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/image/beobachter/$sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Author sitemaps
+    location ~ ^/sitemap-authors.xml$ {
+      proxy_pass "$drupal_backend/sites/default/files/sitemap/author/beobachter/author-sitemap.xml";
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Evergreen sitemaps
+    location ~ ^/sitemap-articles-evergreen(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2039/sitemap-articles-evergreen$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Seasonal sitemaps
+    location ~ ^/sitemap-articles-seasonal(.*) {
+      proxy_pass https://cde-sitemaps-production.s3.eu-west-1.amazonaws.com/feed-2040/sitemap-articles-seasonal$1;
+      proxy_http_version 1.1;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # Category sitemaps
+    location /sitemap-category.xml {
+      proxy_pass https://cde.hexagon.build/feeds/5y2dgD?token=ab06a1a3-7aa7-4a8e-978e-4d2007827ef5;
+      proxy_http_version 1.1;
+      proxy_ssl_server_name on;
+      proxy_set_header Host $proxy_host;
+    }
+
+    # SMD feed
+    location ~ ^/feed/smd$ {
+      rewrite ^/feed/smd$ /feeds/smd/2? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feed
+    location ~ ^/rss_feed$ {
+      rewrite ^/rss_feed$ /feeds/rss/2? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feeds latest geld
+    location ~ ^/feeds/latest/geld$ {
+      rewrite ^/feeds/latest/geld$ /feeds/latest/2/1202? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feeds latest arbeit
+    location ~ ^/feeds/latest/arbeit$ {
+      rewrite ^/feeds/latest/arbeit$ /feeds/latest/2/1189? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feed of various verticals
+    location ~ ^/rss_business.xml$ {
+      rewrite ^/rss_business.xml$ /feeds/business/2/1189+1202+1086+1192+1184+79100+1098? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feed for ALL Articles
+    location ~ ^/rss_all$ {
+      rewrite ^/rss_all$ /feeds/business/2/all/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_set_header Authorization '';
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feed for PAID Articles
+    location ~ ^/rss_paid$ {
+      rewrite ^/rss_paid$ /feeds/business/2/all/paid+registered? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+    
+    # RSS feed for FREE Articles
+    location ~ ^/rss_free$ {
+      rewrite ^/rss_free$ /feeds/business/2/all/free? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Guider JSON feeds
+    location ~ (^(.*/export\.json)|(/typo3temp/dd_googlesitemap/.*)$) {
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+      proxy_set_header X-Forwarded-Host 'www.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      # Do not pass X-Cache-Tag and Edge-Cache-Tag to the client (KeyCDN) as they are way to big for it to handle them.
+      proxy_hide_header X-Cache-Tag;
+      proxy_hide_header Edge-Cache-Tag;
+    }
+
+    # Upday feed
+    location ~ ^/feed/upday$ {
+      rewrite ^/feed/upday$ /feeds/upday/2? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # RSS feed Gesundheit
+    location ~ ^/rss_gesundheit.xml$ {
+      rewrite ^/rss_gesundheit.xml$ /feeds/business/2/1191? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed all contents
+    location ~ ^/feeds/flipboard/all$ {
+      rewrite ^/feeds/flipboard/all$ /feeds/flipboard/2/all? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Digital
+    location ~ ^/feeds/flipboard/digital$ {
+      rewrite ^/feeds/flipboard/digital$ /feeds/flipboard/2/79100? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Gesundheit
+    location ~ ^/feeds/flipboard/gesundheit$ {
+      rewrite ^/feeds/flipboard/gesundheit$ /feeds/flipboard/2/1191? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Geld
+    location ~ ^/feeds/flipboard/geld$ {
+      rewrite ^/feeds/flipboard/geld$ /feeds/flipboard/2/1202? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Konsum
+    location ~ ^/feeds/flipboard/konsum$ {
+      rewrite ^/feeds/flipboard/konsum$ /feeds/flipboard/2/1194? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Wohnen
+    location ~ ^/feeds/flipboard/wohnen$ {
+      rewrite ^/feeds/flipboard/wohnen$ /feeds/flipboard/2/1192? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Ernährung
+    location ~ ^/feeds/flipboard/ernahrung$ {
+      rewrite ^/feeds/flipboard/ernahrung$ /feeds/flipboard/2/30609? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Umwelt
+    location ~ ^/feeds/flipboard/umwelt$ {
+      rewrite ^/feeds/flipboard/umwelt$ /feeds/flipboard/2/1181? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Gesellschaft
+    location ~ ^/feeds/flipboard/gesellschaft$ {
+      rewrite ^/feeds/flipboard/gesellschaft$ /feeds/flipboard/2/1184? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Politik
+    location ~ ^/feeds/flipboard/politik$ {
+      rewrite ^/feeds/flipboard/politik$ /feeds/flipboard/2/1186? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Wirtschaft
+    location ~ ^/feeds/flipboard/wirtschaft$ {
+      rewrite ^/feeds/flipboard/wirtschaft$ /feeds/flipboard/2/1068? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Flipboard feed Mobilität
+    location ~ ^/feeds/flipboard/mobilitat$ {
+      rewrite ^/feeds/flipboard/mobilitat$ /feeds/flipboard/2/80378? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    # Google Publisher Center feed
+    location ~ ^/google_publisher_center.xml$ {
+      rewrite ^/google_publisher_center.xml$ /feeds/google_publisher_center/2? break;
+      proxy_set_header X-RAS-PUBLICATION 'api.beobachter.ch';
+      proxy_set_header Host $proxy_host;
+      proxy_pass $drupal_backend;
+      proxy_http_version 1.1;
+    }
+
+    location ~* \.(eot|otf|ttf|woff|woff2)$ {
+      add_header Access-Control-Allow-Origin *;
+
+      proxy_pass ${NGINX_PROXY_PASS};
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+    }
+
+    location /assets/files/lawyers/Anwaltsnetz_Tabelle.csv {
+      proxy_set_header Host anwaltsnetz-lawyers.s3.eu-central-1.amazonaws.com;
+      proxy_set_header Authorization "";
+      proxy_pass https://anwaltsnetz-lawyers.s3.eu-central-1.amazonaws.com/Anwaltsnetz_Tabelle.csv;
+    }
+
+    location /assets/files/lawyers/Anwaltsnetz_Tabelle.json {
+      proxy_set_header Host services.ras.dev;
+      proxy_set_header Authorization "";
+      proxy_pass https://services.ras.dev/alerts/google/readFile/1kHd_jT9qEprmlpwP1hwSlaQrQbQzpgojgoH5WdxNoL8/Lawyer_List/A1:O500;
+    }
+
+    location / {
+
+      #redirect rule for preview links in newsletter
+      if ($redirectPreview) {
+        rewrite ^/(.*) https://www.beobachter.ch/$1 permanent;
+      }
+
+      proxy_pass ${NGINX_PROXY_PASS};
+      proxy_http_version 1.1;
+      proxy_set_header Upgrade $http_upgrade;
+      proxy_set_header Connection 'upgrade';
+      proxy_set_header Host $host;
+      proxy_cache_bypass $http_upgrade;
+    }
+}

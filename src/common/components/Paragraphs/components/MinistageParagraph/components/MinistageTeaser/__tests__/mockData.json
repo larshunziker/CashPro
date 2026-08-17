@@ -1,0 +1,23 @@
+{
+  "ministageTeaser": {
+    "headline": "Wir schaffen vertrauen",
+    "subhead": "Subhead",
+    "lead": "Weniger Leistungsdruck sowie Einkommenssicherheit für Ihre Angestellten, was Stress reduziert und einen positiven Effekt auf die Absenzquote hat",
+    "image": {
+      "id": "ZmlsZTo3MDkzNjo6OTYwLDU0MDpsYXJnZTo=",
+      "width": 0,
+      "height": 0,
+      "focalPointX": 1000,
+      "focalPointY": 1000,
+      "relativeOriginPath": "/2021-03/Matterhorn2.jpg",
+      "__typename": "ImageFile"
+    },
+    "link": {
+      "label": "Jetzt vertrauen",
+      "path": "https://www.google.ch",
+      "routed": false,
+      "__typename": "Link"
+    },
+    "__typename": "MinistageTeaser"
+  }
+}

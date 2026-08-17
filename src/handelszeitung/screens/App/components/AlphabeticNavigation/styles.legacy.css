@@ -1,0 +1,30 @@
+.AlphabetOuterWrapper {
+  background: transparent;
+  display: none;
+  margin-bottom: $margin32;
+  overflow: hidden;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.MobileToggleWrapper {
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.MobileToggleInnerWrapper {
+  composes: Container from '@grid.legacy.css';
+}
+
+.MobileToggle {
+  composes: Button from 'typography.legacy.css';
+  background-color: $blackB;
+  border: 0;
+  margin-bottom: $margin24;
+  padding: 11px 0;
+  width: 100%;
+}

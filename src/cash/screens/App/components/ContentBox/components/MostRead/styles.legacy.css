@@ -1,0 +1,24 @@
+.Wrapper {
+  composes: Wrapper from '../../styles.legacy.css';
+  padding-bottom: 16px;
+
+  &.WithHiddenTitle {
+    padding-top: 16px;
+  }
+
+  &:last-child {
+    margin-bottom: $margin16;
+  }
+}
+
+.Title {
+  composes: Title from '../../styles.legacy.css';
+}
+
+.PublicationDate {
+  composes: PublicationDate from '../../styles.legacy.css';
+}
+
+.Divider {
+  composes: Divider from '../../styles.legacy.css';
+}

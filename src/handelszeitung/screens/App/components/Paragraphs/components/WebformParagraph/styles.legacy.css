@@ -1,0 +1,177 @@
+.SubTitle {
+  color: $blackB;
+  font-family: $fontGotham;
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-top: 35px;
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.5rem;
+    margin-top: 50px;
+  }
+}
+
+.ButtonWrapper {
+  text-align: center;
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+  }
+}
+
+.ErrorPanelWrapper {
+  background: $red;
+  color: $white;
+  font-family: $fontGotham;
+  font-size: 2rem;
+  margin: 4rem 0;
+  padding: 6rem 3rem;
+  text-align: center;
+}
+
+.Loading {
+  opacity: 0.5;
+}
+
+.ToggleFormAppear {
+  opacity: 0.01;
+}
+
+.ToggleFormAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleFormLeave {
+  opacity: 1;
+}
+
+.ToggleFormLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.ToggleErrorAppear {
+  opacity: 0.01;
+}
+
+.ToggleErrorAppearActive {
+  opacity: 1;
+  transition: opacity 0.6s ease-in;
+  transition-delay: 0.6s;
+}
+
+.ToggleErrorLeave {
+  opacity: 1;
+}
+
+.ToggleErrorLeaveActive {
+  opacity: 0.01;
+  transition: opacity 0.6s ease-in;
+}
+
+.Description {
+  color: $blackB;
+  font-family: $fontGotham;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2.2rem;
+  position: relative;
+  top: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  & > a {
+    color: $red;
+  }
+
+  &.Required {
+    &::after {
+      content: '*';
+      display: inline;
+    }
+  }
+}
+
+.SuccessWrapper {
+  background-color: $greyE;
+  padding: 20px 12px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 38px 30px;
+  }
+}
+
+.SuccessTitle {
+  color: $blue;
+  display: block;
+  font-family: $fontHelvetica;
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.3rem;
+  }
+}
+
+.SuccessMessage {
+  color: $blackB;
+  display: block;
+  font-family: $fontGotham;
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.7rem;
+  }
+
+  & > a {
+    color: $red;
+  }
+}
+
+.ErrorPanelHeader {
+  display: none;
+}
+
+.RecaptchaWrapper {
+  margin-top: $margin24;
+}
+
+.ClosedContainer {
+  align-items: center;
+  border-bottom: 1px solid $greyA;
+  border-top: 1px solid $greyA;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin32;
+  padding: 8px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 16px;
+  }
+}
+
+.ClosedIcon {
+  font-size: 5rem;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 6rem;
+  }
+}
+
+.ClosedMessage {
+  composes: H3 from 'typography.legacy.css';
+  text-align: center;
+}
+
+.RichTextWrapper {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+}

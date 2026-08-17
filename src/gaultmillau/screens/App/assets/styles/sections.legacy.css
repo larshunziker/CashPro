@@ -1,0 +1,17 @@
+.Section {
+  width: 100%;
+}
+
+.SectionRed {
+  composes: Section;
+  background-color: $white;
+}
+
+.SectionGrayLightest {
+  composes: Section;
+  background-color: $neutralG;
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}

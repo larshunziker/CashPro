@@ -1,0 +1,15 @@
+.Wrapper {
+  height: 40px;
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 60px;
+
+  /* position the icon above white gradient on teaser/layout-hero */
+  z-index: 2;
+
+  @media (max-width: $xsBreakpointTo) {
+    height: 22px;
+    width: 32px;
+  }
+}

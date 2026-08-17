@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InfoBoxPargraph - LeftLineBox Factory Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph info-box-paragraph WrapperClassname infobox left-line"
+  >
+    <div
+      class="InnerWrapperClassname"
+    >
+      <div>
+        <div
+          class="BorderClassname"
+        >
+          <div
+            class="DeviderClassname"
+          />
+          <div
+            class="ParagraphWrapperClassname"
+          >
+            <div
+              data-testid="info-box-paragraph-renderer"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] InfoBoxPargraph - LeftLineBox Factory Should render nothing 1`] = `<div />`;
+
+exports[`[Component] InfoBoxPargraph - LeftLineBox Factory Should render nothing if infobox body is empty array 1`] = `<div />`;

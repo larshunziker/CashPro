@@ -1,0 +1,156 @@
+.Wrapper {
+  margin-top: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 50px;
+  }
+}
+
+.NoLead {
+  margin-bottom: $margin16;
+}
+
+.HeadingOverviewWrapper {
+  position: relative;
+  text-align: center;
+
+  &::after {
+    content: '';
+    display: block;
+    left: 0;
+    position: absolute;
+    width: 100%;
+    z-index: $zIndexBehindContent;
+  }
+
+  &SI {
+    margin-bottom: 6px;
+
+    &::after {
+      background-color: $black;
+      height: 1px;
+      top: calc(50% - 2px);
+
+      @media (min-width: $smBreakpoint) {
+        height: 2px;
+      }
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 17px;
+
+      &::after {
+        top: calc(50% - 4px);
+      }
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 26px;
+    }
+  }
+
+  &SY {
+    margin-bottom: 2px;
+
+    &::after {
+      background-color: $skin;
+      height: 1px;
+      top: calc(50% - 2px);
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin8;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.HeadingOverviewWrapperWithAlerts {
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 6px;
+  }
+
+  &SY {
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.SubscribeButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 18px;
+  }
+}
+
+.HeadingOverview {
+  background-color: $white;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 96%;
+  overflow: hidden;
+  padding-top: 5px;
+  word-wrap: break-word;
+
+  &SI {
+    composes: HeadingOverview from 'typography.legacy.css';
+    padding-left: 12px;
+    padding-right: 9px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: 30px;
+      padding-right: 20px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding-left: 40px;
+      padding-right: 25px;
+    }
+  }
+
+  &SY {
+    composes: HeadingOverviewSY from 'typographySY.legacy.css';
+    padding: 0 15px;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 40px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding-left: 50px;
+      padding-right: 30px;
+    }
+  }
+}
+
+.Lead {
+  margin-bottom: 20px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+
+  &SI {
+    composes: Lead1 from 'typography.legacy.css';
+  }
+
+  &SY {
+    composes: Lead1SY from 'typographySY.legacy.css';
+  }
+}

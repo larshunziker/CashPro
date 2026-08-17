@@ -1,0 +1,130 @@
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+}
+
+.ColorPreviewWrapper {
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 20px;
+}
+
+.ColorItem {
+  border: 1px solid $greyB;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px $greyB;
+  height: 100px;
+  margin: 10px;
+  overflow-wrap: break-word;
+  padding: 40px 5px;
+  position: relative;
+  text-align: center
+}
+
+.DescriptionWrapper {
+  align-items: center;
+  background: $white;
+  border-radius: 5px;
+  box-shadow: 2px 2px 2px $greyB;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  @mixin fontSize 15;
+  height: inherit;
+  justify-content: center;
+  left: 0;
+  padding: 5px;
+  position: absolute;
+  top: 0;
+  width: 30%;
+}
+
+.black {
+  background: $black;
+  color: $white;
+}
+
+.white {
+  background: $white;
+}
+
+.transparent {
+  background: $transparent;
+}
+
+.black50 {
+  background: $black50;
+}
+
+.primaryA {
+  background: $primaryA;
+}
+
+.primaryB {
+  background: $primaryB;
+}
+
+.secondaryA {
+  background: $secondaryA;
+}
+
+.secondaryB {
+  background: $secondaryB;
+}
+
+.positive {
+  background: $positive;
+}
+
+.blackA {
+  background: $blackA;
+  color: $white;
+}
+
+.blackB {
+  background: $blackB;
+  color: $white;
+}
+
+.greyA {
+  background: $greyA;
+}
+
+.greyB {
+  background: $greyB;
+}
+
+.greyC {
+  background: $greyC;
+}
+
+.greyD {
+  background: $greyD;
+}
+
+.greyE {
+  background: $greyE;
+}
+
+.errorA {
+  background: $errorA;
+}
+
+.errorB {
+  background: $errorB;
+}
+
+.decoA {
+  background: $decoA;
+}
+
+.decoB {
+  background: $decoB;
+}
+
+.decoC {
+  background: $decoC;
+}

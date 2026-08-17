@@ -1,0 +1,21 @@
+.Title {
+  composes: CategoryParagraph from 'typography.legacy.css';
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+
+  &:hover {
+    color: $greyA;
+  }
+}
+
+.Icon {
+  font-size: 1.7rem;
+  margin-right: 12px;
+  position: relative;
+  top: 2px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+  }
+}

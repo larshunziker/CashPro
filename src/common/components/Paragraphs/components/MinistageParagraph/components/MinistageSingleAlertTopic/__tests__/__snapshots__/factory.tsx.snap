@@ -1,0 +1,197 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageSingleAlertTopic Should render fallback headline if no headline related 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Thema per E-Mail folgen
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            13. Monatslohn
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageSingleAlertTopic Should render image if media item is given 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Newest Single Topic Alert
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <img
+          alt=""
+          src="/federer.png"
+        />
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            13. Monatslohn
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageSingleAlertTopic Should render keyword correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Newest Single Topic Alert
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            13. Monatslohn
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageSingleAlertTopic Should render one alert only even if organization, person and keyword are given 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Newest Single Topic Alert
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            13. Monatslohn
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageSingleAlertTopic Should render organization correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Newest Single Topic Alert
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            Lindt
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageSingleAlertTopic Should render person correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-single-alert-topic WrapperClassName HideForPrint"
+    id="email-alert-23432"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <p
+        class="TitleClassName"
+      >
+        Newest Single Topic Alert
+      </p>
+      <div
+        class="AlertItemWrapperClassName"
+      >
+        <div
+          class="MockAlertItem"
+        >
+          <div
+            class="MockSubscribeButtonItem"
+          >
+            Roger Federer
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

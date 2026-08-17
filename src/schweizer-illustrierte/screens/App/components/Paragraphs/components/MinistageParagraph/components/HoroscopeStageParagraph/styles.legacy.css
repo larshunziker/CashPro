@@ -1,0 +1,101 @@
+.Wrapper {
+  background: $redA;
+  flex-direction: column;
+  margin-bottom: 30px;
+  padding: 25px 44px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    padding: 25px 35px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+    padding: 40px 90px 50px;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  color: $white;
+  display: block;
+  margin-bottom: 6px;
+}
+
+.Title {
+  composes: Heading7 from 'typography.legacy.css';
+  color: $white;
+}
+
+.Zodiacs {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+.ZodiacSign {
+  flex-grow: 1;
+  margin-bottom: 13px;
+  width: calc(100% / 3);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% / 12);
+  }
+
+  &:hover {
+    .ZodiacSignIcon {
+      background-color: $transparent;
+      border: 1px solid $white;
+      color: $white;
+    }
+  }
+}
+
+$circleSizeXs: 52px;
+$circleSizeSm: 42px;
+$circleSizeMd: 52px;
+$circleSizeXl: 72px;
+
+.ZodiacSignIcon {
+  background-color: $white;
+  border: 1px solid $redA;
+  border-radius: 50%;
+  color: $redA;
+  font-size: 5rem;
+  height: $circleSizeXs;
+  transition: background-color 0.3s, color 0.3s, border 0.3s;
+  width: $circleSizeXs;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    height: $circleSizeSm;
+    width: $circleSizeSm;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 5rem;
+    height: $circleSizeMd;
+    width: $circleSizeMd;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 7rem;
+    height: $circleSizeXl;
+    width: $circleSizeXl;
+  }
+}
+
+.ZodiacTitle {
+  composes: CaptionAuthorBlog from 'typography.legacy.css';
+  color: $white;
+  margin-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 15px;
+  }
+}

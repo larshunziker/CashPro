@@ -1,0 +1,99 @@
+.Wrapper {
+  height: 100%;
+
+  table {
+    width: 100%;
+
+    th, td {
+      @mixin DataTable;
+      border-bottom: 1px solid $greyC;
+      height: 41px;
+      max-width: 155px;
+      padding: 5px 10px;
+      vertical-align: middle;
+    }
+  }
+}
+
+.Heading {
+  composes: InfoB from 'typography.legacy.css';
+  border-bottom: 1px solid $greyC;
+  font-weight: 700;
+}
+
+.TextRight {
+  text-align: right;
+}
+
+.TextLeft {
+  text-align: left;
+}
+
+.Link {
+  color: $secondaryA;
+
+  &.ActiveQuote {
+    @mixin DataTableBold;
+    background: transparent;
+    color: $secondaryA;
+  }
+
+  &:hover {
+    color: $secondaryB;
+  }
+}
+
+.NameField {
+  display: flex;
+  gap: 20px;
+}
+
+.MarketField {
+  width: 100px;
+}
+
+.SubField {
+  composes: InfoC from 'typography.legacy.css';
+  color: $greyA;
+  font-weight: 400;
+}
+
+.RankingNumber {
+  align-content: center;
+  font-size: 18px;
+  min-width: 26px;
+  text-align: right;
+}
+
+.ShowMore {
+  composes: InfoB from 'typography.legacy.css';
+  border: 0;
+  color: $secondaryA;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 8px;
+  margin-top: 16px;
+  text-align: center;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}
+
+.ButtonWrapper {
+  text-align: center;
+  width: 100%;
+}
+
+.Icon {
+  margin-left: 8px;
+}
+
+.ActiveQuote {
+  background-color: $decoB;
+
+  &:hover {
+    background-color: $decoA;
+  }
+}

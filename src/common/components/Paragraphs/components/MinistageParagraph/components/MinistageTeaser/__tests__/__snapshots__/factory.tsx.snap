@@ -1,0 +1,223 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] MinistageTeaser Should render correctly if full ministage is passed in 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          >
+            Subhead
+          </div>
+          <div
+            class="Headline"
+          >
+            Wir schaffen vertrauen
+          </div>
+          <p
+            class="Lead"
+          >
+            Weniger Leistungsdruck sowie Einkommenssicherheit für Ihre Angestellten, was Stress reduziert und einen positiven Effekt auf die Absenzquote hat
+          </p>
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+          href="https://www.google.ch"
+        >
+          Jetzt vertrauen
+        </a>
+      </div>
+      <div
+        class="ImageWrapper"
+      >
+        <div
+          class="LineHeightReset"
+        >
+          <picture>
+            <img
+              alt=""
+              class="TeaserImage IsSameAspectRatio"
+              loading="lazy"
+              srcset="/sh/0/sites/default/files/2021-03/Matterhorn2.jpg"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render correctly if ministage has only headline 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          />
+          <div
+            class="Headline"
+          >
+            Wir schaffen vertrauen
+          </div>
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render correctly if ministage has only image 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          />
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+        />
+      </div>
+      <div
+        class="ImageWrapper"
+      >
+        <div
+          class="LineHeightReset"
+        >
+          <picture>
+            <img
+              alt=""
+              class="TeaserImage IsSameAspectRatio"
+              loading="lazy"
+              srcset="/sh/0/sites/default/files/2021-03/Matterhorn2.jpg"
+            />
+          </picture>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render correctly if ministage has only lead 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          />
+          <p
+            class="Lead"
+          >
+            Weniger Leistungsdruck sowie Einkommenssicherheit für Ihre Angestellten, was Stress reduziert und einen positiven Effekt auf die Absenzquote hat
+          </p>
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render correctly if ministage has only link 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          />
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+          href="https://www.google.ch"
+        >
+          Jetzt vertrauen
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render correctly if ministage has only subhead 1`] = `
+<div>
+  <div
+    class="paragraph ministage-teaser-paragraph Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="ContentWrapper"
+      >
+        <div>
+          <div
+            class="ShortTitle"
+          >
+            Subhead
+          </div>
+        </div>
+        <a
+          class="LinkButton"
+          data-testid="mocked-link"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] MinistageTeaser Should render empty if ministage has no fields inside 1`] = `<div />`;
+
+exports[`[Common] MinistageTeaser Should render empty if ministage is null 1`] = `<div />`;

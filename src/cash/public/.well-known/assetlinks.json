@@ -1,0 +1,29 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ch.cash.aapp",
+      "sha256_cert_fingerprints": [
+        "DC:98:A2:33:81:07:5E:9B:ED:E3:AA:C6:EF:90:F1:B3:6F:0E:E0:BD:A3:63:B9:90:2C:3A:69:BA:42:C3:B1:C2"
+      ]
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "web",
+      "site": "https://www.cash.ch"
+    }
+  },
+  {
+    "relation": ["delegate_permission/common.get_login_creds"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ch.cash.aapp",
+      "sha256_cert_fingerprints": [
+        "DC:98:A2:33:81:07:5E:9B:ED:E3:AA:C6:EF:90:F1:B3:6F:0E:E0:BD:A3:63:B9:90:2C:3A:69:BA:42:C3:B1:C2"
+      ]
+    }
+  }
+]

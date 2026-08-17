@@ -1,0 +1,81 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  position: relative;
+
+  @media print {
+    display: none;
+  }
+}
+
+.Slider {
+  display: flex !important; /* stylelint-disable-line */
+  overflow-x: visible !important; /* stylelint-disable-line */
+}
+
+.Slide {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.ImageWrapper {
+  display: inline-flex;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.UnactiveSlide {
+  opacity: 0.2;
+}
+
+.PrevButton {
+  left: -90px;
+
+  @media (min-width: $smBreakpoint) {
+    left: -60px;
+  }
+}
+
+.NextButton {
+  right: -90px;
+
+  @media (min-width: $smBreakpoint) {
+    right: -60px;
+  }
+}
+
+.NextButton,
+.PrevButton {
+  background-color: $transparent;
+  border: none;
+  margin-top: -30px;
+  outline: none;
+  padding: 30px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+
+  svg {
+    fill: $secondaryA;
+    height: 35px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 35px;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}
+
+.ImageCaptionWrapper {
+  background: $white;
+  margin-top: $margin16;
+}

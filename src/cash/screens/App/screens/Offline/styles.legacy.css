@@ -1,0 +1,23 @@
+.Wrapper {
+  margin: $margin40 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin80 0;
+  }
+}
+
+.Description {
+  margin-top: $margin16;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.Icon {
+  height: 72px;
+  margin-bottom: 37px;
+  max-height: 72px;
+  max-width: none;
+}

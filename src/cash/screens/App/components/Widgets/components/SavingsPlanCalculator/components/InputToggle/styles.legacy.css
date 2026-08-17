@@ -1,0 +1,84 @@
+.InputRow {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  margin-bottom: $margin16;
+}
+
+.InputLabel {
+  composes: BoxTitle from 'typography.legacy.css';
+  color: $blackB;
+  display: inline-flex;
+  font-size: 1rem;
+  gap: 8px;
+  line-height: 1.375rem;
+  margin-bottom: $margin8;
+
+  & * {
+    font-weight: normal;
+    text-transform: none;
+  }
+}
+
+.ToggleWrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  background: $greyC;
+  border-radius: 6px;
+  display: flex;
+  height: 62px;
+  justify-content: space-between;
+  padding: 4px;
+  position: relative;
+  width: 100%;
+}
+
+.Toggle {
+  align-items: center;
+  border: none;
+  border-radius: 4px;
+  color: $greyA;
+  cursor: pointer;
+  display: flex;
+  flex: 1 0 0;
+  font-family: $fontSourceSansPro;
+  font-size: 1.125rem;
+  font-style: normal;
+  font-weight: 700;
+  height: calc(100% - 8px);
+  justify-content: center;
+  line-height: 1.375rem;
+  outline: none;
+  padding: $margin16 0;
+  position: absolute;
+  width: 50%;
+  z-index: 1;
+
+  &:nth-of-type(1) {
+    left: 4px;
+  }
+
+  &:nth-of-type(2) {
+    right: -4px;
+
+    &.IsActive ~ .ToggleBackground {
+      margin-left: calc(50% - 8px);
+    }
+  }
+}
+
+.IsActive {
+  color: $secondaryA;
+}
+
+.ToggleBackground {
+  background: $white;
+  border-radius: 4px;
+  height: calc(100% - 8px);
+  margin-left: 0;
+  position: absolute;
+  transition: all 0.3s ease;
+  width: 50%;
+  z-index: 0;
+}

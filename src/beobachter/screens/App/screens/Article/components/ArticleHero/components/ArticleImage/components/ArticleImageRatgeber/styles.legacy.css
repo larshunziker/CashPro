@@ -1,0 +1,29 @@
+.TeaserImageWrapper {
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: -19px;
+    width: calc(100% + 38px);
+  }
+}
+
+.OnImageContent {
+  position: relative;
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Row {
+  composes: Row from '@grid.legacy.css';
+}
+
+.CaptionContainer {
+  height: 100%;
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-inline: 19px;
+  }
+}

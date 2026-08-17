@@ -1,0 +1,74 @@
+.AlertItemWrapper {
+  background-color: $white;
+  border: 1px solid $greyC;
+  display: flex;
+  height: 50px;
+  justify-content: space-between;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 12px;
+  }
+
+  > &:first-child {
+    flex-grow: 1;
+  }
+}
+
+.AlertItemImageWrapper {
+  position: relative;
+  width: 100%;
+
+  &::after {
+    background: linear-gradient(180deg, $transparent 0%, $greyA 100%);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 16px;
+    left: 0;
+    mix-blend-mode: multiply;
+    position: absolute;
+    width: 100%;
+    z-index: 9;
+  }
+}
+
+.AlertItemImage {
+  display: block;
+  width: 100%;
+}
+
+.Text {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  margin: $margin4 $margin4 $margin4 $margin12;
+  max-width: calc(100% - 138px);
+
+  > a,
+  > div {
+    @mixin ButtonSmall;
+    color: $secondaryA;
+    max-height: 46px;
+    overflow: hidden;
+    padding-bottom: 1px; /* to prevent character like "g" to be cut off by overflow hidden */
+  }
+
+  > a {
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.ChildWrapper {
+  align-items: center;
+  display: flex;
+
+  > button {
+    > i:hover, span:hover {
+      color: $primaryB;
+    }
+   
+  }
+}

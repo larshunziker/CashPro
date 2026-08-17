@@ -1,0 +1,80 @@
+.AuthorWrapper {
+  border-top: 1px solid $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: $margin24;
+  padding: 24px 0 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;  
+  }
+
+  @media print {
+    display: none;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+.AuthorImage {
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  height: 96px;
+  width: 96px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 105px;
+    width: 105px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 127px;
+    width: 127px;
+  }
+}
+
+.AuthorWrapperInner {
+  display: block;
+  float: left;
+  padding-left: 12px;
+  position: relative;
+  top: -5px;
+  width: calc(100% - 96px);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 105px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    position: static;
+    width: calc(100% - 127px);
+  }
+}
+
+.AuthorLink {
+  composes: ParagraphBoldNeutralA from 'typography.legacy.css';
+}
+
+.AuthorLead {
+  composes: ParagraphNeutralA from 'typography.legacy.css';
+  display: inline-block;
+
+  a {
+    /* tag come from backend */
+    @mixin ParagraphLinkNeutralA;
+  }
+}

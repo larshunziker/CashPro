@@ -1,0 +1,182 @@
+.Wrapper {
+  background: $white;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexOverlay;
+}
+
+.MenuHeader {
+  background-color: $black;
+  padding-bottom: 13px;
+  padding-top: 13px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 27px;
+    padding-top: 27px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 45px;
+    padding-top: 45px;
+  }
+}
+
+.MenuHeaderContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  position: relative;
+}
+
+.HeaderLogoContent {
+  align-items: center;
+  display: flex;
+}
+
+.LogoPrefix {
+  composes: HeaderMenuItems from 'typography.legacy.css';
+  color: $white;
+  margin-right: $margin8;
+}
+
+.Image {
+  height: 35px;
+  width: 83px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 45px;
+    width: 107px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 65px;
+    width: 154px;
+  }
+}
+
+.CloseButton {
+  border: none;
+  cursor: pointer;
+  left: 10px;
+  line-height: 1;
+  padding: 0;
+  position: relative;
+}
+
+.CloseIcon {
+  &::before {
+    color: $white;
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 4rem;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 5rem;
+    }
+  }
+
+  &:hover {
+    &::before {
+      color: $redA;
+    }
+  }
+}
+
+.MenuBodyWrapper {
+  height: calc(100% - $menuHeaderHeightXs);
+  overflow-y: scroll;
+
+  @media (min-width: $smBreakpoint) {
+    height: calc(100% - $menuHeaderHeightSm);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: calc(100% - $menuHeaderHeightXl);
+  }
+}
+
+.UserInformationWrapper {
+  margin-top: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin24;
+  }
+}
+
+.UserName {
+  composes: Heading7 from 'typography.legacy.css';
+}
+
+.UserCredentials {
+  composes: Paragraph2 from 'typography.legacy.css';
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 52px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 68px;
+  }
+}
+
+.MenuListWrapper {
+  margin-bottom: 20px;
+}
+
+.MenuItem {
+  cursor: pointer;
+  line-height: 5rem;
+  list-style: none;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 6rem;
+  }
+
+  &::before,
+  &::after {
+    background-color: $grayB;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    z-index: $zIndex1;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: -1px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      &::before,
+      &::after {
+        background-color: $redA;
+        z-index: calc($zIndex1 + 1);
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentSetUsernameForm Should render without crashing 1`] = `
+<div>
+  <form>
+    <p
+      class="Message"
+    >
+      Um kommentieren zu können, hinterlegen Sie bitte einen Benutzernamen.
+    </p>
+    <div
+      class="ButtonWrapper"
+    />
+  </form>
+</div>
+`;

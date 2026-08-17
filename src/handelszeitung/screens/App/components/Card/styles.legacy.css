@@ -1,0 +1,71 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  margin-bottom: 15px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+  }
+}
+
+.Content {
+  display: block;
+  padding: 14px 12px 0;
+
+  @media (min-width: $smBreakpoint) {
+    flex: 1;
+    padding: 21px 10px 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 21px 13px 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 21px 15px 0;
+  }
+}
+
+.Title {
+  composes: H3Light from 'typography.legacy.css';
+}
+
+.Link {
+  composes: InfoParagraphBlue from 'typography.legacy.css';
+  background-color: $greyE;
+  border-top: 1px solid $greyC;
+  cursor: pointer;
+  display: block;
+  padding: 5px 12px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 5px 13px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 5px 15px;
+  }
+
+  &::after {
+    bottom: 12px;
+    color: $blue;
+    content: '\E903';
+    font-family: $fontRasch;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    position: absolute;
+    right: 12px;
+    top: 8px;
+
+    @media (min-width: $mdBreakpoint) {
+      right: 13px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      right: 15px;
+    }
+  }
+}

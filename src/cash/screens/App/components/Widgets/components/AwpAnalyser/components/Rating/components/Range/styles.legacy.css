@@ -1,0 +1,30 @@
+.RainbowWrapper {
+  background: var(--rainbow, linear-gradient(270deg, #36853f 0%, #a9b617 29.69%, #ffa100 52.6%, #ee852f 68.23%, #b11029 100%));
+  border-radius: 4px;
+  height: 8px;
+  margin-bottom: $margin8;
+  position: relative;
+  width: 100%;
+}
+
+.Point {
+  background-color: $white;
+  border: 2px solid $black;
+  border-radius: 50%;
+  height: 14px;
+  left: 0;
+  margin-left: -7px;
+  position: absolute;
+  top: -3px;
+  width: 14px;  
+}
+
+.LabelWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: $margin8;
+}
+
+.Label {
+  composes: DataTable from '../../../../../../../../assets/styles/typography.legacy.css';
+}

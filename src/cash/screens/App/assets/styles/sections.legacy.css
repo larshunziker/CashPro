@@ -1,0 +1,15 @@
+.Section {
+  width: 100%;
+}
+
+.SectionDefaultMargin {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}

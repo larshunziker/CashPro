@@ -1,0 +1,133 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+  }
+
+  &:hover {
+    .TitleSI span {
+      border-bottom-color: $redA;
+    }
+
+    .TitleSY span {
+      border-bottom-color: $skin;
+    }
+
+    .VideoIcon {
+      opacity: 1;
+    }
+  }
+}
+
+.ImageWrapper {
+  float: left;
+  height: auto;
+  margin-right: 9px;
+  position: relative;
+  width: 115px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 123px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: 12px;
+    width: 216px;
+  }
+}
+
+.ContentWrapper {
+  float: left;
+  min-width: 0;
+  width: calc(100% - 125px);
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    flex: 40%;
+  }
+}
+
+.Title {
+  span {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.TitleSI {
+  composes: Heading3B from 'typography.legacy.css';
+}
+
+.TitleSY {
+  composes: Heading3BSY from 'typographySY.legacy.css';
+}
+
+.ShortTitle {
+  margin-bottom: 2px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-bottom: $margin4;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 2px;
+  }
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch2SY from 'typographySY.legacy.css';
+}
+
+.Badge {
+  position: absolute;
+  right: calc(100% - 115px);
+  top: -7px;
+  white-space: nowrap;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    right: calc(100% - 88px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: calc(100% - 138px);
+  }
+}
+
+.VideoIcon {
+  color: $white;
+  font-size: 3rem;
+  left: 10px;
+  position: absolute;
+  top: 25px;
+  transition: opacity 0.3s;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    top: 29px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    top: 81px;
+  }
+
+  &:not(.IsActive) {
+    @media (min-width: $smBreakpoint) {
+      opacity: 0;
+    }
+  }
+}

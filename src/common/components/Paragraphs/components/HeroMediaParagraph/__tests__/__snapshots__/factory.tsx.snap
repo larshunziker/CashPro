@@ -1,0 +1,322 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] HeroMediaParagraph Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div
+              data-testid="subTitle-wrapper"
+            >
+              get more money
+            </div>
+            <div
+              class="LeadStyle"
+              data-testid="lead-wrapper"
+            >
+              Der Begriff Akne bezeichnet per Definition eine vorwiegend in der Jugend auftretende, in der Regel harmlose Erkrankung der Haut, bei der sich Pickel, Pusteln und Mitesser (Komedonen) bilden. Dies ist die Folge einer übermässigen Sekretbildung der Talgdrüsen, wodurch diese verstopfen und sich nachfolgend entzünden.
+            </div>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] HeroMediaParagraph Should render correctly without a lead 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div
+              data-testid="subTitle-wrapper"
+            >
+              get more money
+            </div>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] HeroMediaParagraph Should render correctly without a shortText 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div
+              data-testid="subTitle-wrapper"
+            >
+              get more money
+            </div>
+            <div
+              class="LeadStyle"
+              data-testid="lead-wrapper"
+            >
+              Der Begriff Akne bezeichnet per Definition eine vorwiegend in der Jugend auftretende, in der Regel harmlose Erkrankung der Haut, bei der sich Pickel, Pusteln und Mitesser (Komedonen) bilden. Dies ist die Folge einer übermässigen Sekretbildung der Talgdrüsen, wodurch diese verstopfen und sich nachfolgend entzünden.
+            </div>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] HeroMediaParagraph Should render correctly without a subTitle 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div
+              class="LeadStyle"
+              data-testid="lead-wrapper"
+            >
+              Der Begriff Akne bezeichnet per Definition eine vorwiegend in der Jugend auftretende, in der Regel harmlose Erkrankung der Haut, bei der sich Pickel, Pusteln und Mitesser (Komedonen) bilden. Dies ist die Folge einer übermässigen Sekretbildung der Talgdrüsen, wodurch diese verstopfen und sich nachfolgend entzünden.
+            </div>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] HeroMediaParagraph Should render correctly without a subTitle and lead 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] HeroMediaParagraph Should render correctly without a subTitle and shortText 1`] = `
+<div>
+  <div
+    data-testid="wrapper"
+  >
+    <div
+      class="WrapperStyle GridCentered"
+      id="anchor_tag_hero"
+    >
+      <div
+        class="Container"
+      >
+        <div
+          class="InnerWrapperStyle Row"
+        >
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <div
+              class="ShortTitleStyle"
+              data-testid="shortTitle-wrapper"
+            >
+              Short Title
+            </div>
+            <h2
+              class="TitleStyle"
+              data-testid="title-wrapper"
+            >
+              This is the Marketing Page
+            </h2>
+            <div
+              class="LeadStyle"
+              data-testid="lead-wrapper"
+            >
+              Der Begriff Akne bezeichnet per Definition eine vorwiegend in der Jugend auftretende, in der Regel harmlose Erkrankung der Haut, bei der sich Pickel, Pusteln und Mitesser (Komedonen) bilden. Dies ist die Folge einer übermässigen Sekretbildung der Talgdrüsen, wodurch diese verstopfen und sich nachfolgend entzünden.
+            </div>
+            <div />
+          </div>
+          <div
+            class="ColXs24 ColSm18 ColMd12 ColXl12"
+          >
+            <img
+              alt="alt img"
+              src="[object Object]"
+            />
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

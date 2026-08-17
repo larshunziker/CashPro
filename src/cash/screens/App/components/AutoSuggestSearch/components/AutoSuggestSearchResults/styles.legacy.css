@@ -1,0 +1,64 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+
+  &:focus {
+    outline: 0;
+  }
+}
+
+.ItemName {
+  @mixin InfoB;
+  color: $secondaryA;
+}
+
+.ItemAttributes {
+  @mixin InfoD;
+  color: $greyA;
+
+  span:not(:first-child, :empty)::before {
+    content:'•';
+    padding-left: 5px;
+    padding-right: 5px;
+  }
+}
+
+.ResultTitle {
+  background-color: $greyC;
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 6px 24px;
+  position: sticky;
+  top: 0;
+}
+
+.ResultListItem {
+  &:hover {
+    background-color: $greyE;
+
+    .ItemName, .ItemAttributes {
+      color: $secondaryB;
+    }
+  }
+
+  &.IsActive .Link {
+    background-color: $decoB;
+  }
+
+  .Link {
+    border-bottom: 1px solid $greyD;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    padding: 16px 24px;
+
+    span {
+      flex: 1;
+    }
+  }
+}
+
+.LinkColor {
+  color: $secondaryA;
+}
+

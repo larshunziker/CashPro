@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] etag Should match the snapshot 0 1`] = `"2f4e6568b465cae683c64532062e79fa4871e71a"`;
+
+exports[`[Function] etag Should match the snapshot 1 1`] = `"1667363d4b429d97a4b6f6092b865120794a27bd"`;

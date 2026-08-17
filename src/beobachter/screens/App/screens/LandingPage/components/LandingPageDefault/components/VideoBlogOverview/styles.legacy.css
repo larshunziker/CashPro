@@ -1,0 +1,8 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}

@@ -1,0 +1,218 @@
+span.IsAdvertorial {
+  background: $red;
+  color: $white;
+  line-height: 1;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+
+.TeaserTitleBase {
+  color: $greyA;
+  font-family: $fontGeorgia;
+  font-size: 2.3rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.7rem;
+    line-height: 3.3rem;
+    margin-bottom: 10px;
+  }
+}
+
+/**
+* used in
+*  - teaserMainDefaultStyles
+*/
+.TeaserTitle {
+  composes: TeaserTitleBase;
+  font-size: 2.3rem;
+  line-height: 2.7rem;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.9rem;
+    line-height: 4.6rem;
+    margin-bottom: 12px;
+  }
+}
+
+.TeaserTitleWrapper {
+  line-height: 0;
+  margin-bottom: $margin8;
+}
+
+/**
+* used in
+*  - TeaserSecondaryDefault
+*  - TeaserMainDefault
+*/
+
+.TeaserImageWrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.ArticleAuthorWrapper,
+.LongReadAuthorWrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  composes: AuthorDateBook from 'typography.legacy.css';
+  display: flex;
+  flex-flow: column wrap;
+  position: relative;
+
+  &.HasAuthorsImages {
+    flex-flow: row;
+  }
+}
+
+.ArticleAuthorWrapper {
+  margin-bottom: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  &.IsOpinion {
+    margin-bottom: 30px;
+  }
+}
+
+.LongReadAuthorWrapper {
+  color: $white;
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.AuthorAvatar {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    border-radius: 50%;
+    display: block;
+    height: 73px;
+    width: 73px;
+  }
+}
+
+.AuthorWrapperInner {
+  display: block;
+
+  &.HasImage {
+    margin-left: 0;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 17px;
+    }
+
+    @media print {
+      left: 0;
+    }
+  }
+}
+
+.HasArticleImage {
+  &.HasImage {
+    margin-left: 10px;
+  }
+}
+
+.AuthorNameWrapper {
+  strong {
+    font-weight: 900;
+  }
+}
+
+.ChangeDate {
+  display: inline-block;
+  margin-top: 3px;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+    margin-top: 0;
+  }
+}
+
+.TeaserTopic {
+  color: $blue;
+  display: inline-block;
+  font-family: $fontGothamBook;
+  font-size: 1.2rem;
+  font-weight: bold;
+  letter-spacing: 1px;
+  line-height: 1.9rem;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.TeaserLead {
+  color: $greyA;
+  font-family: $fontGothamBook;
+  font-size: 1.3rem;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.7rem;
+  }
+
+  span {
+    color: $blueA;
+  }
+}
+
+.PublicationTime {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.TickerBoxTitleBadge {
+  &::before {
+    content: '\25B6\00FE0E';
+    font-size: 0.8rem;
+    margin-right: 3px;
+    vertical-align: middle;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    color: $greyB;
+    display: inline-block;
+    margin-right: 5px;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+  display: inline-table;
+  font-variant: lining-nums;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ShortTitleDAdvertorial {
+  composes: ShortTitleDAdvertorial from 'typography.legacy.css';
+}
+
+.ShortTitleDNativeArticle {
+  composes: ShortTitleDNativeAd from 'typography.legacy.css';
+}

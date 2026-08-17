@@ -1,0 +1,54 @@
+{
+  "id": "bm9kZToyODkwNA==",
+  "nid": "28904",
+  "title": "Test Page Content Type",
+  "lead": "rusty tests content type for BEO-468",
+  "shortTitle": "just a test",
+  "preferredUri": "/special-sauber-wohnen/test-page-content-type",
+  "metaTitle": "Test Page Content Type | Beobachter",
+  "metaOgTitle": "Test Page Content Type | Beobachter",
+  "metaDescription": "rusty tests content type for BEO-468",
+  "metaOgDescription": null,
+  "metaCanonicalUrl": "",
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybToxMTcy",
+    "title": "Special: Sauber wohnen",
+    "settings": {
+      "mainChannel": {
+        "id": "dGF4b25vbXlfdGVybToxMTcy",
+        "title": "Special: Sauber wohnen",
+        "__typename": "Channel"
+      },
+      "__typename": "TermSettings"
+    },
+    "__typename": "Channel"
+  },
+  "createDate": "2020-01-09T10:51:23",
+  "metaKeywords": null,
+  "heroImageBody": [],
+  "activeMenuTrail": {
+    "count": 2,
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzB4TVRjeQ==",
+          "label": "Special: Sauber wohnen",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpCNFRWUmplVEU1TWpVNQ==",
+          "label": "Test Page Content Type",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "__typename": "Page"
+}

@@ -1,0 +1,10 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+    overflow: unset;
+  }
+}

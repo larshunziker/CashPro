@@ -1,0 +1,63 @@
+.HeaderTitle {
+  @mixin BoxTitle;
+  margin-bottom: $margin16;
+  text-transform: uppercase;
+}
+
+.InnerTitle {
+  @mixin DataTable;
+  font-weight: 700;
+  margin-bottom: $margin16;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+
+.List {
+  border-bottom: 1px solid $blackB;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin12 0;
+
+  .Title {
+    @mixin DataTable;
+    align-items: flex-start;
+    font-weight: 700;
+  }
+
+  .Value {
+    @mixin DataTable;
+    align-items: flex-start;
+
+    &.Positive {
+      color: $positive;
+    
+      &::before {
+        content: '+';
+      }
+    }
+
+    &.Negative {
+      color: $errorA;
+    
+      &::before {
+        content: '-';
+      }
+    }
+  }
+}
+
+.DetailLink {
+  @mixin DataTable;
+  color: $secondaryA;
+  margin-top: $margin24;
+
+  i {
+    margin-left: 8px;
+  }
+}
+
+

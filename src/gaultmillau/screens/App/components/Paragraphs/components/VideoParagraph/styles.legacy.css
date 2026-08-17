@@ -1,0 +1,18 @@
+.Wrapper {
+  composes: AspectRatio16x9 from 'helpers.legacy.css';
+  margin-bottom: 0;
+  max-height: 182px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    max-height: 595px;
+  }
+}
+
+.HeroImageGalleryWrapper {
+  max-height: none;
+}
+
+.Hidden {
+  display: none;
+}

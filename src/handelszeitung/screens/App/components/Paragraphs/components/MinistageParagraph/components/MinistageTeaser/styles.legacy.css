@@ -1,0 +1,94 @@
+.ShortTitle {
+  composes: H5Light from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.3rem;
+    margin-bottom: 7px;
+  }
+}
+
+.Wrapper {
+  background-color: $greyE;
+  height: 100%;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  width: 100%;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+    padding: 0 20px;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 0;
+      padding: 0 24px;
+    }
+  }
+}
+
+.Container {
+  display: flex;
+  height: 100%;
+  justify-content: space-between;
+  max-width: 100%;
+  padding: 12px 0 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 24px 0 18px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 24px 0 26px;
+  }
+}
+
+.ContentWrapper {
+  @media (min-width: $mdBreakpoint) {
+    flex: 2;
+
+    &.MarginRight {
+      margin-right: 54px;
+    }
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: 21px;
+}
+
+.Headline {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: 15px;
+}
+
+.LinkButton {
+  composes: Primary from '../../../../../ButtonWithLoading/styles.legacy.css';
+  composes: Primary from '../../../../../../../../../common/components/ButtonWithLoading/styles.legacy.css';
+  composes: ClickEffect from '../../../../../../../../../common/components/ButtonWithLoading/styles.legacy.css';
+
+  display: inline-flex;
+}
+
+.ImageWrapper {
+  display: none;
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: center;
+    display: flex;
+    flex: 1;
+    position:relative;
+  }
+}
+
+.TeaserImage {
+  display: none;
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+    max-height: 100%;
+    max-width: 100%;
+  }
+}

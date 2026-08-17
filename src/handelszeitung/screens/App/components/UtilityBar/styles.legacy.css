@@ -1,0 +1,28 @@
+.Wrapper {
+  align-items: center;
+  background-color: $white;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  justify-content: center;
+  margin-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    justify-content: flex-start;
+    margin: 0 -$margin16;
+    position: relative;
+    text-align: left;
+  }
+}
+
+.WrapperOverlay {
+  display: block;
+  height: auto;
+  margin-left: -12px;
+  margin-right: -12px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 -$margin32;
+  }
+}

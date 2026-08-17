@@ -1,0 +1,31 @@
+{
+  "id": "cGFyYWdyYXBoOmluZm9fYm94OjIxNTc2MToyOTQ2OTY=",
+  "anchorId": null,
+  "infoBox": {
+    "style": "guider_notes",
+    "body": [
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6MTczNzE0OjE3NTM0Ng==",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>&lt;h3&gt;Checkliste «Selbständigkeit &amp; Trotzphase bei Kindern» bei Guider, dem digitalen Berater des Beobachters&lt;/h3&gt;</p>\n",
+        "characterCount": 103,
+        "isLastOfGroup": true,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "cGFyYWdyYXBoOnRleHQ6MTcyODM5OjE3NDQ3MQ==",
+        "anchorId": null,
+        "header": null,
+        "text": "<p>Befindet sich ein Kind in der Trotzphase, ist es für Eltern wichtig, einen direkten Bezug zu ihrem Verhalten aufzuzeigen. Wie Sie das am besten anstellen, lesen Sie als Guider-Mitglied in der <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.guider.ch/schule-und-erziehung/erziehung/saeugling-und-kleinkind/314CD469C93063C6C1258013004F0E3F\" target=\"_blank\" rel=\"noopener nofollow noreferrer\">Checkliste «Selbständigkeit und Trotzphase»</a> und erfahren dort ausserdem, wie Sie derartige Anfälle für sich erträglicher gestalten können.</p>",
+        "characterCount": 330,
+        "isLastOfGroup": true,
+        "styleValue": null,
+        "__typename": "TextParagraph"
+      }
+    ],
+    "__typename": "InfoBox"
+  },
+  "__typename": "InfoBoxParagraph"
+}

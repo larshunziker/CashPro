@@ -1,0 +1,53 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.Container {
+  background-color: $purpleLight;
+  margin-bottom: $margin32;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+
+.TeaserImageWrapper {
+  line-height: 0;
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.Description {
+  composes: Lead from 'typography.legacy.css';
+  text-align: center;
+
+  a {
+    color: $black;
+    text-decoration: underline;
+  }
+}
+
+.Related {
+  /* pull content up */
+}

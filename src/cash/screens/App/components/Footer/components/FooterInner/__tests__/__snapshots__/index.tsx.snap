@@ -1,0 +1,32 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] FooterInner Should render footer items correctly 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation"
+  >
+    <div
+      class="Title"
+    >
+      Services
+    </div>
+    <ul
+      class="List FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        <a
+          class="Link"
+          data-testid="mocked-link"
+          href="/digital/multimedia"
+        >
+          Multimedia
+        </a>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render nothing 1`] = `<div />`;

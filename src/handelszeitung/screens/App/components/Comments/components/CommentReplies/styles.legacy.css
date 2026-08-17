@@ -1,0 +1,48 @@
+.Wrapper {
+  margin: 0 0 $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 50px;
+  }
+}
+
+.Toggle {
+  border-bottom: 1px solid $greyE;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.ToggleLink {
+  composes: InfoParagraphBlue from 'typography.legacy.css';
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  margin-bottom: $margin8;
+  outline: none;
+  padding: 0 0 8px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+  }
+}
+
+.Icon {
+  font-size: 15px;
+  padding-left: 7px;
+}
+
+.Hidden {
+  display: none;
+}

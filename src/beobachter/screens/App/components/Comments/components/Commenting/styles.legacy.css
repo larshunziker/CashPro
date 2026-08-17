@@ -1,0 +1,75 @@
+.Wrapper {
+  @mixin hideforPrint;
+  display: grid;
+  grid-template-rows: max-content 0fr;
+  transition: grid-template-rows 0.3s linear;
+
+  &.isOpen {
+    grid-template-rows: max-content 1fr;
+  }
+}
+
+.Icon {
+  color: $greyA;
+  font-size: 2.5rem;
+  margin-left: auto;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.2rem;
+  }
+}
+
+.Icon,
+.IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}
+
+.StatusWrapper,
+.StatusWrapperVisible {
+  height: auto;
+  overflow: hidden;
+  transition: height 300ms linear, opacity 300ms linear;
+}
+
+.StatusWrapper {
+  height: 0;
+  opacity: 0;
+}
+
+.StatusWrapperVisible {
+  height: 100%;
+  opacity: 1;
+}
+
+.Status {
+  align-items: center;
+  color: $greyA;
+  display: flex;
+  font: 1.2rem/1.42 $fontSpezia;
+  justify-content: space-between;
+  padding: 30px 0 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+  }
+}
+
+.Logout {
+  background: none;
+  border: none;
+  color: $greyA;
+  cursor: pointer;
+  display: block;
+  font: bold 1.2rem/1.42 $fontSpezia;
+  margin: 0;
+  outline: none;
+  padding: 0;
+}
+
+.Title {
+  composes: Title from '../../../Comments/styles.legacy.css'
+}

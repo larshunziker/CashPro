@@ -1,0 +1,249 @@
+.SectionTitle {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin: 0 -8px 15px;
+  text-align: center;
+  width: calc(100% + 16px);
+
+  &::before,
+  &::after {
+    content: '';
+    transition: border-color 300ms ease-in-out;
+  }
+
+  &::before {
+    margin-right: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-right: 13px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-right: 22px;
+    }
+  }
+
+  &::after {
+    margin-left: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: $margin8;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: 18px;
+    }
+  }
+
+  &.TitleHover {
+    @media (min-width: $smBreakpoint) {
+      transition: color 300ms ease-in-out;
+
+      &:hover {
+        color: $redA;
+
+        &::before,
+        &::after {
+          border-bottom: 1px solid $redA;
+        }
+      }
+    }
+  }
+
+  &.IsBlack {
+    color: $white;
+
+    &::before,
+    &::after {
+      border-bottom: 1px solid $white;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 35px;
+  }
+
+  &SI {
+    composes: SectionTitle from 'typography.legacy.css';
+
+    &::before,
+    &::after {
+      border-bottom: 1px solid $grayB;
+      width: 34px;
+
+      @media (min-width: $smBreakpoint) {
+        width: 50px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        width: 100px;
+      }
+    }
+  }
+
+  &SY {
+    composes: SectionTitleSY from 'typographySY.legacy.css';
+
+    margin: 0 0 15px;
+    width: 100%;
+
+    span {
+      width: 80px;
+
+      @media (min-width: $smBreakpoint) {
+        width: auto;
+      }
+    }
+
+    &::before,
+    &::after {
+      border-bottom: 1px solid $skinLight;
+      width: 77px;
+
+      @media (min-width: $smBreakpoint) {
+        width: 55px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        width: 100px;
+      }
+    }
+
+    &::before {
+      margin-right: 20px;
+
+      @media (min-width: $smBreakpoint) {
+        margin-right: 15px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        margin-right: 20px;
+      }
+    }
+
+    &::after {
+      margin-left: 20px;
+
+      @media (min-width: $smBreakpoint) {
+        margin-left: 15px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        margin-left: 10px;
+      }
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 35px;
+    }
+  }
+}
+
+.SectionTitleRelated {
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 19px;
+  }
+
+  &SI {
+    composes: SectionTitleRelated from 'typography.legacy.css';
+  }
+
+  &SY {
+    composes: SectionTitleRelatedSY from 'typographySY.legacy.css';
+    margin-bottom: 14px;
+  }
+}
+
+.RecommendationsContainerRelated {
+  margin-bottom: 60px;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    margin: $margin8 auto 12px auto;
+    width: 150px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::before,
+    &::after {
+      margin: 11px auto;
+      width: 290px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    background-color: $white;
+    box-shadow: 0 0 10px 15px $white;
+    margin-top: 20px;
+    z-index: $zIndex1;
+  }
+
+  &SI {
+    &::before,
+    &::after {
+      border-bottom: 1px solid $grayB;
+    }
+  }
+
+  &SY {
+    &::before,
+    &::after {
+      border-bottom: 1px solid $skinLight;
+      margin: $margin8 auto $margin16 auto;
+    }
+  }
+}
+
+.RecommendationsContainer {
+  text-align: left;
+}
+
+.RecommendationsItem {
+  padding-bottom: 25px;
+}
+
+.RecommendationsItemRelated {
+  @media (max-width: $xsBreakpointTo) {
+    &:not(:last-child) {
+      &::after {
+        content: '';
+        display: block;
+        margin: 10px auto 20px;
+        width: 150px;
+      }
+    }
+  }
+
+  &SI {
+    @media (max-width: $smBreakpointTo) {
+      &:not(:last-child) {
+        &::after {
+          border-bottom: 1px solid $grayB;
+        }
+      }
+    }
+  }
+
+  &SY {
+    @media (max-width: $smBreakpointTo) {
+      &:not(:last-child) {
+        &::after {
+          border-bottom: 1px solid $skinLight;
+        }
+      }
+    }
+  }
+}
+
+.RecommendationsListContainer {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}

@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserStageParagraph Should return 1 item grid style 1`] = `"teaserStage1Item"`;
+
+exports[`[Component] TeaserStageParagraph Should return 2 item grid style 1`] = `"teaserStage2Items"`;
+
+exports[`[Component] TeaserStageParagraph Should return 3 item grid style 1`] = `"teaserStage3Items"`;
+
+exports[`[Component] TeaserStageParagraph Should return 4 item grid style 1`] = `"teaserStageDefault"`;
+
+exports[`[Component] TeaserStageParagraph Should return default grid style 1`] = `"teaserStageUnlimited"`;
+
+exports[`[Component] TeaserStageParagraph Should return default styles 1`] = `
+{
+  "Header": "Header",
+  "Icon": "Icon",
+  "SectionTitle": "SectionTitle",
+  "TitleLink": "TitleLink",
+}
+`;
+
+exports[`[Component] TeaserStageParagraph Should return marketing styles 1`] = `
+{
+  "Header": "Header",
+  "Icon": "Icon",
+  "SectionTitle": "SectionTitle",
+  "TitleLink": "TitleLink MarketingPage",
+}
+`;
+
+exports[`[Component] TeaserStageParagraph Should return shop product grid style 1`] = `"teaserStageShopProduct"`;

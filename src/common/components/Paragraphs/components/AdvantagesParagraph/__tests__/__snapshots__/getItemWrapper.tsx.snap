@@ -1,0 +1,7 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Paragraphs - AdvantagesParagraph Should return styles for 3 items in one row 1`] = `"ColSm8"`;
+
+exports[`[Component] Paragraphs - AdvantagesParagraph Should return styles for 4 items 2 in each row 1`] = `"ColXl8 ColSm12 ColOffsetXl4"`;
+
+exports[`[Component] Paragraphs - AdvantagesParagraph Should return styles for 5 items 3 in first row and 2 in second 1`] = `"ColSm8 ColOffsetSm4"`;

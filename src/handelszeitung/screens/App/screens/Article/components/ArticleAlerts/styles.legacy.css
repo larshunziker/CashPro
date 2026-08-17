@@ -1,0 +1,12 @@
+.AlertListTitle {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: 20px;
+}
+
+.AlertListWrapper {
+  margin-bottom: 30px;
+}
+
+.HideForPrint {
+  @mixin hideforPrint;
+}

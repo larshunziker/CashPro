@@ -1,0 +1,81 @@
+.Body {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: left;
+}
+
+.Name {
+  composes: ParagraphBold from 'typography.legacy.css';
+  flex: 1 1 50%;
+}
+
+.Date {
+  composes: CaptionAuthorParagraph from 'typography.legacy.css';
+  color: $grayB;
+  flex: 1 1 50%;
+
+  /**
+  * to match the height of the name
+  */
+  line-height: 2.5rem;
+  text-align: right;
+
+  @media (min-width: $smBreakpoint) {
+    /**
+    * to match the height of the name
+    */
+    line-height: 3.5rem;
+  }
+}
+
+.Text {
+  composes: Paragraph from 'typography.legacy.css';
+  flex: 0 0 100%;
+  font-weight: 300;
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 30px;
+  }
+}
+
+.LogoWrapper {
+  height: 18px;
+  width: 45px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 9px;
+  }
+}
+
+.LogoWrapperSY {
+  height: 19px;
+  margin-top: 1px;
+  width: 58px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 22px;
+    width: 67px;
+  }
+}
+
+.LogoSY {
+  max-height: 100%;
+  max-width: 100%;
+}
+
+.AccountNameWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.AccountName {
+  composes: ParagraphBold from 'typography.legacy.css';
+  color: $redA;
+  margin-left: $margin8;
+}
+
+.AccountNameSY {
+  composes: AccountName;
+  color: $black;
+}

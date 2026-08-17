@@ -1,0 +1,57 @@
+.Wrapper {
+  margin: $margin40 0;
+  position: relative;
+}
+
+.HeaderTitle {
+  composes: H1 from '../../../../assets/styles/typography.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.Label {
+  composes: H4 from '../../../../assets/styles/typography.legacy.css';
+  background-color: $primaryA;
+  border-radius: 4px;
+  color: $white;
+  height: 50px;
+  left: 100%;
+  padding: 17px;
+  position: sticky;
+  text-align: center;
+  top: 75px;
+  width: 150px;
+  z-index: 2;
+}
+
+.WrapperInner {
+  /* stylelint-disable-next-line */
+  background-color:rgba(198, 198, 198, 0.452);
+  border-radius: 4px;
+  box-shadow: 0 0 1px 1px $greyB;
+  margin-bottom: 30px;
+  padding: 20px;
+  z-index: 1;
+}
+
+.Title {
+  background-color: $primaryA;
+  border-radius: 2px;
+  color: $white;
+  padding: 5px 15px;
+  z-index: 0;
+}
+
+.ItemWrapper {
+  list-style: none;
+}
+
+.Input{
+  composes: InfoParagraph from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-left: $margin4;
+}
+
+.InputLabel {
+  composes: InfoParagraph from 'typography.legacy.css';
+  margin-right: $margin16;
+}

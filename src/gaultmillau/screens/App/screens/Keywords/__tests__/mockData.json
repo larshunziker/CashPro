@@ -1,0 +1,39 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "keywordsByChar": {
+        "__typename": "KeywordConnection",
+        "count": 2,
+        "edges": [
+          {
+            "__typename": "KeywordEdge",
+            "node": {
+              "__typename": "Keyword",
+              "id": "dGF4b25vbXlfdGVybToxMzI3",
+              "label": "Aal",
+              "preferredUri": "/fr/mots-cles/a/aal",
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "count": 3
+              }
+            }
+          },
+          {
+            "__typename": "KeywordEdge",
+            "node": {
+              "__typename": "Keyword",
+              "id": "dGF4b25vbXlfdGVybToxMjgx",
+              "label": "An Test",
+              "preferredUri": "/fr/mots-cles/a/test",
+              "entities": {
+                "__typename": "SearchableUnionConnection",
+                "count": 5
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

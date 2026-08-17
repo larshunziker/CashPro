@@ -1,0 +1,63 @@
+.mixedWithPiano1 {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(18, auto);
+
+    .Item {
+      margin-bottom: 30px;
+    }
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 6 / 1 / 7 / 25; }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(4, auto);
+      
+      .Item {
+        margin-bottom: $margin40;
+      }
+
+      .Item0 { 
+        border-right: 1px solid $neutralC; 
+        grid-area: 1 / 1 / 2 / 9;
+        margin-right: -10px;
+        padding-right: 10px;
+      }
+
+      .Item1 {
+        display: block;
+        grid-area: 3 / 1 / 4 / 25; 
+        margin-left: 2px;
+        padding-right: 1px;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+
+      .Item {
+        margin-bottom: 50px;
+      }
+
+      .Item0 { 
+        margin-right: -12px;
+        padding-right: 12px;
+      }
+
+      .Item1 {
+        margin-left: 0;
+      }
+    }
+  }
+}

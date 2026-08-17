@@ -1,0 +1,9 @@
+{
+  "isFirst": true,
+  "textParagraph": {
+    "header": "TableHeader",
+    "text": "<table><thead><tr><th>date</th><th>value</th><th>some column</th><th>more informations</th><th>date</th><th>value</th><th>some column</th><th>more informations</th><th>date</th><th>value</th><th>some column</th><th>more informations</th></tr></thead><tbody><tr><td>2021-04-22</td><td>lorem ipsum</td><td>-</td><td>test1</td><td>2021-04-22</td><td><strong>lorem</strong> ipsum</td><td>-</td><td>test1</td><td>2021-04-22</td><td>lorem ipsum</td><td>-</td><td>test1</td></tr><tr><td colspan=\"4\">merged cells</td><td colspan=\"4\">merged cells</td><td colspan=\"4\">merged cells</td></tr><tr><td>2021-04-23</td><td>some value</td><td>extra value</td><td>test2</td><td>2021-04-23</td><td>some value</td><td>extra value</td><td>test2</td><td>2021-04-23</td><td>some value</td><td>extra value</td><td>test2</td></tr><tr><td>2021-04-24</td><td>more and more descriptions</td><td>more information</td><td>test3</td><td>2021-04-24</td><td><strong>more and more</strong> descriptions</td><td><em>more</em> information</td><td>test3</td><td>2021-04-24</td><td>more and more descriptions</td><td>more information</td><td>test3</td></tr><tr><td>2021-04-25</td><td>short</td><td>&nbsp;</td><td>test4</td><td>2021-04-25</td><td>short</td><td>&nbsp;</td><td>test4</td><td>2021-04-25</td><td>short</td><td>&nbsp;</td><td><p>test</p></td></tr></tbody></table>"
+  },
+  "addClass": "string",
+  "origin": "string"
+}

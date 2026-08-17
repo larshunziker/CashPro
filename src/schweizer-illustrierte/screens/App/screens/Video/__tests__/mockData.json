@@ -1,0 +1,54 @@
+{
+  "id": "bm9kZToxOTYyMA==",
+  "preferredUri": "/style/videos/kiss-cam-miss-schweiz-jastina-und-moderator-jontsch",
+  "shortTitle": "Kiss-Cam:",
+  "metaCanonicalUrl": "",
+  "title": "Miss Schweiz Jastina und Moderator Jontsch",
+  "caption": "Die amtierende Miss Schweiz Jastina knutscht an der Energy Star Night mit dem Moderator Jontsch.",
+  "credit": "Coop",
+  "channel": {
+    "id": "test1234",
+    "tid": "5754",
+    "channelType": "video_blog"
+  },
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQx",
+          "label": "Style",
+          "link": "/style",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpReE9URXpPRGcz",
+          "label": "SEO TITLE: Miss Schweiz Jastina und Moderator Jontsch",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "teaserImage": {
+    "id": "test1234",
+    "image": {
+      "id": "jf",
+      "file": {
+        "id": "2f",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/media/field_image/2019-01/kiss_cam_miss_schweiz_jastina.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "brightcoveId": "5968879364001",
+  "__typename": "Video"
+}

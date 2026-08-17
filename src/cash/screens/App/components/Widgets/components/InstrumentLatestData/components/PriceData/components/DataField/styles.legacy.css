@@ -1,0 +1,41 @@
+.Skeleton, .SkeletonAdditional {
+  margin: 0 0 3px;
+  width: 50px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 21px;
+  }
+}
+
+.Skeleton {
+  min-height: 23px;
+  
+  @media (min-width: $smBreakpoint) {
+    min-height: 23px;
+  }
+}
+
+.SkeletonAdditional {
+  min-height: 14px;
+  
+  @media (min-width: $smBreakpoint) {
+    min-height: 14px;
+  }
+}
+
+.Value {
+  composes: DataTable from 'typography.legacy.css';
+  color: $blackB;
+  font-weight: 700;
+  min-height: 23px; /* cls */
+
+  &.GreyValue {
+    color: $greyA;
+  }
+}
+
+.ValueAdditional {
+  composes: InfoC from 'typography.legacy.css';
+  color: $blackB;
+  min-height: 19px;  /* cls */
+}

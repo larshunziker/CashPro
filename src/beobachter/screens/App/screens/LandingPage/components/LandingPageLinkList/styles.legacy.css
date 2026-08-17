@@ -1,0 +1,49 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Header {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 28px;
+  margin-bottom: 5px;
+  margin-top: 22px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    letter-spacing: -1px;
+    line-height: 1.13;
+    margin-bottom: 12px;
+    margin-top: $margin64;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.HeaderTitle {
+  white-space: nowrap;
+}
+
+.Divider {
+  background-color: $redA;
+  height: 1px;
+  margin-bottom: 12px;
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: 25px;
+  }
+}

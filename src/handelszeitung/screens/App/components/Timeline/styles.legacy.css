@@ -1,0 +1,87 @@
+.Wrapper {
+  display: inline-block;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.TimelineTeaserWrapper {
+  margin-bottom: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+  margin: 20px 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+    margin-top: 55px;
+  }
+}
+
+.Button {
+  composes: H4Light from from 'typography.legacy.css';
+  background-color: $white;
+  border: 1px solid $blue;
+  display: block;
+  padding: 8px 13px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+  }
+}
+
+.ButtonWrapper {
+  left: 0;
+  margin-top: $margin40;
+  position: relative;
+  width: 177px;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+    left: calc(20.83333% - 91px); /* stylelint-disable-line */
+    margin-top: 49px;
+    top: 4px;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: 69.5px;
+    margin-top: 50px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    left: 70px;
+    margin-top: 49px;
+  }
+
+  @media (min-width: $xxlBreakpoint) {
+    left: 115px;
+  }
+}
+
+.Icon {
+  font-size: 1.5rem;
+  line-height: 2rem;
+  padding-left: 20px;
+  position: absolute;
+  right: 15px;
+  top: 9px;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+    top: 2px;
+  }
+}

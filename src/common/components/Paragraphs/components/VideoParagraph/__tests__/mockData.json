@@ -1,0 +1,24 @@
+{
+  "video": {
+    "anchorId": null,
+    "id": "179274",
+    "title": "test video title",
+    "shortTitle": "Test video Short title",
+    "brightcoveId": "5820093328001",
+    "caption": "Video Caption test",
+    "credit": "RASCH",
+    "image": {
+      "file": {
+        "alt": "a",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/5805491-1.jpg",
+        "__typename": "ImageFile"
+      },
+      "credit": "asdfadsf",
+      "__typename": "Image"
+    },
+    "video": null,
+    "__typename": "VideoParagraph"
+  }
+}

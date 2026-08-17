@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LinkLegacy Should set trackinData 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    data-track-info="[{"type":"external-link","value":"external-link/default"}]"
+    href="https://www.beobachter.ch/"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    Visit beobachter
+  </a>
+</div>
+`;

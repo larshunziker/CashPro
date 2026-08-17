@@ -1,0 +1,21 @@
+.fullquoteDerivateSimulator {
+  .Grid0 {
+    background: $white;
+    display: grid;
+    grid-row-gap: $margin24;
+    grid-template-columns: repeat(24, 1fr);
+
+    .Item {
+      max-width: 100%;
+    }
+
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 25; }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $margin16;
+    }
+  }
+}

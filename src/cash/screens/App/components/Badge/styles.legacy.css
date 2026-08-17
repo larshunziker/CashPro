@@ -1,0 +1,8 @@
+.Badge {
+  composes: ButtonSmall from 'typography.legacy.css';
+  border: 1px solid $primaryA;
+  border-radius: $margin16;
+  color: $primaryA;
+  font-weight: 700;
+  padding: $margin4 $margin16;
+}

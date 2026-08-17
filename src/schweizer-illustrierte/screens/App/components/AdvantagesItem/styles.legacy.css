@@ -1,0 +1,51 @@
+.Wrapper {
+  align-items: center;
+  background-color: $skinLight;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin16;
+  padding: 24px 16px;
+  text-align: center;
+  text-decoration: none;
+
+  @media (min-width: $smBreakpoint) {
+    height: calc(100% - 16px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: calc(100% - 24px);
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 24px 56px;
+  }
+}
+
+.WideItem {
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $mdBreakpoint) and (max-width: $mdBreakpointTo) {
+    padding: 24px 32px;
+  }
+}
+
+.Icon {
+  height: auto;
+  margin-bottom: $margin16;
+  max-height: 48px;
+}
+
+.Text {
+  composes: RichtextWrapper from '../Paragraphs/components/TextParagraph/styles.legacy.css';
+
+  &SI {
+    composes: RichtextWrapperSI from '../Paragraphs/components/TextParagraph/styles.legacy.css';
+  }
+
+  &SY {
+    composes: RichtextWrapperSY from '../Paragraphs/components/TextParagraph/styles.legacy.css';
+  }
+}

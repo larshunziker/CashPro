@@ -1,0 +1,28 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  margin: auto;
+  margin-bottom: 2.5rem;
+}
+
+.TitleWrapper {
+  composes: ColOffsetXs2 from '@grid.legacy.css';
+  composes: ColXs20 from '@grid.legacy.css';
+  composes: ColOffsetSm4 from '@grid.legacy.css';
+  composes: ColSm16 from '@grid.legacy.css';
+  composes: ColOffsetXl5 from '@grid.legacy.css';
+  composes: ColXl14 from '@grid.legacy.css';
+  composes: TextCenter from 'helpers.legacy.css';
+  composes: TitleWrapper from 'Paragraphs/components/VideoParagraph/styles.legacy.css';
+}
+
+.Title {
+  composes: Quote from 'Paragraphs/components/VideoParagraph/styles.legacy.css';
+}
+
+.TitleSI {
+  composes: QuoteSI from 'Paragraphs/components/VideoParagraph/styles.legacy.css';
+}
+
+.TitleSY {
+  composes: QuoteSY from 'Paragraphs/components/VideoParagraph/styles.legacy.css';
+}

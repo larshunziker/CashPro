@@ -1,0 +1,170 @@
+.HomeNavigation {
+  @mixin hideforPrint;
+  display: block;
+  position: relative;
+
+  &::before {
+    background: $grey30;
+    content: '';
+    height: 1px;
+    position: absolute;
+    width: 100%;
+  }
+
+  @media(max-width: $xsBreakpointTo) {
+    max-height: 40px;
+    transition: max-height 0.3s ease;
+  }
+}
+
+.NavContainer {
+  overflow: hidden;
+  position: relative;
+
+  @media (max-width: $smBreakpoint) {
+    margin-right: 0;
+    width: calc(100% - 19px);
+  }
+}
+
+.Bar {
+  display: flex;
+  height: $headerNavigationHeight;
+  justify-content: space-between;
+  line-height: $headerNavigationHeight;
+  overflow: hidden;
+  transition: height 0.3s ease;
+  width: 100%;
+
+  &.Hidden {
+    height: 0;
+    line-height: 0;
+  }
+}
+
+.Menu {
+  color: $white;
+  display: flex;
+  font-size: 2rem;
+  line-height: 40px;
+  min-width: 0;
+  transition: transform 0.3s ease;
+  width: 100%;
+}
+
+.Link {
+  color: $black;
+  flex-shrink: 0;
+  font-family: $fontSpezia;
+  font-size: 1.9rem;
+  font-weight: 300;
+  padding: 0 calc(21px / 2);
+  position: relative;
+  white-space: nowrap;
+  z-index: calc($zIndexLow + 1);
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 calc(20px / 2);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 calc(25px / 2);
+  }
+}
+
+.AllContents {
+  composes: Link;
+  align-items: center;
+  background: none;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  flex-grow: 0;
+  opacity: 1;
+  outline: none;
+  padding: 0 16px 0 0;
+  position: relative;
+  transition: transform .3s ease, width .3s ease, padding .3s ease, opacity .3s ease;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 24px 0 0;
+  }
+
+  &::after {
+    background-color: $grey30;
+    bottom: 25%;
+    content: '';
+    height: 50%;
+    position: absolute;
+    right: 0;
+    width: 1px;
+  }
+
+  &:hover {
+    .AllContentsLabel {
+      text-decoration: underline;
+    }
+  }
+
+  &.Hidden {
+    margin: 0;
+    opacity: 0;
+    padding: 0;
+    visibility: hidden;
+    width: 0;
+  }
+}
+
+.AllContentsLabel {
+  font-size: 14px;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.Icon {
+  fill: $black;
+  height: 18px;
+  margin-right: $margin8;
+  vertical-align: middle;
+  width: 18px;
+}
+
+.UtilityBarWrapper {
+  position: relative;
+}
+
+.UtilityHeaderBar {
+  align-items: center;
+  display: flex;
+
+  @media(min-width: $smBreakpoint) {
+    margin-left: auto;
+  }
+}
+
+.MoveUp {
+  @media(max-width: $xsBreakpointTo) {
+    max-height: 0;
+    overflow: hidden;
+  }
+}
+
+.Hidden {
+  display: none;
+}
+
+.BottomBorder {
+  &::after {
+    background: $grey30;
+    content: '';
+    height: 1px;
+    position: absolute;
+    width: 100%;
+  }
+}

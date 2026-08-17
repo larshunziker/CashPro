@@ -1,0 +1,44 @@
+.Wrapper {
+  display: flex;
+  font-family: $fontSourceSansPro;
+  justify-content: space-between;
+  padding: 16px;
+}
+
+.Title {
+  color: $blackB;
+  font-size: 24px;
+  font-weight: 700;
+
+  i {
+    margin-left: $margin8;
+  }
+}
+
+.Value {
+  color: $blackB;
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Info {
+  color: $greyA;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.Red {
+  color: $primaryA;
+}
+
+.Green {
+  color: $positive;
+}
+
+.Up {
+  transform: rotate(-45deg);
+}
+
+.Down {
+  transform: rotate(45deg);
+}

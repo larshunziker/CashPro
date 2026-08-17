@@ -1,0 +1,25 @@
+.Wrapper {
+  line-height: 0;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+}
+
+.Img {
+  margin-bottom: 6px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+:global(.hero-picture) {
+  @media print {
+    height: auto !important; /* stylelint-disable-line */
+    margin-bottom: $margin8;
+    max-height: 500px;
+    max-width: 750px;
+    width: auto !important; /* stylelint-disable-line */
+  }
+}

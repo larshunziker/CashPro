@@ -1,0 +1,39 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  width: 128px;
+  
+}
+
+.Title {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: 700;
+}
+
+.SubTitle {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.Info {
+  composes: InfoE from 'typography.legacy.css';
+  font-weight: 700;
+}
+
+.Link {
+  color: $secondaryA;
+}
+
+.Button {
+  margin-bottom: 4px;
+  margin-top: 16px;
+}
+
+.BadgeWrapper {
+  > div {
+    left: calc(50% - 78px / 2); /* 78px = badge width */
+    position: absolute;
+    top: -40px;
+  }
+}

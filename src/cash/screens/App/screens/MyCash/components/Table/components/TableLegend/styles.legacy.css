@@ -1,0 +1,46 @@
+.Wrapper {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s;
+
+  &.IsOpen {
+    max-height: 5000px;
+  }
+}
+
+.ToggleButton {
+  composes: ButtonSmall from 'typography.legacy.css';
+  border: none;
+  color: $secondaryA;
+  display: flex;
+  justify-content: flex-end;
+  line-height: 1;
+  padding: $margin4 0 $margin16 0;
+  text-align: right;
+  width: 100%;
+
+  & > div {
+    cursor: pointer;
+    display: flex;
+  }
+
+  span {
+    padding-right: $margin4;
+  }
+}
+
+.Table {
+  margin: $margin16 0 $margin32 0;
+
+  th {
+    background: $greyE;
+    border-bottom: 1px solid $greyD;
+    font-weight: bold;
+
+    text-align: left;
+  }
+
+  th, td {
+    padding: $margin8 $margin12 $margin8;
+  }
+}

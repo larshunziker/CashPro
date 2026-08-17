@@ -1,0 +1,34 @@
+.Wrapper {
+  background-color: $white;
+  box-shadow: 0 2px 4px 0 rgb(0 0 0 / 50%);
+  left: 0;
+  list-style: none;
+  margin-top: 6px;
+  max-height: calc(100vh - $headerHeightXs);
+  min-height: 2px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  position: absolute;
+  right: 0;
+  scroll-behavior: smooth;
+  width: 100%;
+  z-index: $zIndexHigh;
+}
+
+.LoadingIndicator {
+  composes: LoadingIndicator from '../../../LoadingBar/styles.legacy.css';
+  position: absolute;
+}
+
+.LoadingIndicatorItem {
+  composes: LoadingIndicatorItem from '../../../LoadingBar/styles.legacy.css';
+}
+
+.LoadingIndicatorItem:last-child {
+  animation-delay: 0.5s;
+}
+
+.LoadingBar {
+  composes: LoadingBar from '../../../LoadingBar/styles.legacy.css';
+  background-color: $black;
+}

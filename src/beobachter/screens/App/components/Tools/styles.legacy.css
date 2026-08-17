@@ -1,0 +1,13 @@
+.Wrapper {
+  background: $greenLight;
+  border-radius: 8px;
+  margin-bottom: $margin48;
+  padding: $margin16;
+}
+
+.Title {
+  composes: SubheadLG from 'typography.legacy.css';
+
+  color: $black;
+  margin-bottom: $margin16;
+}

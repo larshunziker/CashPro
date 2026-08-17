@@ -1,0 +1,47 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: inline-block;
+  height: 100%;
+  margin-left: 27px;
+
+  /* need this footer height to scroll bottom and show all items */
+  padding-bottom: calc(46px + $defaultPadding);
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-left: 179px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-left: 270px;
+  }
+}
+
+.ListItem {
+  display: block;
+  line-height: 1.6;
+  margin-bottom: 0;
+  margin-top: 0;
+
+  .KeywordLink {
+    color: $neutralA;
+    display: inline-block;
+    font-family: $fontActaHeadline;
+    font-size: 1.7rem;
+    font-weight: 500;
+
+    @media (min-width: $smBreakpoint) {
+      /* width >= 760 */
+      font-size: 4rem;
+      font-weight: 600;
+      letter-spacing: 0.5px;
+      line-height: 1.58;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* width >= 960 */
+      font-size: 4rem;
+    }
+  }
+}

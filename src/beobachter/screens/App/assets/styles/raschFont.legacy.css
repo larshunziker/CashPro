@@ -1,0 +1,198 @@
+.Icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  display: inline-block;
+  font-family: 'rasch-font' !important; /* stylelint-disable-line */
+  font-size: inherit;
+
+  /* Better Font Rendering =========== */
+  -moz-osx-font-smoothing: grayscale; /* stylelint-disable-line */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+}
+
+/* stylelint-disable */
+
+.IconUserSolid::before {
+  content: '\37a';
+}
+.IconChevronLeft::before {
+  content: '\21';
+}
+.IconChevronRight::before {
+  content: '\22';
+}
+.IconClock::before {
+  content: '\23';
+}
+.IconXMark::before {
+  content: '\24';
+}
+.IconDocument::before {
+  content: '\26';
+}
+.IconFolder::before {
+  content: '\28';
+}
+.IconHouse::before {
+  content: '\2a';
+}
+.IconEnvelope::before {
+  content: '\2d';
+}
+.IconMenu::before {
+  content: '\2e';
+}
+.IconCamera::before {
+  content: '\2f';
+}
+.IconPrint::before {
+  content: '\31';
+}
+.IconArrowRotateRight::before {
+  content: '\32';
+}
+.IconMagnifyingGlass::before {
+  content: '\33';
+}
+.IconGear::before {
+  content: '\35';
+}
+.IconTrash::before {
+  content: '\36';
+}
+.IconUser::before {
+  content: '\37';
+}
+.IconTwitter::before {
+  content: '\3a';
+}
+.IconFacebookF::before {
+  content: '\3d';
+}
+.IconShare::before {
+  content: '\3f';
+}
+.IconWhatsapp::before {
+  content: '\4e';
+}
+.IconNewspaper::before {
+  content: '\52';
+}
+.IconLocation::before {
+  content: '\62';
+}
+.IconWhistle::before {
+  content: '\73';
+}
+.IconCoins::before {
+  content: '\78';
+}
+.IconServices::before {
+  content: '\e930';
+}
+.IconCart::before {
+  content: '\7b';
+}
+.IconBell::before {
+  content: '\e900';
+}
+.IconBellOn::before {
+  content: '\e919';
+}
+.IconArrowLeft::before {
+  content: '\e901';
+}
+.IconArrowDown::before {
+  content: '\e902';
+}
+.IconArrowRight::before {
+  content: '\e903';
+}
+.IconArrowUp::before {
+  content: '\e904';
+}
+.IconChevronDown::before {
+  content: '\e905';
+}
+.IconChevronUp::before {
+  content: '\e906';
+}
+.IconXing:before {
+  content: "\e909";
+}
+.IconLinkedin:before {
+  content: "\e90c";
+}
+.IconCheck::before {
+  content: '\ea10';
+}
+.IconPlay::before {
+  content: '\42';
+}
+.IconLogout {
+  composes: IconShare;
+  transform: rotate(90deg);
+}
+.IconBookOpen::before {
+  content: '\e910';
+}
+.IconBook::before {
+  content: '\e912';
+}
+.IconBookmark::before {
+  content: '\65';
+}
+.IconBookmarkSolid::before {
+  content: '\66';
+}
+.IconGuider::before {
+  content: '\e90f';
+}
+.IconInstagram:before {
+  content: "\e913";
+}
+.IconShieldSectionMark::before {
+  content: '\e916';
+}
+.IconCircleExclamation::before {
+  content: '\e91b';
+}
+.IconTriangleExclamation::before {
+  content: '\38';
+}
+.IconCircleCheck::before {
+  content: '\e91d';
+}
+.IconCircleInfo::before {
+  content: '\e91c';
+}
+.IconPlusThin::before {
+  content: '\e908';
+}
+.IconMinusThin::before {
+  content: '\e90d';
+}
+.IconStar::before {
+  content: '\27';
+}
+.IconStarSolid::before {
+  content: '\e90e';
+}
+.IconFile::before {
+  content: '\26';
+}
+.IconFileWord::before {
+  content: '\e922';
+}
+.IconFileExcel::before {
+  content: '\e923';
+}
+.IconFilePdf::before {
+  content: '\e924';
+}

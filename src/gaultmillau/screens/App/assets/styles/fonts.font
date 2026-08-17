@@ -1,0 +1,200 @@
+@font-face {
+  font-family: 'gault-millau';
+  src:  url('../fonts/gault-millau.woff2?kdhtug') format('woff2'),
+        url('../fonts/gault-millau.woff?kdhtug') format('woff'),
+        url('../fonts/gault-millau.svg?kdhtug#gault-millau') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'ActaDisplay';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/ActaDisplay-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaDisplay-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'ActaDisplay';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/ActaDisplay-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaDisplay-ExtraBold.woff') format('woff'); /* Pretty Modern Browsers */     
+}
+
+@font-face {
+  font-family: 'ActaDisplay';
+  font-weight: 900;
+  font-style: normal;
+  src: url('../fonts/ActaDisplay-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaDisplay-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'ActaHeadline';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/ActaHeadline-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaHeadline-Medium.woff') format('woff'); /* Pretty Modern Browsers */ 
+}
+
+@font-face {
+  font-family: 'ActaHeadline';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/ActaHeadline-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaHeadline-Bold.woff') format('woff'); /* Pretty Modern Browsers */  
+}
+
+@font-face {
+  font-family: 'ActaHeadline';
+  font-weight: 800;
+  font-style: normal;
+  src: url('../fonts/ActaHeadline-ExtraBold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/ActaHeadline-ExtraBold.woff') format('woff'); /* Pretty Modern Browsers */  
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 100;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Thin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Thin.woff') format('woff'); /* Pretty Modern Browsers */  
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 100;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-ThinItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-ThinItalic.woff') format('woff'); /* Pretty Modern Browsers */   
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 300;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Light.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Light.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 300;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-LightItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-LightItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Regular.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-Italic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Italic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 500;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Medium.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 500;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-MediumItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-MediumItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 700;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Bold.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 700;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-BoldItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-BoldItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 900;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Black.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro';
+  font-weight: 900;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-BlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-BlackItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro-Hairline';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-Hairline.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-Hairline.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro-Hairline';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-HairlineItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-HairlineItalic.woff') format('woff'); /* Pretty Modern Browsers */  
+}
+
+@font-face {
+  font-family: 'BagueSansPro-XThin';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-XThin.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-XThin.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro-XThin';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-XThinItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-XThinItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro-UBlack';
+  font-weight: 400;
+  font-style: normal;
+  src: url('../fonts/PFBagueSansPro-UBlack.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-UBlack.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-family: 'BagueSansPro-UBlack';
+  font-weight: 400;
+  font-style: italic;
+  src: url('../fonts/PFBagueSansPro-UBlackItalic.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/PFBagueSansPro-UBlackItalic.woff') format('woff'); /* Pretty Modern Browsers */
+}

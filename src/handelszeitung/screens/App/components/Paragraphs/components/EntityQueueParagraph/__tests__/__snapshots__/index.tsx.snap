@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Entity Queue Paragraph Should return Logo if landingPage title is BILANZ 1`] = `
+<div>
+  <span
+    class="HiddenHeader"
+  >
+    BILANZ
+  </span>
+  <div
+    class="LogoBilWrapper"
+    data-testid="entity-queue-paragraph-title"
+  >
+    <div
+      data-testid="mocked-logo"
+    >
+      logo/bilanz
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Entity Queue Paragraph Should return bilanz Logo if preferredUri is /bilanz 1`] = `
+<div>
+  <span
+    class="HiddenHeader"
+  >
+    Digital Switzerland
+  </span>
+  <div
+    class="LogoBilWrapper"
+    data-testid="entity-queue-paragraph-title"
+  >
+    <div
+      data-testid="mocked-logo"
+    >
+      logo/bilanz
+    </div>
+  </div>
+</div>
+`;

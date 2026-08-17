@@ -1,0 +1,1116 @@
+{
+  "id": "bm9kZTo3MTI2NDg=",
+  "nid": "712648",
+  "gcid": "733902",
+  "title": "Ernteausf\u00e4lle und Energiekosten \u2013 Alltagsg\u00fcter werden teurer",
+  "lead": "Die Preise f\u00fcr Dienstleistungen und G\u00fcter des t\u00e4glichen Bedarfs steigen weiter. Doch es gibt Ausnahmen \u2013 eine \u00dcbersicht.",
+  "shortTitle": "Teuerung",
+  "seoTitle": "Unwetter, Ernteausf\u00e4lle und Energiekrise: Teuerung von Essen wegen Inflation",
+  "metaTitle": "Unwetter, Ernteausf\u00e4lle und Energiekrise: Teuerung von Essen wegen Inflation | Beobachter",
+  "metaDescription": "Die Preise f\u00fcr Dienstleistungen und G\u00fcter des t\u00e4glichen Bedarfs steigen weiter. Doch es gibt Ausnahmen \u2013 eine \u00dcbersicht.",
+  "metaOgTitle": "Unwetter, Ernteausf\u00e4lle und Energiekrise: Teuerung von Essen wegen Inflation",
+  "metaOgDescription": "Die Preise f\u00fcr Dienstleistungen und G\u00fcter des t\u00e4glichen Bedarfs steigen weiter. Doch es gibt Ausnahmen \u2013 eine \u00dcbersicht.",
+  "metaTwitterCardsTitle": "Unwetter, Ernteausf\u00e4lle und Energiekrise: Teuerung von Essen wegen Inflation",
+  "metaTwitterCardsDescription": "Die Preise f\u00fcr Dienstleistungen und G\u00fcter des t\u00e4glichen Bedarfs steigen weiter. Doch es gibt Ausnahmen \u2013 eine \u00dcbersicht.",
+  "metaCanonicalUrl": "https://www.beobachter.ch/magazin/geld/ernteausfalle-und-energiekosten-alltagsguter-werden-teurer-733902",
+  "canonicalUri": "/group/2/content/733902",
+  "publication": "beobachter",
+  "createDate": "2024-07-27T06:00:00+02:00",
+  "publicationDate": "2024-07-27T06:00:00+02:00",
+  "changeDate": "2024-07-26T09:44:20+02:00",
+  "showUpdated": false,
+  "contentTypeLabel": "Not updatable",
+  "preferredUri": "/magazin/geld/ernteausfalle-und-energiekosten-alltagsguter-werden-teurer-733902",
+  "subtypeValue": "ratgeber_aktuell",
+  "metaKeywords": "Landwirtschaft, Hintergrund, Essen, Preise, Geld, Lebensmittel, Energie, Teuerung, Aktuell",
+  "socialMediaTitle": "Regen sorgt f\u00fcr Ernteausf\u00e4lle: Lebensmittel werden teurer",
+  "restrictionStatus": null,
+  "specialInterest": null,
+  "time2read": 108,
+  "source": null,
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "activeMenuTrail": {
+    "count": 3,
+    "edges": [
+      {
+        "node": {
+          "label": "Magazin",
+          "link": "/home",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "label": "Geld",
+          "link": "/geld",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "label": "Unwetter, Ernteausf\u00e4lle und Energiekrise: Teuerung von Essen wegen Inflation",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "issue": null,
+  "authorPrefix": "by",
+  "authors": {
+    "edges": [
+      {
+        "node": {
+          "id": "YXV0aG9yOjIyNzcw",
+          "name": "Riana Engeli",
+          "shortDescription": "schreibt seit April 2024 f\u00fcr den Beobachter und hat zuvor Kommunikation an der ZHAW studiert. ",
+          "hasProfilePage": true,
+          "publications": ["beobachter"],
+          "preferredUri": "/unsere-redaktion/riana-engeli",
+          "imageParagraph": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxNzE3NTY6ODMxOTExNQ==",
+            "image": {
+              "id": "784681",
+              "file": {
+                "id": "ZmlsZTo4MTk4OTY6Ojo6MTcxMzc4MTcyMA==",
+                "alt": "Beobachter Redaktorin Riana Engeli",
+                "relativeOriginPath": "/media/field_image/2024-04/riana_engeli.jpg",
+                "focalPointX": 940,
+                "focalPointY": 600,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Author"
+        },
+        "__typename": "AuthorEdge"
+      }
+    ],
+    "__typename": "AuthorConnection"
+  },
+  "modifyingAuthors": {
+    "edges": [],
+    "__typename": "AuthorConnection"
+  },
+  "commentStatus": "open",
+  "channel": {
+    "tid": "1202",
+    "title": "Geld",
+    "preferredUri": "/taxonomy/term/1202",
+    "lead": null,
+    "shortDescription": null,
+    "weight": 4,
+    "id": "dGF4b25vbXlfdGVybToxMjAy",
+    "suppressAds": null,
+    "__typename": "Channel",
+    "relatedBook": null,
+    "parent": {
+      "tid": "166970",
+      "title": "Magazin",
+      "preferredUri": "/taxonomy/term/166970",
+      "lead": null,
+      "shortDescription": null,
+      "weight": 26,
+      "id": "dGF4b25vbXlfdGVybToxNjY5NzA=",
+      "suppressAds": false,
+      "__typename": "Channel",
+      "relatedBook": null,
+      "parent": null
+    },
+    "link": "/geld",
+    "settings": {
+      "hierarchy": {
+        "count": 2,
+        "edges": [
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToxNjY5NzA=",
+              "title": "Magazin",
+              "tid": "166970",
+              "__typename": "Channel"
+            },
+            "__typename": "ChannelEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "tid": "1202",
+              "__typename": "Channel"
+            },
+            "__typename": "ChannelEdge"
+          }
+        ],
+        "__typename": "ChannelConnection"
+      },
+      "__typename": "TermSettings"
+    },
+    "articles": {
+      "edges": [
+        {
+          "node": {
+            "title": "Wem geh\u00f6rt das M\u00e4rchenschloss?",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Ch\u00e2teau G\u00fctsch",
+            "lead": "Ein undurchsichtiges Finanzkonstrukt der Oligarchen. Und Geldfl\u00fcsse, die ins Umfeld von Wladimir Putin f\u00fchren: \u00adBeobachter-Recherchen \u00fcber die Besitzverh\u00e4ltnisse des \u00adLuzerner \u00adWahr\u00adzeichens werfen \u00adFragen auf.",
+            "changeDate": "2024-07-31T09:48:12+02:00",
+            "publicationDate": "2024-08-02T06:00:00+02:00",
+            "preferredUri": "/magazin/geld/wem-gehort-das-marchenschloss-735240",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAyMjQ6ODcwODY1Mg==",
+              "image": {
+                "id": "801629",
+                "file": {
+                  "id": "ZmlsZTo4Mzc3NjI6OmxhcmdlOjoxNzIyNDM3OTkw",
+                  "alt": "Das Schloss G\u00fctsch - Ein undurchsichtiges Finanzkonstrukt der Oligarchen. Und Geldfl\u00fcsse, die ins Umfeld von Wladimir Putin f\u00fchren: Beobachter-Recherchen \u00fcber die Besitzverh\u00e4ltnisse des Luzerner Wahrzeichens werfen Fragen auf",
+                  "relativeOriginPath": "/media/field_image/2024-07/recherche_gutsch_1.jpg",
+                  "focalPointX": 712,
+                  "focalPointY": 940,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Warum Luzern die schwarze Liste abschaffen will",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Krankenkassenpr\u00e4mien",
+            "lead": "Die Liste s\u00e4umiger Pr\u00e4mienzahler verursacht viel Leid und hat keinen nachweisbaren Nutzen. Deshalb geht die Luzerner Regierung nun dagegen vor\u00a0\u2013 im Gegensatz zu anderen Kantonen.",
+            "changeDate": "2024-07-16T15:40:57+02:00",
+            "publicationDate": "2024-07-16T17:00:35+02:00",
+            "preferredUri": "/magazin/geld/warum-luzern-die-schwarze-liste-abschaffen-will-730686",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMjk5NjU6ODY1MDc2Mw==",
+              "image": {
+                "id": "799202",
+                "file": {
+                  "id": "ZmlsZTo4MzUyMzM6OmxhcmdlOjoxNzIxMTM3NzYz",
+                  "alt": "Wer in gewissen Kantonen auf der schwarzen Liste landet, wird nur noch im medizinischen Notfall behandelt.",
+                  "relativeOriginPath": "/media/field_image/2024-07/schweiz.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Mitten im Jahr h\u00f6here Pr\u00e4mien \u2013 ist das legal?",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Krankenkasse",
+            "lead": "Die Pr\u00e4mien der Krankenversicherung Klug steigen per 1. September. Was Betroffene tun k\u00f6nnen.",
+            "changeDate": "2024-07-02T15:20:16+02:00",
+            "publicationDate": "2024-07-02T16:42:52+02:00",
+            "preferredUri": "/magazin/geld/mitten-im-jahr-hohere-pramien-ist-das-legal-726543",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMjA1MDY6ODU5ODk4OQ==",
+              "image": {
+                "id": "796721",
+                "file": {
+                  "id": "ZmlsZTo4MzI2MjE6OmxhcmdlOjoxNzE5OTI2ODk5",
+                  "alt": "Bei der KLuG-Krankenkasse steigen die Pr\u00e4mien auf Anfangs September",
+                  "relativeOriginPath": "/media/field_image/2024-07/pramienerhohung_krankenkassen_.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Beim Z\u00fcgeln droht die Armutsfalle",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "SOS Beobachter",
+            "lead": "Wer wenig Geld hat, ist immer auf der Suche nach einer g\u00fcnstigeren Wohnung. Doch Z\u00fcgeln kostet. SOS Beobachter hilft, das Dilemma zu l\u00f6sen.",
+            "changeDate": "2024-06-18T09:54:51+02:00",
+            "publicationDate": "2024-06-28T06:00:00+02:00",
+            "preferredUri": "/magazin/geld/beim-zugeln-droht-die-armutsfalle-722220",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMTc1NDI6ODU4NzY1Mw==",
+              "image": {
+                "id": "795974",
+                "file": {
+                  "id": "ZmlsZTo4MzE4MzA6OmxhcmdlOjoxNzE5NDg4MjAw",
+                  "alt": "\u00abUnvorhergesehene Kosten in dieser H\u00f6he liegen einfach nicht drin, wenn man knapp dran ist\u00bb: Daniela Balzli, Wer wenig Geld hat, ist immer auf der Suche nach einer g\u00fcnstigeren Wohnung. Doch Z\u00fcgeln kostet. SOS Beobachter hilft, die Abw\u00e4rtsspirale zu durchbrechen.",
+                  "relativeOriginPath": "/media/field_image/2024-06/sos_beobachter.jpg",
+                  "focalPointX": 750,
+                  "focalPointY": 1000,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "So viel sollten Sie f\u00fcrs Alter sparen",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Finanz-Tipps",
+            "lead": "Angst vor Zahlen, Angst vor Geld? Finanzbloggerin Olga Miler nimmt die Scheu, sich um die eigenen Finanzen zu k\u00fcmmern.",
+            "changeDate": "2024-06-25T06:00:00+02:00",
+            "publicationDate": "2024-06-25T06:00:00+02:00",
+            "preferredUri": "/magazin/geld/so-viel-sollten-sie-furs-alter-sparen-709872",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMTAzODE6ODU2NjUxMA==",
+              "image": {
+                "id": "794168",
+                "file": {
+                  "id": "ZmlsZTo4Mjk5MDY6OmxhcmdlOjoxNzE4NzA0MjUz",
+                  "alt": "Ein \u00fcbergrosses Sparschwein, hinter dem eine Frau hervorschaut. Dar\u00fcber Zahlen und M\u00fcnzen vor rosa Hintergrund. Wie man pers\u00f6nliche Finanzen in den Griff bekommt.",
+                  "relativeOriginPath": "/media/field_image/2024-06/vorsorge_finanzen.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Frau verliert 10\u2019500 Franken",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "H\u00f6heres Rentenalter",
+            "lead": "Eine 62-J\u00e4hrige bezahlte mehr als 20 Jahre lang Pr\u00e4mien f\u00fcr eine Erwerbsausfallversicherung. Kurz vor der Pensionierung wird sie entt\u00e4uscht.",
+            "changeDate": "2024-06-20T13:20:24+02:00",
+            "publicationDate": "2024-06-20T17:07:52+02:00",
+            "preferredUri": "/magazin/geld/frau-verliert-10500-franken-723087",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMTI0NDU6ODU1MzM3OA==",
+              "image": {
+                "id": "794715",
+                "file": {
+                  "id": "ZmlsZTo4MzA0ODE6OmxhcmdlOjoxNzE4ODg5Mzcw",
+                  "alt": "Symbolbild Papierkram: H\u00f6heres Rentenalter: Frau verliert 10\u0027500 Franken \u2013 Versicherungsl\u00fccke",
+                  "relativeOriginPath": "/media/field_image/2024-06/2216940413.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Muss die Tochter Serafe-Schulden der Eltern zahlen?",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Mehr als 1000 Franken",
+            "lead": "Eine Familie zahlte jahrelang Geb\u00fchren nicht \u2013 nun treibt die Serafe das Geld bei der Tochter ein. Zu Recht?",
+            "changeDate": "2024-04-24T14:03:29+02:00",
+            "publicationDate": "2024-04-24T16:17:36+02:00",
+            "preferredUri": "/magazin/geld/muss-die-tochter-serafe-schulden-der-eltern-zahlen-705767",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNzQwMzU6ODMzMjAzNA==",
+              "image": {
+                "id": "785219",
+                "file": {
+                  "id": "ZmlsZTo4MjA0NDg6OmxhcmdlOjoxNzEzOTYwNjQy",
+                  "alt": "Ein alter gr\u00fcner Fernseher aus dem eine Hand mit erhobenem Zeigefinger zeigt.",
+                  "relativeOriginPath": "/media/field_image/2024-04/hand_zeigt_mahnend_aus_fernseher_serafe_symbolbild.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Sie versprechen Hilfe \u2013 und zocken ab",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Doppelter Krypto-Betrug",
+            "lead": "Betr\u00fcger geben sich als Anw\u00e4lte aus und sichern Unterst\u00fctzung zu. Das Onlineportal \u00abIzzy\u00bb entlarvt ihre Machenschaften live auf Video.",
+            "changeDate": "2024-04-03T17:17:41+02:00",
+            "publicationDate": "2024-04-04T17:17:32+02:00",
+            "preferredUri": "/magazin/geld/sie-versprechen-hilfe-und-zocken-ab-699125",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNjAyMTI6ODI5MTA2OA==",
+              "image": {
+                "id": "782131",
+                "file": {
+                  "id": "ZmlsZTo4MTcxODI6OmxhcmdlOjoxNzEyMjQzNjYw",
+                  "alt": "Izzy Krypto-Betrug",
+                  "relativeOriginPath": "/media/field_image/2024-04/izzy_krypto-betrug.jpg",
+                  "focalPointX": 900,
+                  "focalPointY": 506,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Ein Haus wie ein Klotz am Bein",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Zwangsversteigerung",
+            "lead": "Eine Frau verliebt sich, kauft ein Reihenhaus. Heute bleibt ihr als letzte Hoffnung die Zwangsversteigerung.",
+            "changeDate": "2024-03-08T15:55:27+01:00",
+            "publicationDate": "2024-03-26T06:00:00+01:00",
+            "preferredUri": "/magazin/geld/ein-haus-wie-ein-klotz-am-bein-691541",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNTMxNTY6ODIxNTMxMw==",
+              "image": {
+                "id": "780204",
+                "file": {
+                  "id": "ZmlsZTo4MTUxMTM6OmxhcmdlOjoxNzExMzYyMjgz",
+                  "alt": "Reihenhaus",
+                  "relativeOriginPath": "/media/field_image/2024-03/reihenhaus.jpg",
+                  "focalPointX": 900,
+                  "focalPointY": 507,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Haushalts-Versicherungen: Was ist wirklich n\u00f6tig?",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Spartipps",
+            "lead": "Wenn man Versicherungen online abschliesst, wirds billiger. Und worauf zu achten ist.",
+            "changeDate": "2024-03-08T13:34:06+01:00",
+            "publicationDate": "2024-03-08T15:14:16+01:00",
+            "preferredUri": "/magazin/geld/haushalts-versicherungen-was-ist-wirklich-notig-691476",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxNDE2MDc6ODYxMTg5Ng==",
+              "image": {
+                "id": "777524",
+                "file": {
+                  "id": "ZmlsZTo4MTIyNjQ6OmxhcmdlOjoxNzA5OTA0NTA2",
+                  "alt": "Schaden in der Wohnung: \u00dcberflutetes Wohnzimmer",
+                  "relativeOriginPath": "/media/field_image/2024-03/schaden_in_der_wohnung.jpg",
+                  "focalPointX": 900,
+                  "focalPointY": 507,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Nur wer Gl\u00fcck hat, profitiert",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Pensionskassen in der Krise",
+            "lead": "Die H\u00f6he der Pensionskassenrente ist zum grossen Teil Lotterie. Wir zeigen die Faktoren, die mitspielen.",
+            "changeDate": "2024-01-29T16:08:03+01:00",
+            "publicationDate": "2024-03-04T10:02:42+01:00",
+            "preferredUri": "/magazin/geld/nur-wer-gluck-hat-profitiert-678360",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMzY1NDg6ODIwNjA1Mg==",
+              "image": {
+                "id": "776358",
+                "file": {
+                  "id": "ZmlsZTo4MTEwNTE6OmxhcmdlOjoxNzA5NTQyNjUx",
+                  "alt": "Pensionskasse: Lotterie",
+                  "relativeOriginPath": "/media/field_image/2024-03/pensionskasse_lotterie.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "\u00abIch habe jedes Vertrauen in die zweite S\u00e4ule verloren\u00bb",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Lotterie mit der Pensionskasse",
+            "lead": "Ein Berner hat 43 Jahre lang Vollzeit gearbeitet \u2013 heute bleiben ihm aus der beruflichen Vorsorge monatlich 800 Franken. Wie ist das m\u00f6glich?",
+            "changeDate": "2024-01-29T16:32:49+01:00",
+            "publicationDate": "2024-03-04T09:49:37+01:00",
+            "preferredUri": "/magazin/geld/ich-habe-jedes-vertrauen-in-die-zweite-saule-verloren-678371",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMzY1MjQ6ODIwNjAxMw==",
+              "image": {
+                "id": "776352",
+                "file": {
+                  "id": "ZmlsZTo4MTEwNDU6OmxhcmdlOjoxNzA5NTQyMDYw",
+                  "alt": "Lotterie mit der Pensionskasse",
+                  "relativeOriginPath": "/media/field_image/2024-03/lotterie_mit_der_pensionskasse.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "\u00abDie freie Wahl der Pensionskasse w\u00e4re ein Desaster\u00bb",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Zweite S\u00e4ule",
+            "lead": "Die Unterschiede zwischen den Pensionskassen sind zu gross geworden. Eine L\u00f6sung sieht \u00d6konomin Monika B\u00fctler zum Beispiel in den Niederlanden.",
+            "changeDate": "2024-01-29T16:41:25+01:00",
+            "publicationDate": "2024-03-04T09:33:18+01:00",
+            "preferredUri": "/magazin/geld/die-freie-wahl-der-pensionskasse-ware-ein-desaster-678373",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMzY0Njk6ODIxNDI5NQ==",
+              "image": {
+                "id": "776337",
+                "file": {
+                  "id": "ZmlsZTo4MTEwMzA6OmxhcmdlOjoxNzExMzU5MDc1",
+                  "alt": "Portrait von Oekonomin Monika Buetler ",
+                  "relativeOriginPath": "/media/field_image/2024-03/portrait_von_oekonomin_monika_buetler.jpg",
+                  "focalPointX": 840,
+                  "focalPointY": 540,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "Die Abrechnung",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Erfahren, was bewegt",
+            "lead": "So kommen Schweizer Haushalte \u00fcber die Runden. Echte Menschen legen ihr Budget offen.",
+            "changeDate": "2024-02-21T17:02:53+01:00",
+            "publicationDate": "2024-02-25T22:18:07+01:00",
+            "preferredUri": "/kampagne-abrechnung",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMjkwMjc6ODA5NTgxMg==",
+              "image": {
+                "id": "775176",
+                "file": {
+                  "id": "ZmlsZTo4MDk3OTA6OmxhcmdlOjoxNzA4ODk1NDQz",
+                  "alt": "Das Leben ist kein Boni-Hof",
+                  "relativeOriginPath": "/media/field_image/2024-02/new_beo_kampagne_-_das_leben_ist_kein_boni-hof.png",
+                  "focalPointX": 420,
+                  "focalPointY": 237,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "So verhindern Sie allt\u00e4gliche Abzocke und \u00c4rgernisse",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Erfahren, was bewegt",
+            "lead": "Was geht Konsumentinnen und Konsumenten so richtig auf die Nerven? Die Liste der \u00ab\u00c4rgernisse des Jahres\u00bb\u00a0\u2013 und was man dagegen tun kann.",
+            "changeDate": "2024-02-21T16:26:17+01:00",
+            "publicationDate": "2024-02-25T22:13:35+01:00",
+            "preferredUri": "/kampagne-konsum",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMjg5NzY6ODA5NTc3Ng==",
+              "image": {
+                "id": "775173",
+                "file": {
+                  "id": "ZmlsZTo4MDk3ODc6OmxhcmdlOjoxNzA4ODk1Mjk1",
+                  "alt": "Keep Calm and s\u0027chunt guet",
+                  "relativeOriginPath": "/media/field_image/2024-02/new_beo_kampagne_-_keep_calm_and_schunt_guet.png",
+                  "focalPointX": 420,
+                  "focalPointY": 237,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        },
+        {
+          "node": {
+            "title": "\u00abDie zahlen doch viel zu wenig!\u00bb",
+            "subtypeValue": "ratgeber_aktuell",
+            "shortTitle": "Riesige Unterschiede",
+            "lead": "In unserer Serie \u00abDie Abrechnung\u00bb geben Leute unter anderem an, was sie an Steuern zahlen \u2013 und sorgen bei vielen f\u00fcr Erstaunen. Was steckt dahinter?",
+            "changeDate": "2024-02-22T13:47:15+01:00",
+            "publicationDate": "2024-02-23T06:00:00+01:00",
+            "preferredUri": "/magazin/geld/die-zahlen-doch-viel-zu-wenig-686325",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMjAy",
+              "title": "Geld",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxMjk4OTk6ODA5MDMxNw==",
+              "image": {
+                "id": "774937",
+                "file": {
+                  "id": "ZmlsZTo4MDk1MzU6OmxhcmdlOjoxNzA4NjEyNzQ5",
+                  "alt": "H\u00e4nde halten unterschiedlich grosse rote Balken. In unserer Serie \u00abDie Abrechnung\u00bb geben Leute unter anderem an, wie viel Steuern sie zahlen \u2013 und sorgen bei vielen Leserinnen f\u00fcr Erstaunen. Hier lesen Sie, wo in der Schweiz Sie wie viel an Vater Staat abgeben m\u00fcssen.",
+                  "relativeOriginPath": "/media/field_image/2024-02/steuerfuss.jpg",
+                  "focalPointX": 1000,
+                  "focalPointY": 563,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleEdge"
+        }
+      ],
+      "__typename": "ArticleConnection"
+    },
+    "landingPage": {
+      "id": "bm9kZToxNzM5OQ==",
+      "sponsorLabel": null,
+      "sponsor": null,
+      "__typename": "LandingPage"
+    }
+  },
+  "channels": [null],
+  "relatedBook": null,
+  "keywords": {
+    "edges": [
+      {
+        "node": {
+          "tid": "125",
+          "label": "Landwirtschaft",
+          "preferredUri": "/stichworte/l/landwirtschaft",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "61743",
+          "label": "Hintergrund",
+          "preferredUri": "/stichworte/h/hintergrund",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "30583",
+          "label": "Essen",
+          "preferredUri": "/stichworte/e/essen",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "582",
+          "label": "Preise",
+          "preferredUri": "/stichworte/p/preise",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "30848",
+          "label": "Geld",
+          "preferredUri": "/stichworte/g/geld",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "131",
+          "label": "Lebensmittel",
+          "preferredUri": "/stichworte/l/lebensmittel",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "112",
+          "label": "Energie",
+          "preferredUri": "/stichworte/e/energie",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "69",
+          "label": "Teuerung",
+          "preferredUri": "/stichworte/t/teuerung",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "tid": "158591",
+          "label": "Aktuell",
+          "preferredUri": "/stichworte/a/aktuell",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      }
+    ],
+    "__typename": "KeywordConnection"
+  },
+  "heroImageBody": [
+    {
+      "id": "cGFyYWdyYXBoOmltYWdlOjIyMzY3OTE6ODY5MTczNg==",
+      "caption": "\u003Cp\u003EDie Ernteausf\u00e4lle lassen die Preise f\u00fcr Lebensmittel steigen.\u003C/p\u003E\n",
+      "suppressSource": false,
+      "format": "landscape",
+      "image": {
+        "id": "800813",
+        "credit": "Gaetan Bally/Keystone",
+        "file": {
+          "id": "ZmlsZTo4MzY5MjU6OmxhcmdlOjoxNzIxOTgxMDM4",
+          "relativeOriginPath": "/media/field_image/2024-07/lebensmittelregal_in_der_schweiz.jpg",
+          "focalPointX": 1000,
+          "focalPointY": 561,
+          "alt": "Die Ernteausf\u00e4lle lassen die Preise f\u00fcr Lebensmittel steigen.",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    }
+  ],
+  "body": [
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6MjIzNjc4NDo4NjkxNzI5",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EDie Preise f\u00fcr Alltagsg\u00fcter in der Schweiz sind im Vergleich zum Vorjahr um 1,3\u00a0Prozent gestiegen. Dies zeigen die neuesten \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 rel=\u0022noopener\u0022 target=\u0022_blank\u0022 href=\u0022https://www.comparis.ch/finanzen/wirtschaft/konjunktur/konsumentenpreisindex#content-3-content-1\u0022\u003EResultate des Comparis-Konsumentenpreisindex\u003C/a\u003E, der jeweils die gef\u00fchlte Inflation misst.\u003C/p\u003E",
+      "characterCount": 211,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXUzR0xEeDBaOm5ldy16WVIybTlaZQ==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EDamit ist die Preissteigerung gemeint, die Konsumentinnen und Konsumenten im Alltag wahrnehmen k\u00f6nnen.\u003C/p\u003E",
+      "characterCount": 102,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXh5UnZzQ3drOm5ldy1jaWl4eTNpRw==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EComparis erstellt den Konsumentenpreisindex zusammen mit der \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 target=\u0022_blank\u0022 data-teaser-align=\u0022right\u0022 data-teaser-checkbox=\u0022 \u0022 href=\u0022https://kof.ethz.ch/das-institut.html\u0022 rel=\u0022nofollow noopener\u0022\u003EKonjunkturforschungsstelle KOF \u003C/a\u003Eder ETH. Sie messen die gef\u00fchlte Inflation anhand der Preisentwicklung von Alltagsg\u00fctern, also von regelm\u00e4ssig konsumierten G\u00fctern wie Lebensmitteln, Kleidung oder auch dem \u00f6ffentlichen Verkehr.\u003C/p\u003E",
+      "characterCount": 286,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlZbGVyeGR2Om5ldy11NnozS3FtRQ==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EDinge wie Mieten oder andere langlebige G\u00fcter, die seltener gekauft werden, werden bei dieser Berechnung ausgeschlossen.\u003C/p\u003E",
+      "characterCount": 120,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFWOXhNS3MwOm5ldy16WWVlQnlKZA==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EAuf diese Weise soll die Teuerungsrate genauer widerspiegeln, wie die Menschen die Inflation im Alltag empfinden, da regelm\u00e4ssig gekaufte Artikel einen unmittelbaren Einfluss auf das t\u00e4gliche Leben haben .\u003C/p\u003E",
+      "characterCount": 205,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhEVGNxamswOm5ldy11RDBIMWRCbA==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Ch2\u003EVergleich zum Vorjahr\u003C/h2\u003E\n\n\u003Cp\u003EAm st\u00e4rksten verteuerte sich die Elektrizit\u00e4t im Vergleich zum Vorjahresmonat. Von Juni 2023 auf Juni 2024 stiegen die Kosten um durchschnittlich 17,8\u00a0Prozent. Der Zucker landet mit einem Preisanstieg von 11\u00a0Prozent auf Platz\u00a02. Darauf folgen die Kosten f\u00fcr Postdienste, die in einem Jahr um 8,7\u00a0Prozent gestiegen sind.\u003C/p\u003E",
+      "characterCount": 340,
+      "isLastOfGroup": true,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVtYmVkOjIyMzY3ODU6ODY5MTczMA==",
+      "anchorId": null,
+      "header": null,
+      "embedCode": "\u003Ciframe title=\u0022H\u00f6chste Preisentwicklung\u0022 aria-label=\u0022Balken (gruppiert)\u0022 id=\u0022datawrapper-chart-rP9eB\u0022 src=\u0022https://datawrapper.dwcdn.net/rP9eB/1/\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022width: 0; min-width: 100% !important; border: none;\u0022 height=\u0022373\u0022 data-external=\u00221\u0022\u003E\u003C/iframe\u003E\u003Cembeddedscript async type=\u0022text/javascript\u0022\u003E!function(){\u0022use strict\u0022;window.addEventListener(\u0022message\u0022,(function(a){if(void 0!==a.data[\u0022datawrapper-height\u0022]){var e=document.querySelectorAll(\u0022iframe\u0022);for(var t in a.data[\u0022datawrapper-height\u0022])for(var r=0;r\u003Ce.length;r++)if(e[r].contentWindow===a.source){var i=a.data[\u0022datawrapper-height\u0022][t]+\u0022px\u0022;e[r].style.height=i}}}))}();\n\u003C/embeddedscript\u003E",
+      "embedWidth": null,
+      "autoAdjustHeight": false,
+      "disableLazyloading": false,
+      "disableCookieConsent": false,
+      "__typename": "EmbedParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6MjIzNjc4Njo4NjkxNzMx",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Ch2 style=\u0022line-height: 1.38;\u0022\u003EPreis bei Non-Food-G\u00fctern sinkt\u003C/h2\u003E\n\n\u003Cp\u003EDoch nicht alle G\u00fcter des t\u00e4glichen Gebrauchs wurden teurer. Vor allem bei Non-Food-G\u00fctern sanken die Preise im letzten Jahr. So bezahlen Konsumentinnen und Konsumenten f\u00fcr kleine elektrische Haushaltsger\u00e4te im Juni 2024 durchschnittlich 6,2\u00a0Prozent weniger als im Juni 2023.\u003C/p\u003E",
+      "characterCount": 306,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlIbkhHS2ptOm5ldy1ySHY0amxOZw==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EUnd auch Bekleidungszubeh\u00f6r, Heimtextilien wie Haushaltsw\u00e4sche, Frauenschuhe oder auch Spielwaren wurden g\u00fcnstiger.\u003C/p\u003E",
+      "characterCount": 115,
+      "isLastOfGroup": true,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVtYmVkOjIyMzY3ODc6ODY5MTczMg==",
+      "anchorId": null,
+      "header": null,
+      "embedCode": "\u003Ciframe title=\u0022Niedrigste Preisentwicklung\u0022 aria-label=\u0022Balken (gruppiert)\u0022 id=\u0022datawrapper-chart-gbGIY\u0022 src=\u0022https://datawrapper.dwcdn.net/gbGIY/1/\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022width: 0; min-width: 100% !important; border: none;\u0022 height=\u0022376\u0022 data-external=\u00221\u0022\u003E\u003C/iframe\u003E\u003Cembeddedscript async type=\u0022text/javascript\u0022\u003E!function(){\u0022use strict\u0022;window.addEventListener(\u0022message\u0022,(function(a){if(void 0!==a.data[\u0022datawrapper-height\u0022]){var e=document.querySelectorAll(\u0022iframe\u0022);for(var t in a.data[\u0022datawrapper-height\u0022])for(var r=0;r\u003Ce.length;r++)if(e[r].contentWindow===a.source){var i=a.data[\u0022datawrapper-height\u0022][t]+\u0022px\u0022;e[r].style.height=i}}}))}();\n\u003C/embeddedscript\u003E",
+      "embedWidth": null,
+      "autoAdjustHeight": false,
+      "disableLazyloading": false,
+      "disableCookieConsent": false,
+      "__typename": "EmbedParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6MjIzNjc4ODo4NjkxNzMz",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Ch2 style=\u0022line-height: 1.38;\u0022\u003EDifferenz bei Lebensmitteln\u003C/h2\u003E\n\n\u003Cp\u003EDeutliche Unterschiede gibt es bei verschiedenen Lebensmitteln. W\u00e4hrend der Preis von Zucker in einem Jahr um 11\u00a0Prozent stieg, sank der Preis f\u00fcr Fr\u00fcchte, Gem\u00fcse und Kartoffeln um 3,1\u00a0Prozent.\u003C/p\u003E",
+      "characterCount": 220,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFIOWpHMmw5Om5ldy16WFUwV0R0eA==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003E\u00a0\u003C/p\u003E",
+      "characterCount": 1,
+      "isLastOfGroup": true,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOmVtYmVkOjIyMzY3ODk6ODY5MTczNA==",
+      "anchorId": null,
+      "header": null,
+      "embedCode": "\u003Ciframe title=\u0022Preisentwicklung von Lebensmitteln\u0022 aria-label=\u0022Balken (gruppiert)\u0022 id=\u0022datawrapper-chart-8aGRf\u0022 src=\u0022https://datawrapper.dwcdn.net/8aGRf/1/\u0022 scrolling=\u0022no\u0022 frameborder=\u00220\u0022 style=\u0022width: 0; min-width: 100% !important; border: none;\u0022 height=\u0022398\u0022 data-external=\u00221\u0022\u003E\u003C/iframe\u003E\u003Cembeddedscript async type=\u0022text/javascript\u0022\u003E!function(){\u0022use strict\u0022;window.addEventListener(\u0022message\u0022,(function(a){if(void 0!==a.data[\u0022datawrapper-height\u0022]){var e=document.querySelectorAll(\u0022iframe\u0022);for(var t in a.data[\u0022datawrapper-height\u0022])for(var r=0;r\u003Ce.length;r++)if(e[r].contentWindow===a.source){var i=a.data[\u0022datawrapper-height\u0022][t]+\u0022px\u0022;e[r].style.height=i}}}))}();\n\u003C/embeddedscript\u003E",
+      "embedWidth": null,
+      "autoAdjustHeight": false,
+      "disableLazyloading": false,
+      "disableCookieConsent": false,
+      "__typename": "EmbedParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6MjIzNjc5MDo4NjkxNzM1",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Ch2 style=\u0022line-height: 1.38;\u0022\u003EHohe Produktionskosten und Ernteausf\u00e4lle\u003C/h2\u003E\n\n\u003Cp\u003EDie Gr\u00fcnde f\u00fcr die unterschiedliche Preisentwicklung sind vielf\u00e4ltig. Laut dem Comparis-Finanzexperten Dirk Renkert f\u00fchren unter anderem das Verh\u00e4ltnis von Angebot und Nachfrage sowie die h\u00f6heren Produktionskosten aufgrund steigender Energiekosten dazu.\u003C/p\u003E",
+      "characterCount": 293,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZBbVNDSGp2Om5ldy15SEwyM1NQdQ==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EAls weiteren Grund nennt er die schlechten Ernteergebnisse, die f\u00fcr Preisexplosionen sorgten.\u003C/p\u003E",
+      "characterCount": 93,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWk0cnJCeWZiOm5ldy1kcEpXNndNRQ==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EErst k\u00fcrzlich beklagten Landwirtinnen und Landwirte das schlechte Wetter und die damit drohenden Ernteausf\u00e4lle f\u00fcr dieses Jahr. Der viele Regen seit dem Fr\u00fchling sorgt beispielsweise daf\u00fcr, dass die Kartoffelfelder von Pilzen befallen seien, \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 rel=\u0022noopener\u0022 target=\u0022_blank\u0022 href=\u0022https://www.tagesanzeiger.ch/bauern-schlagen-alarm-regen-sorgt-fuer-ernte-einbussen-125023248034\u0022\u003Eso ein Bauer zum \u00abTages-Anzeiger\u00bb\u003C/a\u003E.\u003C/p\u003E",
+      "characterCount": 276,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWk2Q0Uwam52Om5ldy1qMGtkQVd2Qw==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EWelche Auswirkungen das auf die \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 rel=\u0022noopener\u0022 target=\u0022_blank\u0022 href=\u0022https://www.newsd.admin.ch/newsd/message/attachments/73381.pdf\u0022\u003Elandwirtschaftliche Entwicklung haben kann, zeigte das Jahr 2021\u003C/a\u003E. Ein regnerischer Sommer mit zahlreichen Wetterextremen wie Hagel sorgte daf\u00fcr, dass die \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 rel=\u0022noopener\u0022 target=\u0022_blank\u0022 href=\u0022https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-87115.html\u0022\u003ELagerbest\u00e4nde nach der Ernte rund 30 bis 40\u00a0Prozent tiefer\u003C/a\u003E lagen.\u003C/p\u003E",
+      "characterCount": 251,
+      "isLastOfGroup": false,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWtDR3hZVHpuOm5ldy1kV0oxdWRDSg==",
+      "anchorId": null,
+      "header": null,
+      "text": "\u003Cp\u003EHistorisch tief \u003Ca onclick=\u0022window.handleWysiwygLink(event)\u0022 rel=\u0022noopener\u0022 target=\u0022_blank\u0022 href=\u0022https://www.admin.ch/gov/de/start/dokumentation/medienmitteilungen.msg-id-87503.html\u0022\u003Elag auch die Weinernte \u003C/a\u003Eaufgrund der Wetterbedingungen. Die Konsequenz: Mehr Produkte mussten aus dem Ausland importiert werden.\u003C/p\u003E",
+      "characterCount": 143,
+      "isLastOfGroup": true,
+      "styleValue": null,
+      "__typename": "TextParagraph"
+    }
+  ],
+  "relatedArticles": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZTo2ODk3MDM=",
+          "subtypeValue": "ratgeber_aktuell",
+          "title": "Oliven\u00f6l wird zum Luxusgut",
+          "shortTitle": "Massiver Preisanstieg",
+          "lead": "Der Preis steigt immer weiter \u2013 gleichzeitig sinkt die Qualit\u00e4t. Was dahintersteckt und welche Alternativen es gibt.",
+          "canonicalUri": "/group/2/content/710861",
+          "preferredUri": "/konsum/lebensmittel/olivenol-wird-zum-luxusgut-710861",
+          "restrictionStatus": "paid",
+          "authorPrefix": "by",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTozMDYxMA==",
+            "title": "Lebensmittel",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIxODY2NDQ6ODQwNjMyMQ==",
+            "title": null,
+            "format": "landscape",
+            "image": {
+              "id": "788175",
+              "file": {
+                "id": "ZmlsZTo4MjM2MDI6OmxhcmdlOjoxNzE1NjkxMDY3",
+                "alt": "Symbolbild zu Luxus-\u00d6l - Der Preis steigt immer weiter, gleichzeitig sinkt die Qualit\u00e4t - was dahintersteckt und welche Alternativen es gibt",
+                "relativeOriginPath": "/media/field_image/2024-05/olivenol.jpg",
+                "focalPointX": 1000,
+                "focalPointY": 563,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "badgeLabel": null,
+          "badgeColor": null,
+          "__typename": "Article"
+        },
+        "__typename": "ArticleUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZTo3MDkzNDU=",
+          "subtypeValue": "ratgeber_aktuell",
+          "title": "Krise am Zmorgetisch \u2013 Orangensaft wird zum Luxus",
+          "shortTitle": "Gelbe Drachenkrankheit",
+          "lead": "Schlechte Orangenernten treiben die Preise unseres liebsten Fr\u00fchst\u00fcckgetr\u00e4nks hoch. Gleichzeitig sinkt die Qualit\u00e4t.",
+          "canonicalUri": "/group/2/content/730594",
+          "preferredUri": "/magazin/konsum/krise-am-zmorgetisch-orangensaft-wird-zum-luxus-730594",
+          "restrictionStatus": "paid",
+          "authorPrefix": "by",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMTk0",
+            "title": "Konsum",
+            "__typename": "Channel"
+          },
+          "hasVideo": false,
+          "teaserImage": {
+            "id": "cGFyYWdyYXBoOmltYWdlOjIyMjk2ODk6ODY0OTczMg==",
+            "title": null,
+            "format": "landscape",
+            "image": {
+              "id": "799156",
+              "file": {
+                "id": "ZmlsZTo4MzUxODU6OmxhcmdlOjoxNzIxMTI4MDk4",
+                "alt": "ein Bagger kippt Orangen auf einen Laster - Die Orangensaft-Krise treibt die Preise unseres liebsten Fr\u00fchst\u00fcckgetr\u00e4nks hoch. Gleichzeitig sinkt die Qualit\u00e4t",
+                "relativeOriginPath": "/media/field_image/2024-07/orangensaft.jpg",
+                "focalPointX": 1000,
+                "focalPointY": 563,
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "useAutoHyphens": false,
+          "badgeLabel": null,
+          "badgeColor": null,
+          "__typename": "Article"
+        },
+        "__typename": "ArticleUnionEdge"
+      }
+    ],
+    "__typename": "ArticleUnionConnection"
+  },
+  "recommendations": null,
+  "attachment": null,
+  "toolTypeLabel": null,
+  "__typename": "Article"
+}

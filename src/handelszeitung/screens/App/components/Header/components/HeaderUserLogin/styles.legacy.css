@@ -1,0 +1,13 @@
+.NavItem {
+  composes: NavItem from '../HeaderInner/styles.legacy.css';
+}
+
+.UserButton {
+  composes: Action from '../HeaderInner/styles.legacy.css';
+  margin-left: 5px;
+  
+  svg {
+    height: 15px;
+    width: 15px;
+  }
+}

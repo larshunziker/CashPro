@@ -1,0 +1,9 @@
+.TitleWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.Title {
+  composes: KeywordsH1 from 'typography.legacy.css';
+  margin-bottom: $margin32;
+}

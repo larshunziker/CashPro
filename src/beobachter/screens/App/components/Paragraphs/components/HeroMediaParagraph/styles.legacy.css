@@ -1,0 +1,155 @@
+.Wrapper {
+  padding: 24px 0 8px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 0 24px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 64px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding: 40px 0 80px;
+  }
+}
+
+.ImageWrapper {
+  flex: 1;
+
+  @media (max-width: $smBreakpointTo) {
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 0;
+    width: calc(100% + 32px);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+  }
+
+  img {
+    margin-bottom: $margin24;
+    max-height: 380px;
+    object-fit: contain;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 0;
+      max-height: 500px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      max-height: 100%; 
+    }
+  }
+}
+
+.ImageParagraph {
+  background-color: $transparent;
+}
+
+.ContentWrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+  }
+}
+
+.CenteredContent {
+  @media (min-width: $mdBreakpoint) {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Title,
+  .SubTitle,
+  .ShortTitle,
+  .Lead,
+  .ParagraphsWrapper {
+    @media (min-width: $mdBreakpoint) {
+      text-align: center;
+    }
+  }
+}
+
+.InnerWrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+
+  @media (min-width: $mdBreakpoint) {
+    flex-flow: row;
+  }
+}
+
+.ParagraphsWrapper {
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+}
+
+.Title {
+  composes: Header from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.SubTitle {
+  composes: ClaimSansSerif from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.ShortTitle {
+  composes: SpitzmarkeBox from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+    text-align: start;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+}

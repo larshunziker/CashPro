@@ -1,0 +1,138 @@
+/* stylelint-disable custom-property-pattern */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  /* Reserve scrollbar space to prevent layout shift when modal overlay
+     applies overflow:hidden to body (e.g. flyout menu hover) */
+  scrollbar-gutter: stable;
+
+  /* branding day bg sizing. We have to temporarily overwrite admeiras css, because the sizing is wrong */
+  /* stylelint-disable-next-line */
+  background-position: center top !important;
+  /* stylelint-disable-next-line */
+  background-size: 1920px auto !important;
+
+  /* stylelint-disable-next-line */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* numbers in a text should be displayed as proportional numbers (numbers = different height as chars) */
+html,
+* {
+  font-variant-numeric: lining-nums;
+  scroll-margin-top: $headerHeightXs;
+
+  @media (min-width: $smBreakpoint) {
+    scroll-margin-top: $headerHeightSm;
+  }
+}
+
+body {
+  color: $black;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  font-style: normal;
+  font-weight: 300;
+  -webkit-tap-highlight-color: $transparent;
+
+  @media print {
+    &::after {
+      bottom: 0;
+      content: '\00a9  2024 cash';
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+:root {
+  /* colors */
+  --color-black: $black;
+  --color-black50: $black50;
+  --color-white: $white;
+  --color-transparent: $transparent;
+  --color-inherit: $inherit;
+  --color-primaryA: $primaryA;
+  --color-primaryB: $primaryB;
+  --color-secondaryA: $secondaryA;
+  --color-secondaryB: $secondaryB;
+  --color-positive: $positive;
+  --color-positiveB: $positiveB;
+  --color-blackA: $blackA;
+  --color-blackB: $blackB;
+  --color-greyA: $greyA;
+  --color-greyB: $greyB;
+  --color-greyC: $greyC;
+  --color-greyD: $greyD;
+  --color-greyE: $greyE;
+  --color-errorA: $errorA;
+  --color-errorB: $errorB;
+  --color-decoA: $decoA;
+  --color-decoB: $decoB;
+  --color-decoC: $decoC;
+  --color-greyPlaceholder: $greyPlaceholder;
+  --color-grayPlaceholder: $grayPlaceholder;
+
+  /* fonts */
+  --font-fontSourceSerifPro: $fontSourceSerifPro;
+  --font-fontSourceSansPro: $fontSourceSansPro;
+  --font-fontRaschIcon: $fontRaschIcon;
+  --font-fontRasch: $fontRasch;
+}
+
+@media print {
+  @page {
+    margin: 18mm;
+    size: A4;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $margin8;
+    page-break-inside: avoid;
+  }
+
+  @media (orientation: landscape) {
+    html, body {
+      height: 189mm;
+      width: 395mm;
+
+      @media print {
+        width: 100%;
+      }
+    }
+  }
+
+  @media (orientation: portrait) {
+    html, body {
+      height: 297mm;
+      width: 210mm;
+
+      @media print {
+        width: 100%;
+      }
+    }
+  }
+
+  :global(.header-placeholder) {
+    height: 0; /* stylelint-disable-line */
+  }
+
+  :global(.hide-on-print) {
+    display: none !important; /* stylelint-disable-line */
+  }
+
+  header {
+    position: static !important; /* stylelint-disable-line */
+  }
+
+  * {
+    /* stylelint-disable-next-line sh-waqar/declaration-use-variable */
+    color-adjust: exact;
+  }
+}

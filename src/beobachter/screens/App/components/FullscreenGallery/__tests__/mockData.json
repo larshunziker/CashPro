@@ -1,0 +1,112 @@
+{
+  "data": {
+    "environment": {
+      "routeByPath": {
+        "id": "j098g28",
+        "canonical": "/group/9/content/20213",
+        "object": {
+          "changeDate": "2018-08-02T09:29:16",
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToyNTgw",
+            "sponsors": [],
+            "title": "Style",
+            "settings": [],
+            "__typename": "Channel"
+          },
+          "createDate": "2018-08-02T09:29:16",
+          "id": "bm9kZToxOTMxMg==",
+          "media": {
+            "count": 2,
+            "edges": [
+              {
+                "node": {
+                  "caption": "<p> </p>↵↵<div> </div>↵",
+                  "format": "landscape",
+                  "id": "179148",
+                  "image": {
+                    "id": "1719148",
+                    "credit": "Getty Images",
+                    "showOriginal": false,
+                    "file": {
+                      "id": "112719148",
+                      "alt": "Lady Amelia Windsor (Grossbritannien).",
+                      "focalPointX": 1000,
+                      "focalPointY": 1000,
+                      "relativeOriginPath": "/1.jpg",
+                      "origin": "/1.jpg",
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "ParagraphInterfaceEdge"
+              },
+              {
+                "node": {
+                  "caption": "<p>Test Captain</p>",
+                  "format": "landscape",
+                  "id": "179149",
+                  "image": {
+                    "id": "179234149",
+                    "credit": "Getty Images",
+                    "showOriginal": false,
+                    "file": {
+                      "id": "179234234149",
+                      "alt": "Queen Elizabeth (Grossbritannien).",
+                      "focalPointX": 1000,
+                      "focalPointY": 1000,
+                      "relativeOriginPath": "/2.jpg",
+                      "origin": "/2.jpg",
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "ParagraphInterfaceEdge"
+              },
+              {
+                "node": {
+                  "caption": "<p>Tester</p>",
+                  "format": "landscape",
+                  "id": "179150",
+                  "image": {
+                    "id": "17923423414",
+                    "credit": "Getty Images",
+                    "showOriginal": false,
+                    "file": {
+                      "id": "1792342341439",
+                      "alt": "Kate",
+                      "focalPointX": 1000,
+                      "focalPointY": 1000,
+                      "relativeOriginPath": "/3.jpg",
+                      "origin": "/3.jpg",
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "ParagraphInterfaceEdge"
+              }
+            ],
+            "__typename": "ParagraphInterfaceConnection"
+          },
+          "nid": "19312",
+          "preferredUri": "/style/galleries/ritterschlag-diesen-modetrend-lieben-alle-jungen-royals",
+          "publicationDate": "2018-08-02T09:31:41",
+          "seoTitle": "Das ist der SEO Titel für Diesen Modetrend lieben alle jungen Royals",
+          "shortTitle": "Ritterschlag",
+          "keywords": [],
+          "authors": [],
+          "title": "Diesen Modetrend lieben alle jungen Royals",
+          "__typename": "ImageGallery"
+        },
+        "preferred": "/style/galleries/ritterschlag-diesen-modetrend-lieben-alle-jungen-royals",
+        "__typename": "Route"
+      },
+      "__typename": "Environment"
+    }
+  }
+}

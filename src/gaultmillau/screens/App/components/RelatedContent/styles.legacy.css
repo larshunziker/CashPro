@@ -1,0 +1,36 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css'; 
+
+  @media print {
+    display: none;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.Title {
+  composes: SectionTitleNeutralA from 'typography.legacy.css';
+  margin-bottom: 42px;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    border: 5px solid $neutralA;
+    bottom: -26px;
+    content: '';
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 58px;
+  }
+}

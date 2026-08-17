@@ -1,0 +1,60 @@
+.Wrapper {
+  position: relative;
+}
+
+.Longform {
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+.Placeholder {
+  height: 100px;
+}
+
+.SponsorBannerWrapper {
+  composes: Wrapper from '../../../../components/SponsorBanner/styles.legacy.css';
+  padding: 0;
+
+  &.Sticky {
+    background-color: $white;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 50px;
+    z-index: $zIndexHeader;
+  }
+
+  &.SponsorLableHybridAppPosition {
+    top: 0;
+  }
+}
+
+.SponsorBannerLogo {
+  margin-top: 20px;
+  max-height: 87px;
+  max-width: 270px;
+  width: auto;
+}
+
+.SponsorLabelWrapper {
+  composes: SponsorLabelWrapper from '../../../../components/SponsorBanner/styles.legacy.css';
+}
+
+.Banner {
+  composes: Banner from '../../../../components/SponsorBanner/styles.legacy.css';
+}
+
+.Label {
+  composes: Label from '../../../../components/SponsorBanner/styles.legacy.css';
+  text-align: right;
+}
+
+.LinkWrapper {
+  align-items: end;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}

@@ -1,0 +1,25 @@
+.Wrapper {
+  padding: $margin24 $margin24 0 $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    overflow-x: hidden;
+    padding: $margin24 0 0 0;
+  }
+}
+
+.ButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: $margin16;
+  overflow-x: hidden;
+
+  button {
+    position: relative;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}

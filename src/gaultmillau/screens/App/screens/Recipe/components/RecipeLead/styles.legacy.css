@@ -1,0 +1,12 @@
+.ShortTitle {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  display: block;
+  margin-bottom: $margin4;
+  margin-top: $margin24;
+  text-align: center;
+}
+
+.Title {
+  composes: HeadingBNeutralA from 'typography.legacy.css';
+  text-align: center;
+}

@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Article Head LegalAdvice Should render article head correctly 1`] = `
+<div>
+  <div
+    data-testid="article-head-legal-advice-wrapper"
+  >
+    <div
+      class="article-lead-legal-advice Wrapper"
+      data-testid="article-lead-legal-advice-wrapper"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24"
+        >
+          <span
+            class="ShortTitle"
+            data-testid="article-lead-legal-advice-short-title-wrapper"
+            id="anchor_tag_short_title"
+          >
+            <div
+              class="Badge"
+            >
+              Rechtsratgeber
+            </div>
+            Editorial
+          </span>
+          <h1
+            class="Title"
+            id="anchor_tag_title"
+          >
+            80 Jahre sind uns nicht genug
+          </h1>
+          <p
+            class="Lead"
+          >
+            «Basis unseres Erfolgs sind eine Million Leserinnen und Leser. Wir danken Ihnen herzlich für die aussergewöhnliche Treue.»
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

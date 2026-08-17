@@ -1,0 +1,118 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  position: relative;
+}
+
+.Slider {
+  display: flex !important; /* stylelint-disable-line */
+  overflow-x: visible !important; /* stylelint-disable-line */
+}
+
+.Slide {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.ImageWrapper {
+  display: inline-flex;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  height: auto;
+  left: 50%;
+  max-height: 255px;
+  max-width: 100%;
+  object-fit: fill;
+  pointer-events: none;
+  position: relative;
+  transform: translate(-50%, 0);
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 468px;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 530px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 848px;
+  }
+}
+
+.SliderWrapper {
+  height: 100%;
+  position: relative;
+
+  @media print {
+    max-width: 500px;
+    overflow: hidden;
+  }
+}
+
+.UnactiveSlide {
+  opacity: 0.2;
+}
+
+.PrevButton {
+  left: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    left: 10px;
+  }
+}
+
+.NextButton {
+  right: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    right: 10px;
+  }
+}
+
+.NextButton,
+.PrevButton {
+  /* stylelint-disable-next-line sh-waqar/declaration-use-variable */
+  background-color: rgb(255 255 255 / 50%);
+  border: none;
+  border-radius: 50%;
+  display: flex;
+  outline: none;
+  padding: 4px;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  z-index: 1;
+
+  svg {
+    fill: $blueA;
+    height: 30px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 30px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}
+
+.ImageCaptionWrapper {
+  background: $white;
+  margin-top: $margin16;
+}

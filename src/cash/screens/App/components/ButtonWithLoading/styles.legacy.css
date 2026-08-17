@@ -1,0 +1,121 @@
+.Primary {
+  composes: ButtonPrimaryBig from 'form.legacy.css';
+
+  circle {
+    stroke: $white;
+  }
+
+  &.HighAttention {
+    @mixin ButtonPrimaryBigHighAttention;
+  }
+}
+
+.Secondary {
+  composes: ButtonSecondaryBig from 'form.legacy.css';
+
+  circle {
+    stroke: $secondaryA;
+  }
+  
+  &:hover, &:focus {
+    svg {
+      fill: $secondaryB;
+    }
+  } 
+
+  &.HighAttention {
+    @mixin ButtonSecondaryBigHighAttention;
+
+    circle {
+      stroke: $primaryA;
+    }
+  }
+}
+
+.Tertiary {
+  composes: ButtonTertiaryBig from 'form.legacy.css';
+
+  circle {
+    stroke: $secondaryB;
+  }
+
+  &.HighAttention {
+    @mixin ButtonTertiaryBigHighAttention;
+
+    circle {
+      stroke: $primaryB;
+    }
+  }
+}
+
+.Quaternary {
+  composes: ButtonQuaternaryBig from 'form.legacy.css';
+
+  circle {
+    stroke: $secondaryA;
+  }
+  
+  &:hover, &:focus {
+    svg {
+      fill: $secondaryB;
+    }
+  } 
+
+  &.HighAttention {
+    @mixin ButtonQuaternaryBigHighAttention;
+
+    circle {
+      stroke: $primaryA;
+    }
+  }
+}
+
+.Small {
+  &.Primary {
+    @mixin ButtonPrimarySmall;
+
+    &.HighAttention {
+      @mixin ButtonPrimarySmallHighAttention;
+    }
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmall;
+
+    &.HighAttention {
+      @mixin ButtonSecondarySmallHighAttention;
+
+      circle {
+        stroke: $primaryB;
+      }
+    }
+  }
+  
+  &.Tertiary {
+    @mixin ButtonTertiarySmall;
+    
+    &.HighAttention {
+      @mixin ButtonTertiarySmallHighAttention;
+      
+      circle {
+        stroke: $primaryB;
+      }
+    }
+  }
+
+  &.Quaternary {
+    @mixin ButtonQuaternarySmall;
+
+    @media (max-width: $xsBreakpointTo) {
+      border: 0;
+    }
+
+    &.HighAttention {
+      @mixin ButtonQuaternarySmallHighAttention;
+
+      circle {
+        stroke: $primaryB;
+      }
+    }
+  }
+}

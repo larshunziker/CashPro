@@ -1,0 +1,199 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "latestStories": {
+        "__typename": "SearchableUnionConnection",
+        "edges": [
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "id": "bm9kZTo0MjUyMg==",
+              "preferredUri": "/advertorial/galleries/rdp-937-rdp-937-test-embed-only",
+              "title": "RDP-937 test embed only",
+              "shortTitle": "RDP-937",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "206046",
+                "image": {
+                  "__typename": "Image",
+                  "id": "63498",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "64248",
+                    "alt": "August 6, 2019, Hollywood, CA, USA: Oprah Winfrey producer of a TV series David Makes Man on her channel OWN channel Hollywood USA PUBLICATIONxINxGERxSUIxAUTxONLY - ZUMAg203 20190806_zap_g203_029 Copyright: xArmandoxGallox  ",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/imago_93259680.jpg"
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "206043"
+                }
+              ]
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo0MTE3Ng==",
+              "title": "Rätsel-Lösungsworte einsenden und gewinnen",
+              "preferredUri": "/raetsel",
+              "shortTitle": "Heft-Rätsel",
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybToyNTgx",
+                "title": "Family",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "schweizer_illustrierte_fallback",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41515",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "42066",
+                    "alt": "Schweizer Illustrierte Fallback",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo0MDk5MA==",
+              "title": "Special Article",
+              "preferredUri": "/specials/wallis-42018/special-article",
+              "shortTitle": "Special Article",
+              "badgeLabel": "why you no work?",
+              "badgeColor": "black",
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo1NzM2",
+                "title": "Wallis 4/2018",
+                "channelType": "special",
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": [
+                  {
+                    "__typename": "AuthorEdge",
+                    "node": {
+                      "__typename": "Author",
+                      "id": "YXV0aG9yOjk1NDY=",
+                      "name": "Roman Zanettin",
+                      "imageParagraph": {
+                        "__typename": "ImageParagraph",
+                        "id": "177607",
+                        "image": {
+                          "__typename": "Image",
+                          "id": "40840",
+                          "file": {
+                            "__typename": "ImageFile",
+                            "id": "40925",
+                            "alt": "roman",
+                            "focalPointX": 1000,
+                            "focalPointY": 1000,
+                            "relativeOriginPath": "/portrait2014.jpg"
+                          }
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "204227",
+                "image": {
+                  "__typename": "Image",
+                  "id": "41353",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "41864",
+                    "alt": "Fredie Kühe",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2018-09/web-nr-5770.psd_.jpg"
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo0MDcxOQ==",
+              "title": "Charlènes Pony wird kürzer und kürzer (Paragraphs!)",
+              "preferredUri": "/people/royals-test/charlenes-pony-wird-kurzer-und-kurzer-paragraphs",
+              "shortTitle": null,
+              "badgeLabel": null,
+              "badgeColor": null,
+              "hasVideo": false,
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo1NzI0",
+                "title": "Royals test",
+                "channelType": null,
+                "authors": {
+                  "__typename": "AuthorConnection",
+                  "edges": []
+                }
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "203929",
+                "image": {
+                  "__typename": "Image",
+                  "id": "62265",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "62952",
+                    "alt": "charlenee",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/charlenee.jpg"
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

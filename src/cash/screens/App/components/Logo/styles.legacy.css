@@ -1,0 +1,9 @@
+.Logo {
+  max-height: 40px;
+  max-width: 100%;
+}
+
+.LogoWrapper {
+  display: flex;
+  height: 100%;
+}

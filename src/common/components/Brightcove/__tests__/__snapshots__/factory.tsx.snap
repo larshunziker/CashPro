@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Brightcove Should render correctly* 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <style>
+      
+  .css-809464499 {
+    background-image: url(/fp/640/360/0/0/sites/default/files/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg)
+  }
+    
+    @media (min-width: 540px) {
+      .css-809464499 {
+        background-image: url(/fp/2048/1152/0/0/sites/default/files/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg)
+      }
+    }
+    
+  
+    </style>
+    <div
+      class="ErrorPanel css-809464499"
+      style="display: none;"
+    >
+      <span
+        data-testid="error-message-container"
+      >
+        Ein unbekannter Fehler ist aufgetreten.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Brightcove Should render not found error mesage 1`] = `"Das Video konnte nicht gefunden werden."`;
+
+exports[`[Common] Brightcove Should render unknown error mesage 1`] = `"Ein unbekannter Fehler ist aufgetreten."`;

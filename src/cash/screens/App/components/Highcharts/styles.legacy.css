@@ -1,0 +1,8 @@
+.NoTabsPadding {
+  padding-top: 8px;
+}
+
+.Border {
+  @mixin ChartsForPrint;
+  border: 1px solid $greyC;
+}

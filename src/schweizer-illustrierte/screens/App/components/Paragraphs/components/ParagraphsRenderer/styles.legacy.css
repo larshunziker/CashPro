@@ -1,0 +1,136 @@
+.Wrapper {
+  /* INFO: this class is composed in LandingPage/styles.css used for the brandingday white background */
+  position: relative;
+}
+
+.MarketingPage {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin80;
+  }
+}
+
+.SectionDefaultMargin {
+  margin-bottom: 50px;
+}
+
+.AdWrapperPullOut {
+  margin-left: -19px;
+
+  /* this overflow: hidden is temporary until admeira serves ads with the correct width for the current viewport */
+  overflow-x: hidden;
+  position: relative;
+  text-align: center;
+  width: 100vw;
+  z-index: calc($zIndex100 - 1);
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: calc(-50vw + 292px);
+    z-index: calc($zIndexHeader - 10);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: calc(-50vw + 330px);
+    width: 100vw;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: calc(-40vw + 372px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(-40vw + 360px);
+  }
+
+  &.AdWrapperPullOutGallery {
+    @media (min-width: $smBreakpoint) {
+      margin-left: calc(-50vw + 351px);
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-left: calc(-50vw + 398px);
+      width: 100vw;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      margin-left: calc(-40vw + 440px);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: calc(-40vw + 630px);
+    }
+  }
+}
+
+.TeaserStagePullout, .EmbedParagraphPullout {
+  margin-left: -19px;
+  width: 100vw;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: calc(-50vw + 292px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: calc(-50vw + 330px);
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: calc(-40vw + 372px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(-40vw + 360px);
+  }
+}
+
+:global(.branding-day) {
+  .TeaserStagePullout, .EmbedParagraphPullout {
+    @media (min-width: $lgBreakpoint) {
+      margin-left: calc(-40vw + 210px);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: calc(-40vw + 198px);
+    }
+  }
+}
+
+.AdCenter {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.AdZone {
+  display: block;
+}
+
+:global(.recommendation-slot-mobile):not(:global(.recommendation-slot-tabletDesktop)) {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+:global(.recommendation-slot-tabletDesktop):not(:global(.recommendation-slot-mobile)) {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.InputFormOnHeroMedia {
+  max-width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 15%;
+    max-width: 70%;
+  }
+}

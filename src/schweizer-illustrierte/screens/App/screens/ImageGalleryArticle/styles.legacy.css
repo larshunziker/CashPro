@@ -1,0 +1,147 @@
+.Wrapper {
+  background-color: $black;
+  color: $white;
+  min-height: calc(100vh - 100px);
+}
+
+.ShareWrapperSI {
+  padding-bottom: 13px;
+  padding-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+    padding-top: 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: 21px;
+  }
+}
+
+.ShareWrapperSY {
+  padding-bottom: 13px;
+  padding-top: 56px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+    padding-top: 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: 50px
+  }
+}
+
+.ShareItemsWrapper {
+  display: flex;
+  text-align: left;
+}
+
+.ItemCounter {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  bottom: 3px;
+  left: 13px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 2px;
+    left: 9px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 5px;
+  }
+}
+
+.IconWrapper {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    top: 6px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    top: 2px;
+  }
+}
+
+.CamIcon {
+  font-size: 1.6rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  color: $white;
+  padding-bottom: 32px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 46px;
+  }
+}
+
+.ArticleAlertsWrapper {
+  margin: $margin32 0 $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin40 0 $margin56;
+  }
+}
+
+
+.UtilityBar {
+  background-color: $black;
+  border-top: 1px solid $grayA;
+  bottom: 0;
+  height: 65px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndex50;
+  
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    position: relative;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+    margin-left: $margin8;
+    margin-top: -$margin8;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    padding-bottom: 65px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.HeaderAd {
+  background-color: $black;
+}
+
+
+.Topic {
+  color: $white;
+  font-family: $fontBague;
+  font-size: 1.8rem;
+}

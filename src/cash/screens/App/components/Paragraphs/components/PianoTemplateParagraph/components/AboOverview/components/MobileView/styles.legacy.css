@@ -1,0 +1,11 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+
+@media (min-width: $smBreakpoint) {
+  .Wrapper {
+    display: none;
+  }
+}

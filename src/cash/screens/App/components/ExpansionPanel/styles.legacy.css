@@ -1,0 +1,149 @@
+.ExpansionPanel {
+  position: relative;
+
+  &::before,
+  &::after {
+    /* background-color: $greyA; */
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    transition: background-color 0.3s ease-in-out;
+    width: 100%;
+    z-index: $zIndex1;
+  }
+
+  &::before {
+    top: 0;
+  }
+
+  &::after {
+    bottom: -1px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      &::before,
+      &::after {
+        z-index: calc($zIndex1 + 1);
+      }
+
+      &.IsOpen {
+        &::before,
+        &::after {
+          /* background-color: $greyA; */
+          z-index: $zIndex1;
+        }
+      }
+    }
+  }
+
+  .Spacer {
+    flex: 1;
+  }
+
+  .Header {
+    align-items: center;
+    background: $white;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .Icon {
+    &::before {
+      color: $black;
+      display: inline-block;
+      font-family: $fontRaschIcon;
+      @mixin fontSize 28;
+      @mixin lineHeight 28;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      line-height: 1;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out;
+
+      &::before {
+        content: '\e906';
+      }
+    }
+  }
+
+  .Content {
+    height: 0;
+    overflow: hidden;
+    padding: 0 33px;
+    position: relative;
+  }
+
+  &.IsOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+    }
+
+    .Header {
+      @media (min-width: $smBreakpoint) {
+        &:hover {
+          .ArrowIcon::before {
+            /* color: $primaryA; */
+          }
+        }
+      }
+    }
+  }
+}
+
+.HeaderContentWrapper {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.LinkWrapper {
+  flex: 1;
+  padding: 16px 0;
+
+  &:hover {
+    .Title {
+      /* color: $primaryB; */
+    }
+  }
+}
+
+.ToggleWrapper {
+  height: 100%;
+  outline: none;
+  padding: 16px 0 16px 8px;
+
+  &:hover {
+    .Icon::before {
+      /* color: $primaryB; */
+    }
+  }
+}
+
+.Title {
+  /* composes: HamburgerMenu1 from 'typography.legacy.css'; */
+  display: block;
+  position: relative;
+  transition: color 0.3s ease-in-out;
+
+  &::after {
+    /* background: $greyA; */
+    content: '';
+    display: inline-block;
+    height: calc(100% - 12px);
+    margin-top: 6px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 1px;
+  }
+}

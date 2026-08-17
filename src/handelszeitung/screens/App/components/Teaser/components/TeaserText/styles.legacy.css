@@ -1,0 +1,53 @@
+.Wrapper {
+  display: block;
+  letter-spacing: 0;
+}
+
+.ContentWrapper {
+  display: flex;
+  width: 100%;
+  word-break: break-word;
+}
+
+.Number {
+  color: $blackB;
+  font-family: $fontGothamNarrow;
+  font-size: 2.4rem;
+  font-weight: 900;
+}
+
+.NumberWrapper {
+  align-items: center;
+  padding-right: 23px;
+  padding-top: 10px;
+  position: relative;
+  width: 13px;
+  @media (min-width: $lgBreakpoint) {
+    padding-top: 9px;
+  }
+}
+
+.TitleTickerBox {
+  composes: Lead2 from 'typography.legacy.css';
+  /* stylelint-disable-next-line */
+  -webkit-box-orient: vertical;
+  /* stylelint-disable-next-line */
+  display: -webkit-box;
+  font-size: 1.1rem;
+  -webkit-line-clamp: 1;
+  margin:0;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    -webkit-line-clamp: 2;
+    margin: 8px 0;
+  }
+}
+
+.TeaserTitle {
+  composes: Lead2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  padding: 12px 0;
+  word-wrap: break-word;
+}

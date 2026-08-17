@@ -1,0 +1,21 @@
+{
+  "video": {
+    "id": "bm9kZToxOTYyNg==",
+    "brightcoveId": "5969459623001",
+    "caption": "Das Swiss Ski Team freut sich auf den Schnee",
+    "shortTitle": "SI Sport",
+    "title": "Das Swiss Ski Team freut sich auf den Schnee",
+    "credit": "SI",
+    "image": {
+      "file": {
+        "alt": "",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "Video"
+  }
+}

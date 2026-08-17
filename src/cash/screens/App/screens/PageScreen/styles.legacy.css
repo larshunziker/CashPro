@@ -1,0 +1,5 @@
+.Title {
+  composes: Heading1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+}

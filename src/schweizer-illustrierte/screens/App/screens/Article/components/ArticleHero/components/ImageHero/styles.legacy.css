@@ -1,0 +1,32 @@
+.Wrapper {
+  @media (max-width: $xsBreakpointTo) {
+    margin: 0;
+    width: 100%;
+  }
+}
+
+.ImageWrapper {
+  line-height: 0;
+  position: relative;
+}
+
+.Image {
+  height: 100%;
+  margin-bottom: 10px;
+  max-height: calc(100% - 10px);
+  width: 100%;
+}
+
+.TextWrapper {
+  display: flex;
+  margin-bottom: 20px;
+  width: auto;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 5px;
+  }
+}

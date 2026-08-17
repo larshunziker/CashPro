@@ -1,0 +1,26 @@
+.Wrapper {
+  background: $blueA;
+  color: $white;
+  margin-bottom: $margin16;
+  padding: 16px 19px;
+}
+
+.Heading {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.Icon {
+  display: inline-block;
+  font-size: 3rem;
+  margin-right: 1rem;
+}
+
+.Title {
+  composes: H4White from 'typography.legacy.css';
+}
+
+.Paragraph {
+  composes: InfoParagraphWhite from 'typography.legacy.css';
+}

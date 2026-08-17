@@ -1,0 +1,26 @@
+.ContentWrapper {
+  > h2 {
+    @mixin H2;
+    background-color: $greyA;
+    border-radius: 2px;
+    color: $white;
+    margin-bottom: $margin24;
+    margin-top: $margin80;
+    padding: 8px 16px;
+    z-index: 0;
+  }
+}
+
+.Title {
+  composes: H1 from '../../../../assets/styles/typography.legacy.css';
+  margin: $margin32 0;
+}
+
+.InputLabel {
+  composes: FormLabelBig from '../../../../assets/styles/typography.legacy.css';
+}
+
+.Input {
+  composes: FormLabelBig from '../../../../assets/styles/typography.legacy.css';
+  margin: $margin32;
+}

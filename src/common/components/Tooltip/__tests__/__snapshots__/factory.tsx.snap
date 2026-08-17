@@ -1,0 +1,135 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Tooltip Should not render component if there is no content 1`] = `<div />`;
+
+exports[`[Component] Tooltip Should not render link if there is no link path 1`] = `
+<div>
+  <div
+    class="WrapperClass"
+  >
+    <span>
+      Shorttitle
+    </span>
+    <button
+      class="ButtonClass ButtonOpenClass"
+      data-testid="tooltip-button"
+    >
+      <span
+        class="ButtonTextClass ButtonTextClassOpen"
+      />
+    </button>
+    <div
+      class="TooltipWrapperClass"
+    >
+      <div
+        class="TooltipClass"
+      >
+        <p
+          class="ContentClass"
+        >
+          <span>
+            Guider ist die digitale Rechtsberatung des Beobachters.
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Tooltip Should not render link if there is no link text 1`] = `
+<div>
+  <div
+    class="WrapperClass"
+  >
+    <span>
+      Shorttitle
+    </span>
+    <button
+      class="ButtonClass ButtonOpenClass"
+      data-testid="tooltip-button"
+    >
+      <span
+        class="ButtonTextClass ButtonTextClassOpen"
+      />
+    </button>
+    <div
+      class="TooltipWrapperClass"
+    >
+      <div
+        class="TooltipClass"
+      >
+        <p
+          class="ContentClass"
+        >
+          <span>
+            Guider ist die digitale Rechtsberatung des Beobachters.
+          </span>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Tooltip Should render tooltip button correctly 1`] = `
+<div>
+  <div
+    class="WrapperClass"
+  >
+    <span>
+      Shorttitle
+    </span>
+    <button
+      class="ButtonClass"
+      data-testid="tooltip-button"
+    >
+      <span
+        class="ButtonTextClass ButtonTextClosed"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] Tooltip Should render tooltip on clicking the button 1`] = `
+<div>
+  <div
+    class="WrapperClass"
+  >
+    <span>
+      Shorttitle
+    </span>
+    <button
+      class="ButtonClass ButtonOpenClass"
+      data-testid="tooltip-button"
+    >
+      <span
+        class="ButtonTextClass ButtonTextClassOpen"
+      />
+    </button>
+    <div
+      class="TooltipWrapperClass"
+    >
+      <div
+        class="TooltipClass"
+      >
+        <p
+          class="ContentClass"
+        >
+          <span>
+            Guider ist die digitale Rechtsberatung des Beobachters.
+          </span>
+           
+          <button
+            class="LinkClass"
+            data-testid="tooltip-button"
+          >
+            Mehr erfahren ...
+          </button>
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;

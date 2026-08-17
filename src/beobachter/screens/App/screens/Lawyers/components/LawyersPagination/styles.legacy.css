@@ -1,0 +1,52 @@
+.PagerWrapper {
+  composes: Unselectable from 'helpers.legacy.css';
+  display: flex;
+  justify-content: space-between;
+  margin-block: 40px 50px;
+  text-align: center;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-block: 64px;
+  }
+}
+
+.PageLink {
+  composes: MetaXl from 'typography.legacy.css';
+  color: $grey80;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    background-color: $greenLight;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+}
+
+.PrevButton,
+.NextButton {
+  padding: 3px 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 10px;
+  }
+}
+
+.Disabled {
+  cursor: not-allowed;
+}
+
+.ActiveItem {
+  color: $green;
+  font-weight: 700;
+}

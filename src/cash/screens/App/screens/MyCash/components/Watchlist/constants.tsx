@@ -1,0 +1,103 @@
+import {
+  BOND,
+  CRYPTO_CURRENCY,
+  DERIVATE,
+  EQUITY,
+  FUND,
+} from '../../../../components/AutoSuggestSearch/constants';
+import {
+  DEFAULT_TABLE,
+  LIMIT_TABLE,
+  MONITOR_TABLE,
+  PERFORMANCE_TABLE,
+  SPECIAL_INFO_TABLE,
+  TRADER_TABLE,
+} from '../Table/constants';
+
+export const ITEMS_PER_PAGE = 3;
+
+export const SEARCH_RESULT_CONFIG = [
+  EQUITY,
+  CRYPTO_CURRENCY,
+  FUND,
+  BOND,
+  DERIVATE,
+];
+
+// @TODO: Check header fields needed for Watchlist
+export const TABLE_HEADERS = {
+  [LIMIT_TABLE]: [
+    'mName',
+    'lval',
+    'iNetVperprVPr',
+    'bidVolume',
+    'bid',
+    'ask',
+    'askVolume',
+    'alertsUpperLimit',
+    'alertsLowerLimit',
+    'mCur',
+  ],
+  [TRADER_TABLE]: [
+    'mName',
+    'lval',
+    'iNetVperprVPr',
+    'bidVolume',
+    'bid',
+    'ask',
+    'high',
+    'low',
+    'open',
+    'mCur',
+    'lvalDatetime',
+  ],
+  [PERFORMANCE_TABLE]: [
+    'mName',
+    'lval',
+    'iNetVperprVPr',
+    'perfPercentage1w',
+    'perfPercentage4w',
+    'perfPercentage52w',
+    'perfPercentageYTD',
+    'hi52w',
+    'lo52w',
+    'mCur',
+  ],
+  [SPECIAL_INFO_TABLE]: [
+    'mName',
+    'quantity',
+    'mCur',
+    'buyingDate',
+    'lval',
+    'paidAverageWithFeesOrigCurrency',
+    'fees',
+    'actualPrice',
+    'accountPercent',
+    'partInPercent',
+  ],
+  [MONITOR_TABLE]: [
+    'mName',
+    'mCur',
+    'lval',
+    'monitorFontIcon',
+    'chanceFontIcon',
+    'sensitivityFontIcon',
+    'relativePerformance',
+    'kgv',
+    'lastDividend',
+    'dividenYield',
+  ],
+  [DEFAULT_TABLE]: [
+    'mName',
+    'lval',
+    'iNetVperprV',
+    'iNetVperprVPr',
+    'high',
+    'low',
+    'sensitivityFontIcon',
+    'market',
+    'mCur',
+    'lvalDatetime',
+    'dayBefore',
+  ],
+};

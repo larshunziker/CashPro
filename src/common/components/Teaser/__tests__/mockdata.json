@@ -1,0 +1,25 @@
+{
+  "shortTitle": "Beauty-Trend",
+  "title": "Diese In-Frisur katapultiert uns zurück in die 80s",
+  "Link": null,
+  "lead": "Das ist der Lead text. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Aperiam dolorem accusamus doloribus eligendi ratione fugiat odit voluptate corporis labore tempore?",
+  "preferredUri": "/people/pietro-lombardi-hat-eine-zurcher-senorita",
+  "teaserImage": {
+    "id": "test1234",
+    "caption": "Während dem Dreh sind sich das Model und der Sänger sehr nahe gekommen.",
+    "credit": "ERIK PRZYBILLA",
+    "alt": "Während dem Dreh sind sich das Model und der Sänger sehr nahe gekommen.",
+    "focalPointX": 1000,
+    "focalPointY": 1000,
+    "relativeOriginPath": "/whatsapp_image_2018-05-08_at_18.32.30.jpeg",
+    "initialGreyPlaceholderImage": "/placeholder.jpeg",
+    "image": {
+      "file": {
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+      }
+    }
+  },
+  "__typename": "NativeAdvertising"
+}

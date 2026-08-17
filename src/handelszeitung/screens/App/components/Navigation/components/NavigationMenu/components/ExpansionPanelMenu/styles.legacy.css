@@ -1,0 +1,153 @@
+.ExpansionPanel {
+  background-color: $white;
+  position: relative;
+
+  .Header {
+    align-items: center;
+    background-color: $blackB;
+    color: $white;
+    cursor: pointer;
+    display: flex;
+    height: 56px;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out, background-color 0.3s ease-in;
+    user-select: none;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      height: 78px;
+    }
+  }
+
+  .HeaderContentWrapper {
+    display: flex;
+    position: relative;
+
+    &:focus,
+    &:hover {
+      .Logo,
+      .ArrowIcon {
+        opacity: 1;
+      }
+    }
+  }
+
+  .Icon {
+    &::before {
+      color: $white;
+      display: inline-block;
+      font-family: $fontRasch;
+      font-size: 1.9rem;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      align-items: center;
+      display: flex;
+      line-height: 1;
+      opacity: 0.6;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+      &::before {
+        content: '\e906';
+      }
+    }
+  }
+
+  .Content {
+    height: 0;
+    overflow: hidden;
+    position: relative;
+  }
+
+  &.IsOpen {
+    .Header {
+      background-color: $blackA;
+    }
+
+    .HeaderContentWrapper {
+      &:focus,
+      &:hover {
+        .Logo,
+        .ArrowIcon {
+          opacity: 0.6;
+        }
+      }
+    }
+
+    .ArrowIcon {
+      opacity: 1;
+      transform: rotate(0deg);
+    }
+
+    .Logo {
+      opacity: 1;
+    }
+
+    .SocialBarWrapper {
+      @media (min-width: $smBreakpoint) {
+        opacity: 1;
+        visibility: visible;
+      }
+    }
+  }
+}
+
+.SocialBarWrapper {
+  bottom: 12px;
+  display: block;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  transition: visibility 0.5s, opacity 0.5s $navigationTransitionFunction;
+  visibility: hidden;
+}
+
+.SocialBarWrapper svg {
+  height: 18px;
+  margin-top: 5px;
+  width: 18px;
+}
+
+.LogoWrapper {
+  margin-right: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 15px;
+  }
+}
+
+.Logo {
+  height: 13px;
+  margin-top: 10px;
+  opacity: 0.6;
+  transition: opacity 0.3s $navigationTransitionFunction;
+  width: 165px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 228px;
+  }
+}
+
+.LogoInsurance {
+  height: 13px;
+  width: 133px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 185px;
+  }
+}
+
+.LogoBIL {
+  height: 13px;
+  width: 63px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 90px;
+  }
+}

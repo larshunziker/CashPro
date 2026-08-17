@@ -1,0 +1,46 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+}
+
+.AccountWrapper {
+  padding-bottom: 300px;
+  padding-top: 43px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 80px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 150px;
+  }
+}
+
+.Background {
+  background-color: $blackB;
+}
+
+.Title {
+  color: $white;
+  font-family: $fontGothamBlack;
+  font-size: 3rem;
+  font-weight: bold;
+  line-height: 3.4rem;
+  margin-bottom: 22px;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 3.8rem;
+    margin-bottom: $margin72;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.6rem;
+    margin-bottom: $margin80;
+  }
+}
+
+.AccountPanel {
+  background: #fff;
+  padding: 20px;
+}

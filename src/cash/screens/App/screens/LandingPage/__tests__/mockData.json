@@ -1,0 +1,1395 @@
+{
+  "landingPage": {
+    "id": "bm9kZTozNjA3Njg=",
+    "nid": "360768",
+    "gcid": "382663",
+    "title": "Alle News",
+    "preferredUri": "/news/alle",
+    "metaTitle": "Alle News | cash",
+    "metaOgTitle": "Alle News",
+    "metaDescription": "All News overview page",
+    "metaOgDescription": "All News overview page",
+    "metaCanonicalUrl": "https://www.cash.ch/news/alle",
+    "canonicalUri": "/group/18/content/382663",
+    "editContentUri": null,
+    "editRelationUri": null,
+    "cloneContentUri": null,
+    "shortTitle": null,
+    "subtypeValue": null,
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "label": "Alle News",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+      "title": "News",
+      "suppressAds": false,
+      "settings": {
+        "mainChannel": {
+          "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+          "title": "News",
+          "__typename": "Channel"
+        },
+        "hierarchy": {
+          "count": 1,
+          "edges": [
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+                "title": "News",
+                "tid": "147768",
+                "__typename": "Channel"
+              },
+              "__typename": "ChannelEdge"
+            }
+          ],
+          "__typename": "ChannelConnection"
+        },
+        "__typename": "TermSettings"
+      },
+      "__typename": "Channel"
+    },
+    "publication": "cash",
+    "restrictionStatus": null,
+    "sponsorLabel": null,
+    "sponsor": null,
+    "body": [
+      {
+        "id": "cGFyYWdyYXBoOnNlY3Rpb246MTY5MjEzNjo1NzIzMzQ3",
+        "anchorId": null,
+        "title": null,
+        "link": null,
+        "body": [
+          {
+            "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToxNjkyMTM1OjU3MjMzNDY=",
+            "anchorId": null,
+            "ministage": {
+              "headline": null,
+              "keywords": {
+                "edges": [
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+                      "label": "Top News",
+                      "preferredUri": "/taxonomy/term/147775",
+                      "link": "/news/top-news",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc3Nzg=",
+                      "label": "B\u00f6rsen-Ticker",
+                      "preferredUri": "/taxonomy/term/147778",
+                      "link": "/news/boersenticker",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+                      "label": "News",
+                      "preferredUri": "/taxonomy/term/147768",
+                      "link": "/news/alle",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc4MDk=",
+                      "label": "Insider",
+                      "preferredUri": "/taxonomy/term/147809",
+                      "link": "/news/insider",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc4MTU=",
+                      "label": "Insider Briefing",
+                      "preferredUri": "/taxonomy/term/147815",
+                      "link": "/news/insider-briefing",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc4MDY=",
+                      "label": "Kolumne",
+                      "preferredUri": "/taxonomy/term/147806",
+                      "link": "/news/kolumne",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  },
+                  {
+                    "node": {
+                      "id": "dGF4b25vbXlfdGVybToxNDc4MTA=",
+                      "label": "Invest - Stimmen zum Markt",
+                      "preferredUri": "/taxonomy/term/147810",
+                      "link": "/news/invest-stimmen-zum-markt",
+                      "__typename": "Keyword"
+                    },
+                    "__typename": "KeywordEdge"
+                  }
+                ],
+                "__typename": "KeywordConnection"
+              },
+              "__typename": "MinistageTrendingTopics"
+            },
+            "__typename": "MinistageParagraph"
+          }
+        ],
+        "__typename": "SectionParagraph"
+      }
+    ],
+    "grid": {
+      "count": 200310,
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZTo3MTMzNzE=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjE3MzQz",
+                    "name": "Claus Schweitzer",
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "713371",
+            "title": "Das sind die besten Ferienhotels der Schweiz",
+            "lead": "Zur Sommerferienzeit hat die \u00abBilanz\u00bb die besten Ferienhotels der Schweiz gek\u00fcrt. Welche Hotels es in die Top 10 geschafft haben - und die Geschichten dahinter.",
+            "restrictionStatus": null,
+            "shortTitle": "Urlaubszeit",
+            "changeDate": "2024-07-31T13:50:00+02:00",
+            "preferredUri": "/news/top-news/das-sind-die-besten-ferienhotels-der-schweiz-734628",
+            "showUpdated": true,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMzgzNjk6ODcwNjYyMw==",
+              "caption": "\u003Cp\u003ESymbolbild: Die Hotellerie in der Schweiz.\u003C/p\u003E\n",
+              "image": {
+                "id": "681885",
+                "file": {
+                  "id": "ZmlsZTo3MTIxNjE6OmxhcmdlOjoxNjY1OTI4MTc3",
+                  "alt": "Durch Corona und die Strompreise unter Druck: Die Hotellerie in der Schweiz.",
+                  "relativeOriginPath": "/images/library/hotellerie_schweiz_tourismus.jpg",
+                  "focalPointX": 2209,
+                  "focalPointY": 1259,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTMzNTc=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjIwODc1",
+                    "name": "Nicola Imfeld",
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "713357",
+            "title": "Die f\u00fcnf teuersten Schulen der Welt sind alle in der Schweiz",
+            "lead": "Royals und sehr verm\u00f6gende Familien setzen oft auf die Schweiz, wenn es um die Bildung ihrer Kinder geht. Hierzulande befinden sich die f\u00fcnf teuersten Schulen der Welt.",
+            "restrictionStatus": null,
+            "shortTitle": "Bildung",
+            "changeDate": "2024-07-31T14:13:00+02:00",
+            "preferredUri": "/news/top-news/die-funf-teuersten-schulen-der-welt-sind-alle-in-der-schweiz-734614",
+            "showUpdated": true,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAwNTU6ODcwNjgyNg==",
+              "caption": "\u003Cp\u003EEin Sch\u00fcler bei den Rechenaufgaben.\u003C/p\u003E\n",
+              "image": {
+                "id": "801165",
+                "file": {
+                  "id": "ZmlsZTo4MzcyODQ6OmxhcmdlOjoxNzIyMjY0MDUx",
+                  "alt": "Ein Sch\u00fcler bei den Rechenaufgaben.",
+                  "relativeOriginPath": "/media/field_image/2024-07/schule_bildung.jpg",
+                  "focalPointX": 2048,
+                  "focalPointY": 1080,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTM3MTg=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [
+                {
+                  "node": {
+                    "id": "YXV0aG9yOjE4NTk1",
+                    "name": "Manuel Boeck",
+                    "__typename": "Author"
+                  },
+                  "__typename": "AuthorEdge"
+                }
+              ],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "713718",
+            "title": "Saron und Festhypotheken: Mit diesen Zinsen m\u00fcssen Schweizer Immobilienbesitzer derzeit rechnen",
+            "lead": "Die durchschnittlichen Zinskosten f\u00fcr eine Hypothek sind in der Schweiz in den letzten Wochen gesunken. Was die besten Angebote am Markt sind und wo die Entwicklung in den kommenden Monaten hingehen k\u00f6nnte.",
+            "restrictionStatus": null,
+            "shortTitle": "Immobilienmarkt",
+            "changeDate": "2024-07-31T13:40:00+02:00",
+            "preferredUri": "/news/top-news/saron-und-festhypotheken-mit-diesen-zinsen-mussen-schweizer-immobilienbesitzer-derzeit-rechnen-734975",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMzkzNzI6ODcwNjQxMA==",
+              "caption": "\u003Cp\u003EEin Wohnhochhaus in der Stadt Z\u00fcrich.\u003C/p\u003E\n",
+              "image": {
+                "id": "801456",
+                "file": {
+                  "id": "ZmlsZTo4Mzc1ODg6OmxhcmdlOjoxNzI0MjQzNDE5",
+                  "alt": "Ein Wohnhochhaus in der Stadt Z\u00fcrich.",
+                  "relativeOriginPath": "/media/field_image/2024-07/zurich_schweiz_immobilien_wohneigentum.jpg",
+                  "focalPointX": 2869,
+                  "focalPointY": 1931,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQxNTc=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714157",
+            "title": "Europas Immobilienfonds stecken in der Krise",
+            "lead": "Die Abfl\u00fcsse aus europ\u00e4ischen Immobilienfonds belaufen sich auf zw\u00f6lf Milliarden Euro in zwei Jahren.",
+            "restrictionStatus": null,
+            "shortTitle": "Mittelabfl\u00fcsse",
+            "changeDate": "2024-07-31T15:15:00+02:00",
+            "preferredUri": "/news/top-news/europas-immobilienfonds-stecken-in-der-krise-735414",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAxMjE6ODcwNzY1Mg==",
+              "caption": "\u003Cp\u003EFrankfurt ist das Finanzzentrum Deutschlands.\u003C/p\u003E\n",
+              "image": {
+                "id": "662927",
+                "file": {
+                  "id": "ZmlsZTo2ODUyNjE6OmxhcmdlOjoxNTgxOTUzNjUw",
+                  "alt": "Auch Deutschlands Wirtschaftszentrum Frankfurt erlebt den Immobilienboom.",
+                  "relativeOriginPath": "/images/library/frankfurt_immobilien.jpg",
+                  "focalPointX": 2000,
+                  "focalPointY": 1499,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTA5MjA=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "710920",
+            "title": "USA k\u00f6nnten mit Harris auf historische Z\u00e4sur zusteuern",
+            "lead": "Die USA stehen mit einer m\u00f6glichen Pr\u00e4sidentin Kamala Harris vor einer historischen Z\u00e4sur.",
+            "restrictionStatus": null,
+            "shortTitle": "Wahlen",
+            "changeDate": "2024-07-31T14:04:00+02:00",
+            "preferredUri": "/news/top-news/usa-konnten-mit-harris-auf-historische-zasur-zusteuern-732173",
+            "showUpdated": true,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyMzkwODE6ODcwNjg0Mg==",
+              "caption": "\u003Cp\u003EUS-Vizepr\u00e4sidentin Kamala Harris.\u003C/p\u003E\n",
+              "image": {
+                "id": "800253",
+                "file": {
+                  "id": "ZmlsZTo4MzYzMzQ6OmxhcmdlOjoxNzIxNzE0MTk3",
+                  "alt": "US-Vizepr\u00e4sidentin Kamala Harris.",
+                  "relativeOriginPath": "/media/field_image/2024-07/kamala_harris_0.jpg",
+                  "focalPointX": 1835,
+                  "focalPointY": 824,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQxNzA=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714170",
+            "title": "Spanien ist laut Studie das Land der Wahl f\u00fcr Digitalnomaden",
+            "lead": "Europ\u00e4ische L\u00e4ndern sind bevorzugte Ziele f\u00fcr Telearbeitende. An der Spitze liegt Spanien. In der Rangliste gibt es aber auch \u00dcberraschungen.",
+            "restrictionStatus": null,
+            "shortTitle": "Arbeitswelt XXX",
+            "changeDate": "2024-07-31T15:53:00+02:00",
+            "preferredUri": "/news/top-news/spanien-ist-laut-studie-das-land-der-wahl-fur-digitalnomaden-735427",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAxODY6ODcxNDgxOQ==",
+              "caption": "\u003Cp\u003EDer \u00dcberseehafen von Barcelona.\u003C/p\u003E\n",
+              "image": {
+                "id": "656977",
+                "file": {
+                  "id": "ZmlsZTo2NzI3MzM6OmxhcmdlOjoxNDQ3MTM2ODc1",
+                  "alt": "Der \u00dcberseehafen von Barcelona.",
+                  "relativeOriginPath": "/images/library/barcelona_hafen_mittelmeer_handel_suedeuropa_spanien.jpg",
+                  "focalPointX": 1632,
+                  "focalPointY": 1224,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQwMzU=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714035",
+            "title": "Der lange Konflikt zwischen Israel und dem Iran",
+            "lead": "Israel und Iran sind Feinde. Die Geschichte des Konflikts reicht weit zur\u00fcck.",
+            "restrictionStatus": null,
+            "shortTitle": "Chronik ",
+            "changeDate": "2024-07-31T14:38:00+02:00",
+            "preferredUri": "/news/top-news/der-lange-konflikt-zwischen-israel-und-dem-iran-735292",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-08-01T19:09:00+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAwNzc6ODcxNjI2OA==",
+              "caption": "\u003Cp\u003EDie Flaggen Israels und des Iran.\u003C/p\u003E\n",
+              "image": {
+                "id": "801583",
+                "file": {
+                  "id": "ZmlsZTo4Mzc3MTY6OmxhcmdlOjoxNzIyNDI5NDA1",
+                  "alt": "Die Flaggen Israels und des Iran.",
+                  "relativeOriginPath": "/media/field_image/2024-07/israel_iran_flaggen.jpg",
+                  "focalPointX": 2250,
+                  "focalPointY": 1548,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNjk=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714269",
+            "title": "US-Notenbank best\u00e4tigt Zinsen - Senkungssignale f\u00fcr September",
+            "lead": "Die US-Notenbank Fed hat ihre Zinsen erneut nicht ver\u00e4ndert. Gleichzeitig gab sie jedoch Signale f\u00fcr eine Zinssenkung auf der n\u00e4chsten Sitzung im September. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch nach ihrer Zinssitzung in Washington bekannt. Bankvolkswirte hatten diese Entscheidung erwartet.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T22:26:02+02:00",
+            "preferredUri": "/news/us-notenbank-bestatigt-zinsen-senkungssignale-fur-september-735526",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T22:24:14+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1leGxLTnJxbjpuZXctdFNHVWJqZkI=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNjU=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714265",
+            "title": "Daimler Truck legt Latte f\u00fcr Umsatz und Gewinn niedriger - Aktie f\u00e4llt",
+            "lead": "ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach dem schwachen zweiten Quartal den Ausblick f\u00fcr das laufende Jahr gekappt. Sowohl beim Umsatz als auch bei der Profitabilit\u00e4t im Konzern machten die Schwaben am Mittwochabend nach B\u00f6rsenschluss Abstriche. Mit den bereits Mitte Juli vorgelegten vorl\u00e4ufigen Zahlen zum zweiten Jahresviertel hatte das Management um Chef Martin Daum die Ziele bereits auf den Pr\u00fcfstand gestellt. Besonders in Asien und Europa sieht es mau aus f\u00fcr den Weltmarktf\u00fchrer von Schwerlast-Lkw.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T22:18:02+02:00",
+            "preferredUri": "/news/daimler-truck-legt-latte-fur-umsatz-und-gewinn-niedriger-aktie-fallt-735522",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T22:16:24+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy12T0NOSEFVcDpuZXctcUtxUkthM3E=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNjM=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714263",
+            "title": "Qiagen erh\u00f6ht nach Ende von PCR-Testsystem Neumodx Gewinnziel",
+            "lead": "Der Labordienstleister und Diagnostikspezialist Qiagen rechnet nach dem Stopp seines PCR-Testsystems Neumodx mit mehr Gewinn im Gesamtjahr 2024. Der W\u00e4hrungs- und Sondereffekte bereinigte Gewinn je Aktie (bereinigtes EPS) soll nun mit mindestens 2,16 US-Dollar zwei Cent h\u00f6her ausfallen als zuletzt avisiert, wie der Dax-Konzern am Mittwochabend im niederl\u00e4ndischen Venlo mitteilte. Das Umsatzziel senkte das Unternehmen hingegen aufgrund fehlender Neumodx-Erl\u00f6se. Hier peilt es jetzt w\u00e4hrungsbereinigt Erl\u00f6se von mindestens 1,985 Milliarden Dollar (rund 1,83 Mrd Euro) an. Zuvor hatte Qiagen mindestens zwei Milliarden Dollar im Visier.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T22:08:02+02:00",
+            "preferredUri": "/news/qiagen-erhoht-nach-ende-von-pcr-testsystem-neumodx-gewinnziel-735520",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T22:06:11+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1rWmdIWmJQdDpuZXctbzBHVnFpdmU=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNjA=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714260",
+            "title": "\u00d6konomen-Stimmen zur Zinsentscheidung der US-Notenbank",
+            "lead": "Die US-Notenbank Fed hat ihre Zinsen erneut nicht ver\u00e4ndert. Gleichzeitig gab sie jedoch vorsichtige Signale f\u00fcr eine baldige Senkung. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch nach ihrer Zinssitzung in Washington bekannt. Bankvolkswirte hatten diese Entscheidung erwartet.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:50:02+02:00",
+            "preferredUri": "/news/okonomen-stimmen-zur-zinsentscheidung-der-us-notenbank-735517",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T21:48:39+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1hR1R2SkhxNzpuZXctcWR4eEhrcmU=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNTU=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714255",
+            "title": "Fed-Chef Powell: Zinssenkung k\u00f6nnte im September anstehen",
+            "lead": "In den Vereinigten Staaten k\u00f6nnte der Leitzins nach Aussage des US-Notenbankchefs bald sinken. \u00abEine Zinssenkung bei der September-Sitzung k\u00f6nnte anstehen\u00bb, sagte Jerome Powell am Mittwoch in Washington bei der Pressekonferenz anl\u00e4sslich der Notenbank-Entscheidung. Voraussetzung sei, dass die Inflation weiter sinke und die Lage am Arbeitsmarkt es erlaube. Die Daten h\u00e4tten sich zuletzt in die richtige Richtung bewegt. Im geldpolitischen Ausschuss gebe es die Einsch\u00e4tzung, dass man sich auf eine Zinssenkung hin bewege.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:28:02+02:00",
+            "preferredUri": "/news/fed-chef-powell-zinssenkung-konnte-im-september-anstehen-735512",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T21:26:04+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1mRWdMMXNjTTpuZXctbmU2eDJSTkw=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNTM=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714253",
+            "title": "Devisen: Abgesackter Euro legt im sp\u00e4teren US-Handel wieder zu",
+            "lead": "Der Euro ist am Mittwoch im US-Handelsverlauf nach Verlusten wieder gestiegen. Rund eine Stunde vor dem B\u00f6rsenschluss an der Wall Street kostete die Gemeinschaftsw\u00e4hrung 1,0830 US-Dollar. Zum Zeitpunkt der Bekanntgabe durch die US-Notenbank Fed, dass der Leitzins unver\u00e4ndert beibehalten werde, war er bis auf 1,0802 Dollar gesackt.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:22:02+02:00",
+            "preferredUri": "/news/devisen-abgesackter-euro-legt-im-spateren-us-handel-wieder-zu-735510",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T21:20:13+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1pRTNJYTdlYzpuZXctcWE5MTdPdHQ=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNTA=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714250",
+            "title": "Bundesr\u00e4te preisen am Vorabend des 1. August Schweizer Demokratie",
+            "lead": "Vor dem Hintergrund von Krieg und Krisen in der Welt haben mehrere Mitglieder des Bundesrats in Reden am Vorabend des 1. Augusts die Vorz\u00fcge der Schweizer Demokratie hervorgehoben. Nicht auftreten konnte Bundesr\u00e4tin Elisabeth Baume-Schneider. Das Fest mit ihrer geplanten Rede in Rorschach SG wurde wegen eines heftigen Gewitters kurzfristig abgesagt.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:11:02+02:00",
+            "preferredUri": "/news/bundesrate-preisen-am-vorabend-des-1-august-schweizer-demokratie-735507",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T21:09:11+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy16aVhXcHZ5NzpuZXctY3NkNmk4UFY=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDk=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714249",
+            "title": "USA: Keine Anzeichen f\u00fcr unmittelbare Eskalation in Nahost",
+            "lead": "Die US-Regierung h\u00e4lt nach den Israel zugeschriebenen Angriffen im Libanon und im Iran an ihrer beschwichtigenden Linie fest. \u00abWir glauben nicht, dass eine Eskalation unvermeidlich ist, und es gibt keine Anzeichen daf\u00fcr, dass eine Eskalation unmittelbar bevorsteht\u00bb, wiederholte der Kommunikationsdirektor des Nationalen Sicherheitsrates, John Kirby, seine Worte der vergangenen Tage. Er betonte gleichzeitig, die aktuellen Bedenken nicht einfach abtun zu wollen. Man beobachte die Situation in der Region \u00absehr, sehr genau\u00bb.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:10:02+02:00",
+            "preferredUri": "/news/usa-keine-anzeichen-fur-unmittelbare-eskalation-in-nahost-735506",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T21:08:20+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy15eWFuQjdYSDpuZXctalpGWmRGV2Q=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDc=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714247",
+            "title": "Daimler Truck legt Latte f\u00fcr Umsatz und Gewinn niedriger",
+            "lead": "ECHTERDINGEN (awp international) - Der Nutzfahrzeughersteller Daimler Truck hat nach einem schwachen Quartal die Prognosen f\u00fcr das laufende Jahr gesenkt. Beim Umsatz werde jetzt mit einem Wert zwischen 53 Milliarden Dollar und 55 Milliarden Dollar gerechnet, teilte der im Dax notierte Konzern am Mittwochabend in Leinfelden-Echterdingen mit. Die bisherige Spanne hatte jeweils um zwei Milliarden Euro \u00fcber der neuen gelegen. F\u00fcr den Gewinn vor Zinsen und Steuern (Ebit) prognostiziert das Unternehmen jetzt einen deutlichen R\u00fcckgang. Bislang hatte Daimler Truck einen operativen Gewinn in Vorjahresh\u00f6he in Aussicht gestellt.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T21:01:02+02:00",
+            "preferredUri": "/news/daimler-truck-legt-latte-fur-umsatz-und-gewinn-niedriger-735504",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:59:13+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1ndmNVVktmcTpuZXcteEFSMHQzRFI=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDU=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714245",
+            "title": "Parmelin: \u0022Unser Land braucht sich nicht zu sch\u00e4men\u0022",
+            "lead": "Bundesrat Guy Parmelin hat die Schweiz dazu aufgerufen, sich nicht kleiner zu machen, als sie sei. \u00abUnser Land braucht sich nicht zu sch\u00e4men\u00bb, sagte er am Mittwochabend in Luzern.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:49:02+02:00",
+            "preferredUri": "/news/parmelin-unser-land-braucht-sich-nicht-zu-schamen-735502",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:47:13+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1odTNacVJTZzpuZXctbUNQTndramM=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDQ=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714244",
+            "title": "USA raten B\u00fcrgern von Reisen in den Libanon ab",
+            "lead": "Angesichts der wachsenden Spannungen in Nahost raten die USA ihren B\u00fcrgern strikt von einer Reise in den Libanon ab. \u00abReisen Sie nicht in den Libanon, da die Spannungen zwischen der Hisbollah und Israel zunehmen\u00bb, teilte die US-Botschaft in der libanesischen Hauptstadt Beirut mit. US-B\u00fcrger, die sich bereits im S\u00fcdlibanon aufhielten, seien nachdr\u00fccklich zur Ausreise aufgefordert, hiess es weiter. Damit hob das US-Aussenministerium seine Reisehinweise um eine Stufe an. Zuvor galt die Stufe drei, wonach US-B\u00fcrgern nahegelegt wurde, eine Reise in den Libanon zu \u00fcberdenken.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:46:03+02:00",
+            "preferredUri": "/news/usa-raten-burgern-von-reisen-in-den-libanon-ab-735501",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:44:28+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1lSVJmZktTVzpuZXctaHFOdGEwT24=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDM=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714243",
+            "title": "US-Notenbank best\u00e4tigt Zinsen erneut - Vorsichtige Signale f\u00fcr Senkung",
+            "lead": "Die US-Notenbank Fed hat ihre Zinsen erneut nicht ver\u00e4ndert. Gleichzeitig gab sie jedoch vorsichtige Signale f\u00fcr eine baldige Senkung. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch nach ihrer Zinssitzung in Washington bekannt. Bankvolkswirte hatten diese Entscheidung erwartet.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:46:02+02:00",
+            "preferredUri": "/news/us-notenbank-bestatigt-zinsen-erneut-vorsichtige-signale-fur-senkung-735500",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:44:06+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1qUVVOU0xhVDpuZXcteGdxdFpRVlM=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyNDI=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714242",
+            "title": "Die Schweiz ist laut Albert R\u00f6sti ein Sonderfall der Freiheit",
+            "lead": "Bundesrat Albert R\u00f6sti (SVP) hat am Mittwochabend w\u00e4hrend seiner Ansprache zum Nationalfeiertag die Volksrechte ins Zentrum ger\u00fcckt. Die Mitbestimmung der B\u00fcrgerinnen und B\u00fcrger sei ein Ventil f\u00fcr Unzufriedenheit, sagte er an der Bundesfeier in Kesswil TG.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:41:02+02:00",
+            "preferredUri": "/news/die-schweiz-ist-laut-albert-rosti-ein-sonderfall-der-freiheit-735499",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:39:12+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1nbE5yd2NYVTpuZXctcFJjRnBqeHo=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyMzg=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714238",
+            "title": "Bundespr\u00e4sidentin Viola Amherd: \u0022Herausforderungen zusammen l\u00f6sen\u0022",
+            "lead": "Wildegg AG (awp/sda) - Die aktuellen Herausforderungen k\u00f6nnen nach den Worten von Bundespr\u00e4sidentin Viola Amherd nur zusammen gel\u00f6st werden. Polarisierung sei nicht die L\u00f6sung, sagte Amherd an der Bundesfeier vom Mittwochabend in M\u00f6riken-Wildegg AG.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:31:02+02:00",
+            "preferredUri": "/news/bundesprasidentin-viola-amherd-herausforderungen-zusammen-losen-735495",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:29:25+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1vMzd6WnpTbTpuZXctdnAxNHNoZzc=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyMzQ=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714234",
+            "title": "Aktien New York: Gewinne - US-Zinsaussagen ohne grossen Einfluss",
+            "lead": "Die US-B\u00f6rsen haben am Mittwoch weiter zugelegt. Vor allem an der technologielastigen Nasdaq-B\u00f6rse ging es aufw\u00e4rts. Die deutlichen Vortagesverluste wurden wieder mehr als wettgemacht. Die wie erwartet best\u00e4tigten Leitzinsen und die begleitenden Kommentare durch die US-Notenbank brachten keine neuen Impulse. Die Arbeitsmarktdaten hatten zuvor bereits f\u00fcr Erleichterung am Markt gesorgt, denn ein sich abk\u00fchlender Jobmarkt d\u00e4mpft die Inflation und macht es der Fed tendenziell leichter, die Zinsen zu senken.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:21:02+02:00",
+            "preferredUri": "/news/aktien-new-york-gewinne-us-zinsaussagen-ohne-grossen-einfluss-735491",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:19:58+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy13clNLSkpzRzpuZXctenVlY3hvMGo=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyMjQ=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714224",
+            "title": "Fed l\u00e4sst Zinsen unver\u00e4ndert",
+            "lead": "Die US-Notenbank Fed r\u00fchrt die Leitzinsen wie erwartet nicht an.",
+            "restrictionStatus": null,
+            "shortTitle": "Geldpolitik",
+            "changeDate": "2024-07-31T19:38:15+02:00",
+            "preferredUri": "/news/top-news/fed-lasst-zinsen-unverandert-735481",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:02:59+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3NzU=",
+              "title": "Top News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIyNDAyOTU6ODcwOTE1Nw==",
+              "caption": "\u003Cp\u003EJerome Powell, Chef der US-Notenbank Federal Reserve, bei einem Auftritt im US-Senat im M\u00e4rz 2024.\u003C/p\u003E\n",
+              "image": {
+                "id": "784269",
+                "file": {
+                  "id": "ZmlsZTo4MTk0NjM6OmxhcmdlOjoxNzEzNDM4NDI3",
+                  "alt": "Jerome Powell, Chef der US-Notenbank Federal Reserve, bei einem Auftritt im US-Senat im M\u00e4rz 2024.",
+                  "relativeOriginPath": "/media/field_image/2024-04/jerome_powell_federal_resere_usa_notenbank.jpg",
+                  "focalPointX": 2500,
+                  "focalPointY": 1667,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyMjk=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714229",
+            "title": "US-Notenbank best\u00e4tigt Leitzinsen erneut",
+            "lead": "Die US-Notenbank Fed hat ihre Zinsen erneut nicht ver\u00e4ndert. Der Leitzins verharre in einer Spanne von 5,25 bis 5,50 Prozent, gab die Fed am Mittwoch nach ihrer Zinssitzung in Washington bekannt. Bankvolkswirte hatten diese Entscheidung erwartet.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T20:03:02+02:00",
+            "preferredUri": "/news/us-notenbank-bestatigt-leitzinsen-erneut-735486",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T20:01:40+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1uemJ2MVNWODpuZXctcUhIWk9pckc=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZTo3MTQyMTc=",
+            "authorPrefix": "by",
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "nid": "714217",
+            "title": "Calida schliesst Lafuma-Mobilier-Verkauf ab",
+            "lead": "Das Traditionsunternehmen Calida hat den Mitte Juli angek\u00fcndigten Verkauf des Gartenm\u00f6belgesch\u00e4fts Lafuma Mobilier abgeschlossen. Der f\u00fcr das dritte Quartal in Aussicht gestellte Abschluss sei am (heutigen) Mittwoch erfolgt, wie es in einer am selben Abend ver\u00f6ffentlichten Meldung hiess.",
+            "restrictionStatus": "free",
+            "shortTitle": null,
+            "changeDate": "2024-07-31T18:49:02+02:00",
+            "preferredUri": "/news/calida-schliesst-lafuma-mobilier-verkauf-ab-735474",
+            "showUpdated": false,
+            "publication": "cash",
+            "publicationDate": "2024-07-31T18:47:11+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxNDc3Njg=",
+              "title": "News",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1hb21tdHBHQTpuZXctb1FxQm5VWlA=",
+              "caption": null,
+              "image": {
+                "id": "649032",
+                "file": {
+                  "id": "ZmlsZTo2NTc5NjI6OmxhcmdlOjoxNjU1MTE4NDQ5",
+                  "alt": "fallback",
+                  "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                  "focalPointX": 1600,
+                  "focalPointY": 1200,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "useAutoHyphens": false,
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "LandingPage"
+  }
+}

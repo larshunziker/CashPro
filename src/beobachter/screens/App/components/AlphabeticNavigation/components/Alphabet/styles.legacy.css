@@ -1,0 +1,143 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+
+    &.ThemeRed {
+      margin: 0;
+      width: 100%;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    composes: Container from '@grid.legacy.css';
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .ThemeRed {
+      width: calc($xlBreakpointContainerWidth - ($outerGapXl * 2));
+    }
+  }
+}
+
+.MobileWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 40px 0;
+  justify-content: center;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.Link,
+.ActiveLink {
+  composes: AlphabeticNavigation from 'typography.legacy.css';
+
+  display: block;
+  margin: 0 3px 7px;
+  text-align: center;
+  width: calc(20% - 6px);
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    flex-grow: 1;
+    justify-content: center;
+    margin: 0;
+    padding: $margin8 0;
+    text-align: left;
+    width: auto;
+  }
+}
+
+.Link {
+  color: $grey40;
+
+  &:hover {
+    color: $black;
+    position: relative;
+
+    @media (min-width: $smBreakpoint) {
+      &::before {
+        background: $black;
+        content: '';
+        height: 3px;
+        left: 50%;
+        position: absolute;
+        top: 0;
+        transform: translateX(-50%);
+        width: 12px;
+      }
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      &::before {
+        width: 16px;
+      }
+    }
+
+
+    @media (min-width: $xlBreakpoint) {
+      &::before {
+        width: 24px;
+      }
+    }
+  }
+}
+
+.ActiveLink {
+  color: $black;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    &::before {
+      background: $black;
+      content: '';
+      height: 3px;
+      left: 50%;
+      position: absolute;
+      top: 0;
+      transform: translateX(-50%);
+      width: 12px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &::before {
+      width: 16px;
+    }
+  }
+
+
+  @media (min-width: $xlBreakpoint) {
+    &::before {
+      width: 24px;
+    }
+  }
+}
+
+.ThemeRed {
+  .Link {
+    color: $white;
+    opacity: 0.6;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
+
+  .ActiveLink {
+    color: $white;
+    opacity: 1;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .Link,
+    .ActiveLink {
+      padding: 8px 0 4px;
+    }
+  }
+}

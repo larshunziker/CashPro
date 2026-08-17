@@ -1,0 +1,39 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+  width: 100%;
+
+  &>div {
+    flex: 1;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  font-size: 20px;
+  margin-bottom: $margin16;
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  min-height: 220px;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 175px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

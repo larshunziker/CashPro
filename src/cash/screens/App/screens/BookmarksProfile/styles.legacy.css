@@ -1,0 +1,13 @@
+.BookmarksProfileWrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.LoginWrapper {
+  display: flex;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}

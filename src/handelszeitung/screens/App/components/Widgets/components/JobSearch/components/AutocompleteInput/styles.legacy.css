@@ -1,0 +1,29 @@
+.Wrapper {
+  position: relative;
+}
+
+.Input {
+  margin: 0;
+  max-width: calc(100% - 16px);
+
+  input {
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    color: $blackB;
+    margin-top: 0;
+    padding: 16px;
+  }
+}
+
+.Dropdown {
+  background-color: $white;
+  border-bottom: 1px solid $greyC;
+  border-top: 1px solid $greyC;
+  display: flex;
+  flex-direction: column;
+  max-width: calc(100% - 16px);
+  position: absolute;
+  top: 60px;
+  width: 100%;
+  z-index: 1000;
+}

@@ -1,0 +1,534 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser Magazine Issue Should not render CTA button and special offer badge if there is no link to the shop 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Handelszeitung"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should not render special offer badge if it is not a special offer 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Handelszeitung"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <a
+            href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+          >
+            Jetzt abonnieren!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should not render specialOffer badge if there is no specialOffer text 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Handelszeitung"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <a
+            href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+          >
+            Jetzt abonnieren!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render correctly when there is a complete issue loaded 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Handelszeitung"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+        <a
+          class="teaser_print SpecialOfferWrapperClassName"
+          data-testid="mocked-link"
+          href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+        >
+          <div
+            class="SpecialOfferTextClassName"
+          >
+            Jetzt für nur 9CHF!
+          </div>
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <a
+            href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+          >
+            Jetzt abonnieren!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render correctly with CTA button in outerWrapper 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Handelszeitung"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+        <a
+          class="teaser_print SpecialOfferWrapperClassName"
+          data-testid="mocked-link"
+          href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+        >
+          <div
+            class="SpecialOfferTextClassName"
+          >
+            Jetzt für nur 9CHF!
+          </div>
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <a
+            href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+          >
+            Jetzt abonnieren!
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      class="CTAWrapperClassName"
+    >
+      <a
+        href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+      >
+        Jetzt abonnieren!
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render fallbacks 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <a
+          class="teaser_print"
+          data-testid="mocked-link"
+          href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+        >
+          <img
+            alt="Magazincover"
+            data-testid="mocked-picture"
+            src="/handelszeitung_26.png"
+          />
+        </a>
+        <a
+          class="teaser_print SpecialOfferWrapperClassName"
+          data-testid="mocked-link"
+          href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+        >
+          <div
+            class="SpecialOfferTextClassName"
+          >
+            Jetzt für nur 9CHF!
+          </div>
+        </a>
+      </div>
+      <div
+        class="ContentWrapperClassName"
+      >
+        <p
+          class="IssuePublishedTextClassName"
+        >
+          <span>
+            Dieser Artikel erschien in der 
+          </span>
+          <a
+            class="teaser_print IssueLinkClassName"
+            data-testid="mocked-link"
+            href="https://epaper.handelszeitung.ch/html5/S1r1URCsbd/QHiBX8jR7jBpi/page/1"
+          >
+            Handelszeitung Nr 26
+          </a>
+        </p>
+        <p
+          class="MagazineTextClassName"
+          data-testid="teaser-magazine-issue_articleboxtext"
+        >
+          Das ist der Magazine Articlebox text.
+        </p>
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <a
+            href="https://shop.handelszeitung.ch/?promo_name=heft-teaser&promo_position=print-article"
+          >
+            Jetzt abonnieren
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render issue title as normal text if there is no link path 1`] = `
+<span
+  data-testid="teaser-magazine-issue_issue-title-without-link"
+>
+  Handelszeitung Nr 26
+</span>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render nothing when there are no props 1`] = `<div />`;
+
+exports[`[Component] Teaser Magazine Issue Should render skeleton when loading 1`] = `
+<div>
+  <div
+    class="WrapperClassName SkeletonWrapper"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <img
+          alt=""
+          class="SkeletonPlaceholderImage"
+          src="data:image/gif;base64,R0lGODlhHgAPAPAAAPb29gAAACH5BAAAAAAALAAAAAAeAA8AAAIThI+py+0Po5y02ouz3rz7D4ZTAQA7"
+        />
+      </div>
+      <div
+        class="ContentWrapperClassName SkeletonContentWrapper"
+      >
+        <div
+          class="SkeletonIssuePublishedClassName"
+        />
+        <div
+          class="SkeletonTitleClassName"
+        />
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <div
+            class="SkeletonButtonClassName"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render skeleton when loading even if there is issue data 1`] = `
+<div>
+  <div
+    class="WrapperClassName SkeletonWrapper"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <img
+          alt=""
+          class="SkeletonPlaceholderImage"
+          src="data:image/gif;base64,R0lGODlhHgAPAPAAAPb29gAAACH5BAAAAAAALAAAAAAeAA8AAAIThI+py+0Po5y02ouz3rz7D4ZTAQA7"
+        />
+      </div>
+      <div
+        class="ContentWrapperClassName SkeletonContentWrapper"
+      >
+        <div
+          class="SkeletonIssuePublishedClassName"
+        />
+        <div
+          class="SkeletonTitleClassName"
+        />
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <div
+            class="SkeletonButtonClassName"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser Magazine Issue Should render skeleton when loading with CTA button in outerWrapper 1`] = `
+<div>
+  <div
+    class="WrapperClassName SkeletonWrapper"
+  >
+    <div
+      class="ImageContentWrapperClassName"
+    >
+      <div
+        class="ImageWrapperClassName"
+      >
+        <img
+          alt=""
+          class="SkeletonPlaceholderImage"
+          src="data:image/gif;base64,R0lGODlhHgAPAPAAAPb29gAAACH5BAAAAAAALAAAAAAeAA8AAAIThI+py+0Po5y02ouz3rz7D4ZTAQA7"
+        />
+      </div>
+      <div
+        class="ContentWrapperClassName SkeletonContentWrapper"
+      >
+        <div
+          class="SkeletonIssuePublishedClassName"
+        />
+        <div
+          class="SkeletonTitleClassName"
+        />
+        <div
+          class="CTAWrapperDesktopClassName"
+        >
+          <div
+            class="SkeletonButtonClassName"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="CTAWrapperClassName"
+    >
+      <div
+        class="SkeletonButtonClassName"
+      />
+    </div>
+  </div>
+</div>
+`;

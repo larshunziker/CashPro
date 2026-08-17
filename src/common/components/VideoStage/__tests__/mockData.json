@@ -1,0 +1,114 @@
+{
+  "id": "183247",
+  "items": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTYxNw==",
+          "brightcoveId": "5968879364001",
+          "publicationDate": null,
+          "changeDate": "2019-01-18T16:25:19",
+          "caption": "Die amtierende Miss Schweiz Jastina knutscht an der Energy Star Night mit dem Moderator Jontsch.",
+          "shortTitle": null,
+          "title": "test video content",
+          "credit": null,
+          "preferredUri": "/node/19617",
+          "duration": "62805",
+          "image": {
+            "file": {
+              "alt": "",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2019-01/kiss-cam_miss_schweiz_jastina_und_moderator_jontsch_brightcove_video_thumb.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "Video"
+        },
+        "__typename": "VideoEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTYyNg==",
+          "brightcoveId": "5969459623001",
+          "publicationDate": null,
+          "changeDate": "2019-01-22T10:29:45",
+          "caption": "Das Swiss Ski Team freut sich auf den Schnee",
+          "shortTitle": "SI Sport",
+          "title": "Das Swiss Ski Team freut sich auf den Schnee",
+          "credit": "SI",
+          "preferredUri": "/node/19626",
+          "duration": "116073",
+          "image": {
+            "file": {
+              "alt": "",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2019-01/das_swiss_ski_team_freut_sich_auf_den_schnee_brightcove_video_thumb.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "Video"
+        },
+        "__typename": "VideoEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTYyNQ==",
+          "brightcoveId": "5989957954001",
+          "publicationDate": null,
+          "changeDate": "2019-01-22T10:01:42",
+          "caption": "Bligg, Loco Escrito  und Lo von Lo & Leduc sind für einen Swiss Music Award in der Kategorie «Best Hit» nominiert. Der Gewinner darf an der Show live mit dem Jugend Sinfonie Orchester auftreten. ",
+          "shortTitle": "Shooot teitl",
+          "title": "Brightcove ID test",
+          "credit": null,
+          "preferredUri": "/node/19625",
+          "duration": "120000",
+          "image": {
+            "file": {
+              "alt": "",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2019-01/style_mode_trends_brightcove_video_thumb.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "Video"
+        },
+        "__typename": "VideoEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTYyOA==",
+          "brightcoveId": "5989175083001",
+          "publicationDate": null,
+          "changeDate": "2019-01-22T11:10:38",
+          "caption": "Video 3 Image Caption",
+          "shortTitle": "Video Short Title 3",
+          "title": "Video Test Artikel #3",
+          "credit": "Demo",
+          "preferredUri": "/node/19628",
+          "duration": "27520",
+          "image": {
+            "file": {
+              "alt": "",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/media/field_image/2019-01/heidi_klum_bei_ellen_degeneres_brightcove_video_thumb.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "Video"
+        },
+        "__typename": "VideoEdge"
+      }
+    ],
+    "__typename": "VideoConnection"
+  },
+  "link": null,
+  "title": "Video Ministage Test"
+}

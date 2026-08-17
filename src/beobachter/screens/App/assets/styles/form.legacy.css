@@ -1,0 +1,104 @@
+.Button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: $redA;
+  border: 0.1rem solid $redA;
+  color: $white;
+  cursor: pointer;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.3rem;
+  padding: 0 3rem;
+  text-align: center;
+  text-decoration: none;
+  transition: transform 100ms ease-in-out, background-color 0.3s,
+    border-color 0.3s;
+  white-space: nowrap;
+
+  /* the case where a button have an icon <i></i> */
+  > i {
+    vertical-align: sub;
+  }
+
+  &:hover {
+    background-color: $colorMail;
+    border-color: $colorMail;
+    color: $white;
+    outline: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      transform: scale(0.95);
+    }
+
+    &:active {
+      transform: scale(0.9);
+    }
+  }
+
+  &.ButtonDisabled,
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $redA;
+      border-color: $redA;
+    }
+  }
+
+  &.ButtonOutline {
+    background-color: $transparent;
+    color: $redA;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $greyA;
+      color: $greyA;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        border-color: $inherit;
+        color: $redA;
+      }
+    }
+  }
+
+  &.ButtonClear {
+    background-color: $transparent;
+    border-color: $transparent;
+    color: $redA;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $transparent;
+      color: $greyA;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        color: $redA;
+      }
+    }
+  }
+}
+
+.Input {
+  border: 0;
+  border-bottom: 1px solid color($white a(80%));
+  font-family: $fontSpezia;
+  opacity: 0.6;
+}
+
+.UnstyledButton {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+}

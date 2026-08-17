@@ -1,0 +1,212 @@
+/*
+ * After discussions with Roman, we had to copy these styles from the ReactToastify.css file of the react-toastify node module.
+ * This was necessary in order to ensure that the toasts could be aligned within our grid.
+ */
+
+.ToastContainer {
+  composes: Container from '@grid.legacy.css';
+  box-sizing: border-box;
+  left: 0;
+  padding: 0;
+  pointer-events: none;
+  position: fixed;
+  right: 0;
+  transform: translate3d(0, 0, 9999px);
+  z-index: 9999;
+
+  &:global(.Toastify__toast-container--top-center) { /* stylelint-disable-line */
+    top: 66px;
+
+    @media (min-width: $smBreakpoint) {
+      top: 80px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      top: 149px;
+    }
+  }
+
+  &:global(.Toastify__toast-container--bottom-center) { /* stylelint-disable-line */
+    bottom: 1em;
+  }
+}
+
+.Toast {
+  background: $white;
+  border-radius: 1px;
+  box-shadow: 0 5px 9px 0 rgb(0 0 0 / 50%);
+  box-sizing: border-box;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0;
+  margin-left: auto;
+  margin-right: auto;
+  max-height: 800px;
+  max-width: 702px;
+  min-height: 64px;
+  overflow: hidden;
+  padding: 0;
+  pointer-events: all;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 1rem;
+  }
+}
+
+.ToastBody {
+  flex: 1;
+  margin: auto 0;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+:global(.Toastify__bounce-enter--top-center) {
+  animation-name: toastify-bounce-in-top-down;
+}
+
+/* stylelint-disable-next-line selector-class-pattern */
+:global(.Toastify__bounce-exit--top-center) {
+  animation-name: toastify-bounce-out-up;
+}
+
+:global(.Toastify__bounce-enter--bottom-center) { /* stylelint-disable-line selector-class-pattern */
+  animation-name: toastify-bounce-in-up;
+}
+
+:global(.Toastify__bounce-exit--bottom-center) { /* stylelint-disable-line */
+  animation-name: toastify-bounce-in-down;
+}
+
+:global(.Toastify__slide-enter--bottom-center) { /* stylelint-disable-line */
+  animation-name: toastify-slide-in-up;
+}
+
+:global(.Toastify__slide-exit--bottom-center) { /* stylelint-disable-line */
+  animation-name: toastify-slide-out-down;
+}
+
+:global(.Toastify--animate) { /* stylelint-disable-line */
+  animation-duration: 0.7s;
+  animation-fill-mode: both;
+}
+
+@keyframes toastify-bounce-in-up {
+  to {/* stylelint-disable-line */
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  0% {
+    opacity: 0;
+    transform: translate3d(0, 3000px, 0);
+  }
+
+  60% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  75% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  90% {
+    transform: translate3d(0, -5px, 0);
+  }
+
+  100% {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes toastify-bounce-in-down {
+  20% {
+    transform: translate3d(0, 10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, -20px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, 2000px, 0);
+  }
+}
+
+@keyframes toastify-slide-in-up {
+  from {
+    transform: translate3d(0, 110%, 0);
+    visibility: visible;
+  }
+
+  to {
+    transform: translate3d(0, 0, 0);
+  }
+}
+
+@keyframes toastify-slide-out-down {
+  from {
+    transform: translate3d(0, 0, 0);
+  }
+
+  to {
+    transform: translate3d(0, 500px, 0);
+    visibility: hidden;
+  }
+}
+
+@keyframes toastify-bounce-out-up {
+  20% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  40%,
+  45% {
+    opacity: 1;
+    transform: translate3d(0, 20px, 0);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translate3d(0, -2000px, 0);
+  }
+}
+
+@keyframes toastify-bounce-in-top-down {
+  0%,
+  60%,
+  75%,
+  90%,
+  100% {
+    animation-timing-function: cubic-bezier(0.215, 0.61, 0.355, 1);
+  }
+
+  /* stylelint-disable-next-line */
+  0% {
+    opacity: 0;
+    transform: translate3d(0, -3000px, 0);
+  }
+
+  /* stylelint-disable-next-line */
+  60% {
+    opacity: 1;
+    transform: translate3d(0, 25px, 0);
+  }
+
+  /* stylelint-disable-next-line */
+  75% {
+    transform: translate3d(0, -10px, 0);
+  }
+
+  /* stylelint-disable-next-line */
+  90% {
+    transform: translate3d(0, 5px, 0);
+  }
+  /* stylelint-disable-next-line */
+  100% {
+    transform: none;
+  }
+}

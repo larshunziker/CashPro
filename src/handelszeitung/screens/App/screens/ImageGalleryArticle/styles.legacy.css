@@ -1,0 +1,19 @@
+.Wrapper {
+  composes: Wrapper from 'ArticlePage/styles.legacy.css';
+}
+
+.Clearfix {
+  composes: Clearfix from 'helpers.legacy.css';
+}
+
+.ImageGalleryParagraphWrapper {
+  margin-bottom: 12px;
+
+  @media (min-width: $smBreakpoint) { 
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $mdBreakpoint) { 
+    margin-bottom: $margin32;
+  }
+}

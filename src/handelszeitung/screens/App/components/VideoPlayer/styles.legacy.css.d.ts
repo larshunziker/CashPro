@@ -1,0 +1,9 @@
+// 🚨 AUTO-GENERATED FILE! DO NOT UPDATE MANUALLY 🚨 
+
+declare const styles: {
+  readonly "Wrapper": string;
+  readonly "LoaderWrapper": string;
+  readonly "Loader": string;
+};
+export = styles;
+

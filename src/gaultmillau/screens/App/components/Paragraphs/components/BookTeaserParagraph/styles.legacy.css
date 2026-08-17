@@ -1,0 +1,67 @@
+.Wrapper {
+  margin-bottom: $sectionParagraphMarginXs;
+  position: relative;
+
+  @media print {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $sectionParagraphMarginLg;
+  }
+}
+
+.InnerContainer {
+  composes: Clearfix from 'helpers.legacy.css';
+  border-color: $neutralC;
+  border-style: solid;
+  border-width: 1px 0;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  padding: 24px 0;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760  */
+    margin-left: auto;
+    margin-right: auto;
+    width: 370px;
+
+    @media (min-width: $mdBreakpoint) {
+      width: 420px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: 464px;
+    }
+  }
+}
+
+.Caption {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  margin-left: $margin16;
+  max-width: 65%;
+
+  a {
+    @mixin InfoCLinkNeutralA;
+  }
+}
+
+.Title {
+  composes: TeaserTitleCNeutralA from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ImageColumn {
+  min-width: 78px;
+  overflow-wrap: break-word;
+  padding: 0;
+  width: 28%; 
+  word-wrap: break-word;
+}
+
+.CallToAction {
+  composes: InfoCLinkNeutralA from 'typography.legacy.css';
+}

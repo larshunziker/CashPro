@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InstrumentField Should render InstrumentField with empty value 1`] = `
+<div>
+  <span
+    class=""
+  >
+    0
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store and update with dynamic status 1`] = `
+<div>
+  <span
+    class=""
+  >
+    100
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store and update with dynamic status 2`] = `
+<div>
+  <span
+    class="AnimatePositive"
+  >
+    123
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store and update with dynamic status 3`] = `
+<div>
+  <span
+    class="AnimateNegative"
+  >
+    99
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store but update with neutral status 1`] = `
+<div>
+  <span
+    class=""
+  >
+    Sat, 06 May 2023, 09:07:21
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store but update with neutral status 2`] = `
+<div>
+  <span
+    class="AnimateNeutral"
+  >
+    Wed, 21 Jun 2023, 16:14:01
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store even if there is no formatFn provided 1`] = `
+<div>
+  <span
+    class=""
+  >
+    1683356841414
+  </span>
+</div>
+`;
+
+exports[`[Component] InstrumentField Should render InstrumentField with values from redux store even if there is no formatFn provided 2`] = `
+<div>
+  <span
+    class="AnimateNeutral"
+  >
+    1687356841414
+  </span>
+</div>
+`;

@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LoginForm Should render correctly 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <p
+      class="Message"
+      data-testid="loginform-message"
+    >
+      This is a test message
+    </p>
+    <button
+      class="Button"
+      data-testid="loginform-button"
+      role="link"
+    >
+      Anmelden
+    </button>
+  </form>
+</div>
+`;
+
+exports[`[Component] LoginForm Should render correctly even if a corrupt button from factoryOptions is provided 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <p
+      class="Message"
+      data-testid="loginform-message"
+    >
+      Bitte melden Sie sich an.
+    </p>
+  </form>
+</div>
+`;
+
+exports[`[Component] LoginForm Should render correctly with button from factoryOptions 1`] = `
+<div>
+  <form
+    class=""
+  >
+    <p
+      class="Message"
+      data-testid="loginform-message"
+    >
+      Bitte melden Sie sich an.
+    </p>
+    <button
+      id="button-from-factory-options"
+    >
+      Anmelden
+    </button>
+  </form>
+</div>
+`;
+
+exports[`[Component] LoginForm Should render correctly with button from factoryOptions 2`] = `
+<div>
+  <form
+    class=""
+  >
+    <p
+      class="Message"
+      data-testid="loginform-message"
+    >
+      Bitte melden Sie sich an.
+    </p>
+    <button
+      id="button-from-factory-options"
+    >
+      Profil bearbeiten
+    </button>
+  </form>
+</div>
+`;

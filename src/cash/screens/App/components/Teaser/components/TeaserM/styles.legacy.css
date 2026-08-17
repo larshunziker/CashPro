@@ -1,0 +1,13 @@
+.MinimumHeight {
+  @media (min-width: $smBreakpoint) {
+    min-height: 369px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 368px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 400px;
+  }
+}

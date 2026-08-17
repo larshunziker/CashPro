@@ -1,0 +1,18 @@
+.ArticleBody {
+  background-color: $white;
+}
+
+.Wrapper {
+  margin-bottom: $margin64;
+}
+
+.HeaderWrapper {
+  margin-bottom: $margin48;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}

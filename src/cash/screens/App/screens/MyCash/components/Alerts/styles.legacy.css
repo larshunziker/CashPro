@@ -1,0 +1,43 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+  min-height: 60vh;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-top: 50px;
+  min-height: 200px;
+  position: relative;
+
+  .Centered {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.NoResult {
+  composes: InfoA from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.TableWrapper {
+  margin-top: 20px;
+  user-select: none;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin16;
+  }
+}
+
+

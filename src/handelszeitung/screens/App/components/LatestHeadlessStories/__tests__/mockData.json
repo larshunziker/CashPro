@@ -1,0 +1,114 @@
+{
+  "HZ": {
+    "data": {
+      "environment": {
+        "latestHeadlessStories": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZToyNjEwNTU=",
+                "title": "Testartikel Schulung",
+                "restrictionStatus": null,
+                "preferredUri": "/unternehmen/testartikel-schulung",
+                "publicationDate": "2020-04-06T13:41:57",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNTU0NTE=",
+                "title": "Salt im dritten Quartal: H\u00f6herer Umsatz, tieferer Reingewinn",
+                "restrictionStatus": null,
+                "preferredUri": "/unternehmen/salt-im-dritten-quartal-hoherer-umsatz-tieferer-reingewinn",
+                "publicationDate": "2020-01-16T12:40:09",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNTcwMjI=",
+                "title": "headless 5000",
+                "restrictionStatus": null,
+                "preferredUri": "/news/headless-5000",
+                "publicationDate": "2020-01-10T13:00:43",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNTcwMjE=",
+                "title": "test test 45",
+                "restrictionStatus": null,
+                "preferredUri": "/news/test-test-45",
+                "publicationDate": "2020-01-10T12:48:19",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            }
+          ],
+          "__typename": "SearchableUnionConnection"
+        },
+        "__typename": "Environment"
+      }
+    }
+  },
+  "SV": {
+    "data": {
+      "environment": {
+        "latestHeadlessStories": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZToyNTQ2ODY=",
+                "title": "Die vier Jahreszeiten im Brokergesch\u00e4ft",
+                "restrictionStatus": null,
+                "preferredUri": "/konjunktur/asda-die-vier-jahreszeiten-im-brokergeschaft",
+                "publicationDate": "2019-11-26T15:45:10",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyNDgyNjM=",
+                "title": "Aus f\u00fcr den Robo Advisor",
+                "restrictionStatus": null,
+                "preferredUri": "/tech/asda-aus-fur-den-robo-advisor",
+                "publicationDate": "2019-10-29T14:54:39",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyMzQ3Mjk=",
+                "title": "Alle auf eine Plattform",
+                "restrictionStatus": null,
+                "preferredUri": "/unternehmen/swiss-life-alle-auf-eine-plattform",
+                "publicationDate": "2019-07-01T09:44:04",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            },
+            {
+              "node": {
+                "id": "bm9kZToyMzQ4MTc=",
+                "title": "Keine \u00abrichtige\u00bb Allfinanz",
+                "restrictionStatus": null,
+                "preferredUri": "/unternehmen/zurich-keine-richtige-allfinanz",
+                "publicationDate": "2019-07-01T09:43:14",
+                "__typename": "Article"
+              },
+              "__typename": "SearchableUnionEdge"
+            }
+          ],
+          "__typename": "SearchableUnionConnection"
+        },
+        "__typename": "Environment"
+      }
+    }
+  }
+}

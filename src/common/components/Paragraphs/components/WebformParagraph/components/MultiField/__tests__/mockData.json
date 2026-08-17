@@ -1,0 +1,21 @@
+{
+  "input": {
+    "type": "checkboxes",
+    "title": "Wählen Sie Ihren Newsletter:",
+    "options": [
+      {
+        "value": "Schweizer Illustrierte",
+        "label": "Schweizer Illustrierte",
+        "description": ""
+      },
+      {
+        "value": "Style",
+        "label": "Style",
+        "description": ""
+      }
+    ],
+    "required": true,
+    "requiredError": "Treffen Sie mind. eine Auswahl",
+    "fieldName": "wahlen_sie_ihren_newsletter_"
+  }
+}

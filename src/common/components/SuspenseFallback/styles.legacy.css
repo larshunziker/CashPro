@@ -1,0 +1,34 @@
+.Large {
+  height: 650px;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 540px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 500px;
+  }
+}
+
+.Medium {
+  height: 450px;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 300px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 240px;
+  }
+}
+
+.Small {
+  height: 250px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 240px;
+  }
+}

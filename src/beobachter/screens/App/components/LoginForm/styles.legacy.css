@@ -1,0 +1,24 @@
+.LoginFormWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.Message {
+  color: $greyA;
+  font: bold 1.6rem/1.38 $fontSpezia;
+  margin: $margin40 auto $margin24;
+  max-width: 540px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.Button {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+  margin: 0 auto $margin32 auto;
+  padding: 16px 40px;
+}

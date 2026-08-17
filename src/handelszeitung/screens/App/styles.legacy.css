@@ -1,0 +1,216 @@
+@import url('./assets/styles/skeleton.legacy.css');
+@import url('./assets/styles/typography.legacy.css');
+
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.MainWrapper {
+  will-change: transition;
+}
+
+:global(#app) {
+  overflow: hidden;
+}
+
+:global(.no-scroll) {
+  overflow: hidden;
+}
+
+:global(.branding-day) {
+  :global(.header-apn-zone) {
+    background: none;
+  }
+
+  /* add a background to devide ad and content */
+  .MainWrapper {
+    @media (min-width: $mdBreakpoint) {
+      background: $white;
+      margin: 0 auto;
+      width: $mdBreakPointBrandingDayContainerWidth;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: $xlBreakPointBrandingDayContainerWidth;
+    }
+  }
+}
+
+.PianoMetering,
+.PianoLocked,
+.PianoMeteringPadded {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: calc($zIndexPianoOverlay + 9);
+}
+
+.PianoMetering {
+  box-shadow: 3px -3px 6px 0 $blackA2;
+}
+
+.PianoMeteringPadded {
+  margin: $margin24;
+  width: calc(100% - 48px);
+}
+
+.PianoMeteringPadded:not(:empty) {
+  box-shadow: 0 5px 9px 0 $blackA5;
+}
+
+:global(#main) {
+  flex: 1 1 auto;
+}
+
+.PianoAnimatedWrapper {
+  bottom: 0;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  transform: translate3d(0, 0, 9999px);
+  z-index: 9999;
+}
+
+.PianoAnimated {
+  opacity: 0;
+  position: relative;
+  transform: translate3d(0, 0, 0);
+}
+
+.PianoSlideDownAnimated {
+  composes: PianoLocked;
+  z-index: $zIndexHeaderAd;
+}
+
+.PianoWrapper {
+  @mixin hideforPrint;
+}
+
+/* CTA Button */
+:global(.cta_button) {
+  @mixin ButtonPrimaryBig;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+
+  & a {
+    align-items: center;
+    border-bottom: none;
+    color: $white;
+    display: inline-flex;
+    justify-content: center;
+    padding: 16px;
+    text-decoration: none;
+
+    &:not([href*='handelszeitung.ch']) {
+      &:not([href^='#']) {
+        &:not([href^='/']) {
+          &:not([href^='mailto:']) {
+            &:not([href^='tel:']) {
+              &:not([class*='teaser']) {
+                &:not([class*='utility-button']) {
+                  &:not([class*='Icon']) {
+                    &::after {
+                      @mixin RaschIconFiles;
+                      content: '\e921';
+                      margin-left: 3px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-flex;
+    margin: 0 $margin16 0 0;
+  }
+}
+
+:global(.cta_button_secondary) {
+  @mixin ButtonSecondaryBig;
+
+  a {
+    color: $blueA;
+
+    &:hover {
+      color: $blueC;
+    }
+  }
+
+  &:hover {
+    background-color: $white;
+    color: $blueC;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin16 0 0;
+  }
+}
+
+:global(.Bilanz) {
+  :global(.cta_button) {
+    @mixin ButtonBilanzPrimaryBig;
+  }
+
+  :global(.cta_button_secondary) {
+    @mixin ButtonBilanzSecondaryBig;
+
+    a {
+      color: $bilanzA;
+
+      &:hover {
+        color: $bilanzC;
+      }
+    }
+
+    &:hover {
+      background-color: $white;
+      color: $bilanzC;
+    }
+  }
+}
+
+:global(.cta_button) + :global(.cta_button) {
+  margin: $margin16 0 0 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin16 $margin16 0;
+  }
+}
+
+:global(#lunchtopics-referral-dashboard-iframe) {
+
+  @media (min-width: $xlBreakpoint) {
+    background: $white;
+  }
+}
+
+:global(#lunchtopics-referral-signup-iframe) {
+  background: $white;
+}
+
+/* piano background */
+:global(.tp-backdrop) {
+  /* stylelint-disable-next-line declaration-no-important */
+  background-color: $black !important;
+}
+
+:global(.viafoura #vf-tray-trigger),
+:global(.viafoura .vf-tray-trigger),
+:global(.viafoura vf-tray-trigger) {
+  display: none;
+}
+
+:global(.viafoura #vf-skeleton-container){
+  margin:0;
+  max-height: 468px;
+}

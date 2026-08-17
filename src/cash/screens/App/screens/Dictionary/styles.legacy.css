@@ -1,0 +1,16 @@
+.NoEntriesTextWrapper {
+  composes: Lead1 from 'typography.legacy.css';
+  padding-top: 24px;
+}
+
+.PageWrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+}
+
+@media print {
+  .Print {
+    flex: 1 1 60%;
+    margin-right: 10px;
+  }
+}

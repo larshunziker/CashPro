@@ -1,0 +1,22 @@
+.Title {
+  composes: MenuItems1 from 'typography.legacy.css';
+  display: inline-block;
+  transition: color 0.3s ease-in-out;
+  width: 100%;
+
+  &:hover {
+    color: $redA;
+  }
+}
+
+.Icon {
+  font-size: 1.9rem;
+  margin-right: 12px;
+  position: relative;
+  top: -1px;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.7rem;
+    margin-right: $margin16;
+  }
+}

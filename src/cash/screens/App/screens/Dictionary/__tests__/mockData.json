@@ -1,0 +1,77 @@
+{
+  "data": {
+    "environment": {
+      "onmedaByChar": {
+        "edges": [
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+              "title": "Agio",
+              "target": {
+                "preferredUri": "/lexikon/agio-aufschlag",
+                "__typename": "ExplainingArticle"
+              },
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          },
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjg2OQ==",
+              "title": "Aktie",
+              "target": {
+                "preferredUri": "/lexikon/aktie",
+                "__typename": "ExplainingArticle"
+              },
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          },
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjg2OA==",
+              "title": "Asset-Management",
+              "target": {
+                "preferredUri": "/lexikon/asset-management-vermogensverwaltung",
+                "__typename": "ExplainingArticle"
+              },
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          },
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjg3MA==",
+              "title": "Aufschlag",
+              "target": {
+                "preferredUri": "/lexikon/agio-aufschlag",
+                "__typename": "ExplainingArticle"
+              },
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          }
+        ],
+        "__typename": "TitleAliasConnection"
+      },
+      "__typename": "Environment"
+    },
+    "routeByPath": {
+      "id": "bm9kZToyODk0MQ==",
+      "canonical": "/group/3/content/29880",
+      "preferred": "/lexikon",
+      "object": {
+        "publication": "handelszeitung",
+        "id": "bm9kZToyODk0MQ==",
+        "title": "Boersenlexikon",
+        "shortTitle": "Boersenlexikon",
+        "preferredUri": "/lexikon",
+        "createDate": "2020-01-10T08:00:45",
+        "sponsor": null,
+        "channel": null,
+        "__typename": "LandingPage"
+      },
+      "__typename": "Route"
+    }
+  }
+}

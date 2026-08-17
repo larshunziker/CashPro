@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="30px" height="30px" viewBox="0 0 30 30" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="StyleGuide-01" transform="translate(-99.000000, -3589.000000)" fill-rule="nonzero">
+            <g id="Ic_instagram_container-gefüllt" transform="translate(99.000000, 3589.000000)">
+                <circle id="Oval" fill="#010101" cx="15" cy="15" r="15"></circle>
+                <path d="M24,19.5 C24,22 22,24 19.5,24 L10.6,24 C8,24 6,22 6,19.5 L6,10.6 C6,8 8,6 10.5,6 L19.4,6 C21.9,6 23.9,8 23.9,10.5 L23.9,19.5 L24,19.5 Z" id="Shape" fill="#FFFFFF"></path>
+                <path d="M19.4,8 L10.5,8 C9.1,8 7.9,9.2 7.9,10.6 L7.9,19.5 C7.9,20.9 9.1,22.1 10.5,22.1 L19.4,22.1 C20.8,22.1 22,20.9 22,19.5 L22,10.6 C22,9.1 20.8,8 19.4,8 Z" id="Shape" fill="#000000"></path>
+                <circle id="Oval" fill="#FFFFFF" cx="15" cy="15" r="4.6"></circle>
+                <circle id="Oval" fill="#FFFFFF" cx="19.7" cy="10.2" r="1.1"></circle>
+                <path d="M15,12.3 C13.5,12.3 12.3,13.5 12.3,15 C12.3,16.5 13.5,17.7 15,17.7 C16.5,17.7 17.7,16.5 17.7,15 C17.6,13.5 16.4,12.3 15,12.3 Z" id="Shape_1_" fill="#000000"></path>
+            </g>
+        </g>
+    </g>
+</svg>

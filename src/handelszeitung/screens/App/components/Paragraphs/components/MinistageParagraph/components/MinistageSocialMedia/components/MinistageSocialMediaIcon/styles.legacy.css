@@ -1,0 +1,59 @@
+.Link {
+  border-radius: 50%;
+  float: left;
+  margin-right: 11px;
+  position: relative;
+
+  &:hover {
+    color: $white;
+
+    &::before {
+      background-color: $blueC;
+      border-radius: 50%;
+      content: '';
+      display: inline-block;
+      inset: 0;
+      opacity: 0.2;
+      position: absolute;
+      z-index: $zIndexMedium;
+    }
+  }
+
+  &:focus:not(:hover) {
+    &::before {
+      display: none;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 13px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: 30px;
+  }
+}
+
+.Content {
+  border-radius: 50%;
+  height: 50px;
+  position: relative;
+  text-align: center;
+  width: 50px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 99px;
+    width: 99px;
+  }
+}
+
+.Icon {
+  color: $blueA;
+  font-size: 3rem;
+  line-height: 5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 9.9rem;
+  }
+}

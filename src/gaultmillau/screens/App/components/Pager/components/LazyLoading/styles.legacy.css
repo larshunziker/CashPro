@@ -1,0 +1,33 @@
+.LoadMore {
+  composes: UnstyledButton from 'form.legacy.css';
+  composes: ActionLink from 'Header/components/HeaderInner/styles.legacy.css';
+  display: block;
+  font-weight: 900;
+  height: 52px;
+  line-height: 5.2rem;
+  margin: 2rem 0;
+  padding-left: 18px;
+  text-align: center;
+  width: 100%;
+
+  &::before {
+    display: inline-block;
+    margin-left: -18px;
+    position: relative;
+    top: -3px;
+
+    @media (min-width: $smBreakpoint) {
+      /* > 760 */
+      left: 0;
+      margin-left: -28px;
+      top: -6px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* > 960 */
+      left: 0;
+      margin-left: -34px;
+      top: -6px;
+    }
+  }
+}

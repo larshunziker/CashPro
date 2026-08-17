@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type when hasVideo is false properly 1`] = `<div />`;
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type when hasVideo is null properly 1`] = `<div />`;
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type when hasVideo is true properly 1`] = `
+<div>
+  <i
+    class="Icon IconPlay IconClass"
+  />
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render InnerContent correcttly when description  is set 1`] = `<div />`;
+
+exports[`[HELPER] Teaser helpers Should render InnerContent correcttly when description <div>Fish is great</div> is set 1`] = `
+<div>
+  <div
+    class="LeadClass"
+  >
+    <div>
+      Fish is great
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render InnerContent correcttly when description Fish is great is set 1`] = `
+<div>
+  <div
+    class="LeadClass"
+  >
+    Fish is great
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render InnerContent correcttly when description null is set 1`] = `<div />`;

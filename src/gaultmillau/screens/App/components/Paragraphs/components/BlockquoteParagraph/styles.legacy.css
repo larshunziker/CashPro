@@ -1,0 +1,32 @@
+.Wrapper {
+  margin-bottom: $margin16;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.Quote {
+  composes: QuoteNeutralA from 'typography.legacy.css';
+  margin-bottom: 12px;
+
+  &::before {
+    background-color: $neutralA;
+    content: ' ';
+    display: block;
+    height: 4px;
+    margin-bottom: 12px;
+    width: 66px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::before {
+      width: 84px;
+    }
+  }
+}
+
+.QuoteAuthor {
+  composes: QuoteAuthorNeutralA from 'typography.legacy.css';
+  display: block;
+}

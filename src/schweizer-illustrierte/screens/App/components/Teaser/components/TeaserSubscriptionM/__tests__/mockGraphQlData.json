@@ -1,0 +1,27 @@
+{
+  "id": "bm9kZToxOTQ0MA==",
+  "shortTitle": "Style im Papierformat",
+  "title": "10 x jährlich Fashion und Celebrities",
+  "lead": null,
+  "style": null,
+  "teaserImage": {
+    "id": "test1234",
+    "image": {
+      "file": {
+        "alt": "style cover",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/style-cover-nov-2018.png",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "link": {
+    "path": "https://epaper.schweizer-illustrierte.ch/app/html5/schweizerillustrierte",
+    "label": "Jetzt Abonnieren",
+    "__typename": "Link"
+  },
+  "__typename": "Teaser"
+}

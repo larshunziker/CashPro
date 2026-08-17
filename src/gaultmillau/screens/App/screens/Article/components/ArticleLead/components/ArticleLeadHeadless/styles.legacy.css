@@ -1,0 +1,47 @@
+.Image {
+  background-size: 60px;
+  display: block;
+  height: 60px;
+  margin: 43px auto 0;
+  transform: none;
+  width: 60px;
+
+  @media (min-width: $smBreakpoint) {
+    background-size: 86px;
+    height: 86px;
+    margin: 72px auto 0;
+    width: 86px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 62px auto 0;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitle from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Title {
+  composes: Title from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Authors {
+  composes: InfoDNeutralA from 'typography.legacy.css';
+  margin-top: 7px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 20px;
+  }
+}
+
+.DateWrapper {
+  composes: DateWrapper from '../ArticleLeadBlog/styles.legacy.css';
+  display: block;
+}
+

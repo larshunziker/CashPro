@@ -1,0 +1,83 @@
+.Wrapper {
+  color: $secondaryA;
+  display: grid;
+  grid-template-columns: max-content;
+  grid-template-rows: repeat(2, auto);
+  letter-spacing: 0;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.ContentWrapper {
+  display: grid;
+  grid-auto-rows: min-content;
+  width: 100%;
+  word-break: break-word;
+
+  .StockInfoWrapper {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+    }
+  }
+}
+
+.TeaserTitle {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+.TeaserImageWrapper {
+  display: block;
+  margin-right: 24px;
+}
+
+.Image {
+  width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 192px;
+  }
+}
+
+.StockInfoWrapper {
+  grid-row: 1;
+  margin-bottom: 10px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 6px;
+  }
+}
+
+.StockName {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $secondaryA;
+  display: inline-block;
+  margin-right: 12px;
+}
+
+.StockPercentage {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $greyA;
+  display: none;
+}
+
+.BottomLine {
+  composes: Meta3 from 'typography.legacy.css';
+}
+
+.MobileStockInfo {
+  grid-area: 1 / 1 / 2 / 3;
+  max-width: calc(100vw - 44px);
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}

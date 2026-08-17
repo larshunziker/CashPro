@@ -1,0 +1,193 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Picture Should only render the img provided in the url prop 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <img
+        alt="alt"
+        class="PictureClassName Image"
+        height="371"
+        loading="lazy"
+        srcset="https://google.ch/images/tree.png"
+        title="A very nice image"
+        width="660"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should only render the img provided in the url prop 2 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <img
+        alt="alt"
+        class="PictureClassName IsSameAspectRatio"
+        loading="lazy"
+        srcset="https://google.ch/images/tree2.png"
+        title="A very nice image"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should render empty image if no relativeOrigin or url is provided 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <img
+        alt="alt"
+        class="PictureClassName IsSameAspectRatio"
+        height="591"
+        loading="lazy"
+        title="A very nice image"
+        width="1050"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should render with all image styles and lazy loading and no title 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <source
+        media="(min-width:1680px)"
+        srcset="/fp/1695/953/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:960px)"
+        srcset="/fp/1335/751/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:760px)"
+        srcset="/fp/1050/591/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:540px)"
+        srcset="/fp/660/371/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:480px)"
+        srcset="/fp/420/236/50/50/sites/default/files/bild.jpg"
+      />
+      <img
+        alt="alt"
+        class="PictureClassName IsSameAspectRatio"
+        height="186"
+        loading="lazy"
+        srcset="/fp/330/186/50/50/sites/default/files/bild.jpg"
+        width="330"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should render with all image styles and lazy loading with title 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <source
+        media="(min-width:1680px)"
+        srcset="/fp/1695/953/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:960px)"
+        srcset="/fp/1335/751/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:760px)"
+        srcset="/fp/1050/591/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:540px)"
+        srcset="/fp/660/371/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:480px)"
+        srcset="/fp/420/236/50/50/sites/default/files/bild.jpg"
+      />
+      <img
+        alt="alt"
+        class="PictureClassName IsSameAspectRatio"
+        height="186"
+        loading="lazy"
+        srcset="/fp/330/186/50/50/sites/default/files/bild.jpg"
+        title="This is a lazy frog named Timmy"
+        width="330"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should render with gray image placeholder because of different aspect ratio across viewports 1`] = `
+<div>
+  <div
+    class="Placeholder_320_16x9 Placeholder_540_16x9 Placeholder_1680_2x1 LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <source
+        media="(min-width:1680px)"
+        srcset="/fp/1920/960/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:540px)"
+        srcset="/fp/1050/591/50/50/sites/default/files/bild.jpg"
+      />
+      <img
+        alt="alt"
+        class="PictureClassName Image"
+        height="371"
+        loading="lazy"
+        srcset="/fp/660/371/50/50/sites/default/files/bild.jpg"
+        title="A very nice image"
+        width="660"
+      />
+    </picture>
+  </div>
+</div>
+`;
+
+exports[`[Component] Picture Should render with only a few image styles 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <source
+        media="(min-width:1680px)"
+        srcset="/fp/1695/953/50/50/sites/default/files/bild.jpg"
+      />
+      <source
+        media="(min-width:540px)"
+        srcset="/fp/1050/591/50/50/sites/default/files/bild.jpg"
+      />
+      <img
+        alt="alt"
+        class="PictureClassName IsSameAspectRatio"
+        height="371"
+        loading="lazy"
+        srcset="/fp/660/371/50/50/sites/default/files/bild.jpg"
+        title="A very nice image"
+        width="660"
+      />
+    </picture>
+  </div>
+</div>
+`;

@@ -1,0 +1,489 @@
+{
+  "id": "bWVudTpiZW8tbmF2aWdhdGlvbi1zZWNvbmRhcnk=",
+  "name": "BEO Navigation (Sekundär)",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQx",
+          "link": {
+            "label": "Beratung",
+            "description": null,
+            "path": "/beratung-und-buchtipps",
+            "routed": true,
+            "expanded": true,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQy",
+                  "link": {
+                    "label": "Guider",
+                    "description": null,
+                    "path": "https://www.guider.ch/",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQz",
+                  "link": {
+                    "label": "E-Mail Beratung",
+                    "description": "E-Mail Beratung",
+                    "path": "/beratung/e-mail-beratung-guider",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQ0",
+                  "link": {
+                    "label": "Telefonberatung",
+                    "description": "Telefonberatung",
+                    "path": "/beratung/fur-abonnenten-telefonische-beratung",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQ2",
+                  "link": {
+                    "label": "Rechtslexikon",
+                    "description": null,
+                    "path": "/node/18909",
+                    "routed": true,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI3",
+          "link": {
+            "label": "SOS Beobachter",
+            "description": null,
+            "path": "/",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQ4",
+                  "link": {
+                    "label": "Gesuch einreichen",
+                    "description": "Gesuch einreichen",
+                    "path": "/sos-beobachter/gesuch-einreichen-wie-sie-hilfe-erhalten-konnen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDQ5",
+                  "link": {
+                    "label": "Jetzt spenden",
+                    "description": "Jetzt spenden!",
+                    "path": "/sos-beobachter/jetzt-spenden-wie-sie-armutsbetroffene-unterstutzen-konnen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDUw",
+                  "link": {
+                    "label": "So hilft SOS Beobachter",
+                    "description": "So hilft SOS Beobachter",
+                    "path": "/sos-beobachter/so-hilft-sos-beobachter",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDUx",
+                  "link": {
+                    "label": "Wie SOS Beobachter arbeitet",
+                    "description": "Wie SOS Beobachter arbeitet",
+                    "path": "/sos-beobachter/uber-uns-wie-die-stiftung-sos-beobachter-arbeitet",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU3",
+          "link": {
+            "label": "Bücher",
+            "description": "Bücher",
+            "path": "https://shop.beobachter.ch/buchshop",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDcw",
+                  "link": {
+                    "label": "Alltag",
+                    "description": "Alltag",
+                    "path": "https://shop.beobachter.ch/buchshop/buecher-ueber-alltag-freizeit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDYw",
+                  "link": {
+                    "label": "Arbeit",
+                    "description": "Arbeit",
+                    "path": "https://shop.beobachter.ch/buchshop/arbeit",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDYz",
+                  "link": {
+                    "label": "Familie",
+                    "description": "Familie",
+                    "path": "https://shop.beobachter.ch/buchshop/familie",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU5",
+                  "link": {
+                    "label": "Finanzen & Vorsorge",
+                    "description": "Finanzen",
+                    "path": "https://shop.beobachter.ch/buchshop/finanzen-und-vorsorge",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY5",
+                  "link": {
+                    "label": "Gesundheit",
+                    "description": "Gesundheit",
+                    "path": "https://shop.beobachter.ch/buchshop/gesundheit-und-lebenshilfe",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDYx",
+                  "link": {
+                    "label": "Haus & Wohnen",
+                    "description": "Haus & Wohnen",
+                    "path": "https://shop.beobachter.ch/buchshop/haus-und-wohnen",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDYy",
+                  "link": {
+                    "label": "Partnerschaft",
+                    "description": "Partnerschaft",
+                    "path": "https://shop.beobachter.ch/buchshop/partnerschaft",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU4",
+                  "link": {
+                    "label": "Recht",
+                    "description": "Rechtsratgeber",
+                    "path": "https://shop.beobachter.ch/buchshop/recht",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY0",
+          "link": {
+            "label": "Abonnements",
+            "description": "Abonnements",
+            "path": "https://shop.beobachter.ch/abos_",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDcx",
+                  "link": {
+                    "label": "Adressänderung",
+                    "description": "Adressänderung",
+                    "path": "https://shop.beobachter.ch/kundenservice",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY2",
+                  "link": {
+                    "label": "Beobachter Assistance",
+                    "description": "Assistance",
+                    "path": "https://shop.beobachter.ch/beobachter-assistance",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY1",
+                  "link": {
+                    "label": "Beobachter Magazin",
+                    "description": "Magazin",
+                    "path": "https://shop.beobachter.ch/beobachter-magazin",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY3",
+                  "link": {
+                    "label": "Umleitung",
+                    "description": "Umleitung",
+                    "path": "https://shop.beobachter.ch/kundenservice",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDY4",
+          "link": {
+            "label": "Forum",
+            "description": "Forum",
+            "path": "/foren",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDc0",
+                  "link": {
+                    "label": "Gesundheit",
+                    "description": "Gesundheit",
+                    "path": "https://www.beobachter.ch/foren/spaces/14/gesundheitsforum.html",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDcy",
+                  "link": {
+                    "label": "Konsumforum",
+                    "description": "Konsumforum",
+                    "path": "/foren/spaces/13/konsumforum.html",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDc1",
+                  "link": {
+                    "label": "Politik",
+                    "description": "Politik",
+                    "path": "https://www.beobachter.ch/foren/spaces/307/politik.html",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              },
+              {
+                "node": {
+                  "id": "bWVudV9saW5rX2NvbnRlbnQ6NDcz",
+                  "link": {
+                    "label": "Selbsthilfe",
+                    "description": "Selbsthilfe",
+                    "path": "https://www.beobachter.ch/foren/spaces/15/selbsthilfeforum.html",
+                    "routed": false,
+                    "expanded": false,
+                    "image": null
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MjMz",
+          "link": {
+            "label": "E-Paper",
+            "description": null,
+            "path": "https://epaper.beobachter.ch/app/html5/beobachter",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU2",
+          "link": {
+            "label": "Extras",
+            "description": "Extras",
+            "path": "/extras",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU1",
+          "link": {
+            "label": "Newsletter",
+            "description": "Newsletter",
+            "path": "/newsletter",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6NDU0",
+          "link": {
+            "label": "Kreuzworträtsel",
+            "description": "Kreuzworträtsel",
+            "path": "/kreuzwortratsel",
+            "routed": true,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI4",
+          "link": {
+            "label": "Prix Courage",
+            "description": null,
+            "path": "/prix-courage",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MjI5",
+          "link": {
+            "label": "Sichermelden.ch",
+            "description": "Sichermelden",
+            "path": "https://sichermelden.ch/index.php?action=reportIncident&subaction=showTreeElement",
+            "routed": false,
+            "expanded": false,
+            "image": null
+          },
+          "subtree": { "edges": [] }
+        }
+      }
+    ]
+  }
+}

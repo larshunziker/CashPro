@@ -1,0 +1,9 @@
+.Wrapper {
+  @mixin aspectRatio16x9;
+}
+
+.VideoCredit {
+  composes: Credits from 'Paragraphs/components/ImageCaption/styles.legacy.css';
+  color: $greyB;
+  padding-top: 12px;
+}

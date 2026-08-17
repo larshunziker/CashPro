@@ -1,0 +1,22 @@
+.LinkWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.BilanzLogo {
+  display: grid;
+  height: 32px;
+  width: 157px;
+}
+
+.SVLogo {
+  display: grid;
+  height: 31px;
+  width: 225px;
+}
+
+.HZLogo {
+  display: grid;
+  height: 40px;
+  width: 308px;
+} 

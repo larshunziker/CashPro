@@ -1,0 +1,30 @@
+/* stylelint-disable block-no-empty */
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  margin-bottom: 25px;
+
+  a {
+    color: $secondaryA;
+  }
+
+  iframe {
+    width: 100%;
+  }
+}
+
+.Title {
+  composes: Subtitle from 'typography.legacy.css';
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}

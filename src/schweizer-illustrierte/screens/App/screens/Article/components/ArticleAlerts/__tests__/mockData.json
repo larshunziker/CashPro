@@ -1,0 +1,104 @@
+{
+  "items": [
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo1NTk=",
+        "tid": "559",
+        "label": "Zecken",
+        "preferredUri": "/dossier/zecken",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo1ODkx",
+        "tid": "5891",
+        "label": "Sommer",
+        "preferredUri": "/dossier/sommer",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybToxNDc=",
+        "tid": "147",
+        "label": "Wald",
+        "preferredUri": "/dossier/wald",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybToxMzU=",
+        "tid": "135",
+        "label": "Naturschutzgebiete",
+        "preferredUri": "/dossier/naturschutzgebiete",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo1ODky",
+        "tid": "5892",
+        "label": "Natur",
+        "preferredUri": "/dossier/natur",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybToyNjE0",
+        "tid": "2614",
+        "label": "Kinder",
+        "preferredUri": "/dossier/kinder",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo2Mw==",
+        "tid": "63",
+        "label": "Sicherheit",
+        "preferredUri": "/dossier/sicherheit",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo1ODkz",
+        "tid": "5893",
+        "label": "Infektion",
+        "preferredUri": "/dossier/infektion",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo2NjQ=",
+        "tid": "664",
+        "label": "Insekten",
+        "preferredUri": "/dossier/insekten",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "id": "dGF4b25vbXlfdGVybTo2MTA3",
+        "tid": "6107",
+        "label": "Lifestyle",
+        "preferredUri": "/dossier/lifestyle",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    }
+  ]
+}

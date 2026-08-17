@@ -1,0 +1,183 @@
+.WrapperDefault,
+.WrapperKeyword,
+.WrapperPerson {
+  margin-bottom: $margin24;
+  margin-top: $margin32;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 50px;
+  }
+}
+
+.HeaderWrapperKeyword {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.HeaderWrapperDefault,
+.HeaderWrapperPerson {
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+}
+
+.HeaderDefault,
+.HeaderKeyword,
+.HeaderPerson {
+  composes: HeadingOverview from 'typography.legacy.css';
+  background-color: $white;
+  display: inline-block;
+  margin: 0 auto;
+  max-width: 96%;
+  overflow: hidden;
+  padding-left: 12px;
+  padding-right: 9px;
+  padding-top: 5px;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 30px;
+    padding-right: 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-left: 40px;
+    padding-right: 25px;
+  }
+}
+
+.HeaderImageWrapper {
+  text-align: center;
+
+  &::before,
+  &::after {
+    background-color: $black;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    position: absolute;
+    top: 50%;
+    width: calc(50% - 75px);
+  }
+
+  &::before {
+    left: 0;
+  }
+
+  &::after {
+    right: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::after,
+    &::before {
+      height: 2px;
+      width: 218px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &::after,
+    &::before {
+      width: 300px;
+    }
+  }
+}
+
+.HeaderImageKeyword {
+  height: auto;
+  margin-left: -$outerGapXs;
+  width: calc(100% + 2 * $outerGapXs);
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.HeaderImagePerson {
+  border-radius: 50%;
+  height: 100px;
+  max-height: 100px;
+  max-width: 100px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 125px;
+    max-height: 125px;
+    max-width: 125px;
+    width: 125px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 175px;
+    max-height: 175px;
+    max-width: 175px;
+    width: 175px;
+  }
+}
+
+.HeaderImageWrapperInner {
+  display: inline-block;
+  position: relative;
+}
+
+.SubscribeButtonWrapperDefault,
+.SubscribeButtonWrapperPerson,
+.SubscribeButtonWrapperKeyword {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.SubscribeButtonWrapperKeyword {
+  background-color: $white;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+
+.LeadKeyword {
+  composes: Lead2 from 'typography.legacy.css';
+  margin-bottom: 20px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.LeadDefault {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: 20px;
+}
+
+
+.LeadPerson {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: 20px;
+  margin-top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 10px;
+  }
+}

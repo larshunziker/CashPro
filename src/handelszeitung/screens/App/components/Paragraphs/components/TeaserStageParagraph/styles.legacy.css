@@ -1,0 +1,24 @@
+.SectionTitle {
+  margin-bottom: $margin12;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 30px;
+  }
+}
+
+.TitleLink {
+  composes: ChannelTitle from 'typography.legacy.css';
+  display: block;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  &.MarketingPage {
+    @mixin H2Center;
+  }
+}

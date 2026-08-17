@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Menu Item Should not render Icon 1`] = `
+<div>
+  <a
+    class="link-usercockpit-epaper Title"
+    data-testid="mocked-link"
+    href="https://test.ch/"
+  >
+    E-Paper
+  </a>
+</div>
+`;
+
+exports[`[Component] Menu Item Should render correctly 1`] = `
+<div>
+  <a
+    class="link-usercockpit-epaper Title"
+    data-testid="mocked-link"
+    href="https://test.ch/"
+  >
+    <i
+      class="Icon IconNewspaper Icon"
+    />
+    E-Paper
+  </a>
+</div>
+`;

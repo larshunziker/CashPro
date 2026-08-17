@@ -1,0 +1,165 @@
+{
+  "__typename": "Channel",
+  "id": "dGF4b25vbXlfdGVybToyNTc5",
+  "preferredUri": "/people-0",
+  "landingPage": {
+    "title": "People",
+    "metaTitle": "| RASCH Publishing Platform",
+    "metaDescription": "",
+    "metaOgTitle": null,
+    "metaOgDescription": null,
+    "metaCanonicalUrl": "",
+    "lead": null,
+    "teaserImage": null,
+    "__typename": "LandingPage"
+  },
+  "entities": {
+    "count": 16,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTM0NQ==",
+          "title": "Susanne Kunz: «Ich habe keine Pflaster in der Handtasche»",
+          "preferredUri": "/people/susanne-kunz-ich-habe-keine-pflaster-der-handtasche",
+          "shortTitle": "Die SRF-Moderatorin ist als Mutter nicht perfekt",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0Mw==",
+          "title": "Meghans Vater erzürnt Königshaus mit Interview über Harry",
+          "preferredUri": "/people/meghans-vater-erzurnt-konigshaus-mit-interview-uber-harry",
+          "shortTitle": "Er plaudert über Brexit und Trump",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMyMQ==",
+          "title": "Test Gallerie",
+          "preferredUri": "/people/galleries/rustys-test-gallerie",
+          "shortTitle": "Rustys",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0Mg==",
+          "title": "Die Königsfamilie muss auf eine grosse Stütze verzichten",
+          "preferredUri": "/people/die-konigsfamilie-muss-auf-eine-grosse-stutze-verzichten",
+          "shortTitle": "Traurige Nachrichten aus Schweden",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMxNg==",
+          "title": "Die Bilder der 1.-August-Wanderung mit Alain Berset",
+          "preferredUri": "/people/galleries/si-event-mit-dem-bundesprasidenten-die-bilder-der-1-august-wanderung-mit-alain",
+          "shortTitle": "SI-Event mit dem Bundespräsidenten",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0MQ==",
+          "title": "Prinzessinnen Beatrice und Eugenie im seltenen Interview",
+          "preferredUri": "/people/prinzessinnen-beatrice-und-eugenie-im-seltenen-interview",
+          "shortTitle": "So schwer fällt ihnen das Leben als Royals",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0MA==",
+          "title": "Letizia und Sofia von Spanien sind plötzlich beste Freundinnen",
+          "preferredUri": "/people/letizia-und-sofia-von-spanien-sind-plotzlich-beste-freundinnen",
+          "shortTitle": "Nach fiesem Königinnen-Knatsch",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzOQ==",
+          "title": "Marius Borg Høiby versteckt seine Freundin nicht mehr",
+          "preferredUri": "/people/marius-borg-hoiby-versteckt-seine-freundin-nicht-mehr",
+          "shortTitle": "Mette-Marits Sohn ist total verliebt",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzOA==",
+          "title": "Doch noch Familienferien für Spaniens Prinzessinnen",
+          "preferredUri": "/people/doch-noch-familienferien-fur-spaniens-prinzessinnen",
+          "shortTitle": "Königlicher Besuch auf Mallorca",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNw==",
+          "title": "Übler Streit um Prinzessin Eugenies Hochzeit",
+          "preferredUri": "/people/ubler-streit-um-prinzessin-eugenies-hochzeit",
+          "shortTitle": "Fieser Artikel erzürnt Sarah Ferguson",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNg==",
+          "title": "Die Nannys im royalen Dienst",
+          "preferredUri": "/people/die-nannys-im-royalen-dienst",
+          "shortTitle": "Ein 24-Stunden-Job für den königlichen Nachwuchs",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNQ==",
+          "title": "Meghans Halbschwester will zu «Big Brother»",
+          "preferredUri": "/people/meghans-halbschwester-will-zu-big-brother",
+          "shortTitle": "Samantha Grant schon bald im britischen Fernsehen?",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNA==",
+          "title": "Prinz Harry kümmert sich um Dianas Herzensprojekt",
+          "preferredUri": "/people/prinz-harry-kummert-sich-um-dianas-herzensprojekt",
+          "shortTitle": "Kampf gegen HIV",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4NA==",
+          "title": "Heidi Klum zeigt ganz New York, was sie zu bieten hat (video)",
+          "preferredUri": "/people/heidi-klum-zeigt-ganz-new-york-was-sie-zu-bieten-hat-video",
+          "shortTitle": "Nackt, nackter, Heidi",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI1Ng==",
+          "title": "Blut, Bashing, ein Betrunkener und die Bachelorette",
+          "preferredUri": "/people/blut-bashing-ein-betrunkener-und-die-bachelorette",
+          "shortTitle": "Adela Smajic (24) kämpft heute Abend mit Skurrilitäten",
+          "teaserImage": null
+        }
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTIzMg==",
+          "title": "«Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»",
+          "preferredUri": "/people/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+          "shortTitle": "Carla Bruni",
+          "teaserImage": null
+        }
+      }
+    ]
+  }
+}

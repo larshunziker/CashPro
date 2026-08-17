@@ -1,0 +1,48 @@
+{
+  "data": {
+    "environment": {
+      "onmedaByChar": {
+        "edges": [
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+              "target": {
+                "preferredUri": "/gesundheit/abszess",
+                "__typename": "ExplainingArticle"
+              },
+              "title": "Abszess",
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          },
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Mjf3MQ==",
+              "target": {
+                "preferredUri": "/gesundheit/krankheit/adhs",
+                "__typename": "ExplainingArticle"
+              },
+              "title": "ADHS",
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          },
+          {
+            "node": {
+              "id": "dGl0bGUtYWxpYXM6Msg3MQ==",
+              "target": {
+                "preferredUri": "/gesundheit/krankheit/neurodermitis-atopisches-ekzem-atopische-dermatitis-atopisches-ekzem-atopische",
+                "__typename": "ExplainingArticle"
+              },
+              "title": "Atopische Dermatitis",
+              "__typename": "TitleAlias"
+            },
+            "__typename": "TitleAliasEdge"
+          }
+        ],
+        "__typename": "TitleAliasConnection"
+      },
+      "__typename": "Environment"
+    }
+  }
+}

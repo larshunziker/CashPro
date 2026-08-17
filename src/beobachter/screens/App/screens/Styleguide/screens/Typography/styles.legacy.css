@@ -1,0 +1,57 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  position: relative;
+}
+
+.HeaderTitle {
+  composes: ChannelTitle from '../../../../assets/styles/typography.legacy.css';
+  margin-bottom: $margin40;
+  margin-top: $margin40;
+}
+
+.Label {
+  composes: ImageCaptionWhite from 'typography.legacy.css';
+  background-color: $redA;
+  border-radius: 4px;
+  height: 50px;
+  left: 100%;
+  padding: 12px;
+  position: sticky; 
+  text-align: center;
+  top: 115px;
+  width: 150px;
+  z-index: 2;
+}
+
+.WrapperInner {
+  /* stylelint-disable-next-line */
+  background-color:rgb(250, 235, 215);
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px $greyA;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}
+
+.Title {
+  background-color: $greyA;
+  border-radius: 2px;
+  color: $white;
+  padding: 5px 15px;
+  z-index: 0;
+}
+
+.ItemWrapper {
+  list-style: none;
+}
+
+.Input{
+  composes: List from '../../../../assets/styles/typography.legacy.css';
+  margin-left: $margin4;
+}
+
+.InputLabel {
+  composes: ListNumber from '../../../../assets/styles/typography.legacy.css'; 
+  margin-right: $margin16;
+}

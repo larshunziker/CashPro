@@ -1,0 +1,133 @@
+.Link {
+  color: $secondaryA;
+  padding-top: 0;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.Toggle {
+  composes: Link;
+  composes: Toggle from '../styles.legacy.css';
+  min-height: 28px;
+  position: relative;
+  z-index: 0;
+
+  &.IsActive {
+    color: $secondaryB;
+  }
+
+  @media print {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.ToggleIcon {
+  background: $white85;
+  box-shadow: -6px 0 9px 4px $white85;
+  position: relative;
+  top: 8px;
+
+  @media (min-width: $mdBreakpoint) {
+    top: 6px;
+  }
+}
+
+.Actions {
+  display: none;
+  overflow: hidden;
+  padding: 0;
+  position: relative;
+  text-align: right;
+
+  &.IsVisible {
+    display: contents;
+    padding-bottom: $margin8;
+    padding-top: $margin8;
+  }
+
+  .ActionsInner {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  @media print {
+    display: none !important; /* stylelint-disable-line */
+  }
+}
+
+.Totals {
+  border-bottom: 1px solid $greyD;
+  font-weight: 700;
+}
+
+.Hidden {
+  display: none;
+}
+
+.IsBroken {
+  color: $greyB;
+}
+
+.AdditionalItemsWrapper {
+  display: block;
+  height: 20px;
+}
+
+.AdditionalItems {
+  @mixin fontSize 14;
+  align-items: center;
+  color: $greyA;
+  display: inline-flex;
+  gap: $margin4;
+  margin-right: $margin4;
+
+  &::after {
+    content: '|';
+  }
+
+  &:last-child {
+    gap: 0;
+    margin-right: 0;
+
+    &::after {
+      content: '';
+    }
+  }
+
+  &:empty {
+    display: none;
+  }
+}
+
+.AdsWrapper {
+  composes: ActionsInner;
+  padding: 0 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+.Sticky {
+  composes: Sticky from '../styles.legacy.css';
+  z-index: 1;
+}
+
+.Blink {
+  animation: blink-once 300ms linear 1;
+
+  .Sticky {
+    animation: blink-reverce 300ms linear 1;
+  }
+}
+
+@keyframes blink-once {
+  0%, 20% {
+    background-color: rgba(207, 244, 252, 0.5); /* stylelint-disable-line */
+  }
+}
+
+@keyframes blink-reverce {
+  20%, 0% {
+    background-color: $transparent;
+  }
+}

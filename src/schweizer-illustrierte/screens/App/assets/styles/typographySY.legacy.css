@@ -1,0 +1,180 @@
+.Heading1SpecialSY {
+  @mixin Heading1SpecialSY;
+}
+
+.Heading1ASY {
+  @mixin Heading1ASY;
+}
+
+.Heading1BSY {
+  @mixin Heading1BSY;
+}
+
+.Heading2ASY {
+  @mixin Heading2ASY;
+}
+
+.Heading2BSY {
+  @mixin Heading2BSY;
+}
+
+.Heading3ASY {
+  @mixin Heading3ASY;
+}
+
+.Heading3BSY {
+  @mixin Heading3BSY;
+}
+
+.Heading6SY {
+  @mixin Heading6SY;
+}
+
+.Heading6WhiteSY {
+  @mixin Heading6WhiteSY;
+}
+
+.Heading7SY {
+  @mixin Heading7SY;
+}
+
+.HeadingCatch1SY {
+  @mixin HeadingCatch1SY;
+}
+
+.HeadingCatch1SpecialSY {
+  @mixin HeadingCatch1SpecialSY;
+}
+
+.HeadingCatch2SY {
+  @mixin HeadingCatch2SY;
+}
+
+.HeadingCatch2BlackSY {
+  @mixin HeadingCatch2BlackSY;
+}
+
+.HeadingCatch3SY {
+  @mixin HeadingCatch3SY;
+}
+
+.HeadingCatch4SY {
+  @mixin HeadingCatch4SY;
+}
+
+.HeadingOverviewSY {
+  @mixin HeadingOverviewSY;
+}
+
+.HeadingOverviewDossierSY {
+  @mixin HeadingOverviewDossierSY;
+}
+
+.HeadingOverviewCelebSY {
+  @mixin HeadingOverviewCelebSY;
+}
+
+.SectionTitleSY {
+  @mixin SectionTitleSY;
+}
+
+.SectionTitleRelatedSY {
+  @mixin SectionTitleRelatedSY;
+}
+
+.Lead1SY {
+  @mixin Lead1SY;
+}
+
+.Lead2SY {
+  @mixin Lead2SY;
+}
+
+.CatchQuestionsSY {
+  @mixin CatchQuestionsSY;
+}
+
+.ParagraphSY {
+  @mixin ParagraphSY;
+}
+
+.Paragraph2SY {
+  @mixin Paragraph2SY;
+}
+
+.ParagraphBoldSY {
+  @mixin ParagraphBoldSY;
+}
+
+.CaptionAuthorParagraphSY {
+  @mixin CaptionAuthorParagraphSY;
+}
+
+.CaptionAuthorCopyRightSY {
+  @mixin CaptionAuthorCopyRightSY;
+}
+
+.CaptionTitleAuthorParagraphSY {
+  @mixin CaptionTitleAuthorParagraphSY;
+}
+
+.BreadcrumbsWordsSY {
+  @mixin BreadcrumbsWordsSY;
+}
+
+.BreadcrumbsSymbolSY {
+  @mixin BreadcrumbsSymbolSY;
+}
+
+.QuoteSY {
+  @mixin QuoteSY;
+}
+
+.QuoteAuthorSY {
+  @mixin QuoteAuthorSY;
+}
+
+.TagBanderoleSY {
+  @mixin TagBanderoleSY;
+}
+
+.InlineHoverSY {
+  @mixin InlineHoverSY;
+}
+
+.TeaserHoverSY {
+  @mixin TeaserHoverSY;
+}
+
+.ButtonBigSY {
+  @mixin ButtonBigSY;
+}
+
+.ButtonSmallSY {
+  @mixin ButtonSmallSY;
+}
+
+.ButtonPrimaryBigSY {
+  @mixin ButtonPrimaryBigSY;
+}
+
+.ButtonPrimarySmallSY {
+  @mixin ButtonPrimarySmallSY;
+}
+
+.ButtonSecondaryBigSY {
+  @mixin ButtonSecondaryBigSY;
+}
+
+.ButtonSecondarySmallSY {
+  @mixin ButtonSecondarySmallSY;
+}
+
+.ButtonTertiaryBigSY {
+  @mixin ButtonTertiaryBigSY;
+}
+
+.ButtonTertiarySmallSY {
+  @mixin ButtonTertiarySmallSY;
+}
+

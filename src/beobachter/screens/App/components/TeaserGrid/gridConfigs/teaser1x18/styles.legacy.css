@@ -1,0 +1,20 @@
+.teaser1x18 {
+  .Item {
+    border-bottom: 1px solid $grey30;
+    margin-bottom: $margin24;
+
+    &:has(:global(.ad-wrapper)) {
+      border-bottom: none;
+    }
+
+    &:last-child {
+      border-bottom: none;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .Item {
+      margin-bottom: $margin32;
+    }
+  }
+}

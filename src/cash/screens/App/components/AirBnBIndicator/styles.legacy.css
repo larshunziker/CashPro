@@ -1,0 +1,35 @@
+.Wrapper {
+  position: relative;
+}
+
+.SwipeIndicator {
+  background: $white;
+  border:1px solid  $secondaryA;
+  border-radius: 50%;
+  cursor: pointer;
+  display: inline-block;
+  height: 9px;
+  margin-inline: 6px;
+  outline: none;
+  position: absolute;
+  transition: transform 0.4s, background-color 0.4s;
+  width: 9px;
+  z-index: 1;
+
+  &.Active {
+    background: $secondaryA;
+    z-index: 2;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    background: $white;
+    border: 1px solid $secondaryA;
+    height: 9px;
+    margin: 0 5px;
+    width: 9px;
+
+    &.Active {
+      background: $secondaryA;
+    }
+  }
+}

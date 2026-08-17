@@ -1,0 +1,39 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ComponentName Should render esi:include on server 1`] = `
+"<div class="-631280213"><div class="esi_server"><esi:try>
+                <esi:attempt>
+                  <esi:include src="http://example.com" maxwait="32000"></esi:include>
+                </esi:attempt>
+                <esi:except>
+                  false
+                  <div style="display: none">
+                  <!--esi <esi_script>
+                      if (window.__ESI_ERROR_OCCURRED__ !== 'showOnce') {
+                        window.__ESI_ERROR_OCCURRED__ = 'showEsiError';
+                      }
+                      console.error('EsiWidgetError: esiSrc=http://example.com');
+                    </esi_script> -->
+                  </div>
+                </esi:except>
+              </esi:try></div></div>"
+`;
+
+exports[`[Component] ComponentName Should render esi:include on server 2`] = `
+"<div class="-631280213"><div class="esi_server"><esi:try>
+                <esi:attempt>
+                  <esi:include src="http://example.com" maxwait="32000"></esi:include>
+                </esi:attempt>
+                <esi:except>
+                  false
+                  <div style="display: none">
+                  <!--esi <esi_script>
+                      if (window.__ESI_ERROR_OCCURRED__ !== 'showOnce') {
+                        window.__ESI_ERROR_OCCURRED__ = 'showEsiError';
+                      }
+                      console.error('EsiWidgetError: esiSrc=http://example.com');
+                    </esi_script> -->
+                  </div>
+                </esi:except>
+              </esi:try></div></div>"
+`;

@@ -1,0 +1,21 @@
+version: '3.2'
+services:
+  node:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      args:
+        # These env variables are only set for local testing. During a lagoon build, they are added automatically by Lagoon
+        RASCH_PROJECT: gaultmillau
+        LAGOON_GIT_BRANCH: develop
+    labels:
+      lagoon.type: node
+  nginx:
+    build:
+      context: .
+      dockerfile: .nginx/Dockerfile
+      args:
+        # These env variables are only set for local testing. During a lagoon build, they are added automatically by Lagoon
+        RASCH_PROJECT: gaultmillau
+    labels:
+      lagoon.type: nginx

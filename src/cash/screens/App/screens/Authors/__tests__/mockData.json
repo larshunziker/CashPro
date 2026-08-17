@@ -1,0 +1,183 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "__typename": "Route",
+        "canonical": "/group/18/content/53525",
+        "preferred": "/unsere-redaktion",
+        "object": {
+          "__typename": "Page",
+          "id": "bm9kZTo1MTc2NQ==",
+          "nid": "51765",
+          "gcid": "53525",
+          "title": "Unsere Redaktion",
+          "lead": "Some lead text",
+          "shortTitle": null,
+          "editRelationUri": null,
+          "cloneContentUri": null,
+          "editContentUri": null,
+          "metaTitle": "Unsere Redaktion | cash",
+          "metaOgTitle": "Unsere Redaktion",
+          "metaDescription": "Some lead text",
+          "metaOgDescription": "Some lead text",
+          "metaCanonicalUrl": "https://www.cash.ch/unsere-redaktion",
+          "metaKeywords": null,
+          "channel": null,
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1kS2hXSVFBbTpuZXctbW5RRGF0SzM=",
+            "caption": null,
+            "image": {
+              "__typename": "Image",
+              "id": "70848",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "ZmlsZTo3MjA4NDo6aGVhZGVyXzE2XzlfbGFyZ2U6OjE2NTQ3ODQxNjM=",
+                "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                "focalPointX": 1600,
+                "focalPointY": 1200
+              }
+            }
+          }
+        }
+      },
+      "authors": {
+        "__typename": "AuthorConnection",
+        "count": 5,
+        "edges": [
+          {
+            "__typename": "AuthorEdge",
+            "node": {
+              "__typename": "Author",
+              "id": "YXV0aG9yOjYxODY=",
+              "aid": "6186",
+              "preferredUri": "/unsere-redaktion/daniel-ammann",
+              "name": "Daniel Ammann",
+              "headline": null,
+              "hasProfilePage": true,
+              "imageParagraph": {
+                "__typename": "ImageParagraph",
+                "image": {
+                  "__typename": "Image",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo3MjMyOTo6OjoxNjc1MTk3NjQ4",
+                    "alt": "emoji avatar",
+                    "relativeOriginPath": "/media/field_image/2023-01/emoji_avatar.jpg",
+                    "focalPointX": 212,
+                    "focalPointY": 251
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "AuthorEdge",
+            "node": {
+              "__typename": "Author",
+              "id": "YXV0aG9yOjk2MDQ=",
+              "aid": "9604",
+              "preferredUri": "/unsere-redaktion/sam-breeze",
+              "name": "Sam Breeze",
+              "headline": null,
+              "hasProfilePage": true,
+              "imageParagraph": {
+                "__typename": "ImageParagraph",
+                "image": {
+                  "__typename": "Image",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo3MjQ2Nzo6OjoxNzAwMDM5OTI1",
+                    "alt": "La joie au travail : est-ce vraiment possible ?",
+                    "relativeOriginPath": "/pme/blogs/2023-06-24/zylou.jpg",
+                    "focalPointX": 152,
+                    "focalPointY": 202
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "AuthorEdge",
+            "node": {
+              "__typename": "Author",
+              "id": "YXV0aG9yOjk1OTM=",
+              "aid": "9593",
+              "preferredUri": "/unsere-redaktion/damian-bucki",
+              "name": "Damian Bucki",
+              "headline": "Lead Engineer at Ringier Axel Springer Tech",
+              "hasProfilePage": true,
+              "imageParagraph": {
+                "__typename": "ImageParagraph",
+                "image": {
+                  "__typename": "Image",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo3MjMyOTo6OjoxNjc1MTk3NjQ4",
+                    "alt": "emoji avatar",
+                    "relativeOriginPath": "/media/field_image/2023-01/emoji_avatar.jpg",
+                    "focalPointX": 212,
+                    "focalPointY": 251
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "AuthorEdge",
+            "node": {
+              "__typename": "Author",
+              "id": "YXV0aG9yOjk2MDU=",
+              "aid": "9605",
+              "preferredUri": "/unsere-redaktion/pascal-grob",
+              "name": "Pascal Grob",
+              "headline": "Food Blogger & Content Manager",
+              "hasProfilePage": true,
+              "imageParagraph": {
+                "__typename": "ImageParagraph",
+                "image": {
+                  "__typename": "Image",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo3MjcyOTo6OjoxNzA0MzYxOTc4",
+                    "alt": "Pascal Grob",
+                    "relativeOriginPath": "/media/field_image/2024-01/pascal_grob.jpg",
+                    "focalPointX": 333,
+                    "focalPointY": 313
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "AuthorEdge",
+            "node": {
+              "__typename": "Author",
+              "id": "YXV0aG9yOjMyMTI=",
+              "aid": "3212",
+              "preferredUri": "/unsere-redaktion/test-author",
+              "name": "Test Author",
+              "headline": "headline",
+              "hasProfilePage": true,
+              "imageParagraph": {
+                "__typename": "ImageParagraph",
+                "image": {
+                  "__typename": "Image",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo0MDczMzo6OjoxNDkwNzA2ODIz",
+                    "alt": "ruth image",
+                    "relativeOriginPath": "/media/field_image/2017-03/ruth.jpg",
+                    "focalPointX": 103,
+                    "focalPointY": 88
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

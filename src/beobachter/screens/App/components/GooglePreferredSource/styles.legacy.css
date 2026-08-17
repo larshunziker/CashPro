@@ -1,0 +1,17 @@
+.Icon {
+  margin-right: $margin8;
+}
+
+.Content {
+  white-space: nowrap;
+}
+
+.GooglePreferredSource {
+  margin-bottom: $margin32;
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}

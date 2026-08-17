@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageNewsletter Should render default MinistageNewsletterSignup 1`] = `
+<div
+  class="paragraph ministage-newsletter-paragraph"
+  data-testid="ministage-newsletter-signup-default"
+>
+  <div
+    class="Background"
+    data-testid="ministage-newsletter-wrapper"
+  >
+    <div
+      class="Wrapper"
+    >
+      <div
+        class=""
+      >
+        <div
+          class="InnerWrapper"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="ColXs24"
+            >
+              <div
+                class="HeaderWrapper"
+              >
+                <div
+                  class="HeaderText"
+                />
+              </div>
+            </div>
+          </div>
+          <form
+            action=""
+            class="Form"
+            data-testid="mailchimp-subscribe-form-form"
+            method="post"
+            novalidate=""
+            rel="noopener noreferrer"
+            target="_blank"
+          >
+            <div
+              class="Row"
+            >
+              <div
+                class="InputWrapper ColSm16 ColMd17 ColXl18"
+                data-testid="mailchimp-subscribe-form-input-wrapper"
+              >
+                <div
+                  class="Wrapper EmailWrapper"
+                >
+                  <input
+                    class="ContactInput"
+                    id="email"
+                    maxlength="255"
+                    name="email"
+                    pattern=""
+                    placeholder="Ihre E-Mail-Adresse"
+                    required=""
+                    type="email"
+                    value=""
+                  />
+                </div>
+              </div>
+              <div
+                aria-hidden="true"
+                style="position: absolute; left: -5000px;"
+              >
+                <input
+                  name="b_473f4e993658c5bc9c5199135_1d31f5f40a"
+                  tabindex="-1"
+                  type="text"
+                />
+              </div>
+              <div
+                class="ButtonWrapper"
+                data-testid="mailchimp-subscribe-form-button-wrapper"
+              >
+                <button
+                  class="Primary"
+                  tabindex="0"
+                  type="submit"
+                >
+                  <span>
+                    Anmelden
+                  </span>
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

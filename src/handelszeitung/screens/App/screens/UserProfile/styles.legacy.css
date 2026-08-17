@@ -1,0 +1,20 @@
+.UserProfileWrapper {
+  margin-top: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin32;
+  }
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.DeviceIdWrapper {
+  color: $greyB;
+  font-size: 12px;
+  margin-top: 10px;
+
+
+}

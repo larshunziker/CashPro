@@ -1,0 +1,19 @@
+.Title {
+  composes: BoxTitleSmall from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+@media print {
+  .Wrapper {
+    display: none;
+  }
+}
+
+.RecommendationItem {
+  /* Only display four recommendations on small screens */
+  @media (max-width: $mdBreakpoint) {
+    &:nth-child(n + 5) {
+      display: none;
+    }
+  }
+}

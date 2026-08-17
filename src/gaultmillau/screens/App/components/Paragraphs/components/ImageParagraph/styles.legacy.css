@@ -1,0 +1,9 @@
+.ImageWrapper {
+  line-height: 0;
+  text-align: center;
+}
+
+.PortraitWrapper {
+  background-color: $neutralG;
+  text-align: center;
+}

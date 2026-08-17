@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>schweizer-illustrierte.ch</ShortName>
+    <Description>News, Bilder und Videos von SI online und Style zu Schweizer Stars, Promis, Royals und Trends zu Familie, Fashion, Mode, Beauty, Body &amp; Health, Food und Living.</Description>
+    <Url type="text/html" method="get" template="https://www.schweizer-illustrierte.ch/suche/{searchTerms}"/>
+</OpenSearchDescription>

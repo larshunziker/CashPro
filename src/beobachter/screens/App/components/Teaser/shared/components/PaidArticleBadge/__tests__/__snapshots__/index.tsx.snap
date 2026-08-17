@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser BE+ Icon Should render correctly 1`] = `
+<div
+  data-testid="paid-article-teaser-badge"
+>
+  <img
+    alt="Beobachter Plus"
+    class="Image Wrapper"
+    height="13"
+    src="SvgrURL"
+    width="26"
+  />
+</div>
+`;

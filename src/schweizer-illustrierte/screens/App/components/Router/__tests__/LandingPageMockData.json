@@ -1,0 +1,110 @@
+{
+  "__typename": "LandingPage",
+  "id": "bm9kZToasaxOTIzMQ==",
+  "paragraphsSubsetSize": "2",
+  "title": "Home",
+  "metaTitle": "Aktuelle News zu Prominenten, TV und Unterhaltung | Schweizer Illustrierte",
+  "metaDescription": "",
+  "metaOgTitle": "Aktuelle News zu Prominenten, TV und Unterhaltung | Schweizer Illustrierte",
+  "metaOgDescription": "",
+  "metaCanonicalUrl": "",
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "lead": null,
+  "preferredUri": "/home-si",
+  "activeMenuTrail": {
+    "__typename": "ActiveMenuTrailItemConnection",
+    "edges": [
+      {
+        "__typename": "ActiveMenuTrailItemEdge",
+        "node": {
+          "__typename": "ActiveMenuTrailItem",
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6Ym05a1pTMD0=",
+          "label": "Aktuelle News zu Prominenten, TV und Unterhaltung",
+          "link": null
+        }
+      }
+    ]
+  },
+  "channel": null,
+  "teaserImage": {
+    "__typename": "ImageParagraph",
+    "id": "schweizer_illustrierte_fallback",
+    "image": {
+      "__typename": "Image",
+      "id": "41515",
+      "file": {
+        "__typename": "ImageFile",
+        "id": "42066",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg"
+      }
+    }
+  },
+  "grid": null,
+  "body": [
+    {
+      "__typename": "EntityQueueParagraph",
+      "anchorId": null,
+      "id": "188750",
+      "title": null,
+      "style": "default",
+      "landingPage": {
+        "__typename": "LandingPage",
+        "id": "bm9kZToxNzQwNw==",
+        "title": "Gesundheit",
+        "preferredUri": "/node/17407"
+      },
+      "entityQueue": {
+        "__typename": "EntityQueue",
+        "items": {
+          "__typename": "RouteObjectInterfaceConnection",
+          "edges": [
+            {
+              "__typename": "RouteObjectInterfaceEdge",
+              "node": {
+                "__typename": "NativeAdvertising",
+                "gcid": "20480",
+                "id": "bm9kZToxOTU4MA==",
+                "title": "My Native Advertising Article",
+                "lead": "There is no better way to promote your stuff as using native advertising on Schweizer Illustrierte Website!",
+                "shortTitle": "upsi dayis",
+                "hasVideo": true,
+                "preferredUri": "/native-article/my-native-advertising-article",
+                "trackingTeaserClick": "https://jsonplaceholder.typicode.com/todos/4",
+                "trackingTeaserImpression": "https://jsonplaceholder.typicode.com/todos/3",
+                "subtypeValue": "native_article",
+                "advertisingTypeLabel": "Native Article",
+                "link": null,
+                "sponsor": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZToyMDgwNw==",
+                  "title": "10-1-high-res"
+                },
+                "teaserImage": {
+                  "__typename": "ImageParagraph",
+                  "id": "188985",
+                  "caption": "<p>Eagle</p>\n",
+                  "image": {
+                    "__typename": "Image",
+                    "id": "41519",
+                    "file": {
+                      "__typename": "ImageFile",
+                      "id": "42070",
+                      "alt": "eagle",
+                      "focalPointX": 1000,
+                      "focalPointY": 1000,
+                      "relativeOriginPath": "/eagle.jpeg"
+                    }
+                  }
+                }
+              }
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

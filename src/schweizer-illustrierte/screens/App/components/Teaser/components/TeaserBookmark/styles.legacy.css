@@ -1,0 +1,80 @@
+.OuterWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+}
+
+.Wrapper {
+  display: flex;
+  flex-grow: 1;
+  
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    letter-spacing: 0;
+    position: relative;
+    width: 100%;
+  }
+}
+
+.ContentWrapper {
+  flex: 1;
+  min-width: 0;
+  padding-bottom: 22px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+  }
+}
+
+.Title {
+  composes: Heading3A from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.ImageWrapper {
+  flex: 1;
+  height: auto;
+  line-height: 0;
+  margin: 0 $margin12 0 0;
+  max-width: 107px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 0 $margin8;
+    max-width: 100%;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.DateWrapper {
+  composes: LatestChannel from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Removed {
+  opacity: 0.3;
+}
+
+.BookmarkButtonWrapper {
+  bottom: 0;
+  left: 119px;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+    left: initial;
+    position: relative;
+  }
+}

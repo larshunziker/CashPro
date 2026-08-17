@@ -1,0 +1,65 @@
+.LinkWrapper {
+  border-bottom: 1px solid $grey30;
+  font-family: $fontSpezia;
+  font-weight: 900;
+  padding-block: $margin16;
+}
+
+.Link {
+  display: grid;
+  gap: $margin16;
+  grid-template-columns: auto 1fr;
+
+  &:hover .Text {
+    text-decoration: underline;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+  }
+}
+
+.Rank {
+  background-color: $green;
+  border-radius: 50%;
+  color: $white;
+  display: grid;
+  font-size: 2rem;
+  height: 34px;
+  place-content: center;
+  text-align: center;
+  width: 34px;
+
+  @media (min-width: $smBreakpoint) {
+    place-self: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    height: 40px;
+    width: 40px;
+  }
+}
+
+.Text {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  place-self: center;
+  transition: color 0.3s;
+  width: 100%;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.64rem;
+  }
+}
+
+.TextInner {
+  display: block;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}

@@ -1,0 +1,10 @@
+.Message {
+  composes: Message from 'LoginForm/styles.legacy.css';
+  @media (min-width: $xlBreakpoint) {
+    max-width: none;
+  }
+}
+
+.ButtonWrapper {
+  text-align: left;
+}

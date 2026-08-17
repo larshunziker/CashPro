@@ -1,0 +1,40 @@
+.Wrapper {
+  display: flex;
+}
+
+.ContentWrapper {
+  display: grid;
+  grid-auto-rows: min-content;
+  width: 100%;
+  word-break: break-word;
+}
+
+.TeaserTitle {
+  composes: H4 from 'typography.legacy.css';
+  margin-bottom: 4px;
+  word-wrap: break-word;
+}
+
+.ShortTitle {
+  composes: ShortTitleC from 'typography.legacy.css';
+  margin-bottom: margin4;
+}
+
+.TeaserImageWrapper {
+  display: block;
+  margin-right: 8px;
+  max-width: 30%;
+}
+
+.Image {
+  width: 100%;
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+
+  &, span {
+    @mixin fontSize 16;
+    @mixin lineHeight 18;
+  }
+}

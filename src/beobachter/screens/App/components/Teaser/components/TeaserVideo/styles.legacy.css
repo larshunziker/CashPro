@@ -1,0 +1,67 @@
+.Wrapper {
+  background-color: $greyC;
+  background-position: center;
+  background-size: cover;
+  display: block;
+  height: 100%;
+  min-height: 80px;
+  padding-top: 56.25%;
+  position: relative;
+  width: 100%;
+  z-index: $zIndexLow;
+}
+
+.TeaserShortTitle {
+  composes: SpitzmarkeVideo from 'typography.legacy.css';
+
+  background-color: $transparent;
+  display: inline-block;
+  margin-bottom: 3px;
+  margin-top: 5px;
+  padding: 0;
+  word-wrap: break-word;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 15px;
+  }
+}
+
+.TeaserTitle {
+  composes: TeaserVideoTitle from 'typography.legacy.css';
+
+  margin-bottom: 10px;
+  word-wrap: break-word;
+}
+
+.Button {
+  background-color: $redA;
+  border-radius: 50%;
+  height: 34px;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 34px;
+
+  &::after {
+    border: solid 8px transparent;
+    border-left: solid 12px $white;
+    color: $white;
+    content: '';
+    position: absolute;
+    right: 2px;
+    top: 9px;
+  }
+}
+
+.PlayerWrapper {
+  position: relative;
+}
+
+.IsActive {
+  color: $greyA;
+}
+
+.ActiveButton {
+  background-color: $greyA;
+}

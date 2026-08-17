@@ -1,0 +1,40 @@
+.GridRow {
+  margin-bottom: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.TeaserDivider > *:not(:last-child) {
+  border-right: 1px solid $neutralC;
+}
+
+.Divider {
+  background-color: $neutralD;
+  height: 1px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 auto;
+    width: 252px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 300px;
+  }
+}
+
+.HeroContainer {
+  margin-bottom: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: $xxlBreakpoint;
+  overflow: hidden;
+}

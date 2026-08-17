@@ -1,0 +1,112 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  background-color: $greyE;
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  padding: 16px 21px 112px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 16px 16px 84px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 15px 15px 131px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 16px 16px 111px;
+  }
+}
+
+.ContentWrapper {
+  line-height: 0;
+}
+
+.Title {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Lead {
+  composes: Lead2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.AuthorWrapper {
+  bottom: 16px;
+  left: 0;
+  margin-top: 20px;
+  padding: 0 21px;
+  position: absolute;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 15px;
+    padding: 0 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 16px;
+    padding: 0 16px;
+  }
+}
+
+.AuthorContent {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+  }
+}
+
+.AuthorAvatar {
+  border-radius: 50%;
+  height: auto;
+  width: 58px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: $margin8;
+  }
+}
+
+.Authors {
+  composes: Lead2 from 'typography.legacy.css';
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  strong {
+    font-family: $fontGothamBlack;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.ShortTitle{
+  composes: ShortTitleBGreyA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin8;
+}

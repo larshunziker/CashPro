@@ -1,0 +1,23 @@
+.Wrapper {
+  composes: AspectRatio16x9 from 'helpers.legacy.css';
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 675px;
+  }
+}
+
+.VideoLoop {
+  height: auto;
+  left: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-49%);
+  width: 100%;
+}
+
+.VideoLoopFallback {
+  composes: VideoLoop;
+}

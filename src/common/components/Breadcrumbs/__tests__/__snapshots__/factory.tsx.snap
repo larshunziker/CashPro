@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Should not render Breadcrumbs without an activeMenuTrail 1`] = `<div />`;
+
+exports[`Should not render breadcrumb-item "people" because no label is set 1`] = `
+<div>
+  <div
+    class="OuterWrapperClassName"
+  >
+    <div
+      class="WrapperClassName HideForPrint"
+    >
+      <ol
+        class="ListClassName"
+      >
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Home
+          </div>
+        </li>
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Lifestyle
+          </div>
+        </li>
+        <li>
+          <span
+            class="LinkClassName"
+          >
+            Carla Bruni: «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»
+          </span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should not render breadcrumb-item "people" because no link is set 1`] = `
+<div>
+  <script
+    type="application/ld+json"
+  >
+    {
+  "@context": "https://schema.org",
+  "@id": "https://www.beobachter.ch/#/schema/BreadcrumbList/people/lifestyle/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.beobachter.ch",
+      "url": "https://www.beobachter.ch"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "Lifestyle",
+      "item": "https://www.beobachter.ch/people/lifestyle",
+      "url": "https://www.beobachter.ch/people/lifestyle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Carla Bruni: «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»"
+    }
+  ]
+}
+  </script>
+  <div
+    class="OuterWrapperClassName"
+  >
+    <div
+      class="WrapperClassName HideForPrint"
+    >
+      <ol
+        class="ListClassName"
+      >
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Home
+          </div>
+        </li>
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Lifestyle
+          </div>
+        </li>
+        <li>
+          <span
+            class="LinkClassName"
+          >
+            Carla Bruni: «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»
+          </span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Should render Breadcrumbs correctly 1`] = `
+<div>
+  <script
+    type="application/ld+json"
+  >
+    {
+  "@context": "https://schema.org",
+  "@id": "https://www.beobachter.ch/#/schema/BreadcrumbList/people/lifestyle/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "Home",
+      "item": "https://www.beobachter.ch",
+      "url": "https://www.beobachter.ch"
+    },
+    {
+      "@type": "ListItem",
+      "position": 2,
+      "name": "People",
+      "item": "https://www.beobachter.ch/people",
+      "url": "https://www.beobachter.ch/people"
+    },
+    {
+      "@type": "ListItem",
+      "position": 3,
+      "name": "Lifestyle",
+      "item": "https://www.beobachter.ch/people/lifestyle",
+      "url": "https://www.beobachter.ch/people/lifestyle"
+    },
+    {
+      "@type": "ListItem",
+      "position": 4,
+      "name": "Carla Bruni: «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»"
+    }
+  ]
+}
+  </script>
+  <div
+    class="OuterWrapperClassName"
+  >
+    <div
+      class="WrapperClassName HideForPrint"
+    >
+      <ol
+        class="ListClassName"
+      >
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Home
+          </div>
+        </li>
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            People
+          </div>
+        </li>
+        <li>
+          <div
+            data-testid="breadcrumbs-factory-link"
+          >
+            Lifestyle
+          </div>
+        </li>
+        <li>
+          <span
+            class="LinkClassName"
+          >
+            Carla Bruni: «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»
+          </span>
+        </li>
+      </ol>
+    </div>
+  </div>
+</div>
+`;

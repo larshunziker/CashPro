@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] ImageCaption Should render correctly 1`] = `
+<div>
+  <div
+    class="image-caption ClassNameWrapper"
+  >
+    <span>
+      Hallo welt
+    </span>
+    <div
+      class="ClassNameCreditWrapper"
+      data-testid="image-caption-credit"
+    >
+      <span
+        class="ClassNameCredit"
+      >
+        Quelle: 
+        by die Welt
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] ImageCaption Should render without credit 1`] = `
+<div>
+  <div
+    class="image-caption ClassNameWrapper"
+  >
+    <span>
+      Hallo welt
+    </span>
+  </div>
+</div>
+`;

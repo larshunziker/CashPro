@@ -1,0 +1,303 @@
+{
+  "environment": {
+    "routeByPath": {
+      "canonical": "/group/10/content/279659",
+      "preferred": "/style/lifestyle/diese-dinge-gehoren-nicht-in-die-waschmaschine",
+      "statusCode": 200,
+      "object": {
+        "id": "bm9kZToyNTk0NDE=",
+        "nid": "259441",
+        "gcid": "279659",
+        "title": "Diese Dinge gehören nicht (!) in die Waschmaschine",
+        "lead": "Mühsame Handwäsche oder der schön unkomplizierte Waschgang in der Maschine? Ja, Letzteres spart Zeit und Nerven. Aber Achtung, wenn ihr an folgenden Teilen hängt, solltet ihr sie lieber von der Trommel fernhalten.",
+        "shortTitle": "Lieber Hand anlegen",
+        "seoTitle": "Waschen: Wie reinige ich Seide, Leider und Wolle richtig?",
+        "editContentUri": null,
+        "editRelationUri": null,
+        "metaTitle": "Waschen: Wie reinige ich Seide, Leider und Wolle richtig? | Schweizer Illustrierte",
+        "socialMediaTitle": "Diese Dinge gehören nicht (!) in die Waschmaschine",
+        "metaDescription": "Mühsame Handwäsche oder der schön unkomplizierte Waschgang in der Maschine? Ja, Letzteres spart Zeit und Nerven. Aber Achtung, wenn ihr an folgenden Teilen",
+        "metaOgTitle": "Waschen: Wie reinige ich Seide, Leider und Wolle richtig? | Schweizer Illustrierte",
+        "commentStatus": "open",
+        "keywords": {
+          "edges": [
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo1MjgzNg==",
+                "tid": "52836",
+                "label": "Waschen",
+                "preferredUri": "/dossier/waschen",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo1NDk1NQ==",
+                "tid": "54955",
+                "label": "Lifestyle",
+                "preferredUri": "/dossier/lifestyle",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo2MTI5Mg==",
+                "tid": "61292",
+                "label": "Leder",
+                "preferredUri": "/dossier/leder",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo0MzY5Mw==",
+                "tid": "43693",
+                "label": "Wolle",
+                "preferredUri": "/dossier/wolle",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "id": "dGF4b25vbXlfdGVybTo0OTEzMw==",
+                "tid": "49133",
+                "label": "Sneaker",
+                "preferredUri": "/dossier/sneaker",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            }
+          ],
+          "__typename": "KeywordConnection"
+        },
+        "metaOgDescription": "Mühsame Handwäsche oder der schön unkomplizierte Waschgang in der Maschine? Ja, Letzteres spart Zeit und Nerven. Aber Achtung, wenn ihr an folgenden Teilen hängt, solltet ihr sie lieber von der Trommel fernhalten.",
+        "metaCanonicalUrl": "https://www.schweizer-illustrierte.ch/style/lifestyle/diese-dinge-gehoren-nicht-in-die-waschmaschine",
+        "changeDate": "2019-12-11T09:03:47+01:00",
+        "showUpdated": true,
+        "createDate": "2019-12-11T09:04:46+01:00",
+        "publicationDate": "2021-12-22T07:30:00+01:00",
+        "preferredUri": "/style/lifestyle/diese-dinge-gehoren-nicht-in-die-waschmaschine",
+        "metaKeywords": "Waschen, Lifestyle, Leder, Wolle, Sneaker",
+        "restrictionStatus": null,
+        "source": null,
+        "sponsor": null,
+        "issue": null,
+        "channel": {
+          "id": "dGF4b25vbXlfdGVybTo4MTQyOA==",
+          "title": "Lifestyle",
+          "channelType": null,
+          "suppressAds": false,
+          "settings": {
+            "mainChannel": {
+              "id": "dGF4b25vbXlfdGVybTo4MTQyMQ==",
+              "title": "Style",
+              "__typename": "Channel"
+            },
+            "__typename": "TermSettings"
+          },
+          "sponsors": {
+            "edges": [],
+            "__typename": "SponsorConnection"
+          },
+          "sponsor": null,
+          "special": null,
+          "partners": {
+            "edges": [],
+            "__typename": "SponsorConnection"
+          },
+          "landingPage": null,
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "__typename": "Channel"
+        },
+        "activeMenuTrail": {
+          "edges": [
+            {
+              "node": {
+                "id": "bWVudV9saW5rX2NvbnRlbnQ6NTIy",
+                "label": "Style",
+                "link": "/style",
+                "__typename": "ActiveMenuTrailItem"
+              },
+              "__typename": "ActiveMenuTrailItemEdge"
+            },
+            {
+              "node": {
+                "id": "bWVudV9saW5rX2NvbnRlbnQ6NTI3",
+                "label": "Lifestyle",
+                "link": "/style/lifestyle",
+                "__typename": "ActiveMenuTrailItem"
+              },
+              "__typename": "ActiveMenuTrailItemEdge"
+            },
+            {
+              "node": {
+                "id": "bWVudV9saW5rX2NvbnRlbnQ6TlRJM09UazJOall4",
+                "label": "Waschen: Wie reinige ich Seide, Leider und Wolle richtig?",
+                "link": null,
+                "__typename": "ActiveMenuTrailItem"
+              },
+              "__typename": "ActiveMenuTrailItemEdge"
+            }
+          ],
+          "__typename": "ActiveMenuTrailItemConnection"
+        },
+        "teaserImage": {
+          "id": "cGFyYWdyYXBoOmltYWdlOjExMTA3NTg6NDczMjIwNA==",
+          "image": {
+            "id": "623842",
+            "file": {
+              "id": "ZmlsZTo2MjY4NjM6Ojc0NCwxMDA4OmxhcmdlOg==",
+              "relativeOriginPath": "/media/field_image/2021-12/waschmaschine.jpg",
+              "focalPointX": 744,
+              "focalPointY": 1008,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "subtypeValue": null,
+        "authorPrefix": "by",
+        "body": [
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6MTExMDc1OTo0NzMyMTk1",
+            "characterCount": 444,
+            "isLastOfGroup": false,
+            "header": null,
+            "text": "<p>Wir sind wieder rund um die Uhr zu Hause und waschen uns und sämtliche Textilien und Gegenstände so emsig wie noch nie. Jap, der Wäschekorb quillt täglich über. Aber jedes einzelne Teil von dort einfach in die Maschine verfrachten? Wäre so schön unkompliziert, oder? Aber nutzt lieber die ganze zusätzliche Zeit, um eure Lieblingsstücke sorgsam mit der Hand zu waschen. Denn: Nicht alles überlebt den schwungvollen Schleudergang in der Trommel.</p>",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXN5QmFRb1pyOm5ldy1lUjNKczQ3TQ==",
+            "characterCount": 165,
+            "isLastOfGroup": true,
+            "header": null,
+            "text": "<p>Es folgt eine Schwarze Liste an Dingen, die in der Maschine nichts zu suchen haben – und somit eure Zeit und ungeteilte Aufmerksamkeit bei der Handwäsche benötigen …</p>",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6MTExMDc1MDo0NzMyMTk2",
+            "characterCount": 540,
+            "isLastOfGroup": true,
+            "header": null,
+            "text": "<h3>Wolle und Seide</h3>\n\n<p>Irgendwie gemein – da investiert man schon in ein Produkt aus <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/fashion/hosen-die-uns-jetzt-wirklich-warm-halten\">Naturfaser</a> und dann wird es einem bei der <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/wie-ihr-eure-lederteile-richtig-reinigt\">Pflege</a> auch noch besonders schwer gemacht. Im Gegenteil zu Kleidung aus synthetischen Materialien, hat die aus <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/easy-easier-wollpullis-selber-waschen\">Wolle</a> oder Seide absolut nichts in einer Waschmaschine verloren. Warum? Bei zu heissem Wasser und unnötig hoher Umdrehung gehen die Fasern ein und verändern ihre Struktur. Wer keine Zeit für eine <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/was-genau-bedeuten-eigenlich-die-symbole-auf-der-waschanleitung\">Handwäsche</a> hat, geht lieber anders auf Nummer sicher und gibt die guten Stücke in der Reinigung des Vertrauens ab.</p>\n",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "header": null,
+            "embedCode": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B55-srvJBku/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B55-srvJBku/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> Sieh dir diesen Beitrag auf Instagram an</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div></a> <p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B55-srvJBku/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Vintage finds newly listed 💫</a></p> <p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">Ein Beitrag geteilt von <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/naninvintage/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> Na Nin Vintage</a> (@naninvintage) am <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2019-12-10T20:50:17+00:00\">Dez 10, 2019 um 12:50 PST</time></p></div></blockquote> <embeddedscript async async src=\"//www.instagram.com/embed.js\"></embeddedscript>",
+            "__typename": "EmbedParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6MTExMDc1Mjo0NzMyMTk4",
+            "characterCount": 427,
+            "isLastOfGroup": true,
+            "header": null,
+            "text": "<h3>Lingerie aus Spitze</h3>\n\n<p>Selbiges gilt für eure heissgeliebte <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/fashion/ist-das-zeitalter-der-spitzen-bhs-vorbei\">Spitzenunterwäsche</a>. Vor allem das Schleudern tut dem <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/body-health/health/darum-solltet-ihr-nie-mit-bh-schlafen\">BH</a> ganz und gar nicht gut. Die <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/brauchen-wir-den-buegel-bh-wirklich-nicht-mehr\">Bügel</a> verbiegen und bohren sich im schlimmsten Fall sogar durch den Stoff. Eine Reinigung beim Spezialisten ist hier aber fast nicht nötig, eure Dessous könnt ihr ganz easy im Lavabo oder einer grossen Schüssel in warmem Wasser mit etwas Reinigungsmittel einweichen und später ausspülen.</p>\n",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "header": null,
+            "embedCode": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B2hEXF6FeQu/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B2hEXF6FeQu/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> Sieh dir diesen Beitrag auf Instagram an</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div></a> <p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B2hEXF6FeQu/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Evenings here.. ✨</a></p> <p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">Ein Beitrag geteilt von <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/mvb/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> Marie von Behrens</a> (@mvb) am <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2019-09-17T15:04:34+00:00\">Sep 17, 2019 um 8:04 PDT</time></p></div></blockquote> <embeddedscript async async src=\"//www.instagram.com/embed.js\"></embeddedscript>",
+            "__typename": "EmbedParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6MTExMDc1Njo0NzMyMjAw",
+            "characterCount": 384,
+            "isLastOfGroup": true,
+            "header": null,
+            "text": "<h3>Sneaker mit Lederanteil</h3>\n\n<p><a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/schuhe-regenfest-pimpen-so-gehts\">Stoffschuhe</a> können bedenkenlos in die Trommel gesteckt werden. Sobald sich aber Details aus <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/fashion/weite-lederhosen-sind-das-trend-piece-der-stunde\">Leder</a> daran befinden, ist der Waschgang in der Maschine leider tabu. Leder kann in heissem Wasser schrumpfen und der Schuh sich dadurch verformen. <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/style/lifestyle/mit-diesen-tipps-bleiben-weisse-sneakers-sauber\">Verschmutzungen</a> lieber mit einem feuchten Tuch und etwas Schuhreiniger von Hand entfernen. Das geht ganz fix, versprochen.</p>\n",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "header": null,
+            "embedCode": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B5zjx2UBybj/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B5zjx2UBybj/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> Sieh dir diesen Beitrag auf Instagram an</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div></a> <p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B5zjx2UBybj/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Sunday</a></p> <p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">Ein Beitrag geteilt von <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/emilisindlev/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> Emili Sindlev</a> (@emilisindlev) am <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2019-12-08T08:59:37+00:00\">Dez 8, 2019 um 12:59 PST</time></p></div></blockquote> <embeddedscript async async src=\"//www.instagram.com/embed.js\"></embeddedscript>",
+            "__typename": "EmbedParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOnRleHQ6MTExMDc1NDo0NzMyMjAy",
+            "characterCount": 472,
+            "isLastOfGroup": true,
+            "header": null,
+            "text": "<h3>Teppiche</h3>\n\n<p>Es ist so herrlich einfach, den Badezimmerteppich bei 90 Grad in die Maschine zu stopfen und ihn nach eineinhalb Stunden tadellos herauszuholen. Wirklich gut tut das der Matte nicht. Besonders die Anti-Rutsch-Noppen, die oft aus Kautschuk bestehen, leiden extrem unter der maschinellen Reinigung. Und wer will schon auf dem Teppich ausrutschen, wenn er morgens aus der <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" href=\"https://www.schweizer-illustrierte.ch/body-health/health/das-haben-wir-bisher-beim-duschen-falsch-gemacht\">Dusche</a> kraxelt? Eben, niemand. Auch hier eher eine Handwäsche mit langer Einweichzeit angehen. </p>\n",
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "header": null,
+            "embedCode": "<blockquote class=\"instagram-media\" data-instgrm-captioned data-instgrm-permalink=\"https://www.instagram.com/p/B4C7PGHBsyp/?utm_source=ig_embed&amp;utm_campaign=loading\" data-instgrm-version=\"12\" style=\" background:#FFF; border:0; border-radius:3px; box-shadow:0 0 1px 0 rgba(0,0,0,0.5),0 1px 10px 0 rgba(0,0,0,0.15); margin: 1px; max-width:540px; min-width:326px; padding:0; width:99.375%; width:-webkit-calc(100% - 2px); width:calc(100% - 2px);\"><div style=\"padding:16px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B4C7PGHBsyp/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" background:#FFFFFF; line-height:0; padding:0 0; text-align:center; text-decoration:none; width:100%;\" target=\"_blank\"> <div style=\" display: flex; flex-direction: row; align-items: center;\"> <div style=\"background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 40px; margin-right: 14px; width: 40px;\"></div> <div style=\"display: flex; flex-direction: column; flex-grow: 1; justify-content: center;\"> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; margin-bottom: 6px; width: 100px;\"></div> <div style=\" background-color: #F4F4F4; border-radius: 4px; flex-grow: 0; height: 14px; width: 60px;\"></div></div></div><div style=\"padding: 19% 0;\"></div> <div style=\"display:block; height:50px; margin:0 auto 12px; width:50px;\"><svg width=\"50px\" height=\"50px\" viewBox=\"0 0 60 60\" version=\"1.1\" xmlns=\"https://www.w3.org/2000/svg\" xmlns:xlink=\"https://www.w3.org/1999/xlink\"><g stroke=\"none\" stroke-width=\"1\" fill=\"none\" fill-rule=\"evenodd\"><g transform=\"translate(-511.000000, -20.000000)\" fill=\"#000000\"><g><path d=\"M556.869,30.41 C554.814,30.41 553.148,32.076 553.148,34.131 C553.148,36.186 554.814,37.852 556.869,37.852 C558.924,37.852 560.59,36.186 560.59,34.131 C560.59,32.076 558.924,30.41 556.869,30.41 M541,60.657 C535.114,60.657 530.342,55.887 530.342,50 C530.342,44.114 535.114,39.342 541,39.342 C546.887,39.342 551.658,44.114 551.658,50 C551.658,55.887 546.887,60.657 541,60.657 M541,33.886 C532.1,33.886 524.886,41.1 524.886,50 C524.886,58.899 532.1,66.113 541,66.113 C549.9,66.113 557.115,58.899 557.115,50 C557.115,41.1 549.9,33.886 541,33.886 M565.378,62.101 C565.244,65.022 564.756,66.606 564.346,67.663 C563.803,69.06 563.154,70.057 562.106,71.106 C561.058,72.155 560.06,72.803 558.662,73.347 C557.607,73.757 556.021,74.244 553.102,74.378 C549.944,74.521 548.997,74.552 541,74.552 C533.003,74.552 532.056,74.521 528.898,74.378 C525.979,74.244 524.393,73.757 523.338,73.347 C521.94,72.803 520.942,72.155 519.894,71.106 C518.846,70.057 518.197,69.06 517.654,67.663 C517.244,66.606 516.755,65.022 516.623,62.101 C516.479,58.943 516.448,57.996 516.448,50 C516.448,42.003 516.479,41.056 516.623,37.899 C516.755,34.978 517.244,33.391 517.654,32.338 C518.197,30.938 518.846,29.942 519.894,28.894 C520.942,27.846 521.94,27.196 523.338,26.654 C524.393,26.244 525.979,25.756 528.898,25.623 C532.057,25.479 533.004,25.448 541,25.448 C548.997,25.448 549.943,25.479 553.102,25.623 C556.021,25.756 557.607,26.244 558.662,26.654 C560.06,27.196 561.058,27.846 562.106,28.894 C563.154,29.942 563.803,30.938 564.346,32.338 C564.756,33.391 565.244,34.978 565.378,37.899 C565.522,41.056 565.552,42.003 565.552,50 C565.552,57.996 565.522,58.943 565.378,62.101 M570.82,37.631 C570.674,34.438 570.167,32.258 569.425,30.349 C568.659,28.377 567.633,26.702 565.965,25.035 C564.297,23.368 562.623,22.342 560.652,21.575 C558.743,20.834 556.562,20.326 553.369,20.18 C550.169,20.033 549.148,20 541,20 C532.853,20 531.831,20.033 528.631,20.18 C525.438,20.326 523.257,20.834 521.349,21.575 C519.376,22.342 517.703,23.368 516.035,25.035 C514.368,26.702 513.342,28.377 512.574,30.349 C511.834,32.258 511.326,34.438 511.181,37.631 C511.035,40.831 511,41.851 511,50 C511,58.147 511.035,59.17 511.181,62.369 C511.326,65.562 511.834,67.743 512.574,69.651 C513.342,71.625 514.368,73.296 516.035,74.965 C517.703,76.634 519.376,77.658 521.349,78.425 C523.257,79.167 525.438,79.673 528.631,79.82 C531.831,79.965 532.853,80.001 541,80.001 C549.148,80.001 550.169,79.965 553.369,79.82 C556.562,79.673 558.743,79.167 560.652,78.425 C562.623,77.658 564.297,76.634 565.965,74.965 C567.633,73.296 568.659,71.625 569.425,69.651 C570.167,67.743 570.674,65.562 570.82,62.369 C570.966,59.17 571,58.147 571,50 C571,41.851 570.966,40.831 570.82,37.631\"></path></g></g></g></svg></div><div style=\"padding-top: 8px;\"> <div style=\" color:#3897f0; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:550; line-height:18px;\"> Sieh dir diesen Beitrag auf Instagram an</div></div><div style=\"padding: 12.5% 0;\"></div> <div style=\"display: flex; flex-direction: row; margin-bottom: 14px; align-items: center;\"><div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(0px) translateY(7px);\"></div> <div style=\"background-color: #F4F4F4; height: 12.5px; transform: rotate(-45deg) translateX(3px) translateY(1px); width: 12.5px; flex-grow: 0; margin-right: 14px; margin-left: 2px;\"></div> <div style=\"background-color: #F4F4F4; border-radius: 50%; height: 12.5px; width: 12.5px; transform: translateX(9px) translateY(-18px);\"></div></div><div style=\"margin-left: 8px;\"> <div style=\" background-color: #F4F4F4; border-radius: 50%; flex-grow: 0; height: 20px; width: 20px;\"></div> <div style=\" width: 0; height: 0; border-top: 2px solid transparent; border-left: 6px solid #f4f4f4; border-bottom: 2px solid transparent; transform: translateX(16px) translateY(-4px) rotate(30deg)\"></div></div><div style=\"margin-left: auto;\"> <div style=\" width: 0px; border-top: 8px solid #F4F4F4; border-right: 8px solid transparent; transform: translateY(16px);\"></div> <div style=\" background-color: #F4F4F4; flex-grow: 0; height: 12px; width: 16px; transform: translateY(-4px);\"></div> <div style=\" width: 0; height: 0; border-top: 8px solid #F4F4F4; border-left: 8px solid transparent; transform: translateY(-4px) translateX(8px);\"></div></div></div></a> <p style=\" margin:8px 0 0 0; padding:0 4px;\"> <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/p/B4C7PGHBsyp/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#000; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px; text-decoration:none; word-wrap:break-word;\" target=\"_blank\">Yes to tile on tubs, fancy fringed shower curtains, cats with cow markings, and Sleeping Giants bathmats ✔️✔️✔️✔️via @talisshort</a></p> <p style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; line-height:17px; margin-bottom:0; margin-top:8px; overflow:hidden; padding:8px 0 7px; text-align:center; text-overflow:ellipsis; white-space:nowrap;\">Ein Beitrag geteilt von <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://www.instagram.com/coldpicnic/?utm_source=ig_embed&amp;utm_campaign=loading\" style=\" color:#c9c8cd; font-family:Arial,sans-serif; font-size:14px; font-style:normal; font-weight:normal; line-height:17px;\" target=\"_blank\"> coldpicnic</a> (@coldpicnic) am <time style=\" font-family:Arial,sans-serif; font-size:14px; line-height:17px;\" datetime=\"2019-10-25T15:10:25+00:00\">Okt 25, 2019 um 8:10 PDT</time></p></div></blockquote> <embeddedscript async async src=\"//www.instagram.com/embed.js\"></embeddedscript>",
+            "__typename": "EmbedParagraph"
+          }
+        ],
+        "showAuthorBox": false,
+        "authors": {
+          "edges": [
+            {
+              "node": {
+                "id": "YXV0aG9yOjE3NjQ1",
+                "name": "Denise Kühn",
+                "description": null,
+                "imageParagraph": null,
+                "__typename": "Author"
+              },
+              "__typename": "AuthorEdge"
+            }
+          ],
+          "__typename": "AuthorConnection"
+        },
+        "heroImageBody": [
+          {
+            "anchorId": null,
+            "id": "cGFyYWdyYXBoOmltYWdlOjExMTA3NTg6NDczMjIwNA==",
+            "format": "landscape",
+            "caption": "<p>Ihr stopft auch einfach alles in die Waschmaschine? Oh, oh! Einige Teile gehören da ganz und gar nicht rein.</p>\n",
+            "title": null,
+            "image": {
+              "id": "623842",
+              "credit": "Getty Images",
+              "showOriginal": false,
+              "file": {
+                "id": "ZmlsZTo2MjY4NjM6Ojc0NCwxMDA4OmxhcmdlOjE=",
+                "alt": "waschmaschine",
+                "relativeOriginPath": "/media/field_image/2021-12/waschmaschine.jpg",
+                "focalPointX": 744,
+                "focalPointY": 1008,
+                "width": 354,
+                "height": 480,
+                "origin": "https://cdn.schweizer-illustrierte.ch/sites/default/files/media/field_image/2021-12/waschmaschine.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        ],
+        "__typename": "Article"
+      },
+      "__typename": "Route"
+    },
+    "__typename": "Environment"
+  }
+}

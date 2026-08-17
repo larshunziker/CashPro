@@ -1,0 +1,88 @@
+.Wrapper {
+  font-family: $fontSpezia;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 18px 0 12px;
+  }
+}
+
+.Listing {
+  list-style: none;
+}
+
+.ListItem {
+  font-family: $fontSpezia;
+  font-weight: 900;
+  padding-block: $margin16;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $grey30;
+  }
+}
+
+.ListItemNumber {
+  background-color: $green;
+  border-radius: 50%;
+  color: $white;
+  display: grid;
+  font-size: 2rem;
+  height: 34px;
+  line-height: 2.4rem;
+  place-content: center;
+  text-align: center;
+  width: 34px;
+
+  @media (min-width: $smBreakpoint) {
+    place-self: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    height: 40px;
+    line-height: 2.88rem;
+    width: 40px;
+  }
+}
+
+.ListItemBox {
+  display: grid;
+  gap: $margin16;
+  grid-template-columns: auto 1fr;
+
+  &:hover .Label {
+    text-decoration: underline;
+  }
+}
+
+.Label {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  place-self: center;
+  transition: color 0.3s;
+  width: 100%;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.64rem;
+  }
+}
+
+.SubTitle {
+  color: $black;
+  display: block;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.92rem;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+

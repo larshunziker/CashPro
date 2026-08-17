@@ -1,0 +1,38 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Helpers] Recipe Should render address nothing when the recipe is not associated with an organization 1`] = `<div />`;
+
+exports[`[Helpers] Recipe Should render address with all content correctly 1`] = `
+<div>
+  <div>
+    <strong>
+      Name
+    </strong>
+  </div>
+  <div>
+    <p>
+      Le Grand Restaurant
+    </p>
+  </div>
+  <div>
+    <p />
+    <p>
+      8003
+       
+      Gstaad
+    </p>
+    <p>
+      +41 33 748 98 00
+    </p>
+    <p>
+      <a
+        class="Link"
+        data-testid="mocked-link"
+        href="http://www.example.com"
+      >
+        www.example.com
+      </a>
+    </p>
+  </div>
+</div>
+`;

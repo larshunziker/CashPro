@@ -1,0 +1,71 @@
+[
+  {
+    "id": "203535",
+    "anchorId": null,
+    "title": "Breaking EQ",
+    "style": "default",
+    "landingPage": null,
+    "entityQueue": {
+      "items": {
+        "edges": [],
+        "__typename": "RouteObjectInterfaceConnection"
+      },
+      "__typename": "EntityQueue"
+    },
+    "__typename": "EntityQueueParagraph"
+  },
+  {
+    "id": "203536",
+    "anchorId": null,
+    "termReference": {
+      "id": "dGF4b25vbXlfdGVybTo2MTQw",
+      "label": "Geld",
+      "preferredUri": "/stichworte/g/geld",
+      "__typename": "Keyword"
+    },
+    "title": null,
+    "entities": {
+      "count": 1,
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZTozODQzMA==",
+            "title": "nowy testowy artyku\u0142",
+            "shortTitle": null,
+            "lead": "\u043d\u0430\u0448\u0435 \u043c\u0438\u043d\u0438-\u043e\u0431\u043e\u0437\u0440\u0435\u043d\u0438\u0435 \u0441\u0442\u0430\u0442\u044c\u0438 :)",
+            "createDate": "2020-07-17T12:55:00",
+            "revisionDate": "2020-08-03T10:53:52",
+            "preferredUri": "/arbeit/nowy-testowy-artykul",
+            "publication": "beobachter",
+            "subtypeValue": "ratgeber_aktuell",
+            "hasVideo": false,
+            "restrictionStatus": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDE5",
+              "title": "Arbeit",
+              "__typename": "Channel"
+            },
+            "teaserImage": {
+              "id": "201500",
+              "image": {
+                "file": {
+                  "alt": "Roadster 2",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/tesla_roadster_2.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "TeaserStageParagraph"
+  }
+]

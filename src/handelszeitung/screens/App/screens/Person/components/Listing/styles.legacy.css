@@ -1,0 +1,105 @@
+.Wrapper {
+  background-color: $greyE;
+  margin-bottom: 25px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.ListHeader {
+  background-color: $blackB;
+  padding: 32px 0;
+}
+
+.ListTitle {
+  composes: H2White from 'typography.legacy.css';
+}
+
+.FakeHeader {
+  background-color: $blackA;
+  height: 42px;
+  width: 100%;
+}
+
+.RankingList {
+  display: table;
+  margin-top: -32px;
+}
+
+.RankingListBody {
+  display: table-row-group;
+}
+
+.ListRow,
+.ListRowHead {
+  background-color: $greyE;
+  display: table-row;
+  position: relative;
+}
+
+.ListRow:hover {
+  .LinkIcon {
+    color: $greyB;
+    transition: color 0.25s ease;
+  }
+}
+
+.ListRowHead {
+  background-color: $blackA;
+  height: 32px;
+}
+
+.ListItemHeadItem {
+  composes: InfoParagraphWhite from 'typography.legacy.css';
+  display: table-cell;
+}
+
+.ListItem {
+  composes: Lead1 from 'typography.legacy.css';
+  border-top: 1px solid $greyC;
+  display: table-cell;
+  padding: 24px 16px 24px 0;
+  word-wrap: break-word;
+}
+
+.ListItemIcon {
+  display: none;
+  min-width: 40px;
+  padding-left: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    display: table-cell;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-left: 40px;
+  }
+}
+
+.ListItemHighlight {
+  composes: H2 from 'typography.legacy.css';
+}
+
+.LinkIcon {
+  border: 1px solid $greyC;
+  border-radius: 50%;
+  color: $greyC;
+  display: none;
+  font-size: 2rem;
+  height: 31px;
+  padding: 4px;
+  transition: color 0.25s ease;
+  width: 31px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.MinWidth {
+  
+  @media (min-width: $smBreakpoint) {
+    min-width: 150px;
+  }
+}

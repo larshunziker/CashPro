@@ -1,0 +1,35 @@
+/* stylelint-disable */
+
+@font-face {
+  font-display: swap;
+  font-family: "Rasch";
+  font-style: normal;
+  font-weight: normal;
+  src: url('https://www.handelszeitung.ch/fonts/RASCH-Font.woff2') format('woff2'),
+    url('https://www.handelszeitung.ch/fonts/RASCH-Font.woff') format('woff'),
+    url('https://www.handelszeitung.ch/fonts/RASCH-Font.svg') format('svg');
+}
+
+@font-face {
+  font-display: block;
+  font-family: "GothamBoldNarrow";
+  font-weight: 900;
+  src: url('https://www.handelszeitung.ch/fonts/GothamNarrow-Black.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://www.handelszeitung.ch/fonts/GothamNarrow-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-display: block;
+  font-family: "GothamBold";
+  font-weight: 900;
+  src: url('https://www.handelszeitung.ch/fonts/Gotham-Black.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://www.handelszeitung.ch/fonts/Gotham-Black.woff') format('woff'); /* Pretty Modern Browsers */
+}
+
+@font-face {
+  font-display: block;
+  font-family: "GothamRegular";
+  font-weight: 300;
+  src: url('https://www.handelszeitung.ch/fonts/GothamSSm-Book.woff2') format('woff2'), /* Super Modern Browsers */
+    url('https://www.handelszeitung.ch/fonts/GothamSSm-Book.woff') format('woff'); /* Pretty Modern Browsers */
+}

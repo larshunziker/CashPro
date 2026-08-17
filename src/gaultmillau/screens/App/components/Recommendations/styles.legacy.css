@@ -1,0 +1,83 @@
+.SectionTitle {
+  composes: SectionTitleNeutralA from 'typography.legacy.css';
+  margin-bottom: 42px;
+  position: relative;
+  text-align: center;
+
+  &::before {
+    border: 5px solid $neutralA;
+    bottom: -26px;
+    content: '';
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 58px;
+  }
+}
+
+.SectionTitleRelated {
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 19px;
+  }
+}
+
+.RecommendationsContainerRelated {
+  margin-bottom: 60px;
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    margin: $margin8 auto 12px auto;
+    width: 150px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &::before,
+    &::after {
+      margin: 11px auto;
+      width: 290px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    background-color: $white;
+    box-shadow: 0 0 10px 15px $white;
+    margin-top: 20px;
+    z-index: $zIndex1;
+  }
+}
+
+.RecommendationsContainer {
+  text-align: left;
+}
+
+.RecommendationsItem {
+  padding-bottom: 25px;
+}
+
+.RecommendationsItemRelated {
+  @media (max-width: $xsBreakpointTo) {
+    &:not(:last-child) {
+      &::after {
+        content: '';
+        display: block;
+        margin: 10px auto 20px;
+        width: 150px;
+      }
+    }
+  }
+}
+
+.RecommendationsListContainer {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}

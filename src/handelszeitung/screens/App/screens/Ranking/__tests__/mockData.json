@@ -1,0 +1,280 @@
+{
+  "data": {
+    "environment": {
+      "routeByPath": {
+        "canonical": "/group/7/content/53467",
+        "preferred": "/300-reichste-new-ranking",
+        "object": {
+          "nid": "51708",
+          "year": 2023,
+          "title": "300 Reichste New Ranking",
+          "publication": "bilanz",
+          "rankingType": "300_reichste",
+          "rankings": {
+            "count": 7,
+            "edges": [
+              {
+                "node": {
+                  "rankingPosition": 1,
+                  "rankingValue": "211000000000",
+                  "rankingIndustry": "Fashion",
+                  "rankingState": "Frankreich",
+                  "person": {
+                    "nid": "51709",
+                    "title": "Bernard Arnault & family",
+                    "description": null,
+                    "name": "Bernard Arnault & family",
+                    "isWoman": false,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "211000000000",
+                            "rankingPosition": 1,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        },
+                        {
+                          "node": {
+                            "rankingValue": "210000000000",
+                            "rankingPosition": 1,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2022,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 2,
+                  "rankingValue": "180000000000",
+                  "rankingIndustry": "Technologie",
+                  "rankingState": "USA",
+                  "person": {
+                    "nid": "51710",
+                    "title": "Elon Musk",
+                    "description": null,
+                    "name": "Elon Musk",
+                    "isWoman": false,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "180000000000",
+                            "rankingPosition": 2,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        },
+                        {
+                          "node": {
+                            "rankingValue": "179000000000",
+                            "rankingPosition": 2,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2022,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 3,
+                  "rankingValue": "114000000000",
+                  "rankingIndustry": "Technologie",
+                  "rankingState": "USA",
+                  "person": {
+                    "nid": "51711",
+                    "title": "Jeff Bezos",
+                    "description": null,
+                    "name": "Jeff Bezos",
+                    "isWoman": false,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "114000000000",
+                            "rankingPosition": 3,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        },
+                        {
+                          "node": {
+                            "rankingValue": "112000000000",
+                            "rankingPosition": 3,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2022,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 4,
+                  "rankingValue": "107000000000",
+                  "rankingIndustry": "Technologie",
+                  "rankingState": "USA",
+                  "rankingTrend": "new",
+                  "person": {
+                    "nid": "51712",
+                    "title": "Larry Ellison",
+                    "description": null,
+                    "name": "Larry Ellison",
+                    "isWoman": false,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "107000000000",
+                            "rankingPosition": 4,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 5,
+                  "rankingValue": "106000000000",
+                  "rankingIndustry": "Finanzen & Investment",
+                  "rankingState": "USA",
+                  "rankingTrend": "new",
+                  "person": {
+                    "nid": "51713",
+                    "title": "Warren Buffett",
+                    "description": null,
+                    "name": "Warren Buffett",
+                    "isWoman": false,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "106000000000",
+                            "rankingPosition": 5,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 6,
+                  "rankingValue": "100000000000",
+                  "rankingIndustry": "Immobilien",
+                  "rankingState": "USA",
+                  "rankingTrend": "new",
+                  "person": {
+                    "nid": "51714",
+                    "title": "Julia Koch",
+                    "description": null,
+                    "name": "Julia Koch",
+                    "isWoman": true,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "100000000000",
+                            "rankingPosition": 6,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "node": {
+                  "rankingPosition": 7,
+                  "rankingValue": "88000000000",
+                  "rankingIndustry": "Food, Immobilien",
+                  "rankingState": "USA",
+                  "rankingTrend": "returnee",
+                  "person": {
+                    "nid": "19034",
+                    "title": "Wanda Muster",
+                    "description": null,
+                    "name": "Wanda Muster",
+                    "isWoman": true,
+                    "rankings": {
+                      "edges": [
+                        {
+                          "node": {
+                            "rankingValue": "88000000000",
+                            "rankingPosition": 7,
+                            "ranking": {
+                              "id": "bm9kZTo1MTcwOA==",
+                              "year": 2023,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        },
+                        {
+                          "node": {
+                            "rankingValue": "11000000000",
+                            "rankingPosition": 3,
+                            "ranking": {
+                              "id": "bm9kZToxOTAxMg==",
+                              "year": 2016,
+                              "rankingType": "300_reichste"
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

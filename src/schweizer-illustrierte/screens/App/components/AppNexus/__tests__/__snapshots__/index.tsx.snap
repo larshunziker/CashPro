@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`double(NaN) 1`] = `"MobileWeb"`;
+
+exports[`double(NaN) 2`] = `"Desktop"`;
+
+exports[`double(NaN) 3`] = `"Desktop"`;
+
+exports[`double(NaN) 4`] = `"Desktop"`;
+
+exports[`double(NaN) 5`] = `"Desktop"`;
+
+exports[`double(NaN) 6`] = `"Desktop"`;
+
+exports[`double(NaN) 7`] = `"Desktop"`;
+
+exports[`double(NaN) 8`] = `"Desktop"`;
+
+exports[`double(NaN) 9`] = `"MobileWeb"`;
+
+exports[`double(NaN) 10`] = `"Desktop"`;
+
+exports[`double(NaN) 11`] = `"Desktop"`;

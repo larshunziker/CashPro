@@ -1,0 +1,115 @@
+.Container {
+  margin-bottom: $margin24;
+  margin-top: $margin24;
+  position: relative;
+}
+
+.SearchButton {
+  @mixin ButtonBaseSmall;
+  border: 1px solid $black;
+  color: $black;
+  display: inline-block;
+  flex-shrink: 0;
+  -webkit-user-drag: none;
+
+  &:hover {
+    background-color: $white;
+    border-color: $grey80;
+    color: $grey80;
+  }
+}
+
+.Checked {
+  background-color: $black;
+  color: $white;
+
+  &:hover {
+    background-color: $grey80;
+    border-color: $grey80;
+    color: $white;
+  }
+}
+
+.Disabled {
+  border-color: $grey40;
+  color: $grey40;
+  cursor: disabled;
+  pointer-events: none;
+}
+
+.Scroll {
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  margin-top: $margin24;
+  -ms-overflow-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  user-select: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: $smBreakpoint) {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+
+.Icon {
+  composes: Icon from '../../../../components/Navigation/components/MainLinks/styles.legacy.css';
+
+  height: 16px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 1;
+}
+
+.IconButton {
+  composes: IconButton from '../../../../components/Navigation/components/MainLinks/styles.legacy.css';
+  background-color: $transparent;
+
+  border: none;
+  height: calc(100% + 2px);
+  top: -1px;
+
+  &::after {
+    background-image: linear-gradient(to left, rgb(255 255 255 / 0%),rgb(255 255 255 / 90%), rgb(255 255 255 / 100%));
+    left: -1px;
+    margin: 0;
+    position: absolute;
+    width: 39px;
+  }
+
+  @media (max-width: $smBreakpoint) {
+    svg {
+      display: inherit;
+    }
+  }
+
+}
+
+.IconRight {
+  composes: IconRight from '../../../../components/Navigation/components/MainLinks/styles.legacy.css';
+
+  &::before {
+    background-image: linear-gradient(to right, rgb(255 255 255 / 0%),rgb(255 255 255 / 90%), rgb(255 255 255 / 100%));
+    right: 25px;
+    width: 39px;
+  }
+
+  .Icon {
+    left: initial;
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);  
+  }
+}
+
+.Hide {
+  display: none;
+}

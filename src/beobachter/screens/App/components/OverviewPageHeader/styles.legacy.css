@@ -1,0 +1,39 @@
+.Wrapper {
+  margin-bottom: 40px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 48px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 64px;
+  }
+}
+
+.Title {
+  composes: SubheadXXL from 'typography.legacy.css';
+  color: $black;
+  width: 100%;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 10px;
+  }
+}
+
+.Lead {
+  composes: DescriptionLG from 'typography.legacy.css';
+  color: $black;
+  margin-top: 16px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 10px;
+  }
+}
+
+.isCentered {
+  @media (min-width: $mdBreakpoint) {
+    text-align: center;
+  }
+}

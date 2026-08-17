@@ -1,0 +1,90 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin16;
+  position: relative;
+  text-align: start;
+}
+
+.FieldWithHelperTextWrapper {
+  margin-bottom: $margin24;
+}
+
+.OptionWrapper {
+  align-items: center;
+  margin-bottom: 10px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.OptionsColumns {
+  line-height: 0;
+}
+
+.Row {
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+
+  &:hover {
+    & input:not(:disabled),
+    & label:not(.Disabled),
+    & label:not(.Disabled) a {
+      border-color: $black;
+      color: $black;
+      cursor: pointer;
+    }
+  }
+}
+
+.ActiveCheckbox {
+  composes: FormLabelBigBlackA from 'typography.legacy.css';
+}
+
+.Description {
+  composes: FormLabelSmallBlackA from 'typography.legacy.css';
+  color: $greyA;
+  display: inline-block;
+  margin: 0;
+
+  &.HasError {
+    animation: LabelShakingEffectAnimation 0.1s;
+    color: $redC;
+  }
+}
+
+.Required {
+  &::after {
+    content: '*';
+  }
+}
+
+.ErrorIcon {
+  color: $redC;
+  font-size: 1.4rem;
+  line-height: 1.6rem;
+  margin-left: $margin8;
+  vertical-align: middle;
+}
+
+/* Without the !impportant webpack is overwriting this class. */
+.CheckmarkIcon {
+  color: $white;
+  font-size: 20px !important; /* stylelint-disable-line */
+  font-weight: 900 !important; /* stylelint-disable-line */
+  margin: 3px 0 0 -22px;
+  pointer-events: none;
+  position: absolute;
+}
+
+@mixin LabelShakingEffectAnimation;
+
+.LabelsColumns {
+  width: calc(100% - 40px);
+}

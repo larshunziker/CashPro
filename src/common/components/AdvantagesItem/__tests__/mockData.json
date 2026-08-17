@@ -1,0 +1,7 @@
+{
+  "__typename": "advantage",
+  "id": "123id",
+  "image": { "source": "imgsource", "filename": "imgfilename" },
+  "text": "Text of this Item.",
+  "link": { "label": "linklabel", "path": "linkpath", "routed": true }
+}

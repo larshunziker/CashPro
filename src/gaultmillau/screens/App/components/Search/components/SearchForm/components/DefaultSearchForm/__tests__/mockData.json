@@ -1,0 +1,39 @@
+{
+  "data": {
+    "globalSearch": {
+      "count": 24,
+      "edges": [
+        {
+          "node": {
+            "preferredUri": "/people/lifestyle/article-about-roger-federer",
+            "id": "bm9kZToxOTMxNQ==",
+            "title": "Article about Roger Federer",
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "city": "Gstaad",
+            "cityList": null,
+            "description": null,
+            "id": "bm9kZToxODI0MA==",
+            "organizationData": {
+              "__typename": "Restaurant",
+              "id": "cmVzdGF1cmFudDo1NTk=",
+              "secondaryName": "Le Grand Restaurant"
+            },
+            "organizationType": "default",
+            "phone": "+41 33 748 98 00",
+            "preferredUri": "/restaurants/grand-hotel-park-18240",
+            "restaurantType": null,
+            "title": "Grand Hotel Park",
+            "__typename": "Organization"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    }
+  }
+}

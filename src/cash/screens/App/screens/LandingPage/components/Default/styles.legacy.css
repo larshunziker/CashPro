@@ -1,0 +1,56 @@
+.Wrapper {
+  margin-bottom: 0;
+}
+
+.PullOutWrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+
+  /*
+    The grid column holding the teaser list and its interleaved ad slots.
+    80% has no equivalent in the 24-column grid (18/24 is 75%, 19/24 is 79.17%),
+    so the width is set here instead of via a ColXl class. Nested below
+    .PullOutWrapper to outweigh the grid classes independently of the order in
+    which the stylesheets end up in the bundle.
+  */
+  .GridColumn {
+    @media (min-width: $xlBreakpoint) {
+      flex: 0 0 80%;
+      max-width: 80%;
+    }
+  }
+}
+
+.HeadWrapper {
+  margin-bottom: -16px;
+  padding-bottom: 0;
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from '../../../Article/components/ArticleTitle/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.PagerWrapper {
+  margin: 20px auto 16px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.SponsorBannerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 5px;
+  max-height: 40px;
+  width: auto;
+}

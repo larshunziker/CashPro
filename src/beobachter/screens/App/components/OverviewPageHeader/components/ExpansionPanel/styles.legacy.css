@@ -1,0 +1,107 @@
+.ExpansionPanel {
+  display: flex;
+  flex-direction: column-reverse;
+  position: relative;
+  width: 100%;
+
+  .HeaderCentered {
+    background: $transparent;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    padding: 18px 0;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+
+    &::after {
+      background-color: $black;
+      bottom: 0;
+      content: '';
+      height: 1px;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      transition: opacity 0.3s;
+      width: 100%;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: -12px;
+      padding-inline: 8px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &:hover {
+        .HeaderIcon {
+          color: $colorMail;
+        }
+      }
+    }
+  }
+
+  .HeaderContent {
+    align-items: center;
+    color: $grey80;
+    column-gap: 8px;
+    display: flex;
+    flex-direction: row-reverse;
+    font-family: $fontSpezia;
+    font-size: 1.8rem;
+    font-weight: 600;
+    line-height: 2.5rem;
+
+    @media (min-width: $smBreakpoint) {
+      color: $black;
+      font-weight: 300;
+      line-height: 3rem;
+    }
+  }
+
+  .HeaderIcon {
+    color: $black;
+    font-size: 2.4rem;
+    line-height: 2.5rem;
+    transition: transform 0.3s ease-in-out, color 0.3s ease-in-out;
+  }
+
+  .IconOpenState {
+    transform: rotate(180deg);
+  }
+
+  &.NotExpandable .Content::before {
+    display: none;
+  }
+
+  &.isOpen {
+    .Content::before {
+      opacity: 0;
+    }
+  }
+
+  .Content {
+    background-color: $transparent;
+    display: flex;
+    flex-wrap: wrap;
+    height: 0;
+    overflow: hidden;
+    position: relative;
+
+    &::before {
+      background: linear-gradient(180deg, $transparent, $white);
+      bottom: 0;
+      content: '';
+      display: inline-block;
+      height: 77px;
+      opacity: 1;
+      position: absolute;
+      transition: opacity 0.3s ease-in-out;
+      width: 100%;
+    }
+  }
+
+  .Spacer {
+    position: relative;
+  }
+}

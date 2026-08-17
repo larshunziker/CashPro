@@ -1,0 +1,103 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replace if currency is null 1`] = `
+{
+  "__typename": "test_item",
+  "link": {
+    "__typename": "link",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/market-places/4",
+  },
+  "sponsor": {
+    "key": "VT",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "sponsor-logos/VT.png",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replace if items is null 1`] = `null`;
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replace if market is null 1`] = `
+{
+  "__typename": "test_item",
+  "link": {
+    "__typename": "link",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/market-places/valor1",
+  },
+  "sponsor": {
+    "key": "VT",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "sponsor-logos/VT.png",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replace if valorname is null 1`] = `
+{
+  "__typename": "test_item",
+  "link": {
+    "__typename": "link",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/master-data/-343-23",
+  },
+  "sponsor": {
+    "key": "VT",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "sponsor-logos/VT.png",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replace valorNr, market and currency ids 1`] = `
+{
+  "__typename": "test_item",
+  "link": {
+    "__typename": "link",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/master-data/23479-4-1",
+  },
+  "sponsor": {
+    "key": "VT",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "sponsor-logos/VT.png",
+        },
+      },
+    },
+  },
+}
+`;
+
+exports[`[COMPONENT] FullquotePage Test WidgetUrlParams replacement 1`] = `
+{
+  "__typename": "test_item",
+  "link": {
+    "__typename": "link",
+    "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/fullquote-header?p=aktien/UBS1234-Test1--YES-123456789/CH987/CHF",
+  },
+  "sponsor": {
+    "key": "VT",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "sponsor-logos/VT.png",
+        },
+      },
+    },
+  },
+}
+`;

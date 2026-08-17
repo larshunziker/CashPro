@@ -1,0 +1,48 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ImageCaption Should render correctly 1`] = `
+<div>
+  <figcaption
+    class="TextWrapper"
+  >
+    <span
+      class="RichtextWrapper CaptionAuthorParagraph"
+    >
+      Sample Image Caption. Lorem Ipsum... 
+    </span>
+    <span
+      class="CaptionAuthorCopyRight"
+    >
+      Sample Credit
+    </span>
+  </figcaption>
+</div>
+`;
+
+exports[`[Component] ImageCaption Should render correctly but only with caption 1`] = `
+<div>
+  <figcaption
+    class="TextWrapper"
+  >
+    <span
+      class="RichtextWrapper CaptionAuthorParagraph"
+    >
+      Sample Image Caption. Lorem Ipsum... 
+    </span>
+  </figcaption>
+</div>
+`;
+
+exports[`[Component] ImageCaption Should render correctly but only with credit 1`] = `
+<div>
+  <figcaption
+    class="TextWrapper"
+  >
+    <span
+      class="CaptionAuthorCopyRight"
+    >
+      Sample Credit
+    </span>
+  </figcaption>
+</div>
+`;

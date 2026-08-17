@@ -1,0 +1,12 @@
+.Paragraphs {
+  composes: BodyText from 'typography_old.legacy.css';
+  position: relative;
+}
+
+.SectionDefaultMargin {
+  margin-bottom: $sectionParagraphMarginXs;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $sectionParagraphMarginLg;
+  }
+}

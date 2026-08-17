@@ -1,0 +1,329 @@
+.Wrapper {
+  composes: GridRow from 'TeaserGrid/styles.legacy.css'; /* set margins */
+  background: $gradientSkin;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    background: none;
+  }
+}
+
+.SliderWrapper {
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SlideWrapper {
+  overflow: hidden;
+}
+
+.InnerWrapper {
+  margin-left: -$outerGapXs;
+  padding: 20px 0;
+  width: calc(100% + $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    background: $gradientSkin;
+    margin-left: -$pullOutSm;
+    padding: 50px $pullOutSm 32px;
+    position: relative;
+    width: calc(100% + $pullOutSm * 2);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: -$pullOutMd;
+    padding: 50px $pullOutMd 32px;
+    width: calc(100% + $pullOutMd * 2);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: -$pullOutXl;
+    padding: 70px $pullOutXl 68px;
+    width: calc(100% + $pullOutXl * 2);
+  }
+}
+
+.IndicatorWrapper {
+  bottom: 64px;
+  left: calc(50% - 12px);
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 10px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 8px;
+  }
+}
+
+.ControlWrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -18px;
+    display: block;
+    position: absolute;
+    right: $pullOutSm;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -32px;
+    left: auto;
+    top: auto;
+  }
+}
+
+.ImageWrapper {
+  background-color: $black;
+  display: flex;
+  height: auto;
+  justify-content: center;
+  line-height: 0;
+  margin-bottom: $margin12;
+  position: relative;
+  text-align: center;
+
+  &::after {
+    @media (max-width: $xsBreakpointTo) {
+      content: '';
+      display: block;
+      height: 0;
+      overflow: hidden;
+      padding-bottom: 56.25%;
+    }
+  }
+}
+
+.Row {
+  height: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: -9px;
+    margin-right: -9px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: -11px;
+    margin-right: -11px;
+  }
+}
+
+.ImageInnerWrapper {
+  @mixin aspectRatio3x2;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.Image {
+  height: auto;
+  left: 0;
+  margin: 0 auto;
+  max-height: 100%;
+  object-fit: contain;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 100%;
+    max-height: 349px;
+    object-fit: fill;
+    position: relative;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 395px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    max-height: 399px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 636px;
+  }
+}
+
+.Credit {
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+
+  margin-bottom: $margin12;
+  margin-left: $outerGapXs;
+  position: relative;
+  text-align: left;
+  top: 0;
+  width: calc(100% - ($outerGapXs * 2));
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    margin-left: 2px;
+    width: 100%;
+  }
+}
+
+.Caption {
+  composes: Paragraph from 'typography.legacy.css';
+  position: relative;
+  top: -5px;
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  i,
+  em {
+    font-style: italic;
+  }
+
+  a {
+    @mixin InlineHover;
+    border-bottom: 1px solid;
+    color: $inherit;
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: $outerGapXs;
+    width: calc(100% - ($outerGapXs * 2));
+  }
+
+  @media (min-width: $smBreakpoint) {
+    top: 0;
+  }
+}
+
+.ContentWrapper {
+  text-align: left;
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: $outerGapXs;
+    width: calc(100% - ($outerGapXs * 2));
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 574px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    padding-right: 8px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: color($grayB alpha(20%));
+    }
+
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background: color($grayB alpha(60%));
+      }
+    }
+  }
+}
+
+.Title {
+  composes: Heading2A from 'typography.legacy.css';
+
+  @media (max-width: $xsBreakpointTo) {
+    margin-bottom: 18px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.PrevButton {
+  composes: IconArrowLeftButtonOutline from 'raschFont.legacy.css';
+  margin-right: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e913';
+  }
+}
+
+.NextButton {
+  composes: IconArrowRightButtonOutline from 'raschFont.legacy.css';
+  margin-left: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e915';
+  }
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  color: $redA;
+  font-size: 40px;
+  opacity: 0;
+  outline: none;
+  padding: 5px;
+  transition: opacity 0.3s;
+
+  &:not(.DisabledButton):hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    opacity: 1;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 50px;
+  }
+}
+
+.PrevButtonSI,
+.NextButtonSI {
+  color: $redA;
+}
+
+.PrevButtonSY,
+.NextButtonSY {
+  color: $black;
+}
+
+.DisabledButton {
+  @media (min-width: $smBreakpoint) {
+    opacity: 0.3;
+  }
+}

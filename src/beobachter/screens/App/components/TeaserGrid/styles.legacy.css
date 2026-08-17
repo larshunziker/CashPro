@@ -1,0 +1,48 @@
+.GridRow {
+  margin-bottom: $margin32;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.AdContainer {
+  background-color: $greyC;
+  height: 100%;
+  margin-bottom: 0 !important; /* stylelint-disable-line */
+  text-align: center; 
+}
+
+.AdWrapper {
+  @mixin hideforPrint;
+  display: inline-block;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+  }
+}
+
+.PositionTop {
+  align-items: flex-start;
+  display: flex;
+}
+
+.PositionBottom {
+  align-items: flex-end;
+  display: flex;
+}
+
+.StackedWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.RightSidebar {
+  background: $grey30;
+}

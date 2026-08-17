@@ -1,0 +1,35 @@
+.Wrapper {
+  display: block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+
+.Title {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  text-align: center;
+  word-wrap: break-word;
+}
+
+.ContentWrapper {
+  display: block;
+  padding: 8px;
+  position: relative;
+  text-align: center;
+}
+
+.ImageWrapper {
+  display: block;
+  overflow: hidden;
+  width: 100%;
+}
+
+.Image {
+  @mixin transitionTeaser;
+
+  &:hover {
+    @mixin scaleTeaser;
+  }
+}

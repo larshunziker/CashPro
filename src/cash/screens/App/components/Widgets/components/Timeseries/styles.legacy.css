@@ -1,0 +1,101 @@
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+}
+
+.Heading {
+  composes: InfoB from 'typography.legacy.css';
+  border-bottom: 1px solid $greyC;
+  font-weight: 700;
+
+  th {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
+
+.Wrapper {
+  height: 100%;
+  position: relative;
+
+  table {
+    margin-top: 0;
+    width: 100%;
+
+    td {
+      border-bottom: 1px solid $greyC;
+      padding: 5px;
+      white-space: nowrap;
+    }
+  }  
+}
+
+.TableWrapper {
+  margin-top: $margin16;
+  overflow-x: auto;
+}
+
+.TextRight {
+  text-align: right;
+}
+
+.TextLeft {
+  text-align: left;
+}
+
+.AnimateNeutral {
+  animation: animate-neutral 1s;
+}
+
+@keyframes animate-neutral {
+  0% {
+    background: $warning50;
+  }
+
+  100% {
+    background: $transparent;
+  }
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  min-height: 650px;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 550px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}
+
+.CollapseButton {  
+  composes: InfoB from 'typography.legacy.css';
+  align-items: center;
+  border: 0;
+  border-top: 1px solid $greyD;
+  color: $secondaryA;
+  display: flex;  
+  font-size: 16px;
+  font-weight: 700;  
+  justify-content: center;
+  margin: 0 $margin16;
+  padding: 16px;
+  text-align: center;
+  width: calc(100% - 32px);
+
+  span {
+    margin-right: 8px;
+
+    &:hover {
+      color: $secondaryB;
+      cursor: pointer;
+    }
+  }
+}

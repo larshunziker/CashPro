@@ -1,0 +1,22 @@
+{
+  "position": "2",
+  "title": "title",
+  "shortTitle": "some short title",
+  "person": {
+    "id": "1111",
+    "label": "Roger Federer",
+    "teaserImage": {
+      "id": "179661",
+      "image": {
+        "file": {
+          "alt": "Aromachlogie Hitzeschutzspray",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+        }
+      }
+    },
+    "preferredUri": "/stichworte/R/roger-federer",
+    "__typename": "Person"
+  }
+}

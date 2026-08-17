@@ -1,0 +1,159 @@
+.Tooltip {
+  background: $white;
+  border-radius: 8px;
+  color: $black;
+  display: flex;
+  filter: drop-shadow(0 0 27px rgb(0 0 0 / 30%));
+  flex-wrap: wrap;
+  font-family: $fontSpezia;
+  font-size: 16px;
+  left: 50%;
+  line-height: 160%;
+  margin-top: 8px;
+  max-width: calc(100vw - 28px);
+  padding: 24px 16px;
+  position: absolute;
+  text-align: left;
+  text-wrap: auto;
+  top: 100%;
+  transform: translateX(-50%);
+  width: 359px;
+  will-change: transform, opacity, filter;
+  z-index: 1000;
+
+
+  @media (max-width: 360px) {
+    padding: 40px 16px 24px;
+  }
+
+  b {
+    font-size: 20px;
+    font-weight: 700;
+  }
+}
+
+.Link {
+  composes: Link from '../UtilityLink/styles.legacy.css';
+
+  &.Active,
+  &:hover {
+    .Icon {
+      path {
+        color: $white;
+        fill: $white;
+      }
+    }
+
+    .Label {
+      color: $black;
+    }
+  }
+}
+
+.TopBarWrapper {
+  .Icon {
+    background: $transparent;
+
+    path {
+      color: $black;
+      fill: $black;
+
+      @media(min-width: $mdBreakpoint) {
+        fill: $greyA;
+      }
+    }
+  }
+
+  &.Active,
+  &:hover {
+    .Icon {
+      path {
+        color: $black;
+        fill: $black;
+      }
+    }
+  }
+}
+
+.Label {
+  composes: Label from '../UtilityLink/styles.legacy.css';
+  color: $black;
+}
+
+.Icon {
+  composes: Icon from '../UtilityLink/styles.legacy.css';
+
+  background: $black;
+
+  path {
+    color: $white;
+    fill: $white;
+  }
+}
+
+.Active {
+  composes: Active from '../UtilityLink/styles.legacy.css';
+}
+
+.HeaderLink {
+  composes: HeaderLink from '../UtilityLink/styles.legacy.css';
+}
+
+.Wrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.TooltipCloseIcon {
+  cursor: pointer;
+  font-size: 24px;
+  position: absolute;
+  right: 16px;
+  top: 16px;
+}
+
+.TooltipOpen {
+  &::after {
+    border-bottom: 13px solid $white;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    bottom: -8px;
+    content: '';
+    height: 10px;
+    left: 24px;
+    margin: auto;
+    position: absolute;
+    transform: translateX(0);
+    width: 10px;
+    z-index: 1001;
+
+
+    @media (max-width: 375px) {
+      bottom: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+    }
+
+    @media (max-width: 345px) {
+      bottom: -15px;
+    }
+  }
+
+  &.Active,
+  &:hover {
+    .Icon {
+      path {
+        color: $white;
+        fill: $white;
+      }
+    }
+  }
+}
+
+.Hidden {
+  display: none;
+}
+
+:global(#piano-gift-tooltip-container) {
+  width: 100%;
+}

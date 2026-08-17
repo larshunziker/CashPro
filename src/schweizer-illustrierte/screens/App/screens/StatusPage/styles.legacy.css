@@ -1,0 +1,66 @@
+.Wrapper {
+  margin: $margin40 0 $margin64;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin80 0 $margin128;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Row {
+  composes: Row from '@grid.legacy.css';
+}
+
+.Columns {
+  composes: ColXs24 from '@grid.legacy.css';
+}
+
+.HeaderWrapper {
+  align-items: flex-start;
+  display: flex;
+}
+
+.IconWrapper {
+  height: 72px;
+  width: 72px;
+}
+
+.Icon {
+  height: 72px;
+  max-height: 72px;
+  max-width: 72px;
+  width: 72px;
+}
+
+.Title {
+  composes: Heading1B from 'typography.legacy.css';
+
+  margin-left: $margin16;
+  min-height: 72px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin32;
+  }
+}
+
+.Description {
+  composes: Paragraph from 'typography.legacy.css';
+
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin104;
+    margin-top: $margin8;
+  }
+}
+
+.SearchWrapper {
+  margin-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin80;
+  }
+}

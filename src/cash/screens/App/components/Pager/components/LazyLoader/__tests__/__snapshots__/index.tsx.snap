@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] LazyLoader Should not render button if no next page is needed  1`] = `<div />`;
+
+exports[`[Component] LazyLoader Should render nothing 1`] = `<div />`;

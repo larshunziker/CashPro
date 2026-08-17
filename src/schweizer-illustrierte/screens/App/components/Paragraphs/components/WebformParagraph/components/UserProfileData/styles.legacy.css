@@ -1,0 +1,26 @@
+
+.Title {
+  @mixin FormLabelSmallGrayC;
+  margin-bottom: $margin8;
+}
+
+.Text {
+  @mixin FormLabelBig;  
+  margin-bottom: $margin24;
+}
+
+.Paragraph {
+  @mixin Paragraph;
+  margin-bottom: $margin24;
+}
+
+.Button {
+  color: $redA;
+  display: block;
+  margin: 16px 0;
+  @mixin ButtonBig;
+}
+
+.Row {
+  display: block;
+}

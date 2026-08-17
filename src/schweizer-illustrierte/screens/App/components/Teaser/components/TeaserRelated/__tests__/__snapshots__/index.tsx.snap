@@ -1,0 +1,51 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserRelated Should generate Teaser Icon by Props for Content type Article of channel People with Video false 1`] = `<div />`;
+
+exports[`[Component] TeaserRelated Should generate Teaser Icon by Props for Content type Article of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserRelated Should generate Teaser Icon by Props for Content type ImageGallery of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconFotoMarker IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserRelated Should generate Teaser Icon by Props for Content type NativeAdvertising of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserRelated Should generate Teaser Icon by Props for Content type Video of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconMovieOutline IconMovieOutlineStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserRelated Should generate styles correctly 1`] = `
+{
+  "ContentWrapper": "ContentWrapper",
+  "IconStyle": "IconStyle",
+  "Image": "Image",
+  "ImageWrapper": "ImageWrapper",
+  "ShortTitle": "ShortTitle",
+  "SkeletonContentWrapper": "SkeletonContentWrapper",
+  "SkeletonShortTitle": "SkeletonShortTitle",
+  "SkeletonTitle": "SkeletonTitle",
+  "SkeletonWrapper": "SkeletonWrapper",
+  "Title": "Title",
+  "Wrapper": "Wrapper",
+}
+`;

@@ -1,0 +1,79 @@
+.Wrapper {
+  background-color: $white;
+  padding: $margin16;
+  position: relative;
+  z-index: $zIndexHeader;
+}
+
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+  color: $secondaryA;
+  display: flex;
+  margin-bottom: $margin16;
+
+  .Icon {
+    margin-right: $margin8;
+    position: relative;
+    top: 2px;
+  }
+}
+
+.WelcomeText {
+  margin-top: $margin12;
+
+  ~ button {
+    margin-top: $margin24;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.ListItemWrapper {
+  padding: $margin8 0;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $greyD;
+  }
+
+  .ListItem {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.Heading {
+  composes: Info from 'typography.legacy.css';
+}
+
+.Description {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.ItemsWrapper {
+  min-height: 150px;
+  overflow: auto;
+  padding-bottom: 35px;
+
+  &::after {
+    background-image: linear-gradient(0deg, $white 26.28%, $white0 90.83%);
+    bottom: 0;
+    content: '';
+    display: block;
+    height: 65px;
+    left: 0;
+    position: absolute;
+    right: 0;
+  }
+
+  &.StatusPage {
+    max-height: 300px;
+  }
+}

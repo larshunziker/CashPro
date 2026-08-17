@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserStageParagraph Should not render if ministageParagraph is empty 1`] = `<div />`;
+
+exports[`[Component] TeaserStageParagraph Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-video-paragraph WrapperClassName"
+  >
+    <div
+      class="InnerWrapperTitleClassName"
+    >
+      <div
+        class="MockedVideoStage"
+      >
+        180341
+      </div>
+    </div>
+  </div>
+</div>
+`;

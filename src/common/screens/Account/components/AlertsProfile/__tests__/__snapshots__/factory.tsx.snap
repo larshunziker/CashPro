@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AlertsProfile Should match snapshot and display the login form 1`] = `
+<div>
+  <div
+    class="AlertsProfileWrapperClassName"
+  >
+    <div
+      class="containerClassName"
+    >
+      <h2
+        class="TitleClassName"
+      >
+        E-Mail Alerts
+      </h2>
+    </div>
+    <div
+      class="LoginWrapperClassName containerClassName"
+    >
+      <form
+        data-testid="login-form"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertsProfile Should match snapshot if isAuthenticated is true and fetch an alert list with keywords and nodes 1`] = `
+<div>
+  <div
+    class="AlertsProfileWrapperClassName"
+  >
+    <div
+      class="containerClassName"
+    >
+      <h2
+        class="TitleClassName"
+      >
+        E-Mail Alerts
+      </h2>
+    </div>
+    <div
+      class="containerClassName"
+    >
+      <div
+        data-testid="loading"
+      >
+        loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertsProfile Should match snapshot if isAuthenticated is true and fetch an empty alert list 1`] = `
+<div>
+  <div
+    class="AlertsProfileWrapperClassName"
+  >
+    <div
+      class="containerClassName"
+    >
+      <h2
+        class="TitleClassName"
+      >
+        E-Mail Alerts
+      </h2>
+    </div>
+    <div
+      class="containerClassName"
+    >
+      <div
+        data-testid="loading"
+      >
+        loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertsProfile Should match snapshot if isAuthenticated is true and fetch request fails 1`] = `
+<div>
+  <div
+    class="AlertsProfileWrapperClassName"
+  >
+    <div
+      class="containerClassName"
+    >
+      <h2
+        class="TitleClassName"
+      >
+        E-Mail Alerts
+      </h2>
+    </div>
+    <div
+      class="containerClassName"
+    >
+      <div
+        data-testid="loading"
+      >
+        loading...
+      </div>
+    </div>
+  </div>
+</div>
+`;

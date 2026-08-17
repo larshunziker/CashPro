@@ -1,0 +1,229 @@
+.RowDetailsOuterWrapper {
+  height: 0;
+
+  &.IsOpen {
+    display: flex;
+    height: 100%;
+    margin-bottom: $margin16;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      display: table-row;
+      margin-bottom: 0;
+    }
+
+    .RowDetailsInnerWrapper {
+      height: 100%;
+      transition: none;
+    }
+  }
+}
+
+.RowDetailsTableCell {
+  width: 100%;
+}
+
+.RowDetailsWrapper {
+  align-items: center;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  margin-bottom: $margin24;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(-$margin24);
+  transition: none;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: column;
+    margin-bottom: 0;
+  }
+
+  &.IsOpen {
+    border-radius: 4px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+    box-shadow: 1px 3px 5px 2px rgb(0 0 0 / 15%);
+    height: 100%;
+    margin-bottom: 0;
+    opacity: 1;
+    padding: $margin16;
+    pointer-events: auto;
+    transform: translateY(0);
+    transition: all .4s ease, opacity 1s ease, height 0s ease, padding 0s ease;
+
+    &::before {
+      background: $white;
+      content: '';
+      height: 10px;
+      left: 0;
+      position: absolute;
+      top: -10px;
+      width: 100%;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      border-bottom: 1px solid $greyE;
+      border-radius: 0;
+      box-shadow: none;
+      flex-direction: column;
+      padding: $margin24 0;
+
+      &::before {
+        display: none;
+      }
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      align-items: flex-start;
+      flex-direction: row;
+      margin-bottom: 0;
+    }
+  }
+}
+
+.RowDetailsInnerWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 0;
+  transition: all .4s ease, opacity 1s ease, padding 0s ease;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-grow: 1;
+    flex-wrap: wrap;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    flex-wrap: nowrap;
+  }
+}
+
+.PictureAndMiddleWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    flex-direction: row;
+    flex-grow: 1;
+    margin-bottom: 16px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.MiddleWrapper {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 200px;
+    justify-content: space-between;
+    margin: 0 $margin16 0 $margin24;
+  }
+}
+
+.RankingImage {
+  margin-bottom: $margin16;
+  width: 200px;
+
+  @media (min-width: $smBreakpoint) {
+    align-self: flex-start;
+    margin-bottom: 0;
+  }
+}
+
+.DetailsTeaserText {
+  composes: RankParagraph from 'typography.legacy.css';
+
+  -webkit-box-orient: vertical;
+  /* stylelint-disable-next-line */
+  display: -webkit-box;
+  -webkit-line-clamp: 5;
+  margin-bottom: $margin16;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  @media (min-width: $smBreakpoint) {
+    -webkit-line-clamp: 6;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    -webkit-line-clamp: 5;
+  }
+}
+
+.ButtonWrapper {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin16;
+  order: -1;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-start;
+    margin-bottom: 0;
+    order: 0;
+  }
+}
+
+.Button {
+  margin: 0;
+  white-space: nowrap;
+  width: 200px;
+
+  @media (min-width: $smBreakpoint) {
+    width: auto;
+  }
+}
+
+.ChartWrapper {
+  background: $greyD;
+  border-radius: 4px;
+  display: grid;
+  height: 142px;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 165px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 200px;
+    width: 100%;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    max-width: 348px;
+  }
+
+  &.IsLoading {
+    animation: pulsing 1.5s infinite;
+
+    div {
+      align-items: center;
+      display: flex;
+      font-family: $fontGotham;
+      justify-content: center;
+    }
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.2;
+  }
+}

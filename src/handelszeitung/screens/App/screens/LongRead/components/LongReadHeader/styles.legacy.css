@@ -1,0 +1,180 @@
+.Wrapper {
+  position: relative;
+}
+
+.Figure {
+  margin-bottom: $margin16;
+}
+
+.TeaserWrapper,
+.OverlappingTextWrapper,
+.CaptionWrapper {
+  position: relative;
+}
+
+.TeaserWrapper {
+  line-height: 0;
+
+  &::after {
+    background: $gradientLongReadBlack;
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: calc($zIndexMedium - 1);
+  }
+}
+
+.OverlappingText {
+  bottom: 0;
+  color: $white;
+  left: 0;
+  position: absolute;
+  z-index: $zIndexMedium;
+}
+
+.Title {
+  composes: H1White from 'typography.legacy.css';
+}
+
+.Caption {
+  composes: ImageParagraph from 'typography.legacy.css';
+
+  padding-top: 10px;
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  a {
+    border-bottom: 1px solid;
+    color: $blueA;
+    padding: 1px;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+}
+
+.ArticleLead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: 14px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 26px;
+  }
+}
+
+.ArticleImage {
+  width: 100%;
+}
+
+.ArticleImageCredit {
+  composes: ImageParagraphMeta from 'typography.legacy.css';
+}
+
+.LogoWrapper {
+  background-color: $greyC;
+  padding: 16px 0 4px;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 16px 0 7px;
+  }
+
+  .HzLogoWrapper {
+    display: inline-block;
+    margin-right: $margin8;
+    position: relative;
+    top: 0;
+
+    @media (min-width: $mdBreakpoint) {
+      top: -1px;
+    }
+
+    svg {
+      height: 19px;
+      width: 42px;
+
+      @media (min-width: $mdBreakpoint) {
+        height: 20px;
+        width: 48px;
+      }
+    }
+  }
+
+  .BilLogoWrapper {
+    display: inline-block;
+
+    svg {
+      height: 19px;
+      margin-right: 7px;
+      width: 93px;
+
+      @media (min-width: $mdBreakpoint) {
+        height: 22px;
+        width: 108px;
+      }
+    }
+  }
+
+  .Divider {
+    background-color: $greyB;
+    display: inline-block;
+    height: 19px;
+    margin-right: 9px;
+    width: 1px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-right: $margin8;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 22px;
+      margin-right: 9px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      margin-right: $margin8;
+    }
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyC;
+  bottom: 0;
+  height: 72px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndexHeader;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    position: relative;
+  }
+}
+
+.UtilityOverlayWrapper {  
+  z-index: $zIndexHeader;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 694px;
+  }
+}

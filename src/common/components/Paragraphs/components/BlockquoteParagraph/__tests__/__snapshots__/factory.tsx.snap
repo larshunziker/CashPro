@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Paragraphs - BlockquoteParagraph factory Should render correctly 1`] = `
+<div>
+  <blockquote
+    class="paragraph blockquote-paragraph .SampleWrapperClass"
+  >
+    <p
+      class=".SampleQuoteClass"
+    >
+      Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+    </p>
+    <cite
+      class=".SampleQuoteAuthorClass"
+    >
+      John Woods
+    </cite>
+  </blockquote>
+</div>
+`;
+
+exports[`[Common] Paragraphs - BlockquoteParagraph factory Should render correctly with quote text but without author 1`] = `
+<div>
+  <blockquote
+    class="paragraph blockquote-paragraph .SampleWrapperClass"
+  >
+    <p
+      class=".SampleQuoteClass"
+    >
+      Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+    </p>
+  </blockquote>
+</div>
+`;
+
+exports[`[Common] Paragraphs - BlockquoteParagraph factory Should render correctly, if author is an empty string 1`] = `
+<div>
+  <blockquote
+    class="paragraph blockquote-paragraph .SampleWrapperClass"
+  >
+    <p
+      class=".SampleQuoteClass"
+    >
+      Always code as if the guy who ends up maintaining your code will be a violent psychopath who knows where you live.
+    </p>
+  </blockquote>
+</div>
+`;
+
+exports[`[Common] Paragraphs - BlockquoteParagraph factory Should render nothing, if no quote text is given 1`] = `<div />`;
+
+exports[`[Common] Paragraphs - BlockquoteParagraph factory Should render nothing, if the quote text is an empty string 1`] = `<div />`;

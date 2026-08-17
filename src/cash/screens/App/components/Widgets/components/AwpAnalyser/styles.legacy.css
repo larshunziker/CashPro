@@ -1,0 +1,78 @@
+.RatingWrapper {
+  margin-bottom: $margin32;
+}
+
+.Title {
+  composes: BoxTitle from '../../../../assets/styles/typography.legacy.css';
+  margin-bottom: $margin24;
+}
+
+.SubTitle {
+  composes: SubTitle from '../../../../assets/styles/typography.legacy.css';
+  font-weight: 700;
+  margin-bottom: $margin24;
+  text-transform: uppercase;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.SubTitleDetail {
+  margin-bottom: $margin16;
+}
+
+.Label {
+  composes: DataTable from '../../../../assets/styles/typography.legacy.css';
+  min-width: 64px;
+}
+
+.RateLabel {
+  composes: DataTable from '../../../../assets/styles/typography.legacy.css';
+  min-width: 20px;
+  text-align: right;
+}
+
+.RangeRatingWrapper {
+  margin-bottom: $margin32;
+}
+
+.TextAnalysis {
+  margin-bottom: $margin48;
+}
+
+.ProgressBarWrapper {
+  margin-bottom: $margin32;
+
+  .SubTitle {
+    margin-bottom: $margin16;
+  }
+}
+
+.ProgressBarItem {
+  display: flex;
+  gap: 16px;
+}
+
+.RateWrapper {
+  flex: 1;
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  min-height: 650px;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 550px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

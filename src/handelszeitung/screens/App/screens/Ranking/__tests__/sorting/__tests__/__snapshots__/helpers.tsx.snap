@@ -1,0 +1,2491 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ranking helpers - [SORTING] [1] Should sort list by rankingPosition - asc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [2] Should sort list by rankingPosition - desc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [3] Should sort by name - asc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [4] Should sort by name - desc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [5] Should sort for networth - asc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [6] Should sort for networth - desc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [7] Should sort for industry - asc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [8] Should sort for industry - desc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [9] Should sort for industry - asc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+]
+`;
+
+exports[`Ranking helpers - [SORTING] [10] Should sort for state - desc 1`] = `
+[
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Larry Ellison",
+      "nid": "51712",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 4,
+              "rankingValue": "107000000000",
+            },
+          },
+        ],
+      },
+      "title": "Larry Ellison",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 4,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "107000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Jeff Bezos",
+      "nid": "51711",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "114000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "112000000000",
+            },
+          },
+        ],
+      },
+      "title": "Jeff Bezos",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 3,
+    "rankingState": "USA",
+    "rankingValue": "114000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Elon Musk",
+      "nid": "51710",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "180000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 2,
+              "rankingValue": "179000000000",
+            },
+          },
+        ],
+      },
+      "title": "Elon Musk",
+    },
+    "rankingIndustry": "Technologie",
+    "rankingPosition": 2,
+    "rankingState": "USA",
+    "rankingValue": "180000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Julia Koch",
+      "nid": "51714",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 6,
+              "rankingValue": "100000000000",
+            },
+          },
+        ],
+      },
+      "title": "Julia Koch",
+    },
+    "rankingIndustry": "Immobilien",
+    "rankingPosition": 6,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "100000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": true,
+      "name": "Wanda Muster",
+      "nid": "19034",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 7,
+              "rankingValue": "88000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZToxOTAxMg==",
+                "rankingType": "300_reichste",
+                "year": 2016,
+              },
+              "rankingPosition": 3,
+              "rankingValue": "11000000000",
+            },
+          },
+        ],
+      },
+      "title": "Wanda Muster",
+    },
+    "rankingIndustry": "Food, Immobilien",
+    "rankingPosition": 7,
+    "rankingState": "USA",
+    "rankingTrend": "returnee",
+    "rankingValue": "88000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Warren Buffett",
+      "nid": "51713",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 5,
+              "rankingValue": "106000000000",
+            },
+          },
+        ],
+      },
+      "title": "Warren Buffett",
+    },
+    "rankingIndustry": "Finanzen & Investment",
+    "rankingPosition": 5,
+    "rankingState": "USA",
+    "rankingTrend": "new",
+    "rankingValue": "106000000000",
+  },
+  {
+    "person": {
+      "description": null,
+      "isWoman": false,
+      "name": "Bernard Arnault & family",
+      "nid": "51709",
+      "rankings": {
+        "edges": [
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2023,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "211000000000",
+            },
+          },
+          {
+            "node": {
+              "ranking": {
+                "id": "bm9kZTo1MTcwOA==",
+                "rankingType": "300_reichste",
+                "year": 2022,
+              },
+              "rankingPosition": 1,
+              "rankingValue": "210000000000",
+            },
+          },
+        ],
+      },
+      "title": "Bernard Arnault & family",
+    },
+    "rankingIndustry": "Fashion",
+    "rankingPosition": 1,
+    "rankingState": "Frankreich",
+    "rankingValue": "211000000000",
+  },
+]
+`;

@@ -1,0 +1,191 @@
+.Wrapper {
+  position: relative;
+  width: 100%;
+}
+
+.ContainerBlick {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Title {
+  composes: ContentBoxSmall from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    composes: ChannelTitle from 'typography.legacy.css';
+  }
+
+  i {
+    margin-left: $margin8;
+  }
+}
+
+.Valor {
+  composes: InfoD from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin32;
+}
+
+.ValorBlick {
+  composes: InfoD from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin16;
+}
+
+.Date {
+  composes: InfoD from 'typography.legacy.css';
+  align-self: end;
+  color: $greyA;
+  margin-top: 8px;
+}
+
+.DateBlick {
+  composes: InfoD from 'typography.legacy.css';
+  align-self: end;
+  color: $greyA;
+  margin-top: 4px;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 5px;
+    margin-top: 8px;
+  }
+}
+
+.DateContainer {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  margin-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+.Values {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+
+  &.BlickValues {
+    flex-direction: column;
+  }
+}
+
+.Value {
+  composes: BoxTitle from 'typography.legacy.css';
+  display: flex;
+  flex-direction: row-reverse;
+  margin-right: 4px;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+    margin-right: $margin16;
+  }
+}
+
+.Buttons {
+  display: flex;
+  gap: 16px;
+  margin-left: auto;
+}
+
+.ButtonMobile {
+  width: 83px;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.ButtonDesktop {
+  display: none;
+  width: 83px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.ButtonPositive {
+  button {
+    /* stylelint-disable-next-line */
+    background-color: $positive !important;
+
+    &:hover {
+      /* stylelint-disable-next-line */
+      background-color: $positiveB !important;
+    }
+  }
+}
+
+.Red {
+  color: $primaryA;
+}
+
+.Green {
+  color: $positive;
+}
+
+.Up {
+  transform: rotate(-45deg);
+}
+
+.Down {
+  transform: rotate(45deg);
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+}
+
+.ButtonFallback {
+  @media (min-width: $smBreakpoint) {
+    margin-left: auto;
+  }
+}
+
+.Link {
+  composes: InfoC from 'typography.legacy.css';
+  color: $secondaryA;
+  font-weight: 700;
+  white-space: nowrap;
+}
+
+.ExternalStyles {
+  a {
+    font-family: $fontGotham;
+    line-height: 18px;
+  }
+
+  & > span {
+    font-family: $fontGotham;
+    font-weight: 400;
+  }
+}
+
+.HzStyles {
+  a {
+    /* stylelint-disable-next-line  */
+    color: #192a6b;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

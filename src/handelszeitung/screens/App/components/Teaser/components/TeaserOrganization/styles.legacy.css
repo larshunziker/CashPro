@@ -1,0 +1,78 @@
+.Bubble {
+  composes: H3White from 'typography.legacy.css';
+  align-items: center;
+  background-color: $blue;
+  border-radius: 50%;
+  display: flex;
+  float: left;
+  height: 37px;
+  justify-content: center;
+  line-height: 3.2rem;
+  margin-right: 10px;
+  width: 37px;
+
+  span {
+    max-width: 50%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: 40px;
+    width: 40px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 46px;
+    margin-right: 12px;
+    width: 46px;
+  }
+}
+
+.TextWrapper {
+  float: left;
+  width: calc(100% - 58px);
+}
+
+.Title {
+  composes: H4Light from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: -1px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 2px;
+  }
+}
+
+.Link {
+  composes: InfoParagraphBlue from 'typography.legacy.css';
+  margin-top: 3px;
+
+  .Inner {
+    white-space: nowrap;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 5px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 6px;
+  }
+}
+
+.Icon {
+  left: 10px;
+  position: relative;
+  top: 2px;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    left: 4px;
+    top: 1px;
+  }
+}

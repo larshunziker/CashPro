@@ -1,0 +1,183 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+
+  background: $white;
+  height: 100%;
+  overflow-y: auto;
+  width: 100%;
+  z-index: 1500;
+
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2 + 56px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2 + 56px);
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: calc(40vw - 440px - 28px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(40vw - 654px);
+    width: calc(1440px - ($outerGapXl * 2) + 48px);
+  }
+}
+
+.MenuHeader {
+  background: $white;
+  padding-bottom: 14px;
+
+  > div {
+    margin-left: 19px;
+    margin-right: 20px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    > div {
+      margin-left: 29px;
+      margin-right: 30px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 12px;
+
+    > div {
+      margin-left: $margin24;
+      margin-right: $margin24;
+    }
+  }
+}
+
+.MenuHeaderContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 6px 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 13px 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 14px 0;
+  }
+}
+
+.HeaderLogo {
+  height: 25px;
+}
+
+.HeaderLogoContent {
+  align-items: center;
+  display: flex;
+  height:38px;
+}
+
+.CloseButton {
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+}
+
+.CloseIcon {
+  composes: CloseIcon from '../../../NavigationLoginMenu/styles.legacy.css';
+}
+
+.MenuBodyWrapper {
+  background:  $white;
+}
+
+.UserInformationWrapper {
+  background:  $decoB;
+  padding-bottom: 16px;
+  padding-top: 16px;
+
+  > div {
+    margin-left: 19px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 24px;
+    padding-top: 32px;
+
+    > div {
+      margin-left: 29px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+
+    > div {
+      margin-left: $margin24;
+    }
+  }
+}
+
+
+.UserName {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: bold;
+  word-wrap: break-word;
+}
+
+.UserCredentials {
+  composes: InfoD from 'typography.legacy.css';
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  margin-top: $margin24;
+  padding: 0 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+    padding: 0 29px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 0;
+
+    > div {
+      margin-left: $margin24;
+    }
+  }
+
+}
+
+.MenuItem {
+  composes: HamburgerMenu2 from 'typography.legacy.css';
+  cursor: pointer;
+  list-style: none;
+  max-width: fit-content;
+  position: relative;
+
+  a:any-link {
+    /* hide external link icon */
+    &::after {
+      display: none !important; /* stylelint-disable-line */
+    }
+  }
+
+  a, div {
+    align-items: center;
+    display: flex;
+    padding: 12px 0;
+
+    &:hover {
+      color: $secondaryB;
+    }
+  }
+
+  i {
+    @mixin fontSize 18;
+    @mixin lineHeight 24;
+    margin-bottom: -2px;
+  }
+}

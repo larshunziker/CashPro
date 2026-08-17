@@ -1,0 +1,64 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.ShortTitle {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin12;
+  }
+}
+
+.ShortTitleBold {
+  composes: ShortTitleABoldNeutralA from 'typography.legacy.css';
+}
+
+.Title {
+  composes: HeadingBNeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  margin-bottom: $margin16;
+  max-width: 310px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 582px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 732px;
+  }
+}
+
+.Lead {
+  composes: LeadANeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  margin-bottom: $margin16;
+  padding: 0 10px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0;
+    width: 582px;
+  }
+}
+
+.DateWrapper {
+  composes: InfoENeutralA from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Link {
+  composes: ShortTitleABoldNeutralA from 'typography.legacy.css';
+  display: contents;
+}

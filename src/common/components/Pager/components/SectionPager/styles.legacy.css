@@ -1,0 +1,89 @@
+.Wrapper {
+  border-radius: 4px;
+  padding: $defaultPadding;
+
+  @media print {
+    display: none;
+  }
+}
+
+.WrapperRight {
+  max-width: 200px;
+  position: absolute;
+  right: 0;
+  top: 15px;
+}
+
+.Title {
+  color: $black;
+  font-family: $fontSansSerif;
+  font-size: $h1FontSize;
+  font-weight: 500;
+  line-height: 2rem;
+  margin-bottom: $smallMargin;
+  text-transform: uppercase;
+}
+
+.ItemWrapper {
+  padding: $defaultPadding;
+}
+
+.ItemWrapperIsActive {
+  position: relative;
+
+  &::after {
+    background-color: $navblue;
+    bottom: 13px;
+    content: ' ';
+    display: block;
+    left: -12px;
+    position: absolute;
+    top: 13px;
+    width: 5px;
+  }
+}
+
+.Link {
+  cursor: pointer;
+  display: block;
+}
+
+.LinkIsActive {
+  cursor: default;
+  pointer-events: none;
+}
+
+.ItemTitle {
+  background-color: $navblue;
+  color: $white;
+  font-family: $fontSansSerif;
+  font-size: $h2FontSize;
+  font-weight: 900;
+  line-height: 1.5rem;
+  padding: $smallPadding;
+  text-transform: uppercase;
+}
+
+.ItemText {
+  color: $black;
+  display: block;
+  font-family: $fontSansSerif;
+  font-size: $h2FontSize;
+  font-weight: 500;
+  line-height: 1.5rem;
+  margin-top: $defaultMargin;
+}
+
+.ItemTextIsActive {
+  color: $lightgray;
+}
+
+.ItemTitleIsActive {
+  background-color: $lightgray;
+  color: $white;
+  text-transform: uppercase;
+}
+
+.SectionPagerItem {
+  list-style: none;
+}

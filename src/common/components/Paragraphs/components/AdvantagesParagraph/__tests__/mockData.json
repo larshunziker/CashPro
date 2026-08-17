@@ -1,0 +1,47 @@
+{
+  "entry": {
+    "header": "4 Advantages",
+    "id": "202058",
+    "advantagesItems": [
+      {
+        "id": "202054",
+        "image": {
+          "filename": "haus.svg",
+          "source": "https://cms.dev.ringiermedienschweiz.ch/sites/default/files/2020-07/haus.svg"
+        },
+        "text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>\n",
+        "link": null
+      },
+      {
+        "id": "202055",
+        "image": {
+          "filename": "pencil_0.svg",
+          "source": "https://cms.dev.ringiermedienschweiz.ch/sites/default/files/2020-07/pencil_0.svg"
+        },
+        "text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>\n",
+        "link": {
+          "path": "https://www.blick.ch",
+          "label": ""
+        }
+      },
+      {
+        "id": "202056",
+        "image": {
+          "filename": "person.svg",
+          "source": "https://cms.dev.ringiermedienschweiz.ch/sites/default/files/2020-08/person.svg"
+        },
+        "text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>\n",
+        "link": null
+      },
+      {
+        "id": "202057",
+        "image": {
+          "filename": "Lindt-Logo_0.svg",
+          "source": "https://cms.dev.ringiermedienschweiz.ch/sites/default/files/2020-08/Lindt-Logo_0.svg"
+        },
+        "text": "<p>It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.</p>\n",
+        "link": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,140 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  line-height: 0;
+  position: relative;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: calc($zIndexMedium - 1);
+  }
+}
+
+.Wrapper::after {
+  background: $gradientBlack;
+}
+
+.WrapperWithSponsor::before {
+  background: $gradientWhite;
+  z-index: calc($zIndexMedium - 2);
+
+  @media (min-width: $smBreakpoint) {
+    background: $gradientShineWhite;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    background: linear-gradient(
+      22.2deg,
+      rgb(255 255 255 / 0%) 0%,
+      $white 100%
+    );
+  }
+}
+
+.TeaserTitleWrapper {
+  max-width: 100%;
+}
+
+.InnerWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.Link {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+  height: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 236px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 209px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 189px;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.TeaserText {
+  bottom: 16px;
+  left: 0;
+  padding: 8px 12px;
+  position: absolute;
+  text-align: left;
+  width: 100%;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 10px 19px 3px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 10px 20px 3px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 10px 22px 8px;
+  }
+}
+
+.ShortTitleWrapper {
+  height: 21px;
+  margin-bottom: $margin8;
+  width: 100px;
+}
+
+.TeaserTitle {
+  composes: H4White from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.SponsorImageWrapper {
+  composes: SponsorImageWrapper from '../../../TeaserML/components/TeaserMLImageTile/styles.legacy.css';
+}
+
+.DedicatedPageLink {
+  composes: Meta3White from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  padding-top: 8px;
+}
+
+.ArrowWrap {
+  margin-left: 10px;
+}
+
+.Badge {
+  bottom: 17px;
+  left: -12px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    left: -18px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: -20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    left: -24px;
+  }
+}

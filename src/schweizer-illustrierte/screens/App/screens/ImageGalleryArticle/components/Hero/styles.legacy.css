@@ -1,0 +1,227 @@
+.Wrapper {
+  margin-left: -$outerGapXs;
+  margin-right: -$outerGapXs;
+  position: relative;
+  width: calc(100% + $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+    width: 100%;
+  }
+
+  &::before {
+    background: $gradientTeaser;
+    bottom: 3px;
+    content: '';
+    height: 140px;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    @media (min-width: $smBreakpoint) {
+      height: 300px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      height: 355px;
+    }
+  }
+}
+
+.WrapperSI {
+  margin-bottom: 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 26px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 46px;
+  }
+}
+
+.WrapperSY {
+  margin-bottom: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.ContentWrapper {
+  left: $outerGapXs;
+  position: absolute;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -20px;
+    max-width: 300px;
+  }
+}
+
+.ContentWrapperSI {
+  bottom: -18px;
+  max-width: 350px;
+  padding-right: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -16px;
+    left: 0;
+    min-width: 415px;
+    padding-right: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: -32px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -40px;
+    max-width: 670px;
+  }
+}
+
+.ContentWrapperSY {
+  bottom: -58px;
+  width: calc(100% - $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -16px;
+    left: 0;
+    max-width: 435px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: -30px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -39px;
+    max-width: 540px;
+  }
+}
+
+.Title {
+  line-height: 1.4;
+
+  > .TitleInner {
+    box-decoration-break: clone;
+    padding: 0 6px 2px;
+  }
+}
+
+.TitleSI {
+  composes: Heading1B from 'typography.legacy.css';
+  display: inline;
+  line-height: 1.4;
+
+  > .TitleInnerSI {
+    background-color: $white;
+    box-decoration-break: clone;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 10px 2px;
+    }
+  }
+}
+
+.TitleSY {
+  composes: Heading1BSY from 'typographySY.legacy.css';
+  background-color: $white;
+  display: block;
+
+  > .TitleInnerSY {
+    display: inline-block;
+    max-width: 280px;
+    padding: 0 6px 9px;
+
+    @media (min-width: $smBreakpoint) {
+      max-width: 100%;
+      padding: 7px 30px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding: 10px 30px 15px;
+    }
+  }
+}
+
+.ShortTitle {
+  @media (min-width: $mdBreakpoint) {
+    max-width: 270px;
+  }
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  max-width: 250px;
+  padding: 5px 6px;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 225px;
+    padding: 5px 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 100%;
+  }
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch1SY from 'typographySY.legacy.css';
+  background-color: $white;
+  padding: 5px 8px 1px;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    max-width: 290px;
+    padding: 5px 30px 10px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 375px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 475px;
+    padding: 5px 30px 20px;
+  }
+}
+
+.ImageCreditSI{
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+  bottom: 100%;
+  color: $white;
+  margin-bottom:5px;
+  position: absolute;
+  right: 0;
+  text-shadow: 1px 1px $grayB;
+  transform: rotate(-90deg);
+  transform-origin: right bottom;
+  width: 56%;
+  
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -1.4rem;
+    color: $grayB;
+    margin-bottom: 0;
+    right: 0;
+    text-shadow: initial;
+    transform: rotate(0deg);
+    width: initial;
+  }
+}
+
+.ImageCreditSY {
+  composes: ImageCreditSI;
+  composes: CaptionAuthorCopyRightSY from 'typographySY.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -1rem;
+  }
+}

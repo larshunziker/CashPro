@@ -1,0 +1,90 @@
+@define-mixin gradientVertical $colorA, $stopA, $colorB, $stopB {
+  background: linear-gradient(
+    top,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB)
+  ); /* FF3.6-15 */
+  background: linear-gradient(
+    top,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB)
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to bottom,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB)
+  );
+}
+
+@define-mixin gradientHorizontal $colorA, $stopA, $colorB, $stopB, $colorC,
+  $stopC {
+  background: linear-gradient(
+    left,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC)
+  ); /* FF3.6-15 */
+  background: linear-gradient(
+    left,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC)
+  ); /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(
+    to right,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC)
+  );
+}
+
+@define-mixin gradientToRight $colorA, $stopA, $colorB, $stopB {
+  background: linear-gradient(
+    left,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB)
+  );
+  background: linear-gradient(
+    left,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB)
+  );
+  background: linear-gradient(to right, $(colorA) $(stopA), $(colorB) $(stopB));
+}
+
+@define-mixin gradientDark {
+  @mixin gradientVertical color($blackA a(0%)), 0%, $blackA, 100%;
+}
+
+@define-mixin gradientDarkArticleImage {
+  @mixin gradientVertical color(rgb(0, 0, 0) a(0%)), 0%, rgba(0, 0, 0, 0.8), 70%;
+}
+
+@define-mixin gradientTeaser {
+  @mixin gradientVertical $teaserGradientStart, 0%, $teaserGradientEnd, 100%;
+}
+
+@define-mixin gradientFocusBox $colorA, $stopA, $colorB, $stopB, $colorC, $stopC,
+  $colorD, $stopD {
+  background: linear-gradient(
+    top,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC),
+    $(colorD) $(stopD)
+  );
+  background: linear-gradient(
+    top,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC),
+    $(colorD) $(stopD)
+  );
+  background: linear-gradient(
+    to bottom,
+    $(colorA) $(stopA),
+    $(colorB) $(stopB),
+    $(colorC) $(stopC),
+    $(colorD) $(stopD)
+  );
+}

@@ -1,0 +1,859 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Link Should render default link if href is on subdomain on same domain 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://contact.illustre.com/abc/def?foo=bar#charts"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    Visit our contact page!
+  </a>
+</div>
+`;
+
+exports[`[Component] Link Should render routed link if href is on same domain 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/abc/def?foo=bar2222#charts"
+  >
+    Visit illustre
+  </a>
+</div>
+`;
+
+exports[`[Component] Link Should set trackinData 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    data-track-info="[{"type":"external-link","value":"external-link/default"}]"
+    href="https://www.beobachter.ch/"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    Visit beobachter
+  </a>
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/gesetze-recht/test-article-fur-mich-mit-infobox"
+  >
+    link to BEO dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO forum 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://forum.beobachter.ch/user/6362-c-o-r-a/"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to BEO forum
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/digital/sicherheit/intrum-daten-von-schuldnern-waren-offen-zuganglich-633464"
+  >
+    link to BEO master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.beobachter.ch/digital-subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to BEO myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/gesundheit/sexualitat/jeder-sechste-mann-ist-unfruchtbar-625857"
+  >
+    link to BEO preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/digital/sicherheit/intrum-daten-von-schuldnern-waren-offen-zuganglich-633464"
+  >
+    link to BEO prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO shop 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://shop.beobachter.ch/abonnemente?_gl=1*uyqvhb*_ga*MTA1MjA1NTY0LjE2ODI0Mjc3NTk.*_ga_WFMBJKTFVH*MTY5MzU2ODc5MC4xNS4xLjE2OTM1Njg5MDMuMC4wLjA."
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to BEO shop
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to BEO stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/gesellschaft/eine-hommage-an-lehrerinnen-und-lehrer-621111"
+  >
+    link to BEO stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving BEO Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH app dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166"
+  >
+    link to CASH app dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH app prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/top-news/experten-sehen-gesetzlichen-reformbedarf-nach-dem-cs-untergang-633470"
+  >
+    link to CASH app prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH app stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/top-news/ems-chemie-frankenstarke-setzt-martullo-blocher-konzern-wohl-weiter-zu-625696"
+  >
+    link to CASH app stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/borsen-ticker/selenskyj-lage-bleibt-angespannt-die-nacht-im-uberblick-52413"
+  >
+    link to CASH dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH forum 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://forum.cash.ch/forum/board/5493-aktien-schweiz/"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to CASH forum
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/top-news/erreicht-nvidia-bald-den-borsenwert-von-apple-633235"
+  >
+    link to CASH master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/top-news/insider/steigende-aktienkurse-bei-dunnen-handelsumsatzen-kommt-das-wirklich-gut-633468"
+  >
+    link to CASH preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/top-news/bei-diesem-schweizer-automobilzulieferer-hat-financier-martin-ebner-aktien-zugekauft-633414"
+  >
+    link to CASH prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to CASH stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/news/top-news/die-deutsche-politik-bestimmt-das-kurspotenzial-von-docmorris-625330"
+  >
+    link to CASH stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving CASH Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to GM dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/pop/zurich/frischeparadies-fisch-ist-king"
+  >
+    link to GM dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to GM master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/starchefs/party-in-der-bar-dj-drinks-mahler-food-632343"
+  >
+    link to GM master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to GM preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/life-style/in-gstaad-ist-der-kase-konig-626889"
+  >
+    link to GM preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to GM prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/starchefs/party-in-der-bar-dj-drinks-mahler-food-632343"
+  >
+    link to GM prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to GM stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/starchefs/ceviche-kutteln-und-pasta-im-haus-am-see-622254"
+  >
+    link to GM stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving GM Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ app dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/geld/test-article-hz-53204"
+  >
+    link to HZ app dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ app prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/konjunktur/spitzenpreise-werden-im-moment-nicht-mehr-erreicht-633155"
+  >
+    link to HZ app prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ app stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/unternehmen/migros-lanciert-vier-neue-gastronomie-konzepte-625380"
+  >
+    link to HZ app stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/geld/test-article-hz-53204"
+  >
+    link to HZ dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/banking/wie-sauber-ist-der-finanzplatz-liechtenstein-wirklich-632008"
+  >
+    link to HZ master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.handelszeitung.ch/subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to HZ myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/unternehmen/nestle-ist-der-weltweit-beste-dividendenzahler-633253"
+  >
+    link to HZ prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to HZ stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/unternehmen/migros-lanciert-vier-neue-gastronomie-konzepte-625380"
+  >
+    link to HZ stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving HZ Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/magazine/entre-deux-freres-46231"
+  >
+    link to ILE dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/magazine/ce-nest-pas-parce-que-je-mhabille-en-rose-que-je-cherche-a-ressembler-a-barbie-632572"
+  >
+    link to ILE master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.illustre.ch/subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to ILE myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/magazine/sous-le-vernis-la-precarite-632866"
+  >
+    link to ILE preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/magazine/sous-le-vernis-la-precarite-632866"
+  >
+    link to ILE prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to ILE stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/magazine/arnaud-bedat-journaliste-passionnement-623168"
+  >
+    link to ILE stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving ILE Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME Boutique 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://boutique.pme.ch/abonnements-papier?promo_name=abobutton&promo_position=header"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to PME Boutique
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/channel-1/2020/11/26/putzige-hausmittelchen-46362"
+  >
+    link to PME dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/latest-news/2023/09/01/linflation-se-maintient-a-16-en-aout-633423"
+  >
+    link to PME master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.pme.ch/subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to PME myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/invest/2023/08/29/la-population-active-a-plutot-confiance-dans-les-trois-piliers-632014"
+  >
+    link to PME preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/invest/2023/08/29/la-population-active-a-plutot-confiance-dans-les-trois-piliers-632014"
+  >
+    link to PME prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to PME stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/business/2023/07/17/les-centres-villes-envahis-par-les-cliniques-de-beaute-606426"
+  >
+    link to PME stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving PME Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/specials/traumdestination-karibik/eine-reise-durch-die-farben-26000"
+  >
+    link to SI dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/people/swiss-stars/luca-hanni-und-christina-luft-haben-geheiratet-633293"
+  >
+    link to SI master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.schweizer-illustrierte.ch/subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to SI myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/people/royals/verbringen-kates-kinder-zu-viel-zeit-mit-ihrer-familie-633221"
+  >
+    link to SI preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/people/royals/prinz-daniel-gibt-intimste-einblicke-in-sein-privatleben-632742"
+  >
+    link to SI prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI shop 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://shop.schweizer-illustrierte.ch/abo-print"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to SI shop
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to SI stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/people/swiss-stars/roger-federer-schwarmt-von-prinzessin-kate-625558"
+  >
+    link to SI stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving SI Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE dev 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/filme/go-to-hell-52655"
+  >
+    link to TELE dev
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE master 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/streaming/fokus/das-sind-die-streaming-highlights-der-woche-35-630322"
+  >
+    link to TELE master
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE myServices 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://myservices.tele.ch/subscriptions"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to TELE myServices
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE preview 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/streaming/fokus/das-sind-die-streaming-highlights-der-woche-36-632234"
+  >
+    link to TELE preview
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE prod 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/streaming/serien/ein-elternteil-ist-immer-am-set-631952"
+  >
+    link to TELE prod
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE shop 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://shop.tele.ch/abo-print"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to TELE shop
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to TELE stage 1`] = `
+<div>
+  <a
+    data-testid="routed-link"
+    href="/streaming/fokus/das-sind-die-streaming-highlights-der-woche-32-624455"
+  >
+    link to TELE stage
+  </a>
+  ,
+</div>
+`;
+
+exports[`[helpers] Link [helpers] regex resolving TELE Should resolve regex pattern correctly for link to some external host 1`] = `
+<div>
+  <a
+    data-testid="default-link"
+    href="https://some-external-host/path/to/some/page"
+    rel="noopener nofollow"
+    target="_blank"
+  >
+    link to some external host
+  </a>
+  ,
+</div>
+`;

@@ -1,0 +1,399 @@
+.H1 {
+  @mixin H1;
+}
+
+.H2 {
+  @mixin H2;
+}
+
+.H3 {
+  @mixin H3;
+}
+
+.H4 {
+  @mixin H4;
+}
+
+.H5 {
+  @mixin H5;
+}
+
+.H5Light {
+  @mixin H5Light;
+}
+
+.ImageParagraph {
+  @mixin ImageParagraph;
+}
+
+.ImageParagraphMeta {
+  @mixin ImageParagraphMeta;
+}
+
+.ImageParagraphMetaBold {
+  @mixin ImageParagraphMetaBold;
+}
+
+.Lead1 {
+  @mixin Lead1;
+}
+
+.Lead2 {
+  @mixin Lead2;
+}
+
+.TeaserLead {
+  @mixin TeaserLead;
+}
+
+.Lead2Bold {
+  @mixin Lead2;
+  font-weight: bold;
+}
+
+.AuthorDate {
+  @mixin AuthorDate;
+}
+
+.AuthorDateBold {
+  @mixin AuthorDate;
+  font-weight: bold;
+}
+
+.Initial {
+  @mixin initial;
+}
+
+.Paragraph {
+  @mixin Paragraph;
+}
+
+.DataTable {
+  @mixin DataTable;
+}
+
+.DataTableBold {
+  @mixin DataTableBold;
+}
+
+.ParagraphBold {
+  @mixin ParagraphBold;
+}
+
+.Subtitle {
+  @mixin Subtitle;
+}
+
+.QuoteMain {
+  @mixin QuoteMain;
+}
+
+.QuoteName {
+  @mixin QuoteName;
+}
+
+.InfoH1 {
+  @mixin InfoH1;
+}
+
+.InfoH2 {
+  @mixin InfoH2;
+}
+
+.InfoParagraph {
+  @mixin InfoParagraph;
+}
+
+.InfoParagraphLink {
+  @mixin InfoParagraphLink;
+}
+
+.ContentBoxBig {
+  @mixin ContentBoxBig;
+}
+
+.ContentBoxSmall {
+  @mixin ContentBoxSmall;
+}
+
+.BoxTitle {
+  @mixin BoxTitle;
+}
+
+.BoxTitleSmall {
+  @mixin BoxTitleSmall;
+}
+
+.ChannelTitle {
+  @mixin ChannelTitle;
+}
+
+.ChapterTitle {
+  @mixin ChapterTitle;
+}
+
+.Footer {
+  @mixin Footer;
+}
+
+.KeywordsH1 {
+  @mixin KeywordsH1;
+}
+
+.KeywordsH2 {
+  @mixin KeywordsH2;
+}
+
+.PersonH1 {
+  @mixin PersonH1;
+}
+
+.PersonH2 {
+  @mixin PersonH2;
+}
+
+.PersonH3 {
+  @mixin PersonH3;
+}
+
+.PersonQuote {
+  @mixin PersonQuote;
+}
+
+.PersonQuote2 {
+  @mixin PersonQuote2;
+}
+
+.RubrikenNavigation {
+  @mixin RubrikenNavigation;
+}
+
+.RubrikenNavigationHighlight {
+  @mixin RubrikenNavigationHighlight;
+}
+
+.RubrikenNavigationH1 {
+  @mixin RubrikenNavigationH1;
+}
+
+.Meta1 {
+  @mixin Meta1;
+}
+
+.Meta3 {
+  @mixin Meta3;
+}
+
+.Meta3Black {
+  composes: Meta3;
+  color: $greyA;
+  @mixin fontSize 14;
+  @mixin lineHeight 19;
+}
+
+.Meta3Bold {
+  @mixin Meta3;
+  color: $white;
+  font-weight: bold;
+}
+
+.Meta4 {
+  @mixin Meta4;
+}
+
+.Meta4WhiteBold {
+  @mixin Meta4;
+  color: $white;
+  font-weight: bold;
+}
+
+.Claim {
+  @mixin Claim;
+}
+
+.Header {
+  @mixin Header;
+}
+
+.HeaderSmall {
+  @mixin HeaderSmall;
+}
+
+.ButtonBig {
+  @mixin ButtonBig;
+}
+
+.ButtonSmall {
+  @mixin ButtonSmall;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.FormLabelBig {
+  @mixin FormLabelBig;
+}
+
+.FormLabelSmall {
+  @mixin FormLabelSmall;
+}
+
+.FormLabelBError {
+  @mixin FormLabelBError;
+}
+
+.Heading6 {
+  @mixin Heading6;
+}
+
+.InfoA {
+  @mixin InfoA;
+}
+
+.InfoABlack {
+  composes: InfoA;
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.3rem;
+}
+
+.InfoABold {
+  @mixin InfoA;
+  font-weight: bold;
+}
+
+.InfoB {
+  @mixin InfoB;
+}
+
+.InfoBBold {
+  @mixin InfoBBold;
+}
+
+.InfoC {
+  @mixin InfoC;
+}
+
+.InfoCBold {
+  @mixin InfoC;
+  font-weight: bold;
+}
+
+.InfoD {
+  @mixin InfoD;
+}
+
+.InfoDBold {
+  @mixin InfoD;
+  font-weight: bold;
+}
+
+.InfoE {
+  @mixin InfoE;
+}
+
+.InfoEBold {
+  @mixin InfoE;
+  font-weight: bold;
+}
+
+.ShortTitleA {
+  @mixin ShortTitleA;
+}
+
+.ShortTitleB {
+  @mixin ShortTitleB;
+}
+
+.ShortTitleC {
+  @mixin ShortTitleC;
+}
+
+.ShortTitleD {
+  @mixin ShortTitleC;
+}
+
+.Credits {
+  @mixin Credits;
+}
+
+.ContentBoxParagraph {
+  @mixin ContentBoxParagraph;
+}
+
+.ContentBoxParagraphBold {
+  @mixin ContentBoxParagraphBold;
+}
+
+.Widget {
+  @mixin Widget;
+}
+
+.WidgetBold {
+  @mixin WidgetBold;
+}
+
+.TableContent {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 2.6rem;
+}
+
+.TeaserTitle {
+  color: $blackA;
+  font-family: $fontSourceSerifPro;
+  font-weight: 700;
+}
+
+.TeaserTitleH1 {
+  composes: TeaserTitle;
+  @mixin fontSize 25;
+  @mixin lineHeight 29;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 40;
+    @mixin lineHeight 48;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 50;
+    @mixin lineHeight 55;
+  }
+}
+
+.Lead {
+  color: $blackA;
+  font-family: $fontSourceSerifPro;
+  font-size: 2rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+    line-height: 2.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Publishingdate {
+  color: $greyA;
+  font-family: $fontSourceSerifPro;
+  font-weight: bold;
+  @mixin fontSize 14;
+  @mixin lineHeight 17;
+}
+
+.TeaserLeadBlack {
+  color: $blackA;
+  font-family: $fontSourceSerifPro;
+  font-weight: 300;
+  @mixin fontSize 16;
+  @mixin lineHeight 22;
+}

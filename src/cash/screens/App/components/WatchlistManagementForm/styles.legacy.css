@@ -1,0 +1,75 @@
+.Wrapper {
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    overflow-x: hidden;
+    padding: $margin24 0;
+  }
+}
+
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.ButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: $margin16;
+  overflow-x: hidden;
+
+  button {
+    position: relative;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.SelectionFieldWrapper {
+  display: inline-block;
+  width: 89%;
+}
+
+.DefaultViewInfoWrapper {
+  align-items: center;
+  display: inline-flex;
+  float: right;
+  height: 54px;
+  margin-left: 10px;
+  width: 7%;
+
+  i {
+    color: $black;
+    font-size: 22px;
+
+    &:hover {
+      color: $secondaryA;
+      cursor: pointer;
+    }
+  }
+}
+
+.DefaultViewInfoTextWrapper {
+  background: $white;
+  border-radius: 4px;
+  box-shadow: 0 2px 12px $black30;
+  padding: 24px 16px;
+  position: absolute;
+  right: 25px;
+  top: 217px;
+  width: 271px;
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    right: 38px;
+    top: 205px;
+    width: 280px;
+  }
+}
+
+.Hidden {
+  display: none;
+}

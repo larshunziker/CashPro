@@ -1,0 +1,157 @@
+@import url('./assets/styles/skeleton.legacy.css');
+@import url('./assets/styles/typography_old.legacy.css');
+
+:global(#app),
+.App {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.PageWrap {
+  flex: 1 1 auto;
+}
+
+.BodyClass {
+  composes: GridCentered from '@grid.legacy.css';
+}
+
+.PianoMetering,
+.PianoLocked,
+.PianoMeteringPadded {
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  width: 100%;
+  z-index: calc($zIndexPianoOverlay + 9);
+}
+
+.PianoMetering {
+  box-shadow: -3px 3px 6px 0 $blackAlpha4;
+}
+
+.PianoMeteringPadded {
+  margin: $margin24;
+  width: calc(100% - 48px);
+}
+
+.PianoMeteringPadded:not(:empty) {
+  box-shadow: 0 5px 9px 0 $black5;
+}
+
+.PianoAnimatedWrapper {
+  composes: Container from '@grid.legacy.css';
+  bottom: 1em;
+  left: 0;
+  padding: 0;
+  position: fixed;
+  right: 0;
+  transform: translate3d(0, 0, 9999px);
+  z-index: 9999;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 40px;
+  }
+}
+
+.PianoAnimated {
+  opacity: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 -16px;
+    width: calc(100% + 32px);
+  }
+}
+
+.PianoSlideDownAnimated {
+  composes: PianoLocked;
+  z-index: $zIndexHeaderAd;
+}
+
+.PianoWrapper {
+  @mixin hideforPrint;
+}
+
+/* CTA Button */
+:global(.cta_button) {
+  background-color: $primaryA;
+  border-radius: 4px;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+  word-break: break-word;
+
+  & a {
+    @mixin ButtonAWhite;
+    align-items: center;
+    border-bottom: none;
+    display: block;
+    padding: 8px 16px;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 20px 16px;
+    }
+
+    &:hover {
+      border-bottom: none;
+      color: $white;
+    }
+
+    &:not([href*='gaultmillau.ch']) {
+      &:not([href^='#']) {
+        &:not([href^='/']) {
+          &:not([href^='mailto:']) {
+            &:not([href^='tel:']) {
+              &:not([class*='teaser']) {
+                &:not([class*='utility-button']) {
+                  &:not([class*='Icon']) {
+                    &::after {
+                      @mixin GMIconFiles;
+                      content: '\e939';
+                      margin-left: 3px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: table;
+    margin: $margin24 auto;
+    min-width: 200px;
+    transition: background-color 0.3s ease;
+    width: auto;
+
+    &:hover {
+      background-color: $primaryB;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    margin: $margin40 auto;
+  }
+}
+
+.BlogQFirstWord {
+  color: $blogQbella;
+  font-weight: bold;
+}
+
+.BlogQSecondWord {
+  color: $blogQitalia;
+  font-weight: bold;
+}

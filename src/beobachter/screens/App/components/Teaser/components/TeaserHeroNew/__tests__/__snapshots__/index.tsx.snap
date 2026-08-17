@@ -1,0 +1,606 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroAdvertorial 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-advertorial"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </div>
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              />
+            </div>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroAdvertorial 2`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-advertorial"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </div>
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              />
+            </div>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroAdvertorial 3`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-advertorial"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </div>
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              />
+            </div>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroBrandReport 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-brand-report"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </div>
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              />
+            </div>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper BottomBrandReport"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroGuide 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              >
+                Anlegen
+              </div>
+            </div>
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render HeroOpinion 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-opinion"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              >
+                Anlegen
+              </div>
+            </div>
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead Opinion"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="AuthorOpinionWrapper"
+          >
+            <div
+              class="LineHeightReset PictureWrapper"
+            >
+              <picture>
+                <img
+                  alt="Conny Schmid"
+                  class="AuthorPicture IsSameAspectRatio"
+                  height="210"
+                  loading="lazy"
+                  srcset="/fp/210/210/972/828/sites/default/files/media/field_image/2023-04/conny_schmid.jpg"
+                  width="210"
+                />
+              </picture>
+            </div>
+            <div>
+              <div
+                class="AuthorName"
+              >
+                Conny Schmid
+              </div>
+              <div
+                class="AuthorHeadline"
+              >
+                Freie Mitarbeiterin
+              </div>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroNew Should render TeaserHeroNewDefault 1`] = `
+<div>
+  <div>
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-hero-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:960px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="371"
+                loading="lazy"
+                srcset="/fp/660/371/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="660"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              >
+                Anlegen
+              </div>
+            </div>
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+          <div
+            class="Lead"
+          >
+            Zinserhöhungen? Gar Crashgefahr? Auch in den wahrscheinlichsten Szenarien 2022 erscheinen die Aktien vielen Beratern immer noch die beste Wahl.
+          </div>
+          <div
+            class="BottomLineWrapper"
+          >
+            <div
+              class="BottomLine"
+            >
+              <span>
+                Conny Schmid
+              </span>
+            </div>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

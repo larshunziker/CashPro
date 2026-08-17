@@ -1,0 +1,238 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+  min-height: 60vh;
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 200px;
+  position: relative;
+
+  &.Centered {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.NoResult {
+  composes: InfoA from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.NewWatchlistButtonWrapper {
+  margin-top: 56px;
+}
+
+.WatchlistSelectionWrapper {
+  display: flex;
+  margin-bottom: $margin32;
+}
+
+.WatchlistSelection {
+  margin-right: 12px;
+  position: relative;
+
+  button {
+    span {
+      @media (max-width: $smBreakpoint) {
+        max-width: 183px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+      }
+    }
+
+    i {
+      color: $secondaryA;
+      margin-top: 2px !important; /* stylelint-disable-line */
+      padding-left: 8px;
+
+      &::before {
+        font-size: 20px;
+      }
+    }
+  }
+
+  @media print {
+    i {
+      display: none
+    }
+  }
+}
+
+.WatchlistDropdownItem {
+  composes: InfoB from 'typography.legacy.css';
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 280px;
+  }
+
+  &:first-child {
+    margin-top: $margin12;
+  }
+
+  &:hover {
+    color: $secondaryA;
+    cursor: pointer;
+  }
+
+  .RowWrapper {
+    display: flex;
+    gap: 10px;
+    position: relative;
+
+    .DefaultIcon {
+      i {
+        &::before {
+          vertical-align: middle;
+        }
+      }
+    }
+
+    .CheckmarkIcon {
+      position: absolute;
+      right: -11px;
+      top: 0;
+
+      i {
+        font-size: 22px;
+      }
+    }
+
+    .ActiveItem {
+      @mixin InfoBBold;
+      max-width: 80%;
+    }
+  }
+
+  &.NewWatchlist {
+    align-items: center;
+    border-top: 1px solid $greyC;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    margin: 0 auto 8px;
+    padding: 16px 0;
+    width: 90%;
+
+    i {
+      font-size: 20px;
+    }
+
+    &:hover {
+      background-color: $white;
+    }
+  }
+}
+
+.DropdownViewLink {
+  @mixin InfoB;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 19px;
+  }
+
+  &:hover {
+    background-color: $greyE;
+  }
+}
+
+.HeadingSkeleton {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyC;
+  width: 40%;
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+.SearchWrapperDrawer {
+  margin: 20px 29px 29px 20px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 20px 19px;
+    max-height:416px;
+    width: 388px;
+  }
+}
+
+.InputSearchWrapper {
+  padding: 20px 19px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 20px 218px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 20px 446px;
+  }
+}
+
+.FallbackText {
+  padding: 40px 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 40px 240px;
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:hover {
+    color: $secondaryB;
+  }
+}
+
+.AddInstrumentButtonWrapper {
+  button {
+    height: 34px;
+    width: 42px;
+
+    i {
+      margin: 0;
+
+      &::before {
+        color: $white;
+        font-size: 22px;
+      }
+    }
+
+    @media print {
+      display: none;
+    }
+  }
+
+  @media print {
+    display: none;
+  }
+}
+

@@ -1,0 +1,206 @@
+.Wrapper {
+  margin-bottom: 40px;
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 60px;
+  }
+}
+
+.Header {
+  background: $gradientCaminada;
+  color: $white;
+  float: left;
+  font-family: $fontBagueSansPro;
+  margin-bottom: 135px;
+  min-height: 95px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  &::after {
+    background-color: $neutralA;
+    bottom: 0;
+    content: '';
+    height: 10px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: 0;
+  }
+}
+
+.HeaderTitle {
+  font-family: $fontActaDisplay;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 3rem;
+  margin: 15px auto;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 6rem;
+    font-weight: 900;
+    line-height: 12rem;
+    margin: 0 auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    font-size: 7rem;
+    line-height: 12rem;
+    margin: 15px auto 19px;
+  }
+}
+
+.LeadBoxWrapper {
+  border-bottom: 1px solid $neutralA;
+  position: absolute;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    border: 0;
+    display: flex;
+    position: relative;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    justify-content: center;
+  }
+}
+
+.LeadTitleWrapper {
+  float: left;
+  margin-top: 8px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+    order: -1;
+    padding-top: 72px;
+    text-align: right;
+    width: 294px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 66px;
+  }
+}
+
+.LeadImageWrapper {
+  float: left;
+  margin: 0;
+  position: relative;
+  width: 100%;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    margin: 0 10px 20px;
+    width: 90px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    margin: 0 15px 30px;
+  }
+}
+
+.LeadWrapper {
+  float: left;
+  padding-bottom: 17px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    border: 0;
+    margin-top: 0;
+    padding-bottom: 0;
+    padding-top: 28px;
+    text-align: left;
+    width: 268px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    padding-top: 17px;
+    width: 340px;
+  }
+}
+
+.LeadTitle {
+  color: $neutralA;
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.7rem;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    color: $white;
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    font-size: 1.9rem;
+  }
+}
+
+.LeadImage {
+  background-size: contain;
+  display: block;
+  height: 60px;
+  margin: 0 auto;
+  width: 60px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    height: 90px;
+    margin: 0;
+    width: 100%;
+  }
+
+  &::after {
+    content: '';
+    display: inline-block;
+    padding-bottom: 100%;
+    position: relative;
+  }
+}
+
+.Lead {
+  color: $neutralA;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  padding-bottom: 17px;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    color: $white;
+    line-height: 2.2rem;
+    padding-bottom: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    padding-top: 17px;
+  }
+}
+
+.TeaserWrapper {
+  margin: 20px 0;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    margin: 30px 0;
+  }
+}

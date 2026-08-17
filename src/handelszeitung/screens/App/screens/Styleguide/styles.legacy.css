@@ -1,0 +1,26 @@
+.ContentWrapper {
+  margin-bottom: $margin40;
+
+  > h2 {
+    background-color: $greyA;
+    border-radius: 2px;
+    color: $white;
+    font-family: $fontGothamNarrow;
+    font-size: 1.6rem;
+    font-weight: 300;
+    line-height: 2.5rem;
+    margin-bottom: $margin8;
+    margin-top: $margin80;
+    padding: 5px 15px;
+    z-index: 0;
+
+    @media (min-width: $smBreakpoint) {
+      line-height: 2.7rem;
+    }
+  }
+}
+
+.Title {
+  composes: ChannelTitle from '../../assets/styles/typography.legacy.css';
+  margin-top: 50px;
+}

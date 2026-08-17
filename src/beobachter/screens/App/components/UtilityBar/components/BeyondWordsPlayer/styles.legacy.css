@@ -1,0 +1,13 @@
+.Hidden {
+  display: none !important; /* stylelint-disable-line */
+}
+
+.NoTranslationContainer {
+  align-items: center;
+  background-color: $grey50;
+  border-radius: 20px;
+  color: $white;
+  display: flex;
+  height: 40px;
+  justify-content: center;
+}

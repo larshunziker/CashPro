@@ -1,0 +1,10 @@
+export const INFO_BOX_TYPE = 'Infobox';
+export const INFO_BOX_STYLE_DEFAULT = 'default';
+export const INFO_BOX_STYLE_GUIDER = 'guider';
+export const INFO_BOX_STYLE_GUIDER_PEARLS = 'guider_pearls';
+export const INFO_BOX_STYLE_GUIDER_NOTES = 'guider_notes';
+export const INFO_BOX_STYLE_LEFT_LINE_BOX = 'left_line';
+export const INFO_BOX_STYLE_INFO = 'info';
+export const INFO_BOX_STYLE_WARNING = 'warning';
+export const INFO_BOX_STYLE_TIP = 'tip';
+export const INFO_BOX_STYLE_TWO_COLUMNS = 'two_columns';

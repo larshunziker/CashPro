@@ -1,0 +1,388 @@
+.Wrapper {
+  height: 100vh;
+  overflow: hidden;
+  position: relative;
+}
+
+.LoadingWrapper {
+  left: 50%;
+  margin-left: -60px;
+  margin-top: -60px;
+  position: absolute;
+  top: 50%;
+}
+
+.ControlWrapper {
+  display: block;
+  height: 40px;
+  position: absolute;
+  right: 0;
+  text-align: center;
+  top: 0;
+  width: 48px;
+  z-index: $zIndex100;
+
+  > .Counter {
+    opacity: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $black;
+    bottom: 0;
+    height: 100%;
+    width: 85px;
+
+    > .Counter {
+      opacity: 1;
+    }
+  }
+}
+
+.Slider {
+  height: 100vh;
+}
+
+.Slide {
+  align-items: center;
+  background-color: $black;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+}
+
+.ImageWrapper {
+  background-color: $black;
+  width: 100%;
+}
+
+.Image {
+  height: 100%;
+  max-height: 100vh;
+  max-width: 100vw;
+  object-fit: contain;
+  pointer-events: none;
+  position: relative;
+  transition: left 0.3s linear;
+  width: auto;
+  z-index: calc($zIndex1 * 10);
+
+  @media (min-width: $smBreakpoint) {
+    height: 100vh;
+    left: -42px;
+    width: calc(100vw - 85px);
+  }
+
+  &.ImageFormat_landscape {
+    @media (min-width: $mdBreakpoint) {
+      max-height: 770px;
+    }
+  }
+  
+  &.ImageFormat_portrait {
+    @media (min-width: $mdBreakpoint) {
+      max-height: 100vh;
+      max-width: 1140px;
+    }
+  }
+  
+  &.ImageFormat_square {
+    @media (min-width: $mdBreakpoint) {
+      max-height: 743px;
+      max-width: 743px;
+    }
+  
+    @media (min-width: $smBreakpoint) {
+      max-height: 960px;
+      max-width: 960px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      max-height: 100vh;
+    }
+  }
+
+  &.IsCaptionVisible {
+    @media (min-width: $smBreakpoint) {
+      left: -163px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      left: -225px;
+    }
+
+    &.ImageFormat_landscape,
+    &.ImageFormat_portrait {
+      @media (min-width: $smBreakpoint) {
+        max-width: calc(100vw - 325px);
+      }
+    }
+
+    &.ImageFormat_square {
+      @media (min-width: $smBreakpoint) {
+        max-width: calc(100vw - 325px);
+      }
+
+      @media (min-width: $smBreakpoint) {
+        max-width: 960px;
+      }
+    }
+  }
+}
+
+.Credit {
+  composes: CaptionAuthorCopyRight from 'typography.legacy.css';
+  color: $white;
+  display: block;
+  margin-top: 5px;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+}
+
+.MobileCaption {
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.CaptionWrapper {
+  display: none;
+
+  &.Active {
+    left: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $black;
+    bottom: 0;
+    display: block;
+    max-height: 100%;
+    opacity: 1;
+    overflow-y: inherit;
+    position: absolute;
+    right: -220px;
+    top: 0;
+    transition: right 0.3s ease-in, transform 0.3s;
+    width: 220px;
+    z-index: $zIndex1;
+
+    &.Active {
+      left: initial;
+      right: 85px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &::after {
+      background: linear-gradient(180deg, $transparent 0%, $black 80%);
+      bottom: 270px;
+      content: '';
+      height: 50px;
+      left: 0;
+      position: absolute;
+      right: 0;
+      z-index: 1;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: -300px;
+    width: 300px;
+
+    &.Active {
+      right: 85px;
+    }
+  }
+}
+
+.Caption {
+  composes: Paragraph from 'typography.legacy.css';
+  color: $white;
+  height: 100vh;
+  overflow-wrap: break-word;
+  padding: 0 10px 15px;
+  position: relative;
+  width: 100%;
+  word-break: break-word;
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  a {
+    @mixin InlineHover;
+    border-bottom: 1px solid;
+    color: $inherit;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: calc(100vh - 174px);
+    margin-top: 87px;
+    overflow-y: auto;
+    padding: 0;
+    width: 220px;
+
+    > .Counter {
+      display: none;
+    }
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: color($grayB alpha(20%));
+    }
+
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background: color($grayB alpha(60%));
+      }
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: calc(100vh - 362px);
+    padding-bottom: 80px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 92px;
+    width: 300px;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.PrevButton {
+  composes: IconArrowLeftButtonOutline from 'raschFont.legacy.css';
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e913';
+  }
+}
+
+.NextButton {
+  composes: IconArrowRightButtonOutline from 'raschFont.legacy.css';
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e915';
+  }
+}
+
+.InfoButton {
+  composes: IconInfoButtonOutline from 'raschFont.legacy.css';
+
+  &.IsCaptionVisible,
+  &:hover {
+    &::before {
+      content: '\e91e';
+    }
+  }
+}
+
+.NextButton,
+.PrevButton,
+.InfoButton {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.CloseButton,
+.InfoButton,
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  color: $white;
+  font-size: 4rem;
+  margin-top: 20px;
+  opacity: 0;
+  outline: none;
+  padding: 0;
+  transition: opacity 0.3s;
+
+  &:not(.DisabledButton):hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    opacity: 1;
+    padding: 1px 6px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+  }
+}
+
+.CloseButton {
+  composes: IconCloseButtonSimple from 'raschFont.legacy.css';
+  font-size: 3rem;
+  margin-top: 10px;
+  opacity: 1;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    margin-top: 20px;
+  }
+
+  &:hover::before {
+    content: '\e918';
+  }
+}
+
+.DisabledButton {
+  @media (min-width: $smBreakpoint) {
+    opacity: 0.3;
+  }
+}
+
+.Counter {
+  composes: Paragraph from 'typography.legacy.css';
+  color: $white;
+  font-weight: 600;
+  margin-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: 300;
+    margin-top: 21px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 30px;
+  }
+}
+
+.AdWrapper {
+  bottom: 20px;
+  color: $white;
+  height: 250px;
+  overflow: hidden;
+  position: absolute;
+  right: -83px;
+  width: 405px;
+  z-index: calc($zIndex100 + 1);
+}

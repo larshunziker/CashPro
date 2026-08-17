@@ -1,0 +1,86 @@
+.Border {
+  bottom: 0;
+  height: 10px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  z-index: $zIndexHigh;
+}
+
+.BlueBorder {
+  background: $gradientZueri;
+}
+
+.GoldBorder {
+  background: $gradientPrimaryA;
+}
+
+.PurpleBorder {
+  background: $gradientCaminada;
+}
+
+.PinkBorder {
+  background: $pink;
+}
+
+.Title {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  margin-bottom: $margin8;
+  max-width: 310px;
+  overflow-wrap: break-word;
+  text-align: center;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 238px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin12;
+    max-width: 312px;
+  }
+}
+
+.Lead {
+  composes: LeadCNeutralA from 'typography.legacy.css';
+  margin: 0 auto;
+  overflow-wrap: break-word;
+  padding: 0 39px;
+  text-align: center;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0;
+    width: 204px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 240px;
+  }
+}
+
+.PlayIcon {
+  border: 1px solid $white;
+  border-radius: 50%;
+  color: $white;
+  display: flex;
+  font-size: 5.7rem;
+  height: 61px;
+  justify-content: center;
+  left: 50%;
+  margin-left: -31px;
+  margin-top: -31px;
+  padding-right: 2px;
+  padding-top: 2px;
+  position: absolute;
+  top: 50%;
+  width: 61px;
+  z-index: $zIndexMedium;
+
+  @media (max-width: $xsBreakpointTo) {
+    font-size: 5.2rem;
+  }
+}
+
+

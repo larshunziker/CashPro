@@ -1,0 +1,34 @@
+<!doctype html>
+<html lang="en" dir="ltr" prefix="og: http://ogp.me/ns#">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="title" content="Veranstaltungskalender | Handelszeitung" />
+    <meta
+      property="og:title"
+      content="Veranstaltungskalender | Handelszeitung"
+    />
+    <meta name="MobileOptimized" content="width" />
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Veranstaltungskalender | Handelszeitung</title>
+  </head>
+  <body class="evenito">
+    <div
+      class="evenito-embed"
+      data-source="//handelszeitung.eveni.to/embed/"
+    ></div>
+    <script type="text/javascript">
+      (function (d, s, id) {
+        var js,
+          fjs = d.getElementsByTagName(s)[0];
+        if (d.getElementById(id)) {
+          return;
+        }
+        js = d.createElement(s);
+        js.id = id;
+        js.src = 'https://eveni.to/assetic/embed.js';
+        fjs.parentNode.insertBefore(js, fjs);
+      })(document, 'script', 'evenito-embed');
+    </script>
+  </body>
+</html>

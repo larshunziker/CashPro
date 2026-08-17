@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Article Lead Default Should render channel title if no short title given 1`] = `
+<span
+  class="TitleWrapper"
+  data-testid="articleleaddefault-channeltitle-wrapper"
+>
+  <span
+    class="ShortTitle"
+  >
+    Channel Title
+  </span>
+</span>
+`;
+
+exports[`[Component] Article Lead Default Should render correctly 1`] = `
+<span
+  class="ShortTitle"
+  data-testid="articleleaddefault-shorttitle-wrapper"
+  id="anchor_tag_short_title"
+>
+  Test shorttitle
+</span>
+`;

@@ -1,0 +1,56 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden; /* to hide not visible part of sky ad */
+  position: relative;
+
+  &::after,
+  &::before {
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: $zIndexBackground;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.OuterWrapper {
+  composes: OuterWrapper from 'Organization/styles.legacy.css';
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  z-index: $zIndexMedium;
+}
+
+.HeaderBackground {
+  background-color: $greyE;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+
+  @media print {
+    background-image: none;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitle from 'Organization/styles.legacy.css';
+}
+
+.Title {
+  composes: PersonH1 from 'typography.legacy.css';
+}
+

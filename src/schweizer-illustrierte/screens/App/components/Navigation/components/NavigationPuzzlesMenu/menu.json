@@ -1,0 +1,122 @@
+[
+  {
+    "node": {
+      "link": {
+        "label": "Kleines Kreuzwort",
+        "description": null,
+        "path": "/raetselecke/kleines-kreuzwort",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Kreuzworträtsel",
+        "description": null,
+        "path": "/raetselecke/kreuzwortraetsel",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Sudoku",
+        "description": null,
+        "path": "/raetselecke/sudoku",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Binoxxo",
+        "description": null,
+        "path": "/raetselecke/binoxxo",
+        "routed": false,
+        "isMainChannel": true
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Wörtli",
+        "description": null,
+        "path": "/raetselecke/woertli",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Wörtersuche",
+        "description": null,
+        "path": "/raetselecke/woertersuche",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Kreuzwortchaos",
+        "description": null,
+        "path": "/raetselecke/kreuzwortchaos",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "icon": true
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Kontakt / Feedback",
+        "description": null,
+        "path": "/kontakt",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "icon": false
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Zu schweizer-illustrierte.ch",
+        "description": null,
+        "path": "/",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "icon": false
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Rätselecke FAQ",
+        "description": null,
+        "path": "/raetselecke/faq",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "icon": false
+    }
+  }
+]

@@ -1,0 +1,24 @@
+.SectionTitle {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 30px;
+  }
+}
+
+.TitleLink {
+  composes: SectionTitleNeutralA from 'typography.legacy.css';
+  border-top: 1px solid $neutralC;
+  display: block;
+  padding-top: 16px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 24px;
+  }
+}
+

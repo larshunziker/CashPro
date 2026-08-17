@@ -1,0 +1,137 @@
+{
+  "environment": {
+    "__typename": "Environment",
+    "globalSearch": {
+      "__typename": "SearchableUnionConnection",
+      "count": 16,
+      "edges": [
+        {
+          "__typename": "SearchableUnionEdge",
+          "node": {
+            "__typename": "Article",
+            "id": "bm9kZTo1MTQwMA==",
+            "title": "Holcim erwirbt argentinische Quimexur",
+            "restrictionStatus": null,
+            "shortTitle": "UNTERNEHMEN",
+            "changeDate": "2023-05-30T09:29:12+02:00",
+            "showUpdated": false,
+            "preferredUri": "/news/holcim-erwirbt-argentinische-quimexur-53133",
+            "publication": "cash",
+            "publicationDate": "2023-05-30T09:31:53+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxOTY1NDozMjQ3MjA=",
+              "caption": "<p>La performance a, dans l'ensemble, dépassé le consensus des analystes consultés par l'agence AWP, le dividende se situant même au-delà des attentes les plus optimistes. (Archives)</p>\n",
+              "image": {
+                "__typename": "Image",
+                "id": "71126",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo3MjQ1MTo6NTAwLDMwMDpsYXJnZTo=",
+                  "alt": "La performance a, dans l'ensemble, dépassé le consensus des analystes consultés par l'agence AWP, le dividende se situant même au-delà des attentes les plus optimistes. (Archives)",
+                  "relativeOriginPath": "/media/field_image/2023-05/schweiz_holcim_zementwerk_eclepens.jpg",
+                  "focalPointX": 500,
+                  "focalPointY": 300
+                }
+              }
+            },
+            "useAutoHyphens": false,
+            "valors": {
+              "__typename": "ValorConnection",
+              "items": [
+                {
+                  "__typename": "Valor",
+                  "id": "dGF4b25vbXlfdGVybTo4NDU1",
+                  "shortName": "Holcim",
+                  "valorName": "Holcim N",
+                  "valorNumber": "1221405",
+                  "valorStockExchange": {
+                    "__typename": "ValorStockExchange",
+                    "id": "dGF4b25vbXlfdGVybTo4Mjky",
+                    "originalId": "4"
+                  },
+                  "valorCurrency": {
+                    "__typename": "ValorCurrency",
+                    "id": "dGF4b25vbXlfdGVybTo3NzM1",
+                    "originalId": "1"
+                  }
+                }
+              ]
+            }
+          }
+        },
+        {
+          "__typename": "SearchableUnionEdge",
+          "node": {
+            "__typename": "Article",
+            "id": "bm9kZTo1MTM5OQ==",
+            "title": "Die UBS-Bankerin, auf die Ermotti bei der CS-Sanierung setzt",
+            "restrictionStatus": null,
+            "shortTitle": "BANKENFUSION",
+            "changeDate": "2023-05-30T09:28:09+02:00",
+            "showUpdated": false,
+            "preferredUri": "/news/die-ubs-bankerin-auf-die-ermotti-bei-der-cs-sanierung-setzt-53132",
+            "publication": "cash",
+            "publicationDate": "2023-05-30T09:29:05+02:00",
+            "subtypeValue": "news",
+            "useNativeAdvertising": null,
+            "channel": {
+              "__typename": "Channel",
+              "id": "dGF4b25vbXlfdGVybTo3NzM4",
+              "title": "News"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxOTY1MjozMjQ3MTg=",
+              "caption": "<p>ubs</p>\n",
+              "image": {
+                "__typename": "Image",
+                "id": "71125",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo3MjQ1MDo6NjAwLDQwMDpsYXJnZTo=",
+                  "alt": "ubs",
+                  "relativeOriginPath": "/media/field_image/2023-05/ubs.jpeg",
+                  "focalPointX": 600,
+                  "focalPointY": 400
+                }
+              }
+            },
+            "useAutoHyphens": false,
+            "valors": {
+              "__typename": "ValorConnection",
+              "items": [
+                {
+                  "__typename": "Valor",
+                  "id": "dGF4b25vbXlfdGVybTo4MjQ1",
+                  "shortName": "UBS Group",
+                  "valorName": "ubs-group-n-24476758",
+                  "valorNumber": "24476758",
+                  "valorStockExchange": {
+                    "__typename": "ValorStockExchange",
+                    "id": "dGF4b25vbXlfdGVybTo4Mjky",
+                    "originalId": "4"
+                  },
+                  "valorCurrency": {
+                    "__typename": "ValorCurrency",
+                    "id": "dGF4b25vbXlfdGVybTo3NzM1",
+                    "originalId": "1"
+                  }
+                }
+              ]
+            }
+          }
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,61 @@
+.TypographyWrapper {
+  margin-bottom: 20px !important; /* stylelint-disable-line */
+
+  .Header {
+    @mixin InfoH1;
+    margin-bottom: $margin16 !important; /* stylelint-disable-line */
+  }
+
+  p {
+    @mixin InfoParagraph;
+    margin-bottom: $margin24;
+  }
+
+  h2, h3 {
+    @mixin InfoH2;
+    margin-bottom: $margin8;
+  }
+
+  b,
+  strong {
+    @mixin InfoParagraph;
+    font-weight: bold;
+  }
+
+  i {
+    color: $blackB;
+    @mixin fontSize 16;
+    font-weight: 100;
+    letter-spacing: -0.2px;
+    line-height: 1.63;
+  }
+
+  ul {
+    @mixin InfoParagraph;
+
+    li {
+      margin-bottom: $margin8;
+
+      @media (min-width: $smBreakpoint) {
+        margin-bottom: $margin16;
+      }
+    }
+  }
+
+  ol {
+    @mixin InfoParagraph;
+    margin-bottom: $margin32;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin40;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-left: 23px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: $margin72;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "node": {
+    "preferredUri": "http://www.example.com/",
+    "shortTitle": "short title",
+    "title": "title",
+    "teaserImage": {
+      "image": {
+        "file": {
+          "relativeOriginPath": "/tree.jpg",
+          "focalPointX": 234,
+          "focalPointY": 234
+        }
+      }
+    }
+  }
+}

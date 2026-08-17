@@ -1,0 +1,35 @@
+.ShortTitle {
+  composes: SpitzmarkeMeistgelesenSmall from 'typography.legacy.css';
+  margin-left: 33px;
+}
+
+.TeaserTitle {
+  composes: TeaserTitleH4 from 'typography.legacy.css';
+
+  left: 0;
+  margin-left: 33px;
+  text-align: left;
+}
+
+.ContentWrapper {
+  margin-bottom: $margin16;
+  width: 100%;
+}
+
+.Number {
+  composes: TeaserMeistgelesenNumber from 'typography.legacy.css';
+}
+
+.NumberWrapper {
+  align-items: center;
+  position: absolute;
+  width: 13px;
+}
+
+.BeoPlusLogo {
+  display: inline-block;
+  height: 14px;
+  padding-right: 6px;
+  position: relative;
+  width: 30px;
+}

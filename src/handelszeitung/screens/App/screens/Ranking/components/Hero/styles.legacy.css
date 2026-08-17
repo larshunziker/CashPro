@@ -1,0 +1,76 @@
+.HeroWrapper {
+  align-items: center;
+  background: $blackB;
+  display: flex;
+  flex-direction: column;
+  gap: $margin40;
+  justify-content: center;
+  padding-top: $margin40;
+
+  @media (min-width: $mdBreakpoint) {
+    flex-direction: row;
+    padding: $margin40 0;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding: $margin80 0;
+  }
+
+  /* hack to vertically align our hero content */
+  & > div > div > div {
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.HeroInnerWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 40px;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+    margin-right: 20px;
+    padding: 0;
+    text-align: left;
+    width: 100%;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  color: $white;
+  margin-bottom: $margin24;
+}
+
+.HeroTitle {
+  composes: H1 from 'typography.legacy.css';
+  color: $white;
+  margin-bottom: $margin24;
+}
+
+.HeroLead {
+  composes: Lead1 from 'typography.legacy.css';
+  color: $white;
+  margin-bottom: 0;
+}
+
+.HeroImageWrapper {
+  @media (min-width: $mdBreakpoint) {
+    align-items: center;
+    display: flex;
+  }
+}
+
+.HeroImage {
+  margin: 0 calc(50% - 50vw);
+  width: 100vw;
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 0;
+    width: 100%;
+  }
+}

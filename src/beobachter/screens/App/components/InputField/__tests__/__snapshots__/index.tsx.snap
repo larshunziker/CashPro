@@ -1,0 +1,293 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] Comments - Inputfield Should render a checkbox input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs4 ColSm2"
+      >
+        <input
+          class="ContactInput"
+          id="comment"
+          name="comment"
+          type="checkbox"
+        />
+      </div>
+      <div
+        class="ColXs20 ColSm22"
+      >
+        <label
+          class=""
+          for="comment"
+        >
+          Schreibe ein Kommentar
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a date input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="date"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a email input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a hidden input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      id="comment"
+      name="comment"
+      type="hidden"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a number input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="number"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a radio input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs4 ColSm2"
+      >
+        <input
+          class=""
+          id="comment"
+          name="comment"
+          type="radio"
+        />
+      </div>
+      <div
+        class="ColXs20 ColSm22"
+      >
+        <label
+          class=""
+          for="comment"
+        >
+          Schreibe ein Kommentar
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a textarea input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <textarea
+      class="Textarea"
+      id="comment"
+      name="comment"
+      placeholder="Schreibe ein Kommentar"
+      style="min-height: 30px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render a textfield input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render animated label 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <label
+      class="Label LabelInside"
+      for="comment"
+    >
+      Schreibe ein Kommentar
+    </label>
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder=""
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render animated label with required indicator 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <label
+      class="Label LabelInside"
+      for="comment"
+    >
+      Schreibe ein Kommentar
+      *
+    </label>
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder=""
+      required=""
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render error message 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput HasError"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="text"
+      value=""
+    />
+    <span
+      class="ErrorMessage"
+    >
+      This is the Error Message
+    </span>
+  </div>
+</div>
+`;
+
+exports[`[Components] Comments - Inputfield Should render placeholder when there hasError but no error message 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput HasError"
+      id="comment"
+      maxlength="255"
+      name="comment"
+      pattern=""
+      placeholder="Schreibe ein Kommentar"
+      type="text"
+      value=""
+    />
+    <span
+      class="ErrorMessage"
+    >
+      Schreibe ein Kommentar
+    </span>
+  </div>
+</div>
+`;

@@ -1,0 +1,72 @@
+.Wrapper {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  max-width: 280px;
+
+
+  li:last-of-type > a {
+    margin-right: 0;
+  }
+}
+
+.Link {
+  border-radius: 50%;
+  float: left;
+  margin-right: 11px;
+  position: relative;
+  transition: opacity 0.3s ease-in;
+
+  &:hover {
+    opacity: 0.7;
+  }
+}
+
+.Content {
+  background-color: $white;
+  border-radius: 50%;
+  height: 38px;
+  position: relative;
+  text-align: center;
+  width: 38px;
+}
+
+.Icon svg {
+  height: 26px;
+  margin-top: 7px;
+  width: 26px;
+}
+
+/* Style for Origin Navigation */
+.NavigationWrapper {
+  max-width: 232px;
+
+  .Content {
+    height: 27px;
+    width: 27px;
+  }
+
+  .Icon {
+    color: $blackB;
+    fill: $blackB;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+
+    &:hover {
+      color: $greyA;
+    }
+  }
+
+  .Link {
+    margin-right: $margin24;
+
+    &:hover {
+      opacity: 1;
+
+      .Icon {
+        color: $greyA;
+        fill: $greyA;
+      }
+    }
+  }
+}

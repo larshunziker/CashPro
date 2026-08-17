@@ -1,0 +1,323 @@
+.RichtextWrapper {
+  p {
+    margin-bottom: 22px;
+
+    @media print {
+      text-align: justify;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 35px;
+    }
+
+    u {
+      text-decoration: none;
+    }
+
+    sup {
+      font-size: 1.5rem;
+      vertical-align: super;
+    }
+
+    sub {
+      font-size: 1.5rem;
+      position: relative;
+      top: -2px;
+      vertical-align: sub;
+    }
+  }
+
+  ul {
+    @mixin Paragraph;
+    list-style-type: none;
+    margin-bottom: 20px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin40;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 50px;
+    }
+
+    li {
+      left: 15px;
+      margin-bottom: 5px;
+      position: relative;
+      width: calc(100% - 16px);
+
+      &::before {
+        content: '•';
+        margin-left: -16px;
+        padding-right: 7px;
+
+        @media (min-width: $smBreakpoint) {
+          margin-left: -21px;
+        }
+      }
+
+      @media (min-width: $smBreakpoint) {
+        margin-left: $margin4;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        position: relative;
+      }
+
+      p {
+        display: inline;
+      }
+    }
+  }
+
+  &.Accordion {
+    ol {
+      list-style-position: inside;
+    }
+  }
+
+  ol {
+    margin: 0 0 20px 30px;
+
+    @media (min-width: $smBreakpoint) {
+      margin: 0 0 $margin40 36px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin: 0 0 50px 36px;
+    }
+
+    li {
+      @mixin Paragraph;
+      margin-bottom: 5px;
+      padding-left: 12px;
+
+      @media (min-width: $smBreakpoint) {
+        padding-left: 14px;
+      }
+
+      b,
+      strong {
+        font-weight: bold;
+      }
+
+      p {
+        display: inline;
+      }
+    }
+  }
+
+  .Header {
+    margin-bottom: 20px;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin32;
+    }
+
+    &.MarketingPage {
+      @mixin Heading2A;
+      text-align: center;
+    }
+
+    &.Longform {
+      @mixin Heading2A;
+      text-align: left;
+    }
+  }
+
+  .HeaderSI {
+    @mixin Subheader;
+  }
+
+  .HeaderSY {
+    @mixin SubheaderSY;
+  }
+
+  .InfoBoxHeaderTitle {
+    margin-bottom: 18px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 17px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 28px;
+    }
+
+    &SI {
+      @mixin Quote;
+    }
+
+    &SY {
+      @mixin QuoteSY;
+    }
+  }
+
+  .InfoBoxHeader {
+    margin-bottom: 0;
+  }
+
+  .InfoBoxHeaderTitleMargin {
+    margin-bottom: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 15px;
+    }
+  }
+
+  .HoroscopeHeaderTitle {
+    @mixin Quote;
+    margin-bottom: 10px;
+  }
+
+  &SI {
+    a {
+      @mixin InlineHover;
+    }
+
+    p {
+      @mixin Paragraph;
+
+      strong {
+        @mixin ParagraphBold;
+      }
+
+      em {
+        @mixin CaptionAuthorCopyRight;
+        color: $black;
+        font-size: 1.5rem;
+
+        @media (min-width: $smBreakpoint) {
+          font-size: 1.9rem;
+        }
+
+        strong {
+          @mixin TagBanderole;
+          font-size: 1.5rem;
+
+          @media (min-width: $smBreakpoint) {
+            font-size: 1.9rem;
+          }
+        }
+      }
+    }
+
+    h2,
+    h3 {
+      @mixin Subheader;
+    }
+
+    :global(blockquote p) {
+      @mixin Quote;
+    }
+
+    :global(.catchquestion) {
+      @mixin CatchQuestions;
+    }
+  }
+
+  &.MarketingPage {
+    p {
+      text-align: center;
+      
+      strong {
+        @mixin Lead1;
+        display: inline-block;
+        margin: 0;
+        text-align: center;
+      }
+    }
+  }
+
+  &.Longform {
+    p {
+      text-align: left;
+      
+      strong {
+        @mixin Lead1;
+        display: inline-block;
+        margin: 0;
+        text-align: left;
+      }
+    }
+  }
+
+  &SY {
+    a {
+      @mixin InlineHoverSY;
+    }
+
+    p {
+      @mixin ParagraphSY;
+
+      strong {
+        @mixin ParagraphBoldSY;
+      }
+
+      em {
+        @mixin CaptionAuthorCopyRightSY;
+        color: $black;
+        font-size: 1.5rem;
+
+        @media (min-width: $smBreakpoint) {
+          font-size: 1.9rem;
+        }
+
+        strong {
+          @mixin TagBanderoleSY;
+          font-size: 1.5rem;
+
+          @media (min-width: $smBreakpoint) {
+            font-size: 1.9rem;
+          }
+        }
+      }
+    }
+
+    h2,
+    h3 {
+      @mixin SubheaderSY;
+    }
+
+    :global(blockquote p) {
+      @mixin QuoteSY;
+    }
+
+    :global(.catchquestion) {
+      @mixin CatchQuestionsSY;
+    }
+  }
+
+  a {
+    /* DTCPP-2162 - Mark links to external sites with an icon. */
+    @mixin RichTextLink;
+  }
+}
+
+:global(.IconWord) {
+  &::before {
+    @mixin SIIconFiles;
+    content: '\e94f';
+  }
+}
+
+:global(.IconExcel) {
+  &::before {
+    @mixin SIIconFiles;
+    content: '\e950';
+  }
+}
+
+:global(.IconPdf) {
+  &::before {
+    @mixin SIIconFiles;
+    content: '\e951';
+  }
+}
+
+:global(.IconDocument) {
+  &::before {
+    @mixin SIIconFiles;
+    content: '\e94e';
+  }
+}

@@ -1,0 +1,109 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  display: flex;
+  flex-direction: column;
+  justify-content: center;  
+  padding-bottom: $margin16;
+  padding-top: $margin16;
+  position: relative;
+
+  &.IsHybridApp {
+    min-height: 556px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+    height: calc(100vh - 64px);
+    padding: $margin24 18px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $margin24;
+  }
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-direction: column;
+  height: calc(100% - 64px);
+  justify-content: center;
+  
+  @media (min-width: $smBreakpoint) {
+    width: 462px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    align-items: center;
+    flex-direction: row;
+    height: auto;
+    width: 896px;
+  }
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  
+  @media (min-width: $smBreakpoint) {
+    left: $margin16;
+    position: absolute;
+    top: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    left: $margin24;
+  }
+}
+
+.ImageWrapper {
+  margin-bottom: $margin24;
+  padding: 0 $margin64;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+    padding: 0 51px;
+  }
+
+  img {
+    width: 100%;
+
+    @media (min-width: $xlBreakpoint) {
+      width: 408px;
+    }
+  }
+}
+
+.SubHeading {
+  composes: InfoH1 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.Description {
+  composes: InfoA from 'typography.legacy.css';
+  margin-bottom: $margin24;
+}
+
+.ButtonsWrapper {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    gap: 12px;
+  }
+
+  > button {
+    margin: 8px 0;
+    margin-bottom: $margin16;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+      width: auto;
+    }
+  }
+}

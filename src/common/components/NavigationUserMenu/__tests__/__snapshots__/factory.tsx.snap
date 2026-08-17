@@ -1,0 +1,85 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] NavigationUserMenu Should render correctly 1`] = `
+<div>
+  <div
+    class="WrapperClass"
+  >
+    <div
+      class="MenuHeaderClass"
+    >
+      <div
+        class="ContainerClass"
+      >
+        <div
+          class="MenuHeaderContentClass"
+        >
+          <div>
+            Header
+          </div>
+          <button
+            aria-label="Menü schliessen"
+            class="CloseButtonClass"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="MenuBodyWrapperClass"
+    >
+      <div
+        class="UserInformationWrapperClass"
+      >
+        <div
+          class="ContainerClass"
+        >
+          <div
+            class="UserNameClass"
+          >
+            <p>
+              Guten Tag
+              , 
+            </p>
+            <p>
+              Tester Test
+            </p>
+          </div>
+          <div
+            class="UserCredentialsClass"
+          >
+            Test@test.ch
+            <br />
+            Testusername
+          </div>
+        </div>
+      </div>
+      <div
+        class="MenuWrapperClass"
+      >
+        <div
+          class="ContainerClass"
+        >
+          <ul
+            class="MenuListWrapperClass"
+          >
+            <li
+              class="MenuItemClass"
+            >
+              <div>
+                MenuItem
+              </div>
+            </li>
+            <li
+              class="MenuItemClass"
+            >
+              <div>
+                MenuItem
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

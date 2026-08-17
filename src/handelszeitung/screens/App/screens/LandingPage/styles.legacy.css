@@ -1,0 +1,17 @@
+.Wrapper {
+  position: relative;
+}
+
+.PagerWrapper {
+  margin-top: $margin40;
+  text-align: center;
+}
+
+/* Used in LandingPageDefault & LandingPageSpecial */
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  color: $blue;
+  margin-bottom: 0;
+  margin-left: 0;
+  position: relative;
+}

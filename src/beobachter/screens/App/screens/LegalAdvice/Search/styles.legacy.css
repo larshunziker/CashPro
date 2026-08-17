@@ -1,0 +1,69 @@
+.Wrapper {
+  margin-bottom: $margin32;
+  padding-top: $margin32;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    padding-top: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding-top: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+    padding-top: $margin48;
+  }
+}
+
+.PagerWrapper {
+  margin-block: $margin24 $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-block: 48px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Sidebar {
+  @media (min-width: $mdBreakpoint) { /* 1024 */
+    border-left: 1px solid $grey30;
+    height: 100%;
+    margin-left: 12px;
+    padding-left: 28px;
+  }
+}
+
+.PianoIntegrationWrapper {
+  margin-bottom: $margin64;
+}
+
+.LinkBack {
+  composes: LinkBack from '../LandingPage/styles.legacy.css';
+  cursor: pointer;
+  margin-bottom: 12px;
+}
+
+.WithoutLinkBack {
+  margin-bottom: 50px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 62px;
+  }
+}
+
+.CategoriesTitle {
+  composes: TitleWithLine from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  word-break: break-word;
+}

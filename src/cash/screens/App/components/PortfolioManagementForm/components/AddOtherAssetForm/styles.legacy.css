@@ -1,0 +1,69 @@
+.Wrapper {
+  padding: $margin24 $margin24 0 $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    overflow-x: hidden;
+    padding: $margin24 0 0 0;
+  }
+}
+
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.InfoLink {
+  color: $secondaryA;
+  cursor: pointer;
+}
+
+.Lead {
+  composes: InfoA from 'typography.legacy.css';
+  color: $transparent;
+  height: 0;
+  overflow: hidden;
+  transition: color 0.3s ease-in-out;
+
+  &.Visible {
+    color: $black;
+    height: auto;
+    margin-bottom: $margin24;
+  }
+}
+
+.InfoTitle {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.FieldsWrapper {
+  display: none;
+
+  &.Visible {
+    display: block;
+  }
+}
+
+.MoreFieldsLink {
+  composes: ButtonBig from 'typography.legacy.css';
+  color: $secondaryA;
+  cursor: pointer;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: $margin16;
+}
+
+.ButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: $margin16;
+  overflow-x: hidden;
+
+  button {
+    position: relative;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}

@@ -1,0 +1,144 @@
+.Wrapper {
+  @mixin hideforPrint;
+  position: relative;
+}
+
+.Slider {
+  aspect-ratio: 16 / 9;
+  display: flex !important; /* stylelint-disable-line */
+  overflow-x: visible !important; /* stylelint-disable-line */
+}
+
+.Slide {
+  align-items: center;
+  background-color: $black;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.SliderWrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+}
+
+.ImageWrapper {
+  align-content: center;
+  align-items: center;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  position: relative;
+  transition: opacity .2s ease-in-out;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.Title {
+  composes: ImageHeader from 'typography.legacy.css';
+
+  margin-bottom: 21px;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 24px;
+  }
+}
+
+.Image {
+  height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  width: 100%;
+}
+
+.IndicatorWrapper {
+  height: 9px;
+  margin-block: 8px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 10px;
+    left: calc(50% - 12px);
+    margin: 0;
+    position: absolute;
+  }
+}
+
+.ControlWrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    column-gap: 16px;
+    display: flex;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.Basic {
+  opacity: 1;
+  transition: opacity 0.3s;
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  cursor: pointer;
+  filter: invert(1);
+  height: 40px;
+  margin-top: 8px;
+  outline: none;
+  padding: 0;
+  position: relative;
+  transition: filter .3s;
+  width: 40px;
+
+  &:hover {
+    background-color: $black;
+    border-radius: 50%;
+    filter: invert(0);
+
+    &::after {
+      border-radius: 50%;
+      box-shadow: inset 0 0 0 3px $black;
+      content: '';
+      display: block;
+      height: 100%;
+      position: absolute;
+      top:0;
+      width: 100%;
+    }
+  }
+
+  &:hover .Basic {
+    overflow: hidden;
+    transition: filter .3s;
+  }
+}
+
+.SwipeInteractionButton {
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.UnderSlidesWrapper {
+  column-gap: 8px;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,10 @@
+.FooterLogo {
+  display: inline-block;
+  height: 24px;
+  width: 160px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 32px;
+    width: 214px;
+  }
+}

@@ -1,0 +1,101 @@
+.Wrapper {
+  background-color: $greyD;
+  padding: 12px 13px 21px;
+
+  @media print {
+    display: none;
+  }
+}
+
+.WrapperRight {
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    max-width: 200px;
+    position: absolute;
+    right: -20px;
+    top: 15px;
+
+    /* should be under piano overlay */
+    z-index: calc($zIndexHeader - 21);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* 1600 */
+    right: 0;
+  }
+}
+
+.Title {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.9rem;
+  font-weight: bold;
+  line-height: 3rem;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.ItemWrapper {
+  padding: 12px 0 10px;
+}
+
+.ItemWrapperIsActive {
+  position: relative;
+
+  &::after {
+    background-color: $redA;
+    bottom: 13px;
+    content: ' ';
+    display: block;
+    left: -12px;
+    position: absolute;
+    top: 13px;
+    width: 5px;
+  }
+}
+
+.Link {
+  cursor: pointer;
+  display: block;
+}
+
+.LinkIsActive {
+  cursor: default;
+  pointer-events: none;
+}
+
+.ItemTitle {
+  background-color: $redA;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.3rem;
+  font-weight: 900;
+  line-height: 1.9rem;
+  padding: 2px 6px;
+  text-transform: uppercase;
+}
+
+.ItemText {
+  color: $black;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 1.9rem;
+  margin-top: 10px;
+}
+
+.ItemTextIsActive {
+  composes: ItemText;
+  color: $greyA;
+}
+
+.ItemTitleIsActive {
+  composes: ItemTitle;
+  background-color: $greyA;
+  color: $white;
+}
+
+.SectionPagerItem {
+  list-style: none;
+}

@@ -1,0 +1,91 @@
+.ExpansionPanel {
+  background-color: $lpblue;
+  border-radius: 4px;
+  padding: $defaultPadding;
+  position: relative;
+  width: 400px;
+
+  .Spacer {
+    flex: 1;
+  }
+
+  .Header {
+    align-items: center;
+    border-radius: 4px;
+    color: $white;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+  }
+
+  .Icon {
+    &::before {
+      color: $white;
+      display: inline-block;
+      font-family: $fontSansSerif;
+      font-size: $h1FontSize;
+      transition: color 0.3s ease-in-out;
+    }
+
+    &.ArrowIcon {
+      color: $white;
+      line-height: 1;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out;
+
+      &::before {
+        content: '\e924';
+      }
+    }
+  }
+
+  .Content {
+    color: $white;
+    font-family: $fontSansSerif;
+    height: 0;
+    overflow: hidden;
+    padding: 0 15px;
+    position: relative;
+  }
+
+  &.isOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+    }
+
+    .Header {
+      @media (min-width: $smBreakpoint) {
+        &:hover {
+          .ArrowIcon::before {
+            color: $white;
+          }
+        }
+      }
+    }
+  }
+}
+
+.Title,
+.BoldTitle {
+  transition: color 0.3s ease-in-out;
+}
+
+.Title {
+  color: $white;
+  font-family: $fontSansSerif;
+  font-size: $h1FontSize;
+  font-weight: 300;
+  line-height: $h1FontSize;
+  padding: $defaultPadding;
+}
+
+.BoldTitle {
+  color: $white;
+  font-family: $fontSansSerif;
+  font-size: $h1FontSize;
+  font-weight: 900;
+  line-height: $h1FontSize;
+}

@@ -1,0 +1,42 @@
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+
+  /* This selector prevents the high/low labels from being cut off (https://jira.ringieraxelspringer.ch/browse/RDP-1800) */
+  & > div, & > div > div, & > div > div > span {
+    /* stylelint-disable-next-line declaration-no-important */
+    overflow: visible !important;
+  }
+}
+
+.AxisLabels {
+  fill: $greyA;
+
+  text {
+    @mixin Widget;
+    color: $greyA;
+  }
+}
+
+.NoData {
+  position: absolute;
+  right: 50%;
+  text-align: center;
+  top: 50%;
+  transform: translate(50%, 50%);
+  width: 100%;
+}
+
+.LinkPlaceHolder {
+  min-height: 19px;
+}
+
+.LinkedChart {
+  cursor: pointer;
+}
+
+.ChartAnalyse {
+  display: block;
+  margin: 0 10px 0 auto;
+}

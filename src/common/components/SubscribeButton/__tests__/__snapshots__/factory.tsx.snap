@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] SubscribeButton Should render correctly after clicking the CTA button (not authenticated) 1`] = `
+<div>
+  <button
+    class="SubscribeButtonWrapperClassName"
+  >
+    <div
+      data-testid="mocked-subscribeicon"
+    />
+    <span
+      class="TextClassName"
+    >
+      Folgen
+    </span>
+  </button>
+</div>
+`;
+
+exports[`[Common] SubscribeButton Should render correctly in default theme 1`] = `
+<div>
+  <button
+    class="SubscribeButtonWrapperClassName"
+  >
+    <div
+      data-testid="mocked-subscribeicon"
+    />
+    <span
+      class="TextClassName"
+    >
+      Folgen
+    </span>
+  </button>
+</div>
+`;
+
+exports[`[Common] SubscribeButton Should render correctly in light theme 1`] = `
+<div>
+  <button
+    class="SubscribeButtonWrapperClassName LightThemeClassName"
+  >
+    <div
+      data-testid="mocked-subscribeicon"
+    />
+    <span
+      class="TextClassName"
+    >
+      Folgen
+    </span>
+  </button>
+</div>
+`;
+
+exports[`[Common] SubscribeButton Should render with with the "following"-state 1`] = `
+<div>
+  <button
+    class="SubscribeButtonWrapperClassName LightThemeClassName"
+  >
+    <div
+      data-testid="mocked-subscribeicon"
+    />
+    <span
+      class="TextClassName ActiveClassName"
+    >
+      Folge ich
+    </span>
+  </button>
+</div>
+`;

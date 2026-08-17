@@ -1,0 +1,15 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  margin: auto;
+  margin-bottom: 2.5rem;
+  max-width: 100%;
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}

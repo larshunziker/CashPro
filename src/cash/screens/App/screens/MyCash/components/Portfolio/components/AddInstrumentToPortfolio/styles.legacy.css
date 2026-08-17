@@ -1,0 +1,9 @@
+.InputIcon {
+  background-color: $white;
+  color: $secondaryA;
+  height: calc(100% - 2px);
+  left: calc(50% - 90px);
+  padding: 9px 4px 0 6px;
+  position: absolute;
+  top: 1px;
+}

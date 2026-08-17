@@ -1,0 +1,16 @@
+@define-mixin scale $scale {
+  transform: scale($scale);
+}
+
+@define-mixin transition $speed, $option {
+  transition: $speed $option;
+}
+
+/* TEASER */
+@define-mixin scaleTeaser {
+  @mixin scale 1.1;
+}
+
+@define-mixin transitionTeaser {
+  @mixin transition 0.3s  ease-in-out;
+}

@@ -1,0 +1,158 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 0;
+  position: relative;
+}
+
+.TeaserImageWrapper {
+  margin-bottom: $margin8;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: calc($zIndex1 - 1);
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: $margin8;
+
+  &, span {
+    @mixin fontSize 20;
+    @mixin lineHeight 24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &, span {
+      @mixin fontSize 24;
+      @mixin lineHeight 28;
+    }
+  }
+}
+
+.TeaserTitle {
+  composes: H2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin H3;
+  }
+
+  i {
+    margin-right: $margin8;
+    position: relative;
+    top: 1px;
+  }
+}
+
+.TeaserLead {
+  composes: TeaserLead from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.SearchTeaserM {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.SearchTeaserM span {
+  color: $secondaryA;
+  display: block;
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+  bottom: 0;
+  display: inline-table;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+
+  &, span {
+    @mixin fontSize 16;
+    @mixin lineHeight 18;
+  }
+}
+
+.BottomLine:nth-of-type(2) {
+  display: inline;
+}
+
+.BottomLine:nth-of-type(2)::before {
+  content: '\2000|\2000';
+}
+
+
+.Icon {
+  bottom: 19px;
+  position: absolute;
+  right: 23px;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 14px;
+    right: 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 14px;
+    right: 17px;
+  }
+}
+
+.Badge {
+  bottom: 19px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 14px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 28px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleB from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin8;
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitle from 'typography.legacy.css';
+}
+
+.SearchShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  margin-bottom: -6px;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin ShortTitleC;
+  }
+}
+
+.SearchPublicationDate {
+  composes: Meta3 from 'typography.legacy.css';
+  bottom: 0;
+  margin-top: $margin4;
+  position: relative;
+}

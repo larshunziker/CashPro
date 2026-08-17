@@ -1,0 +1,197 @@
+.Wrapper {
+  margin-bottom: 10px;
+  margin-top: 20px;
+  position: relative;
+}
+
+.ContactInput,
+.Textarea {
+  @mixin Paragraph;
+  border: 1px solid $grayA;
+  border-radius: 0;
+  margin-top: 10px;
+  padding: 15px 0 0;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.Textarea {
+  height: 30px;
+  margin-bottom: -5px;
+  margin-top: 25px;
+  padding-top: 0;
+  resize: none;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 25px;
+  }
+}
+
+.Label {
+  @mixin Paragraph;
+  color: $grayB;
+  height: 30px;
+  margin: $margin24 0 0;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: left;
+}
+
+.TextareaLabel {
+  margin: 30px 0 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 26px 0 0;
+  }
+}
+
+.LabelAbove {
+  transform: scale(0.7) translateY(-106%);
+  transition: transform 0.8s;
+}
+
+.LabelInside {
+  transform: scale(1) translate(0, 0);
+  transition: transform 0.8s;
+}
+
+.HasError {
+  border-color: $redA;
+  color: $redA;
+}
+
+.ErrorMessage {
+  display: none;
+}
+
+@media (min-width: $smBreakpoint) {
+  /* 760 */
+  .Label,
+  .TextareaLabel,
+  .Textarea,
+  .ContactInput {
+    font-size: 2rem;
+  }
+}
+
+.CheckboxWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  min-height: 34px;
+}
+
+.Checkbox {
+  background-color: $white;
+  top: -25px;
+
+  & > input[type='checkbox'] {
+    -webkit-appearance: none; /* stylelint-disable-line */
+    appearance: none; /* stylelint-disable-line */
+    background: $white;
+    border: 1px solid $grayA;
+    height: 30px;
+    margin: 12px 0 0;
+    outline: 0;
+    position: relative;
+    width: 30px;
+
+    &:checked::after {
+      color: $grayB;
+      content: '\2715';
+      font-size: 4.2rem;
+      left: -2px;
+      position: absolute;
+      top: -29px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      &:checked::after {
+        top: -18px;
+      }
+    }
+
+    &.HasError {
+      border-color: $redA;
+      color: $redA;
+    }
+  }
+
+  & > input[type='radio'] {
+    -webkit-appearance: none; /* stylelint-disable-line */
+    appearance: none; /* stylelint-disable-line */
+    background: $white;
+    border: 1px solid $grayA;
+    border-radius: 50%;
+    height: 30px;
+    margin: 12px 0 0;
+    outline: 0;
+    position: relative;
+    width: 30px;
+
+    &:checked::after {
+      background-color: $grayA;
+      border-radius: 50%;
+      color: $grayA;
+      content: '';
+      font-size: 4rem;
+      height: 24px;
+      left: 2px;
+      position: absolute;
+      top: 2px;
+      width: 24px;
+    }
+  }
+}
+
+.Description,
+.Labels {
+  color: $grayA;
+
+  /* font-family: $fontGotham; */
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 2.2rem;
+  position: relative;
+  top: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+
+  > a {
+    color: $redA;
+  }
+
+  &.HasError {
+    border-color: $redA;
+    color: $redA;
+  }
+}
+
+.Labels {
+  .Required {
+    &::after {
+      content: '*';
+      display: inline;
+    }
+  }
+}
+
+.Description {
+  font-size: 1.2rem;
+  line-height: 1.9rem;
+  top: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.3rem;
+    line-height: 2rem;
+  }
+}

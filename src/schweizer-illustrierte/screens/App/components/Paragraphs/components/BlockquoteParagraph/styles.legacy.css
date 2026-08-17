@@ -1,0 +1,37 @@
+.Wrapper {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 0 27px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+    padding: 10px 83px 0;
+  }
+}
+
+.Quote {
+  margin-bottom: 2px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin8;
+  }
+}
+
+.QuoteSI {
+  composes: Quote from 'typography.legacy.css';
+}
+
+.QuoteSY {
+  composes: QuoteSY from 'typographySY.legacy.css';
+}
+
+.QuoteAuthorSI {
+  composes: QuoteAuthor from 'typography.legacy.css';
+}
+
+.QuoteAuthorSY {
+  composes: QuoteAuthorSY from 'typographySY.legacy.css';
+}

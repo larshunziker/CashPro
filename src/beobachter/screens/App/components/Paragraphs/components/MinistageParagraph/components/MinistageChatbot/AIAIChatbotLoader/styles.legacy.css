@@ -1,0 +1,247 @@
+.Wrapper {
+  display: block;
+  margin-bottom: 46px;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 58px;
+  }
+}
+
+.Title {
+  composes: NewChannelTitle from '../../../../../../../assets/styles/typography.legacy.css';
+
+  margin-bottom: 2.4rem;
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}
+
+.Label {
+  color: $greenDark;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.92rem;
+  margin-bottom: $margin8;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.16rem;
+  }
+}
+
+.FormWrapper {
+  align-items: center;
+  display: flex;
+  gap: $margin8;
+}
+
+.InputWrapper {
+  align-items: center;
+  background: $white;
+  border: 1px solid $grey50;
+  border-radius: 32px;
+  display: flex;
+  flex: 1 0 0;
+  gap: 10px;
+  height: 48px;
+  min-height: 1px;
+  min-width: 1px;
+  padding: $margin8 $margin8 $margin8 $margin16;
+  position: relative;
+  transition: border-color .3s ease-in-out;
+
+  &.InputFocused {
+    border-color: $grey70;
+  }
+
+  &:hover {
+    border-color: $grey70;
+  }
+}
+
+.RobotIcon {
+  height: 21px;
+  width: 21px;
+}
+
+.Input {
+  border: none;
+  color: $black;
+  flex: 1 1 auto;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 700;
+  min-width: 0;
+
+  &:placeholder-shown {
+    text-overflow: ellipsis;
+  }
+
+  &::placeholder {
+    color: $grey70;
+    font-weight: 400;
+  }
+
+  &:disabled {
+    color: $grey40;
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.52rem;
+  }
+}
+
+input[type='reset'] {
+  &:disabled {
+    background-color: $transparent;
+    border-color: $transparent;
+    color: $grey40;
+    pointer-events: none;
+  }
+}
+
+.IconClear {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  margin-right: 10px;
+  position: relative;
+}
+
+.IconClearDisabled {
+  color: $grey40;
+  pointer-events: none;
+}
+
+.IconClearInput {
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  right: 0;
+  width: 100%;  
+  z-index: $zIndex1;
+}
+
+.SearchButton {
+  align-items: center;
+  background: $grey40;
+  border: none;
+  border-radius: 42px;
+  color: $white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  padding: $margin12;
+  transition: background .3s ease-in-out;
+
+  &:hover {
+    background: $black;
+    color: $white;
+  }
+
+  .IconSearch {
+    height: 24px;
+    width: 24px;
+  }
+
+  &:disabled {
+    background-color: $grey40;
+    border: none;
+    color: $white;
+    pointer-events: none;
+  }
+}
+
+.Container {
+  display: flex;
+}
+
+.HideElement {
+  opacity: 0;
+  transition: opacity 0.3s;
+  visibility: hidden;
+}
+
+.ThanksText {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.92rem;
+  position: absolute;
+  top: calc(50% + 6px);
+}
+
+.SearchButtonText {
+  display: none;
+}
+
+.ButtonWithValue {
+  align-items: center;
+  background: $white;
+  border: 1px solid $grey30;
+  border-radius: 4px;
+  color: $black;
+  cursor: pointer;
+  display: flex;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 400;
+  gap: $margin12;
+  padding: $margin8 $margin16;
+  text-align: left;
+  width: fit-content;
+
+  img {
+    height: 21px;
+    width: 21px;
+  }
+
+  &:hover {
+    background: $grey10;
+    border-color: $grey30;
+  }
+
+  &:disabled {
+    border-color: $grey30;
+    color: $grey40;
+    opacity: 0.5;
+    pointer-events: none;
+  }
+}
+
+
+.ButtonsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin24;
+  margin-bottom: $margin24;
+}
+
+.InputWrapperDisabled {
+  border-color: $grey40;
+
+  &:hover {
+    border-color: $grey40;
+  }
+}

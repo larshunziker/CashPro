@@ -1,0 +1,40 @@
+.ImageWrapper {
+  padding: 0;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.Caption {
+  position: relative;
+}
+
+.Title {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin: 16px 0;
+  text-align: center;
+}
+
+.Text {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+
+  & a {
+    @mixin InfoCLinkNeutralA;
+  }
+
+  & strong {
+    @mixin InfoCBoldNeutralA;
+  }
+
+  & p + p {
+    margin-top: $margin16;
+  }
+}

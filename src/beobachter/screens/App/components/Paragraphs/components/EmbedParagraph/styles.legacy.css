@@ -1,0 +1,30 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  margin: auto;
+  margin-bottom: 2.5rem;
+
+}
+
+.Title {
+  composes: ImageHeader from 'typography.legacy.css';
+
+  margin-bottom: 21px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 24px;
+  }
+}
+
+.RightWidgetWrapper {
+  @media (min-width: $lgBreakpoint) and  (max-width: $lgBreakpointTo) {
+    & :global(.twitter-tweet) iframe {
+      width: 270px !important; /* stylelint-disable-line */
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    & :global(.instagram-media-rendered) {
+      min-width: auto !important; /* stylelint-disable-line */
+    }
+  }
+}

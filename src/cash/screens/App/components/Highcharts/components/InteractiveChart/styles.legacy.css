@@ -1,0 +1,35 @@
+:global(.chart) {
+  float: none;
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+
+/* This class in composed in the InteractiveChartIntraday */
+.Wrapper {
+  min-height: 710px;
+  position: relative;
+
+  &::after {
+    background:url('App/assets/graphics/chart-watermark.png') 0% 0%;
+    background-position: 55% 21%;
+    background-repeat:no-repeat;
+    background-size: 50%;
+    content: ' ';
+    display: block;
+    height: 100%;
+    left: 0;
+    opacity: 0.4;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: -1;
+
+    @media (min-width: $smBreakpoint) {
+      background-position: 55% -63px;
+      background-size: contain;
+    }
+  }
+}
+

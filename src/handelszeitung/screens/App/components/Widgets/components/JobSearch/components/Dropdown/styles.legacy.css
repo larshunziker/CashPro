@@ -1,0 +1,12 @@
+.Field {
+  @mixin InfoB;
+  border: 0;
+  color: $greyA;
+  padding: 16px;
+  text-align: left;
+
+  &:hover {
+    background-color: $greyC;
+    cursor: pointer;
+  }
+}

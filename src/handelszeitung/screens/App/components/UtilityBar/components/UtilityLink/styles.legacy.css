@@ -1,0 +1,103 @@
+.Link {
+  cursor: pointer;
+  display: inline-block;
+  max-height: 34px;
+  outline: none;
+  padding: 0 30px 15px;
+  position: relative;
+
+  &.Active,
+  &:hover {
+    .Label,
+    .Icon {
+      color: $greyA;
+      fill: $greyA;
+      transition: color 0.3s, fill 0.3s;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 38px;
+  }
+}
+
+.LinkOverlay {
+  margin-bottom: 18px;
+  max-height: 38px;
+  padding: 0 35px 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0
+  }
+}
+
+.LinkHeader {
+  max-height: 34px;
+  padding: 0 30px 12px;
+}
+
+.Icon {
+  display: flex;
+  height: 20px;
+  position: relative;
+  width: 20px;
+}
+
+.CommentCount {
+  composes: Meta4WhiteBold from 'typography.legacy.css';
+  position: relative;
+  top: -1px;
+  z-index: 1;
+}
+
+:global(.vf-comments-count) {
+  color: $white;
+  font-family: $fontGothamNarrow;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+  position: relative;
+  top: -2px;
+  z-index: $zIndex1;
+}
+
+:global(div:has( > #vf-conversations-count:empty)) {
+  display: none;
+}
+
+.Badge {
+  background-color: $blackB;
+  border-radius: 50%;
+  content: '';
+  height: 17px;
+  line-height: 17px;
+  position: absolute;
+  right: 22px;
+  text-align: center;
+  top: -4px;
+  width: 17px;
+  z-index: 0;
+
+  &.Restricted {
+    background-color: $greyA;
+  }
+}
+
+.Label {
+  composes: InfoD from 'typography.legacy.css';
+  bottom: -8px;
+  left: -5px;
+  position: absolute;
+  right: -5px;
+  text-align: center;
+  white-space: nowrap;
+}
+
+.Restricted {
+  .Label,
+  .Icon {
+    color: $greyA;
+    fill: $greyA;
+    transition: color 0.3s, fill 0.3s;
+  }
+}

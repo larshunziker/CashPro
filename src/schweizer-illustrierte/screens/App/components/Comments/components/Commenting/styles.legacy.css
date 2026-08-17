@@ -1,0 +1,93 @@
+.Wrapper {
+  @mixin hideforPrint;
+  display: grid;
+  grid-template-rows: max-content 0fr;
+  transition: grid-template-rows 0.3s linear;
+
+  &.isOpen {
+    grid-template-rows: max-content 1fr;
+  }
+
+  form {
+    margin-top: -30px;
+  }
+}
+
+.Icon {
+  color: $grayB;
+  font-size: 2.5rem;
+  margin-left: auto;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.2rem;
+  }
+}
+
+.Icon,
+.IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}
+
+.StatusWrapper,
+.StatusWrapperVisible {
+  overflow: hidden;
+  transition: height 300ms linear, opacity 300ms linear;
+}
+
+.StatusWrapper {
+  height: 0;
+  opacity: 0;
+}
+
+.InnerWrapper {
+  border: 1px solid $grayA;
+
+  @media (min-width: $smBreakpoint) {
+    border-left: none;
+    border-right: none;
+  }
+
+  form {
+    margin-top: 0;
+  }
+}
+
+.StatusWrapperVisible {
+  height: 100%;
+  opacity: 1;
+}
+
+.Status {
+  display: none;
+}
+
+.Logout {
+  display: none;
+}
+
+.Title {
+  composes: Title from 'Comments/styles.legacy.css';
+  display: flex;
+  margin-top: 0;
+
+  > span {
+    display: inline-block;
+    padding-left: 42px;
+    text-align: center;
+
+    &::before {
+      content: '\e927';
+      display: inline-block;
+      font-family: $fontIcons;
+      font-size: 2.9rem;
+      left: 0;
+      position: absolute;
+      top: 8px;
+      z-index: -1;
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "179665",
+  "teasers": {
+    "edges": [
+      {
+        "node": {
+          "__typename": "Product",
+          "title": "Getting Things Done",
+          "shortTitle": "L'Occitane"
+        }
+      }
+    ]
+  },
+  "__typename": "TeaserParagraph"
+}

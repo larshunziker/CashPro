@@ -1,0 +1,100 @@
+.Container {
+  margin-inline: 19px;
+}
+
+.Wrapper {
+  background-color: $white;
+  bottom: 0;
+  height: 100%;
+  overflow: scroll;
+  position: absolute;
+  right: 0;
+  top: 0;
+  width: 100vw;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 500px;
+    width: 100%;
+  }
+}
+
+.MenuHeader {
+  padding-block: 10px;
+}
+
+.MenuHeaderContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-end;
+  position: relative;
+}
+
+.CloseButton {
+  background-color: $transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  padding: 0;
+  position: relative;
+  z-index: $zIndexOverlay;
+}
+
+.CloseIcon {
+  color: $black;
+  font-size: 2.2rem;
+  opacity: 0.8;
+  transition: opacity 0.3s ease-in;
+
+  &:hover,
+  &:focus {
+    opacity: 1;
+  }
+}
+
+.UserInformationWrapper {
+  background-color: $grey10;
+  padding-block: 16px 10px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-block: 16px 14px;
+  }
+}
+
+.UserName {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-flex;
+
+    p:first-child {
+      margin-right: 4px;
+    }
+  }
+}
+
+.UserCredentials {
+  composes: TeaserLeadWhite from 'typography.legacy.css';
+  color: $grey90;
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  margin-block: 18px;
+}
+
+.MenuItem {
+  cursor: pointer;
+  list-style: none;
+
+  &:not(:last-child) {
+    margin-bottom: 24px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 12px;
+  }
+}

@@ -1,0 +1,37 @@
+.Wrapper {
+  display: inline-block;
+  margin-top: 0;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 33px;
+  }
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+  margin-bottom: 10px;
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 22px;
+    margin-top: 55px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 20px;
+  }
+}
+
+.SubTitle {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 12px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 15px;
+  }
+}

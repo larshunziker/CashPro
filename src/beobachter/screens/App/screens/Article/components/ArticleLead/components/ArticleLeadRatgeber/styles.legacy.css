@@ -1,0 +1,58 @@
+.Wrapper {
+  color: $greyA;
+  margin-bottom: $margin16;
+  width: 100%;
+}
+
+.ShortTitle {
+  composes: TaglineXl from 'typography.legacy.css';
+  display: inline-block;
+  margin: 0 6px $margin4 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin4 $margin4 0;
+  }
+}
+
+.SponsoredShortTitle {
+  composes: SpitzmarkeTeaserAdvertorial from 'typography.legacy.css';
+  display: inline-block;
+  margin: 0 $margin4 $margin16 0;
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.MainTitle {
+  composes: HeadlineXl from 'typography.legacy.css';
+
+  color: $black;
+  display: block;
+}
+
+.SponsoredMainTitle {
+  composes: H1SansSerif from 'typography.legacy.css';
+}
+
+.Title {
+  margin-bottom: $margin8;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.NoMarginTop {
+  margin-top: 0;
+}

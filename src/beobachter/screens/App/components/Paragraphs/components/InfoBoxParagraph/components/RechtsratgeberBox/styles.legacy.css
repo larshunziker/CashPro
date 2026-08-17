@@ -1,0 +1,64 @@
+.GuiderWrapper {
+  background: $greenLight;
+  border-radius: $defaultRadius;
+  font-family: $fontSpezia;
+  padding: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $margin24 $margin40;
+  }
+
+  .Header {
+    &.HasLinkBox {
+      margin-bottom: $margin32;
+    }
+  }
+}
+
+.Typography {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+
+  h2 {
+    margin-bottom: 0;
+  }
+
+  h3 {
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.88rem;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 2.8rem;
+      line-height: 3.36rem;
+    }
+  }
+
+  p {
+    margin-top: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* >= 1600 */
+    margin-bottom: 0;
+  }
+}
+
+.Badge {
+  background: $green;
+  color: $white;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.68rem;
+  margin-bottom: $margin4;
+  padding: $margin4 $margin8;
+}

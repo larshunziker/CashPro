@@ -1,0 +1,66 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Sponsor Banner factory Should render correctly when children are given 1`] = `
+<div>
+  <div
+    data-testid="sponsor-banner-wrapper"
+  >
+    <div
+      data-testid="sponsor-banner-factory-link"
+    >
+      <div>
+        <div
+          class=".SampleSectionClass"
+        >
+          <div
+            class=".SampleBannerClass"
+          >
+            <div
+              class=".SampleContainerClass"
+            >
+              Test
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class=".SampleSponsorLabelWrapperClass"
+      >
+        <div
+          class=".SampleLabelClass"
+        >
+          Präsentiert von
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] Sponsor Banner factory Should render correctly when no label is given 1`] = `
+<div>
+  <div
+    data-testid="sponsor-banner-wrapper"
+  >
+    <div
+      data-testid="sponsor-banner-factory-link"
+    >
+      <div>
+        <div
+          class=".SampleSectionClass"
+        >
+          <div
+            class=".SampleBannerClass"
+          >
+            <div
+              class=".SampleContainerClass"
+            >
+              Test
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

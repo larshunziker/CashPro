@@ -1,0 +1,25 @@
+.Wrapper {
+  margin-bottom: 8px;
+
+  div:last-child {
+    div {
+      border: 0;
+    }
+  }
+}
+
+.ShowMore {
+  border: 0;
+  color: $secondaryA;
+  cursor: pointer;
+  font-size: 14px;
+  font-weight: 700;
+  gap: 8px;
+  margin-top: 12px;
+  text-align: center;
+  width: 100%;
+}
+
+.Icon {
+  margin-left: 8px;
+}

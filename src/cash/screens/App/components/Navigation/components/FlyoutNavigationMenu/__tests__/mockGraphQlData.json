@@ -1,0 +1,380 @@
+[
+  {
+    "node": {
+      "link": {
+        "label": "Ratgeber",
+        "description": null,
+        "path": "/ratgeber",
+        "routed": false,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Alle Ratgeber Themen",
+                "description": null,
+                "path": "/ratgeber",
+                "routed": false,
+                "isMainChannel": false
+              },
+              "subtree": {
+                "edges": [
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Alle Ratgeber Themen",
+                        "description": null,
+                        "path": "/ratgeber",
+                        "routed": false,
+                        "isMainChannel": false
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "PersonalImanagement",
+                        "description": null,
+                        "path": "/ratgeber/personalmanagment",
+                        "routed": false,
+                        "isMainChannel": false
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Marketing",
+                        "description": null,
+                        "path": "/ratgeber/marketing",
+                        "routed": false,
+                        "isMainChannel": false
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Cybersecurity",
+                        "description": null,
+                        "path": "/node/43108",
+                        "routed": true,
+                        "isMainChannel": false
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Finanzen",
+                        "description": null,
+                        "path": "/node/42736",
+                        "routed": true,
+                        "isMainChannel": false
+                      }
+                    }
+                  },
+                  {
+                    "node": {
+                      "link": {
+                        "label": "Versicherung",
+                        "description": null,
+                        "path": "/node/17433",
+                        "routed": true,
+                        "isMainChannel": false
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "PersonalImanagement",
+                "description": null,
+                "path": "/ratgeber/personalmanagment",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Marketing",
+                "description": null,
+                "path": "/ratgeber/marketing",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Cybersecurity",
+                "description": null,
+                "path": "/node/43108",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Finanzen",
+                "description": null,
+                "path": "/node/42736",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Versicherung",
+                "description": null,
+                "path": "/node/17433",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Beratung",
+        "description": null,
+        "path": "/beratung",
+        "routed": true,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Beratungsprodukte",
+                "description": null,
+                "path": "/beratung",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Tools",
+        "description": null,
+        "path": "/werkzeuge",
+        "routed": false,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Vorlagen",
+                "description": null,
+                "path": "/node/44217",
+                "routed": true,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Checklisten",
+                "description": null,
+                "path": "/tools/checklisten",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Rechner",
+                "description": null,
+                "path": "/tools/rechner",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Bücher",
+                "description": null,
+                "path": "/tools/bucher",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "News",
+        "description": null,
+        "path": "/rechts-update",
+        "routed": false,
+        "isMainChannel": true
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "KMU News",
+                "description": null,
+                "path": "/news/kmu-news",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Rechtsupdate",
+                "description": null,
+                "path": "/news/rechts-update",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Mitgliedschaft",
+        "description": null,
+        "path": "/node/44218",
+        "routed": true,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Abos ansehen",
+                "description": null,
+                "path": "/mitgliedschaft/abos-ansehen",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Über uns",
+        "description": null,
+        "path": "/uber-uns",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": [
+          {
+            "node": {
+              "link": {
+                "label": "Experten",
+                "description": null,
+                "path": "/uber-uns/experten",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          },
+          {
+            "node": {
+              "link": {
+                "label": "Philosophie",
+                "description": null,
+                "path": "/uber-uns/philosophie",
+                "routed": false,
+                "isMainChannel": false
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Newsletter ",
+        "description": null,
+        "path": "/newsletter",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "FAQ",
+        "description": null,
+        "path": "/faq",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "link": {
+        "label": "Kontakt",
+        "description": null,
+        "path": "/kontakt",
+        "routed": false,
+        "isMainChannel": false
+      },
+      "subtree": {
+        "edges": []
+      }
+    }
+  }
+]

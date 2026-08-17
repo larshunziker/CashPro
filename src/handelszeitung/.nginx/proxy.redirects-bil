@@ -1,0 +1,20 @@
+# images redirects for google image search
+rewrite ^/sites/bilanz.ch/files/(.*)$ https://cdn.bilanz.ch/sites/default/files/bz-files/files/$1 permanent;
+
+location ~ ^/jstats.php$ {
+    return 404;
+}
+
+# RSS
+rewrite ^/xml/frontpage/10/365$ /rss_feed permanent;
+
+# Persons
+location ~ ^/300-Reichste-live {
+    if ($arg_rid = "") {
+        return 301 /people/300-reichste;
+    }
+    if ($person = "not_found") {
+        return 410;
+    }
+    return 301 /people/$person;
+}

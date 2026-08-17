@@ -1,0 +1,103 @@
+{
+  "gallery": {
+    "id": "193202",
+    "anchorId": null,
+    "hasTitleOverride": false,
+    "title": null,
+    "gallery": {
+      "id": "bm9kZTozMDM1MQ==",
+      "title": "Geld regiert die Welt",
+      "shortTitle": "Das wird teuer",
+      "preferredUri": "/node/30351",
+      "items": [
+        {
+          "anchorId": null,
+          "id": "192753",
+          "format": "landscape",
+          "caption": "<p>Money is all I ever wanted.</p>\n",
+          "title": null,
+          "image": {
+            "credit": "Photo by Josh Appel on Unsplash",
+            "file": {
+              "alt": "geld",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/geld.jpg",
+              "width": 480,
+              "height": 360,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        {
+          "anchorId": null,
+          "id": "192754",
+          "format": "portrait",
+          "caption": "<p>Brr so kalt</p>\n",
+          "title": null,
+          "image": {
+            "credit": "Photo by Liam Martens on Unsplash",
+            "file": {
+              "alt": "schnee",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/schnee_0.jpg",
+              "width": 384,
+              "height": 480,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        {
+          "anchorId": null,
+          "id": "192755",
+          "format": "portrait",
+          "caption": "<p>Schöner Sonnenuntergang</p>\n",
+          "title": null,
+          "image": {
+            "credit": "Photo by Tamas Tuzes-Katai on Unsplash",
+            "file": {
+              "alt": "sonne",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/sonne.jpg",
+              "width": 384,
+              "height": 480,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        {
+          "anchorId": null,
+          "id": "192756",
+          "format": "portrait",
+          "caption": "<p>Keine Ahnung was das ist</p>\n",
+          "title": null,
+          "image": {
+            "credit": "Photo by Spencer Davis on Unsplash",
+            "file": {
+              "alt": "ka",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/ka_0.jpg",
+              "width": 320,
+              "height": 480,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        }
+      ],
+      "__typename": "ImageGallery"
+    },
+    "__typename": "ImageGalleryParagraph"
+  },
+  "origin": "example"
+}

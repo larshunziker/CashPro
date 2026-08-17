@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AdZone Should render correctly 1`] = `
+<div>
+  <div
+    class="ad-wrapper ad-wrapper-tabletDesktop WrapperClassName HideForPrint"
+    data-testid="adzone-wrapper-client"
+  >
+    <div
+      class="InnerWrapperClassName"
+    >
+      <div
+        data-testid="appnexus-wrapper"
+      >
+        {
+  "slot": "top_ad1",
+  "deviceType": "tabletDesktop"
+}
+      </div>
+    </div>
+    <div
+      class="Preroll"
+    >
+      <div
+        data-testid="appnexus-wrapper"
+      >
+        {
+  "slot": "preroll1"
+}
+      </div>
+    </div>
+  </div>
+</div>
+`;

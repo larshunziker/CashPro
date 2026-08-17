@@ -1,0 +1,63 @@
+{
+  "edges": [
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/agio-aufschlag",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Agio",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    },
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/aktie",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Aktie",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    },
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "__typename": "ExplainingArticle"
+        },
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    },
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/asset-management",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Asset Management",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    },
+    {
+      "node": {
+        "id": "dGl0bGUtYWxpYXM6Mjg3MQ==",
+        "target": {
+          "preferredUri": "/finanzlexikon/agio-aufschlag",
+          "__typename": "ExplainingArticle"
+        },
+        "title": "Aufschlag",
+        "__typename": "TitleAlias"
+      },
+      "__typename": "TitleAliasEdge"
+    }
+  ],
+  "__typename": "TitleAliasConnection"
+}

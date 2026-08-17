@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TopicPageHeader - Keyword Should not render component because no image is given 1`] = `<div />`;
+
+exports[`[Component] TopicPageHeader - Keyword Should not render component because no title is given 1`] = `<div />`;
+
+exports[`[Component] TopicPageHeader - Keyword Should render component correctly 1`] = `
+<div>
+  <div
+    class="Container"
+  >
+    <div
+      id="mocked-picture"
+    />
+    <div
+      class=""
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24 ColSm20 ColOffsetSm2"
+        >
+          <span
+            class=""
+          >
+            Hallo welt
+          </span>
+          <div
+            class="HiddenSmDown"
+          >
+            Some example lead text.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container HiddenSmUp"
+  >
+    Some example lead text.
+  </div>
+</div>
+`;
+
+exports[`[Component] TopicPageHeader - Keyword Should render nothing 1`] = `<div />`;

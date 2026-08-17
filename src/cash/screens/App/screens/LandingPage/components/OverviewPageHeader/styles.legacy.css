@@ -1,0 +1,23 @@
+.NoLead {
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8; 
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: $margin40;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}

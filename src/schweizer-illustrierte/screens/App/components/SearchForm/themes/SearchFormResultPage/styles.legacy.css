@@ -1,0 +1,180 @@
+.Wrapper {
+  align-items: center;
+  display: flex;
+  position: relative;
+  top: 0;
+  width: auto;
+}
+
+.InputWrapper {
+  background: $white;
+  height: 60px;
+  margin: 0;
+  width: 100%;
+  z-index: calc($zIndex1 + 2);
+
+  @media (max-width: $xsBreakpointTo) {
+    &::before,
+    &::after {
+      content: '';
+      height: 100%;
+      position: absolute;
+      top: 0;
+      width: $outerGapXs;
+      z-index: 999;
+    }
+
+    &::before {
+      box-shadow: -$outerGapXs 0 0 0 $white;
+      left: 0;
+    }
+
+    &::after {
+      box-shadow: $outerGapXs 0 0 0 $white;
+      right: 0;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 80px;
+  }
+}
+
+.SubmitButton {
+  left: 0;
+  position: absolute;
+
+  &:hover {
+    .SubmitIcon::before {
+      color: $redA;
+    }
+  }
+}
+
+.SubmitButton,
+.ResetIcon {
+  border: none;
+  height: 60px;
+  inset: 0 0 0 auto;
+  line-height: 1;
+  margin: auto;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 80px;
+  }
+}
+
+.SubmitIcon {
+  pointer-events: none;
+
+  &::before {
+    display: inline-block;
+    font-family: $fontIcons;
+    font-size: 4rem;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 5.1rem;
+    }
+  }
+}
+
+.SubmitIcon,
+.ResetIcon {
+  &::before {
+    color: $black;
+    transition: color 0.3s ease-in-out;
+  }
+}
+
+.ResetIcon {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  position: absolute;
+  right: 40px;
+
+  @media (min-width: $xlBreakpoint) {
+    right: 51px;
+  }
+
+  &::before {
+    color: $black;
+    font-size: 3rem;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 4rem;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 5rem;
+    }
+  }
+
+  &:hover {
+    &::before {
+      color: $redA;
+    }
+  }
+}
+
+.Input[type='search'] {
+  @mixin SearchEntry;
+  -webkit-appearance: none; /* stylelint-disable-line */
+  appearance: none; /* stylelint-disable-line */
+  border: none;
+  border-bottom: 1px solid $grayC;
+  border-radius: 0;
+  color: $black;
+  font-weight: 300;
+  height: 100%;
+  line-height: 1;
+  padding-right: 70px;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding-right: 80px;
+  }
+
+  &::placeholder {
+    color: $grayD;
+    font-weight: 100;
+    opacity: 1;
+  }
+
+  &:not(:placeholder-shown),
+  &:active,
+  &:focus {
+    & + .SubmitButton {
+      cursor: pointer;
+      pointer-events: unset;
+      z-index: calc($zIndexHeader - 1);
+
+      &:hover {
+        &::before {
+          color: $black;
+        }
+      }
+
+      &::before {
+        color: $black;
+      }
+    }
+  }
+
+  &:placeholder-shown {
+    & + .SubmitButton {
+      opacity: 0.5;
+      pointer-events: none;
+    }
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}

@@ -1,0 +1,70 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+html {
+  /* branding day bg sizing. We have to temporarily overwrite admeiras css, because the sizing is wrong */
+  /* stylelint-disable-next-line */
+  background-position: center top !important;
+  /* stylelint-disable-next-line */
+  background-size: 1920px auto !important;
+
+  /* min-fontsize + (max-fontsize - min-fontsize * 100vw / (max-screensize - min-screensize) */
+  font-size: 62.5%;
+
+  /* stylelint-disable-next-line */
+  -webkit-text-size-adjust: 100%;
+}
+
+/* The font-variant-numeric attribute was implemented related to the improvement-ticket: SI-35: Opentype Digits */
+
+/* numbers in a text should be displayed as proportional numbers (numbers = different height as chars) */
+html,
+* {
+  font-variant-numeric: oldstyle-nums proportional-nums;
+  scroll-margin-top: calc($headerHeightXs + $utilityBarHeight);
+
+  @media (min-width: $smBreakpoint) {
+    scroll-margin-top: calc($headerHeightSm + $utilityBarHeight);
+  }
+}
+
+body {
+  color: $black;
+  font-family: $fontBague;
+  font-size: 1.4em;
+  font-style: normal;
+  font-weight: 300;
+  overflow-anchor: none;
+  -webkit-tap-highlight-color: $transparent;
+
+  @media print {
+    &::after {
+      bottom: 0;
+      content: '\00a9  2024 Schweizer Illustrierte';
+      display: block;
+      position: fixed;
+      text-align: center;
+      width: 100%;
+    }
+  }
+}
+
+@media print {
+  @page {
+    margin: 18mm;
+    size: A4;
+  }
+
+  html, body {
+    height: 297mm;
+    width: 210mm;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    margin-bottom: $margin8;
+    page-break-inside: avoid;
+  }
+}

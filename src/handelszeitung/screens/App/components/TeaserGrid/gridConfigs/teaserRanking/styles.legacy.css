@@ -1,0 +1,34 @@
+.teaserRanking {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(1, auto);
+    margin-bottom: 30px;
+
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-row-gap: $margin40;
+      grid-template-columns: repeat(3, 1fr);
+      grid-template-rows: repeat(3, auto);
+      margin-bottom: $margin40;
+
+      .Item1 { display: none; }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+      grid-row-gap: 50px;
+      margin-bottom: 50px;
+    }
+  }
+}

@@ -1,0 +1,10 @@
+.Wrapper {
+  width: 100%;
+}
+
+.ShortTitle {
+  composes: SubheadLG from 'typography.legacy.css';
+  border-top: 3px solid $black;
+  color: $black;
+  padding-top: 6px;
+}

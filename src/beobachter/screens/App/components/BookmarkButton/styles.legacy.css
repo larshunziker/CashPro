@@ -1,0 +1,48 @@
+.BookmarkButtonWrapper {
+  align-items: center;
+  background: $transparent;
+  border: 1px solid $black;
+  border-radius: 42px;
+  box-shadow: 0 15px 30px -20px $blackAlpha5;
+  cursor: pointer;
+  display: flex;
+  height: 34px;
+  justify-content: center;
+  margin: 0 auto 24px 0;
+  outline: none;
+  padding: 0;
+  width: 144px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin16 $margin32 auto;
+  }
+
+  &:hover {
+    border: 1px solid $greyA;
+
+    .Text {
+      color: $greyA;
+    }
+
+    .Icon {
+      color: $greyA;
+    }
+  }
+}
+
+.Text {
+  composes: AuthorBook from 'typography.legacy.css';
+  font-size: 1.4rem;
+}
+
+.Icon {
+  font-size: 1.8rem;
+  margin-right: $margin4;
+  transform-origin: 50% 25%;
+}
+
+.Animating {
+  animation: BookmarkAnimation 500ms;
+}
+
+@mixin BookmarkAnimation;

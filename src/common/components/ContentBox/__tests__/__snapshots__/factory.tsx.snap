@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ContentBox Factory Should render correctly 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      data-testid="empty-link"
+    >
+      <span
+        class="TitleClassName"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ContentBox Factory Should render nothing 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      data-testid="empty-link"
+    >
+      <span
+        class="TitleClassName"
+      />
+    </div>
+  </div>
+</div>
+`;

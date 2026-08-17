@@ -1,0 +1,270 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 0;
+  position: relative;
+
+  @media (max-width: $xsBreakpointTo) {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.TeaserImageWrapper {
+  display: none;
+  margin-bottom: $margin8;
+  position: relative;
+  
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    float: right;
+  }
+
+  &.HasIcon {
+    &::after {
+      background: linear-gradient(45deg, $black90 0%, $transparent 50%);
+      content: '';
+      inset: $margin4 0 3px $margin8;
+      position: absolute;
+      z-index: 0;
+
+      @media (min-width: $smBreakpoint) {
+        inset: 0;
+      }
+    }
+  }
+
+  &.Hidden {
+    display: none;
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  padding: $margin4 0 3px $margin8;
+  z-index: calc($zIndex1 - 1);
+
+  @media (min-width: $smBreakpoint) {
+    float: none;
+    padding: 0;
+    width: 222px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 236px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 300px;
+  }
+}
+
+.ContentWrapper {
+  @media (max-width: $smBreakpointTo) {
+    position: relative;
+  }
+  
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 242px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc(100% - 256px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(100% - 328px);
+  }
+
+  &.IsWithoutImage {
+    width: 100%;
+  }
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    width: 100%;
+  }
+
+  &, span {
+    @mixin fontSize 20;
+    @mixin lineHeight 24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &, span {
+      @mixin fontSize 24;
+      @mixin lineHeight 28;
+    }
+  }
+
+  &.IsWithoutImage {
+    width: 100%;
+  }
+}
+
+.TeaserTitle {
+  composes: H2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin H3;
+  }
+
+  i {
+    margin-right: $margin8;
+    position: relative;
+    top: 1px;
+  }
+}
+
+.TeaserLead {
+  composes: TeaserLead from 'typography.legacy.css';
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.SearchTeaserM {
+  composes: InfoC from 'typography.legacy.css';
+}
+
+.SearchTeaserM span {
+  color: $secondaryA;
+  display: block;
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+  bottom: 0;
+  display: inline;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  text-overflow: ellipsis;
+
+  &, span {
+    @mixin fontSize 16;
+    @mixin lineHeight 18;
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    display: none;
+  }
+}
+
+
+.BottomLine:nth-of-type(2)::before {
+  content: '\2000|\2000';
+}
+
+.IconWrapper {
+  bottom: $margin16;
+  left: $margin16;
+  position: absolute;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: $margin12;
+    left: $margin12;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: $margin16;
+    left: $margin16;
+  }
+}
+
+.Icon {
+  border: 1px solid $white;
+  border-radius: 50%;
+  color: $white;
+  font-size: 16px;
+  padding: 3px;
+  
+  @media (min-width: $xlBreakpoint) {
+    border: 2px solid $white;
+    font-size: 30px;
+  }
+}
+
+.Badge {
+  bottom: 19px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 14px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 28px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleB from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin8;
+
+  /* width: calc(100% - 82px); */
+
+  @media (min-width: $smBreakpoint) {
+    width: 100%;
+  }
+
+  &.IsWithoutImage {
+    width: 100%;
+  }
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitle from 'typography.legacy.css';
+}
+
+.SearchShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  margin-bottom: -6px;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin ShortTitleC;
+  }
+}
+
+.SearchPublicationDate {
+  composes: Meta3 from 'typography.legacy.css';
+  bottom: 0;
+  margin-top: $margin4;
+  position: relative;
+}
+
+.OuterContentWrapper {
+  .TeaserImageWrapper {
+    display: block;
+    float: right;
+    margin-bottom: 0;
+    min-width: 95px;
+    width: 33%;
+
+    &.Hidden {
+      display: none;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+
+  .BottomLine {
+    display: inline-block;
+    margin-top: $margin8;
+  }
+}

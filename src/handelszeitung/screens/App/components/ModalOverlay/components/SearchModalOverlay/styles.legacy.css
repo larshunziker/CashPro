@@ -1,0 +1,21 @@
+.Wrapper {
+  composes: Wrapper from 'DefaultModalOverlay/styles.legacy.css';
+}
+
+.FadeIn {
+  composes: FadeIn from 'DefaultModalOverlay/styles.legacy.css';
+}
+
+.FadeOut {
+  composes: FadeOut from 'DefaultModalOverlay/styles.legacy.css';
+}
+
+.BodyClass {
+  composes: BodyClass from 'DefaultModalOverlay/styles.legacy.css';
+}
+
+.CenteredOverlay {
+  display: block;
+  font-family: $fontGeorgia;
+  padding-top: 33vh;
+}

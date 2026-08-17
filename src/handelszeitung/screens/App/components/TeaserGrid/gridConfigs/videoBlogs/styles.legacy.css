@@ -1,0 +1,93 @@
+.videoBlogs {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(16, auto);
+
+    .Item {
+      margin-bottom: 30px;
+    }
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 25; }
+    .Item2 { grid-area: 3 / 1 / 4 / 25; }
+    .Item3 { grid-area: 4 / 1 / 5 / 25; }
+    .Item4 { grid-area: 5 / 1 / 6 / 25; }
+    .Item5 { grid-area: 6 / 1 / 7 / 25; }
+    .Item6 { grid-area: 7 / 1 / 8 / 25; }
+    .Item7 { grid-area: 8 / 1 / 9 / 25; }
+    .Item8 { grid-area: 9 / 1 / 10 / 25; }
+    .Item9 { grid-area: 10 / 1 / 11 / 25; }
+    .Item10 { grid-area: 11 / 1 / 12 / 25; }
+    .Item11 { grid-area: 12 / 1 / 13 / 25; }
+    .Item12 { grid-area: 13 / 1 / 14 / 25; }
+    .Item13 { grid-area: 14 / 1 / 15 / 25; }
+    .Item14 { grid-area: 15 / 1 / 16 / 25; }
+    .Item15 { grid-area: 16 / 1 / 17 / 25; }
+    .Item16 { grid-area: 17 / 1 / 18 / 25; }
+    .Item17 { grid-area: 18 / 1 / 19 / 25; }
+    .Item18 { grid-area: 19 / 1 / 20 / 25; }
+    .Item19 { grid-area: 20 / 1 / 21 / 25; }
+    .Item20 { grid-area: 21 / 1 / 22 / 25; }
+    .Item21 { grid-area: 22 / 1 / 23 / 25; }
+    .Item22 { grid-area: 23 / 1 / 24 / 25; }
+    .Item23 { grid-area: 24 / 1 / 25 / 25; }
+    .Item24 { grid-area: 25 / 1 / 26 / 25; }
+    .Item25 { grid-area: 26 / 1 / 27 / 25; }
+    .Item26 { grid-area: 27 / 1 / 28 / 25; }
+    .Item27 { grid-area: 28 / 1 / 29 / 25; }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(7, auto);
+      
+      .Item {
+        margin-bottom: $margin40;
+      }
+      .Item0 { grid-area: 1 / 1 / 2 / 7; }
+      .Item1 { grid-area: 1 / 7 / 2 / 13; }
+      .Item2 { grid-area: 1 / 13 / 2 / 19; }
+      .Item3 { grid-area: 1 / 19 / 2 / 25; }
+      .Item4 { grid-area: 2 / 1 / 3 / 7; }
+      .Item5 { grid-area: 2 / 7 / 3 / 13; }
+      .Item6 { grid-area: 2 / 13 / 3 / 19; }
+      .Item7 { grid-area: 2 / 19 / 3 / 25; }
+      .Item8 { grid-area: 3 / 1 / 4 / 7; }
+      .Item9 { grid-area: 3 / 7 / 4 / 13; }
+      .Item10 { grid-area: 3 / 13 / 4 / 19; }
+      .Item11 { grid-area: 3 / 19 / 4 / 25; }
+      .Item12 { grid-area: 4 / 1 / 5 / 7; }
+      .Item13 { grid-area: 4 / 7 / 5 / 13; }
+      .Item14 { grid-area: 4 / 13 / 5 / 19; }
+      .Item15 { grid-area: 4 / 19 / 5 / 25; }
+      .Item16 { grid-area: 5 / 1 / 6 / 7; }
+      .Item17 { grid-area: 5 / 7 / 6 / 13; }
+      .Item18 { grid-area: 5 / 13 / 6 / 19; }
+      .Item19 { grid-area: 5 / 19 / 6 / 25; }
+      .Item20 { grid-area: 6 / 1 / 7 / 7; }
+      .Item21 { grid-area: 6 / 7 / 7 / 13; }
+      .Item22 { grid-area: 6 / 13 / 7 / 19; }
+      .Item23 { grid-area: 6 / 19 / 7 / 25; }
+      .Item24 { grid-area: 7 / 1 / 8 / 7; }
+      .Item25 { grid-area: 7 / 7 / 8 / 13; }
+      .Item26 { grid-area: 7 / 13 / 8 / 19; }
+      .Item27 { grid-area: 7 / 19 / 8 / 25; }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+
+      .Item {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

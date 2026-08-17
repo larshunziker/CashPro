@@ -1,0 +1,12 @@
+.Message {
+  @mixin ParagraphBold;
+  margin-bottom: 23px;
+  padding: 30px 21px 0;
+  text-align: center;
+}
+
+.Button {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin32;
+}

@@ -1,0 +1,39 @@
+.Sort {
+  align-items: center;
+  border-bottom: 1px solid $greyB;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 15px;
+  padding: 10px 0;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+}
+
+.Text {
+  color: $black;
+  font: 1.2rem $fontSpezia;
+}
+
+.Action {
+  align-items: center;
+  background: none;
+  border: none;
+  color: $greyA;
+  cursor: pointer;
+  display: flex;
+  font: bold 1.2rem $fontSpezia;
+  justify-content: flex-end;
+  letter-spacing: 0.14px;
+  min-width: 135px;
+  outline: none;
+  padding: 0;
+}
+
+.Icon {
+  font-size: 15px;
+  padding-left: 7px;
+}

@@ -1,0 +1,77 @@
+.Wrapper {
+  display: block;
+  height: 106px;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+  }
+
+  &::before {
+    background-image: linear-gradient(to bottom, $blackA, $transparent);
+    background-size: cover;
+    content: '';
+    height: 100%;
+    opacity: 0.5;
+    position: absolute;
+    width: 100%;
+    z-index: 1;
+  }
+}
+
+.Image {
+  height: auto;
+  min-height: 106px;
+  min-width: 282px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 141px;
+    min-width: 252px;
+  }
+}
+
+.Title {
+  composes: H3ExtendedWhite from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  padding: 8px 10px 0;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 15px 18px 0;
+  }
+}
+
+.TeaserText {
+  left: 0;
+  position: absolute;
+  text-align: left;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexMedium;
+}
+
+.CallToActionIcon {
+  border: 1px solid $white;
+  border-radius: 50%;
+  bottom: 10px;
+  color: $white;
+  font-size: 1.4rem;
+  padding: 4px;
+  position: absolute;
+  right: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 28px;
+    font-size: 2rem;
+    right: 25px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 24px;
+    right: 16px;
+  }
+}

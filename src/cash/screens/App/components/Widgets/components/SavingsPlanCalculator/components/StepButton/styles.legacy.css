@@ -1,0 +1,14 @@
+.Button {
+  align-items: center;
+  background: $secondaryA;
+  border: 1px solid $secondaryA;
+  border-radius: 4px;
+  color: $white;
+  cursor: pointer;
+  display: inline-flex;
+  font-size: 1.75rem;
+  gap: 10px;
+  justify-content: center;
+  padding: 12px $margin16;
+  width: 60px;
+}

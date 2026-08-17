@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] PianoTemplateParagraph Should render correctly 1`] = `
+<div>
+  <div
+    class="piano-container OT6KV4QA49E6_undefined"
+    id="piano-template-paragraph-201020"
+  />
+</div>
+`;
+
+exports[`[Component] PianoTemplateParagraph Should render nothing if there are no props 1`] = `<div />`;
+
+exports[`[Component] PianoTemplateParagraph Should render nothing if there is no id 1`] = `<div />`;
+
+exports[`[Component] PianoTemplateParagraph Should render nothing if there is no offerId 1`] = `<div />`;

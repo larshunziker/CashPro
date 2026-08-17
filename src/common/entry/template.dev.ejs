@@ -1,0 +1,182 @@
+<!doctype html>
+<html>
+  <head>
+    <!-- GTM initialisation -->
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      window.eventQueueDataLayer = window.eventQueueDataLayer || [];
+    </script>
+  </head>
+  <body>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-M5QZP3XP"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div id="top_special_1" className="ad-wrapper"></div>
+    <div id="app"></div>
+    <!-- OneTrust Cookies Consent Notice start -->
+    <script>
+      // widgets pages are used by blick and hz inside iframes.
+      // these pages will use their own consent system
+      if (!document.location.pathname.startsWith('/widget/')) {
+        var dlApiScript = document.createElement('script');
+        dlApiScript.type = 'text/javascript';
+        dlApiScript.src =
+          'https://cdn.cookielaw.org/scripttemplates/otSDKStub.js';
+        dlApiScript.setAttribute('data-domain-script', '%__ONE_TRUST_ID__%');
+        dlApiScript.setAttribute('data-document-language', 'true');
+        dlApiScript.async = true;
+        document.head.appendChild(dlApiScript);
+      }
+    </script>
+    <script>
+      function OptanonWrapper() {}
+    </script>
+    <!-- OneTrust Cookies Consent Notice end -->
+    <script>
+      function setOneTrustConsentForAll() {
+        if (window.OneTrust != null) {
+          OneTrust.AllowAll();
+        }
+      }
+      function toggleConsentInfoDisplay() {
+        if (window.OneTrust != null) {
+          OneTrust.ToggleInfoDisplay();
+        }
+      }
+    </script>
+
+    <!--script to load gtm-->
+    <script>
+      function isPresentinDatalayer(evt) {
+        const isAlreadyInQueue =
+          evt.event === 'view'
+            ? window.dataLayer?.some((item) => {
+                return item.cms_page_id == evt?.cms_page_id;
+              })
+            : false;
+
+        return isAlreadyInQueue;
+      }
+
+      function pushToDataLayer(event) {
+        if (window.dataLayer) {
+          const isAlreadyInQueue = isPresentinDatalayer(event);
+          if (!isAlreadyInQueue) {
+            window.dataLayer?.push(event);
+          }
+        }
+      }
+
+      function loadGTM() {
+        //script to load GTM
+        (function (w, d, s, l, i) {
+          const gtmAuth = `%__GTM_AUTH__%`;
+          const gtmPreview = '%__GTM_PREVIEW__%';
+          w[l] = w[l] || [];
+          w[l].push({ 'gtm.start': new Date().getTime(), event: 'gtm.js' });
+          const f = d.getElementsByTagName(s)[0],
+            j = d.createElement(s),
+            dl = l !== 'dataLayer' ? '&l=' + l : '';
+          j.async = true;
+          j.src = `https://www.googletagmanager.com/gtm.js?id=${i}${dl}&gtm_auth=${gtmAuth}&gtm_preview=${gtmPreview}`;
+          f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-M5QZP3XP');
+
+        // process custom event queue
+        window.eventQueueDataLayer?.forEach((evt) => {
+          if (evt) {
+            pushToDataLayer(evt);
+          }
+        });
+
+        window.eventQueueDataLayer.push = function (event) {
+          if (event) {
+            pushToDataLayer(event);
+          }
+        };
+      }
+
+      function waitForConsentAndLoadGTM() {
+        if (window.OneTrust?.IsAlertBoxClosed()) {
+          loadGTM();
+        } else {
+          window.OneTrust?.OnConsentChanged(function () {
+            loadGTM();
+          });
+        }
+      }
+
+      // wait for one trust to be loaded before loading GTM
+      if (window.OneTrust) {
+        waitForConsentAndLoadGTM();
+      } else {
+        const interval = setInterval(() => {
+          if (window.OneTrust) {
+            clearInterval(interval);
+            waitForConsentAndLoadGTM();
+          }
+        }, 500);
+      }
+    </script>
+    <script>
+      window.__GRAPHQL_HOST__ = '%__GRAPHQL_HOST__%';
+      window.__GRAPHQL_ORIGIN__ = '%__GRAPHQL_ORIGIN__%';
+      window.admTagMan = window.admTagMan || {};
+      window.admTagMan.q = window.admTagMan.q || [];
+      window.admTagMan.cq = window.admTagMan.cq || [];
+
+      var isFrenchLanguage =
+        window.__INITIAL_STATE__ &&
+        window.__INITIAL_STATE__.settings &&
+        window.__INITIAL_STATE__.settings.language === 'fr';
+
+      var tagManagerUrl = `%__TAG_MANAGER_URL__%`;
+      var tagManagerUrlFr = `%__TAG_MANAGER_URL_FR__%`;
+
+      var atmScript = document.createElement('script');
+      atmScript.setAttribute(
+        'src',
+        isFrenchLanguage ? tagManagerUrlFr : tagManagerUrl,
+      );
+      atmScript.setAttribute('async', true);
+      document.head.appendChild(atmScript);
+    </script>
+
+    <script>
+      function loadBrandingDayCss() {
+        var script = document.createElement('script');
+        script.setAttribute('src', '/branding-day-css.min.js');
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('async', false);
+        document.head.appendChild(script);
+      }
+
+      function loadScript(src, callback = noop) {
+        var script = document.createElement('script');
+        script.setAttribute('src', src);
+        script.setAttribute('type', 'text/javascript');
+        script.setAttribute('async', true);
+        script.setAttribute('data-env', 'development');
+        script.setAttribute('data-auth-service-url', '%__AUTH_SERVICE_URL__%');
+        callback &&
+          script.addEventListener(
+            'load',
+            () => {
+              callback();
+            },
+            { once: true },
+          );
+        document.head.appendChild(script);
+      }
+
+      loadScript('/init-thirdparty.min.js', loadBrandingDayCss);
+    </script>
+  </body>
+</html>

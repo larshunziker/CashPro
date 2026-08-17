@@ -1,0 +1,78 @@
+{
+  "data": {
+    "loading": false,
+    "environment": {
+      "globalSearch": {
+        "count": 2,
+        "edges": [
+          {
+            "node": {
+              "subtypeValue": "headless",
+              "preferredUri": "/specials/strategie/die-zeit-ist-eine-physikalische-grossenart",
+              "id": "bm9kZToxOTMxNQ==",
+              "title": "Die Zeit ist eine physikalische Größenart",
+              "shortTitle": "Test article with inline gallery - short titile",
+              "hasVideo": false,
+              "publicationDate": "2019-04-09T09:42:23",
+              "restrictionStatus": "paid",
+              "lead": "Die Wachstumsstory Notenstein blieb ein unerfülltes Versprechen. Es wäre an der Zeit, dass Raiffeisen personelle Konsequenzen zieht.",
+              "authors": { "edges": [], "__typename": "AuthorConnection" },
+              "teaserImage": {
+                "id": "test1234",
+                "image": {
+                  "id": "img1234",
+                  "file": {
+                    "id": "file1234",
+                    "alt": "Federer freut sich",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2018-09/federer.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "subtypeValue": "headless",
+              "preferredUri": "/specials/strategie/die-zeit-ist-eine-physikalische-grossenart",
+              "id": "bm9kZToxOTMxNQ==",
+              "title": "raiffeisen programmiertes scheitern",
+              "shortTitle": "Test article with inline gallery - short titile",
+              "hasVideo": false,
+              "restrictionStatus": "paid",
+              "publicationDate": "2019-04-09T09:42:23",
+              "lead": "Die Wachstumsstory Notenstein blieb ein unerfülltes Versprechen. Es wäre an der Zeit, dass Raiffeisen personelle Konsequenzen zieht.",
+              "authors": { "edges": [], "__typename": "AuthorConnection" },
+              "teaserImage": {
+                "id": "test1234",
+                "image": {
+                  "id": "img123456",
+                  "file": {
+                    "id": "file123456",
+                    "alt": "Federer freut sich",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2018-09/federer.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "Environment"
+    }
+  }
+}

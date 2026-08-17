@@ -1,0 +1,41 @@
+.Section {
+  composes: Section from 'sections.legacy.css';
+  composes: SectionDefaultMargin from 'sections.legacy.css';
+}
+
+.BreadcrumbsContainer {
+  composes: Container from '@grid.legacy.css';
+}
+
+.VideoStageWrapper {
+  composes: Wrapper from 'Paragraphs/components/MinistageParagraph/components/MinistageVideo/styles.legacy.css';
+
+  /* We used to work with composes: BodyText from 'typography.legacy.css'; here. 
+ but then we faced the problem that the order in the generated CSS was wrong what led to a wrong styling (on "yarn dev" only)  */
+  color: $blackB;
+  font-family: $fontGeorgia;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 1.5;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 1.65;
+  }
+}
+
+.SectionTitle {
+  composes: Container from '@grid.legacy.css';
+  composes: Title from 'RelatedContent/styles.legacy.css';
+  text-align: center;
+}
+
+.SectionTitleVideoBlogs {
+  composes: SectionTitle;
+  margin-bottom: 0;
+  padding-top: 10px;
+
+  @media (max-width: $smBreakpointTo) {
+    margin-bottom: -40px;
+  }
+}

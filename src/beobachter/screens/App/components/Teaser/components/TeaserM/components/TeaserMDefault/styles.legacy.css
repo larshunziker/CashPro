@@ -1,0 +1,65 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  position: relative;
+  width: 100%;
+}
+
+.ContentWrapper {
+  line-height: 0;
+}
+
+.Title {
+  composes: TeaserTitleH3 from 'typography.legacy.css';
+
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserArticle from 'typography.legacy.css';
+
+  margin-bottom: $margin4;
+}
+
+.Lead {
+  composes: TeaserLeadBlack from 'typography.legacy.css';
+
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.Icon {
+  left: 16px;
+  position: absolute;
+  transform: translateY(-48px);
+  z-index: 2;
+}
+
+.BeoPlusLogo {
+  display: inline-block;
+  height: 24px;
+  padding-right: 6px;
+  padding-top: 4px;
+  position: relative;
+  width: 36px;
+}
+
+.ImageWrapper {
+  height: auto;
+  line-height: 0;
+  margin-bottom: $margin16;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}

@@ -1,0 +1,98 @@
+.Wrapper {
+  height: auto;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+
+  .ItemWrapperBorder {
+    margin-bottom: $margin16;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.DividendCalendarWrapper {
+  margin: -0 auto 32px;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  color: $blackB;
+  display: inline-block;
+  padding: $margin16 $margin16 $margin8;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.ItemWrapperBorder {
+  border: 1px solid $greyC;
+}
+
+.ItemWrapperPadding {
+  padding: 0 16px;
+}
+
+.ItemChart {
+  @media (min-width: $mdBreakpoint) {
+    min-height: 371px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 451px;
+  }
+  pointer-events: none;
+}
+
+.MostReadBoxWrapper,
+.PianoIntegrationWrapper {
+  margin-bottom: $margin16;
+}
+
+.Sticky {
+  position: sticky;
+  top: 175px;
+}
+
+@media print {
+  .Wrapper {
+    flex: 0 1 30%;
+    max-width: 30%;
+  }
+
+  .Ad {
+    display: none;
+  }
+
+  .PianoIntegrationWrapper {
+    > div {
+      /* stylelint-disable-next-line declaration-no-important */
+      max-width: 100% !important;
+      /* stylelint-disable-next-line declaration-no-important */
+      min-height: 800px !important;
+
+      > iframe {
+        /* stylelint-disable-next-line declaration-no-important */
+        max-width: 100% !important;
+        /* stylelint-disable-next-line declaration-no-important */
+        min-height: 800px !important;
+      }
+    }
+  }
+
+  .Sticky {
+    position: relative;
+    top: 0;
+  }
+
+  .MostReadBoxWrapper {
+    break-inside: avoid;
+  }
+}
+
+.ItemWrapperPaddingBottom {
+  padding-bottom: $margin16;
+}

@@ -1,0 +1,36 @@
+.Wrapper {
+  display: flex;
+}
+
+.Title {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+.FAQInner {
+  padding-bottom: 15px;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 30px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding-bottom: 45px;
+  }
+}
+
+.TitlePage{
+  margin-top: $margin24;
+}
+
+.FAQInnerPage {
+  background-color: $greyE;
+  margin-top: $margin16;
+}
+
+.Paragraphs {
+  @mixin InfoParagraphBlack;
+}

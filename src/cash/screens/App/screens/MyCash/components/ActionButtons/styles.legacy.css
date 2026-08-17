@@ -1,0 +1,70 @@
+.ButtonWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-bottom: $margin16;
+  row-gap: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}
+
+.ButtonItem {
+  @media (min-width: $smBreakpoint) {
+    margin-left: 12px;
+  }
+}
+
+.DropdownViewLink {
+  @mixin InfoB;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 $margin24;
+  }
+
+  &.Active {
+    @mixin InfoBBold;
+  }
+
+  &:not(.Disabled):hover {
+    background-color: $greyE;
+  }
+
+  .CheckmarkIcon {
+    padding-left: 10px;
+    @mixin fontSize 22;
+  }
+
+  .DropdownListItem {
+    align-items: center;
+    display: flex;
+    @mixin InfoB;
+
+
+    .DescriptionFavorit {
+      @mixin InfoD;
+      display: block;
+      max-width: 194px;
+    }
+
+    .Icons {
+      font-size: 20px;
+      margin-right: 10px;
+      position: relative;
+    }
+
+    &.DeleteItem {
+      color: $primaryA;
+    }
+
+    &.Disabled {
+      color: $greyB;
+      cursor: default;
+    }
+  }
+}

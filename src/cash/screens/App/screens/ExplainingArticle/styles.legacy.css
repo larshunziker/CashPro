@@ -1,0 +1,68 @@
+.HeaderWrapper {
+  margin-bottom: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.PageWrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0; 
+}
+
+.Category {
+  composes: H5Light from 'typography.legacy.css';
+  margin-bottom: $margin8;
+}
+
+.Title {
+  composes: KeywordsH1 from 'typography.legacy.css';
+}
+
+
+.TitleWrapper {
+  @media (min-width: $smBreakpoint) { 
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) { 
+    margin-bottom: $margin24;
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyC;
+  bottom: 0;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndexHighest;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    position: relative;
+  }
+}
+
+.ArticleBody {
+  :global(.app) {
+    padding-bottom: 70px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+@media print {
+  .Print {
+    flex: 1 1 60%;
+    margin-right: 10px;
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "textParagraph": {
+    "header": "Und die Moral von der Geschichte",
+    "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut eget nisi ut ex pharetra finibus vitae sed massa. Curabitur erat odio, laoreet sit amet laoreet et, <strong>scelerisque quis risus. Mauris</strong> sagittis metus lorem, a viverra nibh rutrum eu. Integer viverra imperdiet mauris, eu varius mi eleifend sed. Mauris et neque pulvinar, pretium sapien et, elementum augue. Integer varius, ligula quis hendrerit sagittis, neque nisl mollis diam, eget sodales lorem justo sed est. Praesent nec augue vitae justo dictum eleifend nec ac dui. Vivamus sodales commodo est, sit amet mattis sem condimentum eu. Quisque imperdiet felis eu velit facilisis blandit id dapibus leo. Nullam in varius enim. Nulla dignissim scelerisque leo in sodales. Nam gravida, massa quis aliquet dictum, lorem urna consectetur lorem, dignissim pharetra tortor nisi ut massa. Pellentesque placerat, massa non molestie tempor, tellus massa blandit sapien, vitae sagittis sapien ligula sed justo. Nunc elementum, purus quis imperdiet viverra, nulla urna rhoncus odio, sit amet ornare dolor tellus quis lectus.</p>\n\n<p>Nam consequat porta pretium. Integer eu fringilla purus. Phasellus aliquam laoreet mauris, a tincidunt augue lacinia vel. Nullam commodo ut elit vel rhoncus. Sed commodo blandit laoreet. Vivamus elementum at velit tristique hendrerit. Mauris luctus sodales mi nec sollicitudin. Aenean at egestas magna.</p>\n",
+    "__typename": "TextParagraph"
+  },
+  "origin": "Infobox"
+}

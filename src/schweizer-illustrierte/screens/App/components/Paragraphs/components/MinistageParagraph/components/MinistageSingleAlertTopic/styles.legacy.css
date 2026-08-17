@@ -1,0 +1,65 @@
+.Wrapper {
+  margin: 32px auto;
+  width: 234px;
+
+  &::before,
+  &::after {
+    border-bottom: 1px solid $grayB;
+    content: '';
+    display: block;
+    margin: 20px auto;
+    width: 100%;
+  }
+
+  &::after {
+    margin: 12px auto 20px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin: 40px auto;
+    width: 402px;
+
+    &::after {
+      margin: 8px auto 20px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 429px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 456px;
+  }
+}
+
+.Title {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+  margin-bottom: 8px;
+  text-align: center;
+  word-break: break-word;
+}
+
+.ContentWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.AlertItemWrapper {
+  height: 100%;
+  max-width: 234px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 282px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 320px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+}

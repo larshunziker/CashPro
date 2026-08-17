@@ -1,0 +1,146 @@
+.Button {
+  color: $white;
+}
+
+.ButtonPrimaryBig {
+  @mixin ButtonPrimaryBig;
+}
+
+.ButtonPrimarySmall {
+  @mixin ButtonPrimarySmall;
+}
+
+.ButtonSecondaryBig {
+  @mixin ButtonSecondaryBig;
+}
+
+.ButtonSecondarySmall {
+  @mixin ButtonSecondarySmall;
+}
+
+.ButtonTertiaryBig {
+  @mixin ButtonTertiaryBig;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.ButtonQuaternaryBig {
+  @mixin ButtonQuaternaryBig;
+}
+
+.ButtonQuaternarySmall {
+  @mixin ButtonQuaternarySmall;
+}
+
+.ButtonPrimaryBigHighAttention {
+  @mixin ButtonPrimaryBigHighAttention;
+}
+
+.ButtonPrimarySmallHighAttention {
+  @mixin ButtonPrimarySmallHighAttention;
+}
+
+.ButtonSecondaryBigHighAttention {
+  @mixin ButtonSecondaryBigHighAttention;
+}
+
+.ButtonSecondarySmallHighAttention {
+  @mixin ButtonSecondarySmallHighAttention;
+}
+
+.ButtonTertiaryBigHighAttention {
+  @mixin ButtonTertiaryBigHighAttention;
+}
+
+.ButtonTertiarySmallHighAttention {
+  @mixin ButtonTertiarySmallHighAttention;
+}
+
+.ButtonQuaternaryBigHighAttention {
+  @mixin ButtonQuaternaryBigHighAttention;
+}
+
+.ButtonQuaternarySmallHighAttention {
+  @mixin ButtonQuaternarySmallHighAttention;
+}
+
+.Button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: $secondaryA;
+  border: 1px solid $secondaryA;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 30px;
+  white-space: nowrap;
+
+  /* the case where a button has an icon <i></i> */
+  > i {
+    vertical-align: sub;
+  }
+
+  &:hover {
+    background-color: $black;
+    border-color: $black;
+    color: $white;
+    outline: 0;
+  }
+
+  &.ButtonDisabled,
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $secondaryA;
+      border-color: $secondaryA;
+    }
+  }
+
+  &.ButtonOutline {
+    background-color: $transparent;
+    color: $secondaryA;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $black;
+      color: $black;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        border-color: $secondaryA;
+        color: $secondaryA;
+      }
+    }
+  }
+
+  &.ButtonClear {
+    background-color: $transparent;
+    border-color: $transparent;
+    color: $secondaryA;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $transparent;
+      color: $secondaryA;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        color: $secondaryA;
+      }
+    }
+  }
+}
+
+.Input {
+  @mixin FormLabelBig;
+  border: 0;
+  opacity: 0.6;
+}

@@ -1,0 +1,66 @@
+.Wrapper {
+  color: $greyA;
+  margin-top: 30px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 30px $margin48 0;
+  }
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserArticle from 'typography.legacy.css';
+  display: inline-block;
+  margin: 28px 6px 12px 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 36px 4px 20px 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 66px 0 16px;
+    width: 100%;
+  }
+}
+
+.MainTitle {
+  composes: Header from 'typography.legacy.css';
+  display: block;
+}
+
+.TitleWrapper {
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  margin-top: 24px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 10px;
+  }
+}
+
+
+@media (min-width: $smBreakpoint) {
+  .Lead {
+    font-size: 2rem;
+    line-height: 1.45;
+    margin-top: 26px;
+  }
+}
+
+@media (min-width: $xlBreakpoint) {
+  .Wrapper {
+    text-align: center;
+  }
+
+  .Lead {
+    margin-top: $margin40;
+    text-align: center;
+  }
+}
+

@@ -1,0 +1,224 @@
+{
+  "nid": "238022",
+  "title": "Darm-Kur – In 3 Monaten zu einem «guten Bauchgefühl»",
+  "lead": "Müdigkeit, Blähungen, Durchfall oder Darmträgheit können unseren Alltag stark beeinträchtigen. Für das Gleichgewicht der Darmflora kann die 3-monatige Symbio Darm-Kur von Biomed eine wertvolle Unterstützung sein: Nach der Entgiftung folgen die Versorgung und Pflege der Darmschleimhaut, was zu einem «guten Bauchgefühl» verhilft.",
+  "subtypeValue": "BrandReport",
+  "metaTitle": "BrandReport: Darm-Kur: In 3 Monaten zu einem «guten Bauchgefühl» | Beobachter",
+  "metaDescription": "Müdigkeit, Blähungen, Durchfall oder Darmträgheit können unseren Alltag stark beeinträchtigen. Für das Gleichgewicht der Darmflora kann die 3-monatige",
+  "metaOgTitle": "BrandReport: Darm-Kur – In 3 Monaten zu einem «guten Bauchgefühl» | Beobachter",
+  "metaOgDescription": "BrandReport: Müdigkeit, Blähungen, Durchfall oder Darmträgheit können unseren Alltag stark beeinträchtigen. Für das Gleichgewicht der Darmflora kann die 3-monatige Symbio Darm-Kur von Biomed eine wertvolle Unterstützung sein: Nach der Entgiftung folgen die Versorgung und Pflege der Darmschleimhaut, was zu einem «guten Bauchgefühl» verhilft.",
+  "body": [
+    {
+      "anchorId": null,
+      "header": "Definition",
+      "Text": "Hello world",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "trackingTeaserClick": null,
+  "trackingTeaserImpression": null,
+  "trackingDetailImpression": null,
+  "shortTitle": "BrandReport",
+  "preferredUri": "/brandreport/biomed-brandreport/darm-kur-3-monaten-zu-einem-guten-bauchgefuhl",
+  "publicationDate": "2019-08-05T11:56:56",
+  "createDate": "2019-08-02T14:15:35",
+  "changeDate": "2019-08-05T14:15:35",
+  "metaCanonicalUrl": "",
+  "showUpdated": false,
+  "socialMediaTitle": "Darm-Kur: In 3 Monaten zu einem «guten Bauchgefühl»",
+  "restrictionStatus": null,
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybToxMDI0",
+    "title": "Medizin & Krankheit",
+    "isSpecial": false,
+    "link": "/gesundheit/medizin-krankheit",
+    "articles": {
+      "edges": [
+        {
+          "node": {
+            "title": "Unschön und ansteckend ",
+            "shortTitle": "Nagelpilz",
+            "subtypeValue": "ratgeber_aktuell",
+            "createDate": "2006-09-12T10:00:03",
+            "preferredUri": "/gesundheit/medizin-krankheit/nagelpilz-unschon-und-ansteckend",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDI0",
+              "title": "Medizin & Krankheit"
+            },
+            "teaserImage": {
+              "id": "24738",
+              "image": {
+                "file": {
+                  "alt": "Um einen Nagelpilz festzustellen, wird eine Probe entnommen",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/nagelpilz.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "title": "Zahngesundheit mit Schattenseiten",
+            "shortTitle": "Fluorid",
+            "subtypeValue": "ratgeber_aktuell",
+            "createDate": "2019-08-15T15:08:10",
+            "preferredUri": "/gesundheit/medizin-krankheit/fluorid-zahngesundheit-mit-schattenseiten",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDI0",
+              "title": "Medizin & Krankheit"
+            },
+            "teaserImage": {
+              "id": "1061728",
+              "image": {
+                "file": {
+                  "alt": "Eine Frau putzt sich die Zähne und hält ein Glas Wasser in der Hand.",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/fluorid_0.jpg"
+                }
+              }
+            }
+          }
+        },
+        {
+          "node": {
+            "title": "Frauenherzen schlagen anders",
+            "shortTitle": "Herzinfarkt bei Frauen",
+            "subtypeValue": "ratgeber_aktuell",
+            "createDate": "2007-04-04T18:03:07",
+            "preferredUri": "/gesundheit/medizin-krankheit/herzinfarkt-bei-frauen-frauenherzen-schlagen-anders",
+            "hasVideo": false,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDI0",
+              "title": "Medizin & Krankheit"
+            },
+            "teaserImage": {
+              "id": "150351",
+              "image": {
+                "file": {
+                  "alt": "Eine Frau mit rotem T-Shirt formt mit den Händen ein Herz.",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/fileadmin/dateien/Gesundheit/herzinfarkt_frau.jpg"
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  },
+  "relatedArticles": {
+    "edges": [
+      {
+        "node": {
+          "title": "Zu hohe Rechnungen – seit Jahren",
+          "shortTitle": "Hirslanden-Klinik Zürich",
+          "subtypeValue": "ratgeber_aktuell",
+          "createDate": "2019-07-03T11:59:32",
+          "preferredUri": "/gesundheit/medizin-krankheit/hirslanden-klinik-zurich-zu-hohe-rechnungen-seit-jahren",
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToxMDI0",
+            "title": "Medizin & Krankheit"
+          },
+          "teaserImage": {
+            "id": "1044470",
+            "image": {
+              "file": {
+                "alt": "Klinik im Park",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/klinik_im_park.jpg"
+              }
+            }
+          }
+        }
+      }
+    ]
+  },
+  "keywords": {
+    "edges": [
+      {
+        "node": {
+          "label": "Gesundheit",
+          "preferredUri": "/stichworte/g/gesundheit"
+        }
+      }
+    ]
+  },
+  "sponsor": {
+    "id": "bm9kZToyMzgxOTQ=",
+    "title": "Biomed Brandreport",
+    "teaserImage": {
+      "id": "1056934",
+      "title": "Biomed",
+      "image": {
+        "file": {
+          "alt": "BioMed Logo",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/biomed_logo_0.png"
+        }
+      }
+    }
+  },
+  "authors": {
+    "edges": [
+      {
+        "node": {
+          "id": "YXV0aG9yOjE4Mzgw",
+          "name": "Biomed AG",
+          "imageParagraph": {
+            "image": null
+          }
+        }
+      }
+    ]
+  },
+  "activeMenuTrail": {
+    "count": 3,
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUw",
+          "label": "Gesundheit",
+          "link": "/gesundheit"
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUz",
+          "label": "Medizin & Krankheit",
+          "link": "/gesundheit/medizin-krankheit"
+        }
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TVRVek56a3hOamsz",
+          "label": "Darm-Kur: In 3 Monaten zu einem «guten Bauchgefühl»",
+          "link": null
+        }
+      }
+    ]
+  },
+  "heroImageBody": [
+    {
+      "id": "1056924",
+      "title": null,
+      "caption": null,
+      "image": {
+        "file": {
+          "alt": "Frau formt mit ihren Händen ein Herz auf ihrem Bauch",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/mit_haenden_geformtes_herz_auf_bauch.jpg"
+        }
+      }
+    }
+  ]
+}

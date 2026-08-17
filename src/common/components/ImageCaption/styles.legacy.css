@@ -1,0 +1,30 @@
+.Wrapper {
+  color: $black;
+  display: flex;
+  font-family: $fontSansSerif;
+  font-size: $h2FontSize;
+  font-style: normal;
+  font-weight: 400;
+  justify-content: flex-end;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+  margin: 0;
+  text-align: left;
+
+  @media print {
+    text-align: center;
+  }
+}
+
+.CreditWrapper {
+  margin-left: $smallMargin;
+}
+
+.Credit {
+  color: $lightgray;
+  font-family: $fontSansSerif;
+  font-size: $h4FontSize;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+  line-height: 1.2rem;
+}

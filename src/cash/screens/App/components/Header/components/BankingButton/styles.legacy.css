@@ -1,0 +1,23 @@
+.DepotButton {
+  composes: ButtonPrimaryBig from 'form.legacy.css';
+  @mixin ButtonPrimarySmall;
+  @mixin ButtonPrimarySmallHighAttention;
+  margin-left: auto;
+  margin-right: 4px;
+  min-width: 80px;
+
+  @media (max-width: $smBreakpoint) {
+    padding: 8px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+    margin-right: $margin16;
+    min-width: 132px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+

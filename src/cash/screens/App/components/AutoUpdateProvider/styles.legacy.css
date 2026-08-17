@@ -1,0 +1,35 @@
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+  padding: $margin24 0;
+}
+
+.Description {
+  font-size: 0.875rem;
+}
+
+.ModalWrapper {
+  padding: 0;
+
+  @media (max-width: $xsBreakpointTo) {
+    padding: 0 $margin24;
+  }
+}
+
+.CloseIconWrapper {
+  cursor: pointer;
+  height: 0;
+  position: absolute;
+  right: $margin40;
+  text-align: right;
+  top: 43px;
+  z-index: 1;
+  @mixin fontSize 24;
+
+  &.DrawerBottom {
+    @media (max-width: $xsBreakpointTo) {
+      @mixin fontSize 24;
+      right: 20px;
+      top: $margin40;
+    }
+  }
+}

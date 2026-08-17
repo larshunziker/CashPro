@@ -1,0 +1,191 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props {}# 1`] = `<div />`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 1 1`] = `<div />`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 2 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 3 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 4 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 5 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 6 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 7 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 2 Minuten
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with custom prefix and given props 8 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    custom-prefix 2 Minuten
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props {}# 1`] = `<div />`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 1 1`] = `<div />`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 2 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 3 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 4 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 5 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 6 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 1 Minute
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 7 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 2 Minuten
+  </div>
+</div>
+`;
+
+exports[`[Component] TimeToRead factory with default prefix Should match snapshot with default prefix and given props 8 1`] = `
+<div>
+  <div
+    class="Wrapper extra-classname"
+  >
+    <div>
+      icon
+    </div>
+    Lesezeit: 2 Minuten
+  </div>
+</div>
+`;

@@ -1,0 +1,139 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageListicle Should render correctly if Header is not present 1`] = `
+<div>
+  <div
+    class="paragraph ministage-listicle-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="LinkWrapperClassName"
+      >
+        <ul
+          class="LinkListClassName"
+        >
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/fpvs/fpvs"
+            >
+              Freitagsgespräche
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/asda/asda"
+            >
+              Women in Insurance
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/svvg/svvg"
+            >
+              Marketing Opinions
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/pierin-vincenz-am-pranger"
+            >
+              Insurance Forum
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageListicle Should render correctly if Header is present 1`] = `
+<div>
+  <div
+    class="paragraph ministage-listicle-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="LogoWrapperClassName"
+        data-testid="ministage-listicle-header"
+      >
+        <div>
+          Header
+        </div>
+      </div>
+      <div
+        class="LinkWrapperClassName"
+      >
+        <ul
+          class="LinkListClassName"
+        >
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/fpvs/fpvs"
+            >
+              Freitagsgespräche
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/asda/asda"
+            >
+              Women in Insurance
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/svvg/svvg"
+            >
+              Marketing Opinions
+            </a>
+          </li>
+          <li
+            class="ListItemClassName"
+          >
+            <a
+              class="LinkClassName"
+              data-testid="mocked-link"
+              href="/schweizer-versicherung/pierin-vincenz-am-pranger"
+            >
+              Insurance Forum
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</div>
+`;

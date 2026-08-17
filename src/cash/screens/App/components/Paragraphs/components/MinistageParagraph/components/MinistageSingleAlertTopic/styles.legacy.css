@@ -1,0 +1,25 @@
+.Wrapper {
+  margin: 32px auto;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 40px auto;
+  }
+}
+
+.Title {
+  composes: BoxTitleSmall from 'typography.legacy.css';
+  margin-bottom: 16px;
+  word-break: break-word;
+}
+
+.AlertItemWrapper {
+  max-width: 312px;
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 320px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+}

@@ -1,0 +1,61 @@
+
+.Vertical {
+  @mixin hideforPrint;
+  composes: Vertical from 'typography.legacy.css';
+  display: inline-block;
+  max-width: 390px;
+  opacity: 0.7;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  transition: all 0.3s ease;
+  white-space: nowrap;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 2px;
+    width: auto;
+  }
+}
+
+.VerticalCollapsed {
+  composes: VerticalCollapsed from 'typography.legacy.css';
+  color: $white;
+}
+
+.VerticalLink {
+  height: 24px;
+  margin-bottom: -2px;
+  max-width: 100%;
+  transition: all 0.3s ease;
+
+  @media (min-width: $smBreakpoint) {
+    left: 125px;
+    max-width: 130px;
+    position: absolute;
+    top: 14px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 45px;
+    left: 180px;
+    max-width: unset;
+    top: 9px;
+  }
+
+  &.Collapsed {
+    @media (min-width: $smBreakpoint) {
+      height: auto;
+
+      /* "Weitere Themen" must be 
+    shortened to "Weitere ..." */
+      max-width: 101px;
+      top: 7px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      left: 135px;
+      top: 10px;
+    }
+  }
+}
+

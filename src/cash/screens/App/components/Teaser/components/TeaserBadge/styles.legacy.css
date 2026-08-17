@@ -1,0 +1,17 @@
+.Wrapper {
+  position: relative;
+  z-index: calc($zIndex1 + 1);
+}
+
+.Content {
+  composes: Meta3 from 'typography.legacy.css';
+  background-color: $secondaryA;
+  color: $white;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 2px 8px;
+  position: relative;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

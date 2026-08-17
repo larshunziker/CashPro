@@ -1,0 +1,98 @@
+.AuthorWrapper {
+  align-items: center;
+  display: flex;
+  line-height: 140%;
+  padding: 22px 0;
+  
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 27px;
+    padding-top: $margin24;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 17px;
+    padding-top: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin32;
+    padding-top: 20px;
+  }
+}
+
+.AuthorWrapperMargin {
+  @media (min-width: $smBreakpoint) {
+    margin-left: 4.1667%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 0;
+  }
+}
+
+.Author,
+.Dates,
+.Source,
+.AuthorLink,
+.ModifyingAuthor,
+.ModifyingAuthorLink {
+  composes: AuthorBook from 'typography.legacy.css';
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+
+.Author {
+  display: inline-block;
+}
+
+.ModifyingAuthor {
+  display: inline;
+  margin-bottom: 2px;
+}
+
+.Dates {
+  display: inline;
+}
+
+.PublicationDate {
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+  }
+}
+
+.ActiveLink {
+  text-decoration: underline;
+}
+
+.InActiveLink {
+  display: inline-block;
+}
+
+.Source {
+  margin-top: $margin8;
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.LeftAligned {
+  @media (min-width: $xlBreakpoint) {
+    text-align: left;
+  }
+}
+
+.AuthorAvatar {
+  border-radius: 50%;
+  height: 48px;
+  width: 48px;
+
+  &.AuthorAvatarLast {
+    margin-right: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 60px;
+    width: 60px;
+  }
+}

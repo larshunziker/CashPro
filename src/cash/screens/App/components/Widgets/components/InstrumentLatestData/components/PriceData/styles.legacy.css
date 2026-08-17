@@ -1,0 +1,42 @@
+.Wrapper {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  margin: $margin16 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+
+  &.IsAlertForm {
+    border-bottom: 1px solid $greyD;
+    min-height: 73px;
+    padding-bottom: $margin12;
+  }
+
+  &.NoMarginBottom {
+    margin: 0;
+  }
+}
+
+.Label {
+  composes: InfoC from 'typography.legacy.css';
+  align-items: center;
+  color: $greyA;
+  display: flex;
+  flex-wrap: wrap;
+  gap: $margin4;
+}
+
+.Middle {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.Right {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+}

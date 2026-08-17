@@ -1,0 +1,19 @@
+.Wrapper {
+  @mixin hideforPrint;
+  overflow: hidden; /* hide ad if we switch from small to big leaderboard */
+
+  @media print {
+    display: none;
+  }
+}
+
+.InnerWrapper {
+  composes: AdContainerGrid from '../../../AppNexus/styles.legacy.css';
+}
+
+:global(.branding-day) {
+  .InnerWrapper {
+    margin: 0 auto;
+    width: 100%;
+  }
+}

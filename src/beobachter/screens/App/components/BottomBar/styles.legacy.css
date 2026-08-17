@@ -1,0 +1,211 @@
+/**
+ * BottomBar styles — BEO mobile navigation bar.
+ * Visible only on mobile viewports (< $smBreakpoint).
+ * Hidden in print and on desktop.
+ */
+
+:global(body.bottom-bar-active), :global(.bottom-bar-active .bottom-bar-padding) {
+  padding-bottom: $bottomBarHeightPx; /* equals BottomBar height — avoids CLS by keeping constant */
+}
+
+.BottomBar {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $grey30;
+  bottom: 0;
+  box-sizing: border-box;
+  display: flex;
+  height: $bottomBarHeightPx;
+  left: 0;
+  position: fixed;
+  right: 0;
+  transition: transform 0.3s ease;
+
+  /* Must be above stickybar and below checkout */
+  z-index: calc($zIndexPianoOverlay + 24);
+}
+
+.ActiveIndicator {
+  background-color: $redC;
+  border-radius: 0 0 4px 4px;
+  height: 4px;
+  left: 0;
+  opacity: 0;
+  pointer-events: none;
+  position: absolute;
+  top: 0;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  width: 56px;
+
+  @media (prefers-reduced-motion: reduce) {
+    transition: none;
+  }
+}
+
+.ActiveIndicatorVisible {
+  opacity: 1;
+}
+
+.Hidden {
+  transform: translateY(100%);
+}
+
+.NavList {
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  height: 100%;
+  justify-content: space-between;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.NavItem {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  height: 100%;
+  justify-content: center;
+}
+
+.NavItemAction {
+  align-items: flex-end;
+  box-sizing: border-box;
+  padding-bottom: 14px;
+}
+
+.NavLink {
+  align-items: center;
+  background: none;
+  border: none;
+  color: $grey80;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontSpezia;
+  font-size: 12px;
+  font-weight: 700;
+  gap: 6px;
+  height: 100%;
+  justify-content: center;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+  padding: 0 4px 6px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  width: 100%;
+
+  &:focus-visible {
+    outline: 2px solid $redC;
+    outline-offset: -2px;
+  }
+}
+
+.NavLinkActive {
+  color: $redC;
+}
+
+.NavLabel {
+  display: block;
+  font-size: 12px;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  line-height: 16px;
+}
+
+/* Central Chatbot FAB button — elevated above the bar */
+.ChatbotButton {
+  align-items: center;
+  background-color: $redC;
+  border: none;
+  border-radius: 50%;
+  box-shadow: none;
+  color: $white;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  font-family: $fontSpezia;
+  font-size: 12px;
+  font-weight: 700;
+  height: 54px;
+  justify-content: center;
+  padding: 0;
+  position: relative;
+  text-align: center;
+  width: 54px;
+
+  &:focus-visible {
+    outline: 2px solid $redC;
+    outline-offset: 2px;
+  }
+}
+
+.ChatbotButtonActive {
+  background: $redD;
+  border-radius: 54px;
+}
+
+.NavIcon {
+  align-items: center;
+  display: flex;
+  height: 24px;
+  justify-content: center;
+  line-height: 0;
+  width: 24px;
+
+  & :global(svg) {
+    height: 20px;
+    max-height: 20px;
+    max-width: 20px;
+  }
+
+  /* Ensure SVG glyphs follow the active/inactive text color token. */
+  & :global(svg [fill]) {
+    fill: currentColor;
+  }
+
+  & :global(svg [stroke]) {
+    stroke: currentColor;
+  }
+}
+
+.ChatbotIcon {
+  align-items: center;
+  display: flex;
+  height: 32px;
+  justify-content: center;
+  line-height: 0;
+  width: 32px;
+
+  & :global(svg) {
+    height: 29px;
+    max-height: 29px;
+    max-width: 26px;
+    width: 26px;
+  }
+}
+
+.ChatbotSpinner {
+  animation: bottom-bar-spinner-rotation 0.7s linear infinite;
+  border: 2px solid rgb(255 255 255 / 40%);
+  border-radius: 50%;
+  border-top-color: $white;
+  box-sizing: border-box;
+  display: block;
+  height: 22px;
+  width: 22px;
+}
+
+@keyframes bottom-bar-spinner-rotation {
+  from {
+    transform: rotate(0deg);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+

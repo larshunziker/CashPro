@@ -1,0 +1,52 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InfoBoxPargraph - TwoColumns Factory Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph info-box-paragraph WrapperClassname infobox two-columns"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="LeftWrapperClassname"
+      >
+        <div
+          data-testid="info-box-paragraph-renderer"
+        >
+          180555
+        </div>
+      </div>
+      <div
+        class="RightWrapperClassname"
+      >
+        <div
+          data-testid="info-box-paragraph-renderer"
+        >
+          180999
+        </div>
+      </div>
+    </div>
+    <div
+      class="Row"
+    >
+      <div
+        class="LeftWrapperClassname"
+      >
+        <div
+          data-testid="info-box-paragraph-renderer"
+        >
+          180556
+        </div>
+      </div>
+      <div
+        class="RightWrapperClassname"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] InfoBoxPargraph - TwoColumns Factory Should render nothing 1`] = `<div />`;
+
+exports[`[Component] InfoBoxPargraph - TwoColumns Factory Should render nothing if infobox body is empty array 1`] = `<div />`;

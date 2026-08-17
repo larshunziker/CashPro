@@ -1,0 +1,145 @@
+{
+  "grid": {
+    "count": 15,
+    "edges": [
+      {
+        "node": {
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo2MDkx",
+            "title": "Schweizer Versicherung",
+            "__typename": "Channel"
+          },
+          "changeDate": "2019-12-02T17:22:11",
+          "createDate": "2019-12-02T17:22:16",
+          "id": "bm9kZToyNzY5NA==",
+          "lead": "Mit vorgetäuschten Autounfällen ergaunerten Mafiosi Millionensummen - betroffen ist der Zurich Versicherungskonzern. Der Chef der Bande soll mehr als 20 Morde angeordnet haben.",
+          "preferredUri": "/schweizer-versicherung/italo-mafia-betrugt-schweizer-versicherung",
+          "publication": "schweizer_versicherung",
+          "publicationDate": "2019-12-02T17:23:13",
+          "restrictionStatus": null,
+          "shortTitle": "Article 2",
+          "teaserImage": {
+            "id": "xxxx",
+            "image": {},
+            "title": null,
+            "__typename": "ImageParagraph"
+          },
+          "title": "Italo-Mafia betrügt Schweizer Versicherung",
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo2MDkx",
+            "title": "Schweizer Versicherung",
+            "__typename": "Channel"
+          },
+          "changeDate": "2019-12-02T17:22:11",
+          "createDate": "2019-12-02T17:22:16",
+          "id": "bm9kZToyNzY5NA==",
+          "lead": "Mit vorgetäuschten Autounfällen ergaunerten Mafiosi Millionensummen - betroffen ist der Zurich Versicherungskonzern. Der Chef der Bande soll mehr als 20 Morde angeordnet haben.",
+          "preferredUri": "/schweizer-versicherung/italo-mafia-betrugt-schweizer-versicherung",
+          "publication": "schweizer_versicherung",
+          "publicationDate": "2019-12-02T17:23:13",
+          "restrictionStatus": null,
+          "shortTitle": "Article 2",
+          "teaserImage": {
+            "id": "xxxx",
+            "image": {},
+            "title": null,
+            "__typename": "ImageParagraph"
+          },
+          "title": "Greco hinterlässt eine kerngesunde Versicherung",
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+          "label": "Schweizer Versicherung - Monatsmagazin für Assekuranz, Finanzen und Vorsorge",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "body": [
+    {
+      "anchorId": null,
+      "header": "Definition",
+      "Text": "Hello world",
+      "__typename": "TextParagraph"
+    },
+    {
+      "anchorId": null,
+      "header": "Definition",
+      "Text": "Hello world2",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "canonicalUri": "/group/6/content/28607",
+  "channel": null,
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "id": "bm9kZToyNzY2Nw==",
+  "lead": "Die «Schweizer Versicherung», das Schweizer Fachmagazin für Assekuranz, begleitet die Versicherungswirtschaft in all ihren Segmenten und Märkten. Und publiziert fundierte und umfassende Hintergrundinformationen zu Versicherung, Vorsorge und Anlage.",
+  "metaCanonicalUrl": "",
+  "metaDescription": "Die «Schweizer Versicherung», das Schweizer Fachmagazin für Assekuranz, begleitet die Versicherungswirtschaft in all ihren Segmenten und Märkten. Und",
+  "metaOgDescription": null,
+  "metaOgTitle": "Schweizer Versicherung - Monatsmagazin für Assekuranz, Finanzen und Vorsorge - Schweizer Versicherung",
+  "metaTitle": "Schweizer Versicherung - Monatsmagazin für Assekuranz, Finanzen und Vorsorge - Schweizer Versicherung",
+  "nid": "27667",
+  "preferredUri": "/schweizer-versicherung",
+  "publication": "schweizer_versicherung",
+  "restrictionStatus": null,
+  "shortTitle": null,
+  "sponsor": {
+    "id": "bm9kZToxNTUzNzI=",
+    "title": "Mastercard",
+    "colorCode": "rgba(255,255,255,1.0)",
+    "preferredUri": "/brandreport/mastercard",
+    "teaserImage": {
+      "id": "641436",
+      "title": null,
+      "link": {
+        "label": "",
+        "path": "https://www.mastercard.ch/de-ch.html?cmp=bac.mastercard.promo.che.ecom.b2c.che.advertorial.mastercard.ecom.digital-ratgeber-logo.chde",
+        "routed": false
+      },
+      "image": {
+        "file": {
+          "alt": "Logo Mastercard",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/mc_hrz_opt_pos_105_3x.png"
+        }
+      }
+    }
+  },
+  "sponsorLabel": null,
+  "teaserImage": {
+    "caption": null,
+    "id": "handelszeitung_fallback"
+  },
+  "title": "Schweizer Versicherung - Monatsmagazin für Assekuranz, Finanzen und Vorsorge",
+  "__typename": "LandingPage"
+}

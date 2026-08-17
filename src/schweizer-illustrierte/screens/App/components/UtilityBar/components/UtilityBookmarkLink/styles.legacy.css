@@ -1,0 +1,33 @@
+.Link {
+  composes: Link from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.LinkHoverSI {
+  composes: LinkHoverSI from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.LinkHoverSY {
+  composes: LinkHoverSY from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.LinkLight {
+  composes: LinkLight from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.Icon {
+  composes: Icon from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.Label {
+  composes: Label from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.LinkOverlay {
+  composes: LinkOverlay from 'UtilityBar/components/UtilityLink/styles.legacy.css'
+}
+
+.Animating {
+  animation: BookmarkAnimation 0.5s;
+}
+
+@mixin BookmarkAnimation;

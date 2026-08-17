@@ -1,0 +1,29 @@
+{
+  "data": {
+    "environment": {
+      "routeByPath": {
+        "object": {
+          "id": "bm9kZToxOTY2NA==",
+          "newer": {
+            "edges": [
+              {
+                "node": {
+                  "__typename": "Video"
+                }
+              }
+            ]
+          },
+          "older": {
+            "edges": [
+              {
+                "node": {
+                  "__typename": "Video"
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,124 @@
+.Wrapper {
+  padding: $margin24 $margin24 0 $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    overflow-x: hidden;
+    padding: $margin24 0 0 0;
+  }
+}
+
+.Title {
+  composes: InfoABold from 'typography.legacy.css';
+}
+
+.Tabs {
+  border-bottom: 2px solid $greyC;
+  display: flex;
+  list-style: none;
+  margin-bottom: $margin16;
+}
+
+.Link {
+  composes: ContentBoxSmall from 'typography.legacy.css';
+  cursor: pointer;
+}
+
+.Tab {
+  padding: $margin8 $margin12;
+
+  &.Active {
+    position: relative;
+
+    .Link {
+      color: $secondaryA;
+    }
+
+    &::after {
+      background-color: $secondaryA;
+      bottom: -2px;
+      content: '';
+      display: block;
+      height: 2px;
+      left: 0;
+      position: absolute;
+      right: 0;
+    }
+  }
+}
+
+.InputTextWrapper {
+  overflow: hidden;
+
+  div:has(input) {
+    width: 100%;
+  }
+
+  &.SellFieldWrapper {
+    display: flex;
+
+    > div {
+      white-space: nowrap;
+    }
+  }
+
+  .QuantityButtonWrapper {
+    margin-top: $margin12;
+  }
+}
+
+.ButtonWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: $margin16;
+  overflow-x: hidden;
+
+  button {
+    position: relative;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.DropdownPortfolioWrapper {
+  max-height: 45vh;
+  overflow-x: hidden;
+  padding: 20px 0 0;
+}
+
+.DropdownPortfolioLink {
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 $margin24;
+  }
+
+  &:hover {
+    background-color: $greyE;
+    color: $secondaryA;
+  }
+
+  &.NewPortfolio {
+    align-items: center;
+    flex-direction: row;
+    gap: 10px;
+    justify-content: flex-start;
+    margin-bottom: 4px;
+    padding-top: 16px;
+
+    i {
+      font-size: 20px;
+
+      &::before {
+        position: relative;
+        top: 4px;
+      }
+    }
+  }
+}

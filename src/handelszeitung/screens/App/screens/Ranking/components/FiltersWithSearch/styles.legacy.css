@@ -1,0 +1,69 @@
+.ButtonWrapper {
+  display: block;
+  margin-bottom: $margin24;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+.FilterButtonWrapper {
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    row-gap: 12px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    column-gap: 0;
+    flex-wrap: wrap;
+  }
+}
+
+.ActionDescription {
+  composes: InfoC from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.Hidden {
+  display: none;
+}
+
+.OptionsHeader {
+  display: flex;
+  justify-content: space-between;
+}
+
+.OptionCloseIcon {
+  color: $bilanzA;
+  font-size: 24px;
+
+  &:hover {
+    color: $bilanzB;
+    cursor: pointer;
+  }
+}
+
+.HeaderTitle {
+  composes: InfoCBlack from 'typography.legacy.css';
+}
+
+
+.ResetButton {
+  &&&& {
+    cursor: pointer;
+    justify-content: flex-start;
+    margin-bottom: $margin24;
+    padding: 0;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+      width: auto;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      width: 97px;
+    }
+  }
+}

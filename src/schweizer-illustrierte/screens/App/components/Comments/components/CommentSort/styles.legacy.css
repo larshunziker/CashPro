@@ -1,0 +1,42 @@
+.Sort {
+  align-items: center;
+  border-bottom: 1px solid $grayA;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+  padding: 23px 0 10px;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+    padding-bottom: 18px;
+    padding-top: 18px;
+  }
+}
+
+.Text {
+  color: $black;
+
+  @media (min-width: $smBreakpoint) {
+    position: relative;
+    top: -1px;
+  }
+}
+
+.Action {
+  composes: CaptionAuthorParagraph from 'typography.legacy.css';
+  align-items: center;
+  background: none;
+  border: none;
+  color: $grayB;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-end;
+  min-width: 135px;
+  outline: none;
+  padding: 0;
+}
+
+.Icon {
+  font-size: 15px;
+  padding-left: 7px;
+}

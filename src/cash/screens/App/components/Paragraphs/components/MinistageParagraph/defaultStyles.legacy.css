@@ -1,0 +1,10 @@
+.FullWidthBackground {
+  background: $greyE;
+}
+
+@media print {
+  .Wrapper {
+    break-inside: avoid;
+    margin-right: 20px;
+  }
+}

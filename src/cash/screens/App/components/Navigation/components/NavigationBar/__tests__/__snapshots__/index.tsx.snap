@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] NavigationBar Should render the navigation wrapper and all valid items 1`] = `
+<div>
+  <nav
+    class="Navigation"
+    data-testid="navigationbar-container"
+  >
+    <div
+      class="List HiddenXlUp"
+    >
+      <div
+        class="Slider"
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="react-swipeable-view-container"
+          style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform; width: 100%;"
+        >
+          <div
+            aria-hidden="false"
+            data-swipeable="true"
+            style="width: 100%; flex-shrink: 0; overflow: auto;"
+          >
+            <div
+              class="Slide"
+            >
+              <div
+                class="ListItem"
+                data-testid="navigationbar-item"
+              >
+                <a
+                  class="Link"
+                  data-testid="routed-link"
+                  href="/ratgeber"
+                >
+                  Ratgeber
+                </a>
+              </div>
+              <div
+                class="ListItem"
+                data-testid="navigationbar-item"
+              >
+                <a
+                  class="Link"
+                  data-testid="routed-link"
+                  href="/beratung"
+                >
+                  Beratung
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <button
+        aria-label="zurück"
+        class="PrevButton Hide"
+        title="Zurück"
+      >
+        <span
+          class="AnimationLeft"
+        >
+          <div
+            class="Wrapper"
+            type="svg-icons/type/chevron-left"
+          />
+        </span>
+      </button>
+      <button
+        aria-label="weiter"
+        class="NextButton Hide"
+        title="Weiter"
+      >
+        <span
+          class="AnimationRight"
+        >
+          <div
+            class="Wrapper"
+            type="svg-icons/type/chevron-right"
+          />
+        </span>
+      </button>
+    </div>
+    <div
+      class="List HiddenXlDown"
+    >
+      <div
+        class="ListItem"
+        data-testid="navigationbar-item"
+      >
+        <a
+          class="Link"
+          data-testid="routed-link"
+          href="/ratgeber"
+        >
+          Ratgeber
+        </a>
+      </div>
+      <div
+        class="ListItem"
+        data-testid="navigationbar-item"
+      >
+        <a
+          class="Link"
+          data-testid="routed-link"
+          href="/beratung"
+        >
+          Beratung
+        </a>
+      </div>
+    </div>
+  </nav>
+</div>
+`;

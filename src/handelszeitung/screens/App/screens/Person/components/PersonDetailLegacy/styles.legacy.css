@@ -1,0 +1,146 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.OuterWrapper {
+  position: relative;
+}
+
+.OuterWrapperNoImage {
+  min-height: 130px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 260px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 290px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 280px;
+  }
+}
+
+.InnerWrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: space-between;
+  position: relative;
+  z-index: $zIndexMedium;
+}
+
+.HeaderBackground {
+  background-color: $greyE;
+  height: 100%;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: $zIndexLow;
+
+  @media print {
+    background-image: none;
+  }
+}
+
+.PersonDataWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  &.HasNoImage {
+    flex-direction: row;
+  }
+}
+
+.PersonDataCell {
+  flex-direction: column;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+}
+
+.Image {
+  border-radius: 50%;
+  display: inline-block;
+  height: 94px;
+  margin-top: 10px;
+  width: 94px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 160px;
+    margin-bottom: 0;
+    width: 160px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 180px;
+    width: 180px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitle from 'typography.legacy.css'; /* check font style with UX */
+  display: block;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 10px;
+    margin-top: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 9px;
+  }
+}
+
+.Title {
+  composes: PersonH1 from 'typography.legacy.css';
+}
+
+.ListHeaderTitle {
+  composes: H3 from 'typography.legacy.css';
+  margin-bottom: 25px;
+}
+
+.ParagraphsContainer {
+  padding-top: 25px;
+}
+
+.Caption {
+  display: inline-block;
+}
+
+.CaptionWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.ListWrapper {
+  margin-bottom: 20px;
+}

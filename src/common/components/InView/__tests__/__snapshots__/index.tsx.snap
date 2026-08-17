@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InView Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper is-in-view"
+  >
+    <p>
+      Component
+    </p>
+  </div>
+</div>
+`;

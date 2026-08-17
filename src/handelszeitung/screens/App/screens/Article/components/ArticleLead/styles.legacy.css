@@ -1,0 +1,16 @@
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: 20px;
+  margin-top: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  &.IsOpinion {
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 30px;
+    }
+  }
+}
+

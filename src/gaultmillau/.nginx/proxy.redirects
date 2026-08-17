@@ -1,0 +1,18 @@
+# search screen
+if ($args ~ "search=(.*)") {
+  set $search $1;
+  rewrite ^/suche?$ https://$host/suche/$search? permanent;
+  rewrite ^/fr/search?$ https://$host/fr/search/$search? permanent;
+  rewrite ^/restaurants-suche?$ https://$host/restaurants-suche/$search? permanent;
+  rewrite ^/fr/restaurant-search?$ https://$host/fr/restaurant-search/$search? permanent;
+}
+
+# Ads.txt
+rewrite ^/ads.txt https://adm-adstxt.s3.eu-central-1.amazonaws.com/gaultmillau_ch/ads.txt permanent;
+
+# redirect fr trailing slash
+rewrite ^/fr/$ /fr permanent;
+
+# redirect feed urls
+rewrite ^/feeds/rss$ /rss_feed permanent;
+rewrite ^/fr/feeds/rss$ /rss_feed_fr permanent;

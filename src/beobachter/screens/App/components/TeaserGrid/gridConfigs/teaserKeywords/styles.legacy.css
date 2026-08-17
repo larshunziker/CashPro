@@ -1,0 +1,23 @@
+.teaserKeywords {
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+
+  .Grid0 .Item {
+    border-bottom: 1px solid $grey30;
+
+    &:not(:last-child) {
+      margin-bottom: $margin24;
+
+      @media (min-width: $smBreakpoint) {
+        margin-bottom: $margin32;
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        margin-bottom: $margin24;
+      }
+    }
+  }
+}

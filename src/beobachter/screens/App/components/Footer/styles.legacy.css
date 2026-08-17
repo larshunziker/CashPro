@@ -1,0 +1,154 @@
+.Footer {
+  composes: Section from 'sections.legacy.css';
+  background-color: $grey90;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 20px;
+  position: relative;
+  will-change: transition;
+  z-index: 0;
+}
+
+.FooterHeader {
+  margin-bottom: $margin24;
+  width: 100%;
+}
+
+.ListItem {
+  margin-bottom: $margin24;
+}
+
+.Link {
+  color: $white;
+  font-size: 1.6rem;
+  line-height: 140%;
+}
+
+.LogoWrapper {
+  margin: 20px 0;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin: 20px 0 0;
+  }
+}
+
+.FooterLogo {
+  display: inline-block;
+  height: 33px;
+  width: 165px;
+}
+
+.SocialMediaBarWrapper {
+  align-items: flex-end;
+  justify-content: flex-end;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+
+  svg {
+    fill: $grey90;
+  }
+}
+
+.Disclaimer {
+  color: $white;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 140%;
+}
+
+@media (min-width: $smBreakpoint) {
+  .CollapseToggleWrapper {
+    text-align: right;
+  }
+}
+
+.PublicationCollapseHeader {
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+    height: 75px;
+    padding: 0;
+  }
+}
+
+.PublicationCollapseHeaderCol {
+  line-height: 1;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.PublicationCollapseBody {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.PublicationCollapseBodyIsOpen {
+  max-height: 1000px;
+  visibility: visible;
+}
+
+.PublicationList {
+  columns: 1;
+  list-style: none;
+  margin-bottom: $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    columns: 2;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    columns: 4;
+    margin-bottom: 270px;
+  }
+}
+
+.PublicationToggle {
+  background: none;
+  border: none;
+  color: $white;
+  font-size: 1.4rem;
+  line-height: 120%;
+  outline: none;
+  padding: 0;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.Open {
+    float: right;
+  }
+}
+
+.PublicationToggleIsOpen {
+  align-items: center;
+  display: flex;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}
+
+.ExpansionIcon {
+  font-size: 18px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ExpansionIconOpen {
+  transform: rotate(180deg);
+}

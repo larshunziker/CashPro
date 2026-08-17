@@ -1,0 +1,38 @@
+.Wrapper {
+  composes: TeaserLeadWhite from 'typography.legacy.css';
+  margin-top: 0;
+  order: 3;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 333px;
+    overflow-y: auto;
+    padding-right: 8px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: color($white alpha(20%));
+    }
+
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background: color($white alpha(60%));
+      }
+    }
+  }
+}
+
+.Credit {
+  composes: MetaMd from 'typography.legacy.css';
+
+  display: inline;
+  margin-top: 6px;
+  white-space: nowrap;
+}

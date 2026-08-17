@@ -1,0 +1,21 @@
+.Indicator {
+  text-align: right;
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Highlight {
+  composes: ImagePagination from 'typography.legacy.css';
+  padding: 5px;
+}
+
+.HighlightActive {
+  composes: ImagePaginationActive from 'typography.legacy.css';
+  padding: 5px;
+}
+
+.Separator {
+  composes: ImagePaginationDivider from 'typography.legacy.css';
+}

@@ -1,0 +1,83 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  height: 100%;
+
+  /* need this footer height to scroll bottom and show all items */
+  padding-bottom: calc($footerHeight + $defaultPadding);
+}
+
+.ShortTitle {
+  background-color: $redA;
+  color: $white;
+  display: table;
+  font-size: 1.1rem;
+  line-height: 1.1;
+  margin-bottom: $smallMargin;
+  margin-right: $defaultMargin;
+  padding: 2px 5px 3px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    display: inline-block;
+    font-size: 1.4rem;
+    line-height: 1.6;
+    margin-right: 15px;
+    padding: 0 6px;
+    position: relative;
+    top: -2px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 980 */
+    line-height: 1.9;
+  }
+}
+
+.Title {
+  display: inline-block;
+}
+
+.ListItem {
+  border-bottom: 1px solid $greyD;
+  font-family: $fontSpezia;
+  font-weight: bold;
+  margin-top: $smallMargin;
+  padding: $defaultPadding 0;
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 760 */
+    padding-bottom: 12px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    /* width >= 760 */
+    padding-bottom: 14px;
+  }
+}
+
+.ListItemIcon {
+  color: $redA;
+  font-size: 1.7rem;
+  padding-left: 5px;
+  position: relative;
+  top: 3px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 2rem;
+  }
+}
+
+.ListItemLink {
+  color: $black;
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 2rem;
+    line-height: 1.9;
+  }
+}

@@ -1,0 +1,37 @@
+.Date {
+  composes: SubheadLG from 'typography.legacy.css';
+  padding-left: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 24px;
+  }
+}
+
+.Square {
+  background-color: $black;
+  height: 15px;
+  width: 15px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 17px;
+    width: 17px;
+  }
+}
+
+.Wrapper {
+  align-items: center;
+  display: flex;
+  left: -8px;
+  margin-bottom: $margin24;
+  margin-top: $margin8;
+  position: relative;
+  top: -8px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+    margin-top: $margin24;
+  }
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin32;
+  }
+}

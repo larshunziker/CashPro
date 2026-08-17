@@ -1,0 +1,24 @@
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  align-items:center;
+  background-color: $white;
+  display: flex;
+  margin-bottom: 0;
+  padding-bottom: 19px;
+  position: relative;
+  z-index: $zIndexMedium;
+  
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 24px;
+  }
+}
+
+.IconRight {
+  color: $blackB;
+  margin-left: 8px;
+}
+

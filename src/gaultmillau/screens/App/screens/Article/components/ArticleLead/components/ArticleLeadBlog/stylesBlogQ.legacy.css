@@ -1,0 +1,38 @@
+.Wrapper {
+  align-items: center;
+  background-color: $pink;
+  display: flex;
+  flex-direction: column;
+}
+
+.ShortTitle {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin12;
+  }
+}
+
+.ShortTitleBold {
+  font-weight: 900;
+}
+
+.Title {
+  composes: Title from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.DateWrapper {
+  composes: DateWrapper from '../ArticleLeadBlog/styles.legacy.css';
+}
+
+.Link {
+  composes: ShortTitleANeutralA from 'typography.legacy.css';
+  font-weight: 900;
+}

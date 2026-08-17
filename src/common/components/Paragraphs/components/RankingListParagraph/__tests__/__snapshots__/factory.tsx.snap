@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Paragraphs - Ranking List Paragraph Factory Should render correctly 1`] = `
+<div>
+  <div
+    class=".Wrapper"
+  >
+    <div
+      data-testid="entity-queue-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Common] Paragraphs - Ranking List Paragraph Factory Should render nothing 1`] = `<div />`;
+
+exports[`[Common] Paragraphs - Ranking List Paragraph Factory Should render nothing when no ranking edges given 1`] = `<div />`;
+
+exports[`[Common] Paragraphs - Ranking List Paragraph Factory Should render nothing when no ranking given 1`] = `<div />`;
+
+exports[`[Common] Paragraphs - Ranking List Paragraph Factory Should render nothing when no rankingList given 1`] = `<div />`;

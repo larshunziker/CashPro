@@ -1,0 +1,95 @@
+.Wrapper {
+  position: relative;
+}
+
+.Slide {
+  @mixin aspectRatio3x2;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  transition: opacity .2s ease-in-out;
+  width: 100%;
+}
+
+.GalleryItem {
+  height: auto;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  position: absolute !important; /* stylelint-disable-line */
+  transform: translate(-50%, -50%);
+  width: 100%;
+}
+
+.SliderAndNavigationWrapper {
+  background-color: $neutralA;
+  margin-bottom: 12px;
+  position: relative;
+}
+
+.ImageCaptionWrapper {
+  margin-top: -1px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: -4px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: -2px;
+  }
+}
+
+.Indicator {
+  bottom: 0;
+  color: $white;
+  font-family: $fontBagueSansPro;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 12px;
+  padding: 7px 8px;
+  position: absolute;
+  right: 0;
+  text-align: right;
+}
+
+.NavigationWrapper {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+}
+
+.PrevButton {
+  padding: 10px;
+}
+
+.NextButton {
+  padding: 10px;
+  right: 0;
+}
+
+.NextButton,
+.PrevButton {
+  background-color: $transparent;
+  border: none;
+  color: $white;
+  font-size: 42px;
+  outline: none;
+  position: absolute;
+  text-shadow: 0 1px 1px $neutralA50;
+  top: 50%;
+  transform: translate(0, -50%);
+
+  @media print {
+    display: none;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}

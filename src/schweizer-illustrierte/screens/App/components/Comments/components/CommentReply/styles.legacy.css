@@ -1,0 +1,9 @@
+.Reply {
+  composes: Reply from 'Comments/components/CommentReplyLink/styles.legacy.css';
+  border-bottom: 1px solid $grayA;
+  cursor: initial;
+}
+
+.Inner {
+  padding: 20px 0 8px;
+}

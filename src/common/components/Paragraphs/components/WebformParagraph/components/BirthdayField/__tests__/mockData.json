@@ -1,0 +1,8 @@
+{
+  "input": {
+    "title": "Geburtstag",
+    "required": true,
+    "required_error": "Bitte ein gültiges Datum angeben",
+    "fieldName": "birthday"
+  }
+}

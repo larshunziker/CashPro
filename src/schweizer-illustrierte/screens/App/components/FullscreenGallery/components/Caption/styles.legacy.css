@@ -1,0 +1,36 @@
+.Wrapper {
+  background: $gradientBlack;
+  bottom: calc(-100% + 55px);
+  height: 100%;
+  opacity: 0.7;
+  padding: 15px 12px 40px;
+  position: absolute;
+  transition: 300ms transform ease-in-out, opacity 300ms ease-in-out;
+  width: 100%;
+  z-index: 101;
+
+  &:global(.touch-move) {
+    transition: 0ms transform;
+  }
+
+  &::before {
+    background: rgb(177 177 177);
+    border-radius: 2px;
+    content: '';
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 18px;
+    width: 40px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.ScrollableContentWrapper {
+  overflow-y: scroll;
+}

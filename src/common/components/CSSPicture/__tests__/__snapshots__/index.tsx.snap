@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CSSPicture Should render style tag with correct CSS (less img styles) 1`] = `
+<div>
+  <style>
+    
+  .css-1094044276 {
+    background-image: url(/sh/0/sites/default/files/picture.jpg)
+  }
+    
+    @media (min-width: 960px) {
+      .css-1094044276 {
+        background-image: url(/sh/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+  
+  </style>
+  <div
+    class="css-1094044276 style.Wrapper"
+  />
+</div>
+`;
+
+exports[`[Component] CSSPicture Should render style tag with correct CSS 1`] = `
+<div>
+  <style>
+    
+  .css-1281352232 {
+    background-image: url(/sh/0/sites/default/files/picture.jpg)
+  }
+    
+    @media (min-width: 480px) {
+      .css-1281352232 {
+        background-image: url(/sh/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+    @media (min-width: 540px) {
+      .css-1281352232 {
+        background-image: url(/fp/220/220/0/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+    @media (min-width: 760px) {
+      .css-1281352232 {
+        background-image: url(/fp/480/480/0/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+    @media (min-width: 960px) {
+      .css-1281352232 {
+        background-image: url(/sh/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+    @media (min-width: 1680px) {
+      .css-1281352232 {
+        background-image: url(/sh/0/sites/default/files/picture.jpg)
+      }
+    }
+    
+  
+  </style>
+  <div
+    class="css-1281352232 style.Wrapper"
+  />
+</div>
+`;

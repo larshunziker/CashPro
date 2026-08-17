@@ -1,0 +1,46 @@
+.Container {
+  border-bottom: 1px solid $grayA;
+  border-top: 3px solid $black;
+  margin: 44px 0 51px;
+  padding-top: 8px;
+  position: relative;
+}
+
+.Title {
+  @mixin Quote;
+  margin-block: $margin8 $margin16;
+}
+
+.Content {
+  overflow: hidden;
+}
+
+.ToggleWrapper {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: $black;
+  cursor: pointer;
+  display: flex;
+  font-size: 1.4rem;
+  font-weight: 400;
+  gap: 8px;
+  margin-block: $margin16 $margin24;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.SectionMargin {
+  margin-bottom: $margin24 !important; /* stylelint-disable-line */
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32 !important; /* stylelint-disable-line */
+  }
+}
+
+.InnerWrapper {
+  break-inside: avoid;
+}

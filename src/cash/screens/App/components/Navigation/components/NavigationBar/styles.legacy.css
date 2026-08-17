@@ -1,0 +1,182 @@
+.Navigation {
+  @mixin hideforPrint;
+  position: relative;
+  width: 100%;
+
+  &.Hidden {
+    display: none;
+  }
+}
+
+.List {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-start;
+    overflow-x: hidden;
+  }
+  @media (min-width: $xlBreakpoint) {
+    overflow-x: auto;
+  }
+}
+
+.ListItem {
+  box-sizing: border-box;
+  list-style: none;
+  margin-right: $margin24;
+  white-space: nowrap;
+
+  &:last-child {
+    margin-right: 0;
+  }
+}
+
+.Link {
+  composes: InfoA from '../../../../assets/styles/typography.legacy.css';
+  border-bottom: 4px solid $transparent;
+  box-sizing: border-box;
+  color: $secondaryA;
+  cursor: pointer;
+  display: block;
+  padding: 8px 0;
+  position: relative;
+
+  &:focus,
+  &:hover,
+  &[aria-current='page'] {
+    border-bottom-color: $secondaryA;
+  }
+
+  &.Active,
+  &.Focus {
+    border-bottom-color: $secondaryA;
+  }
+}
+
+.Slider {
+  display: flex !important; /* stylelint-disable-line */
+  overflow-x: visible !important; /* stylelint-disable-line */
+  width: 100%;
+}
+
+.Slide {
+  align-items: center;
+  display: flex;
+  height: 100%;
+  overflow: hidden;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.NextButton,
+.PrevButton {
+  background-color: $transparent;
+  border: none;
+  margin-top: 1px;
+  outline: none;
+  padding: 0;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  visibility: visible;
+  z-index: 1;
+
+  svg {
+    fill: $blackB;
+    height: 14px;
+    max-height: 100%;
+    max-width: 100%;
+    width: 14px;
+  }
+
+  &.Hide {
+    visibility: hidden;
+  }
+}
+
+.NextButton:hover,
+.PrevButton:hover {
+  cursor: pointer;
+}
+
+.PrevButton {
+  left: -6px;
+
+  &::before {
+    background: linear-gradient(270deg, $white 48.28%, $white0 94.83%);
+    content: '';
+    display: block;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: -1px;
+    transform: rotate(-180deg);
+    width: 40px;
+    z-index: -1;
+  }
+}
+
+.NextButton {
+  right: -6px;
+
+  &::before {
+    background: linear-gradient(270deg, $white 48.28%, $white0 94.83%);
+    content: '';
+    display: block;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: -1px;
+    width: 40px;
+    z-index: -1;
+  }
+}
+
+$duration: 1800ms;
+$delay: 1200ms;
+$iterations: 3;
+
+.AnimationRight {
+  animation: animation-right $duration linear $delay $iterations;
+  display: inline-block;
+}
+
+.AnimationLeft {
+  animation: animation-left $duration linear $delay $iterations;
+  display: inline-block;
+}
+
+@keyframes animation-right {
+  0%,
+  29%,
+  61%,
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+
+  14%,
+  44% {
+    animation-timing-function: ease-out;
+    transform: translateX(10px);
+  }
+}
+
+@keyframes animation-left {
+  0%,
+  29%,
+  61%,
+  100% {
+    animation-timing-function: ease-out;
+    transform: translateX(0);
+  }
+
+  14%,
+  44% {
+    animation-timing-function: ease-out;
+    transform: translateX(-10px);
+  }
+}

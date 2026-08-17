@@ -1,0 +1,86 @@
+.Wrapper {
+  background: $gradientBlog;
+  margin-bottom: 25px;
+  margin-top: 75px;
+  padding-top: 63px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    margin-top: 84px;
+    padding-top: 85px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+    margin-top: 120px;
+    padding-top: 115px;
+  }
+}
+
+.HeaderImage {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 90px;
+  left: calc(50% - 45px);
+  max-height: 90px;
+  max-width: 90px;
+  padding: 5px;
+  position: absolute;
+  top: -45px;
+  width: 90px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 128px;
+    left: calc(50% - 64px);
+    max-height: 128px;
+    max-width: 128px;
+    padding: 6px;
+    top: -64px;
+    width: 128px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    border-width: 2px;
+    height: 190px;
+    left: calc(50% - 95px);
+    max-height: 190px;
+    max-width: 190px;
+    padding: 8px;
+    top: -95px;
+    width: 190px;
+  }
+}
+
+.ContentWrapper {
+  padding: 0 15px 15px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 auto;
+    padding: 0 136px 25px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 100%;
+  }
+}
+
+.Title {
+  composes: HeadingOverviewCeleb from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 15px;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+}

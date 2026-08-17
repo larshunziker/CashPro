@@ -1,0 +1,39 @@
+.ButtonToTop {
+  color: $redA;
+  font-size: 3rem;
+  transition: color 2s ease-out;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+  }
+}
+
+.IconStyles {
+  background: $greyC;
+  border-radius: 50%;
+}
+
+.ButtonWrapper {
+  bottom: 50px;
+  opacity: 0;
+  padding-bottom: 0;
+  position: fixed;
+  right: 110px;
+  z-index: 99999;
+
+  @media (max-width: $smBreakpoint) {
+    bottom: 80px;
+    right: 40px
+  }
+}
+
+.ScrollToTopFadeIn {
+  opacity: 1;
+  transition: opacity 0.5s ease;
+}
+
+.ScrollToTopFadeOut {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+  z-index: $zIndexBackground;
+}

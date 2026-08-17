@@ -1,0 +1,123 @@
+.Label {
+  composes: FormLabelANeutralD from 'typography.legacy.css';
+  cursor: pointer;
+  left: 12px;
+  margin: $margin16 0 0;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: left;
+}
+
+.LabelAbove {
+  transform: scale(0.7) translate(0, -18px);
+  transition: transform 0.3s;
+
+  &.HasError {
+    animation: LabelAboveShakingEffectAnimation 0.2s 0.4s;
+    color: $error;
+  }
+}
+
+.LabelInside {
+  transform: scale(1) translate(0, 0);
+  transition: transform 0.3s;
+}
+
+.TextareaLabel {
+  margin: $margin16 0 0;
+}
+
+.Row {
+  composes: Row from 'MultiField/styles.legacy.css';
+}
+
+.LabelsColumns {
+  width: calc(100% - 36px);
+}
+
+.ActiveCheckbox {
+  composes: ActiveCheckbox from 'MultiField/styles.legacy.css';
+}
+
+.InputDateTransparentText {
+  & > input {
+    color: $transparent;
+
+    &::-webkit-datetime-edit-text {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-month-field {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-day-field {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-year-field {
+      color: $transparent;
+    }
+
+    &::-webkit-calendar-picker-indicator {
+      color: $neutralA;
+    }
+  }
+}
+
+.InputDateWrapper {
+  & > input {
+    appearance: none;
+    display: inline-block;
+    padding: 24px 12px 6px;
+
+    &:focus,
+    &:active {
+      color: $neutralA;
+
+      &::-webkit-calendar-picker-indicator {
+        color: $neutralA;
+      }
+
+      &::-webkit-datetime-edit-text {
+        color: $neutralA;
+      }
+
+      &::-webkit-datetime-edit-month-field {
+        color: $neutralA;
+      }
+
+      &::-webkit-datetime-edit-day-field {
+        color: $neutralA;
+      }
+
+      &::-webkit-datetime-edit-year-field {
+        color: $neutralA;
+      }
+    }
+  }
+}
+
+.ErrorMessage,
+.HelperText {
+  padding-left: 12px;
+}
+
+.HelperCheckboxText {
+  padding-left: 0;
+}
+
+.CheckmarkIcon {
+  color: $white;
+  font-size: 20px;
+  font-weight: 900; 
+  margin: 2px 0 0 -22px;
+  pointer-events: none;
+  position: absolute;
+}
+
+@mixin LabelAboveShakingEffectAnimation;

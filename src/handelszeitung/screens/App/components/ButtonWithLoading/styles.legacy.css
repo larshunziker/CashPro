@@ -1,0 +1,71 @@
+.Primary {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+  
+  circle {
+    stroke: $white;
+  }
+}
+
+.Secondary {
+  composes: ButtonSecondaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $blueA;
+  }
+}
+
+.Tertiary {
+  composes: ButtonTertiaryBig from 'typography.legacy.css';
+
+  circle {
+    stroke: $blueA;
+  }
+}
+
+.Small {
+  &.Primary {
+    @mixin ButtonPrimarySmall;
+  }
+
+  &.Secondary {
+    @mixin ButtonSecondarySmall;
+  }
+
+  &.Tertiary {
+    @mixin ButtonTertiarySmall;
+  }
+}
+
+:global(.Bilanz) {
+  .Primary {
+    @mixin ButtonBilanzPrimaryBig; 
+
+    &.Small {
+      @mixin ButtonBilanzPrimarySmall; 
+    }
+  }
+
+  .Secondary {
+    @mixin ButtonBilanzSecondaryBig; 
+
+    circle {
+      stroke: $bilanzA;
+    }
+
+    &.Small {
+      @mixin ButtonBilanzSecondarySmall; 
+    }
+  }
+
+  .Tertiary {
+    @mixin ButtonBilanzTertiaryBig;
+
+    circle {
+      stroke: $bilanzA;
+    }
+
+    &.Small {
+      @mixin ButtonBilanzTertiarySmall; 
+    }
+  }
+}

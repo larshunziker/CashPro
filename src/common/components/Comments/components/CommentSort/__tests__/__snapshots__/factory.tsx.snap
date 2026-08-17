@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentSort Should render without crashing 1`] = `
+<div>
+  <div
+    class="Sort"
+    data-testid="commentsort-wrapper"
+  >
+    <span
+      class="Text"
+    >
+      Sortieren nach:
+    </span>
+    <button
+      class="Action"
+      data-testid="commentsort-button"
+    >
+      <span
+        data-testid="commentsort-order"
+      >
+        Älteste zuerst
+      </span>
+      <i>
+        Icon
+      </i>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,72 @@
+.Wrapper {
+  border: 0;
+  cursor: pointer;
+  display: flex;
+  gap: 8px;
+  padding: 12px 0;
+  width: 100%;
+}
+
+.Date {
+  @mixin DataTable;
+}
+
+.Status {
+  @mixin InfoC;
+  align-items: center;
+  border-radius: 12px;
+  display: flex;
+  font-weight: 700;
+  gap: 4px;
+  height: 24px;
+  justify-content: center;
+  margin: 0 $margin8;
+  padding: 0 10px;
+  width: 40px;
+}
+
+.Buy {
+  background-color: $decoE;
+  color: $decoG;
+}
+
+.Sell {
+  background-color: $decoD;
+  color: $decoF;
+}
+
+.Hold {
+  background-color: $greyE;
+  color: $blackB;
+}
+
+.Source {
+  @mixin DataTable;
+}
+
+.RowToggle {
+  border: 0;
+  color: $secondaryA;
+  font-size: 22px;
+  margin-left: auto;
+}
+
+.Title {
+  @mixin DataTable;
+  font-weight: 700;
+  margin-bottom: 24px;
+}
+
+.Text {
+  @mixin DataTable;
+  margin-bottom: 24px;
+}
+
+.Border {
+  @mixin ChartsForPrint;
+  border-bottom: 1px solid $greyD;
+}
+
+.Ministage {
+  margin-bottom: 24px;
+}

@@ -1,0 +1,16 @@
+.AlertListTitle {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.AlertListWrapper {
+  margin-bottom: $margin32;
+}

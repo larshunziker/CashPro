@@ -1,0 +1,38 @@
+.Wrapper {
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+  }
+
+  .ImageGalleryDetailMargin {
+    margin-bottom: $margin8;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 12px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.WrapperWithMargins {
+  margin-bottom: 30px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.ImageInnerWrapper {
+  display: inline-block;
+  position: relative;
+}

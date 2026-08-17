@@ -1,0 +1,57 @@
+.Wrapper {
+  @mixin hideforPrint;
+  background-color: $transparent;
+  border-radius: $defaultRadius;
+  column-gap: 32px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  row-gap: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    flex-direction: row-reverse;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &:not(.WrapperLarge) {
+      width: 624px;
+    }
+  }
+}
+
+.WrapperLarge {
+  @media (min-width: $mdBreakpoint) {
+    padding: $margin24 $margin24 $margin24 $margin40;
+  }
+
+  .ImageWrapper {
+    @media (min-width: $mdBreakpoint) {
+      max-width: 240px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      max-width: 300px;
+    }
+  }
+}
+
+.ContentWrapper {
+  text-align: left;
+  width: 100%;
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+
+  margin-bottom: 2.4rem;
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}

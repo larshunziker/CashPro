@@ -1,0 +1,103 @@
+.Wrapper {
+  @mixin hideforPrint;
+  background: $greenLight;
+  border-radius: $defaultRadius;
+  padding: $margin16 $margin16 $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $margin24 $margin40;
+  }
+}
+
+.Title {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.88rem;
+  margin-bottom: $margin16;
+  text-align: left;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.36rem;
+  }
+}
+
+.Badge {
+  background: $green;
+  color: $white;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.68rem;
+  margin-bottom: $margin4;
+  padding: $margin4 $margin8;
+}
+
+.BoxWrapper {
+  border-bottom: 1px solid $grey30;
+  font-family: $fontSpezia;
+  font-weight: 900;
+  padding-block: $margin16;
+}
+
+.MiniStageLink {
+  display: grid;
+  gap: $margin16;
+  grid-template-columns: auto 1fr;
+
+  &:hover .Label {
+    text-decoration: underline;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+  }
+}
+
+.Bubble {
+  background-color: $green;
+  border-radius: 50%;
+  color: $white;
+  display: grid;
+  font-size: 2rem;
+  height: 34px;
+  line-height: 2.4rem;
+  place-content: center;
+  text-align: center;
+  width: 34px;
+
+  @media (min-width: $smBreakpoint) {
+    place-self: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    height: 40px;
+    line-height: 2.88rem;
+    width: 40px;
+  }
+}
+
+.Label {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  place-self: center;
+  transition: color 0.3s;
+  width: 100%;
+  word-break: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.64rem;
+  }
+}
+
+.SearchWrapper {
+  margin-block: $margin32 0;
+}

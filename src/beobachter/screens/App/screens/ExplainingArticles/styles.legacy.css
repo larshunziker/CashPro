@@ -1,0 +1,12 @@
+.Wrapper {
+  position: relative;
+}
+
+.ArticleBody {
+  background-color: $white;
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+  margin-bottom: $margin64;
+}

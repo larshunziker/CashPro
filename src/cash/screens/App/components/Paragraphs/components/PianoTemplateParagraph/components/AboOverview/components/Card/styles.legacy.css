@@ -1,0 +1,89 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  display:flex;
+  flex-direction: column;
+  padding: 16px;
+  position: relative;
+
+  button {
+    width: 100%;
+  }
+}
+
+.TitleRow {
+  cursor: pointer;
+  display: flex;
+  height: 23px;
+  justify-content: space-between;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  overflow: hidden;
+  transition: max-height 1s;
+}
+
+.ContentOpen {
+  max-height: 1000px;
+}
+
+.ContentClosed {
+  max-height: 0;
+}
+
+.Link {
+  composes: InfoC from 'typography.legacy.css';
+  color: $secondaryA;
+  font-weight: 700;
+  text-align: center;
+}
+
+.Title {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: 700;
+}
+
+.Text {
+  composes: InfoC from 'typography.legacy.css';
+  margin-top: 16px;
+}
+
+.ProfiTitle {
+  composes: InfoA from 'typography.legacy.css';
+  font-weight: 700;
+  margin-bottom: 8px;
+}
+
+.ProfiText {
+  composes: InfoC from 'typography.legacy.css';
+  margin-bottom: 24px;
+  margin-top: 24px;
+  text-align: center;
+}
+
+.Price {
+  composes: InfoC from 'typography.legacy.css';
+  font-weight: 700;
+}
+
+.Button {
+  width: 100%;
+}
+
+.Advantage {
+  composes: InfoC from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  gap: 4px;
+}
+
+.BadgeWrapper {
+  > div {
+    background: $white;
+    left: calc(50% - 78px / 2); /* 78px = badge width */
+    position: absolute;
+    top: -15px;
+  }
+}

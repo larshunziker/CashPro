@@ -1,0 +1,61 @@
+.Image {
+  display: block;
+  max-width: 100%;
+  position: relative;
+  text-align: left;
+  width: auto;
+
+  @media (min-width: $xlBreakpoint) {
+    /* >= 1600 */
+    margin: auto;
+  }
+}
+
+.Landscape {
+  height: auto;
+  width: 100%;
+}
+
+.ImageBox {
+  background-position: 50% 70%;
+  background-size: cover;
+  position: relative;
+}
+
+.Wrapper {
+  height: 100%;
+  overflow: hidden;
+  position: relative;
+
+  @supports (object-fit: cover) {
+    overflow: auto;
+  }
+
+  /* stylelint-disable */
+  @media print {
+    height: 400px !important; /* we add the height via js, it's impossible to remove it without !important */
+  }
+
+  /* stylelint-ensable */
+}
+
+.Cover {
+  height: auto;
+  left: 50%;
+  max-width: none;
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  @supports (object-fit: cover) {
+    bottom: 0;
+    height: 100%;
+    left: 0;
+    object-fit: cover;
+    overflow: hidden;
+    top: 0;
+    transform: none;
+    width: 100%;
+  }
+}

@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserStageParagraph Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="paragraph teaser-stage-paragraph ContainerClassName"
+    >
+      <div>
+        <div
+          class="SectionTitleClassName"
+        >
+          <a
+            class="TitleLinkClassName"
+            data-testid="mocked-link"
+            href="/dossier/royals"
+          >
+            Royals
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="teaser-stage-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserStageParagraph Should render fallback sponsor prefix 1`] = `
+<div>
+  <div>
+    <div
+      class="paragraph teaser-stage-paragraph ContainerClassName"
+    >
+      <div>
+        <div
+          class="SectionTitleClassName"
+        >
+          <a
+            class="TitleLinkClassName"
+            data-testid="mocked-link"
+            href="/dossier/royals"
+          >
+            Royals
+          </a>
+        </div>
+        <div>
+          <p>
+            presented by
+          </p>
+          <a
+            data-testid="mocked-link"
+            href="https://www.tesla.com"
+          >
+            <div
+              class="LineHeightReset PictureWrapper"
+            >
+              <picture>
+                <img
+                  alt="Tesla Logo"
+                  class="IsSameAspectRatio"
+                  height="180"
+                  loading="lazy"
+                  srcset="/sh/180/sites/default/files/tesla_logo_0.jpg"
+                  title="Tesla"
+                />
+              </picture>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="teaser-stage-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserStageParagraph Should render no render sponsor when hasSponsoring is deactivated 1`] = `
+<div>
+  <div>
+    <div
+      class="paragraph teaser-stage-paragraph ContainerClassName"
+    >
+      <div>
+        <div
+          class="SectionTitleClassName"
+        >
+          <a
+            class="TitleLinkClassName"
+            data-testid="mocked-link"
+            href="/dossier/royals"
+          >
+            Royals
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="teaser-stage-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserStageParagraph Should render nothing 1`] = `<div />`;
+
+exports[`[Component] TeaserStageParagraph Should render nothing when there are no entities in the teaserStage 1`] = `<div />`;
+
+exports[`[Component] TeaserStageParagraph Should render with sponsor correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="paragraph teaser-stage-paragraph ContainerClassName"
+    >
+      <div>
+        <div
+          class="SectionTitleClassName"
+        >
+          <a
+            class="TitleLinkClassName"
+            data-testid="mocked-link"
+            href="/dossier/royals"
+          >
+            Royals
+          </a>
+        </div>
+        <div>
+          <p>
+            Sponsored by
+          </p>
+          <a
+            data-testid="mocked-link"
+            href="https://www.tesla.com"
+          >
+            <div
+              class="LineHeightReset PictureWrapper"
+            >
+              <picture>
+                <img
+                  alt="Tesla Logo"
+                  class="IsSameAspectRatio"
+                  height="180"
+                  loading="lazy"
+                  srcset="/sh/180/sites/default/files/tesla_logo_0.jpg"
+                  title="Tesla"
+                />
+              </picture>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <div
+      data-testid="teaser-stage-paragraph-factory-teasergrid"
+    />
+  </div>
+</div>
+`;

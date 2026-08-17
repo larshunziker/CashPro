@@ -1,0 +1,141 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.NoWrap {
+  white-space: nowrap;
+}
+
+.Bold {
+  composes: InfoCBoldNeutralA from 'typography.legacy.css';
+}
+
+.Link {
+  composes: InfoCLinkNeutralA from 'typography.legacy.css';
+  cursor: pointer;
+}
+
+.ToggleBlock {
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+  }
+}
+
+.HeroWrapper {
+  height: 100%;
+}
+
+.GoldenBorderWrapper {
+  position: relative;
+}
+
+.GoldenBorder {
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 1920px;
+
+  &::after {
+    background: $gradientPrimaryA;
+    content: '';
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.NewLabel {
+  color: $error;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 1.1rem;
+  margin-bottom: $margin8;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+  }
+}
+
+.RestaurantLabel {
+  composes: ShortTitleABoldGradientPrimaryA from 'typography.legacy.css';
+  display: block;
+  margin-bottom: $margin4;
+  text-align: center;
+}
+
+.RestaurantNameWrapper {
+  margin-bottom: $margin16;
+}
+
+.RestaurantName {
+  composes: HeadingBNeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.RestaurantAddress {
+  composes: LeadANeutralA from 'typography.legacy.css';
+  text-align: center;
+}
+
+.ParagraphLeftTabLast {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+}
+
+.ParagraphLeftTab {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  margin-bottom: $margin24;
+}
+
+.ChiefCookPictureWrapper {
+  height: 128px;
+  margin-bottom: $margin24;
+  margin-top: $margin24;
+  overflow: hidden;
+  width: 128px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+}
+
+.ChiefCookPicture {
+  height: 100%;
+  width: 0 auto;
+}
+
+.OrganizationText {
+  composes: ParagraphNeutralA from 'typography.legacy.css';
+  display: inline-block;
+
+  & > p:not(:last-child) {
+    margin-bottom: $margin24;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from 'Article/styles.legacy.css';
+}
+
+.TabSection {
+  padding-bottom: 64px;
+}

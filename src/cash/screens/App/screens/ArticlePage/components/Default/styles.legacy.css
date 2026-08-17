@@ -1,0 +1,97 @@
+.Wrapper {
+  margin-bottom: $margin32;
+  margin-top: 0;
+}
+
+.PageWrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+}
+
+.ArticleInner {
+  padding-bottom: 30px;
+}
+
+.BodyWrapper {
+  position: relative;
+}
+
+$paywallHeightXs: 822px;
+$paywallHeightSm: 558px;
+
+.Paywall {
+  background-color: $white;
+  bottom: 0;
+  opacity: 1;
+  position: relative;
+  transition: opacity 0.3s;
+  width: 100%;
+
+  &::before {
+    background: linear-gradient(180deg, rgb(255 255 255 / 0%) 0.02%, $white 100%);
+    content: '';
+    display: inline-block;
+    height: 200px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    top: -200px;
+  }
+
+  :global(#piano-inlined) {
+    position: relative;
+    z-index: 1;
+  }
+}
+
+.HiddenPaywall {
+  opacity: 0;
+  padding-bottom: 0;
+}
+
+/* show hint that the image might not have been downloaded */
+:global(.article-detail .image-paragraph .print-info) {
+  @media print {
+    display: flex;
+    width: 25%;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}
+
+:global(.PaywallSkeleton) {
+  animation: pulsing 1.5s infinite;
+  background-color: $greyE;
+  border-top: 4px solid $secondaryA;
+  left: calc($gridGutterWidthXs / 2);
+  min-height: $paywallHeightXs;
+  position: absolute;
+  right: calc($gridGutterWidthXs / 2);
+  top: 0;
+  z-index: 0;
+
+  @media (min-width: $smBreakpoint) {
+    left: calc($gridGutterWidthMd / 2);
+    min-height: $paywallHeightSm;
+    right: calc($gridGutterWidthMd / 2);
+  }
+}
+
+@media print {
+  .Print {
+    flex: 1 1 60%;
+    margin-right: 10px;
+  }
+
+  :global(.article-alerts) {
+    display: none;
+  }
+}
+
+.MMR1Wrapper {
+  margin-bottom: $margin16;
+}

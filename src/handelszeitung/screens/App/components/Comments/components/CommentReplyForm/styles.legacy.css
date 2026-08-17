@@ -1,0 +1,20 @@
+.Form {
+  margin: 15px 0 60px;
+}
+
+.FormWrapper,
+.FormWrapperVisible {
+  height: auto;
+  overflow: hidden;
+  transition: max-height 300ms linear, opacity 300ms linear;
+}
+
+.FormWrapper {
+  max-height: 0;
+  opacity: 0;
+}
+
+.FormWrapperVisible {
+  max-height: 999px;
+  opacity: 1;
+}

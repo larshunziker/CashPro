@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[ssrPreload] Should grep css tags from view 1`] = `
+[
+  "<link rel="preload" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tabledrag.module.css" as="style">",
+  "<link rel="preload" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tablesort.module.css" as="style">",
+  "<link rel="preload" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tree-child.module.css" as="style">",
+  "<link rel="preload" href="https://rasch-fi-staging.cash.ch/core/modules/views/css/views.module.css" as="style">",
+  "<link rel="preload" href="https://rasch-fi-staging.cash.ch/core/modules/layout_discovery/layouts/onecol/onecol.css" as="style">",
+]
+`;
+
+exports[`[ssrPreload] Should grep js tags from view 1`] = `
+{
+  "externalJsSources": [
+    "https://cdn.jquery.ch/prod/jquery.min.js",
+    "https://rasch-fi-staging.cash.ch/core/assets/vendor/jquery/jquery.min.js",
+    "https://rasch-fi-staging.cash.ch/core/assets/vendor/jquery-once/jquery.once.min.js",
+    "https://rasch-fi-staging.cash.ch/core/misc/drupalSettingsLoader.js",
+    "https://rasch-fi-staging.cash.ch/core/misc/drupal.js",
+    "https://rasch-fi-staging.cash.ch/core/misc/drupal.init.js",
+    "https://rasch-fi-staging.cash.ch/core/misc/tableresponsive.js",
+  ],
+  "inlineJs": [
+    "alert("hi")",
+    "
+// inline script
+Math.random();
+",
+    "alert("hi")",
+  ],
+  "internalJsSources": [
+    "/static/js/main.js",
+    "/static/js/main.min.js",
+    "/static/js/vendors.js",
+    "/static/js/runtime.js",
+    "/static/js/runtime.min.js",
+  ],
+}
+`;
+
+exports[`[ssrPreload] Should script tags from view 1`] = `
+"
+<link rel="stylesheet" media="all" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tabledrag.module.css" />
+<link rel="stylesheet" media="all" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tablesort.module.css" />
+<link rel="stylesheet" media="all" href="https://rasch-fi-staging.cash.ch/core/modules/system/css/components/tree-child.module.css" />
+<link rel="stylesheet" media="all" href="https://rasch-fi-staging.cash.ch/core/modules/views/css/views.module.css" />
+
+
+
+<h1>title of the page</h1>
+
+
+
+
+<div>hello</div>
+
+
+
+<div>
+<p>lorem</p>
+
+<link rel="stylesheet" media="all" href="https://rasch-fi-staging.cash.ch/core/modules/layout_discovery/layouts/onecol/onecol.css" />
+</div>
+
+
+
+
+
+
+"
+`;

@@ -1,0 +1,55 @@
+{
+  "globalSearch": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTMyOA==",
+          "title": "Rustys Author Box test",
+          "preferredUri": "/people/rustys-author-box-test",
+          "hasVideo": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "title": "Test Gallerie",
+          "id": "bm9kZToxOTMyMQ==",
+          "preferredUri": "/people/galleries/rustys-test-gallerie",
+          "__typename": "ImageGallery"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "title": "Roger Federer rockt im Kilt gegen Andy Murray",
+          "id": "bm9kZToxOTI5MA==",
+          "preferredUri": "/family/galleries/bikini-roger-federer-rockt-im-kilt-gegen-andy-murray",
+          "__typename": "ImageGallery"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5Mg==",
+          "title": "Strong Tag in Paragraph Test",
+          "preferredUri": "/style/strong-tag-paragraph-test",
+          "hasVideo": true,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4OA==",
+          "title": "Test article with inline gallery - titile",
+          "preferredUri": "/people/test-article-inline-gallery-titile",
+          "hasVideo": false,
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  }
+}

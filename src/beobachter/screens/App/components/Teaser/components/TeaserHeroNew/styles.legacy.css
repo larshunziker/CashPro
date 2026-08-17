@@ -1,0 +1,280 @@
+.Wrapper {
+  display: block;
+  margin: 0 -19px;
+  position: relative;
+  width: calc(100% + 38px);
+  
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+
+  @media (min-width: $smBreakpoint), print {
+    margin: 0;
+    width: auto;
+
+    &.Portrait {
+      display: flex;
+      flex-direction: row-reverse;
+      gap: 16px;
+      padding-bottom: 32px;
+    }
+  }
+}
+
+.ContentWrapper {
+  background-color: $white;
+  border-radius: 8px 8px 0 0;
+  margin: -$margin32 $margin8 0;
+  padding: 12px 12px 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint), print {
+    &::after {
+      content: none;
+    }
+    border-top-left-radius: 0;
+    margin: -84px 0 $margin32;
+    max-width: 630px;
+    padding-left: 0;
+
+    &.Portrait {
+      align-items: center;
+      display: flex;
+      flex: 1;
+      flex-direction: column;
+      justify-content: center;
+      margin-top: 0;
+      padding: 0;
+      text-align: center;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 882px;
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    max-width: 1134px;
+    padding-right: 16px;
+    padding-top: 16px;
+  }
+}
+
+.Title {
+  composes: TeaserHeroTitle from 'typography.legacy.css';
+
+  margin-bottom: $margin12;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  &.Advertising {
+    font-family: $fontSpezia;
+  }
+}
+
+.Lead {
+  composes: TeaserHeroLead from 'typography.legacy.css';
+
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  &.Opinion {
+    display: none;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.ShortTitleElement {
+  composes: TeaserShortTitleElement from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    &.Portrait {
+      flex-direction: column;
+    }
+  }
+}
+
+.ShortTitleWrapper {
+  flex-grow: 1;
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  &.Red {
+    background-color: $red;
+  }
+
+  &.Green {
+    background-color: $green;
+  }
+
+  &.Blue {
+    background-color: $blue;
+  }
+
+  &.Black {
+    background-color: $black;
+  }
+
+  &.Advertising {
+    background-color: $purple;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 2px 6px;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.6rem;
+      line-height: 1.92rem;
+      padding: 2px 8px;
+    }
+  }
+}
+
+.SponsorLogo {
+  max-height: 34px;
+  width: auto;
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+}
+
+.Icon {
+  bottom: 48px;
+  left: 16px;
+  position: absolute;
+  z-index: 2;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 100px;
+
+    &.Portrait {
+      bottom: 16px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 108px;
+    left: 24px;
+
+    &.Portrait {
+      bottom: 24px;
+      left: 24px;
+    }
+  }
+
+  &.PlayButton {
+    bottom: calc(50% - 26px);
+    left: 50%;
+    translate: -50%;
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: calc(50% - 40px);
+    }
+  }
+}
+
+.PlayIcon {
+  filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+  height: 52px;
+  max-height: 52px;
+  max-width: 52px;
+  width: 52px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 80px;
+    max-height: 80px;
+    max-width: 80px;
+    width: 80px;
+  }
+}
+
+.BeoPlusLogo {
+  composes: TeaserBeoPlusLogo from 'typography.legacy.css';
+  margin: 2px 6px 0 0;
+}
+
+.ImageWrapper {
+  line-height: 0;
+  position: relative;
+
+  &.Gradient {
+    &::after {
+      background: linear-gradient(45deg, rgb(0 0 0 / 90%) 16px, rgb(0 0 0 / 0%) 128px);
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      &::after {
+        background: linear-gradient(45deg, rgb(0 0 0 / 90%) 32px, rgb(0 0 0 / 0%) 204px);
+      }
+    }
+  }
+
+  &.Portrait {
+    flex: 1;
+  }
+}
+
+.Image {
+  height: 100%;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    height: auto;
+  }
+}
+
+.BottomLineWrapper {
+  &:not(:empty) {
+    margin-bottom: $margin24;
+  }
+}
+
+.BottomLine {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+}
+
+.AuthorPicture {
+  border-radius: 50%;
+  height: 64px;
+  width: 64px;
+}
+
+.AuthorOpinionWrapper {
+  align-items: center;
+  display: flex;
+  gap: 16px;
+}
+
+.AuthorName {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+  text-align: left;
+}
+
+.AuthorHeadline {
+  composes: TeaserHeroAuthorHeadline from 'typography.legacy.css';
+}
+
+.BottomBrandReport {
+  display: none;
+}

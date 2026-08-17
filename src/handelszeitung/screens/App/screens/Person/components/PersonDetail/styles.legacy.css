@@ -1,0 +1,110 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.HeaderWrapper {
+  background-color: $blackB;
+  margin-bottom: 32px;
+}
+
+.PersonTitle {
+  composes: PersonH2 from 'typography.legacy.css';
+  margin: $margin24 0 $margin16;
+}
+
+.Image {
+  display: inline-block;
+}
+
+.Title {
+  composes: PersonH2 from 'typography.legacy.css';
+  color: $white;
+  padding-bottom: 24px;
+  padding-top: 8px;
+  text-align: center;
+}
+
+.BackWrapper {
+  margin-bottom: 16px;
+}
+
+.BackLink {
+  @mixin ButtonSmall;
+  color: $white;
+  padding-left: 0;
+  text-align: left;
+}
+
+.RankingValue {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin24;
+}
+
+.List {
+  column-gap: $margin24;
+  display: flex;
+  margin-bottom: $margin12;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.ListTitle {
+  composes: RankB from 'typography.legacy.css';
+}
+
+.ListItem {
+  composes: InfoF from 'typography.legacy.css';
+
+  svg {
+    transform: translate(2px, -3px);
+  }
+}
+
+.RankingIcon {
+  display: inline-block;
+  font-size: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+  }
+
+  &.Positive, &.Negative {
+    font-size: 36px;
+    transform: translateY(6px);
+  }
+}
+
+.Positive {
+  color: $positiveA;
+}
+
+.Negative {
+  color: $errorA;
+}
+
+.StateWrapper {
+  margin-bottom: $margin40;
+}
+
+.Chart {
+  background-color: $greyD;
+  border-radius: 8px;
+  padding: 12px 0;
+
+  && { /* hack to override default styles of the NetWorthChart */
+    height: 225px;
+    max-width: 424px;
+    width: 100%;
+  }
+}
+
+.TextWrapper {
+  margin-bottom: $margin40;
+}

@@ -1,0 +1,96 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  min-height: 200px;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+    min-height: 500px;
+  }
+}
+
+.HeaderBackground {
+  background: $greyE;
+  height: 600px;
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: 0;
+
+  @media (min-width: $smBreakpoint) {
+    height: 606px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 550px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 660px;
+  }
+}
+
+.InnerWrapper {
+  composes: Container from '@grid.legacy.css';
+  position: relative;
+  z-index: calc($zIndexLow + 1);
+}
+
+.BrandReportWrapper {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.BrandReportLogoWrapper {
+  height: 22px;
+  line-height: 0;
+  margin-top: 9px;
+  text-align: right;
+  width: 108px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 32px;
+    margin-top: 11px;
+    width: 153px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+  }
+}
+
+.TeaserImageWrapper {
+  margin-bottom: 7px;
+  margin-top: 13px;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 19px;
+    margin-top: 38px;
+    text-align: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 21px;
+    margin-top: 47px;
+  }
+}
+
+.Description {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    text-align: center;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 50px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 60px;
+  }
+}

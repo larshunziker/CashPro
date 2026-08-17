@@ -1,0 +1,56 @@
+.OuterWrapper {
+  height: 100%;
+  position: relative;
+}
+
+.Wrapper {
+  border-bottom: 1px solid $greyA;
+  display: block;
+  letter-spacing: 0;
+  padding-bottom: 19px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    min-height: 91px;
+    padding-bottom: 27px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 77px;
+  }
+}
+
+.ContentWrapper {
+  display: block;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.TeaserTitle {
+  composes: H4 from 'typography.legacy.css';
+  margin-bottom: 3px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 7px;
+  }
+}
+
+.BottomLine,
+.SponsoredContent {
+  composes: Metadata from 'typography.legacy.css';
+  bottom: 0;
+  left: 0;
+  position: absolute;
+}
+
+.BottomLine {
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

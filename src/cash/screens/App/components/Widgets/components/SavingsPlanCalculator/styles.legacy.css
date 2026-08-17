@@ -1,0 +1,90 @@
+.Wrapper {
+  container-type: inline-size;
+}
+
+.Description {
+  composes: Lead1 from 'typography.legacy.css';
+}
+
+.Content {
+  background: $white;
+  container-type: inline-size;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
+  padding: 0 0 35px;
+
+  &:first-child {
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+
+  @container (max-width: $smBreakpoint) {
+    flex-direction: column;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    gap: 78px;
+  }
+}
+
+.ProductSelectionWrapper {
+  background: $decoA;
+  border-radius: 4px 4px 0 0;
+  display: flex;
+  flex-direction: column;
+  margin: 0 -$margin16 $margin24 -$margin16;
+  padding: $margin16;
+
+  > span {
+    margin-bottom: $margin16;
+    margin-top: -12px;
+  }
+}
+
+.FormWrapper {
+  background: $greyE;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 $margin16 $margin8 $margin16;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 340px;
+    min-width: 340px;
+  }
+  
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+    min-width: 408px;
+  }
+
+  @container (max-width: $smBreakpoint) {
+    max-width: 100%;
+  }
+
+  > span {
+    margin-bottom: $margin16;
+    margin-top: -12px;
+  }
+}
+
+.ChartWithResultsWrapper {
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  padding: 0 $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 0;
+    padding-right: 29px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-right: 58px;
+  }
+}

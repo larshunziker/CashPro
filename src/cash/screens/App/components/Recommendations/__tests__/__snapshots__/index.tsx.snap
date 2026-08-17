@@ -1,0 +1,362 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] Recommendations Should render recommendations block with 6 recos 1`] = `
+<div>
+  <div
+    class="content-recommendations Wrapper HideForPrint"
+    data-nosnippet="true"
+    data-testid="article-recommendations-container"
+  >
+    <div
+      data-testid="empty-link"
+    >
+      <div
+        class="Title"
+        data-testid="article-recommendations-header"
+      >
+        my custom title
+      </div>
+    </div>
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-0"}]"
+              href="/style/darum-sind-mules-die-trendschuhe-fur-den-sommer"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="Schöni Schüeli"
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/mules.jpg"
+                      title="Darum sind Mules die Trendschuhe für den Sommer"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    Darum sind Mules die Trendschuhe für den Sommer
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-1"}]"
+              href="/people/heidi-klum-zeigt-ganz-new-york-was-sie-zu-bieten-hat"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="Heidi Klum nackt"
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/heidi-klum.jpg"
+                      title="Heidi Klum zeigt ganz New York, was sie zu bieten hat"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    Heidi Klum zeigt ganz New York, was sie zu bieten hat
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-2"}]"
+              href="/people/lifestyle/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="Die Frau Bruni"
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/media/field_image/2018-06/carla_bruni_french_touch_2017_credit_universal_music_3.jpg"
+                      title="«Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    «Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-3"}]"
+              href="/people/pietro-lombardi-hat-eine-zurcher-senorita"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="Während dem Dreh sind sich das Model und der Sänger sehr nahe gekommen."
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/whatsapp_image_2018-05-08_at_18.32.30.jpeg"
+                      title="Pietro Lombardi hat eine Zürcher Señorita"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    Pietro Lombardi hat eine Zürcher Señorita
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-4"}]"
+              href="/people/blut-bashing-ein-betrunkener-und-die-bachelorette"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="See mit Bergen"
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/DSC_1555.jpg"
+                      title="Blut, Bashing, ein Betrunkener und die Bachelorette"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    Blut, Bashing, ein Betrunkener und die Bachelorette
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ColXs24 ColSm12 ColMd8 RecommendationItem"
+        data-testid="article-recommendations-item"
+      >
+        <div
+          class="OuterWrapper"
+        >
+          <div
+            data-testid="teaser-factory-link-wrapper"
+          >
+            <a
+              class="teaser-recommendations Wrapper recommendation-teaser"
+              data-testid="routed-link"
+              data-track-info="[{"type":"block-position","value":"bottom-5"}]"
+              href="/family/my-title"
+            >
+              <div
+                class="ImageWrapper"
+                data-testid="teaser-factory-image-wrapper"
+              >
+                <div
+                  class="LineHeightReset PictureWrapper"
+                >
+                  <picture>
+                    <img
+                      alt="Air Berlin Flugzeug Luft"
+                      class="Image teaser-image IsSameAspectRatio"
+                      height="236"
+                      loading="lazy"
+                      srcset="/fp/420/236/1000/1000/sites/default/files/air-berlin_1.jpeg"
+                      title="My Title"
+                      width="420"
+                    />
+                  </picture>
+                </div>
+              </div>
+              <div
+                class="ContentWrapper"
+              >
+                <div
+                  class="ShortTitle"
+                />
+                <div
+                  class="Title"
+                >
+                  <span
+                    class="TitleInner"
+                  >
+                    My Title
+                  </span>
+                </div>
+              </div>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

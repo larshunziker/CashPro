@@ -1,0 +1,39 @@
+.Wrapper {
+  composes: Wrapper from 'OverviewPageHeader/components/Default/styles.legacy.css';
+  margin-top: 0;
+}
+
+.NoLead {
+  composes: NoLead from 'OverviewPageHeader/components/Default/styles.legacy.css';
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: 10px;
+  margin-left: 3px;
+  z-index: $zIndexLow;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 23px;
+    margin-left: 9px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 12px;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  margin-left: 3px;
+  z-index: $zIndexLow;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 9px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 12px;
+  }
+}

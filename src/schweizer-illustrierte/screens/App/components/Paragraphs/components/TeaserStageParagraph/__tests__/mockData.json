@@ -1,0 +1,152 @@
+{
+  "teaserStage": {
+    "anchorId": null,
+    "id": "179528",
+    "termReference": {
+      "id": "dGF4b25vbXlfdGVybToyNTgy",
+      "landingPage": {
+        "id": "bm9kZToxOTI1NA==",
+        "preferredUri": "/body-health",
+        "title": "Body&Health",
+        "shortTitle": null,
+        "teaserImage": {
+          "id": "schweizer_illustrierte_fallback",
+          "caption": null,
+          "image": {
+            "file": {
+              "alt": "Schweizer Illustrierte Fallback",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "__typename": "LandingPage"
+      },
+      "title": "Sports",
+      "preferredUri": "/sports",
+      "channelType": null,
+      "logoChoice": null,
+      "sponsor": null,
+      "partners": {
+        "edges": [],
+        "__typename": "SponsorConnection"
+      },
+      "special": null,
+      "entities": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZToyMTI4Mg==",
+              "title": "Live Blog",
+              "shortTitle": "Test",
+              "preferredUri": "/sports/live-blog",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToyNTgy",
+                "title": "Sports",
+                "__typename": "Channel"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxOTI4Mw==",
+              "title": "Kaffee ist ungesund",
+              "shortTitle": "Article with Square Hero Image",
+              "preferredUri": "/sports/kaffee-ist-ungesund",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToyNTgy",
+                "title": "Sports",
+                "__typename": "Channel"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          },
+          {
+            "node": {
+              "id": "bm9kZToxOTM1NA==",
+              "title": "another hero gallery",
+              "shortTitle": "another hero gallery",
+              "preferredUri": "/sports/another-hero-gallery",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToyNTgy",
+                "title": "Sports",
+                "__typename": "Channel"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "SearchableUnionEdge"
+          }
+        ],
+        "__typename": "SearchableUnionConnection"
+      },
+      "__typename": "Channel"
+    },
+    "title": "Das neuste vom Sport",
+    "imageFormat": "portrait",
+    "image": null,
+    "entities": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToyMjkzNA==",
+            "title": "Christa Rigozzi gewährt Einblick in ihre Luxus-Garderobe",
+            "preferredUri": "https://www.beobachter.ch/video-serie-1/videos/cooles-video-christa-rigozzi-gewahrt-einblick-ihre-luxus-garderobe",
+            "publication": "beobachter",
+            "shortTitle": "cooles video",
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "new-bSaBgYFC",
+              "image": {
+                "file": {
+                  "alt": "Ein Erwachsener wird geimpft.",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/impfungen_bei_erwachsenen.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Video"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToyMjkzNA==fdsafdsf",
+            "title": "Christa Rigozzi gewährt Einblick in ihre Luxus-Garderobe",
+            "preferredUri": "https://www.beobachter.ch/video-serie-1/videos/cooles-video-christa-rigozzi-gewahrt-einblick-ihre-luxus-garderobe",
+            "publication": "beobachter",
+            "shortTitle": "cooles video",
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "new-bSaBgYFC",
+              "image": {
+                "file": {
+                  "alt": "Ein Erwachsener wird geimpft.",
+                  "relativeOriginPath": "/impfungen_bei_erwachsenen.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Video"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "TeaserStageParagraph"
+  },
+  "paragraphIndex": 5
+}

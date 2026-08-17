@@ -1,0 +1,8 @@
+.ChartsWrapper div {
+  height: 291px;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 308px;
+  }
+}

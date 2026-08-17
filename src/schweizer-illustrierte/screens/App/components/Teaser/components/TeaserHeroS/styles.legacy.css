@@ -1,0 +1,179 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin: 0;
+    width: 100%;
+  }
+
+  &:hover {
+    .Title span {
+      border-bottom-color: $redA;
+    }
+  }
+}
+
+
+
+.ImageWrapper {
+  float: left;
+  height: auto;
+  margin-right: 9px;
+  max-width: 115px;
+  position: relative;
+  width: 100%; /* this width is used to reserve the correct image space - (CLS topic) */
+
+  @media (min-width: $smBreakpoint) {
+    flex: 50%;
+    max-width: 88px;
+    order: 2;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 12px;
+    max-width: 138px;
+  }
+}
+
+.ContentWrapper {
+  float: left;
+  min-width: 0;
+  position: relative;
+  width: calc(100% - 124px);
+
+  .ShortTitle {
+    display: block;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex: 50%;
+    float: none;
+    order: 3;
+    width: auto;
+
+    /*
+      in this breakpoint the short title is shown as children in other order,
+      this is why its here display none!
+     */
+    .ShortTitle {
+      display: none;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .ShortTitle {
+      display: block;
+    }
+  }
+}
+
+.Title {
+  composes: Heading3B from 'typography.legacy.css';
+
+  span {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  display: none;
+  margin-bottom: 2px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    height: 12px;
+    margin-bottom: $margin4;
+    order: 1;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    display: none;
+    height: auto;
+    margin-bottom: 2px;
+  }
+
+  &Inner {
+    flex-basis: 100%;
+    min-width: 0;
+  }
+}
+
+.Badge {
+  position: absolute;
+  right: 0;
+  top: -7px;
+  white-space: nowrap;
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $xlBreakpoint) {
+    top: -5px;
+  }
+}
+
+.BadgePositionBottom {
+  bottom: -7px;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -8px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -10px;
+  }
+}
+
+.ArrowPositionBottom {
+  bottom: -6px;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -6px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -10px;
+  }
+}
+
+.ArrowButtonAddClass {
+  @media (min-width: $xlBreakpoint) {
+    /* has to be in px because its used inside the ArrowButton component */
+    font-size: 14px;
+  }
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+  bottom: 0;
+
+  &::before {
+    bottom: 5px;
+    left: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 10px;
+      left: 10px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 15px;
+      left: 15px;
+    }
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

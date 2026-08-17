@@ -1,0 +1,31 @@
+{
+  "linkBox": {
+    "anchorId": null,
+    "title": "DefaultLinkBox",
+    "links": {
+      "edges": [
+        {
+          "node": {
+            "label": "test link 1",
+            "path": "/node/1",
+            "routed": true,
+            "__typename": "Link"
+          },
+          "__typename": "LinkEdge"
+        },
+        {
+          "node": {
+            "label": "test link 2",
+            "path": "/node/2",
+            "routed": true,
+            "__typename": "Link"
+          },
+          "__typename": "LinkEdge"
+        }
+      ],
+      "__typename": "LinkConnection"
+    },
+    "__typename": "LinkBoxParagraph"
+  },
+  "component": "default"
+}

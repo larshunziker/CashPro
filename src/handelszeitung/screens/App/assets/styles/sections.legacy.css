@@ -1,0 +1,95 @@
+.Section {
+  width: 100%;
+}
+
+.SectionWhite {
+  composes: Section;
+  background-color: $white;
+}
+
+.SectionDark {
+  composes: Section;
+  background-color: $blackB;
+}
+
+.SectionGrayDarkWarm {
+  composes: Section;
+  background-color: $greyE;
+}
+
+.SectionGrayLightest {
+  composes: Section;
+  background-color: $greyE;
+}
+
+.SectionDotted {
+  composes: Section;
+  background: rgb(0 0 0 / 0%) url('../graphics/guider_bg.png') repeat top
+    center;
+}
+
+.SectionDefaultMargin {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media print {
+    margin-bottom: $margin8;
+  }
+}
+
+.PublicationSection {
+  composes: Section;
+  background: $blackA;
+
+  @media print {
+    background: $white;
+  }
+}
+
+.Container {
+  composes: Container from '@grid.legacy.css';
+}
+
+.ContainerDark {
+  composes: Container;
+  background-color: $blackA;
+}
+
+.ContainerGrayDark {
+  composes: Container;
+  background-color: $blackB;
+}
+
+.ContainerGrayDarkWarm {
+  composes: Container;
+  background-color: $greyE;
+}
+
+.SectionPullOut {
+  composes: SectionPullOut from '@sections.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 -18px;
+    width: calc(100% + 36px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 0 -15px;
+    width: calc(100% + 30px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 -24px;
+    width: calc(100% + 48px);
+  }
+}
+
+.ContainerDotted {
+  composes: Container;
+  background: rgb(0 0 0 / 0%)
+    url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAgAAAAICAYAAADED76LAAAAE0lEQVQYlWNgIBIYQzH5CgY1AACj/gDN4l7MDwAAAABJRU5ErkJggg==')
+    repeat scroll 0 0;
+}

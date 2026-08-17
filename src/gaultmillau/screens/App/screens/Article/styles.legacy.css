@@ -1,0 +1,119 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.HeroImageBorderBlog {
+  background: $gradientZueri;
+  height: 10px;
+  margin-bottom: 25px;
+  position: relative;
+  top: -1px; /* Pulling up because on viewport 458px there is a 1px gap between border and hero slider */
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 40px;
+  }
+
+  &.Purple {
+    background: $gradientCaminada;
+  }
+
+  &.Pink {
+    background: $pink;
+  }
+
+  &.Transparent {
+    background: transparent;
+  }
+}
+
+.AuthorAvatar {
+  background: $gradientZueri;
+  display: block;
+  height: 60px;
+  left: calc(50% - 30px);
+  position: absolute;
+  top: -25px; /* 25 = 60 - 10 (border height) /  2 */
+  width: 60px;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    height: 90px;
+    left: calc(50% - 45px);
+    top: -40px; /* 40 = 90 - 10 (border height) /  2 */
+    width: 90px;
+  }
+
+  &.Purple {
+    background: $gradientCaminada;
+  }
+}
+
+.BorderSeparator {
+  border-bottom: 10px solid $neutralA;
+  margin-bottom: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.Divider {
+  composes: Divider from 'gmHelpers.legacy.css';
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-top: 35px;
+  }
+}
+
+.DividerLargeMarginBottom {
+  composes: Divider;
+  margin: 0 0 24px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin: 0 0 32px;
+  }
+}
+
+/* show hint that the image might not have been downloaded */
+:global(.article-body .image-paragraph .print-info) {
+  @media print { 
+    display: flex;
+    width: 25%;
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-radius: 20px;
+  bottom: 24px;
+  box-shadow: $shadowC;
+  padding: 12px 16px;
+  position: fixed;
+  right: 24px;
+  z-index: $zIndexHighest;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-radius: 0;
+    border-top: 0;
+    bottom: initial;
+    box-shadow: none;
+    display: flex;
+    height: auto;
+    justify-content: center;
+    margin-bottom: $margin24;
+    padding-top: 16px;
+    position: relative;
+    right: initial;
+    z-index: $zIndexMedium;
+  }
+}

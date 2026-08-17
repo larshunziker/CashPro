@@ -1,0 +1,22 @@
+{
+  "applinks": {
+    "apps": [],
+    "details": [
+      {
+        "appID": "WCKADKT8T9.ch.rasch.beobachter-hybrid",
+        "paths": [
+          "NOT /angebot/*",
+          "NOT /abonnieren/*",
+          "NOT /_/api/*",
+          "NOT /e-paper",
+          "*"
+        ]
+      }
+    ]
+  },
+  "webcredentials": {
+    "apps": [
+      "WCKADKT8T9.ch.rasch.beobachter-hybrid"
+    ]
+  }
+}

@@ -1,0 +1,61 @@
+.Wrapper {
+  composes: Wrapper from 'Teaser/components/TeaserHeroMain/styles.legacy.css';
+}
+
+.Img {
+  composes: Img from 'Teaser/components/TeaserHeroMain/styles.legacy.css';
+}
+
+.Caption {
+  composes: Caption from 'Teaser/components/TeaserHeroMain/styles.legacy.css';
+}
+
+.Title {
+  composes: Title from 'Teaser/components/TeaserHeroMain/styles.legacy.css';
+  margin-bottom: 11px;
+  margin-top: -19px;
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    margin-bottom: 13px;
+    margin-top: -12px;
+  }
+}
+
+.PlayIcon {
+  border: 1px solid $white;
+  border-radius: 50%;
+  color: $white;
+  font-size: 5.7rem;
+  height: 61px;
+  padding-right: 2px;
+  padding-top: 2px;
+  position: relative;
+  top: -34px;
+  visibility: hidden;
+  width: 61px;
+
+  @media (max-width: $xsBreakpointTo) {
+    font-size: 5.2rem;
+  }
+
+  &.Visible {
+    visibility: visible;
+  }
+}
+
+.Lead {
+  composes: Lead from 'Teaser/components/TeaserHeroMain/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* 960 */
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+}

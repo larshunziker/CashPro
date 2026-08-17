@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AdvantagesItem Should render correctly if full item is passed in 1`] = `
+<div>
+  <div
+    data-testid="advantages-item-wrapper"
+  >
+    <a
+      class="Wrapperstyle"
+      data-testid="routed-link"
+      href="/linkpath"
+    >
+      <div
+        data-testid="image-wrapper"
+      >
+        <img
+          alt="imgfilename"
+          class="Iconstyle"
+          src="/sites/default/files/imgsource"
+        />
+      </div>
+      <div
+        data-testid="text-wrapper"
+      >
+        <div
+          class="Textstyle"
+        >
+          Text of this Item.
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;
+
+exports[`[Common] AdvantagesItem Should render empty if item is null 1`] = `<div />`;

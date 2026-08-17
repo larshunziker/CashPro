@@ -1,0 +1,51 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+  height: 35px;
+  margin-top: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 36px;
+  }
+}
+
+.FilterWrapper {
+  align-items: center;
+  display: flex;
+  float: right;
+}
+
+.Label {
+  color: $blackA;
+  font-family: $fontGothamBook;
+  font-size: 1rem;
+  margin-right: 11px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+  }
+}
+
+.FilterItem {
+  background-color: $greyB;
+  border: none;
+  color: $white;
+  cursor: pointer;
+  font-family: $fontGothamBook;
+  font-size: 1rem;
+  line-height: 1.4rem;
+  margin-left: 1rem;
+  opacity: 1;
+  padding: 0.8rem 1.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+  }
+}
+
+.ActiveFilterItem {
+  background: $greyA;
+}

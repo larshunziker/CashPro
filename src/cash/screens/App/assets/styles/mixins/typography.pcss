@@ -1,0 +1,782 @@
+@define-mixin fontSize $size {
+  font-size: calc($size * 0.0625rem);
+}
+
+@define-mixin lineHeight $size {
+  line-height: calc($size * 0.0625rem);
+}
+
+@define-mixin H1 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 25;
+  font-weight: bold;
+  @mixin lineHeight 29;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 40;
+    @mixin lineHeight 48;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 50;
+    @mixin lineHeight 55;
+  }
+}
+
+@define-mixin H2 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 21;
+  font-weight: bold;
+  @mixin lineHeight 25;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 28;
+    @mixin lineHeight 32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 35;
+    @mixin lineHeight 35;
+  }
+}
+
+@define-mixin H3 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 19;
+  font-weight: bold;
+  @mixin lineHeight 23;
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 24;
+    @mixin lineHeight 26;
+  }
+}
+
+@define-mixin H4 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 20;
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 19;
+    @mixin lineHeight 23;
+  }
+}
+
+@define-mixin H5 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  font-weight: bold;
+  @mixin lineHeight 14;
+  text-transform: uppercase;
+}
+
+@define-mixin H5Light {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  font-weight: bold;
+  @mixin lineHeight 19;
+  text-transform: uppercase;
+}
+
+@define-mixin ImageParagraph {
+  color: $greyB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  @mixin lineHeight 20;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 26;
+  }
+}
+
+@define-mixin ImageParagraphMeta {
+  color: $greyB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  @mixin lineHeight 17;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 12;
+    @mixin lineHeight 19;
+  }
+}
+
+@define-mixin ImageParagraphMetaBold {
+  color: $greyB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  font-weight: bold;
+  @mixin lineHeight 17;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 12;
+    @mixin lineHeight 19;
+  }
+}
+
+@define-mixin Lead1 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 18;
+  @mixin lineHeight 25;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 22;
+    @mixin lineHeight 32;
+  }
+}
+
+@define-mixin Lead2 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 17;
+  line-height: normal;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+  }
+}
+
+@define-mixin TeaserLead {
+  @mixin Lead2;
+  @mixin fontSize 18;
+  font-family: $fontSourceSansPro;
+}
+
+@define-mixin AuthorDate {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  @mixin lineHeight 17;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 17;
+    @mixin lineHeight 25;
+  }
+}
+
+@define-mixin initial {
+  color: $greyB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 104;
+  font-weight: bold;
+  @mixin lineHeight 12;
+}
+
+@define-mixin Paragraph {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 17;
+  @mixin lineHeight 25;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 19;
+    @mixin lineHeight 32;
+  }
+}
+
+@define-mixin DataTable {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+  }
+}
+
+@define-mixin DataTableBold {
+  @mixin DataTable;
+  font-weight: bold;
+}
+
+@define-mixin ParagraphBold {
+  @mixin Paragraph;
+  font-weight: bold;
+}
+
+@define-mixin Subtitle {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 23;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 21;
+    @mixin lineHeight 25;
+  }
+}
+
+@define-mixin QuoteMain {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 21;
+  @mixin lineHeight 29;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 27;
+    @mixin lineHeight 37;
+  }
+}
+
+@define-mixin QuoteName {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 11;
+  font-weight: bold;
+  @mixin lineHeight 16;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 12;
+    @mixin lineHeight 17;
+  }
+}
+
+@define-mixin InfoH1 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 18;
+  font-weight: bold;
+  @mixin lineHeight 25;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 23;
+    @mixin lineHeight 30;
+  }
+}
+
+@define-mixin InfoH2 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 24;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 17;
+    @mixin lineHeight 26;
+  }
+}
+
+@define-mixin InfoParagraph {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 15;
+  @mixin lineHeight 24;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 26;
+  }
+}
+
+@define-mixin InfoParagraphLink {
+  @mixin InfoParagraph;
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+@define-mixin ContentBoxBig {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 21;
+  font-weight: bold;
+  @mixin lineHeight 23;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 22;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 24;
+  }
+}
+
+@define-mixin ContentBoxSmall {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  font-weight: bold;
+  @mixin lineHeight 14;
+}
+
+@define-mixin BoxTitle {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 22;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 23;
+    @mixin lineHeight 35;
+  }
+}
+
+@define-mixin BoxTitleSmall {
+  @mixin BoxTitle;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+    @mixin lineHeight 27;
+  }
+}
+
+@define-mixin ChannelTitle {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 30;
+  font-weight: bold;
+  @mixin lineHeight 34;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin lineHeight 38;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    @mixin fontSize 40;
+    @mixin lineHeight 46;
+  }
+}
+
+@define-mixin ChapterTitle {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 16;
+  font-weight: bold;
+  @mixin lineHeight 19;
+
+  @media (min-width: $mdBreakpoint) {
+    @mixin fontSize 15;
+    @mixin lineHeight 18;
+  }
+}
+
+@define-mixin Footer {
+  color: $white;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 17;
+  @mixin lineHeight 20;
+
+  @media (min-width: $mdBreakpoint) {
+    @mixin fontSize 15;
+    @mixin lineHeight 18;
+  }
+}
+
+@define-mixin KeywordsH1 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 30;
+  @mixin lineHeight 20;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 45;
+    @mixin lineHeight 50;
+  }
+}
+
+@define-mixin KeywordsH2 {
+  color: $blackB;
+  font-family: $fontSourceSerifPro;
+  @mixin fontSize 28;
+  @mixin lineHeight 33;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 40;
+    @mixin lineHeight 45;
+  }
+}
+
+@define-mixin PersonH1 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 27;
+  font-weight: bold;
+  @mixin lineHeight 34;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 50;
+    @mixin lineHeight 60;
+  }
+}
+
+@define-mixin PersonH2 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 22;
+  font-weight: bold;
+  @mixin lineHeight 27;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 30;
+    @mixin lineHeight 40;
+  }
+}
+
+@define-mixin PersonH3 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 15;
+  font-weight: bold;
+  @mixin lineHeight 20;
+}
+
+@define-mixin PersonQuote {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 44;
+  @mixin lineHeight 49;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 65;
+    @mixin lineHeight 70;
+  }
+}
+
+@define-mixin PersonQuote2 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 24;
+  @mixin lineHeight 35;
+  text-transform: uppercase;
+}
+
+@define-mixin RubrikenNavigation {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 17;
+  @mixin lineHeight 43;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 20;
+    @mixin lineHeight 50;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    @mixin lineHeight 40;
+  }
+}
+
+@define-mixin RubrikenNavigationHighlight {
+  @mixin RubrikenNavigation;
+  font-weight: bold;
+}
+
+@define-mixin RubrikenNavigationH1 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 17;
+  font-weight: bold;
+  @mixin lineHeight 22;
+}
+
+@define-mixin Meta1 {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 18;
+  @mixin lineHeight 21;
+}
+
+@define-mixin Meta3 {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  @mixin lineHeight 19;
+}
+
+@define-mixin Meta4 {
+  color: $white;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  @mixin lineHeight 10;
+  text-align: center;
+}
+
+@define-mixin Claim {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  @mixin lineHeight 17;
+
+  @media (min-width: $lgBreakpoint) {
+    @mixin fontSize 15;
+    @mixin lineHeight 20;
+  }
+}
+
+@define-mixin Header {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  @mixin lineHeight 16;
+}
+
+@define-mixin HeaderSmall {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 11;
+  @mixin lineHeight 14;
+}
+
+@define-mixin ButtonBig {
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 18;
+  @mixin lineHeight 22;
+}
+
+@define-mixin ButtonSmall {
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  @mixin lineHeight 18;
+}
+
+@define-mixin FormLabelBig {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  @mixin lineHeight 22;
+}
+
+@define-mixin FormLabelSmall {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 12;
+  @mixin lineHeight 18;
+}
+
+@define-mixin FormLabelBError {
+  color: $errorA;
+  font-family: $fontSourceSansPro;
+  font-size: 1.3rem;
+  letter-spacing: 0.3px;
+  line-height: 1.6rem;
+}
+
+@define-mixin Heading6 {
+  color: $black;
+  font-family: $fontSourceSansPro;
+  font-size: 2.1rem;
+  font-style: normal;
+  font-variant-numeric: lining-nums proportional-nums;
+  font-weight: 700;
+  line-height: 2.6rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.6rem;
+  }
+}
+
+@define-mixin InfoA {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 18;
+  @mixin lineHeight 23;
+}
+
+@define-mixin InfoB {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  @mixin lineHeight 21;
+}
+
+@define-mixin InfoBBold {
+  @mixin InfoB;
+  font-weight: bold;
+}
+
+@define-mixin InfoC {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  @mixin lineHeight 19;
+}
+
+@define-mixin InfoD {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 12;
+  @mixin lineHeight 16;
+}
+
+@define-mixin InfoE {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  @mixin lineHeight 14;
+}
+
+@define-mixin ShortTitleA {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 13;
+  @mixin lineHeight 16;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+    @mixin lineHeight 20;
+  }
+}
+
+@define-mixin ShortTitleB {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 16;
+  @mixin lineHeight 20;
+  text-transform: uppercase;
+}
+
+@define-mixin ShortTitleC {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  @mixin lineHeight 12;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 13;
+    @mixin lineHeight 16;
+  }
+}
+
+@define-mixin ShortTitleD {
+  color: $greyA;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 10;
+  @mixin lineHeight 12;
+  text-transform: uppercase;
+}
+
+@define-mixin Credits {
+  color: $white;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 11;
+  @mixin lineHeight 14;
+}
+
+@define-mixin ContentBoxParagraph {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  font-weight: normal;
+  @mixin lineHeight 19;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 21;
+  }
+}
+
+@define-mixin ContentBoxParagraphBold {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  font-weight: bold;
+  @mixin lineHeight 19;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 21;
+  }
+}
+
+@define-mixin Widget {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  @mixin fontSize 14;
+  font-weight: normal;
+  @mixin lineHeight 18;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+    @mixin lineHeight 23;
+  }
+  @media (min-width: $mdBreakpoint) {
+    @mixin fontSize 14;
+    @mixin lineHeight 18;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    @mixin fontSize 18;
+    @mixin lineHeight 23;
+  }
+}
+
+@define-mixin WidgetBold {
+  @mixin Widget;
+  font-weight: bold;
+}
+
+@define-mixin RaschIconFiles {
+  display: inline;
+  font-family: $fontRasch;
+  margin-right: 1px;
+  vertical-align: top;
+}
+
+/* Not from styleguide */
+@define-mixin AdCaption {
+  color: $greyA;
+  font-size: 1.1rem;
+  font-weight: 200;
+  letter-spacing: 0.1px;
+  text-transform: uppercase;
+}
+
+@define-mixin RichTextLink {
+  color: $secondaryA;
+  padding: 1px;
+
+  &:hover {
+    color: $secondaryB;
+  }
+
+  &:not([href*='cash.ch']) {
+    &:not([href^='#']) {
+      &:not([href^='/']) {
+        &:not([href^='mailto:']) {
+          &:not([href^='tel:']) {
+            &:not([class*='teaser']) {
+              &:not([class*='utility-button']) {
+                &:not([class*='Icon']) {
+                  &::after {
+                    @mixin RaschIconFiles;
+                    content: '\e924';
+                    margin-left: 3px;
+                  }
+
+                  &:not([href*='.pdf']) {
+                    &::after {
+                      @mixin RaschIconFiles;
+                      content: '\e921';
+                      margin-left: 3px;
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  @media print {
+    color: $blackB;
+  }
+}

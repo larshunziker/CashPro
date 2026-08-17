@@ -1,0 +1,34 @@
+.Wrapper {
+  background: $greenLight;
+  border-radius: 8px;
+  margin-bottom: $margin32;
+  padding: $margin16;
+}
+
+.AttachmentHeading {
+  composes: InfoboxH2 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.AttachmentElement {
+  display: flex;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  margin-bottom: $margin16;
+}
+
+.AttachmentIcon {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-right: $margin16;
+}
+
+.AttachmentText {
+  align-items: center;
+  color: $black;
+  display: flex;
+  justify-content: center;
+  text-decoration: underline;
+  word-break: break-word;
+}

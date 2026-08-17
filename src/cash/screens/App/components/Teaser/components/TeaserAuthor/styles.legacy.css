@@ -1,0 +1,81 @@
+.Grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 54px 1fr;
+  padding: 16px;
+  transition: background 200ms ease-in-out;
+
+  &:hover {
+    background: $greyD;
+  }
+}
+
+.Box {
+  padding-block: 12px;
+}
+
+.AuthorAvatar,
+.Initials {
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+}
+
+.Name {
+  composes: InfoABlack from 'typography.legacy.css';
+
+  text-transform: capitalize;
+}
+
+.InsideArticleName {
+  @mixin fontSize 16;
+  @mixin lineHeight 25;
+  font-weight: 700;
+  margin-right: $margin4;
+}
+
+.OutsideArticleName {
+  @mixin fontSize 18;
+  @mixin lineHeight 25;
+  font-weight: 700;
+
+  @media screen and (min-width: $smBreakpoint) {
+    @mixin fontSize 23;
+    @mixin lineHeight 30;
+  }
+}
+
+.Headline {
+  composes: Meta3Black from 'typography.legacy.css';
+
+  display: block;
+}
+
+.Initials {
+  align-items: center;
+  background: $greyB;
+  color: $blackC;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 2.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 2.9rem;
+}
+
+.ShortDescriptionWrapper {
+  color: $blackB;
+  font-family: $fontSourceSansPro;
+  font-size: 16px;
+  font-weight: 325;
+  line-height: 21px;
+}
+
+.ShortDescription {
+  margin-right: $margin4;
+}
+
+.Link {
+  color: $secondaryA;
+  white-space: nowrap;
+}

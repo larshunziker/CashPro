@@ -1,0 +1,345 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  border-bottom: 1px solid $grey30;
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  position: relative;
+  width: 100%;
+
+  &.WrapperWhiteSpace {
+    padding-right: 24px;
+
+    @media (min-width: $mdBreakpoint) {
+      padding-right: 0;
+    }
+  }
+
+  &.Numbered {
+    padding-left: 32px;
+    padding-right: 0;
+
+    @media (min-width: $mdBreakpoint) {
+      padding-left: 0;
+    }
+  }
+
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+}
+
+.ContentWrapper {
+  line-height: 0;
+
+  @media (max-width: $mdBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Numbered {
+  .ContentWrapper {
+    padding-left: 0;
+
+    @media (min-width: $mdBreakpoint) {
+      padding-left: 37px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      padding-left: 45px;
+    }
+  }
+
+  &.Portrait {
+    .ContentWrapper {
+      @media (min-width: $mdBreakpoint) {
+        padding-right: 37px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        padding-right: 45px;
+      }
+    }
+  }
+}
+
+.Title {
+  composes: TeaserTitleH3 from 'typography.legacy.css';
+
+  font-size: 2.4rem;
+  line-height: 120%;
+  margin-bottom: 24px;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+  }
+
+  &.Advertising {
+    font-family: $fontSpezia;
+  }
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+}
+
+.Icon {
+  bottom: 16px;
+  left: 16px;
+  position: absolute;
+  z-index: 2;
+
+  &.PlayIcon {
+    bottom: unset;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+
+  &.Quote {
+    bottom: unset;
+    left: calc(50% - 100px);
+    top: 6px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &.Quote {
+      left: calc(50% - 100px);
+      top: 16px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &.Quote {
+      left: 62px;
+      top: 16px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &.Quote {
+      left: 92px;
+      top: 14px;
+    }
+  }
+}
+
+.QuoteIcon {
+  height: 39px;
+  max-height: 39px;
+  max-width: 54px;
+  width: 54px;
+}
+
+.PlayButton {
+  height: 24px;
+  width: 24px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 40px;
+    width: 40px;
+  }
+
+  .PlayIcon & {
+    filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+    height: 38px;
+    width: 38px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 52px;
+      width: 52px;
+    }
+  }
+}
+
+.BeoPlusLogo {
+  composes: TeaserBeoPlusLogo from 'typography.legacy.css';
+  margin: 2px 6px 0 0;
+
+  @media (max-width: $mdBreakpoint) {
+    float: none;
+    margin: 0 auto $margin4 auto;
+  }
+}
+
+.ImageWrapper {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  line-height: 0;
+  margin-bottom: $margin16;
+  position: relative;
+  width: 100%;
+
+  &.Gradient {
+    &::after {
+      background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 128px);
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      &::after {
+        background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 152px);
+      }
+    }
+  }
+}
+
+.Portrait {
+  .ImageWrapper {
+    margin-inline: auto;
+    max-width: 108px;
+
+    @media (min-width: $smBreakpoint) {
+      max-width: 136px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      max-width: 132px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      max-width: 141px;
+    }
+  }
+
+  .ContentWrapper {
+    text-align: center;
+  }
+
+  .ShortTitleElement {
+    justify-content: center;
+  }
+
+  .BadgeLabel {
+    margin-inline: auto;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+
+  &.Opinion {
+    border-radius: 50%;
+    max-width: 140px;
+    min-width: 140px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &.Opinion {
+      max-width: 160px;
+      min-width: 160px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &.Opinion {
+      max-width: 165px;
+      min-width: 165px;
+    }
+  }
+}
+
+.ShortTitleElement {
+  composes: TeaserShortTitleElement from 'typography.legacy.css';
+
+  @media (max-width: $mdBreakpoint) {
+    display: inline-flex;
+  }
+}
+
+.ShortTitleWrapper {
+  flex-grow: 1;
+
+  @media (max-width: $mdBreakpoint) {
+    flex-grow: unset;
+    width: 100%;
+  }
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  &.Red {
+    background-color: $red;
+  }
+
+  &.Green {
+    background-color: $green;
+  }
+
+  &.Blue {
+    background-color: $blue;
+  }
+
+  &.Black {
+    background-color: $black;
+  }
+
+  &.Advertising {
+    background-color: $purple;
+    font-size: 1.4rem;
+    font-weight: 400;
+    padding: 2px 6px;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.6rem;
+      line-height: 1.92rem;
+      padding: 2px 8px;
+    }
+  }
+
+  @media (max-width: $mdBreakpoint) {
+    margin: 0 auto $margin4 auto;
+  }
+}
+
+.ContentNumber {
+  color: $black;
+  display: none;
+  font-family: $fontRecife;
+  font-size: 3.4rem;
+  font-weight: 700;
+  left: 0;
+  padding-top: 16px;
+  position: absolute;
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.2rem;
+  }
+}
+
+.ImageNumber {
+  composes: ContentNumber;
+
+  display: block;
+  font-size: 3.6rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+
+  @media (min-width: $mdBreakpoint) {
+    display: none;
+  }
+}

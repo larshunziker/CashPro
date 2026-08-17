@@ -1,0 +1,8 @@
+.SectionTitle {
+  composes: SectionTitle from 'Recommendations/styles.legacy.css';
+  composes: SectionTitleSI from 'Recommendations/styles.legacy.css';
+}
+
+.RecommendationsWrapper {
+  composes: GridRow from 'TeaserGrid/styles.legacy.css';
+}

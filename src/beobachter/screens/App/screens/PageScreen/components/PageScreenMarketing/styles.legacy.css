@@ -1,0 +1,62 @@
+.Wrapper {
+  position: relative;
+}
+
+.Longform {
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin40;
+  }
+}
+
+.Placeholder {
+  height: 100px;
+}
+
+.SponsorBannerWrapper {
+  display: block;
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  text-align: center;
+
+  &.Sticky{
+    background-color: $white;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: calc($headerHeightXs - 86px);
+    z-index: $zIndexHighest;
+
+    @media (min-width: $smBreakpoint) {
+      top: calc($headerHeightSm - 86px);
+    }
+  }
+}
+
+.SponsorBannerLogo {
+  margin-top: 20px;
+  max-height: 40px;
+  width: auto;
+}
+
+.Banner {
+  padding: 10px 0;
+}
+
+.Label {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+  text-align: right;
+}
+
+.LinkWrapper {
+  align-items: end;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}

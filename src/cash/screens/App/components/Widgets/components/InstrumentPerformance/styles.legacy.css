@@ -1,0 +1,32 @@
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  border: 1px solid $greyC;
+  display: flex;
+  flex-direction: column;
+  gap: $margin8;
+  padding: $margin16;
+}
+
+.Row {
+  width: 100%;
+}
+
+.InfoText {
+  composes: DataTable from 'typography.legacy.css';
+  font-size: 0.875rem;
+}
+
+.Link {
+  color: $secondaryA;
+  font-family: $fontSourceSansPro;
+  font-size: 1.125rem;
+  font-weight: 700;
+  line-height: 1.375rem;
+  text-align: left;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  margin-top: -$margin8;
+}

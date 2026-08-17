@@ -1,0 +1,77 @@
+.Wrapper {
+  border-bottom: 1px solid $grey30;
+  padding: 24px 0 32px;
+}
+
+.WrapperFirst {
+  border-top: 1px solid $grey30;
+}
+
+.Title {
+  composes: ListicleTitle from 'typography.legacy.css';
+  margin-bottom: $margin8;
+}
+
+.Content {
+  composes: ListicleText from 'typography.legacy.css';
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  @mixin ParagraphSansSerif; /* mixin because RichTextWrapper has different font-family */
+  list-style-position: inside;
+  overflow: hidden;
+  word-break: break-word;
+
+  :global(.cta_button) {
+    margin: 0;
+  }
+
+  p {
+    margin-bottom: $margin16;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.ImageBox {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Footer {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  @mixin ParagraphSansSerif; /* mixin because RichTextWrapper has different font-family */
+  font-weight: 400;
+}
+
+.Odd {
+  .ImageBox {
+    order: -1;
+
+    @media (min-width: $smBreakpoint) {
+      order: initial;
+    }
+  }
+}
+
+.ListicleItemWrapper {
+  composes: Row from '@grid.legacy.css';
+}
+
+.ListicleItemInnerWrapper {
+  composes: ListicleItemWrapper;
+} 
+
+.Image {
+  max-width: 100%;
+}
+
+.IsNested {
+  .Wrapper {
+    margin: 0 40px;
+    width: auto;
+  }
+}

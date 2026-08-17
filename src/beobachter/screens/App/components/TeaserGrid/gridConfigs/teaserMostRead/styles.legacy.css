@@ -1,0 +1,9 @@
+.teaserMostRead {
+  .Item {
+    border-bottom: 1px solid $grey30;
+
+    &:not(:last-child) {
+      margin-bottom: $margin16;
+    }
+  }
+}

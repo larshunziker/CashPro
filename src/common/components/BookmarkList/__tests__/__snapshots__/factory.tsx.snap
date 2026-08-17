@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] BookmarkList Should render correctly 1`] = `
+<div>
+  <div
+    class="BookmarkListWrapperClassName"
+  >
+    <div
+      data-testid="bookmark-list-factory-teasergrid"
+    >
+      <div
+        data-testid="bookmark-list-factory-teaser-item"
+      >
+        title
+      </div>
+      <div
+        data-testid="bookmark-list-factory-teaser-item"
+      >
+        title
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] BookmarkList Should render nothing if there are no items 1`] = `<div />`;

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserBlogPostMaxi Should generate Teaser Icon by Props for Content type Article of channel People with Video false 1`] = `<div />`;
+
+exports[`[Component] TeaserBlogPostMaxi Should generate Teaser Icon by Props for Content type Article of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserBlogPostMaxi Should generate Teaser Icon by Props for Content type ImageGallery of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconFotoMarker IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserBlogPostMaxi Should generate Teaser Icon by Props for Content type NativeAdvertising of channel People with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserBlogPostMaxi Should generate Teaser Icon by Props for Content type Video of channel People with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconMovieOutline IconMovieOutlineStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserBlogPostMaxi Should not render authorbox 1`] = `<ReduxProvider />`;
+
+exports[`[Component] TeaserBlogPostMaxi Should not render authorbox of author without image 1`] = `
+<div>
+  <div
+    class="AuthorBox"
+  >
+    <div
+      class="AuthorName"
+    >
+      von 
+      Roman Zanettin
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserBlogPostMaxi Should not render authorbox of channel author without image 1`] = `
+<div>
+  <div
+    class="AuthorBox"
+  >
+    <div
+      class="AuthorName"
+    >
+      von 
+      Roman Zanettin
+    </div>
+  </div>
+</div>
+`;

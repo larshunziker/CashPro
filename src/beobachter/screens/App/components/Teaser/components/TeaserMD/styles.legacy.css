@@ -1,0 +1,362 @@
+.OuterWrapper {
+  @media (min-width: $smBreakpoint) {
+    height: 100%;
+  }
+}
+
+.Wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  letter-spacing: 0;
+  position: relative;
+  width: 100%;
+
+  &.TextCenter {
+    align-items: center;
+  }
+
+  &:hover {
+    .Title {
+      text-decoration-color: $black;
+    }
+  }
+}
+
+.ContentWrapper {
+  line-height: 0;
+  overflow-wrap: break-word;
+  padding-bottom: $margin24;
+  word-break: break-word;
+
+  &.TextCenter {
+    text-align: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin32;
+  }
+}
+
+.Title {
+  composes: TeaserTitleH3 from 'typography.legacy.css';
+
+  font-size: 2.4rem;
+  line-height: 3.1rem;
+  margin-bottom: 12px;
+  overflow-wrap: break-word;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+  word-wrap: break-word;
+
+  &.Opinion {
+    margin-bottom: 0;
+  }
+
+  &.Advertising {
+    font-family: $fontSpezia;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 8px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.6rem;
+  }
+}
+
+.ShortTitle {
+  composes: TeaserShortTitle from 'typography.legacy.css';
+}
+
+.Icon {
+  bottom: 16px;
+  left: 16px;
+  position: absolute;
+  z-index: 2;
+
+  &.PlayIcon {
+    bottom: unset;
+    left: 50%;
+    top: 50%;
+    translate: -50% -50%;
+  }
+
+  &.Quote {
+    bottom: unset;
+    left: calc(50% - 96px);
+    top: 12px
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &.Quote {
+      left: calc(50% - 62px);
+      top: 16px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &.Quote {
+      left: calc(50% - 86px);
+      top: 16px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &.Quote {
+      left: calc(50% - 96px);
+      top: 14px;
+    }
+  }
+}
+
+.QuoteIcon {
+  height: 39px;
+  max-height: 39px;
+  max-width: 54px;
+  width: 54px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 29px;
+    max-height: 29px;
+    max-width: 40px;
+    width: 40px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 36px;
+    max-height: 36px;
+    max-width: 50px;
+    width: 50px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 39px;
+    max-height: 39px;
+    max-width: 54px;
+    width: 54px;
+  }
+}
+
+.PlayButton {
+  height: 24px;
+  width: 24px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 40px;
+    width: 40px;
+  }
+
+  .PlayIcon & {
+    filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+    height: 48px;
+    max-height: 48px;
+    max-width: 48px;
+    width: 48px;
+
+    @media (min-width: $xlBreakpoint) {
+      height: 80px;
+      max-height: 80px;
+      max-width: 80px;
+      width: 80px;
+    }
+  }
+}
+
+.BeoPlusLogo {
+  composes: TeaserBeoPlusLogo from 'typography.legacy.css';
+  margin: 2px 6px 0 0;
+
+  &.TextCenter {
+    float: none;
+    margin: 0 auto $margin4 auto;
+  }
+}
+
+.ImageWrapper {
+  display: flex;
+  height: auto;
+  justify-content: center;
+  line-height: 0;
+  margin-bottom: $margin12;
+  padding: 0;
+  position: relative;
+  width: 100%;
+
+  &.Opinion {
+    min-width: 158px;
+  }
+
+  &.Gradient {
+    &::after {
+      background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 128px);
+      content: '';
+      height: 100%;
+      left: 0;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      z-index: 1;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      &::after {
+        background: linear-gradient(45deg, rgb(0 0 0 / 90%) 0, rgb(0 0 0 / 0%) 152px);
+      }
+    }
+  }
+
+  &.Portrait {
+    max-height: 192px;
+    max-width: 144px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+
+    &.Portrait {
+      max-height: 176px;
+      max-width: 132px;
+    }
+
+    &.Portrait .Image {
+      max-height: 100%;
+    }
+
+    &.Opinion {
+      max-height: 92px;
+      max-width: 92px;
+      min-height: 92px;
+      min-width: 92px;
+    }
+  }
+  @media (min-width: $mdBreakpoint) {
+    &.Portrait {
+      max-height: 213px;
+      max-width: 160px;
+    }
+
+    &.Opinion {
+      max-height: 132px;
+      max-width: 132px;
+      min-height: 132px;
+      min-width: 132px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &.Portrait {
+      max-height: 188px;
+      max-width: 141px;
+    }
+
+    &.Opinion {
+      max-height: 165px;
+      max-width: 165px;
+      min-height: 165px;
+      min-width: 165px;
+    }
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+
+  &.Opinion {
+    border-radius: 50%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &.Opinion {
+      max-width: 92px;
+      min-width: 92px;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &.Opinion {
+      max-width: 132px;
+      min-width: 132px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    &.Opinion {
+      max-width: 165px;
+      min-width: 165px;
+    }
+  }
+}
+
+.ShortTitleWrapper {
+  flex-grow: 1;
+}
+
+.ShortTitleElement {
+  composes: TeaserShortTitleElement from 'typography.legacy.css';
+
+  &.TextCenter {
+    align-items: center;
+    flex-direction: column;
+  }
+}
+
+.BadgeLabel {
+  composes: TeaserBadgeLabel from 'typography.legacy.css';
+
+  &.Red {
+    background-color: $red;
+  }
+
+  &.Green {
+    background-color: $green;
+  }
+
+  &.Blue {
+    background-color: $blue;
+  }
+
+  &.Black {
+    background-color: $black;
+  }
+
+  &.TextCenter {
+    margin: 0 auto $margin4 auto;
+  }
+
+  &.Advertising {
+    background-color: $purple;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 1.92rem;
+    padding: 2px 6px;
+
+    @media (min-width: $mdBreakpoint) {
+      font-size: 1.4rem;
+      line-height: 1.68rem;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.8rem;
+      line-height: 2.16rem;
+      padding: 2px 8px;
+    }
+  }
+}
+
+.BottomLine {
+  composes: TeaserHeroAuthorName from 'typography.legacy.css';
+  margin-top: 12px;
+}
+
+.AuthorHeadline {
+  composes: TeaserHeroAuthorHeadline from 'typography.legacy.css';
+}
+
+.BottomBrandReport {
+  display: none;
+}

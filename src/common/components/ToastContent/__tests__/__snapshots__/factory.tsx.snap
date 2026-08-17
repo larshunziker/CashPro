@@ -1,0 +1,214 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ToastContent Should not render link if there is no link data 1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <span
+        class=".ToastIconClass"
+      >
+        ToastIcon
+      </span>
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] ToastContent Should not render link if there is no link path and no link onclick  1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <span
+        class=".ToastIconClass"
+      >
+        ToastIcon
+      </span>
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] ToastContent Should not render link if there is no link text 1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <span
+        class=".ToastIconClass"
+      >
+        ToastIcon
+      </span>
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] ToastContent Should not render toastIcon if no icon string given 1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+        <button
+          class=".LinkClass"
+          data-testid="toastcontent-button"
+        >
+          Zur Merkliste
+        </button>
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] ToastContent Should render link if there is no link text but a onClick function 1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <span
+        class=".ToastIconClass"
+      >
+        ToastIcon
+      </span>
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+        <button
+          class=".LinkClass"
+          data-testid="toastcontent-button"
+        >
+          Zur Merkliste
+        </button>
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`[Component] ToastContent Should render nothing if there is no content 1`] = `<div />`;
+
+exports[`[Component] ToastContent Should render toastcontent correctly 1`] = `
+<div>
+  <div
+    class=".WrapperClass"
+  >
+    <div
+      class=".ButtonClass"
+    >
+      <span
+        class=".ToastIconClass"
+      >
+        ToastIcon
+      </span>
+      <p
+        class=".ContentClass"
+      >
+        Sie haben das Limit von 100 abonnierten Themen erreicht. Bitte löschen Sie Themen bevor Sie neue abonnieren. 
+        <button
+          class=".LinkClass"
+          data-testid="toastcontent-button"
+        >
+          Zur Merkliste
+        </button>
+      </p>
+    </div>
+    <button
+      class=".CloseButtonClass"
+      data-testid="toast-content-close-button"
+    >
+      <span
+        class=".CloseIconClass"
+      >
+        IconXMark
+      </span>
+    </button>
+  </div>
+</div>
+`;

@@ -1,0 +1,72 @@
+{
+  "anchorId": null,
+  "hasTitleOverride": false,
+  "title": null,
+  "gallery": {
+    "id": "bm9kZToxOTI5MA==",
+    "title": "Roger Federer rockt im Kilt gegen Andy Murray",
+    "shortTitle": "Bikini",
+    "preferredUri": "/family/galleries/bikini-roger-federer-rockt-im-kilt-gegen-andy-murray",
+    "lead": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Saepe culpa consequuntur quibusdam? Placeat enim magnam quibusdam veniam sit, nisi facilis, ullam autem ex porro distinctio vel facere, velit eligendi! Velit dolorum hic impedit.",
+    "items": [
+      {
+        "id": "179009",
+        "format": "portrait",
+        "caption": "Viel Liebe für Prinz Harry und Meghan Markle Nachdem die beiden heute Morgen ihre Verlobung verkündeten, posieren die Turteltauben vor Glück strahlend im Garten des Kensington Palastes für das offizielle Verlobungsbild. Die royale Hochzeit planen der Prinz und seine Schauspielerin für den Frühling 2018. Wir freuen uns über so viel Liebe an diesem kalten Montag!",
+        "image": {
+          "credit": "© INSTAGRAM/EMRATA",
+          "file": {
+            "alt": "Sexy Bikini Trend",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/bildschirmfoto-2018-07-04-um-14.15.37.jpg",
+            "width": 385,
+            "height": 480,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      {
+        "id": "179011",
+        "format": "square",
+        "caption": "Topmodel, Musikerin und Première Dame: Das Leben von Carla Bruni ist wie ein Märchen. Jetzt singt die Ehefrau von Nicolas Sarkozy in Zürich bei den Sports Awards. Sie liebt die Schweiz – dank Mama!",
+        "image": {
+          "credit": "Foto: Oliver Brenneisen",
+          "file": {
+            "alt": "Wendy ist happy",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/_DSC9718.jpg",
+            "width": 480,
+            "height": 329,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      {
+        "id": "179139",
+        "format": "landscape",
+        "caption": "Die erste Hürde hat Bella Hadid erfolgreich genommen Sie und ihr italienischer Bodyguard sind oben angekommen. Ganz Gentleman-like trägt er seine und Bellas Ski.",
+        "image": {
+          "credit": "Keystone",
+          "file": {
+            "alt": "Roger im Kilt",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/rfederer-kilt.jpg",
+            "width": 480,
+            "height": 339,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "__typename": "ImageGallery"
+  }
+}

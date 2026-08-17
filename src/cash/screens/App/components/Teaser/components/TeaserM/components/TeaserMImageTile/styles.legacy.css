@@ -1,0 +1,15 @@
+.MinimumHeightImageTile {
+  @media (min-width: $smBreakpoint) {
+    min-height: 369px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 380px;
+    min-height: 368px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 465px;
+    min-height: 380px;
+  }
+}

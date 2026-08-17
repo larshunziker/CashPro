@@ -1,0 +1,38 @@
+.HeaderWrapper {
+  border-top: 1px solid $greyB;
+  margin-bottom: $margin40;
+  margin-top: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin32;
+  }
+}
+
+.ShortTitle {
+  display: inline-block;
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: SubheadXXL from 'typography.legacy.css';
+  color: $black;
+  margin: $margin40 auto $margin16;
+  text-align: left;
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  color: $black;
+  text-align: left;
+}
+
+.AuthorsWrapper {
+  margin-bottom: 104px;
+  margin-top: -$margin8;
+  overflow: hidden;
+}
+
+.Divider {
+  background-color: $greyB;
+  height: 1px;
+}

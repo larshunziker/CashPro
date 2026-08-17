@@ -1,0 +1,116 @@
+{
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzAxTnpVeg==",
+          "label": "VideoBlogs",
+          "link": "/videoblogs",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzAxTnpjMg==",
+          "label": "another video section",
+          "link": "/freystyle",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpBeFRucGpNalU0TVRnd09BPT0=",
+          "label": "Zieh den Kopf ein",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "brightcoveId": "5997732527001",
+  "caption": "Guns Guns Guns  \ud83d\udd2a",
+  "changeDate": "2019-02-04T10:07:38",
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybTo1Nzc2",
+    "tid": "5776",
+    "channelType": "video_blog",
+    "landingPage": {
+      "id": "bm9kZToxOTY1MA==",
+      "preferredUri": "/freystyle",
+      "__typename": "LandingPage"
+    },
+    "title": "another video section",
+    "settings": {
+      "title": "another video section",
+      "lead": "test",
+      "mainChannel": {
+        "id": "dGF4b25vbXlfdGVybTo1NzUz",
+        "title": "VideoBlogs",
+        "__typename": "Channel"
+      },
+      "headerImage": {
+        "file": {
+          "alt": "katze",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/katze.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "TermSettings"
+    },
+    "__typename": "Channel"
+  },
+  "createDate": "2019-02-04T10:07:38",
+  "credit": null,
+  "id": "bm9kZToxOTY2MA==",
+  "metaDescription": "Guns Guns Guns  \ud83d\udd2a",
+  "metaKeywords": null,
+  "metaTitle": "Zieh den Kopf ein | Schweizer Illustrierte",
+  "publicationDate": "2019-02-04T10:09:00",
+  "preferredUri": "/videoblogs/another-video-section/videos/3-2-1-feuer-zieh-den-kopf-ein",
+  "shortTitle": "3, 2, 1 Feuer!",
+  "teaserImage": {
+    "id": "new-aE5`E\u0027}o",
+    "image": {
+      "file": {
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/media/field_image/2019-02/pinks_tochter_willow_ubt_schiessen_mit_dem_gewehr_brightcove_video_thumb.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "title": "Zieh den Kopf ein",
+  "keywords": {
+    "edges": [
+      {
+        "node": {
+          "id": "dGF4b25vbXlfdGVy5OTI=",
+          "label": "13. Monatslohn",
+          "preferredUri": "/stichworte/1/13-monatslohn",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      },
+      {
+        "node": {
+          "id": "dGF4vbXlfdGVybTo5OTI=",
+          "label": "Immobilienmakler",
+          "preferredUri": "/stichworte/I/Immobilienmakler",
+          "__typename": "Keyword"
+        },
+        "__typename": "KeywordEdge"
+      }
+    ],
+    "__typename": "KeywordConnection"
+  },
+  "__typename": "Video"
+}

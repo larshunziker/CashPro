@@ -1,0 +1,135 @@
+.StageWrapper {
+  @mixin aspectRatio16x9;
+  margin: 0 5.5px;
+
+  /* get rid of the padding on mobile views */
+  padding: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 12.5px;
+  }
+}
+
+.Container {
+  box-shadow: 0 -10px 0 $white, 0 -11px 0 $neutralA, 0 10px 0 $white,
+    0 11px 0 $neutralA;
+  padding: 0;
+
+  @media (min-width: $smBreakpoint) {
+    background-clip: content-box;
+    background-color: $neutralG;
+    border-bottom: 1px solid $neutralA;
+    border-top: 1px solid $neutralA;
+    box-shadow: none;
+    padding: 15px 0;
+  }
+}
+
+.Wrapper {
+  background-clip: content-box;
+  background-color: $neutralG;
+  margin: 10px 0;
+  @media (min-width: $smBreakpoint) {
+    background-color: $white;
+  }
+}
+
+.Heading {
+  color: $neutralA;
+  display: inline-block;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 4.29px;
+  line-height: 1.5rem;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  text-align: center;
+  text-transform: uppercase;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    letter-spacing: 5px;
+    line-height: 1.8rem;
+  }
+}
+
+.Title {
+  composes: H2 from 'typography_old.legacy.css';
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 2.1rem;
+  margin-bottom: 8px;
+  margin-top: 4px;
+}
+
+.ShortTitle {
+  color: $neutralA;
+  display: inline-block;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+
+.Items {
+  cursor: pointer;
+
+  &:focus {
+    outline: none;
+  }
+}
+
+.ContentWrapper {
+  display: flex;
+  flex-direction: column;
+  margin-top: 12px;
+  text-align: center;
+
+  > div {
+    display: flex;
+    flex-direction: column;
+  }
+
+  @media (max-width: $smBreakpointTo) {
+    margin-top: 20px;
+
+    /* get rid of the padding on mobile views */
+    padding: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+    max-height: 310px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 408px;
+  }
+}
+
+.LeftColWrapper {
+  align-items: center;
+  overflow: hidden;
+  padding-bottom: 18px;
+
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+}
+
+.RightColWrapper {
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  justify-content: space-between;
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 30px;
+  }
+}

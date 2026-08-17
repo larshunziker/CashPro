@@ -1,0 +1,113 @@
+.Wrapper {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+
+  position: relative;
+  width: 100%;
+}
+
+.Header {
+  @media (min-width: $smBreakpoint) {
+    margin-left: $smallMargin;
+    margin-right: $smallMargin;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+}
+
+.Title {
+  composes: HeadlineXl from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+}
+
+.SubTitle {
+  composes: HeadlineSm from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+}
+
+.ShortTitle {
+  composes: TaglineXl from 'typography.legacy.css';
+
+  margin-bottom: $margin8;
+}
+
+.AdWrapper {
+  text-align: center;
+}
+
+.ArticleAlertsWrapper {
+  margin-bottom: $margin64;
+  margin-top: $margin48;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+    margin-top: $margin72;
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 0;
+    margin: $margin8 0 $margin24;
+    position: relative;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 0;
+    text-align: left;
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: Row from '@grid.legacy.css';
+  left: 0;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 auto;
+    max-width: 732px;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    @media screen {
+      padding-bottom: 70px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.AuthorDateBlock {
+  padding-bottom: $margin32;
+  padding-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    justify-content: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: $margin64;
+  }
+}

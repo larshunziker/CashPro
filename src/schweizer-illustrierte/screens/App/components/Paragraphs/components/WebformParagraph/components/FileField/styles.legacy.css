@@ -1,0 +1,13 @@
+.Wrapper {
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: Heading6 from 'typography.legacy.css';
+  margin-bottom: 8px;
+}
+
+.Description {
+  composes: FormLabelBig from 'typography.legacy.css'; 
+  margin-bottom: 36px;
+}

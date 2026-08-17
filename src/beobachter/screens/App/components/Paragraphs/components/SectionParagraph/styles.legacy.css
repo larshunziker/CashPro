@@ -1,0 +1,87 @@
+.Wrapper {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin64;
+  }
+  
+  &.MarketingPage {
+    margin-bottom: $margin32;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin64;
+    }
+  
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin80;
+    }
+  }
+}
+
+.Title {
+  composes: SubheadLG from 'typography.legacy.css';
+  color: $black;
+  margin-bottom: $margin8;
+  position: relative;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+
+    &::before {
+      bottom: -$margin8;
+    }
+  }
+
+  &.MarketingPage {
+    @mixin H2SansSerifCenter;
+    margin-bottom: $margin16;
+    text-align: center;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin24;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin16;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.GuideSectionTitle {
+  composes: Subheader from 'typography.legacy.css';
+  margin-bottom: 6px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+
+    &::before {
+      bottom: -$margin8;
+    }
+  }
+}
+
+.Link {
+  display: block;
+  width: fit-content
+}
+
+.Link:hover {
+  color: $black;
+}
+
+.LinkIndicator {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.Link:hover .LinkIndicator
+{
+  transform: translateX(3px);
+  transition-duration: 200ms
+}

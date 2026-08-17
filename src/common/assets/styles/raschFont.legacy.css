@@ -1,0 +1,214 @@
+/* stylelint-disable */
+.Icon {
+  display: inline-block;
+  font-family: $fontRaschIcon !important;
+  font-size: inherit;
+
+  /* stylelint-enable */
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-transform: none;
+}
+
+.IconUserSolid::before {
+  content: '\37a';
+}
+
+.IconChevronLeft::before {
+  content: '\21';
+}
+
+.IconChevronRight::before {
+  content: '\22';
+}
+
+.IconClock::before {
+  content: '\23';
+}
+
+.IconXMark::before {
+  content: '\24';
+}
+
+.IconDocument::before {
+  content: '\26';
+}
+
+.IconFolder::before {
+  content: '\28';
+}
+
+.IconHouse::before {
+  content: '\2a';
+}
+
+.IconEnvelope::before {
+  content: '\2d';
+}
+
+.IconMenu::before {
+  content: '\2e';
+}
+
+.IconCamera::before {
+  content: '\2f';
+}
+
+.IconPrint::before {
+  content: '\31';
+}
+
+.IconArrowRotateRight::before {
+  content: '\32';
+}
+
+.IconMagnifyingGlass::before {
+  content: '\33';
+}
+
+.IconGear::before {
+  content: '\35';
+}
+
+.IconTrash::before {
+  content: '\36';
+}
+
+.IconUser::before {
+  content: '\37';
+}
+
+.IconWarning::before {
+  content: '\38';
+}
+
+.IconTwitter::before {
+  content: '\3a';
+}
+
+.IconFacebookF::before {
+  content: '\3d';
+}
+
+.IconWhatsapp::before {
+  content: '\4e';
+}
+
+.IconNewspaper::before {
+  content: '\52';
+}
+
+.IconLocation::before {
+  content: '\62';
+}
+
+.IconWhistle::before {
+  content: '\73';
+}
+
+.IconCoins::before {
+  content: '\78';
+}
+
+.IconServices::before {
+  content: '\e930';
+}
+
+.IconCart::before {
+  content: '\7b';
+}
+
+.IconBell::before {
+  content: '\e900';
+}
+
+.IconBellOn::before {
+  content: '\e919';
+}
+
+.IconArrowLeft::before {
+  content: '\e901';
+}
+
+.IconArrowDown::before {
+  content: '\e902';
+}
+
+.IconArrowRight::before {
+  content: '\e903';
+}
+
+.IconArrowUp::before {
+  content: '\e904';
+}
+
+.IconChevronDown::before {
+  content: '\e905';
+}
+
+.IconChevronUp::before {
+  content: '\e906';
+}
+
+.IconCheck::before {
+  content: '\ea10';
+}
+
+.IconPlay::before {
+  content: '\42';
+}
+
+.IconBookOpen::before {
+  content: '\e910';
+}
+
+.IconBook::before {
+  content: '\e912';
+}
+
+.IconBookmark::before {
+  content: '\65';
+}
+
+.IconBookmarkSolid::before {
+  content: '\66';
+}
+
+.IconGuider::before {
+  content: '\e90f';
+}
+
+.IconShieldSectionMark::before {
+  content: '\e916';
+}
+
+.IconCircleExclamation::before {
+  content: '\e91b';
+}
+
+.IconTriangleExclamation::before {
+  content: '\38';
+}
+
+.IconCircleCheck::before {
+  content: '\e91d';
+}
+
+.IconCircleInfo::before {
+  content: '\e91c';
+}
+
+.IconPlusThin::before {
+  content: '\e908';
+}
+
+.IconMinusThin::before {
+  content: '\e90d';
+}

@@ -1,0 +1,49 @@
+.InnerWrapper {
+  align-items: center;
+  background-color: $greyC;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0;
+  padding: $margin32 $margin16 0 $margin16;
+  width: 100%;
+}
+
+.Text {
+  composes: ParagraphSansSerif from 'typography.legacy.css';
+  font-size: 1.8rem;
+  text-align: center;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.Icon {
+  color: $black;
+  font-size: 8rem;
+  margin: 0 auto $margin16 auto;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 auto $margin24 auto;
+  }
+}
+
+.Wrapper {
+  background: $greyC;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin56;
+  padding-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    margin-bottom: $margin40;
+  }
+}
+
+.Button {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+  margin: $margin32 auto 0 auto;
+  padding: 16px 40px;
+}

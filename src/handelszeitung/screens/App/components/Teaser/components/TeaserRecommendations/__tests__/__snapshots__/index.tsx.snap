@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with channelType: special properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="Special"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with subtypeValue: association properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="Verbandsbeitrag"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with subtypeValue: brandreport properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="BrandReport"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with subtypeValue: external properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="testLinkLabel"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with subtypeValue: longread properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="Long Read"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render badge properly with subtypeValue: seatchange properly 1`] = `
+<div
+  className="Badge"
+>
+  <Badge
+    label="Sesselwechsel"
+  />
+</div>
+`;
+
+exports[`[TeaserRecommendation] getBadgeByProps function Should render nothing if no subtypeValue or channel is set 1`] = `null`;

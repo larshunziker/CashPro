@@ -1,0 +1,449 @@
+.Header {
+  composes: Subheader from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  &.MarketingPage {
+    @mixin H2SansSerifCenter;
+  }
+
+  &.Longform {
+    @mixin H2SansSerif;
+    text-align: left;
+  }
+
+  &.Infobox {
+    @mixin InfoboxH2;
+  }
+
+  &.InfoboxGuider {
+    font-family: $fontSpezia;
+    font-size: 2.4rem;
+    font-weight: 700;
+    line-height: 2.88rem;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 2.8rem;
+      line-height: 3.36rem;
+    }
+  }
+}
+
+.RichTextWrapper {
+  composes: Paragraph from 'typography.legacy.css';
+  clear: both;
+  position: relative;
+
+  @media print {
+    text-align: justify;
+  }
+
+  table {
+    color: $black;
+    font-family: $fontSpezia;
+    font-size: 1.4rem;
+    font-weight: normal;
+    line-height: 2.6rem;
+    width: 100%;
+
+    thead {
+      color: $black;
+      font-family: $fontSpezia;
+      font-size: 1.4rem;
+      font-weight: bold;
+      line-height: 2.6rem;
+    }
+
+    th {
+      text-align: left;
+    }
+
+    td,
+    th {
+      padding: 7px;
+    }
+
+    tr {
+      &:nth-child(odd) {
+        background-color: $greyD;
+      }
+    }
+
+    /* since we have no control over <table>
+     * i assume that:
+      * - all cells of the first row have bold text
+      * - first column of the table has bold text
+      * - all other cells have Book font-weight (equivalent of 200)
+    */
+    tr:first-child > td {
+      font-weight: 400;
+    }
+
+    tr > td {
+      font-weight: 200;
+    }
+
+    tr > td:first-of-type,
+    tr > th:first-of-type {
+      font-weight: 400;
+      padding-left: $defaultPadding;
+    }
+  }
+
+  &.MarketingPage {
+    @mixin ClaimSansSerifCenter;
+  }
+
+  &.Longform {
+    @mixin ClaimSansSerifCenter;
+    text-align: left;
+  }
+
+  h2, h3, h4 {
+    color: $black;
+    font-weight: 700;
+    margin-bottom: $margin16;
+  }
+}
+
+/* Spans */
+.RichTextWrapper em {
+  font-style: italic;
+}
+
+.RichTextWrapper strong,
+.RichTextWrapper b {
+  font-weight: bold;
+}
+
+/* Blocks */
+.RichTextWrapper li {
+  /* List text style */
+  color: $black;
+  font-size: 1.8rem;
+  font-weight: 200;
+  line-height: 2.8rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+}
+
+.RichTextWrapper li:not(:last-of-type) {
+  margin-bottom: $margin16;
+}
+
+.RichTextWrapper h2 {
+  /* Subheader text style */
+  font-size: 2rem;
+  line-height: 2.8rem;
+}
+
+.RichTextWrapper h3 {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+}
+
+.RichTextWrapper h4 {
+  font-size: 1.8rem;
+  line-height: 2.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 3rem;
+  }
+}
+
+/* Links */
+.RichTextWrapper a:not(:global(.cta_button) a) {
+  @mixin RichTextLink;
+  word-break: break-word;
+
+  &:has(span[class='cta_button']) {
+    @mixin ButtonPrimaryBig;
+    display: inline-block;
+    padding: 0;
+  }
+
+  &:has(span[class='cta_button_secondary']) {
+    @mixin ButtonSecondaryBig;
+    display: inline-block;
+  }
+
+  &:has(span[class='cta_button'], span[class='cta_button_secondary']) {
+    margin-bottom: $margin16;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      width: auto;
+    }
+
+    > span {
+      background: none;
+      border: none;
+      margin: 0;
+
+      &:hover {
+        background: none;
+      }
+    }
+  }
+}
+
+/* Blockquote */
+.RichTextWrapper blockquote {
+  /* Quote text style */
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 3.4rem;
+  margin-bottom: $margin16;
+
+  p {
+    display: inline;
+  }
+}
+
+.RichTextWrapper :global(.quotesource) {
+  /* QuoteSubheader text style */
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.3rem;
+}
+
+/* Simple external link. */
+.RichTextWrapper :global(a.Link) {
+  background-color: $greyC;
+  border-bottom: 1px solid $greyB;
+}
+
+/* Links without title text (printed domains) */
+.RichTextWrapper :global(a.RawLink) {
+  background-color: $transparent;
+}
+
+/* Guider link with directional icon. */
+.RichTextWrapper :global(a.GuiderLink) {
+  background-color: $greyC;
+  border-bottom: 1px solid $greyB;
+}
+
+.RichTextWrapper :global(a.GuiderLink i.fa) {
+  margin-left: 0.3em;
+}
+
+/* Page anchor link with down arrow */
+.RichTextWrapper :global(a.AnchorLink i.fa) {
+  color: $greyC;
+  font-size: 0.9rem;
+  margin-left: 0.2rem;
+}
+
+.RichTextWrapper ul,
+.RichTextWrapper ol {
+  li {
+    /* List text style */
+    padding-left: 28px;
+    position: relative;
+
+  }
+}
+
+.RichTextWrapper :global(ul.BenefitList) {
+  li::before {
+    background-color: $transparent;
+    border-bottom: 3px solid $green;
+    border-right: 3px solid $green;
+    content: '';
+    height: 18px;
+    left: 5px;
+    position: absolute;
+    top: 2px;
+    transform: rotate(45deg);
+  }
+}
+
+.RichTextWrapper ul:not(:last-child),
+.RichTextWrapper ol:not(:last-child),
+.RichTextWrapper :global(.bullet:not(:last-child)) {
+  margin-bottom: $margin24;
+}
+
+.RichTextWrapper :global(.bullet) {
+  padding-left: 28px;
+  position: relative;
+}
+
+.RichTextWrapper ul li,
+.RichTextWrapper :global(.bullet) {
+  list-style-type: none;
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    font-family: $fontRecife;
+    font-size: 1.7rem;
+    font-weight: 700;
+    height: 10px;
+    left: 0;
+    line-height: 2.8rem;
+    position: absolute;
+    top: 14px;
+    transform: translateY(-50%);
+    width: 10px;
+
+    @media (min-width: $smBreakpoint) {
+      top: 10px;
+      transform: translateY(0);
+    }
+  }
+}
+
+.RichTextWrapper ol {
+  list-style: none;
+}
+
+.RichTextWrapper ol li {
+  counter-increment: zahler;
+  padding-left: 28px;
+
+  &::before {
+    color: $black;
+    content: counter(zahler) '.';
+    display: inline;
+    font-weight: 700;
+    left: 0;
+    position: absolute;
+    text-align: right;
+    top: 0;
+    width: 22px;
+  }
+}
+
+.RichTextWrapper hr {
+  border: solid 2px $black;
+  width: 50%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 33.3%;
+  }
+}
+
+.SponsoredArticleParagraph {
+  composes: Paragraph from 'typography.legacy.css';
+}
+
+/* TODO: crossword article are not rebrushed yet */
+.CrosswordStyle {
+  a {
+    color: $black;
+    font-family: $fontSpezia;
+    font-weight: 400;
+
+    &::after {
+      color: $redA;
+      content: '\e903';
+      display: inline-block;
+      font-family: 'rasch-font' !important; /* stylelint-disable-line */
+      font-size: 2rem;
+
+      /* Better Font Rendering =========== */
+      -moz-osx-font-smoothing: grayscale; /* stylelint-disable-line */
+      -webkit-font-smoothing: antialiased;
+      line-height: 1;
+      margin-left: $defaultMargin;
+      position: relative;
+      speak: none;
+      text-rendering: auto;
+      text-transform: none;
+      top: 3px;
+    }
+
+    &:visited {
+      color: $black;
+    }
+  }
+}
+
+.ExplainingArticle p:not(:last-child) {
+  margin-bottom: $margin24;
+}
+
+:global(.IconWord) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e922';
+  }
+}
+
+:global(.IconExcel) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e923';
+  }
+}
+
+:global(.IconPdf) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\e924';
+  }
+}
+
+:global(.IconDocument) {
+  &::before {
+    @mixin RaschIconFiles;
+    content: '\26'; /* ticket DTCPP-2162 - for other documents we will use general document icon */
+  }
+}
+
+sub {
+  line-height: 1;
+}
+
+:global(.ras-link-teaser-markup) {
+  display: none;
+}
+
+.Overflow {
+  overflow-x: auto;
+
+  &::before, &::after {
+    bottom: 0;
+    content: '';
+    position: absolute;
+    top: 0;
+    transition: opacity .1s;
+    width: 32px;
+  }
+
+  &::before {
+    background: linear-gradient(to right, $white, $transparent);
+    left: 0;
+  }
+
+  &::after {
+    background: linear-gradient(to left, $white, $transparent);
+    right: 0;
+  }
+
+  &.HideLeftShadow {
+    &::before {
+      opacity: 0;
+    }
+  }
+
+  &.HideRightShadow {
+    &::after {
+      opacity: 0;
+    }
+  }
+}

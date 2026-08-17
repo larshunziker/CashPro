@@ -1,0 +1,21 @@
+.Wrapper {
+  display: none;
+}
+
+.Link {
+  composes: InfoC from 'typography.legacy.css';
+  color: $secondaryA;
+  text-align: center;
+}
+
+.BorderRight {
+  border-right: 1px solid $greyC;
+}
+
+@media (min-width: $smBreakpoint) {
+  .Wrapper {
+    display: grid;
+    grid-template-columns: 1fr auto auto auto auto;
+    width: 100%;
+  }
+}

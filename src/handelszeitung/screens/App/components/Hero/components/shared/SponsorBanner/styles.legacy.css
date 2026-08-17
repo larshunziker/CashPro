@@ -1,0 +1,22 @@
+.InnerWrapper {
+  padding: 10px 0;
+}
+
+.SponsorLabelWrapper {
+  align-items: flex-end;
+  display: flex;
+  margin-right: 10px;
+}
+
+.Label {
+  composes: ImageParagraphMetaBlack from 'typography.legacy.css';
+}
+
+.Banner {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.InnerBanner {
+  display: flex;
+}

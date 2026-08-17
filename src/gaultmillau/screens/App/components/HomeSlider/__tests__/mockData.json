@@ -1,0 +1,121 @@
+[
+  {
+    "node": {
+      "__typename": "Article",
+      "nid": "316294",
+      "id": "bm9kZTozMTYyOTQ=",
+      "title": "Rösch und seine Schmorgerichte für zu Hause",
+      "lead": "Lammhaxen, Kalbskopfbäggli und Krustenrollbraten: Sebastian Rösch schmort Schweizer Fleisch für den Take-away.",
+      "shortTitle": "Starchefs",
+      "createDate": "2021-04-08T15:06:05",
+      "canonicalUri": "/group/1/content/337060",
+      "preferredUri": "/starchefs/rosch-und-seine-schmorgerichte-fur-zu-hause",
+      "subtypeValue": "journalistic",
+      "channel": {
+        "__typename": "Channel",
+        "id": "dGF4b25vbXlfdGVybToxNTcw",
+        "title": "Starchefs"
+      },
+      "sponsor": null,
+      "hasVideo": false,
+      "teaserImage": {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOjEzMTcwNTM6Mzk3NTQ2Mg==",
+        "caption": null,
+        "link": null,
+        "image": {
+          "__typename": "Image",
+          "id": "590710",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo1OTIxMjQ6OjE4MDAsMTIwMDpsYXJnZTo=",
+            "alt": "Sebastian Rösch Mesa Zürich",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/sebastian_rosch_mesa_zurich_1.jpg"
+          }
+        }
+      },
+      "authors": {
+        "__typename": "AuthorConnection",
+        "edges": []
+      }
+    }
+  },
+  {
+    "node": {
+      "__typename": "Recipe",
+      "nid": "314450",
+      "id": "bm9kZTozMTQ0NTA=",
+      "title": "Felchenfilet mit Kartoffeln & Morcheln ",
+      "lead": "Frühlingsgefühle! Sascha Behrendt kombiniert Frutiger Felchen und Osietra-Kaviar mit Morcheln und Bärlauch.",
+      "shortTitle": "Rezeptvideo",
+      "createDate": "2021-03-12T14:25:42",
+      "canonicalUri": "/group/1/content/335208",
+      "preferredUri": "/rezepte/felchenfilet-mit-kartoffeln-morcheln-314450",
+      "recipeType": "Main course",
+      "hasVideo": true,
+      "teaserImage": {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOm5ldy10YVVXQno0UzpuZXctdDAwdmtSR2g=",
+        "caption": "<p></p>",
+        "link": null,
+        "image": {
+          "__typename": "Image",
+          "id": "589098",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo1OTAzOTQ6OjY0MCwzNjA6bGFyZ2U6",
+            "alt": "Felchenfilet mit Osietra Kaviar by Sascha Behrendt",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/media/field_image/2021-03/felchenfilet_mit_osietra_kaviar_by_sascha_behrendt.jpg"
+          }
+        }
+      }
+    }
+  },
+  {
+    "node": {
+      "__typename": "Article",
+      "nid": "316033",
+      "id": "bm9kZTozMTYwMzM=",
+      "title": "«Dolder» im Shutdown: Nieder, Nagaya & Mai",
+      "lead": "Heiko Nieder ist neu Chef aller Restaurants im «Dolder». Die Gourmet-Offensive zahlt sich aus: Volles Haus!",
+      "shortTitle": "STARCHEFS",
+      "createDate": "2021-04-06T09:58:58",
+      "canonicalUri": "/group/1/content/336799",
+      "preferredUri": "/starchefs/dolder-im-shutdown-nieder-nagaya-mai",
+      "subtypeValue": "journalistic",
+      "channel": {
+        "__typename": "Channel",
+        "id": "dGF4b25vbXlfdGVybToxNTcw",
+        "title": "Starchefs"
+      },
+      "sponsor": null,
+      "hasVideo": false,
+      "teaserImage": {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOjEzMTU2MjQ6Mzk3MTM4Nw==",
+        "caption": null,
+        "link": null,
+        "image": {
+          "__typename": "Image",
+          "id": "590370",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo1OTE3Mjk6OjE1MDAsMTAwMDpsYXJnZTo=",
+            "alt": "Header Dolder",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/header_dolder.jpg"
+          }
+        }
+      },
+      "authors": {
+        "__typename": "AuthorConnection",
+        "edges": []
+      }
+    }
+  }
+]

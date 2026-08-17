@@ -1,0 +1,93 @@
+.Wrapper {
+  background: $grey10;
+  border-radius: $defaultRadius;
+  overflow: hidden;
+}
+
+.InnerContainer {
+  align-items: center;
+  column-gap: 32px;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: space-between;
+  row-gap: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.TextColumn {
+  composes: TaglineXl from 'typography.legacy.css';
+
+  padding-bottom: 24px;
+  padding-inline: 16px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    padding-block: 16px;
+    padding-inline: 24px 0;
+    text-align: left;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-block: 24px;
+  }
+
+  & a {
+    display: contents;
+  }
+}
+
+.ImageColumn {
+  /* empty */
+}
+
+.HeadingTitle {
+  color: $greenDark;
+  margin-bottom: $margin4;
+}
+
+.Title {
+  composes: SubheadXL from 'typography.legacy.css';
+  color: $black;
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    text-align: left;
+  }
+}
+
+.ImageWrapper {
+  height: auto;
+  max-height: 288px;
+  max-width: 288px;
+  width: auto;
+  z-index: 0;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 222px;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 222px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    max-height: 236px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 300px;
+  }
+}
+
+.CallToAction {
+  margin: $margin32 auto 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin16 0 0;
+  }
+}

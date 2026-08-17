@@ -1,0 +1,35 @@
+{
+  "id": "bm9kZTo1NDk0MDg=",
+  "nid": "549408",
+  "gcid": "572534",
+  "title": "Unsere Redaktion",
+  "lead": null,
+  "shortTitle": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "editContentUri": null,
+  "metaTitle": "Unsere Redaktion | Beobachter",
+  "metaOgTitle": "Unsere Redaktion",
+  "metaDescription": "",
+  "metaOgDescription": "",
+  "metaCanonicalUrl": "https://www.beobachter.ch/unsere-redaktion",
+  "metaKeywords": null,
+  "channel": null,
+  "teaserImage": {
+    "id": "cGFyYWdyYXBoOmltYWdlOm5ldy16NEtOTXcxbTpuZXcteTVwOFlnMjc=",
+    "caption": null,
+    "image": {
+      "id": "489391",
+      "file": {
+        "id": "ZmlsZTo0ODg2Mzg6OmhlYWRlcl8xNl85X2xhcmdlOjoxNTc2NjYwMjcw",
+        "relativeOriginPath": "/beobachter_fallback.jpg",
+        "focalPointX": 216,
+        "focalPointY": 150,
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "__typename": "ImageParagraph"
+  },
+  "__typename": "Page"
+}

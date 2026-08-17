@@ -1,0 +1,46 @@
+{
+  "title": "Test Gallery",
+  "shortTitle": "Test Gallery short",
+  "preferredUri": "/node/17568",
+  "items": [
+    {
+      "id": "173866",
+      "format": "landscape",
+      "caption": "Ein grossartiges Bild von einem Tesla. Darunter eine zu lange Caption: Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae minima culpa, qui amet eligendi soluta omnis libero facere mollitia accusantium!",
+      "image": {
+        "credit": "Test Image",
+        "file": {
+          "alt": "tesla alt tag by stephan",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/media/field_image/2017-02/2015_Tesla_Model_S_P85D_electric_supercar_2560x1600.jpg",
+          "width": 480,
+          "height": 300,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    {
+      "id": "173867",
+      "format": "landscape",
+      "caption": "Sapperlot, das ist mal ein idyllisches Dorf - macht Lust auf mehr!",
+      "image": {
+        "credit": null,
+        "file": {
+          "alt": "dorf",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/media/field_image/2017-02/dorf-footer-teaser-sionline.jpg",
+          "width": 480,
+          "height": 320,
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    }
+  ],
+  "__typename": "ImageGallery"
+}

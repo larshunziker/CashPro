@@ -1,0 +1,32 @@
+.Wrapper {
+  display: block;
+  font-size: 5.5rem;
+  height: 55px;
+  position: relative;
+  transform: translate(-50%, -48px);
+  width: 55px;
+}
+
+.OnFront {
+  z-index: $zIndexMedium;
+}
+
+.Marker {
+  composes: UnstyledButton from 'form.legacy.css';
+  font-size: inherit;
+}
+
+.MarkerIcon {
+  opacity: 0.5;
+
+  &:hover {
+    opacity: 1;
+  }
+}
+
+.Active {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+  opacity: 1;
+  position: relative;
+  z-index: 1;
+}

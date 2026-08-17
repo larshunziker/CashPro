@@ -1,0 +1,30 @@
+.Wrapper {
+  margin: $margin40 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: $margin80 0;
+  }
+}
+
+.Title {
+  composes: H3SansSerif from 'typography.legacy.css';
+}
+
+.Description {
+  composes: ParagraphSansSerif from 'typography.legacy.css';
+
+  margin-top: $margin16;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.Icon {
+  height: 72px;
+  margin-bottom: 37px;
+  max-height: 72px;
+  max-width: none;
+}
+

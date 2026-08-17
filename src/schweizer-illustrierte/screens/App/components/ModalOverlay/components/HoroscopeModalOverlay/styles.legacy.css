@@ -1,0 +1,20 @@
+.Wrapper {
+  composes: Wrapper from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+  background-color: $white;
+  color: $redA;
+  overflow: auto;
+  padding: 50px 30px 49px;
+  text-align: center;
+}
+
+.IsDifferentFlavour {
+  color: $lila;
+}
+
+.FadeIn {
+  composes: FadeIn from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}
+
+.BodyClass {
+  composes: BodyClass from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}

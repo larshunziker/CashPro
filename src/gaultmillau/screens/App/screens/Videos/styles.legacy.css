@@ -1,0 +1,119 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 60px;
+  }
+}
+
+.Header {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  text-align: center;
+}
+
+.DividerThick {
+  background-color: $neutralA;
+  clear: both;
+  height: 10px;
+  margin-bottom: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: 14px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 19px;
+  }
+}
+
+.Lead {
+  display: block;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  margin-bottom: 18px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+    margin-bottom: 36px;
+  }
+}
+
+.HeaderTitle {
+  font-family: $fontActaDisplay;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+  margin: 20px auto;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    font-size: 6.8rem;
+    line-height: 12rem;
+    margin: 3px auto 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    font-size: 10rem;
+    line-height: 12rem;
+    margin: 14px auto 20px;
+  }
+}
+
+.SocialsWrapper {
+  margin-bottom: 3px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: -3px;
+  }
+
+  .FollowUs {
+    font-family: $fontBagueSansPro;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 14px;
+    position: relative;
+    right: -2px;
+    text-align: right;
+    top: -9px;
+
+    @media (min-width: $smBreakpoint) {
+      /* width >= 760 */
+      right: -1px;
+      top: -7px;
+    }
+  }
+}
+
+.SocialLink {
+  padding-left: 21px;
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    padding: 0 2px 0 19px;
+  }
+
+  /* We need nesting here, otherwise there will be issues with the hover of linear gradients */
+  & .GradientInner {
+    fill: $neutralA;
+  }
+
+  &:hover .GradientInner {
+    fill: $primaryB;
+  }
+}
+
+.Gradient {
+  /* We need that for the IDs that we use for the linear gradient hovers! */
+}

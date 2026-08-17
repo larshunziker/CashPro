@@ -1,0 +1,75 @@
+.ImageContainer {
+  composes: Container from '@grid.legacy.css';
+
+  @media (max-width: $xsBreakpointTo) {
+    width: 100%;
+  }
+}
+
+.BackgroundImageWrapper {
+  display: block;
+  height: 60px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: 0;
+
+    /* 10:1 aspect ratio */
+    padding-bottom: calc(100% / 10);
+    width: 100%;
+  }
+}
+
+.BackgroundImage {
+  background: $grayPlaceholder;
+  background-position: center center;
+  background-size: cover;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.PartnerLogo {
+  height: 100%;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  width: auto;
+}
+
+.Caption {
+  composes: BreadcrumbsWords from 'typography.legacy.css';
+  display: block;
+  margin-bottom: $margin8;
+  margin-top: 2px;
+  white-space: pre;
+
+  strong,
+  b {
+    font-weight: bold;
+  }
+
+  em,
+  i {
+    font-style: italic;
+  }
+
+  :global(.catchquestion) {
+    font-weight: 900;
+    text-transform: uppercase;
+  }
+
+  a {
+    @mixin InlineHover;
+    border-bottom: 1px solid;
+    color: $inherit;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}

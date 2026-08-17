@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] HomeSlider Should render correctly with given props 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="SliderAndNavigationWrapper"
+    >
+      <div
+        style="overflow-x: hidden;"
+      >
+        <div
+          class="react-swipeable-view-container"
+          style="flex-direction: row; transition: all 0s ease 0s; direction: ltr; display: flex; will-change: transform; width: 100%;"
+        >
+          <div
+            aria-hidden="false"
+            data-swipeable="true"
+            style="width: 100%; flex-shrink: 0; overflow: auto;"
+          />
+        </div>
+      </div>
+      <div
+        class="NavigationWrapper"
+      >
+        <button
+          class="PrevButton"
+          title="previous"
+        >
+          <i
+            class="Icon IconChevronLeft"
+          />
+        </button>
+        <button
+          class="NextButton"
+          title="next"
+        >
+          <i
+            class="Icon IconChevronRight"
+          />
+        </button>
+      </div>
+    </div>
+    <div
+      class="HiddenSmUp"
+    >
+      <div
+        class="Caption"
+        data-testid="empty-link"
+      >
+        <div
+          class="Type Default"
+        />
+        <div
+          class="Title"
+        >
+          <span />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] HomeSlider Should render nothing if there are no teaser 1`] = `<div />`;

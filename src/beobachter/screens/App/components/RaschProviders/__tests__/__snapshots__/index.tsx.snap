@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] RaschProviders Should match snapshot 1`] = `
+<div>
+  <div
+    data-testid="mocked-app-setup"
+  />
+  <div
+    data-testid="mocked-appnexus-provider"
+  />
+  <div
+    data-testid="mocked-auth0-provider"
+  />
+  <div
+    data-testid="mocked-background-fetch-provider"
+  />
+  <div
+    data-testid="mocked-piano-provider"
+  />
+  <div
+    data-testid="mocked-onesignalprovider"
+  />
+  <div
+    data-testid="mocked-performance-measure-provider"
+  />
+  <div
+    data-testid="mocked-tealium-provider"
+  />
+</div>
+`;

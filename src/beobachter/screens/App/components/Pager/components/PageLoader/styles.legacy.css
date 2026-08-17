@@ -1,0 +1,75 @@
+.Wrapper {
+  composes: Unselectable from 'helpers.legacy.css';
+  display: flex;
+  justify-content: space-between;
+  margin-block: 40px 50px;
+  text-align: center;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-block: 64px;
+  }
+}
+
+.PageLink {
+  composes: MetaXl from 'typography.legacy.css';
+  color: $grey70;
+  cursor: pointer;
+  padding: 5px 10px;
+  transition: color 0.3s, background-color 0.3s;
+
+  &:hover {
+    background-color: $colorMail;
+    color: $white;
+  }
+}
+
+.PagerPlaceholder {
+  display: inline;
+}
+
+.PrevButton,
+.NextButton {
+  padding: 3px 0;
+
+  &:hover {
+    .Icon {
+      color: $white;
+    }
+  }
+}
+
+.Disabled {
+  cursor: not-allowed;
+}
+
+.Icon {
+  color: $grey70;
+  font-size: 2.8rem;
+  line-height: 3.3rem;
+  margin-top: -10px;
+  position: relative;
+  top: 8px;
+  transition: color 0.3s;
+}
+
+.ActiveItem {
+  color: $red;
+  font-weight: 700;
+}
+
+@media (min-width: $smBreakpoint) {
+  .PageLink {
+    font-size: 1.5rem;
+    padding: 10px 20px;
+  }
+
+  .PrevButton,
+  .NextButton {
+    padding: 10px;
+  }
+}

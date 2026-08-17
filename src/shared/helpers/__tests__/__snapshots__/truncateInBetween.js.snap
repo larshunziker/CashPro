@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 1`] = `"tagesanzeiger.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 2`] = `"blog.ta...ger.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 3`] = `"blog.tag...er.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 4`] = `"wettbew...eiz.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 5`] = `"wettbewerbsforumschweiz.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 6`] = `"forum.b...ter.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 7`] = `"forum.b-ter.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 8`] = `"ringier...ger.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 9`] = `"ringier...ger.ch"`;
+
+exports[`[Function] truncateInBetween Should return the correctly truncated text 10`] = `"schweiz...rte.ch"`;

@@ -1,0 +1,55 @@
+{
+  "rankingList": {
+    "anchorId": null,
+    "rankings": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTY5Ng==",
+            "preferredUri": "https://www.bilanz.ch/digital-shapers-ranking-pascal",
+            "rankingType": "digital_shapers",
+            "teaserImage": {
+              "id": "187091",
+              "image": {
+                "file": {
+                  "alt": "colors",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/colors_0.jpeg"
+                }
+              },
+              "__typename": "ImageParagraph"
+            },
+            "title": "Digital Shapers Ranking Pascal",
+            "__typename": "Ranking"
+          },
+          "__typename": "RankingEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTf5Ng==",
+            "preferredUri": "https://www.bilanz.ch/digital-shapers-ranking-pascal",
+            "rankingType": "digital_shapers",
+            "teaserImage": {
+              "id": "187092",
+              "image": {
+                "file": {
+                  "alt": "colors",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/colors_0.jpeg"
+                }
+              },
+              "__typename": "ImageParagraph"
+            },
+            "title": "Digital Shapers Ranking Pascal",
+            "__typename": "Ranking"
+          },
+          "__typename": "RankingEdge"
+        }
+      ],
+      "__typename": "RankingConnection"
+    },
+    "__typename": "RankingListParagraph"
+  }
+}

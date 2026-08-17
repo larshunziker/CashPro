@@ -1,0 +1,148 @@
+.ExpansionPanel {
+  position: relative;
+
+  &:not(.IsOpen) {
+    .ArrowIcon {
+      transform: rotate(180deg);
+    }
+  }
+
+  &.IsOpen {
+    background-color: $grey20;
+
+    > .Header .HeaderContentWrapper {
+      border-bottom: none;
+    }
+  }
+
+  .ExpansionPanel .Title {
+    font-weight: 400;
+  }
+}
+
+.Header {
+  align-items: center;
+  color: $grey90;
+  cursor: pointer;
+  display: flex;
+  outline: none;
+  padding-inline: 19px;
+  position: relative;
+  transition: transform .25s ease-in-out;
+  user-select: none;
+  width: 100%;
+}
+
+.HeaderContentWrapper {
+  align-items: center;
+  border-bottom: 1px solid $grey30;
+  display: flex;
+  height: 50px;
+  width: 100%;
+}
+
+.LinkWrapper {
+  flex: 1;
+
+  &:hover {
+    span {
+      border-color: $black;
+    }
+
+    .BeratungTitle {
+      border-color: $green;
+    }
+
+    .CommunityTitle {
+      border-color: $blue;
+    }
+  }
+}
+
+.ToggleWrapper {
+  align-items: center;
+  border-left: $greyB 1px solid;
+  display: flex;
+  height: 25.2px;
+  outline: none;
+  padding-left: 8px;
+
+}
+
+.Icon {
+  color: $grey80;
+  transition: color .3s ease-in-out;
+
+  &:hover {
+    color: $black;
+  }
+
+  &::before {
+    display: inline-block;
+    font-family: $fontRaschIcon;
+    font-size: 1.9rem;
+  }
+
+  &.ArrowIcon {
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    right: 0;
+    transform: rotate(0deg);
+    transition: transform .3s ease-in-out, opacity .3s ease-in-out;
+
+    &::before {
+      content: '\e906';
+    }
+  }
+}
+
+.Content {
+  height: 0;
+  overflow: hidden;
+  padding-left: 19px;
+  position: relative;
+
+  .Header, .Content {
+    padding-left: 16px;
+  }
+}
+
+.Title {
+  border-bottom: 1px solid transparent;
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 25.2px;
+  position: relative;
+  transition: border-color .3s ease-in-out;
+
+  &.MagazinTitle {
+    color: $black;
+  }
+
+  &.BeratungTitle {
+    color: $green;
+  }
+
+  &.CommunityTitle {
+    color: $blue;
+  }
+
+  &.EditionTitle {
+    color: $petrol;
+  }
+}
+
+.ThemeDark {
+  .Title {
+    color: $white;
+  }
+
+  .Icon {
+    &::before {
+      color: $white;
+    }
+  }
+}

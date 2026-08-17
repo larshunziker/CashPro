@@ -1,0 +1,162 @@
+.Overlay {
+  background: $white;
+  border: 1px solid $neutralB;
+  bottom: calc(100% + 15px);
+  color: $neutralA;
+  left: 50%;
+  min-width: 280px;
+  padding: 32px 32px 16px;
+  position: absolute;
+  transform: translateX(-50%);
+  z-index: 1;
+
+  &::after,
+  &::before {
+    border: solid $transparent;
+    content: '';
+    height: 0;
+    left: 50%;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    width: 0;
+  }
+
+  &::after {
+    border-color: $white $transparent $transparent;
+    border-width: 15px;
+    margin-left: -15px;
+  }
+
+  &::before {
+    border-color: $neutralB $transparent $transparent;
+    border-width: 16px;
+    margin-left: -16px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    min-width: 340px;
+    padding: 32px 32px 16px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-width: 620px;
+  }
+}
+
+.NoImageUrl {
+  @media (min-width: $mdBreakpoint) {
+    min-width: 340px;
+  }
+}
+
+.Close {
+  composes: UnstyledButton from 'form.legacy.css';
+  font-size: 1.8rem;
+  margin: 8px;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.Content {
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+}
+
+.ImageLink {
+  display: none;
+  margin: 0 0 20px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    flex-shrink: 0;
+    margin-right: 32px;
+  }
+}
+
+.Image {
+  composes: GoldenGradientPseudo from 'gmHelpers.legacy.css';
+  height: 200px;
+  margin: 0 auto 10px;
+  position: relative;
+  width: 200px;
+
+  &::after {
+    content: '';
+    display: block;
+    height: 10px;
+    left: 0;
+    position: absolute;
+    top: 100%;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 280px;
+  }
+}
+
+.Details {
+  flex-grow: 1;
+  font: 1rem/1.4 $fontBagueSansPro;
+  text-align: center;
+}
+
+.Hat {
+  color: $error;
+  font-size: 3.5rem;
+  margin: 0 0 10px;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4.5rem;
+  }
+}
+
+.Category {
+  composes: TextGoldGradient from 'gmHelpers.legacy.css';
+  font-weight: 900;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+
+.Name {
+  font: 800 2rem/1 $fontActaHeadline;
+}
+
+.NameLink {
+  color: $neutralA;
+}
+
+.Address,
+.SecondaryName {
+  margin: 7px 0 0;
+}
+
+.Text {
+  display: block;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: calc(14 / 12);
+  text-align: center;
+}
+
+.Meta {
+  margin: 10px 0 0;
+}
+
+.Icon {
+  composes: TextHoverGoldGradient from 'gmHelpers.legacy.css';
+  color: $neutralA;
+  font-size: 3rem;
+  padding: 2px;
+
+  &:hover {
+    color: $neutralA;
+    opacity: 1;
+  }
+}

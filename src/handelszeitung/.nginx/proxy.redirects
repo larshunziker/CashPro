@@ -1,0 +1,51 @@
+# search screen
+if ($args ~ "search=(.*)") {
+  set $search $1;
+  rewrite ^/suche?$ https://$host/suche/$search? permanent;
+}
+
+# images redirects for google image search
+rewrite ^/sites/handelszeitung.ch/files/imagecache/([^/]*)/(.*)$ https://cdn.handelszeitung.ch/sites/default/files/styles/16x9_1130/public/hz-files/files/$2 permanent;
+rewrite ^/sites/handelszeitung.ch/files/(.*)$ https://cdn.handelszeitung.ch/sites/default/files/hz-files/files/$1 permanent;
+
+# RSS
+rewrite ^/xml/frontpage/10/365$ /rss_feed permanent;
+
+# Favicon
+rewrite ^/core/misc/favicon.ico /favicon.ico permanent;
+
+# Old backlinks
+rewrite ^/artikel/Unternehmen-Vartan-Sirmakes-Luigi-Macaluso-Mit-Kompetenz-geht-alles-seinen-richtigen-Weg__100214.html / permanent;
+rewrite ^/artikel/Unternehmen-Geheimprotokoll-des-Gardisten_836121.html /unternehmen/geheimprotokoll-des-gardisten permanent;
+rewrite ^/artikel/Unternehmen-Ein-alter-Rechtshaendel-endlich-beigelegt_305136.html /unternehmen/ein-alter-rechtshaendel-endlich-beigelegt permanent;
+rewrite ^/artikel/Unternehmen-Evolva-_Serientaeter_-zieht-nach-Basel__43086.html /unternehmen/evolva-ist-weit-von-gewinnzone-entfernt permanent;
+rewrite ^/artikel/(.*).html$ / permanent;
+rewrite ^/de/index_news.asp$ / permanent;
+rewrite ^/konjunktur/schweizer-exporte-im-hohenflug.$ /konjunktur/schweizer-exporte-im-hohenflug permanent;
+rewrite ^/de/index.asp$ / permanent;
+
+# images redirects for google image search (BIL)
+rewrite ^/sites/bilanz.ch/files/(.*)$ https://cdn.handelszeitung.ch/sites/default/files/bz-files/files/$1 permanent;
+
+# HZ and BIL
+location ~ ^/jstats.php$ {
+    return 404;
+}
+
+# BIL RSS
+rewrite ^/xml/frontpage/10/365$ /rss_feed permanent;
+
+# HZ old flipboard feeds
+rewrite ^/feeds/flipboard/invest$ /feeds/flipboard/geld permanent;
+rewrite ^/feeds/flipboard/management$ /feeds/flipboard/beruf permanent;
+rewrite ^/feeds/flipboard/digital-switzerland$ /feeds/flipboard/tech permanent;
+
+# Ads.txt
+rewrite ^/ads.txt https://adm-adstxt.s3.eu-central-1.amazonaws.com/handelszeitung_ch/ads.txt permanent;
+
+# Subscriptions
+rewrite ^/abonnements https://shop.handelszeitung.ch/abo-angebote?promo_name=abobutton&promo_position=header permanent;
+rewrite ^/bilanz/abonnements https://shop.bilanz.ch/abo-angebote?promo_name=abobutton&promo_position=header permanent;
+
+# Redirect to new Bilanz
+rewrite ^/(bilanz.*)$ https://www.bilanz.ch/$1 permanent;

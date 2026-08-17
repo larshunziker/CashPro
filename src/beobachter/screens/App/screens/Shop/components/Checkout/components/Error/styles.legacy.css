@@ -1,0 +1,3 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+}

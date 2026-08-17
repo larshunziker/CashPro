@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] BlogLead Should render nothing if there is no node 1`] = `<div />`;

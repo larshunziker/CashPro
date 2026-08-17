@@ -1,0 +1,65 @@
+.Wrapper {
+  display: block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+}
+
+.ShortTitle {
+  margin-bottom: $margin4;
+}
+
+.Title {
+  composes: Title from '../../shared/defaultStyles.legacy.css'
+}
+
+.Lead {
+  composes: Lead from '../../shared/defaultStyles.legacy.css'
+}
+
+.ContentWrapper {
+  display: block;
+  padding-top: 16px;
+  position: relative;
+  text-align: center;
+}
+
+.ContentWrapperRestaurant {
+  padding-top: 8px;
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: 12px;
+  }
+}
+
+.ImageWrapper {
+  display: block;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  @mixin transitionTeaser;
+
+  &:hover {
+    @mixin scaleTeaser;
+  }
+}
+
+.PlayIcon {
+  composes: PlayIcon from '../../shared/defaultStyles.legacy.css'
+}
+
+.SkeletonShortTitle, .SkeletonTitle  {
+  background: $grayPlaceholder;
+  border-radius: 3px;
+  height: 20px;
+  margin: 0 auto $defaultMargin;
+  width: 85%;
+}
+
+.SkeletonTitle {
+  height: 25px;
+  width: 80%;
+}

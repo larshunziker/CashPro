@@ -1,0 +1,145 @@
+{
+  "ministageParagraph": {
+    "ministage": {
+      "name": "Sponsor Logo Box",
+      "headline": "This is a Sponsor Logo Box",
+      "subhead": "subhead",
+      "items": {
+        "edges": [
+          {
+            "node": {
+              "__typename": "Sponsor",
+              "id": "bm9kZTo1MDQzOA==",
+              "title": "Leontech",
+              "preferredUri": "/leontech-52011",
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIxNjI5MDoyOTc3ODI=",
+                "image": {
+                  "id": "70795",
+                  "file": {
+                    "id": "ZmlsZTo3MjAwOTo6MjIwLDUzOjo=",
+                    "relativeOriginPath": "/media/field_image/2022-04/leontech_logo_0.jpg",
+                    "alt": "leontech_logo",
+                    "focalPointX": 220,
+                    "focalPointY": 53,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "body": []
+            },
+            "__typename": "NodeInterfaceEdge"
+          },
+          {
+            "node": {
+              "__typename": "Sponsor",
+              "id": "bm9kZTo1MDM1NA==",
+              "title": "Vontobel",
+              "preferredUri": "/vontobel-51924",
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIxNjExNzoyOTY5MTI=",
+                "image": {
+                  "id": "70783",
+                  "file": {
+                    "id": "ZmlsZTo3MTk3Njo6MTEwLDI3Ojo=",
+                    "relativeOriginPath": "/media/field_image/2022-03/vontobel.jpg",
+                    "alt": "vontobel",
+                    "focalPointX": 110,
+                    "focalPointY": 27,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "body": []
+            },
+            "__typename": "NodeInterfaceEdge"
+          },
+          {
+            "node": {
+              "__typename": "Sponsor",
+              "id": "bm9kZTo1MDQwMg==",
+              "title": "Credit Suisse",
+              "preferredUri": "/credit-suisse-51973",
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE4NjoyOTczNTc=",
+                "image": {
+                  "id": "70785",
+                  "file": {
+                    "id": "ZmlsZTo3MTk5Nzo6MTI4MCwyODY6Og==",
+                    "relativeOriginPath": "/media/field_image/2022-03/credit_suisse_logo_0.jpg",
+                    "alt": "Credit Suisse logo",
+                    "focalPointX": 1280,
+                    "focalPointY": 286,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "body": []
+            },
+            "__typename": "NodeInterfaceEdge"
+          },
+          {
+            "node": {
+              "__typename": "Sponsor",
+              "id": "bm9kZTo1MDQwNw==",
+              "title": "iShares",
+              "preferredUri": "/ishares-51977",
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIxNjIwMToyOTc0MzA=",
+                "image": {
+                  "id": "70787",
+                  "file": {
+                    "id": "ZmlsZTo3MjAwMDo6MTAwMCwzNzE6Og==",
+                    "relativeOriginPath": "/media/field_image/2022-03/ishares-logo.png",
+                    "alt": "ishares-logo",
+                    "focalPointX": 1000,
+                    "focalPointY": 371,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "body": []
+            },
+            "__typename": "NodeInterfaceEdge"
+          },
+          {
+            "node": {
+              "__typename": "Sponsor",
+              "id": "bm9kZTo1MDQzNw==",
+              "title": "UBS",
+              "preferredUri": "/ubs-52010",
+              "teaserImage": {
+                "id": "cGFyYWdyYXBoOmltYWdlOjIxNjI4OToyOTc3ODE=",
+                "image": {
+                  "id": "70793",
+                  "file": {
+                    "id": "ZmlsZTo3MjAwNzo6MTM0LDI3Ojo=",
+                    "relativeOriginPath": "/media/field_image/2022-04/ubs_logo.jpg",
+                    "alt": "ubs_logo",
+                    "focalPointX": 134,
+                    "focalPointY": 27,
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "body": []
+            },
+            "__typename": "NodeInterfaceEdge"
+          }
+        ],
+        "__typename": "NodeInterfaceConnection"
+      },
+      "__typename": "MinistageLogoBox"
+    }
+  }
+}

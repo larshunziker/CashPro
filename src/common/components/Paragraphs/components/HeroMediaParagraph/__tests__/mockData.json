@@ -1,0 +1,27 @@
+{
+  "entry": {
+    "id": "203427",
+    "shortTitle": "Short Title",
+    "title": "This is the Marketing Page",
+    "subTitle": "get more money",
+    "lead": "Der Begriff Akne bezeichnet per Definition eine vorwiegend in der Jugend auftretende, in der Regel harmlose Erkrankung der Haut, bei der sich Pickel, Pusteln und Mitesser (Komedonen) bilden. Dies ist die Folge einer übermässigen Sekretbildung der Talgdrüsen, wodurch diese verstopfen und sich nachfolgend entzünden.",
+    "body": [
+      {
+        "id": "203426",
+        "image": {
+          "credit": "Handelszeitung",
+          "file": {
+            "alt": "Cash",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/cash.jpg",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "__typename": "HeroMediaParagraph"
+  }
+}

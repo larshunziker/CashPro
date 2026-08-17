@@ -1,0 +1,8 @@
+.Wrapper {
+  gap: 24px;
+  margin: 0;
+
+  @media (min-width: $smBreakpoint) {
+    gap: 0;
+  }
+}

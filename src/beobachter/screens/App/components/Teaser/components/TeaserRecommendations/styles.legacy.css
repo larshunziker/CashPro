@@ -1,0 +1,136 @@
+.Wrapper {
+  display: flex;
+  letter-spacing: 0;
+  margin-bottom: $margin16;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-bottom: 0;
+  }
+}
+
+.ImageWrapper {
+  align-items: flex-start;
+  background: $greyC;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 0;
+  margin-right: 5%;
+  position: relative;
+  width: 30%;
+  
+  @media (min-width: $xsBreakpointTo) {
+    align-items: center;
+    float: left;
+    margin-bottom: $margin8;
+    width: 100%;
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  margin: 0;
+  width: 100%;
+}
+
+.PaidArticleBadge {
+  height: 22px;
+  position: absolute;
+  right: 2px;
+  top: -3px;
+  width: 60px;
+  
+  @media (max-width: $xsBreakpointTo) {
+    right: -5px;
+    top: -5px;
+    width: 32px;
+  }
+}
+
+.TeaserText {
+  min-height: 88px;
+
+  @media (max-width: $xsBreakpointTo) {
+    float: right;
+    width: 65%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 94px;
+  }
+}
+
+.TeaserTitle {
+  composes: TeaserTitleH4 from 'typography.legacy.css';
+}
+
+.ShortTitle {
+  composes: SpitzmarkeMeistgelesenSmall from 'typography.legacy.css';
+  margin-bottom: 6px;
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+  display: flex;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: column;
+    width: initial;
+  }
+
+  .ImageWrapper {
+    background: $greyB;
+    border-radius: 3px;
+
+    > img {
+      height: 100%;
+      visibility: hidden;
+      @media (min-width: $smBreakpoint) {
+        height: auto;
+      }
+    }
+  }
+}
+
+.SkeletonContentWrapper {
+  height: 100%;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: 112px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    height: 91;
+  }
+}
+
+.SkeletonShortTitle,
+.SkeletonTitle {
+  background: $greyB;
+  border-radius: 3px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+}
+
+.SkeletonShortTitle {
+  max-width: 120px;
+  top: 0;
+  width: calc(100% - 70px);
+}
+
+.SkeletonTitle {
+  height: 30px;
+  max-width: 200px;
+  top: 30px;
+  width: calc(100% - 20px);
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

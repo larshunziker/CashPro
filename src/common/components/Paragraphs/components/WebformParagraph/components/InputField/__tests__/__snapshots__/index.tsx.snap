@@ -1,0 +1,120 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InputField factory Should render a checkbox input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateTransparentTextClassName"
+  >
+    <div
+      class="RowClassName OptionWrapperClassName"
+    >
+      <div
+        class="OptionClassName"
+      >
+        <input
+          class="InputClassName"
+          id=""textfield""
+          name=""textfield""
+          type="checkbox"
+          value=""
+        />
+        <span />
+      </div>
+      <label
+        class="LabelsColumnsClassName LabelsClassName"
+        for=""textfield""
+      >
+        <div
+          class="RequiredClassName"
+        >
+          "E-Mail Adresse"
+        </div>
+      </label>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField factory Should render a date input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateWrapperClassName InputDateTransparentTextClassName"
+  >
+    <input
+      class="InputClassName"
+      id=""textfield""
+      maxlength="255"
+      name=""textfield""
+      placeholder=""E-Mail Adresse""
+      type="date"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField factory Should render a email input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateTransparentTextClassName"
+  >
+    <input
+      class="InputClassName"
+      id=""textfield""
+      maxlength="255"
+      name=""textfield""
+      placeholder=""E-Mail Adresse""
+      type="email"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField factory Should render a hidden input field 1`] = `<div />`;
+
+exports[`[Component] InputField factory Should render a number input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateTransparentTextClassName"
+  >
+    <input
+      class="InputClassName"
+      id=""textfield""
+      maxlength="255"
+      name=""textfield""
+      placeholder=""E-Mail Adresse""
+      type="number"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField factory Should render a textarea input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateTransparentTextClassName"
+  >
+    <div />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField factory Should render a textfield input field 1`] = `
+<div>
+  <div
+    class="WrapperClassName InputDateTransparentTextClassName"
+  >
+    <input
+      class="InputClassName"
+      id=""textfield""
+      maxlength="255"
+      name=""textfield""
+      placeholder=""E-Mail Adresse""
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;

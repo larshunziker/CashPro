@@ -1,0 +1,215 @@
+.Wrapper {
+  position: relative;
+  width: 100%;
+  z-index: $zIndex100;
+}
+
+.ActionIcon {
+  font-size: 3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4.5rem;
+  }
+}
+
+.ResetIcon {
+  composes: TextButton from 'helpers.legacy.css';
+  bottom: 0;
+  cursor: pointer;
+  font-size: 3rem;
+  height: 30px;
+  position: absolute;
+  right: 35px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 10px;
+    font-size: 4rem;
+    height: 40px;
+    right: 50px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 7px;
+    height: 45px;
+    right: 55px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 10px;
+  }
+}
+
+.SearchInputWrapper {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.SearchInput::-ms-clear,
+.SearchInput::-ms-reveal {
+  display: none;
+  height: 0;
+  width: 0;
+}
+
+.SearchInput::-webkit-search-decoration,
+.SearchInput::-webkit-search-cancel-button,
+.SearchInput::-webkit-search-results-button,
+.SearchInput::-webkit-search-results-decoration {
+  -webkit-appearance: none; /* stylelint-disable-line property-no-vendor-prefix */
+  display: none;
+}
+
+.SearchButton,
+.ResetIcon {
+  color: $blackB;
+  margin-top: $margin4;
+  
+  &:hover {
+    background-color: $transparent;
+    opacity: 0.8;
+  }
+}
+
+.SearchInput {
+  composes: Input from 'form.legacy.css';
+  background: $transparent;
+  color: $greyB;
+  font-family: $fontGothamBook;
+  font-size: 2.1rem;
+  font-weight: 300;
+  height: auto;
+  letter-spacing: -0.1px;
+  margin-bottom: 0;
+  margin-right: $margin8;
+  opacity: 1;
+  width: 100%;
+
+  &:focus {
+    outline: none;
+  }
+
+  &::placeholder {
+    color: $greyB;
+    opacity: 0.7;
+    text-indent: 5px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 5.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 6rem;
+  }
+}
+
+.SearchButton {
+  background-color: $transparent;
+  border: none;
+  cursor: pointer;
+  opacity: 0.4;
+  padding: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin16;
+  }
+}
+
+.SearchButtonActive {
+  opacity: 1;
+}
+
+.WrapperWhite {
+  .SearchInput {
+    color: $white;
+
+    &::placeholder {
+      color: $white;
+    }
+  }
+
+  .SearchButton,
+  .ResetIcon {
+    color: $white;
+  }
+}
+
+.NavigationWrapper {
+  .SearchInputWrapper {
+    background-color: $white;
+    height: 39px;
+    padding-left: 5px;
+    padding-right: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 48px;
+      padding-left: 14px;
+      padding-right: 14px;
+    }
+  }
+
+  .SearchInput {
+    color: $blackA;
+    font-size: 15px;
+    margin-right: $margin32;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 20px;
+      margin-right: 45px;
+    }
+
+    &::placeholder {
+      color: $greyB;
+      text-indent: 0;
+    }
+  }
+
+  .SearchButton {
+    color: $greyB;
+    height: 100%;
+    margin-top: 0;
+    position: absolute;
+    right: 0;
+    transition: background-color 0.3s ease-in;
+    width: 48px;
+
+    &:hover {
+      background-color: $greyA;
+      opacity: 1;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 0;
+    }
+  }
+
+  .ActionIcon,
+  .ResetIcon {
+    font-size: 2.2rem;
+  }
+
+  .ResetIcon {
+    color: $greyB;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 0;
+      margin-right: 12px;
+      right: 45px;
+      top: 9px;
+
+      &:hover {
+        color: $greyA;
+      }
+    }
+  
+  }
+}

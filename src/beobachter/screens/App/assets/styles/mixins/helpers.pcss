@@ -1,0 +1,15 @@
+@define-mixin sectionDefaultMargin {
+  margin-bottom: $sectionParagraphMarginXs;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $sectionParagraphMarginLg;
+  }
+}
+
+@define-mixin sectionDefaultMarginTop {
+  margin-top: $sectionParagraphMarginXs;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $sectionParagraphMarginLg;
+  }
+}

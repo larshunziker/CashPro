@@ -1,0 +1,118 @@
+.Label {
+  composes: FormLabelBigBlackC from 'typography.legacy.css';
+  cursor: pointer;
+  left: 12px;
+  margin: $margin16 $margin12 0 0;
+  pointer-events: none;
+  position: absolute;
+  transform: translate(0, 0);
+  transform-origin: left;
+  transition: transform 0.3s, font-size 0.3s;
+}
+
+.LabelAbove {
+  display: inline-block;
+  font-size: 1.2rem;
+  overflow: hidden;
+  right: 0;
+  text-overflow: ellipsis;
+  transform: translate(0, -10px);
+  white-space: nowrap;
+
+  &.HasError {
+    animation: LabelAboveShakingEffectAnimation 0.2s 0.4s;
+    color: $redC;
+  }
+}
+
+.Row {
+  composes: Row from 'MultiField/styles.legacy.css';
+}
+
+.LabelsColumns {
+  width: calc(100% - 40px);
+}
+
+.ActiveCheckbox {
+  composes: ActiveCheckbox from 'MultiField/styles.legacy.css';
+}
+
+.InputDateTransparentText {
+  & > input {
+    color: $transparent;
+
+    &::-webkit-datetime-edit-text {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-month-field {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-day-field {
+      color: $transparent;
+    }
+
+    &::-webkit-datetime-edit-year-field {
+      color: $transparent;
+    }
+
+    &::-webkit-calendar-picker-indicator {
+      color: $grey70;
+    } 
+  }  
+}
+
+.InputDateWrapper {
+  & > input {
+    appearance: none;
+    display: inline-block;
+    padding: 24px 12px 6px;
+
+    &:focus,
+    &:active {
+      color: $black;
+
+      &::-webkit-calendar-picker-indicator {
+        color: $black;
+      }
+
+      &::-webkit-datetime-edit-text {
+        color: $black;
+      }
+
+      &::-webkit-datetime-edit-month-field {
+        color: $black;
+      }
+
+      &::-webkit-datetime-edit-day-field {
+        color: $black;
+      }
+
+      &::-webkit-datetime-edit-year-field {
+        color: $black;
+      }
+    }
+  }  
+}
+
+.ErrorMessage,
+.HelperText {
+  padding-left: 12px;
+}
+
+.HelperCheckboxText {
+  padding-left: 0;
+}
+
+/* Without the !impportant webpack is overwriting this class. */
+.CheckmarkIcon {
+  color: $white;
+  font-size: 20px !important; /* stylelint-disable-line */
+  font-weight: 900 !important; /* stylelint-disable-line */
+  margin: 3px 0 0 -22px;
+  pointer-events: none;
+  position: absolute;
+}
+
+@mixin LabelAboveShakingEffectAnimation;

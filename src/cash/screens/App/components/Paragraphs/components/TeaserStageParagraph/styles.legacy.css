@@ -1,0 +1,37 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  padding: $margin8 $margin16;
+}
+
+.SectionTitle {
+  margin-bottom: $margin12;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  &.RandomizedList {
+    padding: 0;
+  }
+}
+
+.TitleLink {
+  composes: ChannelTitle from 'typography.legacy.css';
+  display: block;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  &.MarketingPage {
+    @mixin H2;
+    margin-bottom: $margin32;
+    @media (min-width: $smBreakpoint) {
+      text-align: center;
+    }
+  }
+
+  &.RandomizedList {
+    @mixin BoxTitle;
+  }
+}

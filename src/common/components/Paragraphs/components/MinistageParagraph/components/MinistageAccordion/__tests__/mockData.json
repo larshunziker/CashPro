@@ -1,0 +1,85 @@
+{
+  "ministageParagraph": {
+    "ministage": {
+      "sections": [
+        {
+          "title": "Was ist «Beobachter+»?",
+          "body": [
+            {
+              "id": "192180",
+              "anchorId": null,
+              "header": null,
+              "text": "<p>Beobachter+ ist das digitale Abonnement des Beobachters. Als Abonnent erhalten Sie unlimitierten Zugang zu beobachter.ch und können so auf exklusive Inhalte zugreifen, die die Beobachter-Qualitäten in besonderem Mass verkörpern – lange Recherchen und Titelthemen, aber auch Ratgeber-Artikel mit der geballten Kompetenz des Beratungszentrums. Zudem werden Ihnen alle Ausgaben des Beobachters als ePaper zur Verfügung gestellt. Redaktionelle Newsletters informieren Sie über die neuesten Themen.</p>\n",
+              "characterCount": 493,
+              "isLastOfGroup": true,
+              "styleValue": null,
+              "__typename": "TextParagraph"
+            },
+            {
+              "id": "192303",
+              "anchorId": null,
+              "header": null,
+              "text": "<p>jemand, der etwas oder jemanden beobachtet</p>\n\n<dl>\n\t<dt>BEISPIELE</dt>\n\t<dd>\n\t<ul>\n\t\t<li>ein heimlicher Beobachter</li>\n\t\t<li>politischen Beobachtern fiel auf, dass …</li>\n\t</ul>\n\t</dd>\n</dl>\n",
+              "characterCount": 125,
+              "isLastOfGroup": true,
+              "styleValue": null,
+              "__typename": "TextParagraph"
+            },
+            {
+              "__typename": "ImageParagraph"
+            }
+          ],
+          "__typename": "SectionParagraph"
+        },
+        {
+          "title": "Ich habe bereits ein Beobachter Abonnement. Wie kann ich auf Beobachter+ und das ePaper zugreifen?",
+          "body": [
+            {
+              "id": "192182",
+              "anchorId": null,
+              "header": null,
+              "text": "<p>Registrieren Sie sich auf beobachter.ch und hinterlegen Sie bei der Anmeldung Ihre Kundennummer. Sobald Sie registriert sind, erhalten Sie eine Bestätigung per E-Mail. Wenn Sie in Ihrem Konto auf beobachter.ch angemeldet sind und Ihre Kundennummer eingetragen haben, haben Sie Zugang zu Beobachter+ Artikeln. Beobachter ePaper können Sie im Navigationsmenü auf beobachter.ch unter ePaper öffnen.</p>\n",
+              "characterCount": 395,
+              "isLastOfGroup": true,
+              "styleValue": null,
+              "__typename": "TextParagraph"
+            }
+          ],
+          "__typename": "SectionParagraph"
+        },
+        {
+          "title": " Wo kann ich mein Abonnement verwalten?",
+          "body": [
+            {
+              "id": "192184",
+              "anchorId": null,
+              "header": null,
+              "text": "<p>Je nachdem, ob Sie ein Print-Abonnement oder ein digitales Abonnement haben, können Sie Ihr Abonnement wie folgt selber verwalten. </p>\n\n<ul>\n\t<li>Print-Abonnement Beobachter: Ihr Print-Abonnement kann im Beobachter Shop verwaltet werden. Dort können Sie auch eine Ferienumleitung oder einen Lieferunterbruch einrichten, Adressänderungen beantragen sowie weitere Abonnements hinzufügen. </li>\n\t<li>Digitales Abonnement «Beobachter+»: Ihr Beobachter+ Abonnement können Sie auf beobachter.ch verwalten. Melden Sie sich in Ihrem Konto (oben rechts) an und klicken Sie auf Beobachter+. In Ihrem Konto können Sie Ihr digitales Abonnement nun verwalten oder kündigen.</li>\n</ul>\n",
+              "characterCount": 636,
+              "isLastOfGroup": true,
+              "styleValue": null,
+              "__typename": "TextParagraph"
+            }
+          ],
+          "__typename": "SectionParagraph"
+        },
+        {
+          "title": "Wie verlängert sich ein Beobachter+ Abonnement?",
+          "body": [
+            {
+              "id": "192186",
+              "anchorId": null,
+              "header": null,
+              "text": "<p>Ein digitales «Beobachter+» Abonnement verlängert sich automatisch. Sieben Tage vor Verlängerung werden Sie via E-Mail über die bevorstehende Verlängerung informiert und können das Abonnement ohne Kündigungsfrist über Ihr Konto kündigen.</p>\n",
+              "characterCount": 237,
+              "isLastOfGroup": true,
+              "styleValue": null,
+              "__typename": "TextParagraph"
+            }
+          ],
+          "__typename": "SectionParagraph"
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,26 @@
+.Icon {
+  color: $blackB;
+  font-size: 22px;
+  line-height: 19px;
+  text-align: center;
+  width: 128px;
+}
+
+.Text {
+  composes: InfoC from 'typography.legacy.css';
+  font-size: 1rem;
+}
+
+.BorderRight {
+  border-right: 1px solid $greyC;
+}
+
+.Cell {
+  align-items: center;
+  border-bottom: 1px solid $greyC;
+  display: flex;
+  gap: 4px;
+  padding-bottom: 8px;
+  padding-top: 8px;
+  width: 100%;
+}

@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Header - VerticalTitle Should render link to verticle from state 1`] = `
+<div>
+  <a
+    class="VerticalLink"
+    data-testid="mocked-link"
+    href="https://www.example.com"
+  >
+    <span
+      class="Vertical"
+    >
+      Bildung
+    </span>
+  </a>
+</div>
+`;
+
+exports[`[Component] Header - VerticalTitle Should render link to verticle from title 1`] = `
+<div>
+  <a
+    class="VerticalLink"
+    data-testid="mocked-link"
+    href="/bildung"
+  >
+    <span
+      class="Vertical"
+    >
+      Bildung
+    </span>
+  </a>
+</div>
+`;
+
+exports[`[Component] Header - VerticalTitle Should render nothing 1`] = `<div />`;
+
+exports[`[Component] Header - VerticalTitle Should render verticle from header state 1`] = `
+<div>
+  <a
+    class="VerticalLink"
+    data-testid="mocked-link"
+    href="/"
+  >
+    <span
+      class="Vertical"
+    >
+      Verticle
+    </span>
+  </a>
+</div>
+`;
+
+exports[`[Component] Header - VerticalTitle Should render verticle from vertical titles 1`] = `
+<div>
+  <a
+    class="VerticalLink"
+    data-testid="mocked-link"
+    href="/bildung"
+  >
+    <span
+      class="Vertical"
+    >
+      Bildung
+    </span>
+  </a>
+</div>
+`;

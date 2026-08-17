@@ -1,0 +1,107 @@
+.Wrapper {
+  height: 100%;
+
+  table {
+    width: 100%;
+
+    td {
+      border-bottom: 1px solid $greyC;
+      padding-bottom: 5px;
+      padding-top: 5px;
+    }
+  }  
+}
+
+.Heading {
+  composes: InfoB from 'typography.legacy.css';
+  border-bottom: 1px solid $greyC;
+  font-weight: 700;
+
+  th {
+    padding-bottom: 5px;
+    padding-top: 5px;
+  }
+}
+
+.TextRight {
+  text-align: right;
+}
+
+.TextLeft {
+  text-align: left;
+}
+
+
+.Link {
+  color: $secondaryA;
+}
+
+.Image {
+  align-items: center;
+  color: $black;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: center;
+  margin: $margin8;
+
+  p {
+    margin-bottom: $margin8;
+  }
+}
+
+.IconCell {
+  width: 40px;
+}
+
+.Icon {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  font-size: 14px;
+  justify-content: center;
+  margin-left: $margin8;
+  position: relative;
+
+  i {
+    font-size: 26px;
+  }
+
+  div {
+    height: 22px;
+    width: 25px;
+  }
+}
+
+.TopIcon {
+  position: absolute;
+  top: 3px;
+}
+
+.BottomIcon {
+  position: absolute;
+  top: -3px;
+}
+
+.Puts {
+  color: $primaryA;
+}
+
+.Calls {
+  color: $positive;
+}
+
+.Info {
+  @mixin InfoB;
+  color: $greyA;
+  font-size: 14px;
+}
+
+.Cell {
+  display: flex;
+  flex-direction: column;
+}
+
+.DefaultText {
+  font-size: 18px;
+}

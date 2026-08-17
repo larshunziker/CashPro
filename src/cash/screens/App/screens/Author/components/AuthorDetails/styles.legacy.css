@@ -1,0 +1,171 @@
+.AuthorDetails {
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-start;
+    display: flex;
+  }
+}
+
+.PictureWrapper {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 16px;
+}
+
+.Initials,
+.Picture {
+  background: $greyB;
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 100px;
+    width: 100px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 115px;
+    width: 115px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 140px;
+    width: 140px;
+  }
+}
+
+.Initials {
+  color: $blackB;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 2.5rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.8rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 5.5rem;
+  }
+}
+
+.DetailsContent {
+  @media (min-width: $smBreakpoint) {
+    margin-left: 14px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: 21px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 24px;
+  }
+}
+
+.Name {
+  composes: TeaserTitleH1 from 'typography.legacy.css';
+
+  align-items: center;
+  color: $blackB;
+  display: flex;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.SubscribeButton {
+  margin-left: $margin24;
+}
+
+.Headline {
+  composes: Lead1 from 'typography.legacy.css';
+  font-weight: 400;
+  margin-bottom: $margin24;
+}
+
+.ContactsList {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    align-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 16px;
+    width: 584px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    gap: 32px;
+  }
+}
+
+.ContactItem {
+  &.Dropdown {
+    margin-bottom: $margin48;
+    margin-inline: $outerGapXs;
+
+    .ContactLink {
+      color: $greyA;
+
+      .ContactIcon {
+        fill: $greyA;
+        height: 20px;
+        width: 20px;
+
+        path {
+          fill: $blackA;
+        }
+      }
+
+      .IconWrapper {
+        height: 20px;
+        width: 20px;
+      }
+    }
+  }
+}
+
+.IconWrapper {
+  height: 14px;
+  width: 14px;
+}
+
+.ContactIcon {
+  fill: $greyA;
+  height: 14px;
+  width: 14px;
+}
+
+.ContactLink {
+  composes: Meta3 from 'typography.legacy.css';
+  align-items: center;
+  color: $greyA;
+  display: flex;
+  font-weight: 400;
+  gap: 8px;
+
+  &:hover {
+    color: $blackA;
+
+    .ContactIcon {
+      fill: $blackA;
+
+      path {
+        fill: $blackA;
+      }
+    }
+  }
+}

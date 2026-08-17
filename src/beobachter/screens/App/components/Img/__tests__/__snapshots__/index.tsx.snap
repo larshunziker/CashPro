@@ -1,0 +1,94 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Img Should match snapshot with given props 0 1`] = `
+<div>
+  <img
+    class="Image"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 1 1`] = `
+<div>
+  <img
+    class="Image"
+    src="path/to/img.jpg"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 2 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper"
+    >
+      <img
+        class="Image Cover"
+        src="path/to/img.jpg"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 3 1`] = `
+<div>
+  <img
+    alt="alt text"
+    class="Image Landscape"
+    height="100"
+    src="path/to/img.jpg"
+    title="img title"
+    width="200"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 4 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper"
+      style="width: 100px; height: 100px;"
+    >
+      <img
+        alt="alt text"
+        class="Image addClass Cover"
+        height="100"
+        itemprop="item-prop-string"
+        src="path/to/img.jpg"
+        title="img title"
+        width="100"
+      />
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Img Should match snapshot with given props 5 1`] = `
+<div>
+  <div
+    class="ImageBox"
+    style="width: 200px; height: 100px; background-image: url(path/to/img.jpg);"
+  />
+</div>
+`;
+
+exports[`[Component] Img Should render with children and run the onload fn 1`] = `
+<div>
+  <div>
+    <div
+      class="Wrapper"
+    >
+      <img
+        class="Image"
+        src="path/to/img.jpg"
+      />
+    </div>
+    <div>
+      my children
+    </div>
+  </div>
+</div>
+`;

@@ -1,0 +1,25 @@
+.Wrapper {
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.ArticleBody {
+  :global(#app) {
+    @media screen {
+      padding-bottom: 70px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: UtilityOverlayWrapper from 'Article/components/ArticleHero/styles.legacy.css';
+}

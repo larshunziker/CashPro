@@ -1,0 +1,226 @@
+.AdSlot {
+  @mixin hideforPrint;
+  align-items: center;
+  display: flex;
+  height: 260px;
+  justify-content: center;
+  line-height: 0;
+  padding: 5px 0;
+  position: relative;
+  text-align: center;
+  transition: height 0.4s;
+  width: 100%;
+
+  a {
+    display: inline-block;
+
+    * {
+      line-height: 1;
+    }
+  }
+
+  &::before {
+    @mixin AdCaption;
+    content: 'Anzeige';
+    display: block;
+    left: 50%;
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+:global(.slot-loaded) {
+  .AdSlot { /* sometimes there's simply no ad but the slot still takes space */
+    &:not([class*=adm-empty]) {
+      height: auto;
+      min-height: 260px;
+
+      &::before {
+        display: none;
+      }
+    }
+  }
+}
+
+:global(.ad-wrapper):not(:global(.ad-sky)) {
+  background-color: $greyD;
+  line-height: 0;
+  z-index: 0;
+
+  &:not(:global(.header-apn-zone)) {
+    margin-bottom: $margin32;
+  }
+
+  &:global(.ad-overview) {
+    margin-bottom: 0;
+  }
+
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-mobile):not(:global(.ad-wrapper-tabletDesktop)) {
+    display: flex;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-tabletDesktop):not(:global(.ad-wrapper-mobile)) {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+    }
+  }
+}
+
+/* TABLET-DESKTOP: stylings for each placement name */
+
+.details_ad1, .details_ad3 {
+  display: block;
+  position: relative;
+  z-index: calc($zIndexHeaderAd - 1);
+}
+
+.top_ad1, .MMR1Placeholder {
+  min-height: 310px !important; /* stylelint-disable-line */
+
+  & > * {
+    box-sizing: content-box;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    &:global(.adm-loaded) {
+      left: 50%;
+      position: relative;
+      transform: translateX(-50%);
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    min-height: 310px;
+  }
+}
+
+:global(.branding-day) .top_ad1 {
+  padding: 0;
+  z-index: 100;
+
+  &:global(.adm-loaded) {
+    margin: 45px 0;
+    min-height: 260px;
+  }
+
+  &:global(.adm-error),
+  &:global(.adm-empty),
+  &:global(.adm-loaded) {
+    width: auto;
+
+    @media (min-width: $smBreakpoint) {
+      display: inline-flex;
+    }
+  }
+}
+
+:global(.branding-day) {
+  :global(.header-apn-zone) {
+    background-color: $transparent;
+    margin: 0 auto;
+    max-width: 994px;
+  }
+}
+
+.right_ad1 { /* stylelint-disable-line */
+  background-color: $transparent;
+  display: inline-block !important; /* stylelint-disable-line */
+  height: auto;
+  min-height: auto;
+  padding: 0;
+  text-align: left;
+
+  &::before {
+    display: none;
+  }
+}
+
+:global(.welcome-ad-wrapper) {
+  height: calc(100vh - 70px);
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative;
+  width: 100%;
+}
+
+:global(body.welcome-ad .utility-bar-wrapper) {
+  display: none;
+}
+
+:global(.side-bar) .right_ad1 {
+  @media (width >= 1200px) {
+    border: 0;
+    height: calc(100vh - ($headerHeightXl + 5px));
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: fixed;
+    text-align: left;
+
+    @media (min-width: $lgBreakpoint) {
+      /*
+      there is no logical calculation behind this number!
+      the grid has somehow a calculation by 40vw - 440px
+      and this is the rest
+      */
+      width: calc(60vw - 484px);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      /*
+      there is no logical calculation behind this number!
+      the grid has somehow a calculation by 40vw - 630px
+      and this is the rest
+      */
+      width: calc(60vw - 670px);
+    }
+  }
+}
+
+.bottom_ad1, .index_ad1 { /* stylelint-disable-line */
+  & > * {
+    box-sizing: content-box;
+  }
+
+  &:global(.adm-loaded) {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.AdContainerGrid {
+  margin-left: $outerGapXs;
+  margin-right: auto;
+  width: calc(100% - $outerGapXs * 2);
+
+  /* > 1200 */
+  @media (min-width: $lgBreakpoint) {
+    width: calc(891px + $breakpointLgMarginLeft );
+  }
+
+  @media (min-width: 1230px) {
+    margin-left:  $outerGapSm;
+  }
+
+  /* > 1680 */
+  @media (min-width: $xlBreakpoint) {
+    margin-left: $breakpointXlMarginLeft;
+    width: calc(1440px - ($outerGapXl * 2));
+  }
+}

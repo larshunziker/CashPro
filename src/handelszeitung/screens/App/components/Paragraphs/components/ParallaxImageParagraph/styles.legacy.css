@@ -1,0 +1,38 @@
+.Parallax {
+  @media (min-width: $mdBreakpoint) {
+    backface-visibility: hidden;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 595px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 666px;
+  }
+}
+
+.ImageDefault {
+  width: 100%;
+}
+
+.CreditsTitle {
+  color: $greyB;
+  display: block;
+  font-family: $fontGotham;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+  text-align: right;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    margin-right: $largeMargin;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-right: 0;
+    margin-top: $defaultMargin;
+  }
+}

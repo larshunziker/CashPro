@@ -1,0 +1,107 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MultiColumnParagraph Should match render two columns correctly 1`] = `
+<div>
+  <div
+    class="paragraph multi-column-paragraph Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColSm21 ColOffsetSm1 ColXl18 ColOffsetXl3"
+      >
+        <div
+          class="Row"
+        >
+          <div
+            class="multi-column-paragraph Wrapper"
+          >
+            <div
+              class="ColSm12"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+            <div
+              class="ColSm12"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+            <div
+              class="ColSm12"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 0 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 1 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 2 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 3 1`] = `<div />`;
+
+exports[`[Component] MultiColumnParagraph Should match snapshot 4 1`] = `
+<div>
+  <div
+    class="paragraph multi-column-paragraph Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColSm21 ColOffsetSm1 ColXl24 ColOffsetXl0"
+      >
+        <div
+          class="Row"
+        >
+          <div
+            class="multi-column-paragraph Wrapper"
+          >
+            <div
+              class="ColSm8"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+            <div
+              class="ColSm8"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+            <div
+              class="ColSm8"
+              id=""
+            >
+              <div
+                data-testid="mocked-paragraph-renderer"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

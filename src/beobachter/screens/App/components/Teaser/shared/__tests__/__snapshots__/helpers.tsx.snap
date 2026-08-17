@@ -1,0 +1,150 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type Article properly 1`] = `<div />`;
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type Article properly 2`] = `
+<div>
+  <div
+    class="IconClass"
+  >
+    <i
+      class="Icon IconPlay TeaserIcon"
+    />
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type Dossier properly 1`] = `<div />`;
+
+exports[`[HELPER] Teaser helpers Should render Icon for content type Video properly 1`] = `
+<div>
+  <div
+    class="IconClass"
+  >
+    <i
+      class="Icon IconPlay TeaserIcon"
+    />
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render author with dates 1`] = `
+<div
+  className=""
+>
+  <Memo(Img)
+    addClass="AuthorAvatar AuthorAvatarFirst"
+    alt="Adam Quadroni"
+    url="/fp/400/400/1000/1000/sites/default/files/adam_quadroni_whistleblower_baukartell.png"
+  />
+  <Memo(Img)
+    addClass="AuthorAvatar AuthorAvatarSecond"
+    alt="Adam Quadroni"
+    url="/fp/400/400/1000/1000/sites/default/files/adam_quadroni_whistleblower_baukartell.png"
+  />
+  <div
+    className="AuthorWrapperInner hasImage"
+  >
+    <span>
+      <strong>
+        Andrea Haefely
+      </strong>
+    </span>
+    <span>
+       und 
+      <strong>
+        Julia Mustername
+      </strong>
+    </span>
+    <div>
+      am 21.12.2021
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="datePublished"
+      />
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="dateModified"
+      />
+    </div>
+    <Source />
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render author with dates without images 1`] = `
+<div
+  className=""
+>
+  <div
+    className="AuthorWrapperInner"
+  >
+    <span>
+      <strong>
+        Andrea Haefely
+      </strong>
+    </span>
+    <span>
+       und 
+      <strong>
+        Julia Mustername
+      </strong>
+    </span>
+    <div>
+      am 21.12.2021
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="datePublished"
+      />
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="dateModified"
+      />
+    </div>
+    <Source />
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should render dates only 1`] = `
+<div
+  className=""
+>
+  <Memo(Img)
+    addClass="AuthorAvatar"
+    alt="Conny Schmid"
+    url="/fp/400/400/972/828/sites/default/files/media/field_image/2023-04/conny_schmid.jpg"
+  />
+  <div
+    className="AuthorWrapperInner hasImage"
+  >
+    <span>
+      <strong>
+        Conny Schmid
+      </strong>
+    </span>
+    <div>
+      am 21.12.2021
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="datePublished"
+      />
+      <meta
+        content="2021-12-21T06:58:08+01:00"
+        itemProp="dateModified"
+      />
+    </div>
+    <Source />
+  </div>
+</div>
+`;
+
+exports[`[HELPER] Teaser helpers Should return badge by props 1`] = `
+<div
+  className="someBadgeStyle"
+>
+  <Badge
+    label="Kommentar"
+  />
+</div>
+`;

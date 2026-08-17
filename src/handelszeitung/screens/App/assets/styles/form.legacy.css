@@ -1,0 +1,82 @@
+.Button {
+  composes: Button from 'typography.legacy.css';
+}
+
+.Button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  background-color: $blue;
+  border: 0.1rem solid $blue;
+  cursor: pointer;
+  display: inline-block;
+  padding: 0 3rem;
+  white-space: nowrap;
+
+  /* the case where a button has an icon <i></i> */
+  > i {
+    vertical-align: sub;
+  }
+
+  &:hover {
+    background-color: $blackB;
+    border-color: $blackB;
+    color: $white;
+    outline: 0;
+  }
+
+  &.ButtonDisabled,
+  &[disabled] {
+    cursor: default;
+    opacity: 0.5;
+
+    &:hover {
+      background-color: $blue;
+      border-color: $blue;
+    }
+  }
+
+  &.ButtonOutline {
+    background-color: $transparent;
+    color: $blue;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $blackB;
+      color: $blackB;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        border-color: $inherit;
+        color: $blue;
+      }
+    }
+  }
+
+  &.ButtonClear {
+    background-color: $transparent;
+    border-color: $transparent;
+    color: $blue;
+
+    &:hover {
+      background-color: $transparent;
+      border-color: $transparent;
+      color: $blackB;
+    }
+
+    &.ButtonDisabled,
+    &[disabled] {
+      &:hover {
+        color: $blue;
+      }
+    }
+  }
+}
+
+.Input {
+  border: 0;
+  font-family: $fontGeorgia;
+  opacity: 0.6;
+}

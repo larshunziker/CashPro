@@ -1,0 +1,84 @@
+.Wrapper {
+  background-color: $white;
+  box-shadow: 0 3px 6px 0 $blackA5;
+  display: flex;
+  flex-flow: wrap;
+  height: 0;
+  left: 25px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 616px;
+  overflow: hidden;
+  padding: 0 26px;
+  position: absolute;
+  right: 0;
+  text-align: left;
+  top: $margin12;
+  transition: height 0.3s ease, padding 0.3s ease; 
+ 
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+    top: 100%;
+  }
+}
+
+.WrapperSticky {
+  bottom: calc(-100% + 140px);
+  left: 0;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: initial;
+  }
+}
+
+.WrapperHeaderOverlay {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.WrapperPageOverlay {
+  @media (min-width: $smBreakpoint) {
+    margin-left: -24px;
+    margin-top: 12px;
+  }
+}
+
+.Title {
+  composes: Lead2BlackName from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: $margin4;
+  width: 100%;
+}
+
+.CloseButton {
+  background-color: $transparent;
+  border: 0;
+  box-shadow: none;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1.4rem;
+  outline:none;
+  position: absolute;
+  right: 24px;
+  top: 16px;
+
+  &::after {
+    content: '\24';
+    display: inline-block;
+    font-family: $fontRasch;
+  }
+}
+
+.WrapperToggle {
+  height: auto;
+  padding-bottom: 16px;
+  padding-top: 16px;
+  z-index: $zIndexHighest;
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  margin-top: 10px;
+  min-height: 49px;
+}

@@ -1,0 +1,50 @@
+{
+  "ministageParagraph": {
+    "ministage": {
+      "headline": "Current topics",
+      "keywords": {
+        "edges": [
+          {
+            "node": {
+              "id": "dGF4b25vbXlfdGVy5OTI=",
+              "label": "13. Monatslohn",
+              "preferredUri": "/stichworte/1/13-monatslohn",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4b2XlfdGVybTo5OTI=",
+              "label": "Baby",
+              "preferredUri": "/stichworte/b/baby",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dG25vbXlfdGVybTo5OTI=",
+              "label": "Abfall",
+              "preferredUri": "/stichworte/a/abfall",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "dGF4vbXlfdGVybTo5OTI=",
+              "label": "Immobilienmakler",
+              "preferredUri": "/stichworte/I/Immobilienmakler",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          }
+        ],
+        "__typename": "KeywordConnection"
+      },
+      "__typename": "MinistageTrendingTopics"
+    },
+    "__typename": "MinistageParagraph"
+  }
+}

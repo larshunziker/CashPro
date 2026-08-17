@@ -1,0 +1,190 @@
+.Wrapper {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: center;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+
+.HeroWrapper {
+  margin-bottom: $margin32;
+  position: relative;
+  z-index: 2;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin64;
+  }
+
+  &.NativeAdvertisingHeroWrapper {
+    margin-bottom: calc($margin32 - 22px);
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: calc($margin40 - 15px);
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: calc($margin64 - 20px);
+    }
+  }
+}
+
+.PositionRelative {
+  position: relative;
+  z-index: 2;
+}
+
+.Header {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+
+  background-color: $purpleLight;
+  position: relative;
+
+  &::after {
+    background: $white;
+    bottom: 0;
+    content: '';
+    height: 30%;
+    position: absolute;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      height: 40%;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 35%;
+    }
+  }
+}
+
+.BadgeLabelWrapper {
+  margin-right: 10px;
+
+  @media print {
+    margin-left: 155px;
+  }
+}
+
+.BadgeLabel {
+  background-color: $purple;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 1.92rem;
+  padding: 2px 8px;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.16rem;
+  }
+}
+
+.AuthorWrapper {
+  display: block;
+  flex-wrap: wrap;
+  font-family: $fontSpezia;
+  padding-bottom: 40px;
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 48px;
+  }
+
+}
+
+.AuthorWrapperInner {
+  color: $black;
+  font-size: 10px;
+  letter-spacing: 1px;
+  line-height: 15px;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 16px;
+    line-height: 22px;
+  }
+
+  a {
+    text-decoration: underline;
+  }
+}
+
+.Author {
+  display: block;
+}
+
+.AuthorLink {
+  color: $black;
+}
+
+.Date {
+  display: block;
+}
+
+.CompanyImage {
+  display: block;
+  height: 40px;
+  margin: 0 0 $margin8 0;
+  width: auto;
+
+  @media print {
+    max-height: 30px;
+    width: auto;
+  }
+}
+
+.Title {
+  font-family: $fontSpezia;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 4.08rem;
+  margin-bottom: $margin16;
+
+  @media (min-width: $lgBreakpoint) {
+    text-align: center;
+  }
+
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+    line-height: 5.76rem;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBar from 'Article/components/ArticleHero/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    margin-top: 0;
+  }
+}
+
+.UtilityOverlayWrapper {
+  composes: UtilityOverlayWrapper from 'Article/components/ArticleHero/styles.legacy.css';
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: none;
+  }
+}
+
+.ArticleBody {
+  composes: ArticleBody from 'Article/components/ArticleHero/styles.legacy.css';
+}

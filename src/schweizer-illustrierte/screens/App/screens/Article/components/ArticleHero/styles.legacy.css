@@ -1,0 +1,12 @@
+.ImageGalleryContainer {
+  @media (max-width: $xsBreakpointTo) {
+    width: 100%;
+  }
+}
+
+.ImageGalleryRowMobile {
+  @media (max-width: $xsBreakpointTo) {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}

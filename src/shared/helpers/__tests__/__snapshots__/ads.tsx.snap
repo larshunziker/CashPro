@@ -1,0 +1,227 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[helper] ads should enrich article with ads 1`] = `
+[
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [],
+    "edges": null,
+    "id": "1",
+  },
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [],
+    "edges": null,
+    "id": "2",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "paragraph-render-type/recommendations",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "paragraph-render-type/recommendations",
+      },
+    ],
+    "characterCount": 500,
+    "id": "3",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "IAV1",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "IAV1",
+      },
+    ],
+    "characterCount": 500,
+    "id": "4",
+    "text": "",
+  },
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [],
+    "id": "5",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "6",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "MHPA2",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB2-MR",
+      },
+    ],
+    "characterCount": 500,
+    "id": "7",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "8",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "9",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "MHPA2",
+      },
+    ],
+    "characterCount": 500,
+    "id": "10",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB2-MR",
+      },
+    ],
+    "characterCount": 500,
+    "id": "11",
+    "text": "",
+  },
+]
+`;
+
+exports[`[helper] ads should enrich overview with ads 1`] = `
+[
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "MMR1",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB2-MR",
+      },
+    ],
+    "edges": null,
+    "id": "1",
+  },
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [],
+    "edges": null,
+    "id": "2",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "3",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "4",
+    "text": "",
+  },
+  {
+    "__typename": "EntityQueueParagraph",
+    "adSlots": [],
+    "id": "5",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "MHPA2",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB2-MR",
+      },
+    ],
+    "characterCount": 500,
+    "id": "6",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "7",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "8",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "9",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [],
+    "characterCount": 500,
+    "id": "10",
+    "text": "",
+  },
+  {
+    "__typename": "TextParagraph",
+    "adSlots": [
+      {
+        "deviceType": "mobile",
+        "slotName": "MPA3",
+      },
+      {
+        "deviceType": "tabletDesktop",
+        "slotName": "WB3-MR",
+      },
+    ],
+    "characterCount": 500,
+    "id": "11",
+    "text": "",
+  },
+]
+`;
+
+exports[`[helper] ads should enrich overview with ads in eq 1`] = `[]`;
+
+exports[`[helper] ads should not enrich article with ads 1`] = `null`;
+
+exports[`[helper] ads should not enrich overview with ads 1`] = `[]`;

@@ -1,0 +1,30 @@
+.Wrapper {
+  @mixin hideforPrint;
+}
+
+.Video {
+  @mixin hideforPrint;
+  height: 158px;
+  margin-bottom: 0;
+  margin-top: 21px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 394px;
+    margin-top: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 465px;
+    margin-top: $margin48;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 633px;
+    margin-top: 46px;
+  }
+}
+
+.Lead {
+  composes: Lead from 'Article/components/ArticleHero/components/ArticleImage/components/ArticleImageRatgeber/styles.legacy.css';
+}

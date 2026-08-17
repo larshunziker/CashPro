@@ -1,0 +1,93 @@
+.Wrapper {
+  height: 100%;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+
+  .Ad {
+    margin-bottom: $margin64;
+  }
+}
+
+.Ad {
+  border: 1px solid $greyC;
+}
+
+.PianoIntegrationWrapper {
+  margin-bottom: $margin64;
+}
+
+/* Similar behavior to Piano PaywallSkeleton */
+:global(.PianoPlaceholder) {
+  background: $grey10;
+  border-radius: $defaultRadius;
+  min-height: 450px;
+
+  @media (min-width: 653px) {
+    min-height: 300px;
+  }
+  @media (min-width: $mdBreakpoint) {
+    min-height: 450px;
+  }
+}
+
+.PianoIntegrationWrapper:not(:empty) {
+  .PianoArticleAsideElement & {
+    margin-bottom: $margin40;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin32;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin40;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin64;
+    }
+  }
+}
+
+.Sticky {
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    position: sticky;
+    top: 175px;
+    transition: top 0.3s ease;
+  }
+}
+
+.StickyOnScroll {
+  @media (min-width: $mdBreakpoint) {
+    top: 131px;
+  }
+}
+
+@media print {
+  .Wrapper {
+    flex: 0 1 30%;
+    max-width: 30%;
+  }
+
+  .Ad {
+    display: none;
+  }
+
+  .PianoIntegrationWrapper {
+    > div,
+    > div > iframe {
+      /* stylelint-disable-next-line declaration-no-important */
+      max-width: 100% !important;
+      /* stylelint-disable-next-line declaration-no-important */
+      min-height: 800px !important;
+    }
+  }
+
+  .MostReadBoxWrapper {
+    break-inside: avoid;
+  }
+}

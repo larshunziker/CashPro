@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentReplies Should render multiple replies and replies are visible 1`] = `
+<span
+  data-testid="commentreplies-button-text-wrapper"
+>
+  Antworten
+   ausblenden
+</span>
+`;
+
+exports[`[Component] CommentReplies Should render multiple replies correctly 1`] = `
+<span
+  data-testid="commentreplies-button-text-wrapper"
+>
+  Antworten
+   ausblenden
+</span>
+`;
+
+exports[`[Component] CommentReplies Should render one reply and replies are visible 1`] = `
+<span
+  data-testid="commentreplies-button-text-wrapper"
+>
+  Antwort
+   ausblenden
+</span>
+`;
+
+exports[`[Component] CommentReplies Should render one reply correctly 1`] = `
+<span
+  data-testid="commentreplies-button-text-wrapper"
+>
+  Antwort
+   ausblenden
+</span>
+`;

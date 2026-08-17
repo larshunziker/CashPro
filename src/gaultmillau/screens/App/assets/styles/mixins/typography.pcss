@@ -1,0 +1,849 @@
+@define-mixin HeadingANeutralA {
+  color: $neutralA;
+  font-family: $fontActaDisplay;
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 3.5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6.8rem;
+    line-height: 6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 10rem;
+    line-height: 9rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 10rem;
+    line-height: 9rem;
+  }
+}
+
+@define-mixin HeadingBNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-family: $fontActaDisplay;
+    font-size: 3.5rem;
+    font-weight: 700;
+    letter-spacing: normal;
+    line-height: 3.5rem;
+  }
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4rem;
+    line-height: 4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+}
+
+@define-mixin HeadingCNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 1.6rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 1.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+}
+
+@define-mixin TeaserTitleANeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    color: $white;
+    font-size: 3.5rem;
+    font-weight: 700;
+    line-height: 3.5rem;
+  }
+  @media (min-width: $mdBreakpoint) {
+    font-size: 5rem;
+    line-height: 5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 6rem;
+    line-height: 6rem;
+  }
+}
+
+@define-mixin TeaserTitleBNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2rem;
+  font-weight: 800;
+  letter-spacing: 0.2px;
+  line-height: 2.1rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.6rem;
+    line-height: 2.8rem;
+  }
+}
+
+@define-mixin TeaserTitleBWhite {
+  @mixin TeaserTitleBNeutralA;
+  color: $white;
+}
+
+@define-mixin TeaserTitleCNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 1.7rem;
+  font-weight: 800;
+  line-height: 1.9rem;
+}
+
+@define-mixin NumbersNeutralA {
+  color: $neutralA;
+  font-family: $fontActaDisplay;
+  font-size: 7rem;
+  font-weight: 900;
+  line-height: 7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 15rem;
+    line-height: 15rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 20rem;
+    line-height: 20rem;
+  }
+}
+
+@define-mixin ShortTitleANeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    letter-spacing: 1.5px;
+    line-height: 2rem;
+  }
+}
+
+@define-mixin ShortTitleABoldNeutralA {
+  @mixin ShortTitleANeutralA;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleAGradientCaminada {
+  @mixin ShortTitleANeutralA;
+  background: $gradientCaminada;
+  background-clip: text;
+  color: $caminadaB;
+  -webkit-text-fill-color: transparent;
+}
+
+@define-mixin ShortTitleABoldGradientCaminada {
+  @mixin ShortTitleAGradientCaminada;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleAGradientZueri {
+  @mixin ShortTitleANeutralA;
+  background: $gradientZueri;
+  background-clip: text;
+  color: $zueriB;
+  -webkit-text-fill-color: $transparent;
+}
+
+@define-mixin ShortTitleABoldGradientZueri {
+  @mixin ShortTitleAGradientZueri;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleAGradientPrimaryA {
+  @mixin ShortTitleANeutralA;
+  background: $gradientPrimaryA;
+  background-clip: text;
+  color: $primaryC;
+  -webkit-text-fill-color: $transparent;
+}
+
+@define-mixin ShortTitleABoldGradientPrimaryA {
+  @mixin ShortTitleAGradientPrimaryA;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleBNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    color: $white;
+    font-size: 1.2rem;
+    font-weight: 900;
+    letter-spacing: 3px;
+    line-height: 1.4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    line-height: 1.9rem;
+  }
+}
+
+@define-mixin ShortTitleBGradientCaminada {
+  @mixin ShortTitleBNeutralA;
+  background: $gradientCaminada;
+  background-clip: text;
+  color: $caminadaB;
+  -webkit-text-fill-color: $transparent;
+
+  @media (min-width: $smBreakpoint) {
+    background: $white;
+    color: $white;
+  }
+}
+
+@define-mixin ShortTitleBGradientZueri {
+  @mixin ShortTitleBNeutralA;
+  background: $gradientZueri;
+  background-clip: text;
+  color: $zueriB;
+  -webkit-text-fill-color: $transparent;
+
+  @media (min-width: $smBreakpoint) {
+    background: $white;
+    color: $white;
+  }
+}
+
+@define-mixin ShortTitleBGradientPrimaryA {
+  @mixin ShortTitleBNeutralA;
+  background: $gradientPrimaryA;
+  background-clip: text;
+  color: $primaryC;
+  -webkit-text-fill-color: $transparent;
+
+  @media (min-width: $smBreakpoint) {
+    background: $white;
+    color: $white;
+  }
+}
+
+@define-mixin ShortTitleCNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+}
+
+@define-mixin ShortTitleCBoldNeutralA {
+  @mixin ShortTitleCNeutralA;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleCGradientCaminada {
+  @mixin ShortTitleCNeutralA;
+  background: $gradientCaminada;
+  background-clip: text;
+  color: $caminadaB;
+  -webkit-text-fill-color: $transparent;
+}
+
+@define-mixin ShortTitleCBoldGradientCaminada {
+  @mixin ShortTitleCGradientCaminada;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleCGradientZueri {
+  @mixin ShortTitleCNeutralA;
+  background: $gradientZueri;
+  background-clip: text;
+  color: $zueriB;
+  -webkit-text-fill-color: $transparent;
+}
+
+@define-mixin ShortTitleCBoldGradientZueri {
+  @mixin ShortTitleCGradientZueri;
+  font-weight: 900;
+}
+
+@define-mixin ShortTitleCGradientPrimaryA {
+  @mixin ShortTitleCNeutralA;
+  background: $gradientPrimaryA;
+  background-clip: text;
+  color: $primaryC;
+  -webkit-text-fill-color: $transparent;
+}
+
+@define-mixin ShortTitleCBoldGradientPrimaryA {
+  @mixin ShortTitleCGradientPrimaryA;
+  font-weight: 900;
+}
+
+@define-mixin LeadANeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+}
+
+@define-mixin LeadBWhite {
+  color: $white;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+  }
+}
+
+@define-mixin LeadCNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.4rem;
+    line-height: 1.6rem;
+  }
+}
+
+@define-mixin LeadD {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    color: $white;
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+    line-height: 2.9rem;
+  }
+}
+
+@define-mixin SectionTitleNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 4px;
+  line-height: 1.2rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+  }
+}
+
+@define-mixin CatchQuestionsNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 1px;
+  line-height: 2rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    line-height: 3.2rem;
+  }
+}
+
+@define-mixin ParagraphNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+  }
+}
+
+@define-mixin ParagraphBoldNeutralA {
+  @mixin ParagraphNeutralA;
+  font-weight: 700;
+}
+
+@define-mixin ParagraphLinkNeutralA {
+  @mixin ParagraphNeutralA;
+  border-bottom: 1px solid $neutralA;
+  color: $neutralA;
+
+  &:visited {
+    border-bottom: 1px solid $neutralA;
+    color: $neutralA;
+  }
+
+  &:hover {
+    border-bottom: 1px solid $primaryB;
+    color: $primaryB;
+  }
+
+  &:focus {
+    border-bottom: 1px solid $primaryB;
+    color: $primaryB;
+  }
+}
+
+@define-mixin QuoteNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2.3rem;
+  font-weight: 800;
+  line-height: 2.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.7rem;
+    line-height: 3.3rem;
+  }
+}
+
+@define-mixin QuoteAuthorNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 300;
+  letter-spacing: 0.5px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    letter-spacing: 1px;
+    line-height: 1.7rem;
+  }
+}
+
+@define-mixin NaviNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  letter-spacing: 2px;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    letter-spacing: 4px;
+  }
+}
+
+@define-mixin HamburgerMenuANeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2.4rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 4.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-family: $fontActaDisplay;
+    font-size: 3.6rem;
+    letter-spacing: normal;
+    line-height: 5rem;
+  }
+}
+
+@define-mixin HamburgerMenuAWhite {
+  @mixin HamburgerMenuANeutralA;
+  color: $white;
+}
+
+@define-mixin HamburgerMenuBNeutralA {
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0.2px;
+  line-height: 3.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 4rem;
+  }
+}
+
+@define-mixin ButtonANeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.9rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+  text-transform: uppercase;
+}
+
+@define-mixin ButtonAWhite {
+  @mixin ButtonANeutralA;
+  color: $white;
+}
+
+@define-mixin ButtonAError {
+  @mixin ButtonANeutralA;
+  color: $error;
+}
+
+@define-mixin ButtonBNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+}
+
+@define-mixin ButtonBWhite {
+  @mixin ButtonBNeutralA;
+  color: $white;
+}
+
+@define-mixin ButtonBError {
+  @mixin ButtonBNeutralA;
+  color: $error;
+}
+
+@define-mixin FormLabelANeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.2rem;
+}
+
+@define-mixin FormLabelANeutralB {
+  @mixin FormLabelANeutralA;
+  color: $neutralB;
+}
+
+@define-mixin FormLabelANeutralD {
+  @mixin FormLabelANeutralA;
+  color: $neutralD;
+}
+
+@define-mixin FormLabelBNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.4rem;
+  font-weight: 400;
+  letter-spacing: 0.4px;
+  line-height: 1.6rem;
+}
+
+@define-mixin FormLabelBNeutralB {
+  @mixin FormLabelBNeutralA;
+  color: $neutralB;
+}
+
+@define-mixin FormLabelBNeutralD {
+  @mixin FormLabelBNeutralA;
+  color: $neutralD;
+}
+
+@define-mixin FormLabelBError {
+  @mixin FormLabelBNeutralA;
+  color: $error;
+}
+
+@define-mixin InfoANeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+}
+
+@define-mixin InfoABoldNeutralA {
+  @mixin InfoANeutralA;
+  font-weight: 700;
+}
+
+@define-mixin InfoBNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.8rem;
+  font-weight: 300;
+  line-height: 2.3rem;
+}
+
+@define-mixin InfoBPrimaryB {
+  @mixin InfoBNeutralA;
+  color: $primaryB;
+}
+
+@define-mixin InfoBBoldNeutralA {
+  @mixin InfoBNeutralA;
+  font-weight: 700;
+}
+
+@define-mixin InfoCNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.1rem;
+}
+
+@define-mixin InfoCBoldNeutralA {
+  @mixin InfoCNeutralA;
+  font-weight: 700;
+}
+
+@define-mixin InfoCLinkNeutralA {
+  @mixin InfoCNeutralA;
+  text-decoration: underline;
+
+  &:hover {
+    color: $primaryB;
+    text-decoration-color: $primaryB;
+  }
+}
+
+@define-mixin InfoDNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.9rem;
+}
+
+@define-mixin InfoDBoldNeutralA {
+  @mixin InfoDNeutralA;
+  font-weight: 700;
+}
+
+@define-mixin InfoDNeutralC {
+  @mixin InfoDNeutralA;
+  color: $neutralC;
+}
+
+@define-mixin InfoENeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 1.6rem;
+}
+
+@define-mixin InfoEBoldNeutralA {
+  @mixin InfoENeutralA;
+  font-weight: 700;
+}
+
+@define-mixin InfoENeutralC {
+  @mixin InfoENeutralA;
+  color: $neutralC;
+}
+
+@define-mixin InfoEBoldNeutralC {
+  @mixin InfoENeutralA;
+  color: $neutralC;
+  font-weight: 700;
+}
+
+@define-mixin InfoFNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.4rem;
+}
+
+@define-mixin InfoFBoldNeutralA {
+  @mixin InfoFNeutralA;
+  font-weight: 700;
+}
+
+@define-mixin CaptionNeutralA {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 1.4rem;
+}
+
+@define-mixin GMIconFiles {
+  display: inline;
+  font-family: $fontIcon;
+  margin-right: 1px;
+  vertical-align: top;
+}
+
+/*
+ *  Gaultmillau - Buttons
+ *  https://www.figma.com/file/TS9ySl2YVCWAqPuyyeDxZo/si_library_styleguide?node-id=0%3A17876
+ */
+
+@define-mixin ButtonBig {
+  font-family: $fontBagueSansPro;
+  font-size: 1.9rem;
+  font-weight: 900;
+  line-height: 2.2rem;
+}
+
+@define-mixin ButtonSmall {
+  font-family: $fontBagueSansPro;
+  font-size: 1.4rem;
+  line-height: 1.8rem;
+}
+
+@define-mixin ButtonBase {
+  cursor: pointer;
+
+  font-family: $fontBagueSansPro;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+}
+
+@define-mixin ButtonBaseBig {
+  @mixin ButtonBase;
+  @mixin ButtonBig;
+  font-size: 1.8rem;
+  height: 54px;
+  line-height: 2.2rem;
+  padding: 16px 24px;
+}
+
+@define-mixin ButtonBaseSmall {
+  @mixin ButtonBase;
+  @mixin ButtonSmall;
+  font-size: 1.4rem;
+  height: 34px;
+  line-height: 1.8rem;
+  padding: 8px 16px;
+}
+
+@define-mixin ButtonPrimary {
+  background: $gradientPrimaryA;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover {
+    background: $primaryC;
+  }
+}
+
+@define-mixin ButtonSecondary {
+  background-color: $white;
+  border: 1px solid $primaryA;
+  border-radius: 4px;
+  color: $primaryA;
+
+  &:hover {
+    background-color: $white;
+    border: 1px solid $primaryA;
+    color: $primaryC;
+  }
+}
+
+@define-mixin ButtonTertiary {
+  background: $white;
+  border: none;
+  color: $primaryA;
+
+  &:hover {
+    color: $primaryC;
+  }
+}
+
+/* Primary Buttons */
+
+@define-mixin ButtonPrimaryBig {
+  @mixin ButtonPrimary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonPrimarySmall {
+  @mixin ButtonPrimary;
+  @mixin ButtonBaseSmall;
+}
+
+/* Secondary Buttons */
+
+@define-mixin ButtonSecondaryBig {
+  @mixin ButtonSecondary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonSecondarySmall {
+  @mixin ButtonSecondary;
+  @mixin ButtonBaseSmall;
+}
+
+/* Tertiary Buttons */
+
+@define-mixin ButtonTertiaryBig {
+  @mixin ButtonTertiary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonTertiarySmall {
+  @mixin ButtonTertiary;
+  @mixin ButtonBaseSmall;
+}

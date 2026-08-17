@@ -1,0 +1,11 @@
+.OverviewPageWrapper {
+  margin-bottom: 70px;
+  
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 60px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}

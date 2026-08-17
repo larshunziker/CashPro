@@ -1,0 +1,342 @@
+{
+  "__typename": "ImageGallery",
+  "id": "bm9kZToxOTcyOA==",
+  "nid": "19728",
+  "gcid": "20646",
+  "title": "Fedi ganz Gross",
+  "shortTitle": "Fullscreen",
+  "seoTitle": null,
+  "metaTitle": "Fedi ganz Gross | Schweizer Illustrierte",
+  "metaDescription": "Sollte im fullscreen öffnen",
+  "metaOgTitle": "Fedi ganz Gross | Schweizer Illustrierte",
+  "metaOgDescription": "Sollte im fullscreen öffnen",
+  "metaCanonicalUrl": "",
+  "changeDate": "2019-03-01T10:25:54",
+  "publicationDate": "2019-09-04T12:28:55",
+  "lead": "Sollte im fullscreen öffnen",
+  "preferredUri": "/family/galleries/fullscreen-fedi-ganz-gross",
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "channel": {
+    "__typename": "Channel",
+    "id": "dGF4b25vbXlfdGVybToyNTgx",
+    "title": "Family",
+    "settings": {
+      "__typename": "TermSettings",
+      "mainChannel": {
+        "__typename": "Channel",
+        "id": "dGF4b25vbXlfdGVybToyNTgx",
+        "title": "Family"
+      }
+    }
+  },
+  "createDate": "2019-03-01T10:25:53",
+  "metaKeywords": "Roger Federer, Royals, Teilzeitarbeit",
+  "keywords": {
+    "__typename": "KeywordConnection",
+    "edges": [
+      {
+        "__typename": "KeywordEdge",
+        "node": {
+          "__typename": "Keyword",
+          "id": "dGF4b25vbXlfdGVybToxMzAz",
+          "tid": "1303",
+          "label": "Roger Federer",
+          "preferredUri": "/dossier/roger-federer"
+        }
+      },
+      {
+        "__typename": "KeywordEdge",
+        "node": {
+          "__typename": "Keyword",
+          "id": "dGF4b25vbXlfdGVybTo1NTk5",
+          "tid": "5599",
+          "label": "Royals",
+          "preferredUri": "/dossier/royals"
+        }
+      },
+      {
+        "__typename": "KeywordEdge",
+        "node": {
+          "__typename": "Keyword",
+          "id": "dGF4b25vbXlfdGVybToyNDI=",
+          "tid": "242",
+          "label": "Teilzeitarbeit",
+          "preferredUri": "/dossier/teilzeitarbeit"
+        }
+      }
+    ]
+  },
+  "teaserImage": {
+    "__typename": "ImageParagraph",
+    "id": "180579",
+    "caption": null,
+    "format": "landscape",
+    "image": {
+      "__typename": "Image",
+      "id": "41482",
+      "credit": "Keystone",
+      "file": {
+        "__typename": "ImageFile",
+        "id": "42021",
+        "alt": "Federer",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/federer.jpeg"
+      }
+    }
+  },
+  "body": [
+    {
+      "__typename": "ImageParagraph",
+      "anchorId": null,
+      "id": "183973",
+      "format": "square",
+      "caption": "<p>will be deleted</p>\n",
+      "title": null,
+      "image": null
+    },
+    {
+      "__typename": "ImageParagraph",
+      "anchorId": null,
+      "id": "180576",
+      "format": "landscape",
+      "caption": null,
+      "title": null,
+      "image": {
+        "__typename": "Image",
+        "id": "41482",
+        "credit": "Keystone",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "42021",
+          "alt": "Federer",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/federer.jpeg",
+          "width": 480,
+          "height": 343
+        }
+      }
+    },
+    {
+      "__typename": "ImageParagraph",
+      "anchorId": null,
+      "id": "180577",
+      "format": "landscape",
+      "caption": null,
+      "title": null,
+      "image": {
+        "__typename": "Image",
+        "id": "41608",
+        "credit": "Keystone",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "42172",
+          "alt": "fogel",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/fogel.jpg",
+          "width": 480,
+          "height": 270
+        }
+      }
+    },
+    {
+      "__typename": "ImageParagraph",
+      "anchorId": null,
+      "id": "180578",
+      "format": "landscape",
+      "caption": null,
+      "title": null,
+      "image": {
+        "__typename": "Image",
+        "id": "41605",
+        "credit": "Keystone",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "42169",
+          "alt": "food",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/food.jpg",
+          "width": 480,
+          "height": 270
+        }
+      }
+    }
+  ],
+  "activeMenuTrail": {
+    "__typename": "ActiveMenuTrailItemConnection",
+    "edges": [
+      {
+        "__typename": "ActiveMenuTrailItemEdge",
+        "node": {
+          "__typename": "ActiveMenuTrailItem",
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQy",
+          "label": "Family",
+          "link": "/family"
+        }
+      },
+      {
+        "__typename": "ActiveMenuTrailItemEdge",
+        "node": {
+          "__typename": "ActiveMenuTrailItem",
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpReU56WTBOekk9",
+          "label": "Fedi ganz Gross",
+          "link": null
+        }
+      }
+    ]
+  },
+  "authors": {
+    "__typename": "AuthorConnection",
+    "edges": []
+  },
+  "recommendations": {
+    "__typename": "RelatedContentUnionConnection",
+    "edges": [
+      {
+        "__typename": "RelatedContentUnionEdge",
+        "node": {
+          "__typename": "ImageGallery",
+          "id": "bm9kZTozNTkyMg==",
+          "title": "email test 3",
+          "shortTitle": "email test 3",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "preferredUri": "/family/galleries/email-test-3-email-test-3",
+          "openInFullscreen": false,
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "198712",
+            "image": {
+              "__typename": "Image",
+              "id": "57472",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "58110",
+                "alt": "people society",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/miniature_people_and_the_concept_of_an_aging_society.jpeg"
+              }
+            }
+          },
+          "body": [
+            {
+              "__typename": "ImageParagraph",
+              "id": "198710"
+            }
+          ]
+        }
+      },
+      {
+        "__typename": "RelatedContentUnionEdge",
+        "node": {
+          "__typename": "ImageGallery",
+          "id": "bm9kZToyOTYxNQ==",
+          "title": "Presidentaz EXIF ",
+          "shortTitle": "Gallery",
+          "badgeLabel": "DTC",
+          "badgeColor": "blue",
+          "preferredUri": "/family/galleries/gallery-presidentaz-exif",
+          "openInFullscreen": false,
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "191870",
+            "image": {
+              "__typename": "Image",
+              "id": "51358",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "51991",
+                "alt": "Presidentaz",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/presidentaz_0.jpg"
+              }
+            }
+          },
+          "body": [
+            {
+              "__typename": "ImageParagraph",
+              "id": "191867"
+            }
+          ]
+        }
+      },
+      {
+        "__typename": "RelatedContentUnionEdge",
+        "node": {
+          "__typename": "ImageGallery",
+          "id": "bm9kZToxOTU5MQ==",
+          "title": "Architektur",
+          "shortTitle": "Feast of Flesh",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "preferredUri": "/family/galleries/feast-flesh-architektur",
+          "openInFullscreen": false,
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "180185",
+            "image": {
+              "__typename": "Image",
+              "id": "41520",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "42071",
+                "alt": "Architektur",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/architektur.jpeg"
+              }
+            }
+          },
+          "body": [
+            {
+              "__typename": "ImageParagraph",
+              "id": "180402"
+            }
+          ]
+        }
+      },
+      {
+        "__typename": "RelatedContentUnionEdge",
+        "node": {
+          "__typename": "ImageGallery",
+          "id": "bm9kZToxOTQ0Mg==",
+          "title": "Paragraph Position Test (ImageGallery)",
+          "shortTitle": "Paragraph Position Test (ImageGallery)",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "preferredUri": "/family/galleries/paragraph-position-test-imagegallery-paragraph-position-test-imagegallery",
+          "openInFullscreen": true,
+          "teaserImage": {
+            "__typename": "ImageParagraph",
+            "id": "179768",
+            "image": {
+              "__typename": "Image",
+              "id": "41410",
+              "file": {
+                "__typename": "ImageFile",
+                "id": "41932",
+                "alt": "Alternative text",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/media_name_2.jpg"
+              }
+            }
+          },
+          "body": [
+            {
+              "__typename": "ImageParagraph",
+              "id": "179755"
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

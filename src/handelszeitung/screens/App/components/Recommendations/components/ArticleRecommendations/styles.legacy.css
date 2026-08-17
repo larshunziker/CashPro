@@ -1,0 +1,15 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  font-family: $fontGeorgia;
+  margin-bottom: $margin24;
+}
+
+.TitleWrapper {
+  width: 100%;
+}
+
+.Title {
+  composes: BoxTitleSmall from 'typography.legacy.css';
+  margin-bottom: 20px;
+  position: relative;
+}

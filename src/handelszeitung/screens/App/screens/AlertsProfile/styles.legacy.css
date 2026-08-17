@@ -1,0 +1,31 @@
+.AlertsProfileWrapper {
+  margin-bottom: $margin64;
+  margin-top: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin32;
+  }
+}
+
+.LoginWrapper {
+  display: flex;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Description {
+  color: $blackB;
+  font-family: $fontGothamBook;
+  font-size: 1.5rem;
+  line-height: 2.4rem;
+  margin-bottom: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 2.8rem;
+    margin-bottom: $margin40;
+  }
+}

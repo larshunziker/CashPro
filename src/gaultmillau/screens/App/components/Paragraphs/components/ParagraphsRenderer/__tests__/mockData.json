@@ -1,0 +1,11 @@
+{
+  "origin": "articleDefault",
+  "pageBody": [
+    {
+      "header": null,
+      "styleValue": "info_box",
+      "text": "<p>Das Telefon klingelt. «Bonjour!» Die ehemalige Première Dame ist am Apparat. Ich weiss gar nicht, wie ich sie nennen soll. Frau Bruni? Oder Frau <a target=\"_blank\" href=\"https://en.wikipedia.org/wiki/Carla_Bruni\">Sarkozy</a>? Wir einigen uns auf Bruni, ihren Künstlernamen. Was für eine Ehre, mit ihr das Interview zu führen. «Ganz meinerseits», sagt sie. Ich bin geschmeichelt.</p>\n\n<p><strong>Madame Bruni, Sie kommen für die Credit Suisse Sports Awards nach Zürich. Kennen Sie die Schweiz?</strong> Meine Eltern haben lange Zeit in der Schweiz gewohnt. Meine Mama lebt jetzt noch mit meiner Tante in einer Wohnung in Crans-Montana. Sie sind 87 und 91 Jahre alt und, sehr glücklich dort.</p>\n\n<p><strong>Treiben Sie als Ex-Model Sport?</strong> Ja, mindestens eineinhalb Stunden am Tag. Ich mache Cardio, ein bisschen Muskeltraining, Yoga und Pilates. <strong>Satz in Bold (ParagraphBold)</strong></p>\n",
+      "__typename": "TextParagraph"
+    }
+  ]
+}

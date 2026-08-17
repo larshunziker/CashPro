@@ -1,0 +1,138 @@
+:global(#onetrust-consent-sdk #onetrust-banner-sdk) {
+  border-radius: 8px;
+  box-shadow: 0 10px 40px 0 rgba(0, 0, 0, 0.25); /* stylelint-disable-line */
+  font-family: $fontSpezia;
+  left: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-sdk-container) {
+  padding: 24px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-group-container) {
+  margin-bottom: 22px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy) {
+  margin-top: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy-title) {
+  color: $black;
+  font-size: 2.2rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy-text) {
+  color: $grey70;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0 0 20px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy-text .ot-tcf2-vendor-count) {
+  color: $black;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-dpd-container) {
+  margin: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-dpd-title) {
+  color: $black;
+  font-size: 1.8rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  padding-bottom: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-dpd-desc) {
+  color: $grey70;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-link-btn) {
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 700;
+  margin-top: 20px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent) {
+  padding: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-button-group) {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-handler) {
+  margin-bottom: 0;
+  margin-right: 0;
+  max-width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-pc-btn-handler),
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-handler) {
+  border-radius: 42px !important; /* stylelint-disable-line */
+  font-size: 1.8rem;
+  font-weight: 700;
+  letter-spacing: 0;
+  padding: 12px 40px;
+  text-transform: capitalize !important; /* stylelint-disable-line */
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent .banner-actions-container) {
+  float: none;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-accept-btn-handler) {
+  margin-bottom: 0;
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy-title) {
+    width: 100%;
+  }
+
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-policy-text) {
+    width: 100%;
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-sdk-container) {
+    padding: 24px;
+  }
+
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-group-container) {
+    margin-bottom: 24px;
+  }
+
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent #onetrust-button-group) {
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-button-group-parent .banner-actions-container) {
+    width: auto;
+  }
+}
+
+@media (min-width: $mdBreakpoint) {
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk .ot-sdk-container) {
+    padding: 48px;
+  }
+
+  :global(#onetrust-consent-sdk #onetrust-banner-sdk #onetrust-group-container) {
+    margin-bottom: 44px;
+  }
+}

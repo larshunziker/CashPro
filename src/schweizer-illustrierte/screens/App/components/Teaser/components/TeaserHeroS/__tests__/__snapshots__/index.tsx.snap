@@ -1,0 +1,295 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] TeaserHeroS Should generate Teaser Icon by Props for Content type Article of channel $activeMainChannel with Video false 1`] = `<div />`;
+
+exports[`[Component] TeaserHeroS Should generate Teaser Icon by Props for Content type Article of channel $activeMainChannel with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate Teaser Icon by Props for Content type ImageGallery of channel $activeMainChannel with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconFotoMarker IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate Teaser Icon by Props for Content type NativeAdvertising of channel $activeMainChannel with Video true 1`] = `
+<div>
+  <i
+    class="Icon IconCamera IconStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate Teaser Icon by Props for Content type Video of channel $activeMainChannel with Video false 1`] = `
+<div>
+  <i
+    class="Icon IconMovieOutline IconMovieOutlineStyle"
+  />
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType Article of subtype null with label BadgeLabel in color $badgeColor 1`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentSmaller"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType Article of subtype null with label BadgeLabel in color $badgeColor 2`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentSmaller"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType ImageGallery of subtype null with label BadgeLabel in color $badgeColor 1`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentSmaller"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType NativeAdvertising of subtype advertorial with label BadgeLabel in color $badgeColor 1`] = `
+<div>
+  <div
+    class="Badge BadgePositionBottom"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentGrayD ContentSmaller"
+        >
+          <span>
+            Publireportage
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentGrayD"
+        >
+          <span>
+            Publireportage
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType NativeAdvertising of subtype native_article with label BadgeLabel in color $badgeColor 1`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentSmaller"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate badge for ContentType Video of subtype null with label BadgeLabel in color $badgeColor 1`] = `
+<div>
+  <div
+    class="Badge"
+  >
+    <div
+      class="HiddenXlUp"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content ContentSmaller"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+    <div
+      class="HiddenXlDown"
+    >
+      <div
+        class="Wrapper"
+        data-testid="badge-factory-wrapper"
+      >
+        <div
+          class="Content"
+        >
+          <span>
+            BadgeLabel
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate children by Props for shortTitle  1`] = `null`;
+
+exports[`[Component] TeaserHeroS Should generate children by Props for shortTitle Fashion ShortTitle 1`] = `
+<div
+  className="ShortTitle"
+>
+  <div>
+    Fashion ShortTitle
+  </div>
+</div>
+`;
+
+exports[`[Component] TeaserHeroS Should generate children by Props for shortTitle null 1`] = `null`;

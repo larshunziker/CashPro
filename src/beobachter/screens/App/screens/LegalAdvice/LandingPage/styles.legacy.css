@@ -1,0 +1,95 @@
+.Wrapper {
+  margin-bottom: $margin32;
+  padding-top: $margin32;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    padding-top: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding-top: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+    padding-top: $margin48;
+  }
+}
+
+.PagerWrapper {
+  margin-block: 24px 32px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-block: 48px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Sidebar {
+  @media (min-width: $mdBreakpoint) { /* 1024 */
+    border-left: 1px solid $grey30;
+    height: 100%;
+    margin-left: 12px;
+    padding-left: 28px;
+  }
+}
+
+.PianoIntegrationWrapper {
+  margin-bottom: $margin64;
+}
+
+.LinkBack {
+  align-items: center;
+  color: $green;
+  display: flex;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: $margin8;
+  margin-top: -16px;
+  transition: color .3s;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+    margin-top: -26px;
+  }
+
+  &::before {
+    content: '\2039';
+    font-size: 2rem;
+    font-weight: normal;
+    margin-right: $margin12;
+    margin-top: -2px;
+  }
+
+  &:hover {
+    color: $greenDark;
+  }
+}
+
+.HeaderWrapper {
+  margin-bottom: $margin48;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.CategoriesTitle {
+  composes: TitleWithLine from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  word-break: break-word;
+}

@@ -1,0 +1,35 @@
+.Wrapper {
+  composes: PullOutXs from 'helpers.legacy.css';
+  background-color: $greyE;
+  height: 100%;
+  padding: 16px 24px 0;
+}
+
+.Title {
+  color: $blackB;
+  display: inline-block;
+  font-family: $fontGothamBlack;
+  font-size: 1.3rem;
+  height: 1.3rem;
+  letter-spacing: 1px;
+  line-height: 1.4rem;
+  margin-bottom: 6px;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.Divider {
+  border-top: 1px solid $greyB;
+
+  @media (min-width: $xlBreakpoint) {
+    border-top: 0;
+
+    &::before {
+      background-color: $greyB;
+      content: '';
+      height: 1px;
+      position: absolute;
+      width: 218px;
+    }
+  }
+}

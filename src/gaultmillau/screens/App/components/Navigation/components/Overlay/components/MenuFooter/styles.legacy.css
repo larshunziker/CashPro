@@ -1,0 +1,41 @@
+.MenuFooter {
+  align-items: center;
+  margin-top: $margin24;
+}
+
+.MenuFooterLink {
+  display: flex;
+}
+
+.Social {
+  display: flex;
+  justify-content: center;
+  
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}
+
+.SocialLink {
+  &:not(:first-child) {
+    padding-left: 16px;
+  }
+  
+  /* We need nesting here, otherwise there will be issues with the hover of linear gradients */
+  & .GradientInner {
+    fill: inherit;
+  }
+
+  &:hover .GradientInner {
+    fill: $primaryB;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 8px;
+  }
+}
+
+.Gradient {
+  /* We need that for the IDs that we use for the linear gradient hovers! */
+  fill: $black;
+}

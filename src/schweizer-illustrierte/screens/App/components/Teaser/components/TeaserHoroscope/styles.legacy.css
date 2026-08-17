@@ -1,0 +1,113 @@
+.Wrapper {
+  background: $gradientRed;
+  display: inline-block;
+  margin-top: 50px;
+  min-height: 139px;
+  padding: 54px 10px 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 184px;
+    min-height: 216px;
+    padding: 54px 5px 20px;
+    width: auto;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 75px;
+    max-width: 300px;
+    min-height: 315px;
+    padding: 100px 30px 30px;
+    width: auto;
+  }
+}
+
+$circleSizeXs: 100px;
+$circleSizeXl: 150px;
+
+.ZodiacSignIcon {
+  background-color: $white;
+  border: 3px solid $redA;
+  border-radius: 50%;
+  color: $redA;
+  font-size: 9rem;
+  height: $circleSizeXs;
+  left: 50%;
+  position: absolute;
+  top: 0;
+  transform: translate(-50%, -50%);
+  width: $circleSizeXs;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 14rem;
+    height: $circleSizeXl;
+    width: $circleSizeXl;
+  }
+}
+
+.Title {
+  composes: SectionTitle from 'typography.legacy.css';
+  color: $white;
+  margin-bottom: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 15px;
+    margin-top: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.ShortTitle {
+  composes: QuoteAuthor from 'typography.legacy.css';
+  color: $white;
+  max-height: 80px;
+  overflow: hidden;
+
+  @media (min-width: $smBreakpoint) {
+    height: 27px;
+    margin-bottom: 10px;
+    max-height: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: auto;
+    margin-bottom: 10px;
+    max-height: 135px;
+  }
+}
+
+.TextFrom,
+.TextTo,
+.TextDelimiter {
+  display: inline-block;
+  font-variant-numeric: lining-nums;
+}
+
+.TextTo {
+  @media (min-width: $smBreakpoint) and (max-width: $lgBreakpointTo) {
+    display: block;
+  }
+}
+
+.TextDelimiter {
+  padding: 0 2px;
+}
+
+.ArrowButton {
+  margin: 10px 15px 0;
+  max-width: 96px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 10px 0 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 20px;
+    min-width: 130px;
+  }
+}

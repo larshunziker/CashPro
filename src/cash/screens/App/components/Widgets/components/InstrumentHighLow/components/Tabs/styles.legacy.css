@@ -1,0 +1,41 @@
+.Buttons {
+  border-bottom: 1px solid $greyC;
+  cursor: pointer;
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: -$margin16;
+  margin-left: -$margin16;
+  width: calc(100% + 32px);
+
+  .Active {
+    border-bottom: 2px solid $secondaryA;
+    color: $secondaryA;
+    padding: 8px 16px 6px;
+  }
+}
+
+.Button {
+  composes: InfoC from 'typography.legacy.css';
+  border: 0;
+  cursor: pointer;
+  font-weight: 700;
+  padding: 8px 14px;
+  text-align: center;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 8px 16px;
+  }
+
+  &:focus {
+    background-color: $white;
+  }
+
+  &:focus-visible {
+    background-color: $decoA;
+
+    &:hover {
+      background-color: $decoA;
+      cursor: pointer;
+    }
+  }
+}

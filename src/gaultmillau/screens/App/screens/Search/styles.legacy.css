@@ -1,0 +1,118 @@
+.Wrapper {
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    clear: both;
+  }
+}
+
+.RedBackground {
+  left: 0;
+  position: relative;
+  right: 0;
+  width: 100%;
+  z-index: $zIndexHigh;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    height: 115px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    height: 126px;
+  }
+}
+
+.Header {
+  color: $white;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  padding: 20px 0 0;
+}
+
+.SearchForm {
+  margin-top: 1rem;
+  position: relative;
+
+  > div {
+    &::before {
+      background: none;
+      content: '';
+      display: none;
+    }
+
+    > input {
+      color: $white;
+      font-family: $fontBagueSansPro;
+      font-size: 2.2rem;
+      font-weight: 100;
+      height: auto;
+      margin-left: -1px;
+      opacity: 1;
+      padding-left: 0;
+      width: 87%;
+    }
+
+    &::after {
+      color: $white;
+    }
+  }
+
+  @media (max-width: $xsBreakpointTo) {
+    > button > i {
+      color: $white;
+      font-size: 2.4rem;
+      margin-top: 4px;
+    }
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  /* width >= 760 */
+
+  .SearchForm {
+    margin-top: 1rem;
+
+    > button {
+      top: 25px;
+    }
+
+    > div {
+      > input {
+        font-size: 4.8rem;
+        height: 58px;
+        width: 94%;
+      }
+    }
+
+    a {
+      bottom: 0;
+    }
+  }
+
+  .Header {
+    font-size: 1.5rem;
+    padding: 3rem 0;
+  }
+}
+
+@media (min-width: $mdBreakpoint) {
+  /* width >= 1200 */
+  .SearchForm {
+    > button {
+      top: 20px;
+    }
+  }
+}
+
+@media (min-width: $xlBreakpoint) {
+  /* width >= 1200 */
+  .SearchForm {
+    > button {
+      > i {
+        font-size: 4rem;
+      }
+    }
+  }
+}

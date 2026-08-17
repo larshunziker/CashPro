@@ -1,0 +1,58 @@
+.Wrapper {
+  background: $white;
+  display: flex;
+  height: $headerHeightXs;
+  padding: 8px 0;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    height: $headerHeightSm;
+    padding: 0;
+  }
+
+  /* .LogoWrapper {
+    display: block;
+    float: left;
+    height: 24px;
+    width: 91px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 38px;
+      width: 153px;
+    }
+  } */
+}
+
+.IconWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.Header {
+  composes: Header from 'App/components/Header/components/HeaderInner/styles.legacy.css';
+}
+
+
+.MenuButton {
+  border: none;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  position: relative;
+}
+
+.Icon {
+  &::before {
+    /* @mixin NavIcon; */
+  }
+
+  &:hover {
+    &::before {
+      /* @mixin NavIconWhite; */
+    }
+  }
+}
+
+.Logo {
+  /* placeholder */
+}

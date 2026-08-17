@@ -1,0 +1,59 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  position: relative;
+}
+
+.HeaderTitle {
+  composes: Heading7 from '../../../../assets/styles/typography.legacy.css';
+  margin-bottom: $margin40;
+  margin-top: $margin40;
+}
+
+.Label {
+  composes: HeadingCatch1 from '../../../../assets/styles/typography.legacy.css';
+  background-color: $redA;
+  border-radius: 4px;
+  color: $white;
+  left: 100%;
+  padding: 16px;
+  position: sticky; 
+  text-align: center;
+  top: 115px;
+  width: 150px;
+  z-index: 2;
+}
+
+.WrapperInner {
+  /* stylelint-disable-next-line */	  
+  background-color:rgb(250, 235, 215);	 
+  border-radius: 4px;
+  box-shadow: 0 0 2px 2px $grayA;
+  margin-bottom: 30px;
+  padding: 20px;
+  position: relative;
+  z-index: 1;
+}	
+
+.Title {
+  composes: HeadingCatch3 from '../../../../assets/styles/typography.legacy.css';
+  background-color: $grayA;
+  border-radius: 2px;
+  color: $white;
+  padding: 5px 15px;
+  z-index: 0;
+}
+
+.ItemWrapper {
+  list-style: none;
+}
+
+.Input{
+  composes: CaptionAuthorParagraph from '../../../../assets/styles/typography.legacy.css'; 
+  margin-bottom: $margin16;
+  margin-left: $margin4;
+}
+
+.InputLabel {
+  composes: CaptionTitleAuthorParagraph from '../../../../assets/styles/typography.legacy.css'; 
+  margin-right: $margin16;
+}

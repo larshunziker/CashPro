@@ -1,0 +1,23 @@
+.LinkWrapper {
+  composes: LinkWrapper from 'Navigation/components/NavigationMenu/styles.legacy.css';
+}
+
+.NavLink {
+  color: $blackB;
+  display: inline-block;
+  font-family: $fontGothamBook;
+  margin-bottom: 0;
+  max-width: 260px;
+  overflow-wrap: break-word;
+  padding: 4px;
+  padding-left: 0;
+  position: relative;
+  transition: color 0.3s $navigationTransitionFunction;
+  word-wrap: break-word;
+  z-index: $zIndexMedium;
+
+  &:focus,
+  &:hover {
+    color: $greyA;
+  }
+}

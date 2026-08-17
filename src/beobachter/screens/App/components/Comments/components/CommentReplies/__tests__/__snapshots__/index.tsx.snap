@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Comments - CommentReplies Should return styles with replies 1`] = `
+{
+  "Icon": "Icon",
+  "RepliesWrapper": "",
+  "Toggle": "Toggle",
+  "ToggleLink": "ToggleLink",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Comments - CommentReplies Should return styles without replies 1`] = `
+{
+  "Icon": "Icon",
+  "RepliesWrapper": "Hidden",
+  "Toggle": "Toggle",
+  "ToggleLink": "ToggleLink",
+  "Wrapper": "Wrapper",
+}
+`;

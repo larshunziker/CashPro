@@ -1,0 +1,61 @@
+{
+  "__typename": "Page",
+  "id": "bm9kZToxOTM5OA==",
+  "nid": "19398",
+  "title": "Kontakt",
+  "editContentUri": null,
+  "editRelationUri": null,
+  "cloneContentUri": null,
+  "lead": "Haben Sie Fragen? test1",
+  "shortTitle": "test",
+  "preferredUri": "/kontakt",
+  "metaTitle": "Kontakt | Schweizer Illustrierte",
+  "metaOgTitle": "Kontakt | Schweizer Illustrierte",
+  "metaDescription": "Haben Sie Fragen? test1",
+  "metaOgDescription": "Haben Sie Fragen? test1",
+  "metaCanonicalUrl": "",
+  "channel": null,
+  "createDate": "2018-10-09T15:39:08",
+  "metaKeywords": null,
+  "heroImageBody": [
+    {
+      "__typename": "ImageParagraph",
+      "anchorId": null,
+      "id": "179518",
+      "format": "landscape",
+      "caption": null,
+      "title": "test",
+      "image": {
+        "__typename": "Image",
+        "id": "44577",
+        "credit": "Trump",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "45198",
+          "alt": "Trump",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/trump.jpg",
+          "width": 480,
+          "height": 320
+        }
+      }
+    }
+  ],
+  "activeMenuTrail": {
+    "__typename": "ActiveMenuTrailItemConnection",
+    "count": 1,
+    "edges": [
+      {
+        "__typename": "ActiveMenuTrailItemEdge",
+        "node": {
+          "__typename": "ActiveMenuTrailItem",
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6Ym05a1pTMD0=",
+          "label": "Kontakt",
+          "link": null
+        }
+      }
+    ]
+  },
+  "body": []
+}

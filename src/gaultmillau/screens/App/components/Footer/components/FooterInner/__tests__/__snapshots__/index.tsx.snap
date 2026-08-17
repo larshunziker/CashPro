@@ -1,0 +1,69 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] FooterInner Should not render subtree items without label 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation"
+  >
+    <ul
+      class="FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        <div
+          data-testid="mocked-link"
+        >
+          Termes et conditions
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render French menu when language is French 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation"
+  >
+    <ul
+      class="FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        <div
+          data-testid="mocked-link"
+        >
+          Termes et conditions
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render German menu when language is German 1`] = `
+<div>
+  <section
+    class="ColSm12 FooterNavigation"
+  >
+    <ul
+      class="FooterNavigationList"
+    >
+      <li
+        class="ListItem"
+      >
+        <div
+          data-testid="mocked-link"
+        >
+          Termes et conditions
+        </div>
+      </li>
+    </ul>
+  </section>
+</div>
+`;
+
+exports[`[Component] FooterInner Should render nothing 1`] = `<div />`;

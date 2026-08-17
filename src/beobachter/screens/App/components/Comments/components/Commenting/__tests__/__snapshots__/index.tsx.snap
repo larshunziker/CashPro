@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Comments - Commenting Should return no visible comments styles 1`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "StatusWrapper",
+  "Title": "Title",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Comments - Commenting Should return visible comments styles 1`] = `
+{
+  "Icon": "Icon",
+  "IconChevronUpActive": "IconChevronUpActive",
+  "Logout": "Logout",
+  "Status": "Status",
+  "StatusWrapper": "StatusWrapperVisible",
+  "Title": "Title",
+  "Wrapper": "Wrapper isOpen",
+}
+`;

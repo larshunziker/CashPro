@@ -1,0 +1,16 @@
+.ContentWrapper {
+  > h2 {
+    @mixin HeadingCatch3;
+    background-color: $grayA;
+    border-radius: 2px;
+    color: $white;
+    margin-bottom: $margin8;
+    margin-top: $margin80;
+    padding: 5px 15px;
+    z-index: 0;
+  }
+}
+
+.Title {
+  composes: Heading1A from '../../../../assets/styles/typography.legacy.css';
+}

@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] Styleguide Overview Should render correctly 1`] = `
+<div>
+  <ul
+    class="List"
+  >
+    <li>
+      <a
+        href="/styleguide/paragraphs"
+      >
+        Paragraphs
+      </a>
+    </li>
+    <li>
+      <a
+        href="/styleguide/typography"
+      >
+        Typography
+      </a>
+    </li>
+  </ul>
+</div>
+`;

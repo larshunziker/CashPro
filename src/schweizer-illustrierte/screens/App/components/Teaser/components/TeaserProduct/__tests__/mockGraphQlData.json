@@ -1,0 +1,22 @@
+{
+  "__typename": "Product",
+  "title": "Aromachlogie Hitzeschutzspray",
+  "shortTitle": "L'Occitane",
+  "teaserImage": {
+    "id": "179661",
+    "image": {
+      "file": {
+        "alt": "Aromachlogie Hitzeschutzspray",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+      }
+    }
+  },
+  "price": 25,
+  "pricePrefix": "ca.",
+  "link": {
+    "label": "L'Occitane",
+    "path": "https://ch.loccitane.com/aromachologie-hitzschutzspray,78,2,26559,544175.htm?lgw_code=4303-17BD125G14&gclid=Cj0KCQjw9NbdBRCwARIsAPLsnFagScTFA5vYgBUvZJewqGWdu6LiQrSz6hBmT0rsc1JEFL1BADC7vZQaAnHAEALw_wcB"
+  }
+}

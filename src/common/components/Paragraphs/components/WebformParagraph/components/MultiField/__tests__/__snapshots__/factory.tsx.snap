@@ -1,0 +1,199 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MultiField factory Should render checkboxes with an error message 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class="HasErrorClassName"
+            id="undefined_Schweizer Illustrierte"
+            name="undefined[Schweizer Illustrierte]"
+            type="checkbox"
+            value="Schweizer Illustrierte"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName HasErrorClassName"
+          for="undefined_Schweizer Illustrierte"
+        >
+          <div
+            class=""
+          >
+            Schweizer Illustrierte
+          </div>
+        </label>
+      </div>
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class="HasErrorClassName"
+            id="undefined_Style"
+            name="undefined[Style]"
+            type="checkbox"
+            value="Style"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName HasErrorClassName"
+          for="undefined_Style"
+        >
+          <div
+            class=""
+          >
+            Style
+          </div>
+        </label>
+      </div>
+      <span
+        class="ErrorMessageClassName"
+      >
+        Bitte treffen Sie eine Auswahl.
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiField factory Should render correctly without the error message 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class=""
+            id="undefined_Frau"
+            type="radio"
+            value="Frau"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName"
+          for="undefined_Frau"
+        >
+          <div
+            class=""
+          >
+            Frau
+          </div>
+        </label>
+      </div>
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class=""
+            id="undefined_Herr"
+            type="radio"
+            value="Herr"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName"
+          for="undefined_Herr"
+        >
+          <div
+            class=""
+          >
+            Herr
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MultiField factory Should render correctly without the error message 2`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <div
+      class=""
+    >
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class=""
+            id="undefined_Schweizer Illustrierte"
+            name="undefined[Schweizer Illustrierte]"
+            type="checkbox"
+            value="Schweizer Illustrierte"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName"
+          for="undefined_Schweizer Illustrierte"
+        >
+          <div
+            class=""
+          >
+            Schweizer Illustrierte
+          </div>
+        </label>
+      </div>
+      <div
+        class="RowClassName OptionWrapperClassName"
+      >
+        <div
+          class="OptionsColumnsClassName OptionClassName"
+        >
+          <input
+            class=""
+            id="undefined_Style"
+            name="undefined[Style]"
+            type="checkbox"
+            value="Style"
+          />
+          <span />
+        </div>
+        <label
+          class="LabelsColumnsClassName LabelsClassName"
+          for="undefined_Style"
+        >
+          <div
+            class=""
+          >
+            Style
+          </div>
+        </label>
+      </div>
+    </div>
+  </div>
+</div>
+`;

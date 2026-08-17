@@ -1,0 +1,234 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+}
+
+.RubricTitle {
+  composes: Catch from 'typography_old.legacy.css';
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.3rem;
+  margin-top: 20px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+    line-height: 1.2rem;
+    margin-top: 29px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 31px;
+  }
+}
+
+.Lead {
+  composes: BodyText from 'typography_old.legacy.css';
+  line-height: 1.7rem;
+
+  strong {
+    white-space: nowrap;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 2.5rem;
+  }
+}
+
+.EssentialTitle {
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 3px;
+  line-height: 1.2rem;
+  margin-top: 60px;
+  padding-top: 10px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    line-height: 1.5rem;
+    padding-top: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 70px;
+  }
+}
+
+.MainTitle {
+  composes: H3 from 'typography_old.legacy.css';
+  margin: 6px auto 15px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.5rem;
+    font-weight: bold;
+    line-height: 3.5rem;
+    margin: 13px 0 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: 11px 0 15px;
+  }
+}
+
+.TextBox {
+  margin: 0 auto;
+  text-align: center;
+  width: 260px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 582px;
+  }
+}
+
+.ContentBox {
+  composes: Container from 'sections.legacy.css';
+  margin-bottom: 60px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 54px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 59px;
+  }
+}
+
+.TopBorderRow {
+  composes: Row from '@grid.legacy.css';
+}
+
+.TopBorder {
+  margin-top: 31px;
+
+  &::before {
+    background-color: $neutralB;
+    content: '';
+    display: block;
+    height: 1px;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+}
+
+.BodyText {
+  composes: BodyText from 'typography_old.legacy.css';
+  text-align: left;
+}
+
+.Item {
+  composes: Link from 'typography_old.legacy.css';
+  height: 118px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: initial;
+    padding-bottom: 26px;
+  }
+}
+
+.SponsorLogo {
+  display: block;
+  height: auto;
+  left: 50%;
+  margin: 0 auto;
+  max-width: 108px;
+  position: absolute;
+  top: 60%;
+  transform: translateY(-50%) translateX(-50%);
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    max-width: 134px;
+  }
+
+  &.Small {
+    max-width: 56px;
+
+    @media (min-width: $mdBreakpoint) {
+      max-width: 70px;
+    }
+  }
+}
+
+.Link {
+  composes: Link from 'typography_old.legacy.css';
+  color: $neutralA;
+  text-decoration: underline;
+}
+
+.SponsorBox {
+  composes: Row from '@grid.legacy.css';
+  align-items: center;
+
+  &:first-child {
+    .SponsorText {
+      padding-top: 0;
+
+      p {
+        @media (min-width: $smBreakpoint) {
+          margin-bottom: -11px;
+        }
+
+        @media (min-width: $mdBreakpoint) {
+          margin-bottom: -10px;
+        }
+      }
+    }
+  }
+
+  &:last-child {
+    .SponsorText {
+      p {
+        @media (min-width: $smBreakpoint) {
+          margin-bottom: -11px;
+        }
+
+        @media (min-width: $mdBreakpoint) {
+          margin-bottom: -10px;
+        }
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+
+    &::after,
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.SponsorText {
+  padding-top: 2px;
+  position: relative;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    border-left: 1px solid $neutralB;
+    padding-top: 40px;
+    text-align: left;
+    top: -6px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 32px;
+    top: -9px;
+  }
+}
+
+.SponsorsWrapper {
+  overflow: hidden;
+}

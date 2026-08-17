@@ -1,0 +1,22 @@
+.Wrapper {
+  background: $greyE;
+  border: 1px solid $greyC;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: $margin16;
+  padding: 12px;
+}
+
+.CloseButton {
+  align-items: center;
+  cursor: pointer;
+  display: flex;
+  font-weight: bold;
+  justify-content: center;
+  margin: $margin8 $margin8 $margin8 $margin16;
+}
+
+.Icon {
+  font-weight: bold;
+}

@@ -1,0 +1,41 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] UtilityLink Should not render commentCount if there are 0 comments 1`] = `null`;
+
+exports[`[Component] UtilityLink Should not render link without icon 1`] = `<div />`;
+
+exports[`[Component] UtilityLink Should not render without props 1`] = `<div />`;
+
+exports[`[Component] UtilityLink Should render commentCount if there is one given 1`] = `
+<span
+  class="BadgeClassName"
+  data-testid="utility-link-comment-count-wrapper"
+>
+  <span
+    class="CommentCountClassName"
+  >
+    4
+  </span>
+</span>
+`;
+
+exports[`[Component] UtilityLink Should render correctly 1`] = `
+<div>
+  <div
+    data-testid="utility-link-wrapper"
+  >
+    <div
+      data-testid="mocked-link"
+    >
+      <div
+        class="MockSVGIcon"
+      />
+      <p
+        class="LabelClassName"
+      >
+        Facebook
+      </p>
+    </div>
+  </div>
+</div>
+`;

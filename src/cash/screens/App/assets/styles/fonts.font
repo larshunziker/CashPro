@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'rasch-font';
+    src: url('../../../../../common/assets/fonts/RASCH-Font.woff2?24u0vb') format('woff2'),
+         url('../../../../../common/assets/fonts/RASCH-Font.woff?24u0vb') format('woff'),
+         url('../../../../../common/assets/fonts/RASCH-Font.svg?24u0vb#RASCH-Font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-display: block;
+  font-weight: normal;
+  src: url('https://fonts.gstatic.com/s/sourcesanspro/v21/6xK3dSBYKcSV-LCoeQqfX1RYOo3qOK7lujVj9w.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-display: block;
+  font-weight: bold;
+  src: url('https://fonts.gstatic.com/s/sourcesanspro/v21/6xKydSBYKcSV-LCoeQqfX1RYOo3ig4vwlxdu3cOWxw.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-display: block;
+  font-weight: normal;
+  src: url('https://fonts.gstatic.com/s/sourceserifpro/v15/neIQzD-0qpwxpaWvjeD0X88SAOeauXQ-oAGIyY0.woff2') format('woff2');
+}
+
+@font-face {
+  font-family: 'Source Serif Pro';
+  font-display: block;
+  font-weight: bold;
+  src: url('https://fonts.gstatic.com/s/sourceserifpro/v15/neIXzD-0qpwxpaWvjeD0X88SAOeasc8btSyqxKcsdrM.woff2') format('woff2')
+}

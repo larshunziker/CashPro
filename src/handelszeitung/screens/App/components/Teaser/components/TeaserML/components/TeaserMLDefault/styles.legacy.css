@@ -1,0 +1,108 @@
+.OuterWrapper {
+  height: 100%;
+}
+
+.Wrapper {
+  border-bottom: 1px solid $greyA;
+  display: block;
+  height: 100%;
+  letter-spacing: 0;
+  line-height: 0;
+  padding-bottom: 27px;
+  position: relative;
+}
+
+.TeaserImageWrapper {
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: calc($zIndex1 - 1);
+}
+
+.TeaserTitleWrapper {
+  margin-bottom: $margin8;
+}
+
+.TeaserTitle {
+  composes: H3 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.TeaserLead {
+  composes: Lead2 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.BottomLine {
+  composes: Metadata from 'typography.legacy.css';
+  bottom: 0;
+  max-width: 100%;
+  overflow: hidden;
+  position: absolute;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Icon {
+  bottom: 19px;
+  position: absolute;
+  right: 23px;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 14px;
+    right: 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 10px;
+    right: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 14px;
+    right: 17px;
+  }
+}
+
+.Badge {
+  bottom: 19px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 14px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 28px;
+  }
+}
+
+.ShortTitle{
+  composes: ShortTitleBGreyA from 'typography.legacy.css';
+  margin-bottom: $margin4;
+  margin-top: $margin8;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitleDAdvertorial from 'typography.legacy.css';
+}
+
+.ShortTitleNA {
+  composes: ShortTitleDNativeAd from 'typography.legacy.css';
+}
+
+.ShortTitleAdvertorialSvg {
+  margin-bottom: -1px;
+  margin-top: 9px;
+}

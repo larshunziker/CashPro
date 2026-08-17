@@ -1,0 +1,29 @@
+{
+  "edges": [
+    {
+      "node": {
+        "label": "Abama",
+        "preferredUri": "/stichworte/a/abama",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "label": "Amazon",
+        "preferredUri": "/stichworte/a/amazon",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    },
+    {
+      "node": {
+        "label": "arbeitgeber",
+        "preferredUri": "/stichworte/a/arbeitgeber",
+        "__typename": "Keyword"
+      },
+      "__typename": "KeywordEdge"
+    }
+  ],
+  "__typename": "KeywordConnection"
+}

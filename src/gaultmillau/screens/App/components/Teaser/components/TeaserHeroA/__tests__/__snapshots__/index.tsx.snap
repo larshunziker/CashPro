@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserHeroA Should return the correct styles for TeaserHeroA 1`] = `
+{
+  "ContentWrapper": "ContentWrapper",
+  "Image": "Image",
+  "ImageWrapper": "ImageWrapper Left",
+  "Lead": "Lead",
+  "Title": "Title",
+  "Wrapper": "Wrapper teaser-hero-a",
+}
+`;
+
+exports[`[Component] Teaser - TeaserHeroA Should return the correct styles for TeaserHeroB 1`] = `
+{
+  "ContentWrapper": "ContentWrapper Left",
+  "Image": "Image",
+  "ImageWrapper": "ImageWrapper",
+  "Lead": "Lead",
+  "Title": "Title",
+  "Wrapper": "Wrapper teaser-hero-b WrapperHeroB",
+}
+`;

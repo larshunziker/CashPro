@@ -1,0 +1,26 @@
+
+
+.FooterNavigation {
+  margin-bottom: 20px;
+}
+
+.ListItem {
+  margin-bottom: $margin12;
+}
+
+.Link {
+  composes: InfoBNeutralA from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  &:hover {
+    @mixin InfoBPrimaryB;
+  }
+}
+
+.FooterNavigationList {
+  border-top: 1px solid $neutralC;
+  columns: 2;
+  list-style: none;
+  padding-top: 32px;
+}

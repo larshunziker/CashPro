@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageTrendingTopics Should render correctly 1`] = `
+<div>
+  <div
+    class="paragraph ministage-trending-topics-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleClassName"
+      >
+        Current topics
+      </div>
+      <div>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/1/13-monatslohn"
+        >
+          #13. Monatslohn
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/b/baby"
+        >
+          #Baby
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/a/abfall"
+        >
+          #Abfall
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/I/Immobilienmakler"
+        >
+          #Immobilienmakler
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageTrendingTopics Should render fallback headline if not headline related 1`] = `
+<div>
+  <div
+    class="paragraph ministage-trending-topics-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleClassName"
+      >
+        Aktuelle Themen
+      </div>
+      <div>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/1/13-monatslohn"
+        >
+          #13. Monatslohn
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/b/baby"
+        >
+          #Baby
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/a/abfall"
+        >
+          #Abfall
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/I/Immobilienmakler"
+        >
+          #Immobilienmakler
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageTrendingTopics Should render node link instead of preferredUri 1`] = `
+<div>
+  <div
+    class="paragraph ministage-trending-topics-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div
+        class="TitleClassName"
+      >
+        Current topics
+      </div>
+      <div>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/node-link"
+        >
+          #13. Monatslohn
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/b/baby"
+        >
+          #Baby
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/a/abfall"
+        >
+          #Abfall
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/I/Immobilienmakler"
+        >
+          #Immobilienmakler
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] MinistageTrendingTopics Should render node link instead of preferredUri, activePath css class, custom headline and custom labelPrefix 1`] = `
+<div>
+  <div
+    class="paragraph ministage-trending-topics-paragraph WrapperClassName"
+  >
+    <div
+      class="ContentWrapperClassName"
+    >
+      <div>
+        <a
+          class="KeywordClassName ActivePathClassName"
+          data-testid="mocked-link"
+          href="/node-link"
+        >
+          13. Monatslohn
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/b/baby"
+        >
+          Baby
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/a/abfall"
+        >
+          Abfall
+        </a>
+        <a
+          class="KeywordClassName"
+          data-testid="mocked-link"
+          href="/stichworte/I/Immobilienmakler"
+        >
+          Immobilienmakler
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

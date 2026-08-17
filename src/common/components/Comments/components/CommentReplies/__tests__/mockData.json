@@ -1,0 +1,22 @@
+[
+  {
+    "node": {
+      "body": "Test",
+      "id": "1",
+      "name": "Test",
+      "createDate": "2017",
+      "__typename": "Comment"
+    },
+    "__typename": "CommentEdge"
+  },
+  {
+    "node": {
+      "body": "Test",
+      "id": "24",
+      "name": "Test",
+      "createDate": "2019",
+      "__typename": "Comment"
+    },
+    "__typename": "CommentEdge"
+  }
+]

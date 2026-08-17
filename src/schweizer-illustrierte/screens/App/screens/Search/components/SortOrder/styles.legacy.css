@@ -1,0 +1,50 @@
+.Wrapper {
+  margin: 9px 0 29px;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 20px 0 $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 29px 0 50px;
+  }
+}
+
+.FilterWrapper {
+  text-align: right;
+}
+
+.Label {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  color: $grayB;
+  margin-right: 0;
+}
+
+.FilterItem {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  border: none;
+  color: $grayB;
+  cursor: pointer;
+  display: inline-block;
+  margin-left: 21px;
+
+  &:hover {
+    color: $redA;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 30px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: $margin40;
+  }
+}
+
+.ActiveFilterItem {
+  color: $black;
+
+  &:hover {
+    color: $black;
+  }
+}

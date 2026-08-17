@@ -1,0 +1,8 @@
+.OnImageContent {
+  position: relative;
+}
+
+.Lead {
+  composes: Lead from 'typography.legacy.css';
+  margin-top: $margin24;
+}

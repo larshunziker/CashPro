@@ -1,0 +1,68 @@
+{
+  "link": {
+    "label": "Life & Style",
+    "description": null,
+    "path": "/life-and-style",
+    "routed": true,
+    "expanded": false
+  },
+  "subtree": {
+    "edges": [
+      {
+        "node": {
+          "link": {
+            "label": "GaultMillau Travel",
+            "description": null,
+            "path": "/life-and-style/travel",
+            "routed": false,
+            "expanded": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Hot Ten",
+            "description": null,
+            "path": "/hot-ten",
+            "routed": true,
+            "expanded": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Bücher",
+            "description": null,
+            "path": "/life-and-style/buecher",
+            "routed": true,
+            "expanded": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Schweizer Fleisch",
+            "description": null,
+            "path": "/schweizer-fleisch",
+            "routed": false,
+            "expanded": false
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Wallis",
+            "description": null,
+            "path": "/wallis",
+            "routed": false,
+            "expanded": false
+          }
+        }
+      }
+    ]
+  }
+}

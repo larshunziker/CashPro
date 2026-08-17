@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ContentBoxTab Factory Should not render Tabs if length of body is < 1 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <span
+      class="TitleClassName"
+    />
+    <div
+      data-testid="mocked-contentBoxBody"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ContentBoxTab Factory Should render correctly 1`] = `
+<div>
+  <div
+    class="WrapperClassName"
+  >
+    <span
+      class="TitleClassName"
+    />
+    <div
+      class="TabWrapperClassName"
+    >
+      <button
+        class="TabTitleClassName ActiveTabClassName"
+      >
+        <span
+          class="TabTitleClassName"
+        >
+          Most Read
+        </span>
+      </button>
+      <button
+        class="TabTitleClassName"
+      >
+        <span
+          class="TabTitleClassName"
+        >
+          News
+        </span>
+      </button>
+      <button
+        class="TabTitleClassName"
+      >
+        <span
+          class="TabTitleClassName"
+        >
+          Alle
+        </span>
+      </button>
+    </div>
+    <div
+      data-testid="mocked-contentBoxBody"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ContentBoxTab Factory Should render nothing 1`] = `<div />`;

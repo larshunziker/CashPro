@@ -1,0 +1,54 @@
+.BarWrapper {
+  padding-top: $margin32;
+}
+
+.Bar {
+  border-radius: 4px;
+  height: $margin8;
+  margin-bottom: $margin16;
+  position: relative;
+
+  .Value {
+    position: absolute;
+    top: -34px;
+  }
+
+  &.Blue {
+    background: linear-gradient(270deg, #107b8e 0.2%, #b0d5dc 100%);
+  }
+
+  &.Grey {
+    background: linear-gradient(270deg, #6a6e71 0.2%, #efefef 100%);
+  }
+}
+
+.Point {
+  border-left: 10px solid transparent;
+  border-right: 10px solid transparent;
+  height: 14px;
+  position: absolute;
+  top: -12px;
+  width: 19px;
+
+  &.Blue {
+    border-top: 12px solid $secondaryB;
+  }
+
+  &.Grey {
+    border-top: 12px solid $blackB;
+  }
+}
+
+.LabelWrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.Value {
+  composes: DataTable from 'typography.legacy.css';
+}
+
+.DateLabel {
+  composes: InfoC from 'typography.legacy.css';
+  color: $greyA;
+}

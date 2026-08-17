@@ -1,0 +1,78 @@
+.ExpansionPanel {
+  margin-bottom: $margin8;
+  position: relative;
+
+  .Header {
+    align-items: baseline;
+    color: $blackB;
+    cursor: pointer;
+    display: flex;
+    margin-bottom: $margin8;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+    }
+  }
+
+  .HeaderContentWrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+
+  .Icon {
+    &::before {
+      color: $blackA;
+      display: inline-block;
+      font-family: $fontRasch;
+      @mixin fontSize 25;
+    }
+
+    &.ArrowIcon {
+      align-items: center;
+      display: flex;
+      line-height: 1;
+      margin-right: 9px;
+      transform: rotate(180deg);
+      transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+
+      &::before {
+        color: $secondaryA;
+        content: '\e906';
+      }
+    }
+  }
+
+  &.IsOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+    }
+  }
+}
+
+.Content {
+  height: 0;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  padding-left: 34px;
+  position: relative;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: -$margin12;
+  }
+}
+
+.Title {
+  composes: H4 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  padding-top: 3px;
+  word-break: break-word;
+}
+

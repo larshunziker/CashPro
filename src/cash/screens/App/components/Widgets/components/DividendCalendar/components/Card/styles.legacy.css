@@ -1,0 +1,226 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  border-radius: 8px;
+  margin-bottom: 16px;
+  padding: 16px;
+  position: relative;
+  width:100%;
+
+  /* disable text selection cause it will be irritating when using the slider by mouse */
+  > * {
+    user-select: none;
+  }
+
+
+  @media (min-width: $smBreakpoint) {
+    width: 300px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 380px;
+  }
+}
+
+.IsOneItem {
+  width: 100%;
+}
+
+.CardHeader {
+  align-items: center;
+  display: flex;
+  gap: 8px;
+  margin-bottom: 8px;
+}
+
+.QuoteTitle {
+  line-height: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 303px;
+  }
+}
+
+.InfoTable {
+  display: flex;
+  flex-direction: column;
+  margin: 24px 0;
+
+  table {
+    tr {
+      border: none;
+
+      th, td {
+        border: none;
+        padding: 0;
+      }
+
+      td {
+        font-weight: 900;
+      }
+    }
+
+    .Left {
+      text-align: left;
+    }
+
+    .Center {
+      text-align: center;
+    }
+
+    .Right {
+      text-align: right;
+    }
+  }
+}
+
+.BrandImg {
+  border-radius: 50%;
+  box-shadow: 0 2px 10px 0 $black15;
+  height: 56px;
+  width: 56px
+}
+
+.ButtonsWrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  gap: $margin8;
+
+  > * {
+    flex: 1;
+  }
+}
+
+.BuyButton, .SellButton {
+  align-items: center;
+  border-radius: $margin4;
+  color: $white;
+  cursor: pointer;
+  display: flex;
+  font-family: $fontSourceSansPro;
+  font-size: 0.875rem;
+  font-weight: 700;
+  gap: $margin12;
+  justify-content: center;
+  line-height: 1.125rem;
+  padding: $margin8 $margin16;
+}
+
+.BuyButton {
+  background-color: $positiveA;
+
+  &:hover {
+    background-color: $positiveB;
+  }
+}
+
+.SellButton {
+  background-color: $primaryA;
+
+  &:hover {
+    background-color: $primaryB;
+  }
+}
+
+.ChartWrapper {
+  margin-bottom: 16px;
+  min-height: 134px;
+  min-width: 236px;
+}
+
+.ChartTitle {
+  composes: TableData from 'typography.legacy.css';
+}
+
+.ChartLegend {
+  display: flex;
+  gap: 16px;
+
+  span {
+    color: $greyB;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+}
+
+.LinkWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.Link {
+  composes: ContentBoxBig from 'typography.legacy.css';
+  color: $secondaryA;
+  max-width: fill-available;
+
+  &:hover {
+    color: $secondaryB;
+    cursor: pointer;
+  }
+}
+
+.Skeleton {
+  border-radius: 8px;
+  height: 555px;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+}
+
+.RenditeWrapper {
+  display: flex;
+  flex-direction: row;
+  gap: 3px;
+  justify-content: end;
+  position: relative;
+}
+
+.Icon {
+  color: $greyA;
+  font-size: 12px;
+
+  &:hover {
+    color: $blackB;
+    cursor: pointer;
+  }
+}
+
+.InfoTextWrapper {
+  composes: Meta3 from 'typography.legacy.css';
+  background: $blackB;
+  border-radius: 4px;
+  color: $white;
+  padding: 10px;
+  position: absolute;
+  right: -14px;
+  text-align: left;
+  top: 30px;
+  width: 205px;
+  z-index: 111;
+
+  &::before {
+    border-bottom: 13px solid $blackB;
+    border-left: 11px solid transparent;
+    border-radius: 4px;
+    border-right: 11px solid transparent;
+    content: '';
+    height: 0;
+    margin: auto;
+    position: absolute;
+    right: 9px;
+    top: -11px;
+    width: 0;
+    z-index: 1001;
+  }
+}
+
+.ExDate {
+  composes: InfoBold from 'typography.legacy.css';
+}

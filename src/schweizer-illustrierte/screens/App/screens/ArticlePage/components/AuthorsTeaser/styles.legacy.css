@@ -1,0 +1,8 @@
+.AuthorsWrapper {
+  padding: 24px 0;
+}
+
+.Divider {
+  background-color: $greyD;
+  height: 1px;
+}

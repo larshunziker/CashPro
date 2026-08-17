@@ -1,0 +1,496 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AdvantagesParagraph Should call itemWrapper if it is a function 1`] = `
+<div>
+  <div
+    class="OuterWrapperStyle"
+  >
+    <div
+      class="WrapperStyle"
+      data-testid="wrapper"
+    >
+      <div
+        data-testid="title"
+      >
+        <h3
+          class="TitleStyle"
+        >
+          4 Advantages
+        </h3>
+      </div>
+      <div
+        class="DifferentItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="haus.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/haus.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="DifferentItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+            href="https://www.blick.ch"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="pencil_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/pencil_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="DifferentItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="person.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/person.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="DifferentItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="Lindt-Logo_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/Lindt-Logo_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AdvantagesParagraph Should render correctly 1`] = `
+<div>
+  <div
+    class="OuterWrapperStyle"
+  >
+    <div
+      class="WrapperStyle"
+      data-testid="wrapper"
+    >
+      <div
+        data-testid="title"
+      >
+        <h3
+          class="TitleStyle"
+        >
+          4 Advantages
+        </h3>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="haus.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/haus.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+            href="https://www.blick.ch"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="pencil_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/pencil_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="person.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/person.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="Lindt-Logo_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/Lindt-Logo_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AdvantagesParagraph Should render correctly without header if it is empty 1`] = `
+<div>
+  <div
+    class="OuterWrapperStyle"
+  >
+    <div
+      class="WrapperStyle"
+      data-testid="wrapper"
+    >
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="haus.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/haus.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+            href="https://www.blick.ch"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="pencil_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-07/pencil_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="person.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/person.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <div
+        class="ItemWrapperStyle"
+        data-testid="item-wrapper"
+      >
+        <div
+          data-testid="advantages-item-wrapper"
+        >
+          <a
+            class="Wrapperstyle"
+            data-testid="mocked-link"
+          >
+            <div
+              data-testid="image-wrapper"
+            >
+              <img
+                alt="Lindt-Logo_0.svg"
+                class="Iconstyle"
+                src="/sites/default/files/2020-08/Lindt-Logo_0.svg"
+              />
+            </div>
+            <div
+              data-testid="text-wrapper"
+            >
+              <div
+                class="Textstyle"
+              >
+                <p>
+                  It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English.
+                </p>
+                
+
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

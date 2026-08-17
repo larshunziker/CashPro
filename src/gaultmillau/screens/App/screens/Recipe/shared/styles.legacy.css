@@ -1,0 +1,413 @@
+.Wrapper {
+  margin-bottom: 40px;
+  overflow: hidden; /* to hide not visible part of sky ad */
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.InnerTop {
+  background-color: $neutralA;
+  height: 480px;
+  margin-bottom: calc((480px - $defaultPadding) * -1);
+  margin-top: -1px;
+  width: 100%;
+
+  @media (min-width: $xsBreakpointTo) {
+    height: 200px;
+    margin-bottom: calc((200px - $defaultPadding) * -1);
+  }
+
+  @media (min-width: $smBreakpointTo) {
+    height: 150px;
+    margin-bottom: calc((150px - $defaultPadding) * -1);
+  }
+
+  @media print {
+    height: auto;
+    margin-bottom: auto;
+  }
+}
+
+.AdSection {
+  margin: $defaultMargin 0;
+}
+
+.AdPlaceholder {
+  height: 200px;
+  padding: $defaultMargin 0;
+}
+
+.AuthorWrapper {
+  border-top: 1px solid $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: $margin24;
+  padding: 24px 0 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;  
+  }
+
+  @media print {
+    display: none;
+  }
+
+  &::after {
+    clear: both;
+    content: '';
+    display: block;
+  }
+}
+
+.AuthorImage {
+  background-size: cover;
+  display: inline-block;
+  float: left;
+  height: 96px;
+  width: 96px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 105px;
+    width: 105px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 127px;
+    width: 127px;
+  }
+}
+
+.AuthorWrapperInner {
+  display: block;
+  float: left;
+  padding-left: 12px;
+  position: relative;
+  top: -5px;
+  width: calc(100% - 96px);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 105px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    position: static;
+    width: calc(100% - 127px);
+  }
+}
+
+.AuthorLink {
+  composes: ParagraphBoldNeutralA from 'typography.legacy.css';
+}
+
+.AuthorLead {
+  composes: ParagraphNeutralA from 'typography.legacy.css';
+  display: inline-block;
+
+  a {
+    /* tag come from backend */
+    @mixin ParagraphLinkNeutralA;
+  }
+}
+
+.SubTitle {
+  composes: ParagraphBoldNeutralA from 'typography.legacy.css';
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline-block;
+    margin-bottom: $margin24;
+  }
+}
+
+
+.ContentWrapper {
+  margin-bottom: 15px;
+  margin-top: 0;
+  padding-top: 0;
+  position: relative;
+  top: -10px;
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid $neutralA;
+    margin-bottom: 35px;
+    margin-top: $margin24;
+    min-height: 500px;
+    padding-top: 40px;
+  }
+
+  @media print {
+    border-top: none;
+  }
+
+  ul, ol  {
+    margin: -6px 0 0;
+    @mixin ParagraphNeutralA;
+  }
+
+  li {
+    list-style-position: inside;
+    margin-bottom: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }  
+
+  .Left {
+    display: none;
+
+    &.Active {
+      display: block;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+      float: left;
+      padding-right: 12px;
+      width: 37%;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      width: calc(29% - 4px);
+    }
+
+    @media print {
+      display: block;
+      float: left;
+      padding-right: 12px;
+      width: 37%;
+    }
+  }
+
+  .Right {
+    display: none;
+    width: 100%;
+
+    &.Active {
+      display: block;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      border-left: 1px solid $neutralA;
+      display: block;
+      float: left;
+      padding-left: 12px;
+      width: 63%;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      width: 71%;
+    }
+
+    @media print {
+      border-left: 1px solid $neutralA;
+      display: block;
+      float: right;
+      padding-left: 12px;
+      width: 63%;
+    }
+  }
+}
+
+.IngredientTitle {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  display: block;
+
+  a {
+    /* tag come from backend */
+    color: $neutralA;
+    overflow-wrap: break-word;
+    text-decoration: underline;
+
+    &:hover {
+      background: $gradientPrimaryA;
+      background-clip: text;
+      color: $primaryA;
+      cursor: pointer;
+      -webkit-text-fill-color: $transparent; /* stylelint-disable-line property-no-vendor-prefix */
+    }
+  }
+
+  strong {
+    /* tag come from backend */
+    font-weight: 500;
+    margin-top: $margin4;
+  }
+
+  @media print {
+    display: block;
+  }
+}
+
+.AddressText {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+  left: 0;
+  margin-top: 25px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 0;
+    margin-top: 0;
+    padding-right: 9px;
+    position: absolute;
+    width: 37%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-right: 12px;
+    width: calc(40% - 4px);
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Link {
+  composes: InfoCLinkNeutralA from 'typography.legacy.css';
+}
+
+.TabsWrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+  margin-bottom: 24px;
+  margin-top: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.TabItem {
+  border-bottom: 1px solid $neutralA;
+  border-top: 1px solid $transparent;
+  color: $neutralA;
+  float: left;
+  font-family: $fontBagueSansPro;
+  font-size: 1.2rem;
+  font-weight: 900;
+  letter-spacing: 2px;
+  line-height: 1.5rem;
+  padding: 8px 0;
+  position: relative;
+  text-transform: uppercase;
+  width: 10%;
+
+  @media print {
+    border-bottom: inherit;
+    border-top: inherit;
+    width: 37%;
+  }
+
+  &:last-child {
+    margin-left: 35px;
+
+    &::before {
+      color: $neutralA;
+      content: '\e904';
+      display: inline-block;
+      font-family: $fontIcon;
+      font-size: 6.5rem;
+      font-weight: 100;
+      left: -50px;
+      line-height: 1;
+      padding: 0;
+      position: absolute;
+      -webkit-text-fill-color: $neutralA; /* stylelint-disable-line property-no-vendor-prefix */
+      text-transform: none;
+      top: -17px;
+
+      @media print {
+        content: '';
+        display: none;
+      }
+    }
+  }
+
+  &.TabItemActive {
+    &:last-child {
+      &::before {
+        content: '\e909';
+        font-family: $fontIcon;
+
+        @media print {
+          content: '';
+          display: none;
+        }
+      }
+    }
+  }
+}
+
+.TabItemActive {
+  composes: ActiveLink from 'typography_old.legacy.css';
+  border-bottom: 1px solid $transparent;
+  border-top: 1px solid $neutralA;
+
+  @media print {
+    background: none;
+    border-bottom: inherit;
+    border-top: inherit;
+  }
+}
+
+.Divider {
+  composes: Divider from 'gmHelpers.legacy.css';
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    margin-top: 35px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Clearfix {
+  composes: Clearfix from 'helpers.legacy.css';
+  clear: both;
+}
+
+.HeadlessPlaceholder {
+  height: 20px;
+}
+
+.Hidden {
+  display: none;
+}
+
+.Copyright {
+  display: none;
+
+  @media print {
+    display: block;
+    min-height: 20px;
+  }
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from 'Article/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: initial;
+    padding-bottom: initial;
+  }
+}

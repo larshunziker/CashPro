@@ -1,0 +1,14 @@
+.Wrapper {
+  border-top: 2px solid $neutralB;
+  display: flex;
+  height: calc(100vh - $headerHeightXs - 2px);
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: calc(100vh - $headerHeightLg - 2px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: calc(100vh - $headerHeightXl - 2px);
+  }
+}

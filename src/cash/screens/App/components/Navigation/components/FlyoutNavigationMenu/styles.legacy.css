@@ -1,0 +1,69 @@
+.MenuWrapper {
+  background: $white;
+  border-top: 1px solid $greyD;
+  box-shadow: 1px 14px 17px $black30;
+  max-height: calc(100vh - $headerHeightXl);
+  overflow-y: auto;
+  padding-bottom: 40px;
+  position: relative;
+}
+
+:global(.branding-day) {
+  .MenuWrapper {
+    margin: 0 auto;
+  }
+}
+
+.Link {
+  composes: InfoB from 'typography.legacy.css';
+  border-bottom: 1px solid $greyD;
+  flex: 1;
+  margin-top: 6px;
+  padding-bottom: 10px;
+}
+
+.TitleLink {
+  composes: InfoABold from 'typography.legacy.css';
+  margin: $margin40 0 20px;
+}
+
+.Link,
+.TitleLink {
+  color: $secondaryA;
+  cursor: pointer;
+  display: flex;
+  transition: color $basicShortTransition;
+
+  &:hover,
+  &:focus {
+    color: $secondaryB;
+  }
+}
+
+.ListItem {
+  list-style: none;
+}
+
+.SubMenu {
+  display: none;
+}
+
+.ActiveSubMenu {
+  display: block;
+}
+
+
+.CloseButton {
+  border: none;
+  color: $greyA;
+  cursor: pointer;
+  font-size: 22px;
+  position: absolute;
+  right: 16px;
+  top: 12px;
+  z-index: 2;
+
+  &:hover {
+    color: $blackB;
+  }
+}

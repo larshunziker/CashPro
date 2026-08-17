@@ -1,0 +1,33 @@
+.Title {
+  composes: Heading7 from 'typography.legacy.css';
+  margin-bottom: $margin24; 
+  margin-top: $margin24;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  &.MarketingPage {
+    @mixin Heading2A;
+  }
+}
+
+
+.TitleMargin {
+  margin-top: $margin24;
+}
+
+.AccordionInner {
+  padding-bottom: 25px;
+  padding-top: 1px;
+}
+
+.Icon {
+  composes: IconCollapse from 'raschFont.legacy.css';
+}
+
+.Paragraphs {
+  composes: Paragraph2 from 'typography.legacy.css';
+}

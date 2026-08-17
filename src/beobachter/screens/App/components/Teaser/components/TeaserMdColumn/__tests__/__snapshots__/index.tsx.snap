@@ -1,0 +1,401 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserMdColumn Should render MBrandReport 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="591"
+                loading="lazy"
+                srcset="/fp/1050/591/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="1050"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <span
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </span>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserMdColumn Should render TeaserMdColumnAdvertorial - advertorial 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="591"
+                loading="lazy"
+                srcset="/fp/1050/591/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="1050"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <span
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </span>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserMdColumn Should render TeaserMdColumnAdvertorial - external 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="591"
+                loading="lazy"
+                srcset="/fp/1050/591/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="1050"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <span
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </span>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserMdColumn Should render TeaserMdColumnAdvertorial - native_article 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="591"
+                loading="lazy"
+                srcset="/fp/1050/591/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="1050"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <span
+              class="BadgeLabel Advertising"
+            >
+              Anlegen
+            </span>
+          </div>
+          <div
+            class="Title Advertising"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserMdColumn Should render TeaserMdColumnDefault 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default WrapperWhiteSpace"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/1200/675/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              />
+              <img
+                alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+                class="Image IsSameAspectRatio"
+                height="591"
+                loading="lazy"
+                srcset="/fp/1050/591/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="1050"
+              />
+            </picture>
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              >
+                Anlegen
+              </div>
+            </div>
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserMdColumn Should render TeaserMdColumnOpinion 1`] = `
+<div>
+  <div
+    class="OuterWrapper"
+  >
+    <div
+      data-testid="teaser-factory-link-wrapper"
+    >
+      <a
+        class="Wrapper teaser-m-default"
+        data-testid="routed-link"
+        data-track-info="[]"
+        href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+      >
+        <div
+          class="ImageWrapper"
+          data-testid="teaser-factory-image-wrapper"
+        >
+          <div
+            class="LineHeightReset PictureWrapper"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/fp/315/315/972/828/sites/default/files/media/field_image/2023-04/conny_schmid.jpg"
+              />
+              <img
+                alt="Conny Schmid"
+                class="Image Opinion IsSameAspectRatio"
+                height="210"
+                loading="lazy"
+                srcset="/fp/210/210/972/828/sites/default/files/media/field_image/2023-04/conny_schmid.jpg"
+                title="Banken empfehlen auch für 2022 am liebsten Aktien"
+                width="210"
+              />
+            </picture>
+          </div>
+          <div
+            class="Icon Quote"
+          >
+            <div
+              class="Wrapper TeaserQuote QuoteIcon"
+              type="svg-icons/type/quote"
+            />
+          </div>
+        </div>
+        <div
+          class="ContentWrapper"
+        >
+          <div
+            class="ShortTitleElement"
+          >
+            <div
+              class="ShortTitleWrapper"
+            >
+              <div
+                class="ShortTitle"
+              >
+                Anlegen
+              </div>
+            </div>
+          </div>
+          <div
+            class="Title"
+          >
+            <span>
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </div>
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

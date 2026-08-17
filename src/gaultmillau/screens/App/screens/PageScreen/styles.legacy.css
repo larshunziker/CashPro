@@ -1,0 +1,24 @@
+.Wrapper {
+  position: relative;
+}
+
+.SubTitle {
+  composes: SubTitle from 'typography_old.legacy.css';
+  margin: 7px 0 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 13px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 11px;
+  }
+}
+
+.Lead {
+  composes: Lead from 'typography_old.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 15px;
+  }
+}

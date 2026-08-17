@@ -1,0 +1,22 @@
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+}
+
+.SkeletonPlaceholderImage {
+  height: 100%;
+  width: 100%
+}
+
+.SkeletonContentWrapper {
+  height: 120px;
+
+  @media (min-width: $smBreakpoint) { 
+    height: 170px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

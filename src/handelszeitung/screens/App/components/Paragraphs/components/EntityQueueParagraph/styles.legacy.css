@@ -1,0 +1,32 @@
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: 0;
+  margin-left: 0;
+  padding-bottom: 12px;
+  padding-top: 25px;
+  position: relative;
+  z-index: $zIndexMedium;
+
+  &::first-letter {
+    text-transform: uppercase;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: -1px;
+    padding-top: 30px;
+  }
+}
+
+.LogoBilWrapper > svg {
+  display: inline-block;
+  height: 24px;
+  
+  @media (min-width: $smBreakpoint) {
+    height: 30px;
+  }
+}
+
+.HiddenHeader {
+  display: none;
+  visibility: hidden;
+}

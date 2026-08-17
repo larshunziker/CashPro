@@ -1,0 +1,12 @@
+.Wrapper {
+  composes: Wrapper from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+  background-color: $white;
+}
+
+.FadeIn {
+  composes: FadeIn from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}
+
+.BodyClass {
+  composes: BodyClass from 'ModalOverlay/components/DefaultModalOverlay/styles.legacy.css';
+}

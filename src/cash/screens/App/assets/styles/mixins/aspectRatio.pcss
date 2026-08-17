@@ -1,0 +1,16 @@
+@define-mixin aspectRatio {
+  position: relative;
+
+  &::before {
+    content: ' ';
+    display: block;
+  }
+}
+
+@define-mixin aspectRatio16x9 {
+  @mixin aspectRatio;
+
+  &::before {
+    padding-top: 56.25%;
+  }
+}

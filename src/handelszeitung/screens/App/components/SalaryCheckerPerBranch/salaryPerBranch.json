@@ -1,0 +1,282 @@
+{
+  "Mobilität und Tourismus": {
+    "salaryAverage": 6096,
+    "occupations": [
+      {
+        "title": "Pilot",
+        "salary": 7250,
+        "url": "https://www.lohncheck.ch/lohn/diverses/Pilot/geschlecht"
+      },
+      {
+        "title": "Chauffeur",
+        "salary": 5000,
+        "url": "https://www.lohncheck.ch/lohn/diverses/Chauffeur/geschlecht"
+      },
+      {
+        "title": "Automatiker",
+        "salary": 5000,
+        "url": "https://www.lohncheck.ch/lohn/technik/Automatiker/geschlecht"
+      }
+    ]
+  },
+  "Banken und Versicherung": {
+    "salaryAverage": 6756,
+    "occupations": [
+      {
+        "title": "Anlageberater",
+        "salary": 7250,
+        "url": "https://www.lohncheck.ch/lohn/finanzen/Anlageberater/geschlecht"
+      },
+      {
+        "title": "Bankangestellter",
+        "salary": 5750,
+        "url": "https://www.lohncheck.ch/lohn/finanzen/Bankangestellter/geschlecht"
+      },
+      {
+        "title": "Finanzberater",
+        "salary": 6800,
+        "url": "https://www.lohncheck.ch/lohn/finanzen/Finanzberater/geschlecht"
+      }
+    ]
+  },
+  "Pharma und Gesundheit": {
+    "salaryAverage": 6343,
+    "occupations": [
+      {
+        "title": "Pflegefachmann",
+        "salary": 5800,
+        "url": "https://www.lohncheck.ch/gehalt/Pflegefachmann"
+      },
+      {
+        "title": "Arzt",
+        "salary": 8000,
+        "url": "https://www.lohncheck.ch/lohn/gesundheit/Arzt/geschlecht"
+      },
+      {
+        "title": "Chemiker",
+        "salary": 7000,
+        "url": "https://www.lohncheck.ch/lohn/technik/Chemiker/geschlecht"
+      }
+    ]
+  },
+  "Detailhandel": {
+    "salaryAverage": 4991,
+    "occupations": [
+      {
+        "title": "Detailhandelsangestellter",
+        "salary": 4200,
+        "url": "https://www.lohncheck.ch/lohn/verkauf/Detailhandelsangestellter/geschlecht"
+      },
+      {
+        "title": "Verkäufer",
+        "salary": 4300,
+        "url": "https://www.lohncheck.ch/gehalt/Verk%C3%A4ufer"
+      },
+      {
+        "title": "Verkaufsleiter",
+        "salary": 8000,
+        "url": "https://www.lohncheck.ch/lohn/verkauf/Verkaufsleiter/geschlecht"
+      }
+    ]
+  },
+  "Bau und Immobilien": {
+    "salaryAverage": 5858,
+    "occupations": [
+      {
+        "title": "Projektleiter",
+        "salary": 6500,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Projektleiter/geschlecht"
+      },
+      {
+        "title": "Bauleiter",
+        "salary": 6150,
+        "url": "https://www.lohncheck.ch/lohn/bau/Bauleiter/geschlecht"
+      },
+      {
+        "title": "Immobilienverwalter",
+        "salary": 5700,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Immobilienverwalter/geschlecht"
+      }
+    ]
+  },
+  "Mode und Luxus": {
+    "salaryAverage": 5859,
+    "occupations": [
+      {
+        "title": "Produktmanager",
+        "salary": 6400,
+        "url": "https://www.lohncheck.ch/lohn/marketing/Produktmanager/geschlecht"
+      },
+      {
+        "title": "Marketingleiter",
+        "salary": 7800,
+        "url": "https://www.lohncheck.ch/lohn/marketing/Marketingleiter/geschlecht"
+      },
+      {
+        "title": "Produktionsleiter",
+        "salary": 7000,
+        "url": "https://www.lohncheck.ch/lohn/technik/Produktionsleiter/geschlecht"
+      }
+    ]
+  },
+  "Medien und Internet": {
+    "salaryAverage": 6459,
+    "occupations": [
+      {
+        "title": "Informatiker",
+        "salary": 6000,
+        "url": "https://www.lohncheck.ch/lohn/informatik/Informatiker/geschlecht"
+      },
+      {
+        "title": "Softwareentwickler",
+        "salary": 6525,
+        "url": "https://www.lohncheck.ch/lohn/informatik/Softwareentwickler/geschlecht"
+      },
+      {
+        "title": "System-Engineer",
+        "salary": 6300,
+        "url": "https://www.lohncheck.ch/lohn/informatik/System-Engineer/geschlecht"
+      }
+    ]
+  },
+  "Politik und Verwaltung": {
+    "salaryAverage": 6569,
+    "occupations": [
+      {
+        "title": "Sachbearbeiter",
+        "salary": 5000,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Sachbearbeiter/geschlecht"
+      },
+      {
+        "title": "Verwaltungsangestellter",
+        "salary": 6000,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Verwaltungsangestellter/geschlecht"
+      },
+      {
+        "title": "Sozialarbeiter",
+        "salary": 6550,
+        "url": "https://www.lohncheck.ch/lohn/gesundheit/Sozialarbeiter/geschlecht"
+      }
+    ]
+  },
+  "Maschinenbau, Robotik, Elektrotechnik": {
+    "salaryAverage": 6095,
+    "occupations": [
+      {
+        "title": "Konstrukteur",
+        "salary": 5175,
+        "url": "https://www.lohncheck.ch/lohn/technik/Konstrukteur/geschlecht"
+      },
+      {
+        "title": "Polymechaniker",
+        "salary": 4800,
+        "url": "https://www.lohncheck.ch/lohn/technik/Polymechaniker/geschlecht"
+      },
+      {
+        "title": "Elektroingenieur",
+        "salary": 7275,
+        "url": "https://www.lohncheck.ch/lohn/technik/Elektroingenieur/geschlecht"
+      }
+    ]
+  },
+  "Rohstoffhandel": {
+    "salaryAverage": 6095,
+    "occupations": [
+      {
+        "title": "Einkäufer",
+        "salary": 5800,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Einkaeufer/geschlecht"
+      },
+      {
+        "title": "Projektleiter",
+        "salary": 6500,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Projektleiter/geschlecht"
+      },
+      {
+        "title": "Logistiker",
+        "salary": 4775,
+        "url": "https://www.lohncheck.ch/lohn/technik/Logistiker/geschlecht"
+      }
+    ]
+  },
+  "Energie und Logistik": {
+    "salaryAverage": 6431,
+    "occupations": [
+      {
+        "title": "Elektroingenieur",
+        "salary": 7275,
+        "url": "https://www.lohncheck.ch/lohn/technik/Elektroingenieur/geschlecht"
+      },
+      {
+        "title": "Elektroniker",
+        "salary": 4500,
+        "url": "https://www.lohncheck.ch/lohn/technik/Elektroniker/geschlecht"
+      },
+      {
+        "title": "Ingenieur",
+        "salary": 7000,
+        "url": "https://www.lohncheck.ch/lohn/technik/Ingenieur/geschlecht"
+      }
+    ]
+  },
+  "Forschung und Entwicklung": {
+    "salaryAverage": 6131,
+    "occupations": [
+      {
+        "title": "Laborant",
+        "salary": 5500,
+        "url": "https://www.lohncheck.ch/lohn/technik/Laborant/geschlecht"
+      },
+      {
+        "title": "Arzt",
+        "salary": 8000,
+        "url": "https://www.lohncheck.ch/lohn/gesundheit/Arzt/geschlecht"
+      },
+      {
+        "title": "Elektroingenieur",
+        "salary": 7275,
+        "url": "https://www.lohncheck.ch/lohn/technik/Elektroingenieur/geschlecht"
+      }
+    ]
+  },
+  "Beratung und Wirtschaftsprüfung": {
+    "salaryAverage": 5974,
+    "occupations": [
+      {
+        "title": "Treuhaender",
+        "salary": 6500,
+        "url": "https://www.lohncheck.ch/lohn/finanzen/Treuhaender/geschlecht"
+      },
+      {
+        "title": "Wirtschaftsprüfer",
+        "salary": 8000,
+        "url": "https://www.lohncheck.ch/lohn/finanzen/Wirtschaftspruefer/geschlecht"
+      },
+      {
+        "title": "Unternehmensberater",
+        "salary": 8000,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Unternehmensberater/geschlecht"
+      }
+    ]
+  },
+  "Lebensmittel und Landwirtschaft": {
+    "salaryAverage": 5715,
+    "occupations": [
+      {
+        "title": "Konditor",
+        "salary": 4475,
+        "url": "https://www.lohncheck.ch/lohn/gewerbe/Konditor/geschlecht"
+      },
+      {
+        "title": "Metzger",
+        "salary": 4700,
+        "url": "https://www.lohncheck.ch/lohn/gewerbe/Metzger/geschlecht"
+      },
+      {
+        "title": "Kaufmann",
+        "salary": 4900,
+        "url": "https://www.lohncheck.ch/lohn/lohn/Kaufmann/geschlecht"
+      }
+    ]
+  }
+}

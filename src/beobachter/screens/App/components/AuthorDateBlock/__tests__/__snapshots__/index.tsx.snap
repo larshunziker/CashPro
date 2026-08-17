@@ -1,0 +1,381 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] AuthorDateBlocks Should render Source Component for source  with addClass  correctly 1`] = `<div />`;
+
+exports[`[Component] AuthorDateBlocks Should render Source Component for source  with addClass TestClassShouldNotBeRendered correctly 1`] = `<div />`;
+
+exports[`[Component] AuthorDateBlocks Should render Source Component for source Beobachter with addClass  correctly 1`] = `
+<div>
+  <div
+    class=""
+  >
+    Quelle: Beobachter
+  </div>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render Source Component for source Schweizer Illustrierte with addClass TestClass correctly 1`] = `
+<div>
+  <div
+    class="TestClass"
+  >
+    Quelle: Schweizer Illustrierte
+  </div>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render Source Component for source null with addClass  correctly 1`] = `<div />`;
+
+exports[`[Component] AuthorDateBlocks Should render with multiple authors 1`] = `
+<div
+  data-testid="author-container"
+>
+  <span
+    class="Author"
+  >
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+  <span
+    class="Author"
+  >
+    , 
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+  <span
+    class="Author"
+  >
+     und 
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Jane Appleseed
+      </span>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with multiple authors and links to their profiles 1`] = `
+<div
+  data-testid="author-container"
+>
+  <span
+    class="Author"
+  >
+    <a
+      class="AuthorLink ActiveLink"
+      data-testid="routed-link"
+      href="/author/1234"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </a>
+  </span>
+  <span
+    class="Author"
+  >
+    , 
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+  <span
+    class="Author"
+  >
+     und 
+    <a
+      class="AuthorLink ActiveLink"
+      data-testid="routed-link"
+      href="/author/1234"
+    >
+      <span
+        itemprop="author"
+      >
+        Jane Appleseed
+      </span>
+    </a>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with multiple modifying authors 1`] = `
+<div
+  data-testid="modifying-author-container"
+>
+  <span
+    class="ModifyingAuthor"
+  >
+     durch 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+  <span
+    class="ModifyingAuthor"
+  >
+    , 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+  <span
+    class="ModifyingAuthor"
+  >
+     und 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Jane Appleseed
+      </span>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with multiple modifying authors and links to their profiles 1`] = `
+<div
+  data-testid="modifying-author-container"
+>
+  <span
+    class="ModifyingAuthor"
+  >
+     durch 
+    <a
+      class="ModifyingAuthorLink ActiveLink"
+      data-testid="routed-link"
+      href="/author/1234"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </a>
+  </span>
+  <span
+    class="ModifyingAuthor"
+  >
+    , 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+  <span
+    class="ModifyingAuthor"
+  >
+     und 
+    <a
+      class="ModifyingAuthorLink ActiveLink"
+      data-testid="routed-link"
+      href="/author/1234"
+    >
+      <span
+        itemprop="author"
+      >
+        Jane Appleseed
+      </span>
+    </a>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with one author 1`] = `
+<div
+  data-testid="author-container"
+>
+  <span
+    class="Author"
+  >
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with one modifying author 1`] = `
+<div
+  data-testid="modifying-author-container"
+>
+  <span
+    class="ModifyingAuthor"
+  >
+     durch 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with publication date and modification date when contentTypeLabel is "Not updatable" 1`] = `
+<span
+  class="PublicationDate"
+  data-testid="publication-date-wrapper"
+>
+  <span
+    data-testid="publication-date-label"
+  >
+    Veröffentlicht 
+  </span>
+  am 24. November 2016 - 08:00 Uhr
+</span>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with publication date and without modification date when contentTypeLabel is "Redirected" 1`] = `
+<span
+  class="PublicationDate"
+  data-testid="publication-date-wrapper"
+>
+  <span
+    data-testid="publication-date-label"
+  >
+    Veröffentlicht 
+  </span>
+  am 24. November 2016 - 08:00 Uhr
+</span>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with two authors 1`] = `
+<div
+  data-testid="author-container"
+>
+  <span
+    class="Author"
+  >
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+  <span
+    class="Author"
+  >
+     und 
+    <div
+      class="AuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+</div>
+`;
+
+exports[`[Component] AuthorDateBlocks Should render with two modifying authors 1`] = `
+<div
+  data-testid="modifying-author-container"
+>
+  <span
+    class="ModifyingAuthor"
+  >
+     durch 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        Ralph Wyss
+      </span>
+    </div>
+  </span>
+  <span
+    class="ModifyingAuthor"
+  >
+     und 
+    <div
+      class="ModifyingAuthorLink InActiveLink"
+      data-testid="empty-link"
+    >
+      <span
+        itemprop="author"
+      >
+        John Doe
+      </span>
+    </div>
+  </span>
+</div>
+`;

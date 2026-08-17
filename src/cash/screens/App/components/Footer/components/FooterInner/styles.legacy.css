@@ -1,0 +1,34 @@
+.Title {
+  composes: H3 from 'typography.legacy.css';
+  border-bottom: 1px solid $greyA;
+  color: $white;
+  margin-bottom: 13px;
+  padding-bottom: 11px;
+
+  @media (min-width: $smBreakpoint) {
+    border-color: $white;
+    border-width: 1px;
+  }
+}
+
+.List {
+  list-style: none;
+}
+
+.FooterNavigation {
+  @mixin fontSize 15;
+  @mixin lineHeight 18;
+  margin-bottom: 28px;
+}
+
+.FooterNavigationList {
+  columns: 2;
+}
+
+.ListItem {
+  composes: ListItem from '../../styles.legacy.css';
+}
+
+.Link {
+  composes: Link from '../../styles.legacy.css';
+}

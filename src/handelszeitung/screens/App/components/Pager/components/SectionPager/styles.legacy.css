@@ -1,0 +1,90 @@
+.Wrapper {
+  background-color: $greyE;
+  padding: 12px 13px 21px;
+
+  @media print {
+    display: none;
+  }
+}
+
+.WrapperRight {
+  @media (min-width: $mdBreakpoint) {
+    max-width: 200px;
+    position: absolute;
+    right: -20px;
+    top: 15px;
+
+    /* should be under piano overlay */
+    z-index: calc($zIndexPianoOverlay - 210);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    right: 0;
+  }
+}
+
+.Title {
+  composes: H5Light from 'typography.legacy.css';
+  margin-bottom: 3px;
+  text-transform: uppercase;
+}
+
+.ItemWrapper {
+  padding: 12px 0 10px;
+}
+
+.ItemWrapperIsActive {
+  position: relative;
+
+  &::after {
+    background-color: $blackB;
+    bottom: 14px;
+    content: ' ';
+    display: block;
+    left: -12px;
+    position: absolute;
+    top: 16px;
+    width: 5px;
+  }
+}
+
+.Link {
+  cursor: pointer;
+  display: block;
+}
+
+.LinkIsActive {
+  cursor: default;
+  pointer-events: none;
+}
+
+.ItemTitle {
+  composes: H5LightInactive from 'typography.legacy.css';
+  display: block;
+}
+
+.ItemText {
+  composes: ChapterTitleInactive from 'typography.legacy.css';
+  display: block;
+}
+
+.ItemTitleIsActive {
+  composes: H5Light from 'typography.legacy.css';
+  display: block;
+}
+
+.ItemTextIsActive {
+  composes: ChapterTitle from 'typography.legacy.css';
+  display: block;
+}
+
+.SectionPagerItem {
+  border-bottom: 1px solid $greyC;
+  list-style: none;
+
+  &:last-of-type {
+    @media (min-width: $mdBreakpoint) {
+      border: none;
+    }
+  }
+}

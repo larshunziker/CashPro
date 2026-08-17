@@ -1,0 +1,12 @@
+<svg width="37px" height="37px" viewBox="0 0 37 37" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <g id="ribbon" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="hz_960_1200_ribbon" transform="translate(-137.000000, -98.000000)">
+            <g id="video" transform="translate(28.000000, 43.000000)">
+                <g id="btn_play" transform="translate(109.188907, 55.188721)">
+                    <ellipse id="Oval-4" fill="#FE6B6B" cx="18.3052209" cy="18.5340081" rx="18.3052209" ry="18.1944718"></ellipse>
+                    <polygon id="Triangle" fill="#FFFFFF" points="14.135482 27.9490232 14.135482 9.31013431 27.5300128 18.6295788"></polygon>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

@@ -1,0 +1,147 @@
+.SectionTitle {
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 5px;
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+
+  &::before,
+  &::after {
+    border-bottom-style: solid;
+    border-bottom-width: 1px;
+    content: '';
+    display: inline-block;
+    width: 50px;
+
+    @media (min-width: $xlBreakpoint) {
+      width: 100px;
+    }
+  }
+
+  &::before {
+    margin-right: 15px;
+  }
+
+  &::after {
+    margin-left: 10px;
+  }
+
+  &.HasImage {
+    &::after {
+      margin-left: 15px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 10px;
+  }
+}
+
+.SectionTitleSI {
+  composes: SectionTitle from 'typography.legacy.css';
+
+  &::before,
+  &::after {
+    border-bottom-color: $grayB;
+  }
+}
+
+.SectionTitleSY {
+  composes: SectionTitleSY from 'typographySY.legacy.css';
+
+  &::before,
+  &::after {
+    border-bottom-color: $skinLight;
+  }
+
+  &::after {
+    @media (min-width: $xlBreakpoint) {
+      margin-left: 5px;
+    }
+  }
+}
+
+.TitleLink {
+  color: $black;
+  display: flex;
+
+  &SI {
+    &:hover {
+      color: $redA;
+    }
+  }
+
+  &SY {
+    &:hover {
+      color: $skin;
+    }
+  }
+
+  .SVGImage {
+    @media (max-width: $xsBreakpointTo) {
+      max-width: 140px;
+    }
+
+    &:global(.landscape) {
+      height: 18px;
+
+      @media (min-width: $smBreakpoint) {
+        height: 20px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        height: 25px;
+      }
+    }
+
+    &:global(.portrait),
+    &:global(.square) {
+      height: 30px;
+
+      @media (min-width: $smBreakpoint) {
+        height: 40px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        height: 50px;
+      }
+    }
+  }
+
+  &:hover {
+    .SVGImage {
+      filter: drop-shadow($shadowB);
+    }
+  }
+}
+
+.TitleWrapper {
+  margin-bottom: 10px;
+}
+
+.SponsorWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.SponsorImage {
+  max-height: 40px;
+  max-width: 140px;
+  width: auto;
+}
+
+.SponsorPrefix {
+  composes: BreadcrumbsWords from 'typography.legacy.css';
+  margin-bottom: 3px;
+}
+
+.SponsorLink {
+  display: block;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 10px;
+  }
+}

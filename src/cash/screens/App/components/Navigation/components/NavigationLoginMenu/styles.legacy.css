@@ -1,0 +1,163 @@
+.Wrapper {
+  composes: Container from '../../../../../../../common/assets/styles/grid.legacy.css';
+  background: $white;
+  height: 100%;
+  left: 0;
+  padding: 0 19px;
+  top: 0;
+  z-index: 1500;
+
+  @media (max-width: $smBreakpoint) {
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 28px;
+    width: calc($smBreakpoint - $outerGapSm * 2 + 56px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 16px;
+    width: calc($mdBreakpoint - $outerGapMd * 2 + 56px);
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-left: calc(40vw - 440px - 28px);
+    padding: 0 28px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: calc(40vw - 654px);
+    padding: 0 24px;
+    width: calc(1440px - ($outerGapXl * 2) + 48px);
+  }
+}
+
+.MenuHeaderContent {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 6px 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 13px 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 14px 0;
+  }
+}
+
+.CloseButton {
+  align-items: center;
+  border: 0;
+  cursor: pointer;
+  display: flex;
+}
+
+/* used also in NavigationUserMenu */
+.CloseIcon {
+  height: 2px;
+  margin-right: -6px;
+  width: 16px;
+
+  &::before, &::after {
+    background-color: $secondaryA;
+    content: '';
+    display: block;
+    height: 100%;
+    transition: transform $basicShortTransition;
+    width: 100%;
+  }
+
+  &::before {
+    transform: translateY(1px) rotate(45deg);
+  }
+
+  &::after {
+    transform: translateY(-1px) rotate(-45deg);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    width: 24px;
+  }
+}
+
+.MenuBodyWrapper {
+  height: calc(100% - 50px);
+  overflow-y: auto;
+}
+
+.LoginBox {
+  composes: InfoParagraph from '../../../../assets/styles/typography.legacy.css';
+  background: $white;
+  border: 1px solid $greyC;
+  box-sizing: border-box;
+  margin-bottom: $margin24;
+  padding: 16px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    float: left;
+    margin-right: $margin24;
+    width: 312px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: $margin40;
+  }
+}
+
+.LoginBox a {
+  color: $secondaryA;
+}
+
+.Title {
+  composes: InfoH1 from '../../../../assets/styles/typography.legacy.css';
+  color: $blackB;
+}
+
+.ButtonWrapper {
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+    margin-top: $margin40;
+  }
+}
+
+.BankingButton {
+  margin-bottom: 39px;
+  margin-top: 10px;
+}
+
+.IconUser {
+  display: inline-block;
+  padding-right: 8px;
+}
+
+.LoginText {
+  min-height: 160px;
+}
+
+.Center {
+  padding-top: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    justify-content: center;
+    padding-left: 22px;
+    padding-top: 44px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-left: 38px;
+    padding-top: 42px;
+  }
+}
+
+.List {
+  margin-left: $margin24;
+}

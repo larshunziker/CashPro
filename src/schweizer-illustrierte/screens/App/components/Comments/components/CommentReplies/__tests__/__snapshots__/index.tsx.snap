@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentReplies Should generate CommentReplies styles correctly when areRepliesVisibile is false 1`] = `
+{
+  "Icon": "Icon",
+  "RepliesWrapper": "Hidden",
+  "Toggle": "Toggle",
+  "ToggleLink": "ToggleLink",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] CommentReplies Should generate CommentReplies styles correctly when areRepliesVisibile is true 1`] = `
+{
+  "Icon": "Icon",
+  "RepliesWrapper": "",
+  "Toggle": "Toggle",
+  "ToggleLink": "ToggleLink",
+  "Wrapper": "Wrapper",
+}
+`;

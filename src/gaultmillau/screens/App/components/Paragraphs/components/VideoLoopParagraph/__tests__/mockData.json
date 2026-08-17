@@ -1,0 +1,50 @@
+{
+  "videoLoopParagraph": {
+    "__typename": "VideoLoopParagraph",
+    "anchorId": null,
+    "id": "cGFyYWdyYXBoOnZpZGVvX2xvb3A6MjA3MTk0OjI2NTE2OQ==",
+    "title": "Test video Loop",
+    "caption": "Test video Loop",
+    "image": {
+      "__typename": "Image",
+      "id": "64979",
+      "credit": "Devil",
+      "showOriginal": false,
+      "file": {
+        "__typename": "ImageFile",
+        "id": "ZmlsZTo2NTc0Mzo6OTYwLDU0MDo6",
+        "alt": "Hell on Earth",
+        "relativeOriginPath": "/hell_on_earth.jpg",
+        "focalPointX": 960,
+        "focalPointY": 540
+      }
+    },
+    "videoLoop": {
+      "__typename": "VideoLoop",
+      "videoOgg": {
+        "__typename": "File",
+        "source": "https://api.dev.gaultmillau.ch/sites/default/files/media/field_video_ogg/2017-06/01_Jan-Feb.ogg",
+        "mimeType": "audio/ogg",
+        "filename": "01_Jan-Feb.ogg",
+        "size": "573397",
+        "extension": "ogg"
+      },
+      "videoMp4": {
+        "__typename": "File",
+        "source": "https://api.dev.gaultmillau.ch/sites/default/files/media/field_video_mp4/2017-06/01_Jan-Feb.mp4",
+        "mimeType": "video/mp4",
+        "filename": "01_Jan-Feb.mp4",
+        "size": "725023",
+        "extension": "mp4"
+      },
+      "videoWebM": {
+        "__typename": "File",
+        "source": "https://api.dev.gaultmillau.ch/sites/default/files/media/field_video_webm/2017-06/01_Jan-Feb.webm",
+        "mimeType": "video/webm",
+        "filename": "01_Jan-Feb.webm",
+        "size": "376160",
+        "extension": "webm"
+      }
+    }
+  }
+}

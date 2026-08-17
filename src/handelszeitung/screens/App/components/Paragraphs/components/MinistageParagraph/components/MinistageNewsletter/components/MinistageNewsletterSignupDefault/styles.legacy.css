@@ -1,0 +1,110 @@
+$wrapperPaddingTop: 36px;
+
+.Background {
+  background-color: $greyE;
+}
+
+.BackgroundSV {
+  margin-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin64;
+  }
+}
+
+.Container {
+  margin-bottom: -12px;
+  padding: 0 20px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 0;
+    padding: 0 24px;
+  }
+}
+
+.Wrapper {
+  background-color: $greyE;
+  padding-bottom: 0;
+  padding-top: 15px;
+  position: relative;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 2px;
+    padding-top: $wrapperPaddingTop;
+  }
+}
+
+.WrapperSV {
+  padding-top: 24px;
+}
+
+.InnerWrapper {
+  overflow-wrap: break-word;
+  position: relative;
+  word-wrap: break-word;
+}
+
+.HeaderWrapper {
+  overflow: hidden;
+}
+
+.HeaderText {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 21px;
+  }
+}
+
+.LeadText {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 27px;
+    min-height: 78px;
+  }
+}
+
+.LeadTextSV {
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+    min-height: 0;
+    width: 950px;
+  }
+}
+
+.HiddenTeaserImage {
+  composes: HiddenMdDown from '@grid.legacy.css';
+}
+
+.TeaserImageWrapper {
+  bottom: 0;
+  line-height: 0;
+  position: absolute;
+  right: 0;
+}
+
+.TeaserImage {
+  @media (min-width: $mdBreakpoint) {
+    height: auto;
+    width: 274px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 286px;
+  }
+}

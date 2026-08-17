@@ -1,0 +1,141 @@
+.Wrapper {
+  background: $gradientBlog;
+  display: inline-block;
+  line-height: 0;
+  padding: 12px 12px 30px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 15px 15px 30px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 20px 20px 40px;
+  }
+
+  &:hover {
+    .TitleInner {
+      border-bottom-color: $redA;
+    }
+  }
+}
+
+.ImageWrapper {
+  background-color: $white;
+  height: auto;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% + 7px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(100% + 10px);
+  }
+}
+
+.ContentWrapper {
+  background-color: $white;
+  min-height: 90px;
+  padding: 12px 12px 0;
+  width: 100%;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 100px;
+    padding: 13px 12px 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 140px;
+    padding: 13px 20px 20px;
+  }
+}
+
+.Title {
+  composes: Heading5 from 'typography.legacy.css';
+  padding-bottom: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 0;
+  }
+}
+
+.TitleInner {
+  border-bottom: 1px solid transparent;
+  transition: border-bottom 0.3s;
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  color: $redA;
+  margin-bottom: 5px;
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.AuthorBox {
+  bottom: 10px;
+  margin-left: 0;
+  position: absolute;
+  width: calc(100% - 24px);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc(100% - 30px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 13px;
+    width: calc(100% - 40px);
+  }
+}
+
+.AuthorName {
+  composes: CaptionAuthorBlog from 'typography.legacy.css';
+}
+
+.AuthorImage {
+  border: 1px solid $redA;
+  border-radius: 50%;
+  height: 52px;
+  inset: auto 6px -5px auto;
+  padding: 3px;
+  position: absolute;
+  width: 52px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 0;
+    height: 42px;
+    right: 9px;
+    width: 42px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -3px;
+    height: 60px;
+    right: 12px;
+    width: 60px;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

@@ -1,0 +1,250 @@
+{
+  "id": "bWVudTpnbS1uYXZpZ2F0aW9uLXByaW1hcnk=",
+  "name": "GM Navigation (primär)",
+  "links": {
+    "edges": [
+      {
+        "node": {
+          "link": {
+            "label": "870 Restaurant Tests",
+            "description": null,
+            "path": "/restaurants",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Züri isst",
+            "description": null,
+            "path": "/zueri-isst",
+            "routed": false,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Atelier Caminada",
+            "description": null,
+            "path": "/atelier-caminada",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "GaultMillau POP!",
+            "description": null,
+            "path": "/pop",
+            "routed": false,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Starchefs",
+            "description": null,
+            "path": "/starchefs",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "link": {
+                    "label": "Koch des Monats",
+                    "description": null,
+                    "path": "/starchefs/koch-des-monats",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "Talente",
+                    "description": null,
+                    "path": "/starchefs/talente",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "GaultMillau International",
+                    "description": null,
+                    "path": "/starchefs/international",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Rezepte",
+            "description": null,
+            "path": "/rezepte",
+            "routed": false,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Videos",
+            "description": null,
+            "path": "/videos",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "link": {
+                    "label": "How to Videos",
+                    "description": null,
+                    "path": "/videos/how-to",
+                    "routed": true,
+                    "expanded": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Wine & Cigars ",
+            "description": null,
+            "path": "/wine-and-cigars",
+            "routed": false,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Life & Style",
+            "description": null,
+            "path": "/life-and-style",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": [
+              {
+                "node": {
+                  "link": {
+                    "label": "GaultMillau Travel",
+                    "description": null,
+                    "path": "/life-and-style/travel",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "Hot Ten",
+                    "description": null,
+                    "path": "/hot-ten",
+                    "routed": true,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "Bücher",
+                    "description": null,
+                    "path": "/life-and-style/buecher",
+                    "routed": true,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "Schweizer Fleisch",
+                    "description": null,
+                    "path": "/schweizer-fleisch",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              },
+              {
+                "node": {
+                  "link": {
+                    "label": "Wallis",
+                    "description": null,
+                    "path": "/wallis",
+                    "routed": false,
+                    "expanded": false
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "node": {
+          "link": {
+            "label": "Partner",
+            "description": null,
+            "path": "/partner",
+            "routed": true,
+            "expanded": false
+          },
+          "subtree": {
+            "edges": []
+          }
+        }
+      }
+    ]
+  }
+}

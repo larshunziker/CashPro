@@ -1,0 +1,58 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+    overflow: unset;
+  }
+}
+
+.HeaderBackground {
+  background-color: $greyE;
+  height: 242px;
+  margin-bottom: -242px;
+  z-index: $zIndexBackground;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 343px;
+    margin-bottom: -343px;
+  }
+}
+
+.SponsorBannerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-height: 87px;
+  max-width: 270px;
+  width: auto;
+}
+
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.Lead {
+  color: $greyB;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.5rem;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    line-height: 4rem;
+  }
+}

@@ -1,0 +1,16 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+}
+
+.Title {
+  composes: Title from 'App/screens/AlertsProfile/styles.legacy.css';
+  margin-top: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 27px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    margin-top: 29px;
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "isFirst": true,
+  "textParagraph": {
+    "header": "TextHeader",
+    "text": "Man trifft hier immer bekannte Gesichter"
+  },
+  "addClass": "string",
+  "origin": "string"
+}

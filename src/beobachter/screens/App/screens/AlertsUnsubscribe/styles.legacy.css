@@ -1,0 +1,61 @@
+.AlertsUnsubscribeWrapper {
+  composes: Container from '@grid.legacy.css';
+  margin-top: $margin40;
+  text-align: center;
+}
+
+.Icon {
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 45px;
+  }
+}
+
+.LoginWrapper {
+  composes: Container from '@grid.legacy.css';
+  margin-top: $margin40;
+}
+
+.Img {
+  height: 47px;
+  width: 47px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 71px;
+    width: 71px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0;
+  }
+}
+
+.Text {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 2.9rem;
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.6rem;
+    line-height: 4rem;
+    margin-bottom: 42px;
+  }
+}
+
+.Button {
+  composes: Button from 'AlertsProfile/components/NoItems/styles.legacy.css';
+  max-width: 282px;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.3rem;
+    margin: 0 auto 0 0;
+    padding: 26px 15px 25px;
+  }
+}

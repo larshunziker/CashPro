@@ -1,0 +1,50 @@
+.Wrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $blackB;
+    display: flex;
+    padding: 0 10px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 0 15px;
+  }
+}
+
+.MobileWrapper {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.Link,
+.ActiveLink {
+  display: block;
+  float: left;
+  margin-bottom: $margin32;
+  text-align: center;
+  width: calc(100% / 5);
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    composes: H3White from 'typography.legacy.css';
+    display: flex;
+    justify-content: space-around;
+    padding: 17px 0;
+  }
+}
+
+.Link {
+  opacity: 0.5;
+}
+
+.Link:hover,
+.ActiveLink {
+  opacity: 1;
+}

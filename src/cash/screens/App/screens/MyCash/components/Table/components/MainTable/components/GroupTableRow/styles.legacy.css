@@ -1,0 +1,25 @@
+.SortLabel {
+  composes: InfoABold from 'typography.legacy.css';
+
+  td {
+    padding: 40px 0 17px;
+  }
+}
+
+.SortLabelSticky {
+  left: 0;
+  position: sticky;
+  width: calc(100vw - 55px);
+
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2 - 20px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2 - 20px);
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: calc(1440px - ($outerGapXl * 2) - 20px);
+  }
+}

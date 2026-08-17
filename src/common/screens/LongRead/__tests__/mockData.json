@@ -1,0 +1,189 @@
+{
+  "node": {
+    "activeMenuTrail": {
+      "count": 3,
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUw",
+            "label": "Gesundheit",
+            "link": "/gesundheit"
+          }
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MTUz",
+            "label": "Medizin & Krankheit",
+            "link": "/gesundheit/medizin-krankheit"
+          }
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TVRVek56a3hOamsz",
+            "label": "Darm-Kur: In 3 Monaten zu einem «guten Bauchgefühl»",
+            "link": null
+          }
+        }
+      ]
+    },
+    "subtypeValue": "longread",
+    "authorPrefix": "by",
+    "authors": {
+      "edges": [
+        {
+          "node": {
+            "id": "YXV0aG9yOjE4Mzgw",
+            "name": "Biomed AG",
+            "imageParagraph": {
+              "image": null
+            }
+          }
+        }
+      ]
+    },
+    "body": [
+      {
+        "anchorId": null,
+        "header": "Definition",
+        "Text": "Hello world",
+        "__typename": "TextParagraph"
+      },
+      {
+        "id": "180951",
+        "anchorId": null,
+        "title": "First",
+        "body": [
+          {
+            "anchorId": null,
+            "id": "180949",
+            "header": "Erster",
+            "text": "\u003Cp\u003EPremier\u003C/p\u003E\n",
+            "__typename": "TextParagraph"
+          },
+          {
+            "anchorId": null,
+            "id": "180950",
+            "header": null,
+            "text": "\u003Cp\u003EDeuxiem\u003C/p\u003E\n",
+            "__typename": "TextParagraph"
+          }
+        ],
+        "__typename": "SectionParagraph"
+      }
+    ],
+    "canonicalUri": "/group/2/content/20868",
+    "changeDate": "2019-10-04T10:00:46",
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToxMTQx",
+      "title": "Glauben",
+      "link": null,
+      "landingPage": null,
+      "articles": {
+        "edges": [
+          {
+            "node": {
+              "id": "bm9kZToxOTQ2MQ==",
+              "title": "Das ist der Titel für das neue Keyword",
+              "preferredUri": "/people/das-ist-der-titel-fur-das-neue-keyword",
+              "shortTitle": "Neuer Testartikel für Keyword",
+              "authors": {
+                "edges": [],
+                "__typename": "AuthorConnection"
+              },
+              "teaserImage": {
+                "id": "test1234",
+                "image": {
+                  "file": {
+                    "alt": "Federer freut sich",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/2018-09/federer.jpg",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Article"
+            },
+            "__typename": "RelatedContentUnionEdge"
+          }
+        ],
+        "__typename": "RouteObjectInterfaceConnection"
+      }
+    },
+    "commentStatus": "open",
+    "contentTypeLabel": "Not updatable",
+    "createDate": "2019-03-21T16:25:03",
+    "heroImageBody": [
+      {
+        "anchorId": "test-id",
+        "id": "180117",
+        "format": "landscape",
+        "caption": "Noice",
+        "title": "Hello there",
+        "image": {
+          "credit": "Google",
+          "file": {
+            "alt": "Wallis Berge",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/wallis_berge.jpg",
+            "width": 480,
+            "height": 320,
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+    "id": "bm9kZToxOTk1MA==",
+    "keywords": {
+      "edges": [
+        {
+          "node": {
+            "label": "Berge",
+            "preferredUri": "/stichworte/b/Berge"
+          }
+        }
+      ]
+    },
+    "lead": "Artikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read Greg",
+    "metaCanonicalUrl": "",
+    "metaDescription": "Artikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read",
+    "metaKeywords": "Surfen",
+    "metaOgDescription": "Artikel Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read Greg",
+    "metaOgTitle": "Artikel Long Read Greg: Artikel Long Read Greg | Beobachter",
+    "metaTitle": "Artikel Long Read Greg: Artikel Long Read Greg | Beobachter",
+    "metaTwitterCardsDescription": "Artikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long Read GregArtikel Long  Long Read GregArtikel Long Read Greg",
+    "metaTwitterCardsTitle": "Artikel Long Read Greg: Artikel Long Read Greg | Beobachter",
+    "nid": "19950",
+    "preferredUri": "/glauben/long-read/artikel-long-read-greg-artikel-long-read-greg",
+    "publication": "beobachter",
+    "publicationDate": "2019-09-24T15:10:55",
+    "restrictionStatus": null,
+    "shortTitle": "Artikel Long Read Greg",
+    "showUpdated": true,
+    "socialMediaTitle": null,
+    "teaserImage": {
+      "id": "178400",
+      "caption": "caption",
+      "hasFallbackImage": false,
+      "image": {
+        "credit": "test",
+        "file": {
+          "alt": "Federer freut sich",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/2018-09/federer.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "title": "Artikel Long Read Greg",
+    "__typename": "Article"
+  }
+}

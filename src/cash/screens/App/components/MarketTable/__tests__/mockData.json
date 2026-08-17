@@ -1,0 +1,156 @@
+{
+  "quoteList": {
+    "__typename": "QuoteList",
+    "id": "OTA0NDY1OTg5NDc1",
+    "quoteList": {
+      "__typename": "QuoteListConnection",
+      "count": 13,
+      "edges": [
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk5ODA4OS00LTE=",
+            "mName": "SMI",
+            "instrumentKey": "998089-4-1",
+            "currentPrice": "11241.52",
+            "perfPercentage": "0.20",
+            "fullquoteUri": "indizes/smi-998089/swx/chf"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk5ODc1MC00LTE=",
+            "mName": "SPI",
+            "instrumentKey": "998750-4-1",
+            "currentPrice": "14817.53",
+            "perfPercentage": "0.21",
+            "fullquoteUri": "indizes/spi-998750/swx/chf"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDg0NjQ4MC0zNTMtODE0",
+            "mName": "EURO STOXX 50",
+            "instrumentKey": "846480-353-814",
+            "currentPrice": "4399.66",
+            "perfPercentage": "0.03",
+            "fullquoteUri": "indizes/euro-stoxx-50-846480/stx/eur"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk5ODAzMi04MzAtODE0",
+            "mName": "DAX",
+            "instrumentKey": "998032-830-814",
+            "currentPrice": "16055.38",
+            "perfPercentage": "-0.16",
+            "fullquoteUri": "indizes/dax-998032/itf/eur"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk5ODMxMy03NTAyMS0zMzM=",
+            "mName": "TTMzero DJIA",
+            "instrumentKey": "998313-75021-333",
+            "currentPrice": "34391.11473345",
+            "perfPercentage": "-0.07",
+            "fullquoteUri": "indizes/ttmzero-djia-998313/ttmzero/usd"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk4NTMzNi0xMTM1LTMzMw==",
+            "mName": "NASDAQ 100",
+            "instrumentKey": "985336-1135-333",
+            "currentPrice": "15208.693293959",
+            "perfPercentage": "0.19",
+            "fullquoteUri": "indizes/nasdaq-100-985336/nai/usd"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDg5Nzc4OS0xNDgtMQ==",
+            "mName": "EUR/CHF",
+            "instrumentKey": "897789-148-1",
+            "currentPrice": "0.97634",
+            "perfPercentage": "-0.20",
+            "fullquoteUri": "devisen-zinsen/eur-chf-897789/fxr/chf"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDI3NTAwMC0xNDgtMQ==",
+            "mName": "USD/CHF",
+            "instrumentKey": "275000-148-1",
+            "currentPrice": "0.896",
+            "perfPercentage": "-0.06",
+            "fullquoteUri": "devisen-zinsen/usd-chf-275000/fxr/chf"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDExOTAwMDctMjQ0LTE=",
+            "mName": "BUNDESOBLI",
+            "instrumentKey": "1190007-244-1",
+            "currentPrice": "0.91",
+            "perfPercentage": "1.56",
+            "fullquoteUri": "devisen-zinsen/bundesobli-1190007/ikr/chf"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDI3NDIwNy0yOTEzLTMzMw==",
+            "mName": "Ölpreis (Brent)",
+            "instrumentKey": "274207-2913-333",
+            "currentPrice": "75.82",
+            "perfPercentage": "1.15",
+            "fullquoteUri": "rohstoffe-edelmetalle/oelpreis-brent-274207/lsd/usd"
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "fkljdsklfjlkds",
+            "mName": null,
+            "instrumentKey": "274702-176-333",
+            "currentPrice": null,
+            "perfPercentage": null,
+            "fullquoteUri": null
+          }
+        },
+        {
+          "__typename": "QuoteListEdge",
+          "node": {
+            "__typename": "Instrument",
+            "id": "cXVvdGUtbGlzdHF1b3RlTGlzdDk5OTk5OTkxNTMxMi05OTEwMDE0LTMzMw==",
+            "mName": "BTC",
+            "instrumentKey": "999999915312-9910014-333",
+            "currentPrice": "30961.26",
+            "perfPercentage": "-0.63",
+            "fullquoteUri": "kryptowaehrungen/btc-999999915312/cccagg/usd"
+          }
+        }
+      ]
+    }
+  }
+}

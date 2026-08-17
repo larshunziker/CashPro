@@ -1,0 +1,29 @@
+.Box {
+  padding-block: 12px;
+}
+
+.Name {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 2.5rem;
+  margin-right: $margin4;
+}
+
+.ShortDescriptionWrapper {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 325;
+  line-height: 2.5rem;
+}
+
+.ShortDescription {
+  margin-right: $margin4;
+}
+
+.Link {
+  color: $black;
+  text-decoration: underline;
+  white-space: nowrap;
+}

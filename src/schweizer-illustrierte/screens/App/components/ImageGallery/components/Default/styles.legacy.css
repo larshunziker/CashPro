@@ -1,0 +1,275 @@
+.Wrapper {
+  margin-bottom: $margin32;
+  position: relative;
+  width: 100%;
+}
+
+.SliderAndNavigationWrapper {
+  position: relative;
+}
+
+.NavigationWrapper {
+  display: none;
+  position: absolute;
+  
+  @media (min-width: $smBreakpoint) {
+    bottom: -52px;
+    display: block;
+    right: -20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    right: -7px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -62px;
+    right: 3px;
+  }
+}
+
+.IndicatorWrapper {
+  bottom: 22px;
+  left: calc(50% - 12px);
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 32px;
+    left: 279px
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: 318px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 42px;
+    left: 354px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Icon {
+  composes: Icon from 'raschFont.legacy.css';
+}
+
+.PrevButton {
+  composes: IconArrowLeftButtonOutline from 'raschFont.legacy.css';
+  margin-right: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e913';
+  }
+}
+
+.NextButton {
+  composes: IconArrowRightButtonOutline from 'raschFont.legacy.css';
+  margin-left: 5px;
+
+  &:not(.DisabledButton):hover::before {
+    content: '\e915';
+  }
+}
+
+.PrevButton,
+.NextButton {
+  background-color: $transparent;
+  border: none;
+  font-size: 40px;
+  outline: none;
+  padding: 5px;
+  transition: opacity 0.3s;
+
+  &:not(.DisabledButton):hover {
+    cursor: pointer;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 50px;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.PrevButtonSI,
+.NextButtonSI {
+  color: $redA;
+}
+
+.PrevButtonSY,
+.NextButtonSY {
+  color: $black;
+}
+
+.ImageWrapper {
+  @mixin aspectRatio3x2;
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  max-width: 100%;
+  position: relative;
+  transition: opacity .2s ease-in-out;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    &::before {
+      display: none;
+    }
+  }
+}
+
+.FullscreenGalleryButton_landscape {
+  position: absolute;
+  width: 100%;
+}
+
+.FullscreenGalleryButton_portrait {
+  position: absolute;
+  width: 73%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 73%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    width: 72.5%;
+  }
+}
+
+.FullscreenGalleryButton_square {
+  position: absolute;
+  width: 84%;
+}
+
+.ImageCaption {
+  margin-bottom: 0;
+  margin-top: 6px;
+  text-align: center;
+}
+
+.BottomLine {
+  margin-bottom: 50px;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+
+  &::after {
+    background-color: $grayB;
+    bottom: -20px;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    width: 100%;
+  }
+}
+
+.GalleryItem {
+  height: auto;
+  left: 50%;
+  max-height: 100%;
+  max-width: 100%;
+  object-fit: contain;
+  pointer-events: none;
+  position: absolute !important; /* stylelint-disable-line */
+  transform: translate(-50%, -50%);
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    left: 0;
+    max-height: 388px;
+    object-fit: fill;
+    position: relative !important; /* stylelint-disable-line */
+    transform: none;
+    width: auto;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 440px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0;
+    max-height: 488px;
+  }
+}
+
+.TitleWrapper {
+  margin-top: 52px;
+  position: relative;
+
+  &::before {
+    background-color: $grayB;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: -7px;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 61px;
+
+    &::before {
+      top: -21px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 70px;
+
+    &::before {
+      top: -18px;
+    }
+  }
+}
+
+.HeadingCatch3 {
+  display: inline-block;
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 3px;
+  }
+}
+
+.HeadingCatch3SI {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+}
+
+.HeadingCatch3SY {
+  composes: HeadingCatch3SY from 'typographySY.legacy.css';
+}
+
+.Quote {
+  margin-bottom: 11px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.QuoteSI {
+  composes: Quote from 'typography.legacy.css';
+}
+
+.QuoteSY {
+  composes: QuoteSY from 'typographySY.legacy.css';
+}

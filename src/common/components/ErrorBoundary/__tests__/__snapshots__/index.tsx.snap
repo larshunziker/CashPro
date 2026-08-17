@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ErrorBoundary Should render correctly with error 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`[Component] ErrorBoundary Should render correctly with error on PRODUCTION env 1`] = `
+<div>
+  <div />
+</div>
+`;
+
+exports[`[Component] ErrorBoundary Should render correctly without error 1`] = `
+<div>
+  <div>
+    hello world
+  </div>
+</div>
+`;
+
+exports[`[Component] ErrorBoundary Should render correctly without error on PRODUCTION env 1`] = `
+<div>
+  <div>
+    hello world
+  </div>
+</div>
+`;

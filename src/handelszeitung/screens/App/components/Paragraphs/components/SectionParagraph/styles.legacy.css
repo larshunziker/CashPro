@@ -1,0 +1,58 @@
+.Title {
+  composes: H3 from 'typography.legacy.css';
+
+  &.MarketingPage {
+    @mixin H2;
+    margin-bottom: $margin16;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin32;
+      text-align: center;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin16;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.BeforeListicle {
+  @mixin H2;
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.Link {
+  display: block;
+  width: fit-content
+}
+
+.Link:hover {
+  color: $blackA;
+}
+
+.LinkIndicator {
+  display: inline-block;
+  margin-left: 3px;
+}
+
+.Link:hover .LinkIndicator
+{
+  transform: translateX(3px);
+  transition-duration: 200ms
+}

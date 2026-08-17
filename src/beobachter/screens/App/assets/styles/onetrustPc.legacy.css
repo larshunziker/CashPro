@@ -1,0 +1,207 @@
+:global(#onetrust-consent-sdk #onetrust-pc-sdk) {
+  border-radius: 8px;
+  box-shadow: 0 10px 40px 0 rgb(0 0 0 / 25%);
+  font-family: $fontSpezia;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header) {
+  flex: 0 1 auto;
+  height: auto;
+  padding: 15px 24px;
+  position: unset;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header .ot-pc-logo) {
+  display: flex;
+  height: auto;
+  justify-content: flex-start;
+  padding-top: 0;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk .ot-pc-header .ot-pc-logo img) {
+  max-width: 170px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content) {
+  bottom: 66px;
+  flex: 0 1 auto;
+  margin: 0;
+  padding: 24px;
+  position: unset;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content #ot-pc-title) {
+  color: $black;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: normal;
+  margin: 0 0 20px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content #ot-pc-desc) {
+  color: $grey70;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom: 20px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content #accept-recommended-btn-handler) {
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 120%;
+  margin-bottom: 20px;
+  padding: 12px 40px;
+  text-transform: capitalize !important; /* stylelint-disable-line */
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp) {
+  margin-top: 12px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp #ot-category-title) {
+  color: $black;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: normal;
+  margin-bottom: 16px;
+  padding-bottom: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-accordion-layout.ot-cat-item:first-of-type) {
+  margin-top: 0;
+}
+
+/* Cookies Table Item Header */
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-hdr) {
+  align-items: flex-start;
+  display: flex;
+  gap: 12px;
+  padding: 14px 24px 14px 18px;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-plus-minus) {
+  margin: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-cat-header) {
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: normal;
+  margin: 0;
+  min-height: auto;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-cat-header .ot-pur-vdr-count) {
+  color: $grey70;
+  font-size: 1.6rem;
+  font-weight: 400;
+  margin-top: 4px;
+  padding-top: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-tgl) {
+  display: grid;
+  margin: 0;
+  place-content: center;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-hdr .ot-always-active) {
+  color: $black;
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: normal;
+}
+
+/* Cookies Table Item Text */
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-grpcntr) {
+  background: $white;
+  border-top: 1px solid $grey30;
+  padding: 24px 32px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-grpdesc) {
+  color: $grey70;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 150%;
+  margin: 0 0 10px;
+  padding: 0;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-hlst-cntr),
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-vlst-cntr) {
+  margin: 0;
+  padding: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-hlst-cntr .ot-link-btn),
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-vlst-cntr .ot-link-btn) {
+  color: $black;
+  font-size: 1.6rem !important; /* stylelint-disable-line */
+  font-weight: 600;
+  line-height: normal;
+}
+
+/* Cookies Table Item Sub Items */
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr) {
+  padding: 0;
+  width: 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-cat-grp .ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp) {
+  padding: 8px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk .ot-accordion-layout .ot-acc-grpcntr .ot-subgrp-cntr) {
+  border-top: none;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp) {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 12px 24px;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp h5) {
+  color: $black;
+  flex: 1 0 auto;
+  font-size: 1.4rem;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp h5 .ot-pur-vdr-count) {
+  color: $grey70;
+  font-size: 1.4rem;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp .ot-tgl-cntr) {
+  flex: 0 1 auto;
+  margin-top: 0;
+  padding-left: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp .ot-subgrp-desc),
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp .ot-leg-btn-container) {
+  flex: 1 0 100%;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp .ot-subgrp-desc),
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr .ot-subgrp .ot-link-btn) {
+  margin: 0;
+}
+
+:global(#onetrust-consent-sdk #onetrust-pc-sdk #ot-pc-content .ot-accordion-layout.ot-vs-config .ot-acc-grpcntr .ot-subgrp-cntr *) {
+  float: unset;
+}
+
+@media only screen and (max-width: 600px) {
+  :global(#onetrust-consent-sdk #onetrust-pc-sdk) {
+    top: 0 !important; /* stylelint-disable-line */
+  }
+}

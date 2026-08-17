@@ -1,0 +1,88 @@
+.Wrapper {
+  @mixin hideforPrint;
+  align-items: center;
+  background-color: $transparent;
+  display: flex;
+  flex-wrap: nowrap;
+  margin-bottom: 30px;
+
+  /* Keep overflow-x visible so the gift feature tooltip can fully render on narrow screens.
+     Changing this back to auto may cause the tooltip to be clipped or hidden. */
+  overflow-x: visible;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: 375px) {
+    justify-content: space-between;
+  }
+
+  @media (max-width: $smBreakpoint) {
+    padding-right: 0;
+    width: 100%;
+  }
+
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+    justify-content: flex-start;
+    margin: 0;
+    position: relative;
+  }
+
+  &.Header {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 34px;
+    margin: 0;
+
+    @media (min-width: $smBreakpoint) {
+      padding-left: 24px;
+      position: static;
+    }
+  }
+
+  &.Header:first-child {
+    margin-left: 0;
+  }
+}
+
+.Scroll {
+  display: flex;
+  gap: 8px;
+  height: 100%;
+  margin-top: $margin24;
+  -ms-overflow-style: none;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+  scrollbar-width: none;
+  user-select: none;
+
+  &::-webkit-scrollbar {
+    display: none;
+  }
+
+  @media (max-width: $smBreakpoint) {
+    padding-right: 0;
+    width: 100%;
+  }
+}
+
+.Wrapper:first-child {
+  margin-left: -10px;
+
+  @media (max-width: 375px) {
+    margin-left: 0;
+  }
+}
+
+.Wrapper&.Header > .Link {
+  width: 24px;
+}
+
+.WrapperOverlay {
+  height: auto;
+}

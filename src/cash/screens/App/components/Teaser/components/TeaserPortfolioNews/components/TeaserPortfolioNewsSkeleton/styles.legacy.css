@@ -1,0 +1,48 @@
+.SkeletonWrapper {
+  display: flex;
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 40px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+  }
+}
+
+.SkeletonLeft {
+  background-color: $greyE;
+  height: 60px;
+  margin-right: 15px;
+  min-width: 90px;
+  width: 90px;
+
+
+  @media (min-width: $smBreakpoint) {
+    height: 128px;
+    min-width: 192px;
+    width: 192px;
+  }
+}
+
+.SkeletonRight {
+  width: 100%;
+}
+
+.SkeletonContent {
+  background-color: $greyE;
+  height: 20px;
+  margin-bottom: 10px;
+  width: 100%;
+
+  &:nth-child(1) {
+    min-width: 100px;
+    width: 50%;
+  }
+
+  &:nth-child(3) {
+    min-width: 80px;
+    width: 30%;
+  }
+}

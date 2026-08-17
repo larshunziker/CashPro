@@ -1,0 +1,70 @@
+.Link {
+  cursor: pointer;
+  display: inline-block;
+  margin-top: -8px;
+
+  &.Active,
+  &:hover {
+    .Label,
+    .Icon {
+      color: $primaryB;
+      fill: $primaryB;
+      transition: color 0.3s, fill 0.3s;
+    }
+  }
+
+  .Icon {
+    height: 20px;
+    top: 6px;
+    width: 20px;
+  }
+
+  .Label {
+    margin-top: 2px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    text-align: center;
+  }
+}
+
+.LinkOverlay {
+  margin-bottom: $margin24;
+  margin-right: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+    margin-right: $margin16;
+  }
+
+  .Icon {
+    height: 26px;
+    top: 8px;
+    width: 26px;
+  }
+
+  .Label {
+    top: 0;
+  }
+}
+
+.Icon {
+  display: inline-block;
+  height: 26px;
+  position: relative;
+  top: 8px;
+  width: 26px;
+}
+
+.Label {
+  composes: InfoENeutralA from 'typography.legacy.css';
+  display: inline-block;
+  margin-left: $margin8;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    margin-left: 0;
+    margin-top: 4px;
+  }
+}

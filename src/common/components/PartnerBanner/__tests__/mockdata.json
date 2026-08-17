@@ -1,0 +1,106 @@
+{
+  "sponsors": [
+    {
+      "node": {
+        "teaserImage": {
+          "caption": "Fahr lieber Audi",
+          "link": {
+            "path": "https://www.volkswagen.ch/de.html",
+            "__typename": "Link"
+          },
+          "image": {
+            "file": {
+              "alt": "Volkswagen",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/volkswagen.png",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "backgroundImage": {
+          "file": {
+            "alt": "vw-12-1-banner",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/vwbanner.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "Sponsor"
+      },
+      "__typename": "SponsorEdge"
+    },
+    {
+      "node": {
+        "teaserImage": {
+          "caption": "Das Beste oder nichts.",
+          "link": {
+            "path": "https://www.mbusa.com/en/home",
+            "__typename": "Link"
+          },
+          "image": {
+            "file": {
+              "alt": "merz2",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/merz2.png",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "backgroundImage": {
+          "file": {
+            "alt": "merz121",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/merz121.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "Sponsor"
+      },
+      "__typename": "SponsorEdge"
+    },
+    {
+      "node": {
+        "teaserImage": {
+          "caption": "Taste the Rainbow.",
+          "link": {
+            "path": "https://apple.com",
+            "__typename": "Link"
+          },
+          "image": {
+            "file": {
+              "alt": "apple",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/apple.png",
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "backgroundImage": {
+          "file": {
+            "alt": "rainbvow",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/rainbvow.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "Sponsor"
+      },
+      "__typename": "SponsorEdge"
+    }
+  ]
+}

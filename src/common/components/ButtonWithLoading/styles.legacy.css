@@ -1,0 +1,142 @@
+.Button {
+  align-items: center;
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  height: 54px;
+  justify-content: center;
+  margin: 0 $margin12 $margin8 0;
+  padding: 0 24px;
+  transition: transform 0.2s;
+
+  &.ClickEffect:active {
+    transform: scale(0.91);
+  }
+
+  &:focus {
+    outline: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Content {
+  align-items: center;
+  display: flex;
+  pointer-events: none;
+
+  &.QuaternaryContent {
+    @media (max-width: $xsBreakpointTo) {
+      display: flex;
+      flex-direction: column;
+
+      > span {
+        max-width: 88px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+
+        @media (width >= 360px) {
+          max-width: 95px;
+        }
+        @media (width >= 400px) {
+          max-width: 125px;
+        }
+
+        @media (width >= 460px) {
+          max-width: fit-content;
+        }
+      }
+    }
+  }
+}
+
+.Loading {
+  pointer-events: none;
+
+  .Content {
+    visibility: hidden;
+  }
+
+  .LoadingSpinnerWrapper {
+    position: absolute;
+  }
+}
+
+.FullWidth {
+  margin: $margin8 0;
+  width: 100%;
+}
+
+.MobileFullWidth {
+  margin: $margin8 0;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin12 $margin8 0;
+    width: auto;
+  }
+}
+
+.Primary {
+  composes: Button;
+}
+
+.Secondary {
+  composes: Button;
+}
+
+.Tertiary {
+  composes: Button;
+}
+
+.Quaternary {
+  composes: Button;
+
+  @media (max-width: $xsBreakpointTo) {
+    border: 0;
+  }
+}
+
+.Small {
+  composes: Button;
+  height: 34px;
+  margin: 0 $margin12 $margin12 0;
+  padding: 0 16px;
+
+  &.Quaternary {
+    @media (max-width: $xsBreakpointTo) {
+      height: 37px;
+    }
+  }
+}
+
+.IconLeft {
+  margin-right: $margin8;
+  vertical-align: middle;
+
+  &.QuaternaryIconLeft {
+    @media (max-width: $xsBreakpointTo) {
+      margin-right: 0;
+    }
+  }
+}
+
+.IconRight {
+  margin-left: $margin8;
+  vertical-align: middle;
+
+  &.QuaternaryIconRight {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: inline-block;
+    }
+  }
+}
+
+.HighAttention {
+  /* PLACEHOLDER */
+}

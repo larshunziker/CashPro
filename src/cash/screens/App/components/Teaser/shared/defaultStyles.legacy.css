@@ -1,0 +1,231 @@
+span.IsAdvertorial {
+  background: $primaryA;
+  color: $white;
+  line-height: 1;
+  padding-bottom: 3px;
+  padding-left: 6px;
+  padding-top: 3px;
+}
+
+.TeaserTitleBase {
+  color: $greyA;
+  @mixin fontSize 23;
+  font-weight: 600;
+  @mixin lineHeight 27;
+  margin-bottom: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 27;
+    @mixin lineHeight 33;
+    margin-bottom: 10px;
+  }
+}
+
+/**
+* used in
+*  - teaserMainDefaultStyles
+*/
+.TeaserTitle {
+  composes: TeaserTitleBase;
+  @mixin fontSize 23;
+  @mixin lineHeight 27;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 39;
+    @mixin lineHeight 46;
+    margin-bottom: 12px;
+  }
+}
+
+.TeaserTitleWrapper {
+  line-height: 0;
+  margin-bottom: $margin8;
+}
+
+/**
+* used in
+*  - TeaserSecondaryDefault
+*  - TeaserMainDefault
+*/
+
+.TeaserImageWrapper {
+  display: inline-block;
+  position: relative;
+}
+
+.ArticleAuthorWrapper,
+.LongReadAuthorWrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  composes: AuthorDateBook from 'typography.legacy.css';
+  display: flex;
+  flex-flow: column wrap;
+  flex-direction: row;
+  position: relative;
+
+  &.HasAuthorsImages {
+    flex-flow: row;
+  }
+}
+
+.ArticleAuthorWrapper {
+  margin-bottom: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  &.IsOpinion {
+    margin-bottom: 30px;
+  }
+}
+
+.LongReadAuthorWrapper {
+  color: $white;
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.AuthorAvatar {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    border-radius: 50%;
+    display: block;
+    height: 73px;
+    width: 73px;
+  }
+}
+
+.AuthorWrapperInner {
+  composes: AuthorDate from 'typography.legacy.css';
+
+  &.HasImage {
+    margin-left: 0;
+
+    @media (min-width: $smBreakpoint) {
+      margin-left: 17px;
+    }
+
+    @media print {
+      left: 0;
+    }
+  }
+}
+
+.HasArticleImage {
+  &.HasImage {
+    margin-left: 10px;
+  }
+}
+
+.AuthorNameWrapper {
+  display: 'block';
+}
+
+.AuthorPublicationDate {
+  composes: AuthorDate from 'typography.legacy.css';
+}
+
+.AuthorPublicationTime {
+  composes: AuthorDate from 'typography.legacy.css';
+  margin-left: 10px;
+}
+
+.ChangeDate {
+  display: inline-block;
+  margin-top: 3px;
+
+  @media (min-width: $smBreakpoint) {
+    display: inline;
+    margin-top: 0;
+  }
+}
+
+.TeaserTopic {
+  color: $secondaryA;
+  display: inline-block;
+  @mixin fontSize 12;
+  font-weight: bold;
+  letter-spacing: 1px;
+  @mixin lineHeight 19;
+  max-width: 100%;
+  overflow: hidden;
+  padding: 0;
+  text-overflow: ellipsis;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.TeaserLead {
+  color: $greyA;
+  @mixin fontSize 13;
+  @mixin lineHeight 21;
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 18;
+    @mixin lineHeight 27;
+  }
+
+  span {
+    color: $secondaryA;
+  }
+}
+
+.BottomLine {
+  composes: Meta1 from 'typography.legacy.css';
+  display: inline-table;
+  font-variant: lining-nums;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.BottomLine:nth-of-type(2) {
+  display: inline;
+}
+
+.BottomLine:nth-of-type(2)::before {
+  content: '\2000|\2000';
+}
+
+.SearchPublicationDate {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $greyA;
+}
+
+.PublicationTime {
+  composes: BottomLine;
+  margin-left: $margin8;
+}
+
+.SearchPublicationTime {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $greyA;
+  margin-left: $margin4;
+}
+
+.TickerBoxTitleBadge {
+  &::before {
+    content: '\25B6\00FE0E';
+    @mixin fontSize 8;
+    margin-right: 3px;
+    vertical-align: middle;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    color: $greyB;
+    display: inline-block;
+    margin-right: 5px;
+
+    &::before {
+      display: none;
+    }
+  }
+}

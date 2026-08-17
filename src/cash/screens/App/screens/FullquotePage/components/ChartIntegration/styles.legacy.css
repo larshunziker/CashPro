@@ -1,0 +1,18 @@
+.Wrapper {
+  height: 100%;
+  min-height: 100vh;
+  overflow: auto;
+}
+
+.PullOutWrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  min-height: 100vh;
+}
+
+.Breadcrumbs {
+  margin-bottom: -16px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: -32px;
+  }
+}

@@ -1,0 +1,338 @@
+{
+  "id": "bm9kZToxNDc3NzI=",
+  "title": "",
+  "lead": "",
+  "preferredUri": "/videos",
+  "channel": {
+    "id": "dGF4b25vbXlfdGVybToyNTc5",
+    "channelType": null,
+    "settings": {
+      "mainChannel": {
+        "id": "dGF4b25vbXlfdGVybToyNTc5",
+        "title": "People",
+        "__typename": "Channel"
+      },
+      "__typename": "TermSettings"
+    },
+    "sponsors": {
+      "edges": [
+        {
+          "node": {
+            "teaserImage": {
+              "caption": "Fahr lieber Audi",
+              "link": {
+                "path": "https://www.volkswagen.ch/de.html",
+                "__typename": "Link"
+              },
+              "image": {
+                "id": "23",
+                "file": {
+                  "id": "232",
+                  "alt": "Volkswagen",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/volkswagen.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "backgroundImage": {
+              "file": {
+                "alt": "vw-12-1-banner",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/vwbanner.png",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        }
+      ],
+      "__typename": "SponsorConnection"
+    },
+    "__typename": "Channel"
+  },
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzU5",
+          "label": "Specials",
+          "link": "/specials-0",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpBeFRtcHJOVGMxTkRNMU9BPT0=",
+          "label": "Traumdestination Karibik",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "body": [
+    {
+      "id": "179294",
+      "title": null,
+      "style": "default",
+      "landingPage": null,
+      "entityQueue": {
+        "items": {
+          "edges": [
+            {
+              "node": {
+                "id": "bm9kZToxOTM0NA==",
+                "title": "hero gallery",
+                "lead": "aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd aslkdjalksdj alskjd laskjd laksjd laksjd lakjsd laskjd lakjsd",
+                "shortTitle": "hero gallery style",
+                "preferredUri": "/style/hero-gallery",
+                "teaserImage": {
+                  "id": "test1234",
+                  "caption": null,
+                  "image": {
+                    "id": "235",
+                    "file": {
+                      "id": "231123",
+                      "alt": "Wendy Holdener im Wasser",
+                      "focalPointX": 1000,
+                      "focalPointY": 1000,
+                      "relativeOriginPath": "/_DSC9765.jpg",
+                      "width": 480,
+                      "height": 320,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Article"
+              },
+              "__typename": "RouteObjectInterfaceEdge"
+            }
+          ],
+          "__typename": "RouteObjectInterfaceConnection"
+        },
+        "__typename": "EntityQueue"
+      },
+      "__typename": "EntityQueueParagraph"
+    },
+    {
+      "id": "179389",
+      "header": "Text paragraph 1",
+      "text": "<p>Das ist ein text paragraph zwischen der entityqueue</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "179391",
+      "header": "Text paragraph 2",
+      "text": "<p>asdasdsadsdfsdfsdf sdf sdf </p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "179392",
+      "header": "Text paragraph 3",
+      "text": "<p>sdffsdfsdfsdfsdfsdfsdf</p>\n",
+      "__typename": "TextParagraph"
+    },
+    {
+      "id": "179393",
+      "header": "Text paragraph 4",
+      "text": "<p>sdfsdfsdf</p>\n",
+      "__typename": "TextParagraph"
+    }
+  ],
+  "grid": {
+    "count": 2,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTUzNQ==",
+          "title": "Belinda Bencic",
+          "lead": "Belinda Bencic (WTA 43) qualifiziert sich in Washington kampflos für die Viertelfinals. Dort trifft die Flawilerin auf Andrea Petkovic.",
+          "shortTitle": "Winter 2018",
+          "preferredUri": "/belinda-bencic",
+          "teaserImage": {
+            "id": "test1234",
+            "caption": "Belinda ist ready",
+            "image": {
+              "id": "236",
+              "file": {
+                "id": "2399",
+                "alt": "Belinda",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/belinda.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo1NzE1",
+            "sponsor": {
+              "id": "bm9kZToxOTUzNg==",
+              "title": "Ochsner Sport",
+              "colorCode": null,
+              "teaserImage": {
+                "id": "180049",
+                "caption": null,
+                "image": {
+                  "id": "23k",
+                  "file": {
+                    "id": "23d",
+                    "alt": "Ochsner Sport",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/ochsner_sport.png",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Sponsor"
+            },
+            "channelType": "special",
+            "special": {
+              "id": "dGF4b25vbXlfdGVybTo1NzE3",
+              "title": "Sport",
+              "colorCode": "rgba(51, 51, 51, 1)",
+              "logo": {
+                "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/2018-12/SPORT.svg",
+                "__typename": "File"
+              },
+              "__typename": "Special"
+            },
+            "partners": {
+              "edges": [
+                {
+                  "node": {
+                    "title": "Partner A",
+                    "__typename": "Sponsor"
+                  },
+                  "__typename": "SponsorEdge"
+                },
+                {
+                  "node": {
+                    "title": "Partner B",
+                    "__typename": "Sponsor"
+                  },
+                  "__typename": "SponsorEdge"
+                },
+                {
+                  "node": {
+                    "title": "Tui",
+                    "__typename": "Sponsor"
+                  },
+                  "__typename": "SponsorEdge"
+                }
+              ],
+              "__typename": "SponsorConnection"
+            },
+            "__typename": "Channel"
+          },
+          "__typename": "LandingPage"
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTUwNQ==",
+          "title": "Traumdestination Karibik",
+          "lead": null,
+          "shortTitle": "Frühling 2018",
+          "preferredUri": "/traumdestination-karibik",
+          "teaserImage": {
+            "id": "test1234",
+            "caption": null,
+            "image": {
+              "id": "23hh2",
+              "file": {
+                "id": "1",
+                "alt": "Fitchi-strand",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/fitchi-strand.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo1Njk5",
+            "sponsor": {
+              "id": "bm9kZToxOTUwNg==",
+              "title": "Tui",
+              "colorCode": "rgba(112, 203, 244, 1)",
+              "teaserImage": {
+                "id": "179970",
+                "caption": null,
+                "image": {
+                  "id": "23123",
+                  "file": {
+                    "id": "237",
+                    "alt": "tui2",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/tui2.png",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "__typename": "Sponsor"
+            },
+            "channelType": "special",
+            "special": {
+              "id": "dGF4b25vbXlfdGVybTo1Njk2",
+              "title": "Travel",
+              "colorCode": "rgba(20, 190, 165, 1.0)",
+              "logo": {
+                "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/2018-12/travel_logo_0.svg",
+                "__typename": "File"
+              },
+              "__typename": "Special"
+            },
+            "partners": {
+              "edges": [
+                {
+                  "node": {
+                    "title": "Partner A",
+                    "__typename": "Sponsor"
+                  },
+                  "__typename": "SponsorEdge"
+                },
+                {
+                  "node": {
+                    "title": "Partner B",
+                    "__typename": "Sponsor"
+                  },
+                  "__typename": "SponsorEdge"
+                }
+              ],
+              "__typename": "SponsorConnection"
+            },
+            "__typename": "Channel"
+          },
+          "__typename": "LandingPage"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "__typename": "LandingPage"
+}

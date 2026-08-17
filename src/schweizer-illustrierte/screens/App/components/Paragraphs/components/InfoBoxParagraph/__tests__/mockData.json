@@ -1,0 +1,36 @@
+{
+  "infoBoxParagraph": {
+    "infoBox": {
+      "style": null,
+      "body": [
+        {
+          "id": "179052",
+          "header": "Welcome to me new Home",
+          "text": "<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo doloremque ipsum voluptatum quisquam vitae soluta cum, veritatis numquam aliquid similique provident, error quidem libero eaque recusandae ea sequi quia neque rem accusantium maiores! Distinctio ducimus vitae voluptatibus voluptatum veritatis rem deb</p>\n",
+          "__typename": "TextParagraph"
+        },
+        {
+          "id": "179053",
+          "format": "landscape",
+          "caption": "Oh my god, look at my new phone",
+          "image": {
+            "credit": "ERIK PRZYBILLA",
+            "file": {
+              "alt": "Sandra versucht seit Anfang Jahr vom Modeln zu leben.",
+              "focalPointX": 1000,
+              "focalPointY": 1000,
+              "relativeOriginPath": "/m85a7886_0.jpg",
+              "width": 480,
+              "height": 306,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        }
+      ],
+      "__typename": "InfoBox"
+    },
+    "__typename": "InfoBoxParagraph"
+  }
+}

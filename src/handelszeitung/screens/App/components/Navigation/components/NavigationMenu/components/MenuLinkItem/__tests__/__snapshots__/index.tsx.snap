@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Menu Link Item Tests Should render correctly 1`] = `
+<div
+  class="LinkWrapper"
+  data-testid="menu-link-item-wrapper"
+>
+  <a
+    class="NavLink"
+    data-testid="routed-link"
+    href="/"
+  >
+    Startseite
+  </a>
+</div>
+`;

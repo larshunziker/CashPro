@@ -1,0 +1,55 @@
+{
+  "entityQueue": {
+    "anchorID": null,
+    "entityQueue": {
+      "title": "Schokolade",
+      "items": {
+        "edges": [
+          {
+            "node": {
+              "subtypeValue": "news",
+              "changeDate": "2019-04-23T09:41:16",
+              "channel": {
+                "id": "dGF4b25vbXlfdGVybToxMjY1",
+                "title": "Digital Switzerland",
+                "__typename": "Channel"
+              },
+              "teaserImage": {
+                "id": "1056924",
+                "title": null,
+                "caption": null,
+                "image": {
+                  "file": {
+                    "alt": "Frau formt mit ihren Händen ein Herz auf ihrem Bauch",
+                    "relativeOriginPath": "/mit_haenden_geformtes_herz_auf_bauch.jpg"
+                  }
+                }
+              },
+              "createDate": "2019-04-09T09:42:23",
+              "hasVideo": true,
+              "id": "bm9kZToyMDc1Ng==",
+              "lead": "Der Schokoladenhersteller Lindt & Sprüngli hat seinen Wachstumskurs 2015 trotz des starken Frankens, hoher Rohstoffpreise und eines warmen Sommers fortgesetzt. Der Hersteller von Goldhasen und Lindor-Kugeln legte sowohl beim Umsatz und beim Gewinn deutlich zu.",
+              "preferredUri": "/tech/digital-switzerland/lindt-sprungli-bleibt-auf-erfolgskurs",
+              "publication": "handelszeitung",
+              "shortTitle": "Zuwachs test",
+              "sponsor": null,
+              "title": "Lindt & Sprüngli bleibt auf Erfolgskurs",
+              "__typename": "Article"
+            },
+            "__typename": "RouteObjectInterfaceEdge"
+          }
+        ],
+        "__typename": "RouteObjectInterfaceConnection"
+      },
+      "__typename": "EntityQueue"
+    },
+    "landingPage": {
+      "id": "dGF4b25vbXlfdGVybToxMjY1fsad",
+      "title": "Digital Switzerland",
+      "shortTitle": "This is a short title."
+    },
+    "style": "default",
+    "title": "This is a great title.",
+    "__typename": "EntityQueueParagraph"
+  }
+}

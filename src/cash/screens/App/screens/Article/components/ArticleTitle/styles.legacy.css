@@ -1,0 +1,97 @@
+.ArticleTitle {
+  position: relative;
+  z-index: $zIndex10;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0;
+  }
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  display: inline-block;
+  margin-bottom: 14px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.ShortTitleWrapper {
+  align-items: center;
+  display: flex;
+  margin-bottom: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  display: inline;
+}
+
+.ShortTitleNA{
+  composes: ShortTitleBNativeAd from 'typography.legacy.css';
+  float: left;
+  padding: $margin4 $margin8 $margin8 0;
+  width: fit-content;
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitleBAdvertorial from 'typography.legacy.css';
+  float: left;
+  padding: $margin4 $margin8 $margin8 0;
+  width: fit-content;
+}
+
+.BrandReportLogoWrapper {
+  display: inline-block;
+  flex-shrink: 0;
+  float: left;
+  height: 32px;
+  margin-left: 1px;
+  margin-right: $margin8;
+  margin-top: -6px;
+  width: 130px;
+
+  @media (min-width: $mdBreakpoint) {
+    width: 150px;
+  }
+}
+
+.ArticleBody {
+  :global(.app) {
+    padding-bottom: 70px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.UtilityBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyC;
+  bottom: 0;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndex10;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: $margin24;
+    padding-top: 16px;
+    position: relative;
+  }
+
+  &.Hidden {
+    display: none;
+  }
+}

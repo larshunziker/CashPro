@@ -1,0 +1,129 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AlertItem Should render and match snapshot 0 1`] = `
+<div>
+  <div
+    class="AlertItemWrapperClassName"
+  >
+    <div
+      class="TextClassName"
+      title="label"
+    >
+      <a
+        data-testid="mocked-link"
+        href="/home"
+      >
+        #label
+      </a>
+    </div>
+    <div
+      class="ChildWrapperClassName"
+    >
+      <div>
+        child element
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertItem Should render and match snapshot 1 1`] = `
+<div>
+  <div
+    class="AlertItemWrapperClassName"
+  >
+    <div
+      class="TextClassName"
+      title="label"
+    >
+      <a
+        data-testid="mocked-link"
+        href=""
+      >
+        label
+      </a>
+    </div>
+    <div
+      class="ChildWrapperClassName"
+    >
+      <div>
+        child element
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertItem Should render and match snapshot 2 1`] = `<div />`;
+
+exports[`[Common] AlertItem Should render and match snapshot 3 1`] = `<div />`;
+
+exports[`[Common] AlertItem Should render and match snapshot 4 1`] = `
+<div>
+  <div
+    class="AlertItemWrapperClassName"
+  >
+    <div
+      class="TextClassName"
+      title="label"
+    >
+      <a
+        data-testid="mocked-link"
+        href="/home"
+      >
+        #label
+      </a>
+    </div>
+    <div
+      class="ChildWrapperClassName"
+    >
+      <div>
+        child element
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertItem Should render and match snapshot 5 1`] = `
+<div>
+  <div
+    class="AlertItemImageWrapperClassName"
+  >
+    <div
+      class="LineHeightReset PictureWrapper"
+    >
+      <picture>
+        <img
+          alt="label"
+          class="AlertItemImageClassName IsSameAspectRatio"
+          loading="lazy"
+          srcset="/sh/0/sites/default/files/roger_federer.jpg"
+        />
+      </picture>
+    </div>
+  </div>
+  <div
+    class="AlertItemWrapperClassName"
+  >
+    <div
+      class="TextClassName"
+      title="label"
+    >
+      <a
+        data-testid="mocked-link"
+        href="/home"
+      >
+        #label
+      </a>
+    </div>
+    <div
+      class="ChildWrapperClassName"
+    >
+      <div>
+        child element
+      </div>
+    </div>
+  </div>
+</div>
+`;

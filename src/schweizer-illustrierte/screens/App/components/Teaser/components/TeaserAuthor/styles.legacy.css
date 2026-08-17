@@ -1,0 +1,76 @@
+.Grid {
+  display: grid;
+  gap: 1.4rem;
+  grid-template-columns: 54px 1fr;
+  padding-block: 16px;
+  transition: background 200ms ease-in-out;
+
+  &:hover {
+    background: $greyD;
+  }
+}
+
+.Box {
+  padding-block: 12px;
+}
+
+.AuthorAvatar,
+.Initials {
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+}
+
+.Name {
+  composes: InfoABlack from 'typography.legacy.css';
+  text-transform: capitalize;
+}
+
+.InsideArticleName {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+  margin-right: $margin4;
+}
+
+.OutsideArticleName {
+  font-size: 1.8rem;
+  line-height: 2.6rem;
+
+  @media screen and (min-width: $smBreakpoint) {
+    font-size: 2.3rem;
+    line-height: 2.8rem;
+  }
+}
+
+.Headline {
+  composes: Meta3Black from 'typography.legacy.css';
+  display: block;
+}
+
+.Initials {
+  align-items: center;
+  background: $greyB;
+  color: $blackC;
+  display: flex;
+  font-family: $fontLeJeune;
+  font-size: 2.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 2.9rem;
+}
+
+.ShortDescriptionWrapper {
+  font-family: $fontBague;
+  font-size: 1.6rem;
+  font-weight: 325;
+  line-height: 2.5rem;
+}
+
+.ShortDescription {
+  margin-right: $margin4;
+}
+
+.Link {
+  color: $redA;
+  white-space: nowrap;
+}

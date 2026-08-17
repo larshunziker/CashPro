@@ -1,0 +1,116 @@
+/**
+ * Do not edit directly, this file was auto-generated.
+ * Generated on Fri, 31 Jan 2025 17:16:47 GMT
+ */
+
+:root {
+  --rds-text-alignment-center: center;
+  --rds-width-logo-md: 320px;
+  --rds-width-logo-default: 174px;
+  --rds-color-alerts-success-text: #057a55;
+  --rds-color-alerts-success-background: #f3faf7;
+  --rds-color-alerts-error-text: #e02424;
+  --rds-color-alerts-error-background: #fdf2f2;
+  --rds-color-alerts-info-background: #ebf5ff;
+  --rds-color-alerts-info-text: #1e429f;
+  --rds-color-alerts-warning-background: #fff8f1;
+  --rds-color-alerts-warning-text: #8a2c0d;
+  --rds-color-neutral-0: #fdfcfc;
+  --rds-color-neutral-10: #f5f4f3; /* background input field. */
+  --rds-color-neutral-20: #e6e5e2;
+  --rds-color-neutral-30: #dad7d4; /* Disabled text color on forms */
+  --rds-color-neutral-40: #a8a39a; /* disabled text */
+  --rds-color-neutral-50: #827b6f;
+
+  /**
+   * Placeholder text in input field.
+   * De-emphasized text in accordeon.
+   * Credits.
+   */
+  --rds-color-neutral-60: #686259;
+  --rds-color-neutral-70: #4e4a43;
+  --rds-color-neutral-80: #34312c;
+  --rds-color-neutral-90: #1a1916; /* Standard text color */
+  --rds-color-primary-10: #e8eaf0;
+  --rds-color-primary-20: #d1d4e1;
+  --rds-color-primary-30: #a3aac4;
+  --rds-color-primary-40: #5e6a97;
+  --rds-color-primary-50: #192a6b;
+  --rds-color-primary-60: #142256;
+  --rds-color-primary-70: #0f1940;
+  --rds-color-primary-80: #0a112b;
+  --rds-color-primary-90: #050815;
+  --rds-color-secondary-10: #fdf9ed;
+  --rds-color-secondary-20: #fbf4da;
+  --rds-color-secondary-30: #f7e8b6;
+  --rds-color-secondary-40: #f2d77f;
+  --rds-color-secondary-50: #ecc648;
+  --rds-color-secondary-60: #bd9e3a;
+  --rds-color-secondary-70: #8e772b;
+  --rds-color-secondary-80: #5e4f1d;
+  --rds-color-secondary-90: #2f280e;
+  --rds-color-button-primary-hover: #0f1940;
+  --rds-color-button-primary-default: #142256;
+  --rds-color-button-primary-active: #475589; /* active input field label. active input field underline. */
+  --rds-color-button-secondary-hover: #8e772b;
+  --rds-color-button-secondary-default: #bd9e3a;
+  --rds-color-button-secondary-active: #f7e8b6;
+  --rds-color-static-light: #f5f5f5; /* Used inside radio button */
+  --rds-color-static-dark: #1a1916; /* Used inside radio button */
+  --rds-color-static-dark-opacity60: #1a191699; /* Used inside radio button */
+  --rds-color-gradient-fade-out: linear-gradient(270deg, #fdfcfc 63.24%, rgb(253 252 252 / 0%) 100%);
+  --rds-color-gradient-fade-in: linear-gradient(90deg, #fdfcfc 63.24%, rgb(253 252 252 / 0%) 100%);
+  --rds-color-gradient-fade-up: linear-gradient(0deg, #fdfcfc 28.12%, rgb(253 252 252 / 0%) 100%);
+  --rds-color-heading-default: #142256;
+  --rds-color-heading-default-hover: #0a112b;
+  --rds-color-heading-paragraph: #1a1916;
+  --rds-color-elevated-10: #fdfcfc; /* used: standard item in dropdown, feature card lighter */
+  --rds-color-elevated-20: #f5f4f3; /* used: selected item in dropdown */
+  --rds-color-elevated-30: #e6e5e2; /* used: hover in dropdown */
+  --rds-font-size-text-xs: 12px;
+  --rds-font-size-text-sm: 14px;
+  --rds-font-size-text-base: 16px;
+  --rds-font-size-text-lg: 18px;
+  --rds-font-size-text-xl: 20px;
+  --rds-font-size-text-2xl: 24px;
+  --rds-font-size-text-3xl: 32px;
+  --rds-font-size-text-4xl: 36px;
+  --rds-font-size-text-5xl: 48px;
+  --rds-font-size-text-6xl: 60px;
+  --rds-font-size-text-7xl: 72px;
+  --rds-font-size-text-8xl: 96px;
+  --rds-font-size-text-9xl: 128px;
+  --rds-font-family-a: IBM Plex Sans;
+  --rds-font-family-a-fallback: Arial,Helvetica,sans-serif;
+  --rds-font-family-b: IBM Plex Serif;
+  --rds-font-family-b-fallback: Georgia,serif;
+  --rds-line-height-tight: 125%;
+  --rds-line-height-normal: 150%;
+  --rds-line-height-relaxed: 162.5%;
+  --rds-border-radius-sm: 4px;
+  --rds-border-radius-md: 8px;
+  --rds-border-radius-lg: 12px;
+  --rds-border-radius-xl: 50px;
+  --rds-border-radius-button-default: 6px;
+  --rds-border-radius-input-default: 4px;
+  --rds-spacing-none: 0;
+  --rds-spacing-xxs: 4px;
+  --rds-spacing-xs: 6px;
+  --rds-spacing-sm: 8px;
+  --rds-spacing-md: 12px;
+  --rds-spacing-lg: 16px;
+  --rds-spacing-xl: 24px;
+  --rds-spacing-2xl: 32px;
+  --rds-spacing-3xl: 40px;
+  --rds-spacing-4xl: 48px;
+  --rds-spacing-5xl: 64px;
+  --rds-spacing-6xl: 96px;
+  --rds-spacing-section-default: 4px;
+  --rds-border-width-none: 0;
+  --rds-border-width-thin: 1px;
+  --rds-border-width-medium: 2px;
+  --rds-border-width-title-section-top: 0;
+  --rds-border-width-title-section-bottom: 2px;
+  --rds-border-width-title-infobox-top: 2px;
+  --rds-border-width-title-infobox-bottom: 1px;
+}

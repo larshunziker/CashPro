@@ -1,0 +1,13 @@
+.PullTip {
+  composes: TeaserLeadBlack from 'typography.legacy.css';
+
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.Spinner {
+  min-height: 30px;
+  min-width: 30px;
+}

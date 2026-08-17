@@ -1,0 +1,128 @@
+.Wrapper {
+  position: relative;
+}
+
+.Button {
+  background-color: $white;
+  color: $black;
+  cursor: pointer;
+  display: inline-block;
+  height: 20px;
+  margin-left: $margin4;
+  outline: none;
+  position: relative;
+  text-align: center;
+  top: 4px;
+  width: 20px;
+
+  &:hover {
+    border-color: $redA;
+    color: $redA;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: $margin8;
+    position: relative;
+  }
+
+  &SY {
+    &:hover {
+      border-color: $skin;
+      color: $skin;
+    }
+  }
+}
+
+.ButtonText {
+  composes: Icon from 'raschFont.legacy.css';
+  font-size: 2.1rem;
+  left: 0;
+  position: absolute;
+  top: 0;
+
+  &:hover {
+    color: $redA;
+  }
+
+  &SY {
+    &:hover {
+      color: $skin;
+    }
+  }
+}
+
+.ButtonOpen {
+  &::after {
+    /* bubble arrow pointing at the close icon */
+    border-bottom: 12px solid $black;
+    border-left: 12px solid transparent;
+    border-right: 12px solid transparent;
+    bottom: -20px;
+    content: '';
+    height: 0;
+    left: -2px;
+    margin: auto;
+    position: absolute;
+    width: 0;
+  }
+}
+
+.ButtonTextOpen {
+  composes: IconCloseButtonOutline from 'raschFont.legacy.css';
+}
+
+.ButtonTextClosed {
+  composes: IconInfoButtonOutline from 'raschFont.legacy.css';
+}
+
+.TooltipWrapper {
+  background: $black;
+  color: $white;
+  max-width: 388px;
+  position: absolute;
+  top: 42px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: none;
+    top: 42px;
+    width: 388px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 624px;
+  }
+
+  &SY {
+    left: 0;
+    margin-left: auto;
+    margin-right: auto;
+    right: 0;
+  }
+}
+
+.Tooltip {
+  max-width: 480px;
+  padding: 8px 12px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $mdBreakpoint) {
+    margin: auto;
+    max-width: 700px;
+    padding: 12px 14px;
+    text-align: left;
+  }
+}
+
+.Content {
+  composes: ArrowText from 'typography.legacy.css';
+  user-select: none;
+}
+
+.Link {
+  composes: ArrowText from 'typography.legacy.css';
+  display: inherit;
+  text-decoration: underline;
+}

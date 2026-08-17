@@ -1,0 +1,127 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  position: relative;
+  width: 100%;
+
+  &:hover {
+    .TitleSY span {
+      border-bottom-color: $skin;
+    }
+
+    .TitleSI span {
+      border-bottom-color: $redA;
+    }
+  }
+}
+
+.ImageWrapper {
+  height: auto;
+  position: relative;
+  width: 100%;
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}
+
+.ContentWrapper {
+  word-wrap: break-word;
+}
+
+.ContentWrapperSY {
+  text-align: center;
+}
+
+.Title {
+  @media (min-width: $smBreakpoint) {
+    margin-top: 3px;
+  }
+
+  span {
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.3s;
+  }
+}
+
+.TitleSI {
+  composes: Heading2A from 'typography.legacy.css';
+  margin-top: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 2px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: $margin8;
+  }
+}
+
+.TitleSY {
+  composes: Heading2ASY from 'typographySY.legacy.css';
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 5px;
+  }
+}
+
+.ShortTitle {
+  margin-top: 9px;
+}
+
+.ShortTitleSI {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 13px;
+  }
+}
+
+.ShortTitleSY {
+  composes: HeadingCatch2SY from 'typographySY.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 11px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 15px;
+  }
+}
+
+.Badge {
+  composes: Badge from 'App/components/Teaser/styles.legacy.css';
+}
+
+.BadgePositionBottom {
+  bottom: -7px;
+  top: auto;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -10px;
+  }
+}
+
+.ArrowButtonAddClass {
+  @media (min-width: $smBreakpoint) {
+    /* has to be in px because its used inside the ArrowButton component */
+    font-size: 14px;
+  }
+}
+
+.IconStyle {
+  composes: IconStyle from 'App/components/Teaser/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+}

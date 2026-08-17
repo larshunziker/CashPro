@@ -1,0 +1,1796 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ArticlePage Should correctly render guide article type, with navigation and button to top 1`] = `
+<div>
+  <div
+    class="article-guide-detail"
+    data-testid="articlepage-guide-wrapper"
+    id="article-body-undefined"
+  >
+    <div
+      data-testid="smooth-scroll-factory-wrapper"
+      id="smoothScrollToTop"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24 ColMd7 ColXl6 HiddenMdDown HideForPrint"
+        >
+          <div
+            data-testid="table-of-contents-wrapper"
+          />
+        </div>
+        <div
+          class="ColXs24 ColMd17 ColXl16 ColOffsetXl2"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+            >
+              <div
+                data-testid="article-head-default-wrapper"
+              >
+                <div
+                  class="AuthorWrapper AuthorWrapperMargin DateWrapper"
+                  data-testid="main-container"
+                >
+                  <div>
+                    <div
+                      data-testid="author-container"
+                    >
+                      <span
+                        class="Author"
+                      >
+                        <div
+                          class="AuthorLink InActiveLink"
+                          data-testid="empty-link"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Mocked Author
+                          </span>
+                        </div>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                        , 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/tina-steinauer"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Tina Steinauer
+                          </span>
+                        </a>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                         und 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/test-author"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Test Author
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                    <span
+                      class="Dates"
+                      data-testid="dates-wrapper"
+                    >
+                      <br />
+                      <span
+                        class="PublicationDate"
+                        data-testid="publication-date-wrapper"
+                      >
+                        <span
+                          data-testid="publication-date-label"
+                        >
+                          Veröffentlicht 
+                        </span>
+                        am 6. Januar 2021 - 08:32 Uhr
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ColXs24 HiddenMdUp HideForPrint"
+            >
+              <div
+                data-testid="table-of-contents-wrapper"
+              />
+            </div>
+          </div>
+          <div
+            data-testid="articlepage-paragraphs"
+          >
+            <div
+              class="Row"
+            >
+              <div
+                class="ColXs24"
+              >
+                <div
+                  class="ParagraphsRendererContainer"
+                  data-testid="paragraphsrenderer-container"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      id="179229"
+                    >
+                      <div
+                        class="Section SectionTextParagraph"
+                      >
+                        <div
+                          class="Paragraphs ContainerInner"
+                        >
+                          <div
+                            class="Row"
+                            data-testid="paragraph-item"
+                          >
+                            <div
+                              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+                            >
+                              <div
+                                data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                                id="articleheader"
+                              >
+                                <div
+                                  class="paragraph text-paragraph RichTextWrapper"
+                                  data-testid="textparagraph-outer-div"
+                                >
+                                  <div
+                                    class="Header"
+                                    data-testid="textparagraph-header"
+                                  >
+                                    article header
+                                  </div>
+                                  <div
+                                    data-testid="textparagraph-text"
+                                  >
+                                    <p>
+                                      Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                      <strong>
+                                        Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                      </strong>
+                                    </p>
+                                    
+
+
+                                    <p>
+                                      Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                      <strong>
+                                        Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                      </strong>
+                                      Prinzessin Diana 
+                                      <span
+                                        style="font-size: 1em;"
+                                      >
+                                        erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                        <strong>
+                                          Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                        </strong>
+                                         Die Fotos aus dem Spital gingen um die Welt.
+                                      </span>
+                                    </p>
+                                    
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ButtonWrapper ScrollToTopFadeOut"
+      >
+        <a
+          aria-label="Nach oben"
+          class="ButtonToTop"
+          href="#smoothScrollToTop"
+        >
+          <i
+            class="Icon IconChevronUp IconStyles"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should not render authors teasers below article content (no authors with profile page) 1`] = `
+<div>
+  <div
+    class="article-detail"
+    data-testid="articlepage-wrapper"
+    id="article-body-undefined"
+  >
+    <div>
+      <div
+        class="ad-wrapper ad-wrapper-top HiddenForDesktop"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="AdSlot MMR1"
+            data-device-type="mobile"
+            data-slot-name="MMR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mmr-1-mobile"
+          />
+        </div>
+      </div>
+      <div
+        class="article-header ArticleHeader"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div
+        class="article-body BodyWrapper"
+      >
+        <div
+          data-testid="articlepage-paragraphs"
+        >
+          <div
+            class="ParagraphsRendererContainer"
+            data-testid="paragraphsrenderer-container"
+          >
+            <div
+              class=""
+            >
+              <div
+                id="179229"
+              >
+                <div
+                  class="Section SectionTextParagraph"
+                >
+                  <div
+                    class="Paragraphs Container"
+                  >
+                    <div
+                      class="Row"
+                      data-testid="paragraph-item"
+                    >
+                      <div
+                        class="ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                <strong>
+                                  Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                </strong>
+                              </p>
+                              
+
+
+                              <p>
+                                Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                <strong>
+                                  Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                </strong>
+                                Prinzessin Diana 
+                                <span
+                                  style="font-size: 1em;"
+                                >
+                                  erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                  <strong>
+                                    Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                  </strong>
+                                   Die Fotos aus dem Spital gingen um die Welt.
+                                </span>
+                              </p>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-mobile"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="MHPA2"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot MHPA2"
+                            data-device-type="mobile"
+                            data-slot-name="MHPA_2"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-mhpa-2-14-mobile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-tabletDesktop"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="WB2-MR"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot WB2-MR"
+                            data-device-type="tabletDesktop"
+                            data-slot-name="WB_2-MR"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-wb-2-mr-15-tabletDesktop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+      >
+        <section
+          class="Wrapper GooglePreferredSource"
+        >
+          <button
+            class="Button ClickEffect Secondary Small"
+            tabindex="0"
+            type="submit"
+          >
+            <span>
+              <div
+                class="Icon"
+                type="icons/type/google-preferred-source"
+              />
+              <span
+                class="Content"
+              >
+                Bevorzugte Quelle
+              </span>
+            </span>
+          </button>
+          <button
+            class="Button ClickEffect Tertiary Small"
+            tabindex="0"
+          >
+            <span>
+              <span
+                class="Content"
+              >
+                So funktioniert's
+              </span>
+            </span>
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="smooth-scroll-factory-wrapper"
+    id="comments"
+  />
+  <div
+    class="ad-wrapper ad-wrapper-mobile"
+  >
+    <div
+      class="AdSlot MHPA2"
+      data-device-type="mobile"
+      data-slot-name="MHPA_2"
+      data-testid="app-nexus-wrapper"
+      id="apn-ad-slot-mhpa-2-16-mobile"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should not render authors teasers below article content (no authors) 1`] = `
+<div>
+  <div
+    class="article-detail"
+    data-testid="articlepage-wrapper"
+    id="article-body-undefined"
+  >
+    <div>
+      <div
+        class="ad-wrapper ad-wrapper-top HiddenForDesktop"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="AdSlot MMR1"
+            data-device-type="mobile"
+            data-slot-name="MMR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mmr-1-mobile"
+          />
+        </div>
+      </div>
+      <div
+        class="article-header ArticleHeader"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div
+        class="article-body BodyWrapper"
+      >
+        <div
+          data-testid="articlepage-paragraphs"
+        >
+          <div
+            class="ParagraphsRendererContainer"
+            data-testid="paragraphsrenderer-container"
+          >
+            <div
+              class=""
+            >
+              <div
+                id="179229"
+              >
+                <div
+                  class="Section SectionTextParagraph"
+                >
+                  <div
+                    class="Paragraphs Container"
+                  >
+                    <div
+                      class="Row"
+                      data-testid="paragraph-item"
+                    >
+                      <div
+                        class="ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                <strong>
+                                  Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                </strong>
+                              </p>
+                              
+
+
+                              <p>
+                                Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                <strong>
+                                  Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                </strong>
+                                Prinzessin Diana 
+                                <span
+                                  style="font-size: 1em;"
+                                >
+                                  erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                  <strong>
+                                    Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                  </strong>
+                                   Die Fotos aus dem Spital gingen um die Welt.
+                                </span>
+                              </p>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-mobile"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="MHPA2"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot MHPA2"
+                            data-device-type="mobile"
+                            data-slot-name="MHPA_2"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-mhpa-2-11-mobile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-tabletDesktop"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="WB2-MR"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot WB2-MR"
+                            data-device-type="tabletDesktop"
+                            data-slot-name="WB_2-MR"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-wb-2-mr-12-tabletDesktop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+      >
+        <section
+          class="Wrapper GooglePreferredSource"
+        >
+          <button
+            class="Button ClickEffect Secondary Small"
+            tabindex="0"
+            type="submit"
+          >
+            <span>
+              <div
+                class="Icon"
+                type="icons/type/google-preferred-source"
+              />
+              <span
+                class="Content"
+              >
+                Bevorzugte Quelle
+              </span>
+            </span>
+          </button>
+          <button
+            class="Button ClickEffect Tertiary Small"
+            tabindex="0"
+          >
+            <span>
+              <span
+                class="Content"
+              >
+                So funktioniert's
+              </span>
+            </span>
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="smooth-scroll-factory-wrapper"
+    id="comments"
+  />
+  <div
+    class="ad-wrapper ad-wrapper-mobile"
+  >
+    <div
+      class="AdSlot MHPA2"
+      data-device-type="mobile"
+      data-slot-name="MHPA_2"
+      data-testid="app-nexus-wrapper"
+      id="apn-ad-slot-mhpa-2-13-mobile"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should not render authors teasers below article content (paywall is shown) 1`] = `
+<div>
+  <div
+    class="article-detail"
+    data-testid="articlepage-wrapper"
+    id="article-body-undefined"
+  >
+    <div>
+      <div
+        class="ad-wrapper ad-wrapper-top HiddenForDesktop"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="AdSlot MMR1"
+            data-device-type="mobile"
+            data-slot-name="MMR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mmr-1-mobile"
+          />
+        </div>
+      </div>
+      <div
+        class="article-header ArticleHeader"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div
+        class="article-body BodyWrapper"
+      >
+        <div
+          data-testid="articlepage-paragraphs"
+        >
+          <div
+            class="ParagraphsRendererContainer"
+            data-testid="paragraphsrenderer-container"
+          >
+            <div
+              class="section-1"
+            >
+              <div
+                id="179229"
+              >
+                <div
+                  class="Section SectionTextParagraph"
+                >
+                  <div
+                    class="Paragraphs Container"
+                  >
+                    <div
+                      class="Row"
+                      data-testid="paragraph-item"
+                    >
+                      <div
+                        class="ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                <strong>
+                                  Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                </strong>
+                              </p>
+                              
+
+
+                              <p>
+                                Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                <strong>
+                                  Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                </strong>
+                                Prinzessin Diana 
+                                <span
+                                  style="font-size: 1em;"
+                                >
+                                  erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                  <strong>
+                                    Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                  </strong>
+                                   Die Fotos aus dem Spital gingen um die Welt.
+                                </span>
+                              </p>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-mobile"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="MHPA2"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot MHPA2"
+                            data-device-type="mobile"
+                            data-slot-name="MHPA_2"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-mhpa-2-17-mobile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-tabletDesktop"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="WB2-MR"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot WB2-MR"
+                            data-device-type="tabletDesktop"
+                            data-slot-name="WB_2-MR"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-wb-2-mr-18-tabletDesktop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Paywall paywall-wrapper-with-print-info"
+        >
+          <div
+            class="Container"
+          >
+            <div
+              class="Row"
+            >
+              <div
+                class="Col24"
+              >
+                <div
+                  class="PaywallSkeleton"
+                  id="piano-inlined"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+      >
+        <section
+          class="Wrapper GooglePreferredSource"
+        >
+          <button
+            class="Button ClickEffect Secondary Small"
+            tabindex="0"
+            type="submit"
+          >
+            <span>
+              <div
+                class="Icon"
+                type="icons/type/google-preferred-source"
+              />
+              <span
+                class="Content"
+              >
+                Bevorzugte Quelle
+              </span>
+            </span>
+          </button>
+          <button
+            class="Button ClickEffect Tertiary Small"
+            tabindex="0"
+          >
+            <span>
+              <span
+                class="Content"
+              >
+                So funktioniert's
+              </span>
+            </span>
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="smooth-scroll-factory-wrapper"
+    id="comments"
+  />
+  <div
+    class="ad-wrapper ad-wrapper-mobile"
+  >
+    <div
+      class="AdSlot MHPA2"
+      data-device-type="mobile"
+      data-slot-name="MHPA_2"
+      data-testid="app-nexus-wrapper"
+      id="apn-ad-slot-mhpa-2-19-mobile"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should not render nothing 1`] = `
+<div>
+  <div
+    class="article-detail"
+    data-testid="articlepage-wrapper"
+    id="article-body-undefined"
+  >
+    <div>
+      <div
+        class="ad-wrapper ad-wrapper-top HiddenForDesktop"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="AdSlot MMR1"
+            data-device-type="mobile"
+            data-slot-name="MMR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mmr-1-mobile"
+          />
+        </div>
+      </div>
+      <div
+        class="article-header ArticleHeader"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div
+        class="article-body BodyWrapper"
+      >
+        <div
+          data-testid="articlepage-paragraphs"
+        />
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+      >
+        <section
+          class="Wrapper GooglePreferredSource"
+        >
+          <button
+            class="Button ClickEffect Secondary Small"
+            tabindex="0"
+            type="submit"
+          >
+            <span>
+              <div
+                class="Icon"
+                type="icons/type/google-preferred-source"
+              />
+              <span
+                class="Content"
+              >
+                Bevorzugte Quelle
+              </span>
+            </span>
+          </button>
+          <button
+            class="Button ClickEffect Tertiary Small"
+            tabindex="0"
+          >
+            <span>
+              <span
+                class="Content"
+              >
+                So funktioniert's
+              </span>
+            </span>
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="smooth-scroll-factory-wrapper"
+    id="comments"
+  />
+  <div
+    class="ad-wrapper ad-wrapper-mobile"
+  >
+    <div
+      class="AdSlot MHPA2"
+      data-device-type="mobile"
+      data-slot-name="MHPA_2"
+      data-testid="app-nexus-wrapper"
+      id="apn-ad-slot-mhpa-2-1-mobile"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should render authors teasers below article content 1`] = `
+<div>
+  <div
+    class="article-detail"
+    data-testid="articlepage-wrapper"
+    id="article-body-undefined"
+  >
+    <div>
+      <div
+        class="ad-wrapper ad-wrapper-top HiddenForDesktop"
+      >
+        <div
+          class="Container"
+        >
+          <div
+            class="AdSlot MMR1"
+            data-device-type="mobile"
+            data-slot-name="MMR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mmr-1-mobile"
+          />
+        </div>
+      </div>
+      <div
+        class="article-header ArticleHeader"
+      />
+    </div>
+    <div
+      class="Wrapper"
+    >
+      <div
+        class="article-body BodyWrapper"
+      >
+        <div
+          data-testid="articlepage-paragraphs"
+        >
+          <div
+            class="ParagraphsRendererContainer"
+            data-testid="paragraphsrenderer-container"
+          >
+            <div
+              class=""
+            >
+              <div
+                id="179229"
+              >
+                <div
+                  class="Section SectionTextParagraph"
+                >
+                  <div
+                    class="Paragraphs Container"
+                  >
+                    <div
+                      class="Row"
+                      data-testid="paragraph-item"
+                    >
+                      <div
+                        class="ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+                      >
+                        <div
+                          data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                          id=""
+                        >
+                          <div
+                            class="paragraph text-paragraph RichTextWrapper"
+                            data-testid="textparagraph-outer-div"
+                          >
+                            <div
+                              data-testid="textparagraph-text"
+                            >
+                              <p>
+                                Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                <strong>
+                                  Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                </strong>
+                              </p>
+                              
+
+
+                              <p>
+                                Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                <strong>
+                                  Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                </strong>
+                                Prinzessin Diana 
+                                <span
+                                  style="font-size: 1em;"
+                                >
+                                  erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                  <strong>
+                                    Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                  </strong>
+                                   Die Fotos aus dem Spital gingen um die Welt.
+                                </span>
+                              </p>
+                              
+
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-mobile"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="MHPA2"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot MHPA2"
+                            data-device-type="mobile"
+                            data-slot-name="MHPA_2"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-mhpa-2-8-mobile"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+                <span
+                  class="AdZone HideForPrint"
+                >
+                  <div
+                    class="ad-wrapper AdPadding ad-wrapper-tabletDesktop"
+                  >
+                    <div
+                      class="Container"
+                    >
+                      <div
+                        class="AdWrapper"
+                      >
+                        <div
+                          data-slot="WB2-MR"
+                          data-testid="paragraphsrenderer-ad-wrapper"
+                        >
+                          <div
+                            class="AdSlot WB2-MR"
+                            data-device-type="tabletDesktop"
+                            data-slot-name="WB_2-MR"
+                            data-testid="app-nexus-wrapper"
+                            id="apn-ad-slot-wb-2-mr-9-tabletDesktop"
+                          />
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="Container"
+        data-testid="articlepage-authors-teasers"
+      >
+        <div
+          class="Row"
+        >
+          <div
+            class="ColSm24 ColMd24 ColXl18 ColOffsetXl3"
+          >
+            <div
+              class="AuthorsArticleBox"
+            >
+              <div
+                class="TeaserAuthorWrapper"
+              >
+                <div
+                  class="Box"
+                >
+                  <strong
+                    class="Name"
+                  >
+                    Test Author
+                  </strong>
+                  <span
+                    class="ShortDescriptionWrapper"
+                  >
+                    <span
+                      class="ShortDescription"
+                    >
+                      shorty
+                    </span>
+                    <a
+                      class="Link"
+                      data-testid="routed-link"
+                      href="/unsere-redaktion/test-author"
+                    >
+                      Mehr erfahren
+                    </a>
+                  </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Container"
+  >
+    <div
+      class="Row"
+    >
+      <div
+        class="ColXs24 ColSm22 ColMd17 ColXl14 ColOffsetSm1 ColOffsetMd1 ColOffsetXl5"
+      >
+        <section
+          class="Wrapper GooglePreferredSource"
+        >
+          <button
+            class="Button ClickEffect Secondary Small"
+            tabindex="0"
+            type="submit"
+          >
+            <span>
+              <div
+                class="Icon"
+                type="icons/type/google-preferred-source"
+              />
+              <span
+                class="Content"
+              >
+                Bevorzugte Quelle
+              </span>
+            </span>
+          </button>
+          <button
+            class="Button ClickEffect Tertiary Small"
+            tabindex="0"
+          >
+            <span>
+              <span
+                class="Content"
+              >
+                So funktioniert's
+              </span>
+            </span>
+          </button>
+        </section>
+      </div>
+    </div>
+  </div>
+  <div
+    data-testid="smooth-scroll-factory-wrapper"
+    id="comments"
+  />
+  <div
+    class="ad-wrapper ad-wrapper-mobile"
+  >
+    <div
+      class="AdSlot MHPA2"
+      data-device-type="mobile"
+      data-slot-name="MHPA_2"
+      data-testid="app-nexus-wrapper"
+      id="apn-ad-slot-mhpa-2-10-mobile"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should render piano template if user has no granted piano access 1`] = `
+<div>
+  <div
+    class="article-guide-detail"
+    data-testid="articlepage-guide-wrapper"
+    id="article-body-undefined"
+  >
+    <div
+      data-testid="smooth-scroll-factory-wrapper"
+      id="smoothScrollToTop"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24 ColMd7 ColXl6 HiddenMdDown HideForPrint"
+        >
+          <div
+            data-testid="table-of-contents-wrapper"
+          />
+        </div>
+        <div
+          class="ColXs24 ColMd17 ColXl16 ColOffsetXl2"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+            >
+              <div
+                data-testid="article-head-default-wrapper"
+              >
+                <div
+                  class="AuthorWrapper AuthorWrapperMargin DateWrapper"
+                  data-testid="main-container"
+                >
+                  <div>
+                    <div
+                      data-testid="author-container"
+                    >
+                      <span
+                        class="Author"
+                      >
+                        <div
+                          class="AuthorLink InActiveLink"
+                          data-testid="empty-link"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Mocked Author
+                          </span>
+                        </div>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                        , 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/tina-steinauer"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Tina Steinauer
+                          </span>
+                        </a>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                         und 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/test-author"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Test Author
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                    <span
+                      class="Dates"
+                      data-testid="dates-wrapper"
+                    >
+                      <br />
+                      <span
+                        class="PublicationDate"
+                        data-testid="publication-date-wrapper"
+                      >
+                        <span
+                          data-testid="publication-date-label"
+                        >
+                          Veröffentlicht 
+                        </span>
+                        am 6. Januar 2021 - 08:32 Uhr
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ColXs24 HiddenMdUp HideForPrint"
+            >
+              <div
+                data-testid="table-of-contents-wrapper"
+              />
+            </div>
+          </div>
+          <div
+            data-testid="articlepage-paragraphs"
+          >
+            <div
+              class="Row"
+            >
+              <div
+                class="ColXs24"
+              >
+                <div
+                  class="ParagraphsRendererContainer"
+                  data-testid="paragraphsrenderer-container"
+                >
+                  <div
+                    class="section-1"
+                  >
+                    <div
+                      id="179229"
+                    >
+                      <div
+                        class="Section SectionTextParagraph"
+                      >
+                        <div
+                          class="Paragraphs ContainerInner"
+                        >
+                          <div
+                            class="Row"
+                            data-testid="paragraph-item"
+                          >
+                            <div
+                              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+                            >
+                              <div
+                                data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                                id="articleheader"
+                              >
+                                <div
+                                  class="paragraph text-paragraph RichTextWrapper"
+                                  data-testid="textparagraph-outer-div"
+                                >
+                                  <div
+                                    class="Header"
+                                    data-testid="textparagraph-header"
+                                  >
+                                    article header
+                                  </div>
+                                  <div
+                                    data-testid="textparagraph-text"
+                                  >
+                                    <p>
+                                      Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                      <strong>
+                                        Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                      </strong>
+                                    </p>
+                                    
+
+
+                                    <p>
+                                      Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                      <strong>
+                                        Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                      </strong>
+                                      Prinzessin Diana 
+                                      <span
+                                        style="font-size: 1em;"
+                                      >
+                                        erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                        <strong>
+                                          Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                        </strong>
+                                         Die Fotos aus dem Spital gingen um die Welt.
+                                      </span>
+                                    </p>
+                                    
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Paywall paywall-wrapper-with-print-info"
+                >
+                  <div
+                    class="Row"
+                  >
+                    <div
+                      class="Col24"
+                    >
+                      <div
+                        class="PaywallSkeleton"
+                      >
+                        <div
+                          data-testid="smooth-scroll-factory-wrapper"
+                          id="piano-inlined"
+                        />
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ButtonWrapper ScrollToTopFadeOut"
+      >
+        <a
+          aria-label="Nach oben"
+          class="ButtonToTop"
+          href="#smoothScrollToTop"
+        >
+          <i
+            class="Icon IconChevronUp IconStyles"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should render piano template if user has no subscription 1`] = `
+<div>
+  <div
+    class="article-guide-detail"
+    data-testid="articlepage-guide-wrapper"
+    id="article-body-undefined"
+  >
+    <div
+      data-testid="smooth-scroll-factory-wrapper"
+      id="smoothScrollToTop"
+    />
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24 ColMd7 ColXl6 HiddenMdDown HideForPrint"
+        >
+          <div
+            data-testid="table-of-contents-wrapper"
+          />
+        </div>
+        <div
+          class="ColXs24 ColMd17 ColXl16 ColOffsetXl2"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+            >
+              <div
+                data-testid="article-head-default-wrapper"
+              >
+                <div
+                  class="AuthorWrapper AuthorWrapperMargin DateWrapper"
+                  data-testid="main-container"
+                >
+                  <div>
+                    <div
+                      data-testid="author-container"
+                    >
+                      <span
+                        class="Author"
+                      >
+                        <div
+                          class="AuthorLink InActiveLink"
+                          data-testid="empty-link"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Mocked Author
+                          </span>
+                        </div>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                        , 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/tina-steinauer"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Tina Steinauer
+                          </span>
+                        </a>
+                      </span>
+                      <span
+                        class="Author"
+                      >
+                         und 
+                        <a
+                          class="AuthorLink ActiveLink"
+                          data-testid="routed-link"
+                          href="/unsere-redaktion/test-author"
+                        >
+                          <span
+                            itemprop="author"
+                          >
+                            Test Author
+                          </span>
+                        </a>
+                      </span>
+                    </div>
+                    <span
+                      class="Dates"
+                      data-testid="dates-wrapper"
+                    >
+                      <br />
+                      <span
+                        class="PublicationDate"
+                        data-testid="publication-date-wrapper"
+                      >
+                        <span
+                          data-testid="publication-date-label"
+                        >
+                          Veröffentlicht 
+                        </span>
+                        am 6. Januar 2021 - 08:32 Uhr
+                      </span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div
+              class="ColXs24 HiddenMdUp HideForPrint"
+            >
+              <div
+                data-testid="table-of-contents-wrapper"
+              />
+            </div>
+          </div>
+          <div
+            data-testid="articlepage-paragraphs"
+          >
+            <div
+              class="Row"
+            >
+              <div
+                class="ColXs24"
+              >
+                <div
+                  class="ParagraphsRendererContainer"
+                  data-testid="paragraphsrenderer-container"
+                >
+                  <div
+                    class=""
+                  >
+                    <div
+                      id="179229"
+                    >
+                      <div
+                        class="Section SectionTextParagraph"
+                      >
+                        <div
+                          class="Paragraphs ContainerInner"
+                        >
+                          <div
+                            class="Row"
+                            data-testid="paragraph-item"
+                          >
+                            <div
+                              class="ColXs24 ColSm20 ColOffsetSm2 ColOffsetMd0 ColMd24 ColXl21"
+                            >
+                              <div
+                                data-testid="paragraphsrenderer-text-paragraph-wrapper"
+                                id="articleheader"
+                              >
+                                <div
+                                  class="paragraph text-paragraph RichTextWrapper"
+                                  data-testid="textparagraph-outer-div"
+                                >
+                                  <div
+                                    class="Header"
+                                    data-testid="textparagraph-header"
+                                  >
+                                    article header
+                                  </div>
+                                  <div
+                                    data-testid="textparagraph-text"
+                                  >
+                                    <p>
+                                      Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. 
+                                      <strong>
+                                        Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.
+                                      </strong>
+                                    </p>
+                                    
+
+
+                                    <p>
+                                      Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. 
+                                      <strong>
+                                        Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. 
+                                      </strong>
+                                      Prinzessin Diana 
+                                      <span
+                                        style="font-size: 1em;"
+                                      >
+                                        erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. 
+                                        <strong>
+                                          Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.
+                                        </strong>
+                                         Die Fotos aus dem Spital gingen um die Welt.
+                                      </span>
+                                    </p>
+                                    
+
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div
+        class="ButtonWrapper ScrollToTopFadeOut"
+      >
+        <a
+          aria-label="Nach oben"
+          class="ButtonToTop"
+          href="#smoothScrollToTop"
+        >
+          <i
+            class="Icon IconChevronUp IconStyles"
+          />
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+`;

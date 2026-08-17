@@ -1,0 +1,54 @@
+{
+  "component": "tabs",
+  "node": {
+    "__typename": "ContentBox",
+    "id": "bm9kZTo1MDMwNg==",
+    "title": "Content Box With Tabs",
+    "contentSourceValue": "tabs",
+    "linkLabel": null,
+    "body": [
+      {
+        "__typename": "TabParagraph",
+        "id": "cGFyYWdyYXBoOnRhYjoyMTU5NTY6Mjk1ODEz",
+        "title": "Most Read",
+        "style": "numbered_list",
+        "sortBy": "most_read",
+        "linkLabel": null,
+        "mode": "automatic",
+        "termReference": null
+      },
+      {
+        "__typename": "TabParagraph",
+        "id": "cGFyYWdyYXBoOnRhYjoyMTU5NTc6Mjk1ODA4",
+        "title": "News",
+        "style": "default",
+        "sortBy": "newest",
+        "linkLabel": "Alle News",
+        "mode": "automatic",
+        "termReference": {
+          "__typename": "Channel",
+          "id": "dGF4b25vbXlfdGVybTo3NzM4",
+          "tid": "7738",
+          "title": "News",
+          "link": null
+        }
+      },
+      {
+        "__typename": "TabParagraph",
+        "id": "cGFyYWdyYXBoOnRhYjoyMTU5NTg6Mjk1ODA5",
+        "title": "Alle",
+        "style": "numbered_list",
+        "sortBy": "newest",
+        "linkLabel": null,
+        "mode": "automatic",
+        "termReference": null
+      }
+    ],
+    "termReference": null,
+    "useNativeAdvertising": false,
+    "items": {
+      "__typename": "NodeInterfaceConnection",
+      "edges": []
+    }
+  }
+}

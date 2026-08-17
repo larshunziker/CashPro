@@ -1,0 +1,69 @@
+.Wrapper {
+  margin-bottom: $margin40;
+  overflow: hidden;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+
+.HeaderBackground {
+  background: $purpleLight;
+  margin-bottom: $margin32;
+  padding-bottom: 32px;
+  padding-top: 32px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+    padding-bottom: 40px;
+    padding-top: 40px;
+  }
+}
+
+.BrandReportLogoWrapper {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.BrandReport {
+  background-color: $purple;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.16rem;
+  padding: 2px 8px;
+}
+
+.HeaderDescription {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+  margin: 0 auto;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.6rem;
+  }
+}

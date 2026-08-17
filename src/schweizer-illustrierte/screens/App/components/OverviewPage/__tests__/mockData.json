@@ -1,0 +1,516 @@
+{
+  "id": "dGF4b25vbXlfdGVybTo1NTk5",
+  "label": "Royals",
+  "preferredUri": "/dossier/royals",
+  "settings": {
+    "channel": {
+      "id": "test1234",
+      "title": "People",
+      "__typename": "Channel"
+    },
+    "mainChannel": {
+      "title": "People",
+      "__typename": "Channel"
+    },
+    "title": "👑 Die Royals 👑",
+    "lead": "Alles über die Königshäuser Europas.",
+    "headerLayout": "dossier",
+    "headerImage": {
+      "file": {
+        "alt": "Engländer",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/british_royals.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "teaserGridLayout": "mixed",
+    "hasHeroTeaser": true,
+    "__typename": "TermSettings"
+  },
+  "entities": {
+    "count": 25,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTI5OA==",
+          "title": "So kommen wir cool durch die Hundstage",
+          "preferredUri": "/style/so-kommen-wir-cool-durch-die-hundstage",
+          "shortTitle": "Jetzt gehts in die heisse Phase",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Es Glassee",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/gettyimages-602981803.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0NQ==",
+          "title": "Susanne Kunz: «Ich habe keine Pflaster in der Handtasche»",
+          "preferredUri": "/people/susanne-kunz-ich-habe-keine-pflaster-der-handtasche",
+          "shortTitle": "Die SRF-Moderatorin ist als Mutter nicht perfekt",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/5805491-1.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0Mw==",
+          "title": "Meghans Vater erzürnt Königshaus mit Interview über Harry",
+          "preferredUri": "/people/meghans-vater-erzurnt-konigshaus-mit-interview-uber-harry",
+          "shortTitle": "Er plaudert über Brexit und Trump",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "öööö",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/974131486.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0Mg==",
+          "title": "Die Königsfamilie muss auf eine grosse Stütze verzichten",
+          "preferredUri": "/people/die-konigsfamilie-muss-auf-eine-grosse-stutze-verzichten",
+          "shortTitle": "Traurige Nachrichten aus Schweden",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-gettyimages-476999360.jpg.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0MQ==",
+          "title": "Prinzessinnen Beatrice und Eugenie im seltenen Interview",
+          "preferredUri": "/people/prinzessinnen-beatrice-und-eugenie-im-seltenen-interview",
+          "shortTitle": "So schwer fällt ihnen das Leben als Royals",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/duk10099531_007.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTM0MA==",
+          "title": "Letizia und Sofia von Spanien sind plötzlich beste Freundinnen",
+          "preferredUri": "/people/letizia-und-sofia-von-spanien-sind-plotzlich-beste-freundinnen",
+          "shortTitle": "Nach fiesem Königinnen-Knatsch",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-duk10098981_011.jpg.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzOQ==",
+          "title": "Marius Borg Høiby versteckt seine Freundin nicht mehr",
+          "preferredUri": "/people/marius-borg-hoiby-versteckt-seine-freundin-nicht-mehr",
+          "shortTitle": "Mette-Marits Sohn ist total verliebt",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/37404543_1721783644542925_7102886364298870784_n.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzOA==",
+          "title": "Doch noch Familienferien für Spaniens Prinzessinnen",
+          "preferredUri": "/people/doch-noch-familienferien-fur-spaniens-prinzessinnen",
+          "shortTitle": "Königlicher Besuch auf Mallorca",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/duk10099569_085.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNw==",
+          "title": "Übler Streit um Prinzessin Eugenies Hochzeit",
+          "preferredUri": "/people/ubler-streit-um-prinzessin-eugenies-hochzeit",
+          "shortTitle": "Fieser Artikel erzürnt Sarah Ferguson",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-690956966.jpg.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNg==",
+          "title": "Die Nannys im royalen Dienst",
+          "preferredUri": "/people/die-nannys-im-royalen-dienst",
+          "shortTitle": "Ein 24-Stunden-Job für den königlichen Nachwuchs",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/danapress-01436136.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNQ==",
+          "title": "Meghans Halbschwester will zu «Big Brother»",
+          "preferredUri": "/people/meghans-halbschwester-will-zu-big-brother",
+          "shortTitle": "Samantha Grant schon bald im britischen Fernsehen?",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/996327858.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTMzNA==",
+          "title": "Prinz Harry kümmert sich um Dianas Herzensprojekt",
+          "preferredUri": "/people/prinz-harry-kummert-sich-um-dianas-herzensprojekt",
+          "shortTitle": "Kampf gegen HIV",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "a",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-gettyimages-111145872.jpg.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Nw==",
+          "title": "«Ich geniesse es, mal nicht zu frieren»",
+          "preferredUri": "/sports/ich-geniesse-es-mal-nicht-zu-frieren",
+          "shortTitle": "Mit Wendy Holdener in den Ferien",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Wendy Holdener im Wasser",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/_DSC9765.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Ng==",
+          "title": "Der wohl knappste Bikini-Trend 2018",
+          "preferredUri": "/style/der-wohl-knappste-bikini-trend-2018",
+          "shortTitle": "Die Strand-Tangas sind zurück",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Sexy Bikini Trend",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/bildschirmfoto-2018-07-04-um-14.15.37.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4NA==",
+          "title": "Heidi Klum zeigt ganz New York, was sie zu bieten hat (video)",
+          "preferredUri": "/people/heidi-klum-zeigt-ganz-new-york-was-sie-zu-bieten-hat-video",
+          "shortTitle": "Nackt, nackter, Heidi",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Table",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/april_2017.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI4Mw==",
+          "title": "Kaffee ist ungesund",
+          "preferredUri": "/sports/kaffee-ist-ungesund",
+          "shortTitle": "Article with Square Hero Image",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "test",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/Advertorials_.jpeg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI1NQ==",
+          "title": "Darum sind Mules die Trendschuhe für den Sommer 12345",
+          "preferredUri": "/style/darum-sind-mules-die-trendschuhe-fur-den-sommer-12345",
+          "shortTitle": "Tauglich für Büro und Apéro 12345",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Schöni Schüeli",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/mules.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTIzMg==",
+          "title": "«Ich habe nicht wirklich das Gefühl, viel erreicht zu haben»",
+          "preferredUri": "/people/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+          "shortTitle": "Carla Bruni",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Krankheiten / Symptome",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/media/field_image/2018-07/Fallback_Krankheiten_Symptome.png",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      },
+      {
+        "node": {
+          "id": "bm9kZToxOTI5Nw==",
+          "title": "Meghans Bruder fleht Queen an: «Lasst sie nicht sterben!»",
+          "preferredUri": "/people/meghans-bruder-fleht-queen-lasst-sie-nicht-sterben",
+          "shortTitle": "Prinz Harrys Frau unter Dauerbeschuss",
+          "__typename": "Article",
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Meghan Markle hat keine ruhige Minute mehr, seit sich ihre Familie an die Medien gewandt hat.",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/web-meghan_markle_traurig1.jpg.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "activeMenuTrail": {
+    "0": {
+      "node": {
+        "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+        "label": "People",
+        "link": "/people",
+        "__typename": "ActiveMenuTrailItem"
+      },
+      "__typename": "ActiveMenuTrailItemEdge"
+    },
+    "1": {
+      "node": {
+        "id": "bWVudV9saW5rX2NvbnRlbnQ6WVRKV05XUXlPWGxhUXpBeFRsUnJOVEUwTlRFek9BPT0=",
+        "label": "Royals",
+        "link": null,
+        "__typename": "ActiveMenuTrailItem"
+      },
+      "__typename": "ActiveMenuTrailItemEdge"
+    },
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "__typename": "Keyword"
+}

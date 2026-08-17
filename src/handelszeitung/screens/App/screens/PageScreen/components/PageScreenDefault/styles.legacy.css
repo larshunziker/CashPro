@@ -1,0 +1,11 @@
+.Wrapper {
+  position: relative;
+}
+
+.Title {
+  composes: Title from 'Article/components/ArticleTitle/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from 'Article/components/ArticleLead/styles.legacy.css';
+}

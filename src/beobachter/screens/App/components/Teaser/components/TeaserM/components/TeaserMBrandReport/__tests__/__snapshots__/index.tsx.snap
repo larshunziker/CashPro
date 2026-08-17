@@ -1,0 +1,100 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserMBrandReport Should render correctly 1`] = `
+<div>
+  <div
+    class="teaser-m-brandreport Wrapper"
+  >
+    <a
+      class="Link"
+      data-testid="routed-link"
+      href="/musterportfolios/borsennews/banken-empfehlen-auch-fur-2022-am-liebsten-aktien"
+    >
+      <div
+        class="InnerWrapper"
+      >
+        <div
+          class="SponsorImageWrapper"
+        >
+          <div
+            class="Wrapper"
+          >
+            <div
+              class="PictureWrapper"
+            >
+              <picture>
+                <img
+                  alt=""
+                  class="ObjectFit ImageAutoWidth IsSameAspectRatio"
+                  height="180"
+                  loading="lazy"
+                  srcset="/sh/180/sites/default/files/2021-10/handelszeitung_fallback.png"
+                />
+              </picture>
+            </div>
+          </div>
+        </div>
+        <div
+          class="Placeholder_320_1x1 Placeholder_760_2x3 Placeholder_960_2x3 Placeholder_1680_1x1 LineHeightReset PictureWrapper"
+        >
+          <picture>
+            <source
+              media="(min-width:1680px)"
+              srcset="/fp/615/615/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+            />
+            <source
+              media="(min-width:960px)"
+              srcset="/fp/420/630/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+            />
+            <source
+              media="(min-width:760px)"
+              srcset="/fp/315/473/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+            />
+            <img
+              alt="Passanten betrachten den Verlauf der Boersenkurse bei der UBS am Dienstag, 9. August 2011 in Zuerich. (KEYSTONE/Alessandro Della Bella)"
+              class="Image Image"
+              height="420"
+              loading="lazy"
+              srcset="/fp/420/420/936/477/sites/default/files/media/field_image/2021-12/schweiz_boerse_zuerich.jpg"
+              width="420"
+            />
+          </picture>
+        </div>
+        <div
+          class="TeaserText"
+        >
+          <div
+            class="BrandReportWrapper"
+          >
+            <span
+              class="BrandReport"
+            >
+              BrandReport
+            </span>
+          </div>
+          <h2
+            class="TeaserTitleWrapper"
+          >
+            <span
+              class="TeaserTitle"
+            >
+              Banken empfehlen auch für 2022 am liebsten Aktien
+            </span>
+          </h2>
+          <div
+            class="AuthorWrapper"
+          >
+            <span>
+              <span>
+                Conny Schmid
+              </span>
+            </span>
+             
+            am 20.12.2021
+          </div>
+        </div>
+      </div>
+    </a>
+  </div>
+</div>
+`;

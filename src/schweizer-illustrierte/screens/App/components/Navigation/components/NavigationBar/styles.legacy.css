@@ -1,0 +1,131 @@
+.Navigation {
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    width: auto;
+  }
+
+  /* the navigation is not in the grid so we have to add this margin on media queries to match designs :-( */
+  @media (min-width: $smBreakpoint) {
+    margin-left: 27px;
+  }
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 45px;
+  }
+}
+
+.List {
+  align-items: center;
+  display: flex;
+  justify-content: space-between;
+
+  @media (width >= 480px) {
+    justify-content: flex-start;
+  }
+}
+
+.ListItem {
+  list-style: none;
+  padding: 7px 0; /* The design says 6px but we need the additional pixel to compensate for the gray border, which is absolutely positioned */
+
+  @media (width >= 480px) {
+    margin-right: 27px;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 22px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-right: 27px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 2rem;
+    line-height: 2rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-right: 45px;
+  }
+
+  &.Active .Link {
+    font-family: $fontBague;
+    font-style: normal;
+    font-weight: 900;
+  }
+}
+
+.Link {
+  color: $black;
+  display: block;
+  font-family: $fontBague;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 1.6rem;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.2rem;
+
+    &::after {
+      bottom: -3px;
+      content: '';
+      height: 1px;
+      left: 0;
+      opacity: 0;
+      position: absolute;
+      right: 0;
+    }
+
+    &:focus {
+      &::after {
+        opacity: 0;
+      }
+    }
+
+    &.Active {
+      font-family: $fontBague;
+      font-style: normal;
+      font-weight: 900;
+    }
+
+    &:hover {
+      &::after {
+        opacity: 1;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+    line-height: 2.5rem;
+
+    &::after {
+      bottom: -6px;
+      height: 2px;
+    }
+  }
+}
+
+.LinkSI {
+  @media (min-width: $smBreakpoint) {
+    &::after {
+      @mixin gradientSiDefault;
+    }
+  }
+}
+
+.LinkSY {
+  @media (min-width: $smBreakpoint) {
+    &::after {
+      background-color: $skinLight;
+    }
+  }
+}

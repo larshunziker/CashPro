@@ -1,0 +1,39 @@
+.Wrapper {
+  left: 0;
+  position: relative;
+  right: 0;
+  top: 0;
+  z-index: calc($zIndex1 + 1);
+}
+
+.ProgressBar {
+  animation: progress-bar-animation 5s forwards ease-in-out;
+  background: $gradientRed;
+  height: 3px;
+  margin-left: 19px;
+  position: absolute;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 4px;
+    margin-left: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 5px;
+  }
+
+  &SY {
+    background: $gradientBlack;
+  }
+}
+
+@keyframes progress-bar-animation {
+  0% {
+    transform: translateX(-100%);
+  }
+
+  100% {
+    transform: translateX(0%);
+  }
+}

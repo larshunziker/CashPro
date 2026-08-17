@@ -1,0 +1,22 @@
+.Skeleton {
+  margin: 0 0 3px;
+  min-height: 17px;
+  width: 50px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 24px;
+  }
+}
+
+.SkeletonSmall {
+  min-height: 17px;
+}
+
+.Value {
+  composes: DataTable from 'typography.legacy.css';
+  color: $blackB;
+
+  &.Highlighted, .Highlighted {
+    font-weight: 700;
+  }
+}

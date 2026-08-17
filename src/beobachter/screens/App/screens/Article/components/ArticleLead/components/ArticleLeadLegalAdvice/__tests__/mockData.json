@@ -1,0 +1,59 @@
+{
+  "article": {
+    "id": "bm9kZToxOTMzNA==",
+    "title": "Ratgeber Artikel",
+    "shortTitle": "Test shorttitle",
+    "channel": {
+      "id": "fjalksdjfölaksjdflöajsdlkfa",
+      "title": "Channel Title"
+    },
+    "metaTitle": "Aktie - Handelszeitung",
+    "metaDescription": "Aktie - Handelszeitung",
+    "metaOgTitle": "Aktie - Handelszeitung",
+    "metaKeywords": "Aktien, Aktiengesellschaft",
+    "metaOgDescription": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "metaCanonicalUrl": "",
+    "changeDate": "2018-08-22T10:26:40",
+    "publicationDate": "2018-07-25T10:00:00",
+    "preferredUri": "/finanzlexikon/aktie",
+    "canonicalUri": "/group/3/content/20476",
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+            "label": "People",
+            "link": "/people",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TXpRd016RTFNamsw",
+            "label": "Artikel",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "sections": [
+      {
+        "body": [
+          {
+            "anchorId": null,
+            "header": "Definition",
+            "Text": "Hello world",
+            "__typename": "TextParagraph"
+          }
+        ],
+        "__typename": "SectionParagraph"
+      }
+    ],
+    "subtypeValue": "comment",
+    "__typename": "Article"
+  }
+}

@@ -1,0 +1,97 @@
+.OuterWrapper {
+  margin-bottom: 30px;
+
+  &.CaptionPlaceholder {
+    margin-bottom: 66px;
+  }
+
+  &.HeroVideoMargin {
+    @media (max-width: $xsBreakpointTo) {
+      margin-bottom: -3px;
+    }
+  }
+}
+
+.Wrapper {
+  @mixin aspectRatio16x9;
+  margin-bottom: $margin4;
+  position: relative;
+}
+
+.Wrapper :global(.vjs-poster) {
+  background-color: $white;
+}
+
+.TitleWrapper {
+  margin-top: 52px;
+  position: relative;
+
+  &::before {
+    background-color: $grayB;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    top: -7px;
+    width: 100%;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 61px;
+
+    &::before {
+      top: -21px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-top: 70px;
+
+    &::before {
+      top: -18px;
+    }
+  }
+}
+
+.HeadingCatch3 {
+  display: inline-block;
+  margin-bottom: $margin4;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 3px;
+  }
+}
+
+.HeadingCatch3SI {
+  composes: HeadingCatch3 from 'typography.legacy.css';
+}
+
+.HeadingCatch3SY {
+  composes: HeadingCatch3SY from 'typographySY.legacy.css';
+}
+
+.Quote {
+  margin-bottom: 11px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.QuoteSI {
+  composes: Quote from 'typography.legacy.css';
+}
+
+.QuoteSY {
+  composes: QuoteSY from 'typographySY.legacy.css';
+}

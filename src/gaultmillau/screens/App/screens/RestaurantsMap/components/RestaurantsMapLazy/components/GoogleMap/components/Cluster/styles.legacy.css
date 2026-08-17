@@ -1,0 +1,19 @@
+.Wrapper {
+  display: block;
+  height: 50px;
+  position: relative;
+  transform: translate(-25px, -25px);
+  width: 50px;
+}
+
+.Cluster {
+  composes: UnstyledButton from 'form.legacy.css';
+  background-color: $neutralA;
+  border-radius: 50%;
+  color: $white;
+  font-family: $fontBagueSansPro;
+  font-size: 2rem;
+  height: 100%;
+  opacity: 0.5;
+  width: 100%;
+}

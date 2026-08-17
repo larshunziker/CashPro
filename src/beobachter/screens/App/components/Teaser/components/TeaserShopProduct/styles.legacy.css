@@ -1,0 +1,390 @@
+/* stylelint-disable */
+/** TODO: remove disable stylelint and do designes with correct stylegide */
+
+.Wrapper {
+  margin-top: 50px;
+  border: 1px solid $greyF;
+  position: relative;
+
+  &.SpecialOfferWrapper {
+    border: 1px solid #7D7B71;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 90px;
+
+    &.SpecialOfferWrapper {
+      top: -40px;
+    }
+  }
+}
+
+.InnerWrapper {
+  align-items: center;
+  background-color: $greyF;
+  color: $grey90;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 220px;
+  padding: 15px 25px;
+  position: relative;
+  text-align: center;
+
+  &.SpecialOfferInnerWrapper {
+    background-color: #7D7B71;
+    color: $white;
+    padding-top: 25px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 65px;
+    padding-top: 55px;
+  }
+}
+
+.SpecialOffer {
+  background-color: #fa6401;
+  border-radius: 5px;
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+  color: $white;
+  display: inline;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  font-weight: bold;
+  line-height: 1;
+  padding: 2px 10px 3px;
+  position: absolute;
+  text-align: center;
+  top: -1px;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.DescriptionWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height .3s ease-in-out, padding .3s ease-in-out;
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+    min-height: 500px;
+    padding: 35px 15px;
+  }
+
+  &.Visible {
+    max-height: 800px;
+  }
+}
+
+.Title {
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+}
+
+.Price {
+  font-family: $fontSpezia;
+  font-size: 6rem;
+  font-weight: 700;
+  margin-bottom: 5px;
+  margin-top: 10px;
+  margin-top: 20px;
+}
+
+.PricePrefix {
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 100;
+  margin-right: 10px;
+  margin-top: 20px;
+  margin-top: 5px;
+}
+
+.ShortTitle{
+  composes: PricePrefix;
+  font-size: 1.2rem;
+  font-weight: 300;
+  margin-right: 0;
+  margin-top: 0;
+}
+
+.InnerWrapper > .Button {
+  cursor: pointer;
+  align-items: center;
+  background-color: $redA;
+  border-color: $redA;
+  border-radius: 25px;
+  color: #ffffff;
+  display: flex;
+  height: 50px;
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 190px;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -25px;
+    left: 50%;
+    margin-left: -95px;
+    margin-top: 0;
+    margin-bottom: 0;
+    position: absolute;
+    z-index: 1;
+  }
+
+  &.Hidden {
+    display: none;
+  }
+}
+
+.ToggleDescription {
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  border-radius: 50%;
+  background-color: $white;
+  border: 1px solid $redA;
+  bottom: -25px;
+  color: $redA;
+  display: flex;
+  font-size: 20px;
+  height: 50px;
+  left: 50%;
+  margin-left: -25px;
+  margin-top: 0;
+  position: absolute;
+  width: 50px;
+
+  &::after {
+    font-family: $fontRaschIcon;
+    content: '\e908';
+  }
+
+  &:hover {
+    border: 1px solid #a20000;
+    color: #a20000;
+  }
+
+  &.Visible {
+    border: 1px solid #a20000;
+    color: #a20000;
+    &::after {
+      content: '\e90d';
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.RichTextWrapper {
+  max-width: 220px;
+
+  ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+
+    li {
+      break-inside: avoid;
+      font-family: $fontSpezia;
+      font-size: 1.2rem;
+      font-weight: bold;
+      line-height: 1;
+      padding-left: 50px;
+      padding: 7px 0 7px 25px;
+      page-break-inside: avoid;
+      position: relative;
+
+      &::before {
+        color: $success;
+        content: '\ea10';
+        display: inline-block;
+        font-family: $fontRaschIcon;
+        left: 7px;
+        position: absolute;
+        top: 7px;
+      }
+    }
+  }
+}
+
+.TeaserImage {
+  max-width: 150px;
+}
+
+.PaymentMethodsWrapper {
+  align-items: center;
+  display: flex;
+  text-align: left;
+  flex-direction: column;
+  max-height: 0;
+  overflow: hidden;
+  margin-top: 15px;
+  transition: max-height .3s ease-in-out, padding .3s ease-in-out;
+
+  &.Visible {
+    border-bottom: 1px solid;
+    border-top: 1px solid;
+    max-height: 800px;
+    padding: 35px 7px;
+
+    .Button {
+      z-index: 1;
+      background-color: rgb(253, 122, 122);
+
+      &.Active {
+        background-color: $redA;
+      }
+    }
+  }
+
+  .FormWrapper {
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    text-align: left;
+    width: 100%;
+  }
+
+  .Button {
+    cursor: pointer;
+    align-items: center;
+    background-color: $redA;
+    border-color: $redA;
+    border-radius: 25px;
+    color: #ffffff;
+    display: flex;
+    height: 50px;
+    justify-content: center;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+    width: 190px;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: -25px;
+      left: 50%;
+      margin-left: -95px;
+      margin-top: 0;
+      margin-bottom: 0;
+      position: absolute;
+      z-index: 0;
+    }
+  }
+}
+
+.Checkbox {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  position: relative;
+
+  > i {
+    padding-left: 5px;
+  }
+
+  > input[type="checkbox"] {
+    appearance: none;
+    background: $transparent;
+    border: 1px solid $black;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    min-width: 24px;
+    outline: 0;
+    padding: 22px 0 0;
+    position: relative;
+    top: 2px;
+    width: 24px;
+
+    &:checked::after {
+      background-color: $black;
+      content: '';
+      display: inline-block;
+      height: 16px;
+      left: 3px;
+      top: 3px;
+      width: 16px;
+      position: absolute;
+    }
+  }
+
+  &.SpecialOfferWrapper {
+    > input[type="checkbox"] {
+      border: 1px solid $white;
+
+      &:checked::after {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+.Radio {
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 10px;
+  position: relative;
+
+  > i {
+    padding-left: 5px;
+  }
+
+  > input[type="radio"] {
+    appearance: none;
+    background: $transparent;
+    border: 1px solid $black;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 24px;
+    margin: 0;
+    outline: 0;
+    padding: 22px 0 0;
+    position: relative;
+    top: 2px;
+    width: 24px;
+
+    &:checked::after {
+      background-color: $black;
+      border-radius: 50%;
+      content: '';
+      display: inline-block;
+      height: 16px;
+      left: 3px;
+      top: 3px;
+      width: 16px;
+      position: absolute;
+    }
+  }
+
+  &.SpecialOfferWrapper {
+    > input[type="radio"] {
+      border: 1px solid $white;
+
+      &:checked::after {
+        background-color: $white;
+      }
+    }
+  }
+}
+
+/* stylelint-enable */

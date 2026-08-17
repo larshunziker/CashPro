@@ -1,0 +1,88 @@
+.Wrapper {
+  background-color: $greyE;
+  padding: 24px 12px;
+}
+
+.WrapperBlick {
+  background-color: $greyE;
+  padding: 5px 12px;
+}
+
+.Link {
+  composes: InfoC from 'typography.legacy.css';
+  color: $secondaryA;
+  font-weight: 700;
+  margin-left: 8px;
+  white-space: nowrap;
+}
+
+.ExternalStyles {
+  a {
+    font-family: $fontGotham;
+    line-height: 18px;
+  }
+
+  & > span {
+    font-family: $fontGotham;
+    font-weight: 400;
+  }
+}
+
+.HzStyles {
+  a {
+    /* stylelint-disable-next-line  */
+    color: #192a6b;
+  }
+}
+
+.BlickStyles {
+  a {
+    /* stylelint-disable-next-line  */
+    color: #e20000;
+  }
+}
+
+.Footer {
+  align-items: flex-end;
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.Chart {
+  background: $white;
+  border: 1px solid $greyC;
+  margin-bottom: 24px;
+}
+
+.BlickChart {
+  background: $white;
+  border: 1px solid $greyC;
+  margin-bottom: 4px;
+}
+
+.Logo {
+  align-items: flex-end;
+  display: flex;
+  gap: 10px;
+  margin-left: auto;
+}
+
+.LogoText {
+  composes: Meta3 from 'typography.legacy.css';
+  color: $primaryA;
+}
+
+.FooterText {
+  composes: InfoC from 'typography.legacy.css';
+  font-weight: 700;
+  margin-bottom: $margin24;
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}

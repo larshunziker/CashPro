@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] SortableHeaders Should render SortableHeaders and change url params on btn click 1`] = `
+<div>
+  <span
+    class="Wrapper"
+    data-testid="sortable-header-btn"
+    role="button"
+    tabindex="-1"
+  >
+    <div>
+      children
+    </div>
+    <div
+      class="TriangleButton IsActive"
+    />
+  </span>
+</div>
+`;
+
+exports[`[Component] SortableHeaders Should render SortableHeaders with active sorting 1`] = `
+<div>
+  <span
+    class="Wrapper"
+    data-testid="sortable-header-btn"
+    role="button"
+    tabindex="-1"
+  >
+    <div>
+      children
+    </div>
+    <div
+      class="TriangleButton IsActive"
+    />
+  </span>
+</div>
+`;
+
+exports[`[Component] SortableHeaders Should render SortableHeaders with inactive sorting 1`] = `
+<div>
+  <div>
+    <div>
+      children
+    </div>
+  </div>
+</div>
+`;

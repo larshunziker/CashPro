@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>beobachter.ch</ShortName>
+    <Description>Wissen, was wichtig ist: Was sind die neusten Abzocker-Tricks? Welchen Firmen und Politikern muss man genau auf die Finger schauen? Hier erfahren Sie es.</Description>
+    <Url type="text/html" method="get" template="https://www.beobachter.ch/suche/{searchTerms}"/>
+</OpenSearchDescription>

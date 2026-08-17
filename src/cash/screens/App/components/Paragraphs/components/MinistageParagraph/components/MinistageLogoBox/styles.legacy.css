@@ -1,0 +1,30 @@
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  word-break: break-word;
+}
+
+.SubTitle {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  word-break: break-word;
+}
+
+.ItemWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    gap: 18px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    gap: 20px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    gap: 24px;
+  }
+}

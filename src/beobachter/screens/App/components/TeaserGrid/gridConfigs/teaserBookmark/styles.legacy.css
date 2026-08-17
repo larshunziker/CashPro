@@ -1,0 +1,19 @@
+.teaserBookmark {
+  margin: $margin48 0;
+
+  .Grid0 {
+    @media (min-width: $mdBreakpoint) {
+      margin-left: 19%;
+      width: 62%;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      margin-left: 17%;
+      width: 66%;
+    }
+
+    .Item {
+      margin-bottom: 24px;
+    }
+  }
+}

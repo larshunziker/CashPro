@@ -1,0 +1,5 @@
+<OpenSearchDescription xmlns="http://a9.com/-/spec/opensearch/1.1/" xmlns:moz="http://www.mozilla.org/2006/browser/search/">
+    <ShortName>cash.ch</ShortName>
+    <Description>Alles über Wirtschaft &amp; Finanzen: cash.ch - die grösste Schweizer Finanzplattform mit News, Börsenkursen und Online Trading zu Top-Konditionen.</Description>
+    <Url type="text/html" method="get" template="https://www.cash.ch/suche/alle/{searchTerms}"/>
+</OpenSearchDescription>

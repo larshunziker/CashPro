@@ -1,0 +1,19 @@
+{
+  "id": "178948",
+  "format": "square",
+  "caption": "Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure error, cum accusamus quae dolor, voluptatibus dolorum illo dolorem animi sunt adipisci, tenetur impedit nam. Omnis.",
+  "image": {
+    "credit": "Adam Smith / Keystone",
+    "file": {
+      "alt": "asian woman walking",
+      "focalPointX": 1000,
+      "focalPointY": 1000,
+      "relativeOriginPath": "/wettbewerbsfahigkeit_2.jpeg",
+      "width": 480,
+      "height": 288,
+      "__typename": "ImageFile"
+    },
+    "__typename": "Image"
+  },
+  "__typename": "ImageParagraph"
+}

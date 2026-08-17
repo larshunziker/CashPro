@@ -1,0 +1,150 @@
+.Wrapper {
+  display: inline-block;
+  line-height: 0;
+  margin-bottom: 19px;
+  margin-left: -$outerGapXs;
+  margin-right: -$outerGapXs;
+  position: relative;
+  width: calc(100% + $outerGapXs * 2);
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 0 $margin32 0;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 43px;
+  }
+
+  &::before {
+    background: $gradientTeaser;
+    bottom: 0;
+    content: '';
+    height: 140px;
+    left: 0;
+    position: absolute;
+    right: 0;
+
+    @media (min-width: $smBreakpoint) {
+      height: 300px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 355px;
+    }
+  }
+
+  &:hover {
+    .Title .TitleInner {
+      box-shadow: $shadowH;
+    }
+  }
+}
+
+.ContentWrapper {
+  bottom: -18px;
+  left: $outerGapXs;
+  max-width: 420px;
+  padding-right: 15px;
+  position: absolute;
+  word-wrap: break-word;
+  z-index: calc($zIndex1 + 1);
+
+
+  @media (min-width: $smBreakpoint) {
+    bottom: -32px;
+    left: 20px;
+    max-width: 573px;
+    padding-right: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: -40px;
+    left: 30px;
+    max-width: 702px;
+  }
+}
+
+.Title {
+  composes: Heading1B from 'typography.legacy.css';
+  display: inline;
+
+  @media (min-width: $smBreakpoint) {
+    line-height: 5.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    line-height: 6.9rem;
+  }
+
+  > .TitleInner {
+    background-color: $redA;
+    box-decoration-break: clone;
+    box-shadow: $shadowG;
+
+    color: $white;
+    padding: 0 6px 2px;
+    transition: box-shadow 0.3s;
+
+    @media (min-width: $smBreakpoint) {
+      padding: 0 10px 2px;
+    }
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch1 from 'typography.legacy.css';
+  padding: 0 6px 5px;
+
+  @media (min-width: $smBreakpoint) {
+    max-width: 225px;
+    padding: 0 10px 5px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 400px;
+  }
+}
+
+.Badge {
+  margin-bottom: 5px;
+  padding-left: 6px;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 10px;
+  }
+}
+
+.IconStyle {
+  color: $white;
+  display: inline-block;
+  font-size: 1.2rem;
+  left: 6px;
+  position: relative;
+  text-shadow: 0 1px 2px rgb(0 0 0 / 50%);
+  top: -5px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.5rem;
+    left: 10px;
+    top: -10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.IconMovieOutlineStyle {
+  composes: IconMovieOutlineStyle from 'App/components/Teaser/styles.legacy.css';
+  font-size: 5rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 8rem;
+  }
+}

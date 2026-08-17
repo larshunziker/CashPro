@@ -1,0 +1,120 @@
+.Wrapper {
+  height: 100%;
+  position: relative;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+}
+
+.MarketTable {
+  overflow: hidden;
+  transition: all 0.3s ease;
+  width: 100%;
+
+  tr {
+    border-bottom: 1px solid $greyD;
+  }
+
+  tr td, tr th {
+    padding: 8px;
+    width: auto;
+  }
+
+  th {
+    white-space: nowrap;
+  }
+
+  .TrendArrow {
+    max-width: 20px;
+    padding: 0 0 0 4px;
+    width: 20px;
+  }
+
+  th.TrendArrow, td.TrendArrow {
+    @media (min-width: $xsBreakpoint) and (max-width: $mdBreakpoint) {
+      display: none;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      display: none;
+    }
+  }
+
+  tr th,tr td.Percentage {
+    font-weight: bold;
+  }
+
+  tr:hover {
+    background-color: $greyD;
+  }
+
+  tr td.Name, tr th.Name {
+    text-align: left;
+    word-break: break-word;
+  }
+
+  tr td {
+    &.Name, &.Price, &.Percentage {
+      p {
+        display: block;
+
+        @media (min-width: $mdBreakpoint) and (max-width: $xlBreakpoint) {
+          display: none;
+        }
+      }
+    }
+  }
+
+  tr td.Price, tr th.Price,
+  tr td.Percentage, tr th.Percentage {
+    text-align: right;
+  }
+
+  p {
+    color: $greyA;
+    font-size: .875rem;
+    font-weight: normal;
+
+    span:not(:last-child) {
+      &::after {
+        content: ' | ';
+      }
+    }
+  }
+}
+
+
+.Skeleton {
+  td {
+    padding: 8px;
+  }
+
+  &:hover {
+    /* stylelint-disable */
+    background-color: $transparent !important;
+    /* stylelint-enable */
+  }
+
+  span {
+    animation: pulsing 1s infinite;
+    background: $greyD;
+    display: block;
+    width: 50px;
+  }
+
+  .Name span {
+    width: 100px;
+  }
+
+  .Price span, .Percentage span {
+    margin: 0;
+    margin-left: auto;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

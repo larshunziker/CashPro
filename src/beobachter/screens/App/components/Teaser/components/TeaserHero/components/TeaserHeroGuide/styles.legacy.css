@@ -1,0 +1,85 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+
+  display: block;
+  min-height: 249px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 412px;
+  }
+}
+
+.ContentWrapper {
+  background-color: $grey90;
+  min-height: 100%;
+  padding: 16px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 32px;
+  }
+}
+
+.Title {
+  composes: TeaserTitleH3White from 'typography.legacy.css';
+  font-family: $fontSpezia;
+  margin-bottom: $margin16;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitle from 'Teaser/components/TeaserHero/components/TeaserHeroDefault/styles.legacy.css';
+  color: $white;
+  font-family: $fontSpezia;
+  line-height: 1.9rem;
+}
+
+.ImageWrapper {
+  height: 249px;
+  position: relative;
+  width: 249px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 249px;
+    min-width: 373px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+    min-width: 423px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-width: 732px;
+  }
+}
+
+.Image {
+  height: auto;
+  width: 100%;
+}

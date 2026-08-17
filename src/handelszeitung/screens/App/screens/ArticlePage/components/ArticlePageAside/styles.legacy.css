@@ -1,0 +1,74 @@
+.Wrapper {
+  @mixin hideforPrint;
+  height: 100%;
+  position: relative;
+
+  @media (min-width: $xlBreakpoint) {
+    max-width: 408px;
+  }
+
+  .ItemWrapperBorder {
+    margin-bottom: $margin16;
+
+    &:first-child {
+      margin-top: 0;
+    }
+  }
+}
+
+.ItemWrapperBorder {
+  border: 1px solid $greyC;
+}
+
+.MostReadBoxWrapper,
+.PianoIntegrationWrapper {
+  margin-bottom: $margin16;
+}
+
+.Sticky {
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    position: sticky;
+    top: 116px;
+  }
+}
+
+@media print {
+  .Wrapper {
+    flex: 0 1 30%;
+    max-width: 30%;
+  }
+
+  .Ad {
+    display: none;
+  }
+
+  .PianoIntegrationWrapper {
+    > div {
+      /* stylelint-disable-next-line declaration-no-important */
+      max-width: 100% !important;
+      /* stylelint-disable-next-line declaration-no-important */
+      min-height: 800px !important;
+
+      > iframe {
+        /* stylelint-disable-next-line declaration-no-important */
+        max-width: 100% !important;
+        /* stylelint-disable-next-line declaration-no-important */
+        min-height: 800px !important;
+      }
+    }
+  }
+
+  .MostReadBoxWrapper {
+    break-inside: avoid;
+  }
+}
+
+.Recommendations {
+  display: none;
+
+  @media (min-width: $mdBreakpoint) {
+    display: block;
+  }
+}

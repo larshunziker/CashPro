@@ -1,0 +1,35 @@
+/* Beats grid column gutter (single-class) without !important */
+.Wrapper.Wrapper {
+  padding: 0;
+}
+
+.TitleWrapper {
+  border-top: 3px solid $black;
+  padding-top: 6px;
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.Icon {
+  max-height: 20px;
+  max-width: 20px;
+}
+
+.Link {
+  composes: NewChannelTitle from 'typography.legacy.css';
+
+  align-items: center;
+  column-gap: $margin8;
+  display: flex;
+}
+
+.Link:hover {
+  color: $black;
+}

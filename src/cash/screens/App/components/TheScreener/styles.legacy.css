@@ -1,0 +1,78 @@
+.Wrapper {
+  background-color: $white;
+}
+
+.Title {
+  color: $blackB;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 22px; 
+  text-transform: uppercase;
+
+  .InfoIcon {
+    color: $secondaryA;
+    margin-left: 6px;
+    position: relative;
+    top: 2px;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 23px;
+    line-height: 35px; 
+  }
+}
+
+.Info {
+  composes: InfoC from 'typography.legacy.css';
+  margin: 8px 0 16px;
+  max-width: 600px;
+}
+
+.Columns {
+  display: flex;
+  flex-direction: column;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+  }
+}
+
+.Footer {
+  composes: InfoC from 'typography.legacy.css';
+  border-top: 1px solid $greyC;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-top: 4px;
+}
+
+.Hide {
+  display: none;
+}
+
+.Skeleton {
+  animation: pulsing 5s infinite;
+  background: linear-gradient(90deg, $greyD, $greyC, $greyD);
+  background-size: 200% 100%;
+  min-height: 500px;
+  width: 100%;
+  z-index: 1000;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 370px;
+  }
+}
+
+.Ministage {
+  margin-top: 16px;
+}
+
+@keyframes pulsing {
+  50% {
+    background-position: 100% 50%;
+  }
+}

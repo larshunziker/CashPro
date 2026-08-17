@@ -1,0 +1,29 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 24px;
+    padding-top: 24px;
+  }
+}
+
+.TitleWrapper {
+  width: 100%;
+}
+
+.Title {
+  composes: RecoVerticalHeader from 'typography.legacy.css';
+
+  &::after {
+    background-color: $redA;
+    content: ' ';
+    display: block;
+    height: 4px;
+    margin: 1px 0 $margin16;
+    width: 80px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-top: 4px;
+    }
+  }
+}

@@ -1,0 +1,74 @@
+.StageWrapper {
+  @mixin aspectRatio16x9;
+
+  /* get rid of the padding on mobile views */
+  padding: 0;
+}
+
+.Heading {
+  composes: ChannelTitleWhite from 'typography.legacy.css';
+  display: block;
+  margin-bottom: $margin16;
+}
+
+.Title {
+  composes: H3White from 'typography.legacy.css';
+  margin-bottom: $margin8;
+}
+
+.ShortTitle {
+  composes: ShortTitleBWhite from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.Items {
+  cursor: pointer;
+}
+
+.DetailWrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.ContentWrapper {
+  color: $white;
+  display: flex;
+  flex-direction: column;
+  margin-top: $margin16;
+  word-break: break-word;
+
+  @media (max-width: $smBreakpointTo) {
+    /* get rid of the padding on mobile views */
+    padding: 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+    max-height: 310px;
+    padding-left: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    max-height: 408px;
+  }
+}
+
+.LeftColWrapper {
+  margin-bottom: $margin24;
+  overflow: hidden;
+  @media (min-width: $mdBreakpoint) {
+    display: flex;
+  }
+}
+
+.RightColWrapper {
+  display: flex;
+  flex-direction: unset;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+}
+
+.IsActive {
+  opacity: 0.4;
+}

@@ -1,0 +1,40 @@
+.NavigationWrapper {
+  background-color: $white;
+  margin-top: 1px;
+  overflow: hidden;
+  position: relative;
+  z-index: $zIndexHeader;
+
+  &::before,
+  &::after {
+    background-color: $grayA;
+    content: '';
+    display: inline-block;
+    height: 1px;
+    left: -50%;
+    position: absolute;
+    width: 200vw;
+  }
+
+  &::after {
+    bottom: 0;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+
+  &::before {
+    bottom: 29px;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+}
+
+.Navigation {
+  align-items: center;
+  display: flex;
+  flex-grow: 1;
+}

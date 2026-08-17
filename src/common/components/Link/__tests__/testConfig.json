@@ -1,0 +1,320 @@
+{
+  "regexTestUrls": [
+    {
+      "CASH": {
+        "locationOrigin": "https://cash.ch",
+        "urls": [
+          {
+            "url": "https://www.cash.ch/news/top-news/bei-diesem-schweizer-automobilzulieferer-hat-financier-martin-ebner-aktien-zugekauft-633414",
+            "textContent": "link to CASH prod"
+          },
+          {
+            "url": "https://stage.cash.ch/news/top-news/die-deutsche-politik-bestimmt-das-kurspotenzial-von-docmorris-625330",
+            "textContent": "link to CASH stage"
+          },
+          {
+            "url": "https://develop.cash.ch/news/borsen-ticker/selenskyj-lage-bleibt-angespannt-die-nacht-im-uberblick-52413",
+            "textContent": "link to CASH dev"
+          },
+          {
+            "url": "https://preview.cash.ch/top-news/insider/steigende-aktienkurse-bei-dunnen-handelsumsatzen-kommt-das-wirklich-gut-633468",
+            "textContent": "link to CASH preview"
+          },
+          {
+            "url": "https://master.cash.ch/news/top-news/erreicht-nvidia-bald-den-borsenwert-von-apple-633235",
+            "textContent": "link to CASH master"
+          },
+          {
+            "url": "https://app.develop.cash.ch/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166",
+            "textContent": "link to CASH app dev"
+          },
+          {
+            "url": "https://app.stage.cash.ch/news/top-news/ems-chemie-frankenstarke-setzt-martullo-blocher-konzern-wohl-weiter-zu-625696",
+            "textContent": "link to CASH app stage"
+          },
+          {
+            "url": "https://app.cash.ch/news/top-news/experten-sehen-gesetzlichen-reformbedarf-nach-dem-cs-untergang-633470",
+            "textContent": "link to CASH app prod"
+          },
+          {
+            "url": "https://forum.cash.ch/forum/board/5493-aktien-schweiz/",
+            "textContent": "link to CASH forum"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "HZ": {
+        "locationOrigin": "https://handelszeitung.ch",
+        "urls": [
+          {
+            "url": "https://www.handelszeitung.ch/unternehmen/nestle-ist-der-weltweit-beste-dividendenzahler-633253",
+            "textContent": "link to HZ prod"
+          },
+          {
+            "url": "https://stage.handelszeitung.ch/unternehmen/migros-lanciert-vier-neue-gastronomie-konzepte-625380",
+            "textContent": "link to HZ stage"
+          },
+          {
+            "url": "https://develop.handelszeitung.ch/geld/test-article-hz-53204",
+            "textContent": "link to HZ dev"
+          },
+          {
+            "url": "https://master.handelszeitung.ch/banking/wie-sauber-ist-der-finanzplatz-liechtenstein-wirklich-632008",
+            "textContent": "link to HZ master"
+          },
+          {
+            "url": "https://app.develop.handelszeitung.ch/geld/test-article-hz-53204",
+            "textContent": "link to HZ app dev"
+          },
+          {
+            "url": "https://app.stage.handelszeitung.ch/unternehmen/migros-lanciert-vier-neue-gastronomie-konzepte-625380",
+            "textContent": "link to HZ app stage"
+          },
+          {
+            "url": "https://app.handelszeitung.ch/konjunktur/spitzenpreise-werden-im-moment-nicht-mehr-erreicht-633155",
+            "textContent": "link to HZ app prod"
+          },
+          {
+            "url": "https://myservices.handelszeitung.ch/subscriptions",
+            "textContent": "link to HZ myServices"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "BEO": {
+        "locationOrigin": "https://beobachter.ch",
+        "urls": [
+          {
+            "url": "https://develop.beobachter.ch/gesetze-recht/test-article-fur-mich-mit-infobox",
+            "textContent": "link to BEO dev"
+          },
+          {
+            "url": "https://stage.beobachter.ch/gesellschaft/eine-hommage-an-lehrerinnen-und-lehrer-621111",
+            "textContent": "link to BEO stage"
+          },
+          {
+            "url": "https://www.beobachter.ch/digital/sicherheit/intrum-daten-von-schuldnern-waren-offen-zuganglich-633464",
+            "textContent": "link to BEO prod"
+          },
+          {
+            "url": "https://preview.beobachter.ch/gesundheit/sexualitat/jeder-sechste-mann-ist-unfruchtbar-625857",
+            "textContent": "link to BEO preview"
+          },
+          {
+            "url": "https://master.beobachter.ch/digital/sicherheit/intrum-daten-von-schuldnern-waren-offen-zuganglich-633464",
+            "textContent": "link to BEO master"
+          },
+          {
+            "url": "https://myservices.beobachter.ch/digital-subscriptions",
+            "textContent": "link to BEO myServices"
+          },
+          {
+            "url": "https://forum.beobachter.ch/user/6362-c-o-r-a/",
+            "textContent": "link to BEO forum"
+          },
+          {
+            "url": "https://shop.beobachter.ch/abonnemente?_gl=1*uyqvhb*_ga*MTA1MjA1NTY0LjE2ODI0Mjc3NTk.*_ga_WFMBJKTFVH*MTY5MzU2ODc5MC4xNS4xLjE2OTM1Njg5MDMuMC4wLjA.",
+            "textContent": "link to BEO shop"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "SI": {
+        "locationOrigin": "https://schweizer-illustrierte.ch",
+        "urls": [
+          {
+            "url": "https://develop.schweizer-illustrierte.ch/specials/traumdestination-karibik/eine-reise-durch-die-farben-26000",
+            "textContent": "link to SI dev"
+          },
+          {
+            "url": "https://stage.schweizer-illustrierte.ch/people/swiss-stars/roger-federer-schwarmt-von-prinzessin-kate-625558",
+            "textContent": "link to SI stage"
+          },
+          {
+            "url": "https://www.schweizer-illustrierte.ch/people/royals/prinz-daniel-gibt-intimste-einblicke-in-sein-privatleben-632742",
+            "textContent": "link to SI prod"
+          },
+          {
+            "url": "https://preview.schweizer-illustrierte.ch/people/royals/verbringen-kates-kinder-zu-viel-zeit-mit-ihrer-familie-633221",
+            "textContent": "link to SI preview"
+          },
+          {
+            "url": "https://master.schweizer-illustrierte.ch/people/swiss-stars/luca-hanni-und-christina-luft-haben-geheiratet-633293",
+            "textContent": "link to SI master"
+          },
+          {
+            "url": "https://myservices.schweizer-illustrierte.ch/subscriptions",
+            "textContent": "link to SI myServices"
+          },
+          {
+            "url": "https://shop.schweizer-illustrierte.ch/abo-print",
+            "textContent": "link to SI shop"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "PME": {
+        "locationOrigin": "https://pme.ch",
+        "urls": [
+          {
+            "url": "https://develop.pme.ch/channel-1/2020/11/26/putzige-hausmittelchen-46362",
+            "textContent": "link to PME dev"
+          },
+          {
+            "url": "https://stage.pme.ch/business/2023/07/17/les-centres-villes-envahis-par-les-cliniques-de-beaute-606426",
+            "textContent": "link to PME stage"
+          },
+          {
+            "url": "https://www.pme.ch/invest/2023/08/29/la-population-active-a-plutot-confiance-dans-les-trois-piliers-632014",
+            "textContent": "link to PME prod"
+          },
+          {
+            "url": "https://preview.pme.ch/invest/2023/08/29/la-population-active-a-plutot-confiance-dans-les-trois-piliers-632014",
+            "textContent": "link to PME preview"
+          },
+          {
+            "url": "https://master.pme.ch/latest-news/2023/09/01/linflation-se-maintient-a-16-en-aout-633423",
+            "textContent": "link to PME master"
+          },
+          {
+            "url": "https://myservices.pme.ch/subscriptions",
+            "textContent": "link to PME myServices"
+          },
+          {
+            "url": "https://boutique.pme.ch/abonnements-papier?promo_name=abobutton&promo_position=header",
+            "textContent": "link to PME Boutique"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "ILE": {
+        "locationOrigin": "https://illustre.ch",
+        "urls": [
+          {
+            "url": "https://develop.illustre.ch/magazine/entre-deux-freres-46231",
+            "textContent": "link to ILE dev"
+          },
+          {
+            "url": "https://stage.illustre.ch/magazine/arnaud-bedat-journaliste-passionnement-623168",
+            "textContent": "link to ILE stage"
+          },
+          {
+            "url": "https://www.illustre.ch/magazine/sous-le-vernis-la-precarite-632866",
+            "textContent": "link to ILE prod"
+          },
+          {
+            "url": "https://preview.illustre.ch/magazine/sous-le-vernis-la-precarite-632866",
+            "textContent": "link to ILE preview"
+          },
+          {
+            "url": "https://master.illustre.ch/magazine/ce-nest-pas-parce-que-je-mhabille-en-rose-que-je-cherche-a-ressembler-a-barbie-632572",
+            "textContent": "link to ILE master"
+          },
+          {
+            "url": "https://myservices.illustre.ch/subscriptions",
+            "textContent": "link to ILE myServices"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "GM": {
+        "locationOrigin": "https://gaultmillau.ch",
+        "urls": [
+          {
+            "url": "https://develop.gaultmillau.ch/pop/zurich/frischeparadies-fisch-ist-king",
+            "textContent": "link to GM dev"
+          },
+          {
+            "url": "https://stage.gaultmillau.ch/starchefs/ceviche-kutteln-und-pasta-im-haus-am-see-622254",
+            "textContent": "link to GM stage"
+          },
+          {
+            "url": "https://www.gaultmillau.ch/starchefs/party-in-der-bar-dj-drinks-mahler-food-632343",
+            "textContent": "link to GM prod"
+          },
+          {
+            "url": "https://preview.gaultmillau.ch/life-style/in-gstaad-ist-der-kase-konig-626889",
+            "textContent": "link to GM preview"
+          },
+          {
+            "url": "https://master.gaultmillau.ch/starchefs/party-in-der-bar-dj-drinks-mahler-food-632343",
+            "textContent": "link to GM master"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    },
+    {
+      "TELE": {
+        "locationOrigin": "https://tele.ch",
+        "urls": [
+          {
+            "url": "https://develop.tele.ch/filme/go-to-hell-52655",
+            "textContent": "link to TELE dev"
+          },
+          {
+            "url": "https://stage.tele.ch/streaming/fokus/das-sind-die-streaming-highlights-der-woche-32-624455",
+            "textContent": "link to TELE stage"
+          },
+          {
+            "url": "https://www.tele.ch/streaming/serien/ein-elternteil-ist-immer-am-set-631952",
+            "textContent": "link to TELE prod"
+          },
+          {
+            "url": "https://preview.tele.ch/streaming/fokus/das-sind-die-streaming-highlights-der-woche-36-632234",
+            "textContent": "link to TELE preview"
+          },
+          {
+            "url": "https://master.tele.ch/streaming/fokus/das-sind-die-streaming-highlights-der-woche-35-630322",
+            "textContent": "link to TELE master"
+          },
+          {
+            "url": "https://myservices.tele.ch/subscriptions",
+            "textContent": "link to TELE myServices"
+          },
+          {
+            "url": "https://shop.tele.ch/abo-print",
+            "textContent": "link to TELE shop"
+          },
+          {
+            "url": "https://some-external-host/path/to/some/page",
+            "textContent": "link to some external host"
+          }
+        ]
+      }
+    }
+  ]
+}

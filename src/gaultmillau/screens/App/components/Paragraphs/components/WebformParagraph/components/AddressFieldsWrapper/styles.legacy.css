@@ -1,0 +1,3 @@
+.Link {
+  composes: FormLabelANeutralD from 'typography.legacy.css';
+}

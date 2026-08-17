@@ -1,0 +1,21 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ArticlePage Should render Source Component for source  correctly 1`] = `<div />`;
+
+exports[`[Component] ArticlePage Should render Source Component for source Beobachter correctly 1`] = `
+<div>
+  <span>
+    , Quelle: Beobachter
+  </span>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should render Source Component for source Schweizer Illustrierte correctly 1`] = `
+<div>
+  <span>
+    , Quelle: Schweizer Illustrierte
+  </span>
+</div>
+`;
+
+exports[`[Component] ArticlePage Should render Source Component for source null correctly 1`] = `<div />`;

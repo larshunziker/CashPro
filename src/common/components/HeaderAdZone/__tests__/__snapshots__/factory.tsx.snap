@@ -1,0 +1,14 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] HeaderAdZone factory Should render no ADs (because of NO_ADS route-vertical) 1`] = `<div />`;
+
+exports[`[Component] HeaderAdZone factory Should return LeaderBoard and MonsterSky 1`] = `
+<div>
+  <span>
+    monstersky
+  </span>
+  <span>
+    leaderboard
+  </span>
+</div>
+`;

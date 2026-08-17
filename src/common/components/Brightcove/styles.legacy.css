@@ -1,0 +1,101 @@
+.Wrapper {
+  color: $white;
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.Loader {
+  display: inline-block;
+  left: 50%;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%) translateX(-50%);
+}
+
+.Player {
+  opacity: 0.01;
+  transition: opacity 0.6s;
+  width: 100%;
+}
+
+.Loaded {
+  > .Player {
+    height: 100%;
+    opacity: 1;
+  }
+}
+
+.ErrorPanel {
+  background-size: cover;
+  height: 100%;
+  position: relative;
+  width: 100%;
+
+  span {
+    background: color($black a(50%));
+    bottom: 0;
+    left: 0;
+    line-height: 4rem;
+    position: absolute;
+    text-align: center;
+    width: 100%;
+  }
+}
+
+/* stylelint-disable */
+
+/* show mute button on BC player */
+:global(.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-volume-panel),
+:global(.video-js.vjs-layout-x-small:not(.vjs-fullscreen) .vjs-mute-control),
+:global(.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-panel),
+:global(.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control),
+:global(.video-js.vjs-layout-medium:not(.vjs-fullscreen) .vjs-volume-panel),
+:global(.video-js.vjs-layout-medium:not(.vjs-fullscreen) .vjs-mute-control),
+:global(.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-mute-control),
+:global(.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-control),
+:global(.video-js.vjs-layout-small:not(.vjs-fullscreen) .vjs-volume-panel) {
+  display: inherit !important;
+}
+
+:global(.vjs-ad-playing .vjs-overlay) {
+  display: inline-block !important;
+}
+
+:global(.vjs-ad-playing .vjs-overlay .video-ad-label) {
+  left: 0;
+  padding: 9px 10px;
+  position: absolute;
+  top: 0;
+}
+
+:global(.custom-interaction-overlay) {
+  height: 100%
+}
+
+:global(.custom-interaction-overlay .custom-interaction-link) {
+  display: block;
+  height: 100%;
+  position: relative;
+}
+
+:global(.vjs-ad-playing .vjs-overlay .video-skip-timer) {
+  background-color: rgba(255, 255, 255, 0.4);
+  border: 1px solid black;
+  bottom: 60px;
+  color: black;
+  height: 26px;
+  padding: 5px 10px;
+  position: absolute;
+  right: 0;
+  transition: background-color 0.3s ease-in;
+}
+
+:global(.vjs-ad-playing .vjs-overlay .video-skip-timer.enabled) {
+  cursor: pointer;
+
+  &:hover {
+    background-color: rgba(255, 255, 255, 1);
+  }
+}
+/* stylelint-enable */

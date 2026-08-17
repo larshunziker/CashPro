@@ -1,0 +1,7 @@
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from '../../../Article/components/ArticleTitle/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}

@@ -1,0 +1,58 @@
+.Wrapper {
+  margin-bottom: $margin40;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 60px;
+  }
+}
+
+.InnerWrapper {
+  position: relative;
+}
+
+.Breadcrumbs {
+  color: $white;
+  opacity: 0.5;
+}
+
+.HeaderBackground {
+  background-color: $transparent;
+  height: 296px;
+  margin-bottom: -296px;
+  z-index: $zIndexBackground;
+
+  @media (min-width: $smBreakpoint) {
+    height: 390px;
+    margin-bottom: -390px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 414px;
+    margin-bottom: -414px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 432px;
+    margin-bottom: -432px;
+  }
+}
+
+.TeaserGridTitle {
+  composes: ChannelTitle from 'typography.legacy.css';
+  padding-bottom: 12px;
+  padding-top: 25px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 30px;
+  }
+}
+
+.SponsorBannerLogo {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  max-height: 87px;
+  max-width: 270px;
+  width: auto;
+}

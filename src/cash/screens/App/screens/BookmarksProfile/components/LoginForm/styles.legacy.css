@@ -1,0 +1,8 @@
+.LoginFormWrapper {
+  width: 100%;
+}
+
+.Message {
+  composes: Paragraph from 'typography.legacy.css';
+
+}

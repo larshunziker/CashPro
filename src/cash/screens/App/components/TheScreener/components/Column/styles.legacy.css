@@ -1,0 +1,64 @@
+.Wrapper {
+  margin-top: 16px;
+  width: 100%;
+}
+
+.Title {
+  align-items: center;
+  color: $blackB;
+  display: flex;
+  font-size: 16px;
+  font-weight: 700;
+  height: 32px;
+  justify-content: center;
+  line-height: 22px; 
+  text-transform: uppercase;
+
+  &.TitlePro {
+    background-color: $decoC;
+  }
+
+  &.TitleContra {
+    background-color: $errorB;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 23px;
+    line-height: 35px; 
+    margin-left: 0;
+  }
+}
+
+.Icon {
+  font-size: 28px;
+
+  &.IconPro {
+    color: $positiveA;
+  }
+
+  &.IconContra {
+    color: $primaryA;
+  }
+}
+
+.Rows {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 24px 0;
+
+  @media (min-width: $mdBreakpoint) {
+    gap: 24px;
+    padding: 40px 0;
+  }
+}
+
+.Row {
+  @mixin DataTable;
+  display: flex;
+  gap: 8px;
+
+  @media (min-width: $smBreakpoint) {
+    gap: 16px;
+  }
+}

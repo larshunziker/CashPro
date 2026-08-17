@@ -1,0 +1,35 @@
+.Container {
+  @mixin hideforPrint;
+  position: relative;
+}
+
+.AdWrapper {
+  @mixin hideforPrint;
+  position: absolute;
+  right: -24px;
+  width: 0;
+}
+
+.Ad {
+  background-color: $transparent;
+  display: inline-block;
+  position: fixed;
+  top: 165px;
+  transition: top 0.3s ease;
+
+  /* monstersky should be under piano overlay */
+  z-index: calc($zIndexPianoOverlay - 1);
+}
+
+:global(#sitebar_container) { /* stylelint-disable-line */
+  @mixin hideforPrint;
+}
+
+.Sticky {
+  position: fixed;
+  top: 82px;
+
+  .ArticleAdSky & {
+    top: 122px;
+  }
+}

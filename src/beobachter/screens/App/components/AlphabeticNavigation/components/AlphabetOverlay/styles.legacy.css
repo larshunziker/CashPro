@@ -1,0 +1,70 @@
+.Wrapper {
+  &::before {
+    content: '';
+    opacity: 0;
+  }
+
+  &:has(.MobileMenuOpen) {
+    &::before {
+      background: $blackAlpha5;
+      height: 100vh;
+      inset: 0;
+      opacity: 1;
+      position: absolute;
+      transition: opacity 300ms ease-in-out;
+      z-index: calc($zIndexHighest + 2);
+    }
+  }
+
+  .MobileMenu {
+    background-color: $white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    bottom: -200vh;
+    display: flex;
+    filter: drop-shadow(0 0 2px rgb(0 0 0 / 25%));
+    flex-direction: column;
+    font-weight: bold;
+    justify-content: center;
+    padding: $margin24 $margin16;
+    position: fixed;
+    transition: bottom 300ms ease-in-out;
+    z-index: calc($zIndexHighest + 2);
+
+    &.MobileMenuOpen {
+      bottom: 0;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      height: calc(480px + 59px); /* 480px menu height + toggle footer height */
+      overflow: scroll;
+      top: auto;
+    }
+
+    @media (min-width: $smBreakpoint) and (height <= 480px) {
+      display: none; /* do not show menu if screen is to low (landscape mode) */
+    }
+  }
+
+  .MobileMenuInner {
+    margin: 0 auto;
+    padding-bottom: $margin32;
+  }
+
+  .MobileCloseIconWrapper {
+    background: none;
+    border: none;
+    color: $black;
+    cursor: pointer;
+    font-size: 2.8rem;
+    line-height: 1;
+    margin: 0 0 $margin32;
+    outline: none;
+    padding: 0;
+    text-align: right;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+}

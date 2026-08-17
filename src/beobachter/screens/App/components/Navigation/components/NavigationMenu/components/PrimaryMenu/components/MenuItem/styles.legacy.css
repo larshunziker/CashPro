@@ -1,0 +1,53 @@
+.LinkWrapper {
+  align-items: center;
+  display: flex;
+  font-size: 1.7rem;
+  line-height: 2.2rem;
+  padding-right: 46px;
+  transition: opacity 0.3s $navigationTransitionFunction;
+}
+
+.NavLink {
+  border-bottom: 1px solid $grey30;
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 400;
+  width: 100%;
+
+  &:hover {
+    text-decoration-line: underline;
+  }
+}
+
+.NavHeaderLink {
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  line-height: 50px;
+  min-height: 50px;
+
+  &.MagazinTitle {
+    color: $black;
+  }
+
+  &.BeratungTitle {
+    color: $green;
+  }
+
+  &.CommunityTitle {
+    color: $blue;
+  }
+}
+
+.NavHeaderLinkWrapper {
+  padding-bottom: 0;
+  width: 100%;
+}
+
+.ThemeDark {
+  color: $white;
+
+  &:hover {
+    color: $white;
+  }
+}

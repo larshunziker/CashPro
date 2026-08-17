@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ArticlePageAside Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper ColXs24 ColMd9 ColXl8 HideForPrint"
+  >
+    <div
+      data-testid="empty-link"
+    >
+      <div
+        class="ItemWrapperBorder ItemChart"
+      >
+        <div
+          class="Title"
+        >
+          Luft
+        </div>
+        <div
+          class="Wrapper is-in-view"
+        >
+          <div
+            data-component="highchart/linechart"
+            data-testid="mocked-highcharts"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class="ItemWrapperBorder ItemWrapperPadding ItemWrapperPaddingBottom"
+    >
+      <div
+        data-testid="mocked-market-table"
+        fallbacknames="[object Object]"
+        instrumentkeys="1234-255-1,24476758-4-1,11448018-537-333,1222171-4-1,762604-365-333,1234567-255-814,998032-830-814,13242-537-333"
+      />
+    </div>
+    <div
+      class="ad-wrapper ItemWrapperBorder Ad ad-wrapper-tabletDesktop"
+    >
+      <div
+        class="AdSlot side-right_ad1"
+        data-device-type="tabletDesktop"
+        data-slot-name="side-right_ad_1"
+        data-testid="app-nexus-wrapper"
+        id="apn-ad-slot-side-right-ad_1-1-tabletDesktop"
+      />
+    </div>
+    <div
+      class="ad-wrapper ItemWrapperBorder Ad ad-wrapper-mobile"
+    >
+      <div
+        class="AdSlot details_ad1"
+        data-device-type="mobile"
+        data-slot-name="details_ad_1"
+        data-testid="app-nexus-wrapper"
+        id="apn-ad-slot-details-ad_1-2-mobile"
+      />
+    </div>
+    <div
+      class="piano-article-aside PianoIntegrationWrapper"
+    />
+    <div>
+      <div
+        contentboxtitle="EditorialBox"
+        data-testid="mocked-editorial-picks"
+        origin="article-aside"
+        publication="CASH"
+      />
+    </div>
+    <div
+      class="DividendCalendarWrapper"
+    >
+      <div
+        class="Skeleton Skeleton"
+      />
+    </div>
+    <div
+      class="MostReadBoxWrapper Sticky"
+    >
+      <div
+        class="Wrapper"
+      >
+        <span
+          class="Title"
+        >
+          News
+        </span>
+        <div>
+          <div />
+        </div>
+      </div>
+    </div>
+  </div>
+  ,
+</div>
+`;

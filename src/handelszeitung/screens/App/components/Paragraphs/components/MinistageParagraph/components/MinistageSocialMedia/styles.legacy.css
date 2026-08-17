@@ -1,0 +1,111 @@
+.Wrapper {
+  background: $greyE;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+    padding: 0 20px;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 0;
+      padding: 0 24px;
+    }
+  }
+}
+
+.Container {
+  padding: 18px 0 28px;
+
+  &.IsSplittedPageLayout {
+    display: block;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding: 24px 0 40px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    &.IsSplittedPageLayout {
+      display: flex;
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 46px 0 50px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 40px 0 48px;
+  }
+}
+
+.Content {
+  @media (min-width: $mdBreakpoint) {
+    float: left;
+    width: 320px;
+
+    &.IsSplittedPageLayout {
+      width: 50%
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    width: 450px;
+  }
+}
+
+.Headline {
+  color: $greyA;
+  font-family: $fontGotham;
+  font-size: 1.3rem;
+  font-weight: 300;
+  line-height: 3.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.Subhead {
+  @mixin H2;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.7rem;
+    line-height: 4.2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 3.9rem;
+    line-height: 4.6rem;
+  }
+}
+
+.IconWrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  list-style: none;
+  margin-top: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 15px;
+
+    &.IsSplittedPageLayout {
+      width: 50%
+    }
+  }
+
+  li:last-of-type > a {
+    margin-right: 0;
+  }
+}

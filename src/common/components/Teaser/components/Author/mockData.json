@@ -1,0 +1,19 @@
+{
+  "id": "YXV0aG9yOjMyMTI=",
+  "name": "test123",
+  "shortDescription": "Short Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum eu tortor malesuada, eleifend nisi vitae, feugiat nisi. Proin sagittis egestas dui quis accumsan. Curabitur eu porta arcu",
+  "lead": null,
+  "hasProfilePage": true,
+  "preferredUri": "/author/test123",
+  "headline": "Author profession headline",
+  "imageParagraph": {
+    "image": {
+      "file": {
+        "height": 0,
+        "width": 0,
+        "relativeOriginPath": "/media/field_image/2017-03/ruth.jpg"
+      }
+    }
+  },
+  "__typename": "Author"
+}

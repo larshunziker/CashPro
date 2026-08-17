@@ -1,0 +1,37 @@
+{
+  "node": {
+    "__typename": "Article",
+    "id": "bm9kZTozMTYzOTU=",
+    "title": "Gefüllte Calamari mit Auberginenkaviar",
+    "lead": "Das Fischbein nicht vergessen! Andreas zeigt, wie man Calamari rüstet, serviert sie gefüllt und frittiert.",
+    "shortTitle": "Atelier Caminada",
+    "createDate": "2021-04-09T16:23:01",
+    "changeDate": "2021-04-09T16:21:42",
+    "showUpdated": false,
+    "preferredUri": "/atelier-caminada/gefullte-calamari-mit-auberginenkaviar",
+    "subtypeValue": "blog_b",
+    "channel": {
+      "__typename": "Channel",
+      "id": "dGF4b25vbXlfdGVybToxNTAx",
+      "title": "Atelier Caminada"
+    },
+    "hasVideo": true,
+    "teaserImage": {
+      "__typename": "ImageParagraph",
+      "id": "cGFyYWdyYXBoOmltYWdlOm5ldy10RGlsa0VKSDpuZXctaWNsdFp3aEo=",
+      "caption": "<p></p>",
+      "image": {
+        "__typename": "Image",
+        "id": "590852",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "ZmlsZTo1OTIyNjk6OjY0MCwzNjA6bGFyZ2U6",
+          "alt": "Calamari mit Auberginen-Kaviar by Andreas Caminada",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/media/field_image/2021-04/calamari_mit_auberginen-kaviar_by_andreas_caminada.jpg"
+        }
+      }
+    }
+  }
+}

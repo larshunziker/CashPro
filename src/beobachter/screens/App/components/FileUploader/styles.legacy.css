@@ -1,0 +1,101 @@
+.Wrapper {
+  align-items: center;
+  border: 2px dashed $greyB;
+  border-radius: 8px;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  outline: none;
+  padding: 16px 16px 0;
+  position: relative;
+  transition: border .24s ease-in-out;
+}
+
+.WrapperReject {
+  border-color: $redA;
+}
+
+.WrapperActive {
+  border-color: $greyC;
+}
+
+.Title {
+  @mixin FormLabelBigBlackA;
+  display: none;  /* don't display on mobile */
+  margin-bottom: 19px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.Subtitle {
+  @mixin FormLabelSmallBlackA;
+  display: none; /* don't display on mobile */
+  
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.FullSpaceIconWrapper {
+  margin-bottom: $margin24;
+  margin-top: $margin64;
+
+  svg {
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
+
+.UploadIconWrapper {
+  margin-bottom: $margin12;
+  margin-top: $margin24;
+
+  svg {
+    max-height: 100px;
+    max-width: 100px;
+  }
+}
+
+.Info {
+  composes: FormLabelSmallBlackA from 'typography.legacy.css';
+  margin-bottom: $margin96;
+}
+
+.ErrorMessage {
+  composes: FormLabelSmallRedC from 'typography.legacy.css';
+  display: block;
+  margin-left: $margin12;
+  margin-top: $margin4;
+}
+
+.FilesListWrapper {
+  list-style-type: none;
+  margin-bottom: $margin16;
+  width: 100%;
+}
+
+.FilesListWrapperError {
+  margin-bottom: $margin16;
+}
+
+.UploadButtonWrapper {
+  margin-bottom: $margin48;
+
+  button {
+    margin: 0;
+  }
+}
+
+.FileExtensions {
+  @mixin FormLabelSmallBlackA;
+  display: block;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+}
+
+.WrapperAccept {
+  border-color: $greyC;
+}

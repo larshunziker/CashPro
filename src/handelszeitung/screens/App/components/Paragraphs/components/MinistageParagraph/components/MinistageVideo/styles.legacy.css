@@ -1,0 +1,14 @@
+.Wrapper {
+  background-color: $blackB;
+  padding: 24px 0 8px;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+    padding: 20px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+      padding: 24px 20px 8px;
+    }
+  }
+}

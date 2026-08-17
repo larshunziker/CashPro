@@ -1,0 +1,216 @@
+.Wrapper {
+  margin-top: 50px;
+}
+
+.HeaderWrapper {
+  background-color: $white;
+  background-image: linear-gradient(to bottom, $neutralG, $neutralG);
+  font-family: $fontBagueSansPro;
+  font-weight: normal;
+  height: 159px;
+  overflow: hidden;
+  padding: 16px 21px;
+  position: relative;
+}
+
+.HeaderText {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 2.2rem;
+  font-weight: 900;
+  letter-spacing: -0.5;
+  line-height: 1.23;
+  margin-bottom: 10px;
+  position: relative;
+  width: 70%;
+  z-index: 1;
+}
+
+.BodyTextHeaderText {
+  color: $zueriA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.7rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 900;
+  height: 20px;
+  line-height: 1.18;
+  margin-bottom: 5px;
+}
+
+.TeaserImage {
+  bottom: -34px;
+  height: 160px;
+  position: absolute;
+  right: 0;
+  width: auto;
+  z-index: 0;
+}
+
+.BodyTextWrapper {
+  color: $neutralD;
+  font-family: $fontBagueSansProHairline;
+  font-size: 23px;
+  font-weight: 200;
+  line-height: 1.3;
+  padding: 9px 0 0;
+}
+
+.BodyTextAndCta {
+  position: relative;
+}
+
+.ButtonWrapper {
+  composes: ButtonWrapper from 'Paragraphs/components/MinistageParagraph/styles.legacy.css';
+}
+
+.Button {
+  composes: Button from 'Paragraphs/components/MinistageParagraph/styles.legacy.css';
+}
+
+.ButtonLabel {
+  composes: ButtonLabel from 'Paragraphs/components/MinistageParagraph/styles.legacy.css';
+}
+
+.ButtonArrow {
+  composes: ButtonArrow from 'Paragraphs/components/MinistageParagraph/styles.legacy.css';
+}
+
+.OuterContainer {
+  @media (max-width: $smBreakpoint) {
+    width: 100%;
+  }
+}
+
+.InnerContainer {
+  @media (min-width: $smBreakpoint) {
+    width: 100%;
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  .Wrapper {
+    box-shadow: 0 2px 50px 0 rgb(78 78 78 / 30%);
+    margin-bottom: 50px;
+    margin-top: 70px;
+    position: relative;
+  }
+
+  .HeaderWrapper {
+    background-image: none;
+    height: 159px;
+    margin-bottom: 0;
+    overflow: visible;
+    padding: 18px 0 0 33px;
+    position: initial;
+  }
+
+  .BodyTextWrapper {
+    background-color: $neutralG;
+    height: 115px;
+    padding: 19px 0 0 33px;
+  }
+
+  .TeaserImage {
+    bottom: 0;
+    height: auto;
+    right: 10%;
+    width: 250px;
+  }
+
+  .HeaderText {
+    font-family: $fontBagueSansPro;
+    font-size: 3rem;
+    letter-spacing: -0.4px;
+    line-height: 1.07;
+    width: 50%;
+  }
+
+  .BodyTextHeaderText {
+    font-size: 2rem;
+    letter-spacing: -0.7px;
+    line-height: 1.67;
+    margin-bottom: 12px;
+  }
+}
+
+@media (min-width: $mdBreakpoint) {
+  /* 960 - 1199 */
+  .Wrapper {
+    margin-top: 90px;
+  }
+
+  .HeaderWrapper {
+    padding: 22px 0 0 25px;
+  }
+
+  .HeaderText {
+    font-size: 3.9rem;
+    letter-spacing: -0.6px;
+    line-height: 1.15;
+    width: 60%;
+  }
+
+  .BodyTextWrapper {
+    padding: 8px 0 0 28px;
+  }
+
+  .TeaserImage {
+    right: 15%;
+    width: 250px;
+  }
+
+  .BodyTextHeaderText {
+    font-size: 2.4rem;
+    line-height: 1.25;
+    margin-bottom: 17px;
+  }
+
+}
+
+@media (min-width: $xlBreakpoint) {
+  /* 1200 to infinity */
+  .Wrapper {
+    margin-bottom: 54px;
+    margin-top: 100px;
+  }
+
+  .HeaderWrapper {
+    height: 211px;
+    padding: 22px 0 0 23.7px;
+  }
+
+  .HeaderText {
+    font-size: 5.5rem;
+    line-height: 1.05;
+  }
+
+  .BodyTextWrapper {
+    height: 156px;
+    padding: 28.2px 0 0 23.7px;
+  }
+
+  .BodyTextHeaderText {
+    font-size: 3rem;
+    line-height: 1;
+    margin-bottom: 33px;
+  }
+
+  .TeaserImage {
+    right: 10%;
+    width: 335px;
+  }
+
+  .Button {
+    font-size: 2.7rem;
+    height: 93px;
+    line-height: 1.15;
+    padding: 15.3px 20.4px;
+    top: -65px;
+    width: 300px; /* they wanted 265 but it's not enough for the content */
+  }
+
+  .ButtonArrow {
+    font-size: 3rem;
+  }
+}

@@ -1,0 +1,40 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  height: 100%;
+  min-height: 150px;
+  padding: 0 16px;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+  color: $blackB;
+  display: inline-block;
+  margin: $margin8 0 $margin16;
+  text-transform: uppercase;
+  word-break: break-all;
+}
+
+.Divider {
+  position: relative;
+
+  &::before {
+    background-color: $greyD;
+    content: '';
+    display: block;
+    height: 1px;
+    margin: $margin8 0;
+    width: 100%;
+  }
+}
+
+.PublicationDate {
+  span {
+    @mixin Meta3;
+    color: $greyA;
+    font-variant: lining-nums;
+  }
+
+  span:nth-child(2) {
+    margin-left: 2px;
+  }
+}

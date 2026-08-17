@@ -1,0 +1,27 @@
+.Title {
+  composes: H3BSansSerifLight from 'typography.legacy.css';
+
+  align-items: center;
+  color: $black;
+  display: flex;
+  font-size: 1.8rem;
+  line-height: 2.1rem;
+}
+
+.Icon {
+  font-size: 2rem;
+  margin-right: 25px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+  }
+}
+
+.Name {
+  border-bottom: 1px solid transparent;
+  transition: border-color .3s ease-in-out;
+
+  &:hover {
+    border-color: $black;
+  }
+}

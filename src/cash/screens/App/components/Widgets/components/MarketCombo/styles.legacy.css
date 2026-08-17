@@ -1,0 +1,16 @@
+/* eslint-disable */
+
+:root {
+  /* stylelint-disable-next-line sh-waqar/declaration-use-variable */
+  color-scheme: light dark;
+}
+
+.Wrapper {
+  background: transparent;
+  display: flex;
+  gap: 20px;
+  height: 100vh;
+  max-height: 285px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}

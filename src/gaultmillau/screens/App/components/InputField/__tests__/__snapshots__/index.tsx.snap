@@ -1,0 +1,253 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] InputField Should call validate on focusOut and setValues on change - textarea 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <textarea
+      class="Textarea"
+      id="name"
+      name="name"
+      style="min-height: 30px; height: 0px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should call validate on focusOut and setValues on change - textfield 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="textfield"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should display error message 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput HasError"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="text"
+    />
+    <span
+      class="ErrorMessage"
+      data-testid="input-field-error-message"
+    >
+      ERROR
+    </span>
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a checkbox input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      name="name"
+      type="checkbox"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a date input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="date"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a email input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="email"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a hidden input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="hidden"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a number input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="number"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a radio input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="radio"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a textarea input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <textarea
+      class="Textarea"
+      id="name"
+      name="name"
+      placeholder="Test placeholder"
+      style="min-height: 30px;"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render a textfield input field 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="textfield"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render animated label 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <label
+      class="Label"
+      data-testid="input-field-animated-label"
+      for="name"
+    >
+      ANIMATED LABEL
+    </label>
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder=""
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="Test placeholder"
+      type="text"
+    />
+  </div>
+</div>
+`;
+
+exports[`[Component] InputField Should render placeholder instead of error message 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <input
+      class="ContactInput HasError"
+      id="name"
+      maxlength="255"
+      name="name"
+      placeholder="ERROR PLACEHOLDER"
+      type="text"
+    />
+    <span
+      class="ErrorMessage"
+      data-testid="input-field-error-message"
+    >
+      ERROR PLACEHOLDER
+    </span>
+  </div>
+</div>
+`;

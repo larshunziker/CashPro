@@ -1,0 +1,181 @@
+{
+  "data": {
+    "environment": {
+      "__typename": "Environment",
+      "routeByPath": {
+        "__typename": "Route",
+        "canonical": "/group/10/content/245642",
+        "preferred": "/latest",
+        "object": {
+          "__typename": "LandingPage",
+          "id": "bm9kZToyMjQzMzE=",
+          "title": "Latest",
+          "metaTitle": "Aktuelle Neuigkeiten zu People, Family, Style und Body & Health | Handelszeitung",
+          "metaDescription": "Die letzten Meldungen zu Stars, Royals, Fashion, Lifestyle, Family, Body & Health",
+          "metaOgTitle": "Aktuelle Neuigkeiten zu People, Family, Style und Body & Health | Handelszeitung",
+          "metaOgDescription": "Die letzten Meldungen zu Stars, Royals, Fashion, Lifestyle, Family, Body & Health",
+          "metaCanonicalUrl": "",
+          "lead": "Die letzten Meldungen zu Stars, Royals, Fashion, Lifestyle, Family, Body & Health",
+          "preferredUri": "/latest",
+          "channel": null,
+          "createDate": "2019-02-20T09:48:21",
+          "metaKeywords": null
+        }
+      },
+      "globalSearch": {
+        "__typename": "SearchableUnionConnection",
+        "count": 61416,
+        "edges": [
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZToxOTc4OQ==",
+              "preferredUri": "/people/talk-of-the-town/test-beitrag",
+              "title": "Test: Beitrag",
+              "shortTitle": "Test: Beitrag",
+              "hasVideo": false,
+              "publicationDate": "2021-07-28T13:44:03",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo4MTQxMQ==",
+                "title": "Talk of the town",
+                "preferredUri": "/people/talk-of-the-town"
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjE4NjExMzozOTc5MDgw",
+                "image": {
+                  "__typename": "Image",
+                  "id": "43991",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo0NDQ4Mzo6MTUwMCwxMDAxOmxhcmdlOg==",
+                    "alt": "Restaurant Gamper Zürich",
+                    "relativeOriginPath": "/DSC04086.jpg",
+                    "focalPointX": 1500,
+                    "focalPointY": 1001
+                  }
+                }
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "preferredUri": "/people/international-stars/galleries/victorias-secret-model-elsa-hosk-ist-mutter-einer-tochter",
+              "id": "bm9kZTozMTI5ODk=",
+              "title": "Elsa Hosk ist Mutter einer Tochter geworden",
+              "shortTitle": "«Victoria's Secret»-Model",
+              "openInFullscreen": true,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjEyOTg5Mjc6Mzk3OTAwNg==",
+                "image": {
+                  "__typename": "Image",
+                  "id": "372517",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTozNzExNTI6OjQ5MSw0NDg6bGFyZ2U6",
+                    "alt": "Swiss Music Award 2017 mit Gewinnern & Nominierten",
+                    "relativeOriginPath": "/si/gallery/swiss_music_award_2017_anna_kanzig.jpg",
+                    "focalPointX": 491,
+                    "focalPointY": 448
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEyOTkyODk6Mzk3OTAwMA=="
+                }
+              ],
+              "publicationDate": "2021-07-27T18:16:08",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo4MTQxMA==",
+                "title": "International Stars",
+                "preferredUri": "/people/international-stars"
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "ImageGallery",
+              "preferredUri": "/body-health/food/galleries/foodporn-das-beste-vom-besten",
+              "id": "bm9kZTozMTY1NTY=",
+              "title": "Das Beste vom Besten",
+              "shortTitle": "Foodporn",
+              "openInFullscreen": false,
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjEzMTg0NzA6Mzk3NTQzMA==",
+                "image": {
+                  "__typename": "Image",
+                  "id": "591032",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo1OTI0NjU6OjIwMTYsMTUxMjpsYXJnZTo=",
+                    "alt": "gelachsmeierte nudeln",
+                    "relativeOriginPath": "/gelachsmeierte_nudeln.jpg",
+                    "focalPointX": 2016,
+                    "focalPointY": 1512
+                  }
+                }
+              },
+              "body": [
+                {
+                  "__typename": "ImageParagraph",
+                  "id": "cGFyYWdyYXBoOmltYWdlOjEzMTg0NjU6Mzk3NTQyNQ=="
+                }
+              ],
+              "publicationDate": "2021-07-27T16:29:38",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo5NzY2MA==",
+                "title": "Food",
+                "preferredUri": "/body-health/food"
+              }
+            }
+          },
+          {
+            "__typename": "SearchableUnionEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTozMTYyODk=",
+              "preferredUri": "/style/beauty/dieser-rouge-geht-viral",
+              "title": "Dieser Rouge geht viral",
+              "shortTitle": "Frische-Geheimnis der Stars aufgedeckt",
+              "hasVideo": false,
+              "publicationDate": "2021-04-09T18:09:00",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo4MTQyNQ==",
+                "title": "Beauty",
+                "preferredUri": "/style/beauty"
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjEzMTcwMjY6Mzk2ODA4Nw==",
+                "image": {
+                  "__typename": "Image",
+                  "id": "590702",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo1OTIxMTY6OjIyMjYsOTIyOmxhcmdlOg==",
+                    "alt": "LOS ANGELES, CA - SEPTEMBER 17:  Poppy Delevingne attends the 70th Emmy Awards at Microsoft Theater on September 17, 2018 in Los Angeles, California.  (Photo by Axelle/Bauer-Griffin/FilmMagic)",
+                    "relativeOriginPath": "/poppy_delevingne.jpg",
+                    "focalPointX": 2226,
+                    "focalPointY": 922
+                  }
+                }
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

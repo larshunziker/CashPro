@@ -1,0 +1,48 @@
+.entityQueueDefault {
+  .Grid0 {
+    .Item {
+      border-bottom: 1px solid $grey30;
+      margin-bottom: $margin24;
+
+      &:nth-last-child(-n+2) {
+        border-bottom: none;
+      }
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      .Item {
+        margin-bottom: $margin32;
+      }
+    }
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $margin16;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(24, auto);
+      margin-bottom: $margin40;
+
+      .Item {
+        margin-bottom: $margin24;
+
+        &:not(.Item0) {
+          /* noinspection CssUnresolvedCustomProperty */
+          grid-area: calc(var(--item-index) + 1) / 1 / calc(var(--item-index) + 2) / 17;
+        }
+
+        &:last-child {
+          border-left: 1px solid $grey30;
+          grid-area: 2 / 17 / last / 25;
+          margin-left: 12px;
+          padding-left: 28px;
+        }
+      }
+
+      .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    }
+  }
+}

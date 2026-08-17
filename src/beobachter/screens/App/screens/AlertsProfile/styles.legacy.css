@@ -1,0 +1,38 @@
+.AlertsProfileWrapper {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 92px;
+  }
+}
+
+.LoginWrapper {
+  display: flex;
+}
+
+.Title {
+  composes: SubheadXXL from 'typography.legacy.css';
+  margin-bottom: $margin32;
+  text-align: left;
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: center;
+  }
+}
+
+.Description {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  line-height: 2.1rem;
+  margin: 0 0 $margin16 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 0 42px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: center;
+  }
+}

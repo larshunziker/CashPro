@@ -1,0 +1,289 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ArticlePageAside Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+    data-testid="wrapper"
+  >
+    <div
+      class=""
+      id="content-aside-item-0"
+    >
+      <div
+        class="Recommendations"
+      >
+        <div
+          class="Container"
+          data-nosnippet="true"
+        >
+          <div
+            class="Row"
+          >
+            <div
+              class="ColXs24"
+            >
+              <div
+                class="Wrapper"
+              >
+                <div
+                  class="TitleWrapper"
+                >
+                  <div
+                    class="Title"
+                  >
+                    Partner-Inhalte
+                  </div>
+                </div>
+                <div
+                  class="recommendations-container"
+                  data-articleids=""
+                  data-correlationid=""
+                  data-type=""
+                >
+                  <div
+                    class="teaserRecommendations css-teaser-grid"
+                  >
+                    <div
+                      class="Grid0 group-0"
+                    >
+                      <div
+                        class="Item0 Item"
+                        style="--item-index: 0;"
+                      >
+                        <div
+                          class="OuterWrapper"
+                        >
+                          <div
+                            class="teaser-recommendations Wrapper"
+                            data-testid="teaser-factory-anchor-link-wrapper"
+                          >
+                            <section
+                              class="SkeletonWrapper"
+                            >
+                              <div
+                                class="ImageWrapper"
+                              >
+                                <img
+                                  alt=""
+                                  class="SkeletonPlaceholderImage Image teaser-image"
+                                  src="data:image/gif;base64,R0lGODlhFQAOAPAAAPb29gAAACH5BAAAAAAALAAAAAAVAA4AAAIPhI+py+0Po5y02ouz3rYAADs="
+                                />
+                              </div>
+                              <div
+                                class="ContentWrapper SkeletonContentWrapper"
+                              >
+                                <div
+                                  class="ShortTitle SkeletonShortTitle"
+                                >
+                                   
+                                </div>
+                                <div
+                                  class="Title SkeletonTitle"
+                                >
+                                   
+                                </div>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Item1 Item"
+                        style="--item-index: 1;"
+                      >
+                        <div
+                          class="OuterWrapper"
+                        >
+                          <div
+                            class="teaser-recommendations Wrapper"
+                            data-testid="teaser-factory-anchor-link-wrapper"
+                          >
+                            <section
+                              class="SkeletonWrapper"
+                            >
+                              <div
+                                class="ImageWrapper"
+                              >
+                                <img
+                                  alt=""
+                                  class="SkeletonPlaceholderImage Image teaser-image"
+                                  src="data:image/gif;base64,R0lGODlhFQAOAPAAAPb29gAAACH5BAAAAAAALAAAAAAVAA4AAAIPhI+py+0Po5y02ouz3rYAADs="
+                                />
+                              </div>
+                              <div
+                                class="ContentWrapper SkeletonContentWrapper"
+                              >
+                                <div
+                                  class="ShortTitle SkeletonShortTitle"
+                                >
+                                   
+                                </div>
+                                <div
+                                  class="Title SkeletonTitle"
+                                >
+                                   
+                                </div>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                      <div
+                        class="Item2 Item"
+                        style="--item-index: 2;"
+                      >
+                        <div
+                          class="OuterWrapper"
+                        >
+                          <div
+                            class="teaser-recommendations Wrapper"
+                            data-testid="teaser-factory-anchor-link-wrapper"
+                          >
+                            <section
+                              class="SkeletonWrapper"
+                            >
+                              <div
+                                class="ImageWrapper"
+                              >
+                                <img
+                                  alt=""
+                                  class="SkeletonPlaceholderImage Image teaser-image"
+                                  src="data:image/gif;base64,R0lGODlhFQAOAPAAAPb29gAAACH5BAAAAAAALAAAAAAVAA4AAAIPhI+py+0Po5y02ouz3rYAADs="
+                                />
+                              </div>
+                              <div
+                                class="ContentWrapper SkeletonContentWrapper"
+                              >
+                                <div
+                                  class="ShortTitle SkeletonShortTitle"
+                                >
+                                   
+                                </div>
+                                <div
+                                  class="Title SkeletonTitle"
+                                >
+                                   
+                                </div>
+                              </div>
+                            </section>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      id="content-aside-item-1"
+    >
+      <div>
+        <div
+          class="ad-wrapper ItemWrapperBorder Ad ad-wrapper-tabletDesktop"
+        >
+          <div
+            class="AdSlot MR1"
+            data-device-type="tabletDesktop"
+            data-slot-name="MR_1"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mr-1-1-tabletDesktop"
+          />
+        </div>
+        <div
+          class="ad-wrapper ItemWrapperBorder Ad ad-wrapper-mobile"
+        >
+          <div
+            class="AdSlot MHPA2"
+            data-device-type="mobile"
+            data-slot-name="MHPA_2"
+            data-testid="app-nexus-wrapper"
+            id="apn-ad-slot-mhpa-2-2-mobile"
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      class=""
+      id="content-aside-item-2"
+    >
+      <div>
+        <div
+          class="PianoIntegrationWrapper"
+          id="piano-article-aside-1-handelszeitung"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+      id="content-aside-item-3"
+    >
+      <div>
+        <div
+          class="PianoIntegrationWrapper"
+          id="piano-article-aside-2-handelszeitung"
+        />
+      </div>
+    </div>
+    <div
+      class=""
+      id="content-aside-item-4"
+    >
+      <div>
+        <div
+          additionalpublications="BIL,SV,HZB"
+          contentboxtitle="Die Redaktion empfiehlt"
+          data-testid="mocked-editorial-picks"
+          origin="article-aside"
+          publication="HZ"
+        />
+      </div>
+    </div>
+    <div
+      class="Sticky"
+      id="content-aside-item-5"
+    >
+      <div>
+        <div
+          class="MostReadBoxWrapper Sticky"
+        >
+          <div
+            class="Wrapper"
+          >
+            <div
+              class="TabWrapper"
+            >
+              <button
+                class="TabTitleWrapper ActiveTab"
+              >
+                <span
+                  class="TabTitle"
+                >
+                  Meistgelesen
+                </span>
+              </button>
+              <button
+                class="TabTitleWrapper"
+              >
+                <span
+                  class="TabTitle"
+                >
+                  Newsticker
+                </span>
+              </button>
+            </div>
+            <div>
+              <div />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

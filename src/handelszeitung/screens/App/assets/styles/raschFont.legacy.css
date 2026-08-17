@@ -1,0 +1,211 @@
+.Icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  display: inline-block;
+  font-family: $fontRasch !important; /* stylelint-disable-line */
+  font-size: inherit;
+
+  /* Better Font Rendering =========== */
+  -moz-osx-font-smoothing: grayscale; /* stylelint-disable-line */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+}
+
+/* stylelint-disable */
+
+.IconBookmark::before {
+  content: '\65';
+}
+.IconBookmarkSolid::before {
+  content: '\66';
+}
+.IconArrowUpFromSquare::before {
+  content: '\3f';
+}
+.IconUserSolid::before {
+  content: '\37a';
+}
+.IconChevronLeft::before {
+  content: '\21';
+}
+.IconChevronRight::before {
+  content: '\22';
+}
+.IconClock::before {
+  content: '\23';
+}
+.IconXMark::before {
+  content: '\24';
+}
+.IconDocument::before {
+  content: '\26';
+}
+.IconFolder::before {
+  content: '\28';
+}
+.IconHouse::before {
+  content: '\2a';
+}
+.IconEnvelope::before {
+  content: '\2d';
+}
+.IconMenu::before {
+  content: '\2e';
+}
+.IconInboxFull::before {
+  content: '\e933';
+}
+.IconCamera::before {
+  content: '\2f';
+}
+.IconPrint::before {
+  content: '\31';
+}
+.IconArrowRotateRight::before {
+  content: '\32';
+}
+.IconMagnifyingGlass::before {
+  content: '\33';
+}
+.IconGear::before {
+  content: '\35';
+}
+.IconTrash::before {
+  content: '\36';
+}
+.IconUser::before {
+  content: '\37';
+}
+.IconTwitter::before {
+  content: '\3a';
+}
+.IconFacebookF::before {
+  content: '\3d';
+}
+.IconBookmark::before {
+  content: '\65';
+}
+.IconWhatsapp::before {
+  content: '\4e';
+}
+.IconNewspaper::before {
+  content: '\52';
+}
+.IconLocation::before {
+  content: '\62';
+}
+.IconWhistle::before {
+  content: '\73';
+}
+.IconCoins::before {
+  content: '\78';
+}
+.IconServices::before {
+  content: '\e930';
+}
+.IconCart::before {
+  content: '\7b';
+}
+.IconBell::before {
+  content: '\e900';
+}
+.IconBellOn::before {
+  content: '\e919';
+}
+.IconArrowLeft::before {
+  content: '\e901';
+}
+.IconArrowDown::before {
+  content: '\e902';
+}
+.IconArrowRight::before {
+  content: '\e903';
+}
+.IconArrowUp::before {
+  content: '\e904';
+}
+.IconChevronDown::before {
+  content: '\e905';
+}
+.IconChevronUp::before {
+  content: '\e906';
+}
+.IconXing:before {
+  content: "\e909";
+}
+.IconLinkedin:before {
+  content: "\e90c";
+}
+.IconCheck::before {
+  content: '\ea10';
+}
+.IconPlay::before {
+  content: '\42';
+}
+.IconGuider::before {
+  content: '\e90f';
+}
+.IconBookOpen::before {
+  content: '\e910';
+}
+.IconBook::before {
+  content: '\e912';
+}
+.IconInstagram:before {
+  content: "\e913";
+}
+.IconShieldSectionMark::before {
+  content: '\e916';
+}
+.IconLogout {
+  composes: IconArrowUpFromSquare;
+  transform: rotate(90deg);
+}
+.IconCircleExclamation::before {
+  content: '\e91b';
+}
+.IconTriangleExclamation::before {
+  content: '\38';
+}
+.IconCircleCheck::before {
+  content: '\e91d';
+}
+.IconCircleInfo::before {
+  content: '\e91c';
+}
+.IconArrowUpRight::before {
+  content: '\e94b';
+}
+.IconArrowDownRight::before {
+  content: '\e94c';
+}
+.IconArrowRotateLeft::before {
+  content: '\34';
+}
+.IconArrowUpList::before {
+  content: '\e93f';
+}
+.IconArrowDownList::before {
+  content: '\e93e';
+}
+.IconSliders:before {
+  content: "\e948";
+}
+.IconPlusThin::before {
+  content: '\e908';
+}
+.IconMinusThin::before {
+  content: '\e90d';
+}
+.IconGoogleNews::before {
+  content: url("data:image/svg+xml,%3Csvg width='23' height='19' viewBox='0 0 23 19' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20.3807 18.4068C20.3803 18.564 20.3184 18.7147 20.2082 18.8259C20.0982 18.9371 19.9491 18.9997 19.7934 19H3.20516C3.04949 18.9997 2.9003 18.9371 2.79022 18.8259C2.68016 18.7147 2.61818 18.564 2.61788 18.4068V5.73918C2.61821 5.5819 2.68019 5.43123 2.79025 5.32005C2.90031 5.2088 3.0495 5.14624 3.20516 5.14588H19.7933C19.949 5.14624 20.0981 5.2088 20.2082 5.32005C20.3182 5.43123 20.3802 5.5819 20.3806 5.73918L20.3807 18.4068ZM17.4755 15.0962V13.9386C17.4755 13.9283 17.4734 13.9182 17.4695 13.9089C17.4657 13.8994 17.4601 13.8908 17.4529 13.8837C17.4457 13.8764 17.4372 13.8707 17.428 13.8668C17.4186 13.8628 17.4086 13.8609 17.3985 13.8609H12.2498V15.1794H17.3985C17.4088 15.1792 17.4189 15.177 17.4283 15.1728C17.4378 15.1687 17.4463 15.1627 17.4534 15.1552C17.4606 15.1478 17.4663 15.139 17.4701 15.1293C17.4739 15.1197 17.4757 15.1094 17.4755 15.0989L17.4755 15.0962ZM18.2585 12.5912V11.4283C18.2587 11.418 18.2568 11.4079 18.2531 11.3983C18.2494 11.3889 18.2439 11.3802 18.2369 11.3729C18.2299 11.3655 18.2215 11.3596 18.2122 11.3555C18.2029 11.3515 18.1929 11.3494 18.1828 11.3492H12.2497V12.6677H18.1815C18.1914 12.6678 18.2013 12.666 18.2105 12.6623C18.2198 12.6586 18.2282 12.6532 18.2353 12.6462C18.2425 12.6392 18.2483 12.6308 18.2522 12.6216C18.2561 12.6124 18.2584 12.6025 18.2585 12.5925V12.5886V12.5912ZM17.4755 10.0862V8.91799C17.4755 8.9078 17.4734 8.8977 17.4695 8.88823C17.4657 8.87885 17.4601 8.87027 17.4529 8.86303C17.4457 8.85579 17.4372 8.85007 17.428 8.84614C17.4186 8.8423 17.4086 8.84024 17.3985 8.84024H12.2498V10.1587H17.3985C17.4186 10.1585 17.4378 10.1503 17.4521 10.136C17.4664 10.1218 17.4747 10.1025 17.4755 10.0822V10.0862ZM7.80965 11.4796V12.6662H9.50628C9.36669 13.3914 8.73489 13.9174 7.80965 13.9174C6.76447 13.8783 5.94875 12.9906 5.9875 11.9348C6.0243 10.9339 6.81896 10.1312 7.80965 10.094C8.25613 10.0864 8.68756 10.257 9.01036 10.5687L9.9056 9.66562C9.33882 9.12711 8.5876 8.8313 7.80965 8.84024C6.07968 8.84024 4.67736 10.2569 4.67736 12.0045C4.67736 13.752 6.07968 15.1686 7.80965 15.1686C9.61987 15.1686 10.8115 13.8832 10.8115 12.073C10.8105 11.8725 10.7939 11.6723 10.7618 11.4745L7.80965 11.4796ZM2.17541 5.29226C2.17611 5.13516 2.23821 4.98467 2.3482 4.87359C2.45819 4.76242 2.60715 4.69968 2.76268 4.69897H14.4109L13.1946 1.31989C13.1479 1.17583 13.0469 1.05626 12.9135 0.986911C12.7801 0.917564 12.6251 0.90407 12.482 0.949378L0.352152 5.4096C0.21269 5.46769 0.101767 5.57939 0.0437617 5.72005C-0.0142522 5.86071 -0.0145972 6.01889 0.0427975 6.15982L2.17541 12.077V5.29226ZM2.17541 5.29226C2.17611 5.13516 2.23821 4.98467 2.3482 4.87359C2.45819 4.76242 2.60715 4.69968 2.76268 4.69897H14.4109L13.1946 1.31989C13.1479 1.17583 13.0469 1.05626 12.9135 0.986911C12.7801 0.917564 12.6251 0.90407 12.482 0.949378L0.352152 5.4096C0.21269 5.46769 0.101767 5.57939 0.0437617 5.72005C-0.0142522 5.86071 -0.0145972 6.01889 0.0427975 6.15982L2.17541 12.077V5.29226ZM22.5993 4.99164L14.163 2.69888L14.8834 4.69888H20.2344C20.39 4.69923 20.5393 4.76188 20.6493 4.87305C20.7594 4.98422 20.8214 5.13498 20.8216 5.29217V13.8066L22.9752 5.70736C23.0192 5.56214 23.0043 5.40522 22.9338 5.27099C22.8634 5.13677 22.7431 5.03632 22.5993 4.99164ZM18.2911 3.37127V0.588075C18.2904 0.431632 18.2283 0.281864 18.1184 0.171623C18.0085 0.0613735 17.8599 -0.000333605 17.705 2.38564e-05H5.29342C5.21663 -0.000673193 5.14047 0.0139111 5.06925 0.0429459C4.99804 0.0719807 4.9332 0.114903 4.87844 0.169255C4.82359 0.223607 4.77998 0.288325 4.74999 0.359719C4.71991 0.431122 4.70408 0.507789 4.70346 0.585393V3.33177L12.7444 0.37711C12.8882 0.332097 13.0438 0.346511 13.1771 0.41719C13.3104 0.487878 13.4106 0.609075 13.4556 0.754204L13.9776 2.20442L18.2911 3.37127Z' fill='%23292E32'/%3E%3C/svg%3E%0A");
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -1px;  
+}

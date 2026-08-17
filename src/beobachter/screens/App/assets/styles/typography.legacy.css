@@ -1,0 +1,1256 @@
+.AuthorBook {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 1.7rem;
+}
+
+.AuthorExtraBold {
+  composes: AuthorBook;
+  font-weight: 900;
+}
+
+.BreadcrumbDefault {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: normal;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.BreadcrumbActive {
+  composes: BreadcrumbDefault;
+}
+
+.BreadcrumbActiveWhite {
+  composes: BreadcrumbActive;
+  color: $white;
+}
+
+.BreadcrumbDefaultWhite {
+  composes: BreadcrumbDefault;
+  color: $white;
+}
+
+.List {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  font-weight: 200;
+  line-height: 2.8rem;
+}
+
+.ListNumber {
+  composes: List;
+  color: $redA;
+  font-weight: 700;
+}
+
+.ChannelTitle {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+    line-height: 120%;
+  }
+}
+
+.NewChannelTitle {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.88rem;
+  }
+}
+
+.ChannelTitleRed {
+  composes: ChannelTitle;
+  color: $redA;
+}
+
+.ChannelTitleWhite {
+  composes: ChannelTitle;
+  color: $white;
+}
+
+.Comments {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 3rem;
+}
+
+.CommentsLight {
+  composes: Comments;
+  font-weight: 400;
+}
+
+.CommentsStrong {
+  composes: Comments;
+  font-weight: 900;
+}
+
+.FormLabelBigBlackA {
+  @mixin FormLabelBigBlackA;
+}
+
+.FormLabelBigBlackC {
+  @mixin FormLabelBigBlackC;
+}
+
+.FormLabelSmallBlackA {
+  @mixin FormLabelSmallBlackA;
+}
+
+.FormLabelSmallBlackC {
+  @mixin FormLabelSmallBlackC;
+}
+
+.FormLabelSmallRedC {
+  @mixin FormLabelSmallRedC;
+}
+
+.Header {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2.9rem;
+  font-weight: bold;
+  line-height: 3.3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 5.9rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.H1Brandreport {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.9rem;
+    line-height: 3.3rem;
+  }
+}
+
+.H1Black {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 2.5rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+}
+
+.InfoH1Black {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 2.5rem;
+}
+
+.H2SansSerif {
+  @mixin H2SansSerif;
+}
+
+.H2SansSerifCenter {
+  composes: H2SansSerifCenter;
+}
+
+.ImageCaption {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2.4rem;
+}
+
+.ImageCaptionWhite {
+  composes: ImageCaption;
+  color: $white;
+}
+
+.ImagePagination {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+  text-align: right;
+}
+
+.ImagePaginationActive {
+  composes: ImagePagination;
+  color: $redA;
+}
+
+.ImagePaginationDivider {
+  composes: ImagePaginationActive;
+  color: $redA;
+  font-size: 1.8rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+
+.AlphabeticNavigationMobile {
+  color: $greyA;
+  float: initial;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.5rem;
+}
+
+.AlphabeticNavigation {
+  /* no typography text style for mobile overlay */
+  color: $greyA;
+  float: left;
+  font-family: $fontSpezia;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.8rem;
+  }
+}
+
+.InfoboxH2 {
+  @mixin InfoboxH2;
+}
+
+.InfoboxH3 {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: bold;
+  line-height: 2.1rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 120%;
+  }
+}
+
+.InfoboxParagraph {
+  @mixin InfoboxParagraph;
+}
+
+.InfoboxParagraphWhite {
+  @mixin InfoboxParagraphWhite;
+}
+
+.InfoboxParagraphBlackC {
+  @mixin InfoboxParagraphBlackC;
+}
+
+.InfoboxLinkDark {
+  composes: InfoboxParagraph;
+  color: $black;
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+.ListicleTitle {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.88rem;
+  }
+}
+
+.ListicleText {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.8rem;
+    line-height: 2.88rem;
+  }
+}
+
+.Link {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  text-decoration: underline;
+}
+
+.Lead {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 140%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.2rem;
+  }
+}
+
+.Paragraph {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 1.8rem;
+  font-weight: normal;
+  line-height: 2.8rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.2rem;
+  }
+}
+
+.Perlenkette {
+  color: $grey90;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+}
+
+.Perle {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 2rem;
+}
+
+.Publishingdate {
+  color: $greyA;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.7rem;
+}
+
+.Quote {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 3.36rem;
+  text-align: center;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.92rem;
+  }
+}
+
+.QuoteSubheader {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  line-height: 2.24rem;
+  text-align: center;
+}
+
+.Subheader {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.8rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 3.08rem;
+  }
+}
+
+.RecoHeader {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+}
+
+.RecoVerticalHeader {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+
+  @media (min-width: $smBreakpoint) {
+    color: $grey90;
+    font-size: 2.4rem;
+    line-height: 2.6rem;
+  }
+}
+
+.TitleWithLine {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 2.4rem;
+  margin-bottom: 2.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.88rem;
+  }
+
+  &::before {
+    background-color: $black;
+    content: ' ';
+    display: block;
+    height: 3px;
+    margin-bottom: 6px;
+    width: 100%;
+  }
+}
+
+.SpitzmarkeBox {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.3rem;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+  line-height: 1.8rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.8rem;
+  }
+}
+
+.SpitzmarkeVideo {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1rem;
+  font-weight: 900;
+  letter-spacing: 0.54px;
+  line-height: 1.5rem;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.1rem;
+    letter-spacing: 0.59px;
+    line-height: 1.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.3rem;
+    letter-spacing: 0.7px;
+    line-height: 1.6rem;
+    text-align: center;
+  }
+}
+
+.SpitzmarkeMeistgelesen {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.7rem;
+  font-weight: 900;
+  letter-spacing: 0.7px;
+  line-height: 2.8rem;
+}
+
+.SpitzmarkeMeistgelesenSmall {
+  composes: SpitzmarkeMeistgelesen;
+  font-size: 1.2rem;
+  font-weight: bold;
+  line-height: 1.6rem;
+  text-transform: uppercase;
+}
+
+.SpitzmarkeTeaserAdvertorial {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: bold;
+  letter-spacing: 0.7px;
+  line-height: 1.4rem;
+  text-transform: uppercase;
+}
+
+.SpitzmarkeTeaserArticle {
+  composes: SpitzmarkeTeaserAdvertorial;
+  color: $black;
+}
+
+.SpitzmarkeTeaserHero {
+  composes: SpitzmarkeTeaserAdvertorial;
+  color: $black;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+  }
+}
+
+.TableColumnHeader {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+}
+
+.TableContent {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 300;
+  line-height: 2.6rem;
+}
+
+.TableContentWhite {
+  composes: TableContent;
+  color: $white;
+}
+
+.TableHeader {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: 3rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.3rem;
+    line-height: normal;
+  }
+}
+
+.TeaserAdvertorialTitleH1 {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 3.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4rem;
+    line-height: 4.7rem;
+  }
+}
+
+.TeaserAdvertorialSmallTitleH1 {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.2rem;
+  font-weight: bold;
+  line-height: 2.9rem;
+}
+
+.TeaserAdvertorialTitleH1White {
+  composes: TeaserAdvertorialTitleH1;
+  color: $white;
+}
+
+.TeaserVideoTitle {
+  color: $white;
+  font-family: $fontRecife;
+  font-size: 1.4rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.8rem;
+  }
+}
+
+.TeaserVideoTitleBlack {
+  composes: TeaserVideoTitle;
+  color: $black;
+}
+
+.TeaserLeadBlack {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.2rem;
+}
+
+.TeaserLeadWhite {
+  composes: TeaserLeadBlack;
+  color: $white;
+}
+
+.TeaserMeistgelesenNumber {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.TeaserTitle {
+  color: $black;
+  font-family: $fontRecife;
+  font-weight: bold;
+}
+
+.TeaserTitleH1 {
+  composes: TeaserTitle;
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 5.9rem;
+  }
+}
+
+.TeaserTitleH1White {
+  composes: TeaserTitleH1;
+  color: $white;
+}
+
+.TeaserTitleH2 {
+  composes: TeaserTitle;
+  font-size: 1.8rem;
+  line-height: 2.4rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.9rem;
+    line-height: 3.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3.6rem;
+    line-height: 4rem;
+  }
+}
+
+.TeaserTitleH2White {
+  composes: TeaserTitleH2;
+  color: $white;
+}
+
+.TeaserTitleH3 {
+  composes: TeaserTitle;
+
+  font-size: 2.2rem;
+  line-height: 2.9rem;
+}
+
+.TeaserTitleH3White {
+  composes: TeaserTitleH3;
+  color: $white;
+}
+
+.TeaserTitleH4 {
+  composes: TeaserTitle;
+  font-size: 1.6rem;
+  line-height: 1.8rem;
+}
+
+.TeaserTitleH4White {
+  composes: TeaserTitleH4;
+  color: $white;
+}
+
+.H1SansSerif {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.9rem;
+  font-weight: bold;
+  line-height: 3.2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4.5rem;
+    line-height: 5.4rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 5rem;
+    line-height: 6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 6.6rem;
+    text-align: center;
+  }
+}
+
+.H1SansSerifWhite {
+  composes: H1SansSerif;
+  color: $white;
+}
+
+.H3SansSerif {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: 400;
+  line-height: 2.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3rem;
+    line-height: 4.7rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 3.5rem;
+    line-height: 5.5rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4rem;
+    line-height: 6.2rem;
+  }
+}
+
+.H3SansSerifWhite {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-weight: 100;
+  line-height: 1.8rem;
+}
+
+.H3SansSerifWhiteBold {
+  composes: H3SansSerifWhite;
+  font-weight: 400;
+}
+
+.ParagraphSansSerif {
+  @mixin ParagraphSansSerif;
+}
+
+.ParagraphSansSerifBold {
+  composes: ParagraphSansSerif;
+  font-weight: 400;
+}
+
+.ParagraphSansSerifWhite {
+  composes: ParagraphSansSerif;
+  color: $white;
+}
+
+.H3BSansSerif {
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: bold;
+  line-height: normal;
+}
+
+.H3BSansSerifLight {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: 300;
+  line-height: normal;
+}
+
+.ClaimSansSerif {
+  @mixin ClaimSansSerif;
+}
+
+.ClaimSansSerifCenter {
+  @mixin ClaimSansSerifCenter;
+}
+
+.ClaimSansSerifWhite {
+  composes: ClaimSansSerif;
+  color: $white;
+}
+
+.Button {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.3rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.7rem;
+    line-height: 3.1rem;
+  }
+}
+
+.NavigationXxs {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  line-height: 1.44rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.4rem;
+    line-height: 1.68rem;
+  }
+}
+
+.NavigationBottom {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.9rem;
+  font-weight: 300;
+  letter-spacing: -0.2px;
+  line-height: 2.4rem;
+}
+
+.Vertical {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 2.3rem;
+  font-weight: 900;
+  line-height: 2.4rem;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 3.5rem;
+    line-height: 3.8rem;
+  }
+}
+
+.VerticalCollapsed {
+  composes: Vertical;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.5rem;
+  }
+}
+
+.Meta4WhiteBold {
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1rem;
+  font-weight: bold;
+  line-height: 1rem;
+}
+
+.ButtonAWhite {
+  @mixin ButtonAWhite;
+}
+
+.ButtonARedA {
+  @mixin ButtonARedA;
+}
+
+.ButtonARedB {
+  @mixin ButtonARedB;
+}
+
+.ButtonBWhite {
+  @mixin ButtonBWhite;
+}
+
+.ButtonBRedA {
+  @mixin ButtonBRedA;
+}
+
+.ButtonBRedB {
+  @mixin ButtonBRedB;
+}
+
+.ButtonBase {
+  @mixin ButtonBase;
+}
+
+.ButtonSmall {
+  @mixin ButtonSmall;
+}
+
+.ButtonPrimaryBig {
+  @mixin ButtonPrimaryBig;
+}
+
+.ButtonPrimarySmall {
+  @mixin ButtonPrimarySmall;
+}
+
+.ButtonSecondary {
+  @mixin ButtonSecondary;
+}
+
+.ButtonSecondaryBig {
+  @mixin ButtonSecondaryBig;
+}
+
+.ButtonSecondarySmall {
+  @mixin ButtonSecondarySmall;
+}
+
+.ButtonTertiaryBig {
+  @mixin ButtonTertiaryBig;
+}
+
+.ButtonTertiarySmall {
+  @mixin ButtonTertiarySmall;
+}
+
+.CreditMd {
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-style: italic;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.InfoSm {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%;
+}
+
+.InfoLg {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 2rem;
+    line-height: 160%;
+  }
+}
+
+/* NEW BEO TEASERS */
+
+.TeaserShortTitle {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.1rem;
+  margin-bottom: $margin4;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.TeaserBeoPlusLogo {
+  float: left;
+  height: 13px;
+  top: 1px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 16px;
+    top: 0;
+  }
+
+  /* Extra print handling - for all Be+ logos inside teasers */
+  @media print {
+    margin: 0 6px 0 0 !important; /* stylelint-disable-line */
+    max-height: 13px !important; /* stylelint-disable-line */
+  }
+}
+
+.TeaserShortTitleElement {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.TeaserBadgeLabel {
+  background: $black;
+  color: $white;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.68rem;
+  margin-bottom: $margin4;
+  margin-right: $margin8;
+  padding: 2px 8px;
+}
+
+.TeaserHeroTitle {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 3.64rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.2rem;
+    line-height: 5.46rem;
+  }
+}
+
+.TeaserHeroLead {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2.4rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 3rem;
+  }
+}
+
+.TeaserHeroAuthorName {
+  color: $grey50;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 140%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+  }
+}
+
+.TeaserHeroAuthorHeadline {
+  composes: TeaserHeroAuthorName;
+
+  color: $grey70;
+  font-weight: 400;
+}
+
+.TeaserWideTitle {
+  composes: TeaserHeroTitle;
+
+  font-size: 2rem;
+  line-height: 2.6rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 3.12rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3.2rem;
+    line-height: 4.16rem;
+  }
+}
+
+.TeaserWideLead {
+  composes: TeaserHeroLead;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+  }
+}
+
+.TeaserSMColumnHeadline {
+  color: $black;
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+}
+
+.SubheadMD {
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 2.52rem;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+    line-height: 2.4rem;
+  }
+}
+
+.SubheadLG {
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+  }
+}
+
+.SubheadXL {
+  font-family: $fontSpezia;
+  font-size: 2.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+  }
+}
+
+.SubheadXXL {
+  font-family: $fontSpezia;
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+  }
+}
+
+.MetaMd {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+}
+
+.MetaXl {
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%; /* 2.8rem */
+}
+
+.TaglineXl {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+  }
+}
+
+.HeadlineXl {
+  font-family: $fontRecife;
+  font-size: 3.4rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 120%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 4.8rem;
+  }
+}
+
+.HeadlineSm {
+  font-family: $fontRecife;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 130%;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+  }
+}
+
+.DescriptionLG {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 2.4rem */
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.ImageHeader {
+  composes: SubheadLG;
+  color: $black;
+  text-align: center;
+}
+
+.WrapperTopPadding {
+  padding-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: $margin40;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding-top: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-top: $margin48;
+  }
+}
+
+.LongFormHeaderArticleSpacing {
+  margin-bottom: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}

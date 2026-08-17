@@ -1,0 +1,30 @@
+.Reply {
+  composes: InfoH2 from 'typography.legacy.css';
+  align-items: center;
+  background: none;
+  border: 0;
+  color: $secondaryA;
+  cursor: pointer;
+  display: flex;
+  justify-content: flex-start;
+  margin: $margin16 0 $margin32;
+  outline: 0;
+  padding: 0;
+  width: 100%;
+}
+
+.Icon {
+  @mixin fontSize 20;
+  margin-bottom: -5px;
+  margin-left: 5px;
+  padding-left: 6px;
+}
+
+.IconChevronUp,
+.IconChevronUpActive {
+  transition: transform 300ms linear;
+}
+
+.IconChevronUpActive {
+  transform: rotate(180deg);
+}

@@ -1,0 +1,118 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] MinistageNewsletterSignup Should render correctly 1`] = `
+<div>
+  <div
+    class="WrapperLarge"
+  >
+    <div
+      class="Row NoGutters"
+    >
+      <div
+        class="Wrapper"
+      >
+        <div
+          class="ImageWrapper"
+        >
+          <div
+            class="LineHeightReset"
+          >
+            <picture>
+              <source
+                media="(min-width:760px)"
+                srcset="/sw/360/sites/default/files/2016-12/Matthias_Pflume_NL.png"
+              />
+              <img
+                alt="Jeden Freitag direkt in Ihre Mailbox."
+                class="TeaserImage IsSameAspectRatio"
+                loading="lazy"
+                srcset="/sw/160/sites/default/files/2016-12/Matthias_Pflume_NL.png"
+                width="160"
+              />
+            </picture>
+          </div>
+        </div>
+        <div>
+          <div
+            class="HeaderWrapper"
+          >
+            <div
+              class="HeaderText"
+            >
+              «
+              Jeden Freitag direkt in Ihre Mailbox.
+              »
+            </div>
+            <div
+              class="LeadText"
+            >
+              Matthias Pflume, Mitglied der Chefredaktion
+            </div>
+          </div>
+          <div
+            class="ContainerInner"
+          >
+            <div
+              class="FormWrapper"
+            >
+              <div
+                class="FormHeaderText"
+              >
+                Der Beobachter Newsletter
+              </div>
+              <form
+                action=""
+                class="Form"
+                method="post"
+                novalidate=""
+                target="_blank"
+              >
+                <div>
+                  <input
+                    aria-label="E-Mail"
+                    class="Input"
+                    name="EMAIL"
+                    placeholder="Email-Adresse"
+                    type="email"
+                    value=""
+                  />
+                  <span
+                    class="ErrorMessage"
+                  />
+                </div>
+                <div
+                  aria-hidden="true"
+                  style="position: absolute; left: -5000px;"
+                >
+                  <input
+                    name="b_473f4e993658c5bc9c5199135_1d31f5f40a"
+                    tabindex="-1"
+                    type="text"
+                  />
+                </div>
+                <div
+                  class="ButtonWrapper"
+                >
+                  <button
+                    class="Button Button ClickEffect Primary"
+                    tabindex="0"
+                    type="submit"
+                  >
+                    <span>
+                      <span
+                        class="ButtonLabel"
+                      >
+                        Jetzt Newsletter abonnieren
+                      </span>
+                    </span>
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

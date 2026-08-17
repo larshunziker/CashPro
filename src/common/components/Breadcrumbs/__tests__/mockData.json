@@ -1,0 +1,35 @@
+{
+  "preferredUri": "/people/lifestyle/ich-habe-nicht-wirklich-das-gefuhl-viel-erreicht-zu-haben",
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+          "label": "People",
+          "link": "/people",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzB5TlRnMQ==",
+          "label": "Lifestyle",
+          "link": "/people/lifestyle",
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      },
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6V1RKb2FHSnROV3hpUXpCNVRsUm5NVFk1TmpBMU1RPT0=",
+          "label": "Carla Bruni: \u00abIch habe nicht wirklich das Gef\u00fchl, viel erreicht zu haben\u00bb",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  }
+}

@@ -1,0 +1,42 @@
+.Wrapper {
+  line-height: 0;
+  margin: 0 auto;
+  max-width: $xxlBreakpoint;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.WrapperInterview {
+  text-align: center;
+  width: calc(100% - 42px);
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    width: calc(100% - 68px);
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    max-width: 873px;
+    width: 100%;
+  }
+}
+
+.Img {
+  width: 100%;
+}
+
+.ImgInterview {
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    max-width: 90%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    max-width: 75%;
+  }
+}

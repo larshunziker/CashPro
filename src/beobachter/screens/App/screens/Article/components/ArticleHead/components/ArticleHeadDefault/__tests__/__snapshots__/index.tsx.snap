@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Article Lead Default Should render article with video heroImageBody correctly 1`] = `
+<div
+  class="LabelWrapper"
+  data-testid="article-head-default-guide-shorttitle"
+  id="anchor_tag_short_title"
+>
+  <span
+    class="Label"
+  >
+    Editorial
+  </span>
+</div>
+`;
+
+exports[`[Component] Article Lead Default Should render channel title as backup shortTitle 1`] = `
+<div
+  class="LabelWrapper"
+  data-testid="article-head-default-guide-shorttitle"
+  id="anchor_tag_short_title"
+>
+  <span
+    class="Label"
+  >
+    Home
+  </span>
+</div>
+`;
+
+exports[`[Component] Article Lead Default Should render no shortitle, if neither shortitle nor channeltitle are given 1`] = `null`;

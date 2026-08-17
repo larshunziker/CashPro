@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentReplyLink Factory Should render correctly 1`] = `
+<button
+  class="ReplyDefaultClass HideForPrint"
+  data-testid="commentreplylink-wrapper"
+>
+  <span>
+    Peter
+     antworten
+  </span>
+  <span
+    class="IconDefaultClass"
+  />
+</button>
+`;

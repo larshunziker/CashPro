@@ -1,0 +1,109 @@
+{
+  "article": {
+    "id": "bm9kZToxOTMzNA==",
+    "gcid": "1234",
+    "title": "Prinz Harry kümmert sich um Dianas Herzensprojekt",
+    "lead": "Diana war eine Vorreiterin. Nun setzt sich auch ihr Sohn, Prinz Harry, dafür ein, der Aids-Epidemie ein Ende zu setzen.",
+    "restrictionStatus": "paid",
+    "publication": "beobachter",
+    "publicationDate": "2021-01-06T08:32:29",
+    "createDate": "2021-01-06T08:28:55",
+    "changeDate": "2021-01-06T08:28:22",
+    "showUpdated": true,
+    "body": [
+      {
+        "anchorId": null,
+        "id": "179229",
+        "header": null,
+        "text": "<p>Für die diesjährige Welt-Aids-Konferenz reisen Menschen aus 160 Ländern nach Amsterdam. Darunter auch viele prominente Unterstützer. <strong>Unter anderem Prinz Harry, 33, der ohne seine Meghan Markle, 36, anreiste, und Sänger Elton John, 71.</strong></p>\n\n<p>Prinz Harry hat einen starken Bezug zum Kampf gegen die Autoimmunkrankheit. <strong>Seine verstorbene Mutter, †36, setzte sich einst für Aidskranke ein und brach viele Tabus im Umgang mit Infizierten. </strong>Prinzessin Diana <span style=\"font-size: 1em;\">erkannte die Problematik um die Berührungsängste als eine der Ersten und setzte ein Zeichen. <strong>Im Jahr 1987 schüttelte sie ungeniert (ganz ohne Handschuhe) die Hände von Aidspatienten.</strong> Die Fotos aus dem Spital gingen um die Welt.</span></p>\n",
+        "__typename": "TextParagraph"
+      }
+    ],
+    "authors": {
+      "edges": [
+        {
+          "node": {
+            "id": "YXV0aG9yOjk1NDY=",
+            "name": "Mocked Author",
+            "hasProfilePage": false,
+            "publications": ["beobachter"],
+            "preferredUri": "/author/9546",
+            "shortDescription": null,
+            "imageParagraph": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjE3NzYwNzoxODM1MDI=",
+              "image": {
+                "id": "40840",
+                "file": {
+                  "id": "ZmlsZTo0MDkyNTo6MjAwLDI2NDpsYXJnZTo=",
+                  "relativeOriginPath": "/portrait2014.jpg",
+                  "focalPointX": 200,
+                  "focalPointY": 264,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        },
+        {
+          "node": {
+            "id": "YXV0aG9yOjM1NjY=",
+            "name": "Tina Steinauer",
+            "hasProfilePage": true,
+            "preferredUri": "/unsere-redaktion/tina-steinauer",
+            "shortDescription": "Short description of author",
+            "imageParagraph": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjIxODcwNjozMTk3NDM=",
+              "image": {
+                "id": "71003",
+                "file": {
+                  "id": "ZmlsZTo3MjI5NDo6NjAwLDMxNTpsYXJnZTo=",
+                  "relativeOriginPath": "/pme/blogs/2022-12-16/blogpme-1200x630-01.jpg",
+                  "focalPointX": 600,
+                  "focalPointY": 315,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        },
+        {
+          "node": {
+            "id": "YXV0aG9yOjMyMTI=",
+            "name": "Test Author",
+            "hasProfilePage": true,
+            "publications": ["beobachter"],
+            "preferredUri": "/unsere-redaktion/test-author",
+            "shortDescription": "shorty",
+            "imageParagraph": {
+              "id": "cGFyYWdyYXBoOmltYWdlOjE3NzQzNToxODExMjQ=",
+              "image": {
+                "id": "40753",
+                "file": {
+                  "id": "ZmlsZTo0MDczMzo6MTAzLDg4OmxhcmdlOg==",
+                  "relativeOriginPath": "/media/field_image/2017-03/ruth.jpg",
+                  "focalPointX": 103,
+                  "focalPointY": 88,
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        }
+      ],
+      "__typename": "AuthorConnection"
+    },
+    "__typename": "Article"
+  }
+}

@@ -1,0 +1,31 @@
+.LoginFormWrapper {
+  align-items: center;
+  background-color: $greyC;
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin32;
+  padding: $margin32 $margin16;
+  width: 100%;
+}
+
+.Icon {
+  color: $black;
+  font-size: 8rem;
+  margin: 0 auto $margin24 auto;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 10.5rem;
+  }
+}
+
+.Message {
+  composes: DescriptionLG from 'typography.legacy.css';
+  text-align: center;
+}
+
+.Button {
+  composes: ButtonPrimaryBig from 'typography.legacy.css';
+  margin: $margin32 auto 0 auto;
+  padding: 16px 40px;
+}

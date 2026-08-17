@@ -1,0 +1,48 @@
+.heroSlider {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(6, auto);
+
+    .Item {
+      margin-bottom: 30px;
+    }
+
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+
+    @media (max-width: $xsBreakpointTo) {
+      .Item0 {
+        margin-left: -$gridGutterWidthSm;
+        margin-right: -$gridGutterWidthSm;
+        width: calc(100% + ($outerGapXs + $outerGapXs));
+      }
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-row-gap: 0;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(2, auto);
+
+      .Item {
+        margin-bottom: $margin40;
+      }
+      .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    }
+  }
+
+  /* Desktop */
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      grid-column-gap: $gridGutterWidthXl;
+      grid-row-gap: 0;
+    }
+  }
+}

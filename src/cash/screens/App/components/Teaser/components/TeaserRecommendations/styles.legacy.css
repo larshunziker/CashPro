@@ -1,0 +1,204 @@
+.OuterWrapper {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Wrapper {
+  display: block;
+  height: 100%;
+  line-height: 0;
+  position: relative;
+}
+
+.ImageWrapper {
+  margin-right: 12px;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-right: 0;
+
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  width: 100%;
+  z-index: calc($zIndex1 - 1);
+}
+
+.ContentWrapper {
+  border: none;
+  position: static;
+  width: 100%;
+}
+
+.Title {
+  margin-bottom: 12px;
+}
+
+.TitleInner {
+  composes: H4 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.BottomLine {
+  composes: Metadata from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  max-width: 100%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.Badge {
+  bottom: 27px;
+  left: 0;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    bottom: 19px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    bottom: 14px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 28px;
+  }
+}
+
+.ShortTitle {
+  composes: ShortTitleC from 'typography.legacy.css';
+  margin: $margin8 0 $margin4;
+}
+
+.ShortTitleAdvertorial {
+  composes: ShortTitleD from 'typography.legacy.css';
+  background-color: $decoB;
+  border-radius: 4px;
+  padding: 0 4px;
+  width: fit-content;
+}
+
+.ShortTitleNA {
+  composes: ShortTitleAdvertorial;
+  background-color: $decoA;
+}
+
+.SkeletonWrapper {
+  animation: pulsing 1.5s infinite;
+  display: block;
+  height: 222px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 276px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 225px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 307px;
+  }
+
+  .ImageWrapper {
+    @media (min-width: $smBreakpoint) {
+      &::before {
+        display: none;
+      }
+    }
+
+    > img {
+      width: 100%;
+
+
+      @media (min-width: $smBreakpoint) {
+        height: auto;
+        max-height: 190px;
+        position: relative;
+
+        &::before {
+          display: none;
+        }
+      }
+
+      @media (min-width: $mdBreakpoint) {
+        max-height: 140px;
+      }
+
+      @media (min-width: $xlBreakpoint) {
+        max-height: 228px;
+      }
+    }
+  }
+}
+
+.SkeletonContentWrapper {
+  height: 64px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    height: 75px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 137px;
+  }
+}
+
+.SkeletonShortTitle,
+.SkeletonTitle {
+  background: $grayPlaceholder;
+  border-radius: 3px;
+  height: 16px;
+  left: 0;
+  position: absolute;
+}
+
+.SkeletonShortTitle {
+  height: 7px;
+  max-width: 120px;
+  top: 2px;
+  width: calc(100% - 70px);
+
+  @media (min-width: $smBreakpoint) {
+    height: 10px;
+    top: 6px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 10px;
+    top: 5px;
+  }
+}
+
+.SkeletonTitle {
+  height: 35px;
+  top: 27px;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 36px;
+    top:32px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 36px;
+    top: 32px;
+  }
+}
+
+@keyframes pulsing {
+  50% {
+    opacity: 0.5;
+  }
+}

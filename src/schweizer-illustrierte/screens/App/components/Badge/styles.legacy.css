@@ -1,0 +1,80 @@
+/* INFO: font-sizes & line-heights in the file have to be in px because of an rendering issue in various browsers/viewports and operating systems */
+
+.Wrapper {
+  display: inline-block;
+  line-height: initial;
+  position: relative;
+  z-index: calc($zIndex1 + 1);
+}
+
+.Content {
+  composes: ArrowText from 'typography.legacy.css';
+  display: inline-block;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 0 5px;
+  position: relative;
+
+  &::after {
+    border: 8px solid transparent;
+    border-left-width: 0;
+    content: '';
+    display: inline-table;
+    height: 0;
+    position: absolute;
+    right: -8px;
+    top: 0;
+    width: 0;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 14px;
+    line-height: 20px;
+
+    &::after {
+      border: 10px solid transparent;
+      border-left-width: 0;
+      right: -10px;
+    }
+  }
+
+  &SI {
+    @mixin badgeContent color($green);
+  }
+
+  &SY {
+    @mixin badgeContent color($pink);
+  }
+}
+
+.ContentSmaller {
+  composes: ArrowText from 'typography.legacy.css';
+  font-size: 10px;
+  line-height: 12px;
+  padding: 0 3px;
+
+  &::after {
+    border-width: 6px 6px 6px 0;
+    right: -6px;
+  }
+}
+
+.ContentPetrol {
+  @mixin badgeContent color($petrol);
+}
+
+.ContentBlue {
+  @mixin badgeContent color($blue);
+}
+
+.ContentPurple {
+  @mixin badgeContent color($purple);
+}
+
+.ContentBlack {
+  @mixin badgeContent color($black);
+}
+
+.ContentGrayD {
+  @mixin badgeContent color($grayD);
+}

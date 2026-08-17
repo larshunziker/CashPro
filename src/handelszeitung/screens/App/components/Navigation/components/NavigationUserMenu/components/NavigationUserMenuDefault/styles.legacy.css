@@ -1,0 +1,65 @@
+.Wrapper {
+  background-color: $white;
+}
+
+.MenuHeader, .MenuHeaderContent, .CloseButton, .CloseIcon {
+  display: none;
+}
+
+.Container {
+  margin: 0 $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 0 $margin32;
+  }
+}
+
+.UserInformationWrapper {
+  background-color: $blackB;
+  padding-bottom: 16px;
+  padding-top: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-bottom: 24px;
+    padding-top: 24;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding-bottom: 32px;
+    padding-top: 32px;
+  }
+}
+
+.UserName {
+  composes: H3White from 'typography.legacy.css';
+}
+
+.UserCredentials {
+  composes: Lead2White from 'typography.legacy.css';
+  margin-top: $margin8;
+}
+
+.MenuWrapper {
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin24;
+  }
+}
+
+.MenuItem {
+  line-height: 5rem;
+  list-style: none;
+  margin-bottom: 12px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.MenuItemHiddenOnApp {
+  display: none;
+}

@@ -1,0 +1,345 @@
+/*
+ *  CASH - Buttons
+ *  https://www.figma.com/file/DITzrg9djXYv5nCSlOcRBf/cash_library?node-id=0%3A7680
+ */
+
+@define-mixin ButtonBase {
+  cursor: pointer;
+  font-family: $fontSourceSansPro;
+  font-weight: bold;
+  margin: 0;
+  text-align: center;
+  text-decoration: none;
+}
+
+@define-mixin ButtonBaseBig {
+  @mixin ButtonBase;
+  @mixin ButtonBig;
+  @mixin fontSize 18;
+  height: 54px;
+  @mixin lineHeight 22;
+  padding: 16px 24px;
+}
+
+@define-mixin ButtonBaseSmall {
+  @mixin ButtonBase;
+  @mixin ButtonSmall;
+  @mixin fontSize 14;
+  height: 34px;
+  @mixin lineHeight 18;
+  padding: 8px 16px;
+}
+
+@define-mixin ButtonPrimary {
+  background-color: $secondaryA;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover, &:focus {
+    background-color: $secondaryB;
+  }
+}
+
+@define-mixin ButtonSecondary {
+  background-color: $white;
+  border: 1px solid $secondaryA;
+  border-radius: 4px;
+  color: $secondaryA;
+
+  &:hover, &:focus {
+    border: 1px solid $secondaryB;
+    color: $secondaryB;
+  }
+}
+
+
+@define-mixin ButtonTertiary {
+  border: none;
+  color: $secondaryA;
+  
+  &:hover, &:focus {
+    color: $secondaryB;
+  }
+}
+
+@define-mixin ButtonQuaternary {
+  background-color: $white;
+  border: 0;
+  color: $secondaryA;
+
+  &:hover, &:focus {
+    color: $secondaryB;
+    
+    @media (min-width: $smBreakpoint) {
+      border: 1px solid $secondaryB;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid $secondaryA;
+    border-radius: 4px;
+  }
+}
+
+@define-mixin ButtonPrimaryHighAttention {
+  background-color: $primaryA;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover, &:focus {
+    background-color: $primaryB;
+  }
+}
+
+@define-mixin ButtonPrimaryHighAttentionB {
+  background-color: $positiveA;
+  border: none;
+  border-radius: 4px;
+  color: $white;
+
+  &:hover, &:focus {
+    background-color: $positiveB;
+  }
+}
+
+@define-mixin ButtonSecondaryHighAttention {
+  background-color: $white;
+  border: 1px solid $primaryA;
+  border-radius: 4px;
+  color: $primaryA;
+
+  &:hover, &:focus {
+    border: 1px solid $primaryB;
+    color: $primaryB;
+  }
+}
+
+@define-mixin ButtonSecondaryHighAttentionB {
+  background-color: $white;
+  border: 1px solid $positiveA;
+  border-radius: 4px;
+  color: $primaryA;
+
+  &:hover, &:focus {
+    border: 1px solid $positiveB;
+    color: $positiveB;
+  }
+}
+
+@define-mixin ButtonTertiaryHighAttention {
+  border: none;
+  color: $primaryA;
+  
+  &:hover, &:focus {
+    color: $primaryB;
+  }
+}
+
+@define-mixin ButtonTertiaryHighAttentionB {
+  border: none;
+  color: $positiveA;
+  
+  &:hover, &:focus {
+    color: $positiveB;
+  }
+}
+
+@define-mixin ButtonQuaternaryHighAttention {
+  background-color: $white;
+  color: $primaryA;
+
+  &:hover, &:focus {
+    border: 0;
+    color: $primaryB;
+    
+    @media (min-width: $smBreakpoint) {
+      border: 1px solid $primaryB;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid $primaryA;
+    border-radius: 4px;
+  }
+}
+
+@define-mixin ButtonQuaternaryHighAttentionB {
+  background-color: $white;
+  color: $positiveA;
+
+  &:hover, &:focus {
+    border: 0;
+    color: $positiveB;
+    
+    @media (min-width: $smBreakpoint) {
+      border: 1px solid $positiveB;
+    }
+  }
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid $positiveA;
+    border-radius: 4px;
+  }
+}
+
+/* Primary Buttons */
+
+@define-mixin ButtonPrimaryBig {
+  @mixin ButtonPrimary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonPrimarySmall {
+  @mixin ButtonPrimary;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonPrimaryBigHighAttention {
+  @mixin ButtonPrimaryHighAttention;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonPrimaryBigHighAttentionB {
+  @mixin ButtonPrimaryHighAttentionB;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonPrimarySmallHighAttentionB {
+  @mixin ButtonPrimaryHighAttentionB;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonPrimarySmallHighAttention {
+  @mixin ButtonPrimaryHighAttention;
+  @mixin ButtonBaseSmall;
+}
+
+/* Secondary Buttons */
+
+@define-mixin ButtonSecondaryBig {
+  @mixin ButtonSecondary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonSecondarySmall {
+  @mixin ButtonSecondary;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonSecondaryBigHighAttention {
+  @mixin ButtonSecondaryHighAttention;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonSecondaryBigHighAttentionB {
+  @mixin ButtonSecondaryHighAttentionB;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonSecondarySmallHighAttention {
+  @mixin ButtonSecondaryHighAttention;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonSecondarySmallHighAttentionB {
+  @mixin ButtonSecondaryHighAttentionB;
+  @mixin ButtonBaseSmall;
+}
+
+/* Tertiary Buttons */
+
+@define-mixin ButtonTertiaryBig {
+  @mixin ButtonTertiary;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonTertiarySmall {
+  @mixin ButtonTertiary;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonTertiaryBigHighAttention {
+  @mixin ButtonTertiaryHighAttention;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonTertiaryBigHighAttentionB {
+  @mixin ButtonTertiaryHighAttentionB;
+  @mixin ButtonBaseBig;
+}
+
+@define-mixin ButtonTertiarySmallHighAttention {
+  @mixin ButtonTertiaryHighAttention;
+  @mixin ButtonBaseSmall;
+}
+
+@define-mixin ButtonTertiarySmallHighAttentionB {
+  @mixin ButtonTertiaryHighAttentionB;
+  @mixin ButtonBaseSmall;
+}
+
+/* Quaternary Buttons */
+
+@define-mixin ButtonQuaternaryBig {
+  @mixin ButtonQuaternary;
+  @mixin ButtonBaseBig;
+  font-weight: normal;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+  }
+}
+
+@define-mixin ButtonQuaternarySmall {
+  @mixin ButtonQuaternary;
+  @mixin ButtonBaseSmall;
+  font-weight: normal;
+  padding: 8px 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+    padding: 8px 16px;
+  }
+}
+
+@define-mixin ButtonQuaternaryBigHighAttention {
+  @mixin ButtonQuaternaryHighAttention;
+  @mixin ButtonBaseBig;
+  font-weight: normal;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+  }
+}
+
+@define-mixin ButtonQuaternaryBigHighAttentionB {
+  @mixin ButtonQuaternaryHighAttentionB;
+  @mixin ButtonBaseBig;
+  font-weight: normal;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+  }
+}
+
+@define-mixin ButtonQuaternarySmallHighAttention {
+  @mixin ButtonQuaternaryHighAttention;
+  @mixin ButtonBaseSmall;
+  font-weight: normal;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+  }
+}
+
+@define-mixin ButtonQuaternarySmallHighAttentionB {
+  @mixin ButtonQuaternaryHighAttentionB;
+  @mixin ButtonBaseSmall;
+  font-weight: normal;
+
+  @media (min-width: $smBreakpoint) {
+    font-weight: bold;
+  }
+}

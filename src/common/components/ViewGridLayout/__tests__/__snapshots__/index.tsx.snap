@@ -1,0 +1,188 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ViewGridLayout Should return not render grid 1`] = `<div />`;
+
+exports[`[Component] ViewGridLayout Should return render grid correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Container"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+        <div
+          class="Column ColXs1"
+        >
+          <div
+            class="Item"
+          />
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

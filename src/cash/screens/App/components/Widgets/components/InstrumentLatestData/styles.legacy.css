@@ -1,0 +1,10 @@
+.Wrapper {
+  border: 1px solid $greyC;
+  display: flex;
+  flex-direction: column;
+  padding: $margin16;
+
+  &.IsAlertForm {
+    border: none;
+  }
+}

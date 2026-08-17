@@ -1,0 +1,13 @@
+// 🚨 AUTO-GENERATED FILE! DO NOT UPDATE MANUALLY 🚨 
+
+declare const styles: {
+  readonly "Wrapper": string;
+  readonly "InfoBoxMargin": string;
+  readonly "ImageInnerWrapper": string;
+  readonly "TitleWrapper": string;
+  readonly "Title": string;
+  readonly "TitleSI": string;
+  readonly "TitleSY": string;
+};
+export = styles;
+

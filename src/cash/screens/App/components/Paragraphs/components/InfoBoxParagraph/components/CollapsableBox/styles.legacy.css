@@ -1,0 +1,45 @@
+.Container {
+  border-bottom: 1px solid $greyC;
+  border-top: 3px solid $blackA;
+  margin-inline: auto;
+  padding-top: 8px;
+}
+
+.Title {
+  composes: Subtitle from 'typography.legacy.css';
+  margin-block: $margin8 $margin16;
+}
+
+.Content {
+  overflow: hidden;
+}
+
+.ToggleWrapper {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: $blackA;
+  cursor: pointer;
+  display: flex;
+  font-size: .9rem;
+  font-weight: 400;
+  gap: 8px;
+  margin-block: $margin16 $margin24;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1rem;
+  }
+}
+
+.SectionMargin {
+  margin-bottom: $margin24 !important; /* stylelint-disable-line */
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32 !important; /* stylelint-disable-line */
+  }
+}
+
+.InnerWrapper {
+  break-inside: avoid;
+}

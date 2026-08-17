@@ -1,0 +1,47 @@
+.Wrapper {
+  @mixin hideforPrint;
+  position: absolute;
+  top: 35px;
+  width: 100%;
+  z-index: 500;
+
+  /*
+   * the following query matches Safari 10.1+
+   * https://stackoverflow.com/a/25975282
+   */
+  @media not all and (resolution >= 0.001dpcm) {
+    @media {
+      /*
+       * some older browsers don't support nested at-rules
+       * https://stackoverflow.com/a/11747166
+       */
+      top: -38px;
+    }
+    @media screen and (min-width: $smBreakpoint) {
+      top: -45px;
+    }
+  }
+}
+
+.SponsorLabelWrapper {
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: $zIndexMedium;
+}
+
+.Label {
+  composes: Container from '@grid.legacy.css';
+  color: $greyD;
+  font-family: $fontSpezia;
+  font-size: 1.2rem;
+  font-weight: 600;
+  line-height: 1.3rem;
+  opacity: 0.45;
+  padding-top: 5px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.2rem;
+  }
+}

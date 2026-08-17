@@ -1,0 +1,24 @@
+.Container {
+  position: relative;
+}
+
+.AdWrapper {
+  position: absolute;
+  right: -8px;
+  width: 0;
+}
+
+.Ad {
+  background-color: $transparent;
+  display: inline-block;
+  position: fixed;
+  top: 82px;
+
+  /* monstersky should be under piano overlay */
+  z-index: calc($zIndexPianoOverlay - 1);
+}
+
+.Sticky {
+  position: fixed;
+  top: calc($headerHeight + 32px);
+}

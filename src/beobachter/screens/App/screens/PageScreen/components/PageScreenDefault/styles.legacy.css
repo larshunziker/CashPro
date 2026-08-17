@@ -1,0 +1,21 @@
+.HeadWrapper {
+  margin-top: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 55px;
+  }
+}
+
+.Title {
+  composes: Title from 'Article/components/ArticleLead/components/ArticleLeadRatgeber/styles.legacy.css';
+  text-align: left;
+}
+
+.MainTitle {
+  composes: MainTitle from 'Article/components/ArticleLead/components/ArticleLeadRatgeber/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from 'Article/components/ArticleLead/components/ArticleLeadRatgeber/styles.legacy.css';
+  text-align: left;
+}

@@ -1,0 +1,17 @@
+.Wrapper {
+  display: block;
+  margin-bottom: 20px;
+  position: relative;
+  text-align: center;
+}
+
+.Label {
+  composes: InfoD from '../../assets/styles/typography.legacy.css';
+  color: $greyB;
+  text-align: center;
+}
+
+.Banner {
+  padding: 5px 0 10px;
+}
+

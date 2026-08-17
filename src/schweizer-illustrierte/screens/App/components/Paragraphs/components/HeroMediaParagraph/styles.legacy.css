@@ -1,0 +1,164 @@
+.Wrapper {
+  padding: 24px 0 8px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 0 24px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-bottom: 64px;
+  }
+
+  @media (min-width: $lgBreakpoint) {
+    padding: 40px 0 80px;
+  }
+
+  :global(.piano-container) {
+    margin-bottom: 30px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 40px;
+    }
+  }
+}
+
+.ImageWrapper {
+  flex: 1;
+
+  @media (max-width: $smBreakpointTo) {
+    max-width: 100vw;
+    overflow: hidden;
+    padding: 0;
+    width: calc(100% + 32px);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+  }
+
+  img {
+    max-height: 380px;
+    object-fit: contain;
+
+    @media (min-width: $mdBreakpoint) {
+      max-height: 500px;
+    }
+
+    @media (min-width: $lgBreakpoint) {
+      max-height: 100%; 
+    }
+  }
+}
+
+.ImageParagraph {
+  background-color: $transparent;
+}
+
+.ContentWrapper {
+  align-items: center;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+
+  @media (min-width: $mdBreakpoint) {
+    align-items: flex-start;
+  }
+}
+
+.CenteredContent {
+  @media (min-width: $mdBreakpoint) {
+    align-items: center;
+    text-align: center;
+  }
+
+  .Title,
+  .SubTitle,
+  .ShortTitle,
+  .Lead,
+  .ParagraphsWrapper {
+    @media (min-width: $mdBreakpoint) {
+      text-align: center;
+    }
+  }
+}
+
+.InnerWrapper {
+  align-items: center;
+  display: flex;
+  flex-flow: column-reverse;
+  justify-content: center;
+
+  @media (min-width: $mdBreakpoint) {
+    flex-flow: row;
+  }
+}
+
+.ParagraphsWrapper {
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+}
+
+.Title {
+  composes: Heading1A from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.SubTitle {
+  composes: Lead1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: start;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.ShortTitle {
+  composes: HeadingCatch2 from 'typography.legacy.css';
+  margin: $margin24 0 $margin8;
+  text-align: center;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 0;
+    text-align: start;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  color: $black;
+  margin-bottom: $margin16;
+  text-align: center;
+  text-shadow: none;
+
+  @media (min-width: $mdBreakpoint) {
+    composes: Lead2 from 'typography.legacy.css';
+    text-align: start;
+  }
+}

@@ -1,0 +1,196 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  align-items: center;
+  background-color: $white;
+  box-shadow: 6px 6px 40px 0 $blackA2;
+  display: flex;
+  flex-direction: row;
+  padding: 12px 0 8px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: column;
+  }
+}
+
+.Header {
+  background: $blackB;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 68px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 153px;
+    width: 100%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 162px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 155px;
+  }
+}
+
+.RankingPosition {
+  color: $white;
+  font-family: $fontGotham;
+  font-size: 1.8rem;
+  font-weight: 900;
+  left: 11px;
+  position: absolute;
+  top: 5px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 3.4rem;
+    left: 18px;
+    top: 19px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    left: 14px;
+  }
+}
+
+.TeaserImageWrapper {
+  display: flex;
+  justify-content: center;
+  margin: 0 $margin8;
+  padding: 8px 9px 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 22px 0 10px;
+    padding: 12px 12px 0;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin: 31px 0 10px;
+  }
+
+  &::before,
+  &::after {
+    content: '';
+    display: block;
+    height: 113px;
+    position: absolute;
+    top: 11px;
+    transform: translate(-8px, -8px);
+    width: 57px;
+
+    @media (min-width: $smBreakpoint) {
+      left: 15px;
+      margin: auto;
+      right: -5px;
+      width: 222px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      height: 119px;
+      left: 15px;
+      margin: auto;
+      right: -5px;
+      width: 234px;
+    }
+  }
+
+  &::before {
+    border-bottom-left-radius: 55px;
+    border-top-left-radius: 55px;
+    left: 11px;
+    opacity: 0.15;
+
+    @media (min-width: $smBreakpoint) {
+      border-bottom-left-radius: 0;
+      border-top-left-radius: 115px;
+      border-top-right-radius: 115px;
+      left: 10px;
+    }
+  }
+
+  &::after {
+    background-color: $greyE;
+    border-bottom-right-radius: 55px;
+    border-top-right-radius: 55px;
+    left: 68px;
+
+    @media (min-width: $smBreakpoint) {
+      border-bottom-left-radius: 115px;
+      border-bottom-right-radius: 115px;
+      border-top-right-radius: 0;
+      left: 8px;
+      top: 127px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      left: 10px;
+    }
+  }
+}
+
+.Image {
+  border-radius: 50%;
+  height: 102px;
+  max-width: unset;
+  width: 102px;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    height: 215px;
+    width: 215px;
+  }
+}
+
+.ContentWrapper {
+  overflow: hidden;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 0 10px;
+    text-align: center;
+    width: 100%;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 145px;
+    padding: 0;
+  }
+}
+
+.TeaserTitle {
+  color: $blackB;
+  font-family: $fontGotham;
+  font-size: 1.7rem;
+  font-weight: 900;
+  line-height: 2.3rem;
+  padding-right: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.6rem;
+    line-height: 3.1rem;
+    padding: 0 10px;
+    padding-top: 8px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-top: 16px;
+  }
+}
+
+.ShortTitle {
+  color: $greyB;
+  font-family: $fontGotham;
+  font-size: 1.6rem;
+  line-height: 2.2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+    line-height: 3.2rem;
+    text-align: center;
+  }
+}

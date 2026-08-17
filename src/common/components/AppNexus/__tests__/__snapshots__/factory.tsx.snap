@@ -1,0 +1,63 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] AppNexus Should not render if no slot is present 1`] = `<div />`;
+
+exports[`[Component] AppNexus Should render correctly 1`] = `
+<div>
+  <div
+    class="ClassNameAdSlot"
+    data-device-type="tabletDesktop"
+    data-slot-name="WB_1"
+    data-testid="app-nexus-wrapper"
+    id="apn-ad-slot-wb-1-tabletDesktop"
+  />
+</div>
+`;
+
+exports[`[Component] AppNexus Should render correctly with not same container check 1`] = `
+<div>
+  <div
+    class="ClassNameAdSlot"
+    data-device-type="tabletDesktop"
+    data-slot-name="WB_1"
+    data-testid="app-nexus-wrapper"
+    id="apn-ad-slot-wb-1-tabletDesktop"
+  />
+</div>
+`;
+
+exports[`[Component] AppNexus Should render correctly with not same container check 2`] = `
+<div>
+  <div
+    class="ClassNameAdSlot"
+    data-device-type="tabletDesktop"
+    data-slot-name="WB_2"
+    data-testid="app-nexus-wrapper"
+    id="apn-ad-slot-wb-2-tabletDesktop"
+  />
+</div>
+`;
+
+exports[`[Component] AppNexus Should render correctly with same container check 1`] = `
+<div>
+  <div
+    class="ClassNameAdSlot"
+    data-device-type="tabletDesktop"
+    data-slot-name="WB_1"
+    data-testid="app-nexus-wrapper"
+    id="apn-ad-slot-wb-1-tabletDesktop"
+  />
+</div>
+`;
+
+exports[`[Component] AppNexus Should render correctly with same container check 2`] = `
+<div>
+  <div
+    class="ClassNameAdSlot"
+    data-device-type="tabletDesktop"
+    data-slot-name="WB_1"
+    data-testid="app-nexus-wrapper"
+    id="apn-ad-slot-wb-1-tabletDesktop"
+  />
+</div>
+`;

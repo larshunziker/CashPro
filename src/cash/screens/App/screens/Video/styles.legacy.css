@@ -1,0 +1,143 @@
+.PageWrapper { 
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+  padding-top: 16px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 8px;
+  }
+}
+
+.Container {
+  margin-top: 0;
+}
+
+.BreadcrumbsContainer {
+  margin-bottom: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 34px;
+  }
+}
+
+.Row {
+  display: flex;
+}
+
+.Title {
+  composes: H1 from 'typography.legacy.css';
+  margin-bottom: 14px;
+  padding: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 32px;
+  }
+}
+
+.VideoContainer {
+  padding: 0;
+}
+
+.ShortTitle {
+  composes: ShortTitleA from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: 8px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 16px;
+  }
+}
+
+.Lead {
+  composes: Lead1 from 'typography.legacy.css';
+  color: $blackB;
+  margin-bottom: $margin32;
+}
+
+.ArticleAlertsWrapper {
+  margin-bottom: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 52px;
+  }
+}
+
+.ArticleBody {
+  :global(.app) {
+    padding-bottom: 70px;
+
+    @media (min-width: $smBreakpoint) {
+      padding-bottom: 0;
+    }
+  }
+}
+
+.SocialBarWrapper {
+  @mixin hideforPrint;
+  background-color: $white;
+  border-top: 1px solid $greyC;
+  bottom: 0;
+  height: 70px;
+  left: 0;
+  position: fixed;
+  right: 0;
+  z-index: $zIndex10;
+
+  @media (min-width: $smBreakpoint) {
+    background-color: $transparent;
+    border-top: 0;
+    height: auto;
+    margin-bottom: 24px;
+    position: relative;
+  }
+}
+
+.RecommendationsWrapper {
+  margin-bottom: 16px;
+  padding: 0;
+}
+
+.CTAWrapper {
+  margin-bottom: 48px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 64px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 80px;
+  }
+}
+
+.Button {
+  composes: Button from 'typography.legacy.css';
+  align-items: center;
+  background-color: $secondaryA;
+  border-radius: 4px;
+  color: $white;
+  display: inline-flex;
+  font-weight: 700;
+  justify-content: center;
+  padding: 16px 24px;
+  width: 100%;
+
+  &:hover {
+    background-color: $secondaryB;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    padding: 14px;
+    transition: background-color 0.3s ease;
+    width: 166px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 17px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 19px;
+  }
+}

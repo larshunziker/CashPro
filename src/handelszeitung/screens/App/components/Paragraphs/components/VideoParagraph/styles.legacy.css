@@ -1,0 +1,15 @@
+.Wrapper {
+  @mixin aspectRatio16x9;
+  margin-bottom: 10px;
+}
+
+.VideoCredit {
+  composes: Credits from 'Paragraphs/components/ImageCaption/styles.legacy.css';
+  color: $greyB;
+  font-family: $fontGotham;
+  padding-top: 12px;
+}
+
+.ImageCaptionWrapper {
+  background: $white;
+}

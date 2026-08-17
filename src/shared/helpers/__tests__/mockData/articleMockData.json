@@ -1,0 +1,534 @@
+{
+  "environment": {
+    "routeByPath": {
+      "canonical": "/group/3/content/622053",
+      "preferred": "/konjunktur/der-franken-und-der-euro-sind-starker-denn-je-622053",
+      "statusCode": 200,
+      "object": {
+        "id": "bm9kZTo2MDA5MDg=",
+        "gcid": "622053",
+        "nid": "600908",
+        "title": "Der Franken und der Euro sind stärker denn je",
+        "publication": "handelszeitung",
+        "lead": "Die Höchststände der europäischen Währungen lindern die Inflation, bremsen aber die Exporte. Die Währungshüter sind daher gefordert.",
+        "shortTitle": "Notenbanken in der Zwickmühle",
+        "metaTitle": "Der starke Euro gibt der EZB etwas mehr Spielraum | Handelszeitung",
+        "seoTitle": "Der starke Euro gibt der EZB etwas mehr Spielraum",
+        "editContentUri": null,
+        "editRelationUri": null,
+        "cloneContentUri": null,
+        "socialMediaTitle": null,
+        "canonicalUri": "/group/3/content/622053",
+        "ampUrl": null,
+        "metaDescription": "Die Höchststände der europäischen Währungen lindern die Inflation, bremsen aber die Exporte. Die Währungshüter sind daher gefordert.",
+        "metaKeywords": "Euro, Dollar, Geldpolitik, Franken",
+        "time2read": 162,
+        "source": null,
+        "keywords": {
+          "edges": [
+            {
+              "node": {
+                "label": "Euro",
+                "tid": "34818",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "label": "Dollar",
+                "tid": "35544",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "label": "Geldpolitik",
+                "tid": "36351",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            },
+            {
+              "node": {
+                "label": "Franken",
+                "tid": "35126",
+                "__typename": "Keyword"
+              },
+              "__typename": "KeywordEdge"
+            }
+          ],
+          "__typename": "KeywordConnection"
+        },
+        "authorPrefix": "by",
+        "metaOgTitle": "Der starke Euro gibt der EZB etwas mehr Spielraum",
+        "metaOgDescription": "Die Höchststände der europäischen Währungen lindern die Inflation, bremsen aber die Exporte. Die Währungshüter sind daher gefordert.",
+        "changeDate": "2023-07-23T12:09:33+02:00",
+        "createDate": "2023-07-23T12:23:32+02:00",
+        "publicationDate": "2023-07-24T13:39:38+02:00",
+        "showUpdated": false,
+        "preferredUri": "/konjunktur/der-franken-und-der-euro-sind-starker-denn-je-622053",
+        "subtypeValue": "news",
+        "restrictionStatus": "paid",
+        "activeMenuTrail": {
+          "edges": [
+            {
+              "node": {
+                "label": "Konjunktur",
+                "link": "/konjunktur",
+                "__typename": "ActiveMenuTrailItem"
+              },
+              "__typename": "ActiveMenuTrailItemEdge"
+            },
+            {
+              "node": {
+                "label": "Der starke Euro gibt der EZB etwas mehr Spielraum",
+                "link": null,
+                "__typename": "ActiveMenuTrailItem"
+              },
+              "__typename": "ActiveMenuTrailItemEdge"
+            }
+          ],
+          "__typename": "ActiveMenuTrailItemConnection"
+        },
+        "issue": null,
+        "relatedPersons": {
+          "edges": [],
+          "__typename": "PersonConnection"
+        },
+        "relatedOrganizations": {
+          "edges": [],
+          "__typename": "OrganizationConnection"
+        },
+        "metaCanonicalUrl": "https://www.handelszeitung.ch/konjunktur/der-franken-und-der-euro-sind-starker-denn-je-622053",
+        "authors": {
+          "edges": [
+            {
+              "node": {
+                "id": "YXV0aG9yOjIwNjY4",
+                "name": "Peter Rohner",
+                "imageParagraph": {
+                  "id": "cGFyYWdyYXBoOmltYWdlOjE3NTA5ODQ6NjA0MDQzMw==",
+                  "image": {
+                    "id": "681557",
+                    "file": {
+                      "id": "ZmlsZTo3MTE4MjE6OjAsMDpsYXJnZTo=",
+                      "alt": "rop",
+                      "relativeOriginPath": "/media/field_image/2022-10/peter_rohner_0.jpeg",
+                      "focalPointX": 256,
+                      "focalPointY": 192,
+                      "__typename": "ImageFile"
+                    },
+                    "__typename": "Image"
+                  },
+                  "__typename": "ImageParagraph"
+                },
+                "__typename": "Author"
+              },
+              "__typename": "AuthorEdge"
+            }
+          ],
+          "__typename": "AuthorConnection"
+        },
+        "commentStatus": "open",
+        "channel": {
+          "id": "dGF4b25vbXlfdGVybTo0ODY0",
+          "title": "Konjunktur",
+          "suppressAds": null,
+          "channelType": null,
+          "settings": {
+            "hierarchy": {
+              "count": 1,
+              "edges": [
+                {
+                  "node": {
+                    "id": "dGF4b25vbXlfdGVybTo0ODY0",
+                    "title": "Konjunktur",
+                    "tid": "4864",
+                    "__typename": "Channel"
+                  },
+                  "__typename": "ChannelEdge"
+                }
+              ],
+              "__typename": "ChannelConnection"
+            },
+            "__typename": "TermSettings"
+          },
+          "articles": {
+            "edges": [
+              {
+                "node": {
+                  "id": "bm9kZTo2MDE5ODc=",
+                  "title": "Das Fed hebt den Zins um 0.25 Prozentpunkte an",
+                  "lead": "Die US-Notenbank erhöht ihren Leitzins auf ein neues Zielband von 5.25 bis 5.5 Prozent.",
+                  "hasVideo": false,
+                  "authorPrefix": "by",
+                  "subtypeValue": "news",
+                  "shortTitle": "US-Zinsentscheid",
+                  "changeDate": "2023-07-26T15:16:54+02:00",
+                  "publicationDate": "2023-07-26T20:09:34+02:00",
+                  "showUpdated": false,
+                  "restrictionStatus": null,
+                  "preferredUri": "/konjunktur/das-fed-hebt-den-zins-um-025-prozentpunkte-an-623136",
+                  "channel": {
+                    "id": "dGF4b25vbXlfdGVybTo0ODY0",
+                    "title": "Konjunktur",
+                    "__typename": "Channel"
+                  },
+                  "authors": {
+                    "edges": [],
+                    "__typename": "AuthorConnection"
+                  },
+                  "teaserImage": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjE5ODIwOTk6NzIxODQ3NQ==",
+                    "image": {
+                      "id": "676736",
+                      "file": {
+                        "id": "ZmlsZTo3MDY1MTM6OjMwMDAsMjAwMDpsYXJnZTox",
+                        "alt": "Fed-Chef Jerome Powell erklärt die US-Geldpolitik.",
+                        "width": 480,
+                        "height": 320,
+                        "relativeOriginPath": "/media/field_image/2022-09/jerome_powell_federal_reserve.jpg",
+                        "focalPointX": 3000,
+                        "focalPointY": 2000,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "useAutoHyphens": false,
+                  "__typename": "Article"
+                },
+                "__typename": "ArticleEdge"
+              },
+              {
+                "node": {
+                  "id": "bm9kZTo2MDE3NDI=",
+                  "title": "Notenbank Fed vor vorerst letzter Zinserhöhung?",
+                  "lead": "Anfangs 2022 begann die Fed mit Zinserhöhungen. Heute Mittwoch folgt wohl der nächste Schritt. Wie es nachher weitergeht, ist umstritten.",
+                  "hasVideo": false,
+                  "authorPrefix": "by",
+                  "subtypeValue": "news",
+                  "shortTitle": "Kampf gegen Inflation",
+                  "changeDate": "2023-07-26T07:15:19+02:00",
+                  "publicationDate": "2023-07-26T07:46:32+02:00",
+                  "showUpdated": false,
+                  "restrictionStatus": null,
+                  "preferredUri": "/konjunktur/notenbank-fed-vor-vorerst-letzter-zinserhohung-622891",
+                  "channel": {
+                    "id": "dGF4b25vbXlfdGVybTo0ODY0",
+                    "title": "Konjunktur",
+                    "__typename": "Channel"
+                  },
+                  "authors": {
+                    "edges": [],
+                    "__typename": "AuthorConnection"
+                  },
+                  "teaserImage": {
+                    "id": "cGFyYWdyYXBoOmltYWdlOjE5ODE2MzU6NzIxMTU5MA==",
+                    "image": {
+                      "id": "737120",
+                      "file": {
+                        "id": "ZmlsZTo3NzAwMDY6OjIwMDAsMTMzMTpsYXJnZTox",
+                        "alt": "June 22, 2023, Washington, District of Columbia, USA: Jerome H. Powell, Chair, Board of Governors of the Federal Reserve System, appears before a Senate Committee on Banking, Housing, and Urban Affairs hearing to examine the Semiannual Monetary Policy Report to the Congress, in the Dirksen Senate Office Building in Washington, DC, Thursday, June 22, 2023 Washington USA - ZUMAs152 20230622_zaa_s152_159 Copyright: xRodxLamkeyx",
+                        "width": 480,
+                        "height": 319,
+                        "relativeOriginPath": "/media/field_image/2023-07/fed-prasident_jerome_powell_.jpg",
+                        "focalPointX": 2000,
+                        "focalPointY": 1331,
+                        "__typename": "ImageFile"
+                      },
+                      "__typename": "Image"
+                    },
+                    "__typename": "ImageParagraph"
+                  },
+                  "useAutoHyphens": false,
+                  "__typename": "Article"
+                },
+                "__typename": "ArticleEdge"
+              }
+            ],
+            "__typename": "ArticleConnection"
+          },
+          "__typename": "Channel"
+        },
+        "topics": {
+          "edges": [
+            {
+              "node": {
+                "preferredUri": "/stichworte/e/euro",
+                "label": "Euro",
+                "tid": "34818",
+                "__typename": "Keyword"
+              },
+              "__typename": "ProfileKeywordUnionEdge"
+            },
+            {
+              "node": {
+                "preferredUri": "/stichworte/d/dollar",
+                "label": "Dollar",
+                "tid": "35544",
+                "__typename": "Keyword"
+              },
+              "__typename": "ProfileKeywordUnionEdge"
+            },
+            {
+              "node": {
+                "preferredUri": "/stichworte/g/geldpolitik",
+                "label": "Geldpolitik",
+                "tid": "36351",
+                "__typename": "Keyword"
+              },
+              "__typename": "ProfileKeywordUnionEdge"
+            },
+            {
+              "node": {
+                "preferredUri": "/stichworte/f/franken",
+                "label": "Franken",
+                "tid": "35126",
+                "__typename": "Keyword"
+              },
+              "__typename": "ProfileKeywordUnionEdge"
+            }
+          ],
+          "__typename": "ProfileKeywordUnionConnection"
+        },
+        "heroImageBody": [
+          {
+            "id": "cGFyYWdyYXBoOmltYWdlOjE5ODAyNzI6NzIwNDQ0Ng==",
+            "anchorId": null,
+            "title": null,
+            "caption": "<p>Laut EZB-Präsidenting Christine Lagarde könnte noch mehr als ein Zinsschritt nötig sein – das stärkt den Euro. </p>\n",
+            "suppressSource": false,
+            "fullWidth": false,
+            "image": {
+              "id": "736766",
+              "credit": "imago/sepp spiegl",
+              "showOriginal": false,
+              "file": {
+                "id": "ZmlsZTo3Njk2Mzc6OjIzNjIsMTU0NzppbmxpbmVfaW1hZ2VfMTIwMDox",
+                "relativeOriginPath": "/media/field_image/2023-07/imago_images_0260176052.jpg",
+                "focalPointX": 2362,
+                "focalPointY": 1547,
+                "alt": "Deutschland, Frankfurt, 15.06.2023 Pressekonferenz der EZB Foto: Christine Lagarde, EZB-Praesidentin Pressekonferenz der EZB *** Germany, Frankfurt, 15 06 2023 ECB Press Conference Photo Christine Lagarde, ECB President ECB Press Conference",
+                "height": 589,
+                "width": 900,
+                "origin": "https://www.handelszeitung.ch/sites/default/files/media/field_image/2023-07/imago_images_0260176052.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          }
+        ],
+        "teaserImage": {
+          "id": "cGFyYWdyYXBoOmltYWdlOjE5ODAyNzI6NzIwNDQ0Ng==",
+          "caption": "<p>Laut EZB-Präsidenting Christine Lagarde könnte noch mehr als ein Zinsschritt nötig sein – das stärkt den Euro. </p>\n",
+          "image": {
+            "id": "736766",
+            "credit": "imago/sepp spiegl",
+            "file": {
+              "id": "ZmlsZTo3Njk2Mzc6OjIzNjIsMTU0NzoxNng5XzU2MDox",
+              "alt": "Deutschland, Frankfurt, 15.06.2023 Pressekonferenz der EZB Foto: Christine Lagarde, EZB-Praesidentin Pressekonferenz der EZB *** Germany, Frankfurt, 15 06 2023 ECB Press Conference Photo Christine Lagarde, ECB President ECB Press Conference",
+              "relativeOriginPath": "/media/field_image/2023-07/imago_images_0260176052.jpg",
+              "focalPointX": 2362,
+              "focalPointY": 1547,
+              "width": 840,
+              "height": 473,
+              "__typename": "ImageFile"
+            },
+            "__typename": "Image"
+          },
+          "__typename": "ImageParagraph"
+        },
+        "body": [
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6MTk3OTcxNjo3MjA0NDQz",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Dass der <a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" data-teaser-checkbox=\" \" href=\"https://www.handelszeitung.ch/konjunktur/der-franken-behauptet-sich-gegen-die-meisten-wahrungen-619690\" rel=\" \">Franken viel wert</a> ist, erfahren viele Schweizerinnen und Schweizer gerade in ihren Sommerferien: Die 10-Euro-Pizza am italienischen Strand kostet sie günstige 9.60 Franken. Die 1.50-Dollar-Glacé in New York belastet das Reisebudget nur mit 1.29 Franken.</p>",
+            "characterCount": 262,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXM5NEluRUdPOm5ldy1zNzVaVkNQaA==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Dass auch der Euro selbst stark ist, geht gerne vergessen. Doch gegenüber den meisten anderen Währungen als dem Franken ist die Gemeinschaftswährung im Aufwind – und wie. </p>",
+            "characterCount": 171,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWNlODdkMFZyOm5ldy1kYlpMSG00Mg==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Gemessen am Wechselkurs, der die Gemeinschaftswährung mit den Währungen der Handelspartner des Euroraums vergleicht, war der Euro noch nie so stark. Dieser sogenannte nominale effektive Wechselkurs ist auf dem höchsten Stand seit Einführung der Gemeinschaftswährung. </p>",
+            "characterCount": 267,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFiU0hTeWRSOm5ldy15bFA2aWhHVw==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p> </p>",
+            "characterCount": 1,
+            "isLastOfGroup": true,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOmVtYmVkOjE5ODAyNzA6NzIwNDQ0NA==",
+            "anchorId": null,
+            "header": null,
+            "embedCode": "<div class=\"infogram-embed\" data-id=\"c7b91304-064c-49e5-9440-a005785856de\" data-type=\"interactive\" data-title=\"Euro-Index\"></div><embeddedscript async>!function(e,i,n,s){var t=\"InfogramEmbeds\",d=e.getElementsByTagName(\"script\")[0];if(window[t]&&window[t].initialized)window[t].process&&window[t].process();else if(!e.getElementById(n)){var o=e.createElement(\"script\");o.async=1,o.id=n,o.src=\"https://e.infogram.com/js/dist/embed-loader-min.js\",d.parentNode.insertBefore(o,d)}}(document,0,\"infogram-async\");</embeddedscript>",
+            "autoAdjustHeight": false,
+            "disableLazyloading": false,
+            "disableCookieConsent": false,
+            "__typename": "EmbedParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6MTk4MDI3MTo3MjA0NDQ1",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Dies hat vor allem mit der Stärke des Euro gegenüber dem Dollar zu tun, denn die Währung der USA, des wichtigsten Handelspartners der Euro-Zone, hat mit 16 Prozent das grösste Gewicht im Euro-Wechselkursindex</p>",
+            "characterCount": 208,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdQUVAxTDhOOm5ldy1zMDJDTkc4Rw==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Es folgen China, Grossbritannien und an vierter Stelle die Schweiz. </p>",
+            "characterCount": 68,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXE5SWdEaXhZOm5ldy1oNWpCQTBQVQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p><a onclick=\"window.handleWysiwygLink(event)\" target=\"_self\" data-teaser-align=\"right\" data-teaser-checkbox=\" \" href=\"https://www.handelszeitung.ch/geld/die-wahre-bedeutung-der-dollarschwache-621070\" rel=\" \">Die diesjährige Dollar-Schwäche hat den effektiven Euro-Kurs beflügelt.</a> Der Euro-Dollar-Kurs ist mehr als 18 Prozent gestiegen, seit er im September unter die Parität gefallen war und die Europäische Zentralbank mit grossen Zinsschritten die US-Notenbank Fed in ihrer aggressiven Straffung zu kopieren begann.</p>",
+            "characterCount": 309,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXkzQjVoYjJFOm5ldy1wRXpkNjZ6Rw==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Gegenüber dem chinesischen Yuan ist der Euro so hoch wie seit drei Jahren nicht mehr. Gegenüber dem japanischen Yen ist er ebenfalls in die Höhe geschossen, und zuletzt hat er auch gegenüber dem britischen Pfund Boden gutgemacht.</p>",
+            "characterCount": 229,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXk5cjhmcjl3Om5ldy14Yms2RjJ4bA==",
+            "anchorId": null,
+            "header": null,
+            "text": "<h3>Währungsnachteil für europäische Unternehmen</h3>\n\n<p>Der Haupttreiber für die jüngste Euro-Stärke ist die Politik der Zentralbanken beziehungsweise sind es die Erwartungen diesbezüglich. Während in den USA bereits über Zinssenkungen spekuliert wird, scheint die EZB noch etwas weiter weg vom Ziel zu sein und die Inflation noch nicht gebändigt zu haben.</p>",
+            "characterCount": 344,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWw4bTFFQjZTOm5ldy12RFdlenh5cQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Eine starke Währung wirkt sich nicht nur auf Auslandsreisen aus. Sie wirkt im Land ähnlich wie eine straffe Geldpolitik. Die importierte Inflation wird gedämpft, die Konjunktur wird gebremst, weil Unternehmen im Ausland weniger verdienen und mehr Mühe haben, ihre teuren Produkte zu verkaufen.</p>",
+            "characterCount": 293,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxIR1BoeXl5Om5ldy1oVnB0SVNLVg==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Vor allem die Aufwertung gegenüber dem Yuan wird von Expertinnen kritisch beobachtet, zumal auch dort die Konjunktur ins Stottern geraten ist und Europa viele Produkte nach China verkauft. Die Stärke des Euro sei für die EZB klar ein Grund zur Besorgnis, sagte ein Devisenanalyst von Insight Investment gegenüber dem Finanzportal Bloomberg. </p>",
+            "characterCount": 341,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXVMZEVWdjJ2Om5ldy1vNkpxaTNGOQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<h3>Fed und EZB vor kleinem Zinsschritt</h3>\n\n<p>Die Wechselkurse haben Zentralbanken stets im Auge, aktuell dreht sich aber immer noch alles um die Inflation. Die Euro-Währungshüter tagen am kommenden Donnerstag in Frankfurt zum Zinsentscheid. Es wird erwartet, dass die Leitzinsen erneut um 1 Viertelprozentpunkt angehoben werden. Denn die Inflation ist trotz deutlichem Rückgang immer noch zu hoch und könnte sich über Zweit- und Drittrundeneffekte länger festsetzen, so die Befürchtung der Währungshüter. Erst im Juni hat die EZB ihre Inflationsprognosen für 2024 und 2025 nach oben revidiert. </p>",
+            "characterCount": 584,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxrTDQ5T3JnOm5ldy13MzhvVjM2OQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Spannend wird vor allem sein, wie sich die EZB bezüglich weiterer Zinserhöhungen positioniert. Der starke Euro gäbe ihr ein Argument, auf weitere Zinsschritte zu verzichten und die Effekte der bisherigen Massnahmen abzuwarten. </p>",
+            "characterCount": 227,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXQzcXh6ZGh3Om5ldy1pZWpxdnJoZA==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Eine solche Zinspause hat die US-Notenbank im Juni eingelegt. Prompt ist der Dollar abgestürzt und heizt die Konjunktur weiter an. Deshalb ist für das Fed-Treffen am kommenden Dienstag und Mittwoch ein weiterer Zinsschritt in der Höhe von 0,25 Prozentpunkten eingepreist. </p>",
+            "characterCount": 272,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBLVnFYcGsyOm5ldy1vQmJQM2pvWQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p>Die Schweizerische Nationalbank (SNB) passt ihre Geldpolitik in der Regel nur einmal im Quartal an. Der nächste Zinsentscheid erfolgt am 21. September. Bis dahin sind ihr auf der Zinsseite die Hände gebunden, und sie kann nur über den Devisenmarkt den Franken beeinflussen. Seit geraumer Zeit stehen Devisenverkäufe im Vordergrund, so wurden im ersten Quartal über 30 Milliarden Franken an Fremdwährungen veräussert. Solche Transaktionen machen den Franken in der Tendenz noch stärker.</p>",
+            "characterCount": 485,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJQT2VCRXdHOm5ldy1ydzNZa3BCRQ==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p> </p>",
+            "characterCount": 1,
+            "isLastOfGroup": false,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          },
+          {
+            "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW52dTYydkJ2Om5ldy13MW9Ed1BwWA==",
+            "anchorId": null,
+            "header": null,
+            "text": "<p> </p>",
+            "characterCount": 1,
+            "isLastOfGroup": true,
+            "styleValue": null,
+            "__typename": "TextParagraph"
+          }
+        ],
+        "__typename": "Article"
+      },
+      "__typename": "Route"
+    },
+    "__typename": "Environment"
+  }
+}

@@ -1,0 +1,116 @@
+.Form {
+  position: relative;
+}
+
+.Input {
+  composes: Input from 'form.legacy.css';
+  border-color: $greyB;
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  opacity: 1;
+  padding: $defaultPadding;
+  padding-left: 0;
+  width: calc(100% - 10px);
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2rem;
+  }
+}
+
+.InputError {
+  border-bottom-color: $redA;
+  color: $redA;
+}
+
+.ButtonWrapper {
+  margin-top: 16px;
+  text-align: center;
+}
+
+.Button {
+  /* empty */
+}
+
+.ButtonLabel {
+  /* empty */
+}
+
+.ButtonGreen, .ButtonGreen:hover {
+  background-color: $colorMailchimp;
+}
+
+.SuccessMessage {
+  color: color($greyA lightness(+10%));
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1.87;
+  margin-bottom: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    width: 65%;
+  }
+}
+
+.ErrorMessage {
+  color: $redA;
+  display: none;
+  font-family: $fontSpezia;
+  font-size: 10px;
+  line-height: 2;
+  margin: 3px 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 12px;
+    line-height: 1.67;
+    margin-top: 5px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 15px;
+  }
+}
+
+.ShowErrorMessage {
+  composes: ErrorMessage;
+  display: block;
+}
+
+.ShakeButton {
+  animation: shake-animation 0.82s cubic-bezier(0.36, 0.07, 0.19, 0.97) both;
+  transform: translate3d(0, 0, 0);
+}
+
+@keyframes shake-animation {
+  10%,
+  90% {
+    transform: translate3d(-1px, 0, 0) rotate(3deg);
+  }
+
+  20%,
+  80% {
+    transform: translate3d(2px, 0, 0) rotate(-3deg);
+  }
+
+  30%,
+  50%,
+  70% {
+    transform: translate3d(-4px, 0, 0) rotate(3deg);
+  }
+
+  40%,
+  60% {
+    transform: translate3d(4px, 0, 0) rotate(-3deg);
+  }
+}

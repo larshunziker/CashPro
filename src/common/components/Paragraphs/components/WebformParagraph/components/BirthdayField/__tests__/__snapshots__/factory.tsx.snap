@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] BirthdayField factory Should render an input field, validate the date and show error message if falsy 1`] = `
+<div>
+  <div
+    class="WrapperClassName FieldWithHelperTextWrapper"
+  >
+    <input
+      class="InputClassName HasErrorClassName"
+      id=""birthday""
+      name=""birthday""
+      type="text"
+      value="abcdefgh"
+    />
+    <label
+      class="LabelClassName LabelAboveClassName HasError HasErrorClassName"
+      for=""birthday""
+    >
+      "Geburtstag"
+      *
+    </label>
+    <span
+      class="ErrorMessageClassName"
+      data-testid="inputfield-error-message"
+    >
+      Bitte ein gültiges Datum angeben
+    </span>
+  </div>
+</div>
+`;

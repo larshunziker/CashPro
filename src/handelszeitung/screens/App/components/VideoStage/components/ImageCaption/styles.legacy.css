@@ -1,0 +1,34 @@
+.Wrapper {
+  composes: InfoParagraphWhite from 'typography.legacy.css';
+  order: 3;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 333px;
+    overflow-y: auto;
+    padding-right: 8px;
+
+    &::-webkit-scrollbar {
+      width: 8px;
+    }
+
+    &::-webkit-scrollbar-track {
+      background: $transparent;
+    }
+
+    &::-webkit-scrollbar-thumb {
+      background: color($white alpha(20%));
+    }
+
+    &:hover {
+      &::-webkit-scrollbar-thumb {
+        background: color($white alpha(60%));
+      }
+    }
+  }
+}
+
+.CreditWrapper {
+  composes: CreditsWhite from 'typography.legacy.css';
+  margin-top: 8px;
+}

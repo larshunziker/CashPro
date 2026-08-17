@@ -1,0 +1,146 @@
+.Icon {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  display: inline-block;
+  font-family: 'gault-millau' !important; /* stylelint-disable-line */
+  font-size: inherit;
+
+  /* Better Font Rendering =========== */
+  -moz-osx-font-smoothing: grayscale; /* stylelint-disable-line */
+  -webkit-font-smoothing: antialiased;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: normal;
+  line-height: 1;
+  speak: none;
+  text-rendering: auto;
+  text-transform: none;
+}
+
+/* stylelint-disable */
+
+.IconListing::before {
+  content: '\e922';
+}
+.IconNoPoints::before {
+  content: '\e920';
+}
+.IconPoints12::before {
+  content: '\e91f';
+}
+.IconCross::before {
+  content: '\e91d';
+}
+.IconArrow::before {
+  content: '\e91b';
+}
+.IconPlay::before {
+  content: '\e91e';
+}
+.IconFacebook::before {
+  content: '\e90b';
+}
+.IconLocation::before {
+  content: '\e905';
+}
+.IconPhone::before {
+  content: '\e906';
+}
+.IconLocator::before {
+  content: '\e907';
+}
+.IconSlash::before {
+  content: '\e909';
+}
+.IconEnvelope::before {
+  content: '\e90c';
+}
+.IconChevronRight::before {
+  content: '\e90d';
+}
+.IconChevronLeft::before {
+  content: '\e90e';
+}
+.IconPrint::before {
+  content: '\e910';
+}
+.IconPoints12Bracket::before {
+  content: '\e926';
+}
+.IconPoints13Bracket::before {
+  content: '\e927';
+}
+.IconPoints14Bracket::before {
+  content: '\e928';
+}
+.IconPoints15Bracket::before {
+  content: '\e929';
+}
+.IconPoints16Bracket::before {
+  content: '\e92a';
+}
+.IconPoints17Bracket::before {
+  content: '\e92b';
+}
+.IconPoints18Bracket::before {
+  content: '\e92c';
+}
+.IconPoints19Bracket::before {
+  content: '\e92d';
+}
+.IconPoints20Bracket::before {
+  content: '\e92e';
+}
+.IconPoints20::before {
+  content: '\e912';
+}
+.IconPoints19::before {
+  content: '\e913';
+}
+.IconPoints18::before {
+  content: '\e914';
+}
+.IconPoints17::before {
+  content: '\e915';
+}
+.IconPoints16::before {
+  content: '\e916';
+}
+.IconPoints15::before {
+  content: '\e917';
+}
+.IconPoints14::before {
+  content: '\e918';
+}
+.IconPoints13::before {
+  content: '\e919';
+}
+.IconChevronUp::before {
+  content: '\e900';
+}
+.IconChevronDown::before {
+  content: '\e901';
+}
+.IconXMark::before {
+  content: '\e91d';
+}
+.IconCheck::before {
+  content: '\e941';
+}
+.IconDocument::before {
+  content: '\e93e';
+}
+.IconTriangleExclamation:before {
+  content: "\e932";
+}
+
+.IconMagnifyingGlass::before {
+  content: '\e942';
+}
+
+.IconPlusThin::before {
+  content: '\e901';
+}
+
+.IconMinusThin::before {
+  content: '\e900';
+}

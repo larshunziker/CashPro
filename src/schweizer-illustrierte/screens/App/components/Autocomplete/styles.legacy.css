@@ -1,0 +1,81 @@
+/* WARNING: Every class but .Wrapper is also used for the Autocomplete theme "AutocompleteResultPage" */
+
+.Wrapper {
+  background: $white;
+  box-shadow: 0 2px 4px 0 color($black a(50%));
+  color: $black;
+  display: block;
+  height: calc(100vh - $menuHeaderHeightXs);
+  left: -$outerGapXs;
+  list-style: none;
+  overflow-y: scroll;
+  padding: 20px 19px 0;
+  position: absolute;
+  top: 56px;
+  width: calc(100% + $outerGapXs * 2);
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid $grayA;
+    height: auto;
+    left: 0;
+    overflow: auto;
+    padding: 20px 15px 0;
+    top: 43px;
+    width: 100%;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 30px 20px 0;
+    top: 58px;
+  }
+}
+
+.LinkWrapper {
+  margin-bottom: 25px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 30px;
+  }
+
+  &:hover {
+    .Link {
+      color: $redA;
+    }
+
+    .IconStyle {
+      &::before {
+        color: $redA;
+      }
+    }
+  }
+}
+
+.Link {
+  composes: MenuItems3 from 'typography.legacy.css';
+  align-items: flex-end;
+  display: flex;
+  justify-content: space-between;
+  transition: color 0.3s ease-in-out;
+
+  & > span {
+    max-width: 350px;
+    width: calc(100% - 40px);
+  }
+}
+
+.IconStyle {
+  margin: 0 0 3px 10px;
+
+  &::before {
+    color: $black;
+    display: inline-block;
+    font-family: $fontIcons;
+    font-size: 1.3rem;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 1.6rem;
+    }
+  }
+}

@@ -1,0 +1,41 @@
+.LinkWrapper {
+  padding: 8px 0;
+}
+
+.BilanzLogo {
+  display: grid;
+  height: 18px;
+  width: 88px;
+}
+
+.SVLogo {
+  display: grid;
+  height: 13px;
+  width: 133px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 14px;
+    width: 155px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 18px;
+    width: 199px;
+  }
+}
+
+.HZLogo {
+  display: grid;
+  height: 13px;
+  width: 165px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 14px;
+    width: 191px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 18px;
+    width: 246px;
+  }
+}

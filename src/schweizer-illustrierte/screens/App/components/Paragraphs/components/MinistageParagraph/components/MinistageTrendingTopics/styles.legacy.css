@@ -1,0 +1,69 @@
+.Wrapper {
+  margin-bottom: 22px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 42px;
+  }
+}
+
+.Title {
+  composes: SectionTitle from 'typography.legacy.css';
+  align-items: center;
+  display: inline-flex;
+  justify-content: center;
+  margin-bottom: 15px;
+  text-align: center;
+  width: 100%;
+  word-break: break-word;
+
+  &::before,
+  &::after {
+    border-bottom: 1px solid $grayB;
+    content: '';
+    display: inline-block;
+    width: 23px;
+
+    @media (min-width: $smBreakpoint) {
+      width: 50px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: 100px;
+    }
+  }
+
+  &::before {
+    margin-right: 15px;
+  }
+
+  &::after {
+    margin-left: 10px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 20px;
+  }
+}
+
+.KeywordWrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.Keyword {
+  composes: Paragraph2 from 'typography.legacy.css';
+  background: color($grayA alpha(25%));
+  display: inline-block;
+  margin-bottom: $margin8;
+  margin-right: $margin8;
+  padding: 8px;
+  transition: background-color 0.3s ease-in, color 0.3s ease-in;
+
+  @media (min-width: $smBreakpoint) {
+    &:hover {
+      background-color: $redA;
+      color: $white;
+    }
+  }
+}

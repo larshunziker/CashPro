@@ -1,0 +1,7 @@
+.ContentWrapper {
+  composes: ContentWrapper from '../../styles.legacy.css';
+}
+
+.Title {
+  composes: Title from '../../styles.legacy.css';
+}

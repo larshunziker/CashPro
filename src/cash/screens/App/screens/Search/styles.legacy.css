@@ -1,0 +1,5 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+  margin-top: 40px;
+}

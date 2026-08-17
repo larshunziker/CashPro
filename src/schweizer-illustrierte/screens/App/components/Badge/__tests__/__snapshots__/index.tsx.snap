@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel Body & Health with in color  correctly and isSmall false 1`] = `
+{
+  "Content": "Content",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel People with in color  correctly and isSmall false 1`] = `
+{
+  "Content": "Content",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel People with in color default correctly and isSmall false 1`] = `
+{
+  "Content": "Content",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel People with in color petrol correctly and isSmall false 1`] = `
+{
+  "Content": "Content ContentPetrol",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel Style with in color blue correctly and isSmall null 1`] = `
+{
+  "Content": "Content ContentBlue",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel Style with in color blue correctly and isSmall true 1`] = `
+{
+  "Content": "Content ContentBlue ContentSmaller",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel Style with in color default correctly and isSmall true 1`] = `
+{
+  "Content": "Content ContentSmaller",
+  "Wrapper": "Wrapper",
+}
+`;
+
+exports[`[Component] Badge Should generate badge styles of activeMainChannel null with in color  correctly and isSmall null 1`] = `
+{
+  "Content": "Content",
+  "Wrapper": "Wrapper",
+}
+`;

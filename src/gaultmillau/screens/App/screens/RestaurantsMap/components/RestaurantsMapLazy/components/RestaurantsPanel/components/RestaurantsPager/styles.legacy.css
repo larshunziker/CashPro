@@ -1,0 +1,80 @@
+.Pager {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  margin: 10px 21px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 30px;
+    margin-right: 30px;
+  }
+}
+
+.Button {
+  composes: UnstyledButton from 'form.legacy.css';
+  color: $neutralD;
+  cursor: default;
+  font: 900 1rem/1.5rem $fontBagueSansPro;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    font-size: 1.3rem;
+    letter-spacing: 4px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    font-size: 1.5rem;
+    letter-spacing: 5px;
+    line-height: 42px;
+  }
+}
+
+.Active {
+  color: $neutralA;
+  cursor: pointer;
+}
+
+.Divider {
+  flex-shrink: 0;
+  height: 15px;
+  position: relative;
+  width: 28px;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    width: 42px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    width: 48px;
+  }
+
+  &::before {
+    background: $neutralA;
+    content: '';
+    height: 1px;
+    left: 4px;
+    position: absolute;
+    top: 6px;
+    transform: rotateZ(-58deg);
+    width: 18px;
+
+    @media (min-width: $smBreakpoint) {
+      /* > 760 */
+      left: 6px;
+      top: 5px;
+      transform: rotateZ(-60deg);
+      width: 28px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* > 960 */
+      left: 4px;
+      width: 34px;
+    }
+  }
+}

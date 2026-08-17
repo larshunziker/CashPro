@@ -1,0 +1,130 @@
+.Wrapper {
+  margin-top: 30px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 35px;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 45px;
+    margin-top: 50px;
+  }
+}
+
+.WrapperWithAlerts {
+  margin-bottom: $margin40;
+}
+
+.SubscribeButtonWrapper {
+  background: $white;
+  display: inline-block;
+  margin: 0 auto;
+  margin-bottom: -6px;
+  padding: 8px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+    margin-top: 15px;
+  }
+
+  &SY {
+    margin-bottom: -13px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.HeaderImage {
+  height: auto;
+  margin-left: -$outerGapXs;
+  width: calc(100% + 2 * $outerGapXs);
+
+  @media (min-width: $smBreakpoint) {
+    margin-left: 0;
+    width: 100%;
+  }
+}
+
+.HeadingOverviewWrapper {
+  bottom: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  z-index: 1;
+
+  &SI {
+    @media (min-width: $smBreakpoint) {
+      bottom: 50px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      bottom: 75px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 115px;
+    }
+  }
+
+  &SY {
+    @media (min-width: $smBreakpoint) {
+      bottom: 20px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      bottom: 50px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 75px;
+    }
+  }
+}
+
+.HeadingOverviewWrapperWithAlerts {
+  @media (min-width: $smBreakpoint) {
+    bottom: 24px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 40px;
+  }
+}
+
+.HeadingOverview {
+  display: inline-block;
+  margin-bottom: 22px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 14px;
+  }
+
+  &SI {
+    composes: HeadingOverviewDossier from 'typography.legacy.css';
+  }
+
+  &SY {
+    composes: HeadingOverviewDossierSY from 'typographySY.legacy.css';
+  }
+}
+
+.Lead {
+  text-align: center;
+
+  &.Mobile {
+    margin-bottom: 25px;
+    margin-top: 7px;
+  }
+
+  &SI {
+    composes: Lead2 from 'typography.legacy.css';
+  }
+
+  &SY {
+    composes: Lead2SY from 'typographySY.legacy.css';
+  }
+}

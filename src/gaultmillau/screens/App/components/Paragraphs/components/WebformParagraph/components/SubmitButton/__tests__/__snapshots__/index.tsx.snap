@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Paragraphs - WebformParagraph - SubmitButton Should render correctly 1`] = `
+<div>
+  <div
+    class="SubmitButtonWrapper"
+  >
+    <button
+      aria-label="bestätigen"
+      class="Primary"
+      tabindex="0"
+    >
+      <span>
+        Jetzt abschicken
+      </span>
+    </button>
+  </div>
+</div>
+`;

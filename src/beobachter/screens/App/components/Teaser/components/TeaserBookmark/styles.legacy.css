@@ -1,0 +1,9 @@
+.BookmarkTeaserWrapper {
+  border-bottom: 1px solid $greyB;
+  margin-bottom: $margin24;
+
+  > div > a {
+    border-bottom: 0;
+    padding-bottom: 8px;
+  }
+}

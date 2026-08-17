@@ -1,0 +1,105 @@
+.Wrapper {
+  background: $gradientBlackMenu;
+  color: $white;
+  display: flex;
+  height: calc($menuHeaderHeightXs + 20px);
+  padding: 12px 0 15px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    height: $menuHeaderHeightSm;
+    padding: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: $menuHeaderHeightXl;
+  }
+
+  .Logo {
+    margin: 0;
+    width: 105px;
+
+    @media (min-width: $smBreakpoint) {
+      width: 144px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      width: 145px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      width: 196px;
+    }
+  }
+
+  .LogoWrapper {
+    display: block;
+    float: left;
+    height: 36px;
+    width: 92px;
+
+    @media (min-width: $smBreakpoint) {
+      height: 46px;
+      width: 120px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      height: 65px;
+      width: 170px;
+    }
+  }
+}
+
+.Content {
+  composes: Navigation from 'App/components/HeaderArea/styles.legacy.css';
+}
+
+.IconWrapper {
+  align-items: center;
+  display: flex;
+}
+
+.Header {
+  composes: Header from 'App/components/Header/components/HeaderInner/styles.legacy.css';
+}
+
+.HeaderMenuItems {
+  composes: HeaderMenuItems from 'typography.legacy.css';
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 15px; /* the navigation is not in the grid so we have to add this margin to match designs :-( */
+  }
+}
+
+.MenuButton {
+  border: none;
+  cursor: pointer;
+  left: 10px;
+  line-height: 1;
+  padding: 0;
+  position: relative;
+}
+
+.Icon {
+  &::before {
+    color: $white;
+    display: inline-block;
+    font-size: 3.5rem;
+    font-weight: 600;
+    transition: color 0.3s ease-in-out;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 4rem;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 5rem;
+    }
+  }
+
+  &:hover {
+    &::before {
+      color: $redA;
+    }
+  }
+}

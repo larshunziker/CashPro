@@ -1,0 +1,127 @@
+.Grid {
+  align-content: center;
+  display: block;
+  justify-content: space-between;
+  padding-bottom: $margin24;
+  padding-top: $margin24;
+
+  @media screen and (min-width: $smBreakpoint) {
+    display: flex;
+    padding-bottom: $margin16;
+    padding-top: $margin32;
+  }
+
+  @media screen and (min-width: $xlBreakpoint) {
+    padding-bottom: $margin24;
+    padding-top: $margin24;
+  }
+}
+
+.AuthorGridWrapper {
+  column-gap: 16px;
+  display: grid;
+  grid-template-columns: 54px 1fr;
+  row-gap: 8px;
+
+  .SubscribeButtonWrapper {
+    @media screen and (max-width: $xsBreakpointTo) {
+      grid-area: 2 / 1 / 3 / 3;
+    }
+
+  }
+
+  @media screen and (min-width: $smBreakpoint) {
+    grid-template-columns: 54px 1fr 154px;
+  }
+
+  @media screen and (min-width: $xlBreakpoint) {
+    gap: 2.4rem;
+    grid-template-columns: 80px 1fr 154px;
+  }
+}
+
+.AuthorAvatar,
+.Initials {
+  border-radius: 50%;
+  height: 54px;
+  width: 54px;
+
+  @media print {
+    min-height: auto;
+  }
+
+  @media screen and (min-width: $xlBreakpoint) {
+    height: 80px;
+    width: 80px;
+  }
+}
+
+.Name {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.88rem;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+
+  @media screen and (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.36rem;
+  }
+}
+
+a:hover .Name {
+  text-decoration-color: $black;
+}
+
+.Headline {
+  color: $black;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 2.52rem;
+}
+
+.Initials {
+  align-items: center;
+  background: $greyB;
+  color: $grey70;
+  display: flex;
+  font-family: $fontRecife;
+  font-size: 2.2rem;
+  font-weight: 700;
+  justify-content: center;
+  line-height: 2.9rem;
+}
+
+.ShortDescriptionWrapper {
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 325;
+  line-height: 2.5rem;
+}
+
+.ShortDescription {
+  margin-right: $margin4;
+}
+
+.Link {
+  color: $redA;
+  white-space: nowrap;
+}
+
+.SubscribeButtonWrapper {
+  display: flex;
+
+  @media screen and (max-width: $xsBreakpointTo) {
+    left: 70px;
+    position: relative;
+  }
+
+  @media screen and (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}

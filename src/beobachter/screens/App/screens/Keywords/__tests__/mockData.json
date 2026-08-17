@@ -1,0 +1,43 @@
+{
+  "data": {
+    "environment": {
+      "keywordsByChar": {
+        "edges": [
+          {
+            "node": {
+              "id": "faksdjflkasdf",
+              "label": "Abama",
+              "preferredUri": "/stichworte/a/abama",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "jfalkdjf",
+              "label": "Amazon",
+              "preferredUri": "/stichworte/a/amazon",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          },
+          {
+            "node": {
+              "id": "aksldöfjalskdjf",
+              "label": "arbeitgeber",
+              "preferredUri": "/stichworte/a/arbeitgeber",
+              "__typename": "Keyword"
+            },
+            "__typename": "KeywordEdge"
+          }
+        ],
+        "__typename": "KeywordConnection"
+      },
+      "variables": {
+        "searchString": "A",
+        "publication": "BEO"
+      },
+      "__typename": "Environment"
+    }
+  }
+}

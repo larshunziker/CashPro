@@ -1,0 +1,335 @@
+.Wrapper {
+  background-color: $white;
+  -webkit-overflow-scrolling: touch;
+  overflow-y: scroll;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  z-index: $zIndexOverlay;
+}
+
+.MenuRight {
+  justify-content: flex-end;
+  margin-right: 0;
+}
+
+.MenuLeft, .MenuRight {
+  align-items: center;
+  display: flex;
+}
+
+.MenuLeft > button {
+  &:focus{
+    background-color: $transparent;
+    outline: none;
+  }
+}
+
+.Header {
+  margin-bottom: $margin24;
+  margin-top: $margin8;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: $margin12;
+  }
+}
+
+.ContainerWrapper {
+  composes: Container from 'sections.legacy.css';
+  overflow: hidden;
+  padding: 0;
+}
+
+.Divider {
+  border-left: 1px solid $neutralC;
+  margin-left: 14px;
+  margin-right: -14px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-left: 17px;
+    margin-right: -17px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 26px;
+    margin-right: -26px;
+  }
+}
+
+.MainNavList {
+  line-height: 1;
+  width: 100%;
+}
+
+.NavListItem {
+  position: relative;
+
+  &::before {
+    background: $neutralC;
+    bottom: 0;
+    content: '';
+    height: 1px;
+    left: 0;
+    position: absolute;
+    right: 0;
+    z-index: $zIndexHigh;
+  }
+
+  &.Active,
+  &:hover {
+    &::before {
+      background: $gradientPrimaryA;
+    }
+
+    .Link {
+      background: $gradientPrimaryA;
+      background-clip: text;
+      -webkit-text-fill-color: $transparent;
+    }
+
+    &:nth-child(1) {
+      &::before,
+      .Link {
+        background: $gradientPrimaryA;
+      }
+
+    }
+
+    &:nth-child(2) {
+      &::before,
+      .Link {
+        background: $gradientZueri;
+      }
+    }
+
+    &:nth-child(3) {
+      &::before,
+      .Link {
+        background: $gradientCaminada;
+      }
+    }
+
+    &:nth-child(-n + 3) {
+      /* First three */
+      .Link {
+        background-clip: text;
+      }
+    }
+
+    .ToggleIcon {
+      color: $primaryB;
+    }
+  }
+
+  /**
+   * Essentials
+   */
+
+  &:nth-child(-n + 3) {
+    /* First three */
+    margin-bottom: 0;
+    margin-top: 6px;
+
+    .Link {
+      color: $white;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      /* > 760 */
+      margin-top: $margin8;
+    }
+  }
+
+  &:nth-child(1) {
+    margin-top: 0;
+
+    .Link {
+      background: $gradientPrimaryA;
+    }
+
+    .SubLink {
+      &:hover {
+        background: $gradientPrimaryA;
+        background-clip: text;
+        -webkit-text-fill-color: $transparent;
+      }
+    }
+
+    .ToggleIcon {
+      color: color($white a(80%));
+    }
+  }
+
+  &:nth-child(2) {
+    .Link {
+      background: $gradientZueri;
+    }
+
+    .SubLink {
+      &:hover {
+        background: $gradientZueri;
+        background-clip: text;
+        -webkit-text-fill-color: $transparent;
+      }
+    }
+
+    .ToggleIcon {
+      color: color($white a(80%));
+    }
+  }
+
+  &:nth-child(3) {
+    .Link {
+      background: $gradientCaminada;
+    }
+
+    .SubLink {
+      &:hover {
+        background: $gradientCaminada;
+        background-clip: text;
+        -webkit-text-fill-color: $transparent;
+      }
+    }
+
+    .ToggleIcon {
+      color: color($white a(80%));
+    }
+  }
+
+  &.Active {
+    margin-bottom: 10px;
+
+    .SubNav {
+      display: block;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.Link {
+  composes: HamburgerMenuANeutralA from 'typography.legacy.css';
+  display: block;
+  margin-bottom: 0;
+  padding: 4px 8px;
+  position: relative;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 760 */
+    padding: 0 8px 4px;
+  }
+}
+
+.BlogQFirstWord {
+  color: $blogQbella;
+}
+
+.BlogQSecondWord {
+  color: $blogQitalia;
+}
+
+.SubLink {
+  composes: HamburgerMenuBNeutralA from 'typography.legacy.css';
+  display: block;
+  line-height: calc(28 / 18);
+  margin-bottom: 0;
+  padding: 0 10px;
+  position: relative;
+  z-index: $zIndexMedium;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.4rem;
+  }
+
+  &:hover {
+    background: $gradientPrimaryA;
+    background-clip: text;
+    color: $primaryA;
+    -webkit-text-fill-color: $transparent;
+  }
+}
+
+.SubNav {
+  display: none;
+  left: 0;
+  padding-bottom: 10px;
+  position: relative;
+}
+
+.ToggleSubnavi {
+  display: block;
+  height: 100%;
+  position: absolute;
+  right: 0;
+  top: 4px;
+  width: 42px;
+  z-index: $zIndexMedium;
+
+  /* Retina-specific stuff here */
+  /* stylelint-disable */
+  @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+    top: -5px;
+  }
+
+  @media (-webkit-min-device-pixel-ratio: 2) and (min-width: $smBreakpoint),
+    (min-resolution: 192dpi) and (min-width: $smBreakpoint) {
+    top: 4px;
+  }
+  /* stylelint-enable */
+}
+
+.ToggleIcon {
+  color: $neutralC;
+  font-size: 3.2rem;
+  position: absolute;
+  top: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    /* > 960 */
+    top: 10px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* > 960 */
+    top: 10px;
+  }
+}
+
+.SubNavListItem {
+  display: none;
+  line-height: 39%;
+  width: 100%;
+
+  &.Active {
+    display: block;
+    margin-bottom: 5px;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: 0;
+    }
+  }
+}
+
+.NavigationMenuWrapper {
+  inset: 0;
+  overflow: auto;
+  padding-bottom: 21px;
+  padding-top: 21px;
+  position: absolute;
+
+  @media (min-width: $smBreakpoint) {
+    padding-top: 66px;
+  }
+}
+
+.NaviLinksWrapper {
+  justify-content: space-between;
+  margin-bottom: $margin24;
+}
+
+.NavigationToggleWrapper {
+  display: contents;
+}

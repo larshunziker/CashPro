@@ -1,0 +1,99 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Header - PartnerClaim Should render BIL PartnerClaim correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Content"
+    >
+      <a
+        class="HZLogoWrapper"
+        data-testid="mocked-link"
+        href="/"
+      >
+        <div
+          data-testid="mocked-logo"
+        >
+          logo/partner-hz
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Header - PartnerClaim Should render HZ PartnerClaim correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Content"
+    >
+      <span>
+        <a
+          class="BilanzLogoWrapper"
+          data-testid="mocked-link"
+          href="https://www.bilanz.ch"
+        >
+          <div
+            data-testid="mocked-logo"
+          >
+            logo/partner-bilanz
+          </div>
+        </a>
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Header - PartnerClaim Should render HZB PartnerClaim correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Content"
+    >
+      <a
+        class="HZLogoWrapper"
+        data-testid="mocked-link"
+        href="/"
+      >
+        <div
+          data-testid="mocked-logo"
+        >
+          logo/partner-hz
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Header - PartnerClaim Should render SV PartnerClaim correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <div
+      class="Content"
+    >
+      <a
+        class="HZLogoWrapper"
+        data-testid="mocked-link"
+        href="/"
+      >
+        <div
+          data-testid="mocked-logo"
+        >
+          logo/partner-hz
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+`;

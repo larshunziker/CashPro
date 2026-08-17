@@ -1,0 +1,184 @@
+{
+  "anchorId": null,
+  "id": "179988",
+  "termReference": {
+    "id": "dGF4b25vbXlfdGVybTo1Njk5",
+    "landingPage": {
+      "id": "bm9kZToxOTUwNQ==",
+      "preferredUri": "/traumdestination-karibik",
+      "title": "Traumdestination Karibik",
+      "shortTitle": "Fr\u00fchling 2018",
+      "teaserImage": {
+        "id": "test1234",
+        "caption": null,
+        "image": {
+          "file": {
+            "alt": "Fitchi-strand",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/fitchi-strand.jpg",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      "__typename": "LandingPage"
+    },
+    "title": "Wallis",
+    "preferredUri": "/specials/wallis",
+    "channelType": "special",
+    "logoChoice": "SI",
+    "sponsor": {
+      "id": "bm9kZToxOTUwNg==",
+      "title": "Tui",
+      "colorCode": "rgba(112, 203, 244, 1)",
+      "teaserImage": {
+        "id": "test1234",
+        "link": {
+          "path": "https://www.tui.ch/de/",
+          "__typename": "Link"
+        },
+        "image": {
+          "file": {
+            "alt": "Tui",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/tui.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      },
+      "__typename": "Sponsor"
+    },
+    "partners": {
+      "edges": [
+        {
+          "node": {
+            "title": "Partner A",
+            "canonicalUri": "/group/9/content/20415",
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        },
+        {
+          "node": {
+            "title": "Partner B",
+            "canonicalUri": "/group/9/content/20417",
+            "__typename": "Sponsor"
+          },
+          "__typename": "SponsorEdge"
+        }
+      ],
+      "__typename": "SponsorConnection"
+    },
+    "special": {
+      "id": "dGF4b25vbXlfdGVybTo1Njk2",
+      "title": "Travel",
+      "logo": {
+        "source": "https://api.dev.schweizer-illustrierte.ch/sites/default/files/2018-12/Travel_0.svg",
+        "__typename": "File"
+      },
+      "colorCode": "rgba(20, 190, 165, 1.0)",
+      "format": "portrait",
+      "__typename": "Special"
+    },
+    "entities": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToxOTUxMg==",
+            "title": "Das Wallis ist so sch\u00f6n",
+            "shortTitle": "Berge Berge Berge ",
+            "preferredUri": "/wallis/das-wallis-ist-so-schon",
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTUxNg==",
+            "title": "Der grosse Fotowettbewerb",
+            "shortTitle": "#MeinWinterimWallis",
+            "preferredUri": "/wallis/der-grosse-fotowettbewerb",
+            "__typename": "Article"
+          },
+          "__typename": "SearchableUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToxOTMxNg==",
+            "title": "Die Bilder der 1.-August-Wanderung mit Alain Berset",
+            "shortTitle": "SI-Event mit dem Bundespr\u00e4sidenten",
+            "preferredUri": "/wallis/galleries/si-event-mit-dem-bundesprasidenten-die-bilder-der-1-august-wanderung-mit-alain",
+            "__typename": "ImageGallery"
+          },
+          "__typename": "SearchableUnionEdge"
+        }
+      ],
+      "__typename": "SearchableUnionConnection"
+    },
+    "__typename": "Channel"
+  },
+  "title": "Wallis",
+  "imageFormat": "landscape",
+  "image": null,
+  "entities": {
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTUxMg==",
+          "title": "Das Wallis ist so sch\u00f6n",
+          "preferredUri": "/wallis/das-wallis-ist-so-schon",
+          "shortTitle": "Berge Berge Berge ",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybTo1Njk5",
+            "channelType": null,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [
+              {
+                "node": {
+                  "id": "YXV0aG9yOjM1MTM=",
+                  "name": "Peter  de Jong",
+                  "imageParagraph": null,
+                  "__typename": "Author"
+                },
+                "__typename": "AuthorEdge"
+              }
+            ],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "test1234",
+            "image": {
+              "file": {
+                "alt": "Wallis Berge",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/wallis_berge.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "__typename": "TeaserStageParagraph"
+}

@@ -1,0 +1,99 @@
+.SelectField {
+  background-color: $white;
+  border-bottom: 1px solid $neutralB;
+  border-left: 0;
+  border-radius: 0;
+  border-right: 0;
+  border-top: 0;
+  color: $neutralA;
+  display: block;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-weight: 500;
+  letter-spacing: -0.6px;
+  line-height: 2;
+  position: relative;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    bottom: -20px;
+    font-size: 1.7rem;
+    line-height: 1.5;
+  }
+}
+
+.SelectFieldIcon {
+  color: $neutralB;
+  float: right;
+  font-size: 1.8rem;
+  letter-spacing: -0.9px;
+  margin-top: 4px;
+  pointer-events: none;
+}
+
+.MobileIcon {
+  position: relative;
+  right: 6px;
+  top: -30px;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    top: -8px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    top: -36px;
+  }
+}
+
+.HasError {
+  border-color: $error;
+  color: $error;
+}
+
+.OptionItemsWrapper {
+  background-color: $white;
+  box-shadow: 3px 3px 20px $neutralD;
+  display: block;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  margin-left: -5px;
+  margin-right: -5px;
+  max-height: 300px;
+  overflow-y: scroll;
+  padding: 13px;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    max-width: 120px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.7rem;
+  }
+}
+
+.OptionItem {
+  color: $neutralA;
+  cursor: pointer;
+  display: block;
+  font-size: 1.5rem;
+  height: 30px;
+  letter-spacing: -0.6px;
+  line-height: 2;
+
+  &:hover {
+    color: $neutralD;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* 760 */
+    font-size: 2rem;
+  }
+}

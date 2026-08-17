@@ -1,0 +1,33 @@
+.ListWrapper {
+  background: $white;
+  box-shadow: 0 5px 10px 0 $blackAlpha4;
+  left: $margin16;
+  list-style: none;
+  position: absolute;
+  width: calc(100% - $margin16 * 2);
+  z-index: 999;
+}
+
+.ListItem {
+  cursor: pointer;
+  display: block;
+  transition: background 0.3s ease-in-out;
+  width: 100%;
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $grey30;
+  }
+
+  &:hover {
+    background: $greenLight;
+  }
+}
+
+.ListButton {
+  composes: TextButton from 'helpers.legacy.css';
+  cursor: pointer;
+  font-family: $fontSpezia;
+  padding: $margin8 $margin16;
+  text-align: left;
+  width: 100%;
+}

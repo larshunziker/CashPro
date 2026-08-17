@@ -1,0 +1,120 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: block;
+  line-height: 0;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+.ContentWrapper {
+  line-height: 0;
+  min-height: 249px;
+  padding: 0 16px;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 412px;
+    padding: 0 24px;
+  }
+}
+
+.RatgeberAktuellContentWrapper {
+  @media (min-width: $xlBreakpoint) {
+    min-height: 249px;
+  }
+}
+
+.Title {
+  composes: TeaserTitleH2 from 'typography.legacy.css';
+  margin-bottom: 12px;
+  margin-top: $margin8;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+    margin-top: 12px;
+  }
+}
+
+.Lead {
+  composes: TeaserLeadBlack from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-wrap: break-word;
+}
+
+.ShortTitle {
+  composes: SpitzmarkeTeaserHero from 'typography.legacy.css';
+  margin-bottom: $margin4;
+}
+
+.Icon {
+  bottom: 16px;
+  left: 16px;
+  position: absolute;
+  z-index: 2;
+
+  @media (min-width: $xlBreakpoint) {
+    bottom: 24px;
+    left: 24px;
+  }
+}
+
+.BeoPlusLogo {
+  display: inline-block;
+  height: 26px;
+  margin-right: 6px;
+  position: relative;
+  width: 39px;
+
+  @media (min-width: $xlBreakpoint) {
+    height: 30px;
+    width: 45px;
+  }
+}
+
+.ImageWrapper {
+  height: 249px;
+  line-height: 0;
+  min-width: 372px;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 282px;
+    min-width: 422px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 412px;
+    min-width: 732px;
+  }
+}
+
+.GuideImageWrapper {
+  @media (min-width: $mdBreakpoint) {
+    min-width: 292px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-width: 477px;
+  }
+}
+
+.RatgeberAktuellImageWrapper {
+  @media (min-width: $xlBreakpoint) {
+    height: 282px;
+    min-width: 422px;
+  }
+}
+
+.Image {
+  height: 100%;
+  width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    height: auto;
+  }
+}

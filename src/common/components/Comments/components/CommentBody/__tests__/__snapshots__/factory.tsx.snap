@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] CommentBody Should render correctly 1`] = `
+<div
+  class="NameDefaultClass"
+>
+  <div
+    data-testid="commentbody-name-wrapper"
+  >
+    username
+  </div>
+</div>
+`;

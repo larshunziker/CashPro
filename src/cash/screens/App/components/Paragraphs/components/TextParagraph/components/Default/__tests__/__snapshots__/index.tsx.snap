@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Paragraphs - TextParagraph default Should render with TableCaptionLeft if origin is sponsoring 1`] = `
+{
+  "Header": "Header",
+  "HideLeftShadow": "HideLeftShadow",
+  "HideRightShadow": "HideRightShadow",
+  "Overflow": "Overflow",
+  "Wrapper": "paragraph text-paragraph RichTextWrapper TableCaptionLeft",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph default Should return the correct default header 1`] = `
+<h2
+  className="Header"
+  data-testid="textparagraph-header"
+>
+  header text
+</h2>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph default Should return the correct header for SECTION_PARAGRAPH_LEXICON_TYPE 1`] = `
+<h3
+  className="Header"
+  data-testid="textparagraph-header-h3"
+>
+  header text
+</h3>
+`;
+
+exports[`[Component] Paragraphs - TextParagraph default Should return the correct styles for normal text paragraphs 1`] = `
+{
+  "Header": "Header",
+  "HideLeftShadow": "HideLeftShadow",
+  "HideRightShadow": "HideRightShadow",
+  "Overflow": "Overflow",
+  "Wrapper": "paragraph text-paragraph RichTextWrapper",
+}
+`;
+
+exports[`[Component] Paragraphs - TextParagraph default Should return the correct styles for text paragraphs within info boxes 1`] = `
+{
+  "Header": "Header",
+  "HideLeftShadow": "HideLeftShadow",
+  "HideRightShadow": "HideRightShadow",
+  "Overflow": "Overflow Infobox",
+  "Wrapper": "paragraph text-paragraph RichTextWrapper",
+}
+`;

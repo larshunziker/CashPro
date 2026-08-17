@@ -1,0 +1,120 @@
+.Title {
+  font-size: 23px;
+  font-weight: 700;
+  margin-bottom: $margin16;
+}
+
+.ThreadTitle {
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: $margin4;
+}
+
+.Posts {
+  margin-bottom: $margin16;
+}
+
+.PostWrapper {
+  background-color: $white;
+  border: 1px solid $greyC;
+  margin-bottom: $margin48;
+}
+
+.Post {
+  margin-bottom: 16px;
+  max-height: 200px;
+  overflow: hidden;
+  padding: 16px;
+  transition: 0.5s ease-out;
+
+  &.Open {
+    max-height: 9999px;
+    transition: 1s ease-in;
+  }
+
+  &.Closed {
+    mask-image: linear-gradient(to bottom, $black 70%, transparent 100%);
+  }
+}
+
+.Username {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.Info {
+  color: $greyB;
+  font-size: 13px;
+  margin-bottom: $margin16;
+}
+
+.Message {
+  color: $blackB;
+  margin-bottom: $margin16;
+
+  blockquote {
+    background-color: $white;
+    box-shadow: 0 10px 6px -6px $greyB;
+    margin-bottom: $margin16;
+    padding:16px;
+  }
+
+  p {
+    font-size: 14px;
+  }
+
+  a {
+    color: $secondaryA;
+
+    &:visited {
+      color: $secondaryA;
+    }
+
+    &:hover {
+      text-decoration: underline;
+    }
+  }
+}
+
+.Link {
+  color: $secondaryA;
+
+  &:visited {
+    color: $secondaryA;
+  }
+
+  &:hover {
+    text-decoration: underline;
+  }
+}
+
+.CommentLink {
+  font-size: 12px;
+  margin-left: 8px;
+}
+
+.CollapsButton {
+  border: 0;
+  border-top: 1px solid $greyD;
+  color: $secondaryA;
+  display: block;
+  font-size: 14px;
+  font-weight: 700;
+  margin: 0 $margin16;
+  padding: 16px;
+  text-align: center;
+  width: calc(100% - 32px);
+
+  span {
+    margin-right: 8px;
+
+    &:hover {
+      color: $secondaryB;
+      cursor: pointer;
+    }
+  }
+}
+
+.HideMoreButton {
+  display: none;
+}

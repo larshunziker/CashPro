@@ -1,0 +1,182 @@
+.Footer {
+  composes: Section from 'sections.legacy.css';
+  background-color: $blackB;
+  color: $white;
+  position: relative;
+  will-change: transition;
+  z-index: 0;
+}
+
+.FooterLogo {
+  display: inline-block;
+
+  @media (min-width: $smBreakpoint) {
+    height: 20px;
+  }
+}
+
+.FooterHeader {
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.ListItem {
+  composes: Footer from 'typography.legacy.css';
+  margin-bottom: $margin16;
+}
+
+.Link {
+  composes: Footer from 'typography.legacy.css';
+  color: $white;
+}
+
+.LogoWrapper {
+  margin: $margin32 0 10px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin: 41px 0 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin48;
+  }
+}
+
+.SocialMediaBarWrapper {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 39px;
+  margin-top: 21px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+
+  svg {
+    fill: $blackB;
+  }
+}
+
+.Disclaimer {
+  composes: H4 from 'typography.legacy.css';
+  color: $white;
+
+  @media (min-width: $xsBreakpoint) {
+    @mixin fontSize 17;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 20;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    @mixin fontSize 19;
+    @mixin lineHeight 23;
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  .CollapseToggleWrapper {
+    text-align: right;
+  }
+}
+
+.PublicationCollapseHeader {
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+    height: 75px;
+    padding: 0;
+  }
+}
+
+.PublicationCollapseHeaderCol {
+  line-height: 1;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.PublicationCollapseBody {
+  height: 0;
+  overflow: hidden;
+  visibility: hidden;
+}
+
+.PublicationCollapseBodyIsOpen {
+  height: auto;
+  visibility: visible;
+}
+
+.PublicationList {
+  columns: 1;
+  list-style: none;
+  margin-bottom: $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    columns: 2;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    columns: 4;
+    margin-bottom: 270px;
+  }
+}
+
+.PublicationToggle {
+  composes: InfoParagraph from 'typography.legacy.css';
+  background: none;
+  border: none;
+  color: $white;
+  outline: none;
+  padding: 0;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.Open {
+    float: right;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    @mixin fontSize 16;
+    @mixin lineHeight 26;
+  }
+}
+
+.PublicationToggleIsOpen {
+  align-items: center;
+  display: flex;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}
+
+.PublicationSection {
+  composes: Section from 'sections.legacy.css';
+  background: $blackA;
+}
+
+
+.ExpansionIcon {
+  @mixin fontSize 18;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ExpansionIconOpen {
+  transform: rotate(180deg);
+}

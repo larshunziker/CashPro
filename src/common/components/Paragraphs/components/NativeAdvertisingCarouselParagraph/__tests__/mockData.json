@@ -1,0 +1,159 @@
+{
+  "nativeAdvertisingCarouselParagraph": {
+    "__typename": "NativeAdvertisingCarouselParagraph",
+    "anchorId": null,
+    "id": "cGFyYWdyYXBoOm5hdGl2ZV9hZHZlcnRpc2luZ19jYXJvdXNlbDoxNzc2OTY6MjgzNzYw",
+    "nativeAdvertising": {
+      "__typename": "NativeAdvertisingConnection",
+      "edges": [
+        {
+          "__typename": "NativeAdvertisingEdge",
+          "node": {
+            "__typename": "NativeAdvertising",
+            "id": "bm9kZToyNDQ1NQ==",
+            "gcid": "25390",
+            "title": "Native Advertising (BrandReport)",
+            "lead": "This is the lead.",
+            "subtypeValue": "brandreport",
+            "advertisingTypeLabel": "BrandReport",
+            "shortTitle": null,
+            "createDate": "2019-09-02T15:04:31",
+            "changeDate": "2019-10-10T10:30:00",
+            "trackingTeaserImpression": "https://jsonplaceholder.typicode.com/posts/4",
+            "trackingTeaserClick": "https://jsonplaceholder.typicode.com/posts/5",
+            "preferredUri": "/brandreport/red-bull/native-advertising-brandreport",
+            "authors": {
+              "__typename": "AuthorConnection",
+              "edges": [
+                {
+                  "__typename": "AuthorEdge",
+                  "node": {
+                    "__typename": "Author",
+                    "id": "YXV0aG9yOjk1NDY=",
+                    "name": "Roman Zanettin",
+                    "imageParagraph": {
+                      "__typename": "ImageParagraph",
+                      "id": "cGFyYWdyYXBoOmltYWdlOjE3NzYwNzoxODM1MDI=",
+                      "image": {
+                        "__typename": "Image",
+                        "id": "40840",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "ZmlsZTo0MDkyNTo6MjAwLDI2NDpsYXJnZTo=",
+                          "alt": "roman",
+                          "relativeOriginPath": "/portrait2014.jpg",
+                          "focalPointX": 200,
+                          "focalPointY": 264
+                        }
+                      }
+                    }
+                  }
+                }
+              ]
+            },
+            "sponsor": {
+              "__typename": "Sponsor",
+              "id": "bm9kZToxODYzMQ==",
+              "title": "Red Bull",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjE3NzYzOToxODQxNDE=",
+                "title": "red bull",
+                "image": {
+                  "__typename": "Image",
+                  "id": "40848",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo0MDk4Mjo6MCwwOmxhcmdlOg==",
+                    "alt": "",
+                    "relativeOriginPath": "/redbull.png",
+                    "focalPointX": 74,
+                    "focalPointY": 45
+                  }
+                }
+              }
+            },
+            "teaserImage": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjE4NjMxNjoyMzMxNDY=",
+              "title": null,
+              "image": {
+                "__typename": "Image",
+                "id": "43780",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo0NDM4OTo6NDQwLDMxNzpsYXJnZTo=",
+                  "alt": "Bild",
+                  "relativeOriginPath": "/bild_0.jpg",
+                  "focalPointX": 440,
+                  "focalPointY": 317
+                }
+              }
+            }
+          }
+        },
+        {
+          "__typename": "NativeAdvertisingEdge",
+          "node": {
+            "__typename": "NativeAdvertising",
+            "id": "bm9kZToxOTcwNg==",
+            "gcid": "20620",
+            "title": "Ein Testbrandreport von Franny",
+            "lead": "Hallo. Ich bin ein kleiner Blindtext. Und zwar schon so lange ich denken kann. Es war nicht leicht zu verstehen, was es bedeutet, ein blinder Text zu sein: Man macht keinen Sinn. Wirklich keinen Sinn.",
+            "subtypeValue": "brandreport",
+            "advertisingTypeLabel": "BrandReport",
+            "shortTitle": null,
+            "createDate": "2019-02-14T14:37:47",
+            "changeDate": "2019-02-14T14:37:47",
+            "trackingTeaserImpression": "https://cant.track.this",
+            "trackingTeaserClick": "https://cant.track.this",
+            "preferredUri": "/brandreport/ubs/ein-testbrandreport-von-franny",
+            "authors": {
+              "__typename": "AuthorConnection",
+              "edges": []
+            },
+            "sponsor": {
+              "__typename": "Sponsor",
+              "id": "bm9kZToxOTMxNw==",
+              "title": "UBS",
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOjE3OTE3ODoyMTc4MDU=",
+                "title": null,
+                "image": {
+                  "__typename": "Image",
+                  "id": "40850",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo0MDk4NDo6MCwwOmxhcmdlOg==",
+                    "alt": "",
+                    "relativeOriginPath": "/ubs.jpg",
+                    "focalPointX": 125,
+                    "focalPointY": 125
+                  }
+                }
+              }
+            },
+            "teaserImage": {
+              "__typename": "ImageParagraph",
+              "id": "cGFyYWdyYXBoOmltYWdlOjE4MDQ2OToyNzE4OTY=",
+              "title": null,
+              "image": {
+                "__typename": "Image",
+                "id": "41568",
+                "file": {
+                  "__typename": "ImageFile",
+                  "id": "ZmlsZTo0MjEyMTo6OTYwLDYzODpsYXJnZTo=",
+                  "alt": "Matterhorn",
+                  "relativeOriginPath": "/matterhorn.jpg",
+                  "focalPointX": 960,
+                  "focalPointY": 638
+                }
+              }
+            }
+          }
+        }
+      ]
+    }
+  }
+}

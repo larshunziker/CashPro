@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] SwipeInteractionButton Should render correctly 1`] = `
+<div>
+  <button
+    class="ButtonClassName InViewAnimationClassName"
+  />
+</div>
+`;
+
+exports[`[Common] SwipeInteractionButton Should render nothing if isHidden 1`] = `<div />`;

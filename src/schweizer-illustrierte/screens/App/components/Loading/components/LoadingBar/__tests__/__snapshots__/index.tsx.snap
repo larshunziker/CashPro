@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Loading - LoadingBar Should render correctly 1`] = `
+<div>
+  <div
+    class="LoadingIndicator"
+    data-testid="loading-indicator-wrapper"
+  >
+    <div
+      class="LoadingIndicatorItem"
+    >
+      <div
+        class="LoadingBar"
+      />
+    </div>
+    <div
+      class="LoadingIndicatorItem"
+    >
+      <div
+        class="LoadingBar"
+      />
+    </div>
+  </div>
+</div>
+`;

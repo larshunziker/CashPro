@@ -1,0 +1,82 @@
+.ExpansionPanel {
+  margin-top: $margin16;
+  position: relative;
+
+  .Header {
+    align-items: center;
+    color: $black;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    position: relative;
+    transition: transform 0.25s ease-in-out;
+    user-select: none;
+    width: 100%;
+  }
+
+  .HeaderContentWrapper {
+    align-items: center;
+    display: flex;
+    flex-direction: row-reverse;
+    position: relative;
+  }
+
+  
+
+  &.IsOpen {
+    .ArrowIcon {
+      transform: rotate(0deg);
+
+      &::before {
+        color: $redA;
+      }
+    }
+  }
+}
+
+.Icon {
+  composes: IconCollapse from 'raschFont.legacy.css';
+  font-family: $fontIcons;
+  
+  &::before {
+    color: $black;
+    display: inline-block;
+    font-size: 3rem;
+  }
+
+  &.ArrowIcon {
+    align-items: center;
+    display: flex;
+    line-height: 1;
+    margin-right: $margin8;
+    transform: rotate(180deg);
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease-in-out;
+  }
+}
+
+.Content {
+  composes: Paragraph2 from 'typography.legacy.css';
+  height: 0;
+  margin-left: 40px;
+  overflow: hidden;
+  overflow-wrap: break-word;
+  position: relative;
+  word-break: break-word; 
+
+  p {
+    @mixin Paragraph2;
+    margin-bottom: $margin16;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Title {
+  composes: Heading4 from 'typography.legacy.css';
+  overflow-wrap: break-word;
+  word-break: break-word;
+}
+
+

@@ -1,0 +1,144 @@
+.Container {
+  border-bottom: 1px solid $greyB;
+  border-top: 2px solid $black;
+  margin-inline: auto;
+  padding-top: 8px;
+
+  @media (min-width: $smBreakpoint) {
+    border-top-width: 3px;
+  }
+
+  &.InfoBoxTip {
+    border-top-color: $green;
+
+    .Title {
+      color: $green;
+    }
+  }
+
+  &.InfoBoxWarning {
+    border-top-color: $red;
+
+    .Title {
+      color: $red;
+    }
+  }
+
+  &.InfoBoxInfo {
+    border-top-color: $blue;
+
+    .Title {
+      color: $blue;
+    }
+  }
+}
+
+.Title {
+  composes: NewChannelTitle from 'typography.legacy.css';
+  margin-block: $margin8 $margin16;
+}
+
+.Content {
+  overflow: hidden;
+}
+
+.ToggleWrapper {
+  align-items: center;
+  background: transparent;
+  border: none;
+  color: $black;
+  cursor: pointer;
+  display: flex;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 500;
+  gap: 8px;
+  margin-block: $margin16 $margin32;
+  padding: 0;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.6rem;
+    font-weight: 400;
+  }
+}
+
+.Typography {
+  composes: Typography from '../../styles.legacy.css';
+  margin-bottom: 0;
+
+  h2 {
+    color: $black;
+
+    /* InfoboxH2 text style */
+    font-family: $fontSpezia;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 3rem;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 2.3rem;
+      line-height: 120%;
+    }
+  }
+
+  h3, h4, h5, h6 {
+    color: $black;
+
+    /* InfoboxH3 text style */
+    font-family: $fontSpezia;
+    font-size: 1.8rem;
+    font-weight: bold;
+    line-height: 120%;
+    margin-bottom: $margin16;
+    
+    @media (min-width: $xlBreakpoint) {
+      font-size: 2rem;
+      line-height: 3.2rem;
+    }
+  }
+
+  p {
+    /* InfoboxParagraph text style */
+    font-family: $fontSpezia;
+    font-size: 1.8rem;
+    font-weight: 300;
+    line-height: 2.88rem;
+    margin-bottom: $margin24;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 2rem;
+      line-height: 3.2rem;
+    }
+  }
+
+  a {
+    color: $black;
+
+    /* InfoboxLink text style */
+    font-family: $fontSpezia;
+    font-size: 1.8rem;
+    font-weight: normal;
+    line-height: 2.88rem;
+
+    @media (min-width: $xlBreakpoint) {
+      font-size: 2rem;
+      line-height: 3.2rem;
+    }
+  }
+}
+
+.SectionMargin {
+  margin-bottom: $margin24 !important; /* stylelint-disable-line */
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32 !important; /* stylelint-disable-line */
+  }
+}
+
+.InnerWrapper {
+  break-inside: avoid;
+
+  @media print {
+    break-inside: auto;
+  }
+}

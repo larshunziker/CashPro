@@ -1,0 +1,233 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[HELPER] popRestaurantUrlMap Should render city  for language de 1`] = `
+{
+  "label": "Alle Städte",
+  "popCityEnum": "All",
+  "url": "/pop",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city  for language fr 1`] = `
+{
+  "label": "Toutes les villes",
+  "popCityEnum": "All",
+  "url": "/fr/pop",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city ailleurs for language fr 1`] = `
+{
+  "label": "Ailleurs",
+  "popCityEnum": "Ailleurs",
+  "url": "/pop/ailleurs",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city bale for language fr 1`] = `
+{
+  "label": "Bâle",
+  "popCityEnum": "Bale",
+  "url": "/fr/pop/bale",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city basel for language de 1`] = `
+{
+  "label": "Basel",
+  "popCityEnum": "Basel",
+  "url": "/pop/basel",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city bern for language de 1`] = `
+{
+  "label": "Bern",
+  "popCityEnum": "Bern",
+  "url": "/pop/bern",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city berne for language fr 1`] = `
+{
+  "label": "Berne",
+  "popCityEnum": "Berne",
+  "url": "/fr/pop/berne",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city fribourg for language de 1`] = `
+{
+  "label": "Fribourg",
+  "popCityEnum": "Fribourg",
+  "url": "/pop/fribourg",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city fribourg for language fr 1`] = `
+{
+  "label": "Fribourg",
+  "popCityEnum": "Fribourg",
+  "url": "/fr/pop/fribourg",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city geneve for language fr 1`] = `
+{
+  "label": "Genève",
+  "popCityEnum": "Geneve",
+  "url": "/fr/pop/geneve",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city genf for language de 1`] = `
+{
+  "label": "Genf",
+  "popCityEnum": "Genf",
+  "url": "/pop/genf",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city gstaad for language de 1`] = `
+{
+  "label": "Gstaad",
+  "popCityEnum": "Gstaad",
+  "url": "/pop/gstaad",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city gstaad for language fr 1`] = `
+{
+  "label": "Gstaad",
+  "popCityEnum": "Gstaad",
+  "url": "/fr/pop/gstaad",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city lausanne for language de 1`] = `
+{
+  "label": "Lausanne",
+  "popCityEnum": "Lausanne",
+  "url": "/pop/lausanne",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city lausanne for language fr 1`] = `
+{
+  "label": "Lausanne",
+  "popCityEnum": "Lausanne",
+  "url": "/fr/pop/lausanne",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city lucerne for language fr 1`] = `
+{
+  "label": "Lucerne",
+  "popCityEnum": "Lucerne",
+  "url": "/fr/pop/lucerne",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city luzern for language de 1`] = `
+{
+  "label": "Luzern",
+  "popCityEnum": "Luzern",
+  "url": "/pop/luzern",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city neuchatel for language fr 1`] = `
+{
+  "label": "Neuchâtel",
+  "popCityEnum": "Neuchatel",
+  "url": "/fr/pop/neuchatel",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city neuenburg for language de 1`] = `
+{
+  "label": "Neuenburg",
+  "popCityEnum": "Neuenburg",
+  "url": "/pop/neuenburg",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city nott_existing_city for language de 1`] = `
+{
+  "label": "",
+  "popCityEnum": "",
+  "url": "",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city nott_existing_city for language fr 1`] = `
+{
+  "label": "",
+  "popCityEnum": "",
+  "url": "",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city stgallen for language de 1`] = `
+{
+  "label": "St. Gallen",
+  "popCityEnum": "StGallen",
+  "url": "/pop/stgallen",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city stmoritz for language de 1`] = `
+{
+  "label": "St. Moritz",
+  "popCityEnum": "StMoritz",
+  "url": "/pop/stmoritz",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city stmoritz for language fr 1`] = `
+{
+  "label": "St. Moritz",
+  "popCityEnum": "StMoritz",
+  "url": "/fr/pop/stmoritz",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city uebrigeschweiz for language de 1`] = `
+{
+  "label": "Übrige Schweiz",
+  "popCityEnum": "UebrigeSchweiz",
+  "url": "/pop/uebrigeschweiz",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city zermatt for language de 1`] = `
+{
+  "label": "Zermatt",
+  "popCityEnum": "Zermatt",
+  "url": "/pop/zermatt",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city zermatt for language fr 1`] = `
+{
+  "label": "Zermatt",
+  "popCityEnum": "Zermatt",
+  "url": "/fr/pop/zermatt",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city zurich for language de 1`] = `
+{
+  "label": "Zürich",
+  "popCityEnum": "Zurich",
+  "url": "/pop/zurich",
+}
+`;
+
+exports[`[HELPER] popRestaurantUrlMap Should render city zurich for language fr 1`] = `
+{
+  "label": "Zurich",
+  "popCityEnum": "Zurich",
+  "url": "/fr/pop/zurich",
+}
+`;

@@ -1,0 +1,64 @@
+.Wrapper {
+  line-height: 0;
+  margin: 0 auto;
+  position: relative;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.TitleWrapper {
+  left: 0;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 60px);
+  transform: translateY(-50%);
+}
+
+.Channel {
+  color: $white;
+  font-family: $fontBagueSansPro;
+  font-size: 1rem;
+  font-weight: 500;
+  letter-spacing: 1px;
+  margin-top: 18px;
+  text-align: center;
+  text-transform: uppercase;
+
+  @media (min-width: $lgBreakpoint) {
+    font-size: 1.2rem;
+    margin-top: 27px;
+  }
+}
+
+.Title {
+  composes: Title from 'Article/components/ArticleLead/components/ArticleLeadJournalistic/styles.legacy.css';
+  color: $white;
+  margin: 10px auto;
+  max-width: 582px;
+}
+
+.AuthorWrapper {
+  composes: AuthorWrapper from 'Article/components/ArticleLead/components/ArticleLeadJournalistic/styles.legacy.css';
+
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    display: block;
+    margin-top: 60px;
+  }
+}
+
+.CreateDate {
+  composes: CreateDate from 'Article/components/ArticleLead/components/ArticleLeadJournalistic/styles.legacy.css';
+}
+
+.Lead {
+  composes: Lead from 'Article/components/ArticleLead/components/ArticleLeadJournalistic/styles.legacy.css';
+  color: $white;
+  margin: 0 auto;
+  max-width: 582px;
+}

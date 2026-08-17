@@ -1,0 +1,99 @@
+.homeTop {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 30px;
+    grid-template-columns: repeat(24, 1fr);
+    grid-template-rows: repeat(8, auto);
+    margin-bottom: $margin32;
+
+    .Item0 { grid-area: 1 / 1 / 2 / 25; }
+    .Item1 { grid-area: 2 / 1 / 3 / 25; }
+    .Item2 { grid-area: 3 / 1 / 4 / 25; }
+    .Item3 { grid-area: 4 / 1 / 5 / 25; }
+    .Item4 { grid-area: 5 / 1 / 6 / 25; }
+    .Item5 { grid-area: 6 / 1 / 7 / 25; }
+    .Item6 { grid-area: 7 / 1 / 8 / 25; }
+    .Item7 { grid-area: 8 / 1 / 9 / 25; }
+    .Item8 { grid-area: 9 / 1 / 10 / 25; }
+    .Item9 { grid-area: 10 / 1 / 11 / 25; }
+    .Item10 { grid-area: 11 / 1 / 12 / 25; }
+
+    @media (max-width: $xsBreakpointTo) {
+      .Item0 { 
+        margin-left: -$outerGapXs;
+        margin-right: -$outerGapXs;
+        width: calc(100% + $outerGapXs * 2);
+      }
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(7, auto);
+      
+      .Item0 { 
+        grid-area: 1 / 1 / 2 / 25;
+        margin-bottom: $margin8; 
+      }
+
+      .Item1 { 
+        /* ad slot */
+        display: none;
+      }
+      .Item2 { grid-area: 2 / 1 / 3 / 9; }
+      .Item3 { grid-area: 2 / 9 / 3 / 17; }
+      .Item4 { grid-area: 2 / 17 / 3 / 25; }
+      .Item5 { grid-area: 3 / 1 / 5 / 7; }
+      .Item6 { grid-area: 3 / 7 / 5 / 13; }
+      .Item7 { grid-area: 3 / 13 / 6 / 25; }
+      .Item8 { grid-area: 5 / 1 / 8 / 13; }
+      .Item9 { grid-area: 6 / 13 / 8 / 19; }
+      .Item10 { grid-area: 6 / 19 / 8 / 25; }
+    }
+  }
+
+  /* Special calse 960+ */
+  @media (min-width: $mdBreakpoint) {
+    .Grid0 {
+      .Item1 { 
+        /* ad slot */
+        display: none;
+      }
+      .Item2 { grid-area: 2 / 3 / 3 / 10; }
+      .Item3 { grid-area: 2 / 10 / 3 / 17; }
+      .Item4 { grid-area: 2 / 17 / 3 / 24; }
+    }
+  }
+
+  /* Desktop */
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthXl;
+      grid-template-columns: repeat(24, 1fr);
+      grid-template-rows: repeat(8, auto);
+      
+      .Item0 { grid-area: 1 / 1 / 4 / 19; }
+
+      .Item1 { 
+        /* ad slot */
+        display: none;
+      }
+      .Item2 { grid-area: 1 / 19 / 2 / 25; }
+      .Item3 { grid-area: 2 / 19 / 3 / 25; }
+      .Item4 { grid-area: 3 / 19 / 4 / 25; }
+      .Item5 { grid-area: 4 / 1 / 6 / 7; }
+      .Item6 { grid-area: 4 / 7 / 6 / 13; }
+      .Item7 { grid-area: 4 / 13 / 7 / 25; }
+      .Item8 { grid-area: 6 / 1 / 9 / 13; }
+      .Item9 { grid-area: 7 / 13 / 9 / 19; }
+      .Item10 { grid-area: 7 / 19 / 9 / 25; }
+    }
+  }
+}

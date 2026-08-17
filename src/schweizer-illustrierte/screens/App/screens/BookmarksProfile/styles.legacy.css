@@ -1,0 +1,17 @@
+.BookmarksProfileWrapper {
+  margin-top: $margin24;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin32;
+  }
+}
+
+.LoginWrapper {
+  display: flex;
+}
+
+.Title {
+  composes: HeadingOverview from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  text-align-last: left;
+}

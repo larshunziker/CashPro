@@ -1,0 +1,21 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: $margin40;
+}
+
+.TeaserImageWrapper {
+  margin-bottom: $margin8;
+  margin-top: $margin12;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin16;
+    margin-top: $margin40;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin24;
+    margin-top: $margin48;
+  }
+}
+

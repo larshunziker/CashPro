@@ -1,0 +1,63 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  min-height: 60vh;
+
+  @media print {
+    margin-left: 0;
+    min-height: 0;
+  }
+}
+
+.Heading {
+  composes: ChannelTitle from 'typography.legacy.css';
+}
+
+.ShortTitle {
+  composes: FormLabelSmall from 'typography.legacy.css';
+  color: $greyA;
+  margin-bottom: $margin40;
+}
+
+.ButtonWrapper {
+  display: flex;
+  margin-bottom: $margin16;
+
+  > button {
+    /* stylelint-disable-next-line */
+    margin-right: $margin12 !important;
+  }
+}
+
+.TableWrapper {
+  margin-bottom: $margin40;
+  position: relative;
+}
+
+.BackButtonWrapper {
+  margin-bottom: $margin16;
+}
+
+.Content {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  min-height: 200px;
+  position: relative;
+
+  &.Centered {
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  @media print {
+    min-height: 0;
+  }
+}
+
+.NoResult {
+  composes: InfoA from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  flex-flow: column;
+}

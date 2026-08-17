@@ -1,0 +1,62 @@
+.Wrapper {
+  table {
+    margin: 0;
+  }
+
+  tr {
+    border-bottom: 1px solid $greyD;
+  }
+
+  th {
+    padding: $margin8 0;
+    text-align: right;
+  }
+
+  td {
+    padding: $margin8 0;
+    vertical-align: middle;
+  }
+}
+
+.Right {
+  text-align: right;
+}
+
+.Title {
+  composes: DataTableBold from 'typography.legacy.css';
+}
+
+.Value {
+  composes: DataTable from 'typography.legacy.css';
+  display: block;
+}
+
+.AdditionalInfo {
+  composes: InfoC from 'typography.legacy.css';
+  display: block;
+}
+
+.Skeleton, .SkeletonAdditional {
+  margin: 0 0 3px auto;
+  width: 50px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 21px;
+  }
+}
+
+.Skeleton {
+  min-height: 23px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 23px;
+  }
+}
+
+.SkeletonAdditional {
+  min-height: 14px;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 14px;
+  }
+}

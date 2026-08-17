@@ -1,0 +1,64 @@
+.Badge {
+  position: absolute;
+  right: 0;
+  top: -7px;
+  white-space: nowrap;
+  z-index: calc($zIndex1 + 1);
+}
+
+.IconStyle {
+  background-image: radial-gradient(
+    circle at 0% 100%,
+    rgb(0 0 0 / 75%) 0%,
+    transparent 56%
+  );
+  bottom: 0;
+  color: $white;
+  display: inline-block;
+  font-size: 1.2rem;
+  height: 66%;
+  left: 0;
+  position: absolute;
+  width: 66%;
+  z-index: calc($zIndex1 + 1);
+
+  &::before {
+    bottom: 10px;
+    left: 10px;
+    position: absolute;
+
+    @media (min-width: $smBreakpoint) {
+      bottom: 15px;
+      left: 15px;
+    }
+
+    @media (min-width: $xlBreakpoint) {
+      bottom: 20px;
+      left: 20px;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 1.8rem;
+  }
+}
+
+.IconMovieOutlineStyle {
+  color: $white;
+  display: inline-block;
+  font-size: 3.4rem;
+  left: 50%;
+  position: absolute;
+  text-shadow: 0 1px 2px $black50;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  z-index: calc($zIndex1 + 1);
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 4rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 5rem;
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "__typename": "ImageParagraph",
+  "anchorId": null,
+  "id": "cGFyYWdyYXBoOmltYWdlOjE4ODk4NToyMzg1NDU=",
+  "format": "landscape",
+  "caption": "<p>Eagle</p>\n",
+  "title": null,
+  "image": {
+    "__typename": "Image",
+    "id": "41519",
+    "credit": "Unsplashed",
+    "file": {
+      "__typename": "ImageFile",
+      "id": "ZmlsZTo0MjA3MDo6MTUyMSw0NDM6bGFyZ2U6MQ==",
+      "alt": "eagle",
+      "focalPointX": 1000,
+      "focalPointY": 1000,
+      "relativeOriginPath": "/eagle.jpeg",
+      "width": 480,
+      "height": 320
+    }
+  }
+}

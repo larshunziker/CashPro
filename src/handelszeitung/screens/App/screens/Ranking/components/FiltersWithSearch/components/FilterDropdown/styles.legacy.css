@@ -1,0 +1,24 @@
+.DropdownViewLink {
+  @mixin InfoB;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  padding: $margin24;
+
+  @media (min-width: $smBreakpoint) {
+    padding: $margin12 $margin24;
+  }
+
+  &.Active {
+    @mixin InfoBBold;
+  }
+
+  &:hover {
+    background-color: $greyE;
+  }
+
+  .CheckmarkIcon {
+    font-size: 2.2rem;
+    padding-left: 10px;
+  }
+}

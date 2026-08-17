@@ -1,0 +1,13 @@
+.MinimumHeightOpinion {
+  @media (min-width: $smBreakpoint) {
+    min-height: 347px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    min-height: 374px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    min-height: 400px;
+  }
+}

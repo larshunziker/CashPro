@@ -1,0 +1,39 @@
+.Title {
+  composes: SubheadXXL from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    text-align: left;
+  }
+}
+
+.Info {
+  composes: InfoboxParagraph from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}
+
+.FieldWrapper {
+  margin-bottom: 18px;
+}
+
+.Label {
+  composes: FormLabelSmallBlackA from 'typography.legacy.css';
+}
+
+.Value {
+  composes: InfoboxParagraph from 'typography.legacy.css';
+}
+
+.Button {
+  composes: ButtonSecondaryBig from 'typography.legacy.css';
+
+  display: block;
+  margin-bottom: $margin64;
+  margin-top: $margin40;
+  width: fit-content;
+}

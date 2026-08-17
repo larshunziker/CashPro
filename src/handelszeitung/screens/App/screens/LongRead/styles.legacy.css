@@ -1,0 +1,20 @@
+.Wrapper {
+  position: relative;
+}
+
+.SectionGreyLongread {
+  position: relative;
+}
+
+.ParagraphWrapper {
+  overflow: hidden;
+}
+
+.OuterWrapper {
+  composes: OuterWrapper from 'ArticlePage/styles.legacy.css';
+}
+
+.InnerTop {
+  composes: InnerTop from 'ArticlePage/styles.legacy.css';
+  position: absolute;
+}

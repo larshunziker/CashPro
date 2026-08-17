@@ -1,0 +1,80 @@
+.HeaderWrapper {
+  background-color: $greyC;
+  margin-bottom: $margin24;
+  padding-bottom: 12px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin32;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin40;
+  }
+}
+
+.BreadcrumbsWrapper {
+  margin-bottom: $margin56;
+}
+
+.ShortDescription {
+  composes: TeaserLeadBlack from 'typography.legacy.css';
+  line-height: 2.5rem;
+  margin-bottom: $margin16;
+}
+
+.Description {
+  composes: RichTextWrapper from  '../../components/Paragraphs/components/TextParagraph/styles.legacy.css';
+  cursor: auto;
+
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+.ShowMoreButton {
+  composes: ButtonTertiarySmall from 'typography.legacy.css';
+  align-items: center;
+  background: $transparent;
+  color: $grey70;
+  display: flex;
+  font-weight: 400;
+  gap: 0 8px;
+  padding-left: 0;
+
+  &:hover {
+    color: $black;
+  }
+}
+
+.InnerWrapper > div > div {
+  @media (max-width: $smBreakpointTo) {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.ResultsWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: $margin32;
+  margin-bottom: $margin32;
+
+  > div {
+    border-bottom: 1px solid $grey30;
+  }
+}
+
+.PagerWrapper {
+  padding-bottom: $margin80;
+}
+
+.PageHeading {
+  composes: SubheadLG from 'typography.legacy.css';
+}
+
+.JournalisticAgbWrapper {
+  composes: Description;
+  margin-bottom: $margin24;
+  margin-top: -$margin8;
+}

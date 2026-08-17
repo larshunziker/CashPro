@@ -1,0 +1,175 @@
+{
+  "id": "dGF4b25vbXlfdGVybToyNTc5",
+  "preferredUri": "/people-0",
+  "settings": {
+    "channel": {
+      "id": "dGF4b25vbXlfdGVybToyNTc5",
+      "title": "People",
+      "sponsors": {
+        "edges": [
+          {
+            "node": {
+              "teaserImage": {
+                "caption": "Fahr lieber Audi",
+                "link": {
+                  "path": "https://www.volkswagen.ch/de.html",
+                  "__typename": "Link"
+                },
+                "image": {
+                  "file": {
+                    "alt": "Volkswagen",
+                    "focalPointX": 1000,
+                    "focalPointY": 1000,
+                    "relativeOriginPath": "/volkswagen.png",
+                    "__typename": "ImageFile"
+                  },
+                  "__typename": "Image"
+                },
+                "__typename": "ImageParagraph"
+              },
+              "backgroundImage": {
+                "file": {
+                  "alt": "vw-12-1-banner",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/vwbanner.png",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "Sponsor"
+            },
+            "__typename": "SponsorEdge"
+          }
+        ],
+        "__typename": "SponsorConnection"
+      },
+      "__typename": "Channel"
+    },
+    "mainChannel": {
+      "id": "dGF4b25vbXlfdGVybToyNTc5",
+      "title": "People",
+      "__typename": "Channel"
+    },
+    "title": "People",
+    "lead": null,
+    "headerLayout": "default",
+    "headerImage": {
+      "file": {
+        "alt": "FilmMagic",
+        "focalPointX": 1000,
+        "focalPointY": 1000,
+        "relativeOriginPath": "/2018-09/gettyimages-961917662.jpg",
+        "__typename": "ImageFile"
+      },
+      "__typename": "Image"
+    },
+    "teaserGridLayout": "mixed",
+    "hasHeroTeaser": false,
+    "__typename": "TermSettings"
+  },
+  "landingPage": {
+    "id": "bm9kZToxOTI1MQ==",
+    "title": "People",
+    "metaTitle": "People | Schweizer Illustrierte",
+    "metaDescription": "Die News zu Stars aus dem In- und Ausland.",
+    "metaOgTitle": "People | Schweizer Illustrierte",
+    "metaOgDescription": "Die News zu Stars aus dem In- und Ausland.",
+    "metaCanonicalUrl": "",
+    "lead": "Die News zu Stars aus dem In- und Ausland.",
+    "teaserImage": {
+      "id": "schweizer_illustrierte_fallback",
+      "image": {
+        "file": {
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/2019-01/schweizer_illustrierte_fallback.jpg",
+          "__typename": "ImageFile"
+        },
+        "__typename": "Image"
+      },
+      "__typename": "ImageParagraph"
+    },
+    "preferredUri": "/people",
+    "activeMenuTrail": {
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MzQw",
+            "link": null,
+            "label": "People",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "__typename": "LandingPage"
+  },
+  "authors": {
+    "edges": [],
+    "__typename": "AuthorConnection"
+  },
+  "entities": {
+    "count": 1,
+    "edges": [
+      {
+        "node": {
+          "id": "bm9kZToxOTQ2MQ==",
+          "title": "Das ist der Titel für das neue Keyword",
+          "preferredUri": "/people/das-ist-der-titel-fur-das-neue-keyword",
+          "shortTitle": "Neuer Testartikel für Keyword",
+          "badgeLabel": null,
+          "badgeColor": null,
+          "hasVideo": false,
+          "channel": {
+            "id": "dGF4b25vbXlfdGVybToyNTc5",
+            "channelType": null,
+            "authors": {
+              "edges": [],
+              "__typename": "AuthorConnection"
+            },
+            "__typename": "Channel"
+          },
+          "authors": {
+            "edges": [],
+            "__typename": "AuthorConnection"
+          },
+          "teaserImage": {
+            "id": "179840",
+            "image": {
+              "file": {
+                "alt": "Federer freut sich",
+                "focalPointX": 1000,
+                "focalPointY": 1000,
+                "relativeOriginPath": "/2018-09/roger_federer.jpg",
+                "__typename": "ImageFile"
+              },
+              "__typename": "Image"
+            },
+            "__typename": "ImageParagraph"
+          },
+          "__typename": "Article"
+        },
+        "__typename": "SearchableUnionEdge"
+      }
+    ],
+    "__typename": "SearchableUnionConnection"
+  },
+  "activeMenuTrail": {
+    "edges": [
+      {
+        "node": {
+          "id": "bWVudV9saW5rX2NvbnRlbnQ6WTJoaGJtNWxiQzB5TlRjNQ==",
+          "label": "People",
+          "link": null,
+          "__typename": "ActiveMenuTrailItem"
+        },
+        "__typename": "ActiveMenuTrailItemEdge"
+      }
+    ],
+    "__typename": "ActiveMenuTrailItemConnection"
+  },
+  "__typename": "Channel"
+}

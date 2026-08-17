@@ -1,0 +1,30 @@
+.AdWrapper {
+  position: absolute;
+  right: -107px;
+  width: 0;
+}
+
+.Ad {
+  background-color: $transparent;
+  display: inline-block;
+  position: fixed;
+  top: 105px;
+  z-index: calc($zIndexHeaderAd - 1);
+
+  @media (min-width: $xlBreakpoint) {
+    top: 159px;
+  }
+}
+
+:global(.side-bar) .Ad {
+  z-index: calc($zIndexHeaderAd + 1);
+}
+
+.Sticky {
+  position: fixed;
+  top: 105px;
+
+  @media (min-width: $xlBreakpoint) {
+    top: 159px;
+  }
+}

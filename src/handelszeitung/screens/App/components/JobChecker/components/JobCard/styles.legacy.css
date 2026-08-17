@@ -1,0 +1,27 @@
+.CardContent {
+  color: $blackB;
+  font-family: $fontGotham;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  margin-bottom: $margin4;
+  margin-top: 3px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 30px;
+    margin-top: 10px;
+  }
+}
+
+.Grey {
+  composes: InfoParagraphGrey from 'typography.legacy.css';
+}
+
+.Company {
+  composes: InfoParagraphBlack from 'typography.legacy.css';
+  margin-bottom: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin4;
+  }
+}

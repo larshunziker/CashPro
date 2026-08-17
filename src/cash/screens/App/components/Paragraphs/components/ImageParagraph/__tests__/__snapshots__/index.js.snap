@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ImageParagraph should render nothing  1`] = `<div />`;

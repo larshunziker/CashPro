@@ -1,0 +1,47 @@
+.NoResultsWrapper {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: $margin16;
+  text-align: left;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+    gap: 80px;
+    margin-top: $margin24;
+    max-width: 896px;
+
+    button {
+      width: auto;
+    }
+  }
+}
+
+.Image {
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    width: 406px;
+  }
+}
+
+.NoResultsTitle {
+  composes: InfoH1 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  margin-top: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+    margin-top: 0;
+  }
+}
+
+.NoResultsDescription {
+  composes: InfoA from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin24;
+  }
+}

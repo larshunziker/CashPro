@@ -1,0 +1,28 @@
+{
+  "listicleIndex": 0,
+  "listicleItem": {
+    "anchorId": null,
+    "footer": "This is the footer",
+    "id": "cGFyYWdyYXBoOmxpc3RpY2xlX2l0ZW06MjAxNDQ2OjI1OTMzNA==",
+    "image": {
+      "caption": null,
+      "id": "cGFyYWdyYXBoOmltYWdlOjIwMTQ0NToyNTkzMzM=",
+      "image": {
+        "file": {
+          "alt": "Road Trip",
+          "id": "ZmlsZTo2MDQ4Mjo6NTc4LDM4NTpsYXJnZTo=",
+          "focalPointX": 1000,
+          "focalPointY": 1000,
+          "relativeOriginPath": "/road_trip_0.jpg",
+          "__typename": "ImageFile"
+        },
+        "id": 45234
+      },
+      "__typename": "ImageParagraph"
+    },
+    "link": { "path": "/" },
+    "text": "<p>Mit Ihrer Kundennummer können Sie kostenlos auf das Beobachter-E-Paper zugreifen. Das E-Paper gibt es als </p>↵↵<header> </header>",
+    "title": "Kostenloser Zugriff auf E-Paper"
+  },
+  "__typename": "ListicleItemParagraph"
+}

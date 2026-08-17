@@ -1,0 +1,97 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    padding: 40px 0;
+  }
+}
+
+.IsNested {
+  .Wrapper {
+    margin: 0 20px;
+    width: auto;
+
+    @media (min-width: $smBreakpoint) {
+      margin: 0 40px;
+    }
+  }
+}
+
+.Title {
+  composes: Heading5 from 'typography.legacy.css';
+  margin-bottom: $margin16;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin12;
+  }
+}
+
+.Content {
+  composes: RichtextWrapper from '../TextParagraph/styles.legacy.css';
+  composes: Paragraph from 'typography.legacy.css';
+  list-style-position: inside;
+  overflow: hidden;
+  word-break: break-word;
+
+  a {
+    @mixin InlineHover;
+    @mixin RichTextLink;
+  }
+
+  p {
+    margin-bottom: $margin24;
+  }
+}
+
+.ImageBox {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Footer {
+  composes: RichtextWrapper from '../TextParagraph/styles.legacy.css';
+  composes: ParagraphBold from 'typography.legacy.css';
+
+  a {
+    @mixin InlineHover;
+    @mixin RichTextLink;
+  }
+
+  p {
+    margin-bottom: 0;
+  }
+}
+
+.Even {
+  background-color: $skinLight;
+}
+
+.Odd {
+  .ImageBox {
+    order: -1;
+
+    @media (min-width: $smBreakpoint) {
+      order: initial;
+    }
+  }
+}
+
+.ListicleItemWrapper {
+  composes: Row from '@grid.legacy.css';
+}
+
+.ListicleItemInnerWrapper {
+  composes: ListicleItemWrapper;
+}
+
+.Image {
+  max-width: 100%;
+}

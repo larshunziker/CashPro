@@ -1,0 +1,71 @@
+.Paragraphs {
+  position: relative;
+}
+
+.SectionDefaultMargin {
+  @mixin sectionDefaultMargin;
+}
+
+.SectionDefaultMarginTop {
+  @mixin SectionDefaultMarginTop;
+}
+
+.AdWrapper {
+  @mixin hideforPrint;
+  display: inline-block;
+  left: 50%;
+  position: relative;
+  transform: translateX(-50%);
+  width: 100%;
+}
+
+:global(.branding-day) {
+  .AdPadding {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.IAVWrapper {
+  width: 100%;
+}
+
+.AdZone {
+  display: block;
+}
+
+:global(.recommendation-slot-mobile):not(:global(.recommendation-slot-tabletDesktop)) {
+  display: block;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+:global(.recommendation-slot-tabletDesktop):not(:global(.recommendation-slot-mobile)) {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+}
+
+.InputFormOnHeroMedia {
+  max-width: 100%;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 10%;
+    max-width: 80%;
+  }
+}
+
+.InArticleRecommendations {
+  display: block;
+
+  &.isSplittedPageLayout {
+    @mixin hideforPrint;
+    @media (min-width: $mdBreakpoint) {
+      display: none;
+    }
+  }
+}

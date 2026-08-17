@@ -1,0 +1,88 @@
+.ArticleContainer {
+  background-color: $redB;
+  background-position: 50% 50%;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  height: 230px;
+  overflow: hidden;
+  position: relative;
+  text-align: left;
+
+  @media (min-width: $smBreakpoint) {
+    height: 280px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 320px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    text-align: center;
+  }
+}
+
+.LabelWrapper {
+  margin-bottom: 9px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 16px;
+    padding-left: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 17px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 13px;
+  }
+
+  .Label {
+    background-color: $white;
+    color: $redB;
+    font-family: $fontSpezia;
+    font-size: 1.3rem;
+    font-weight: 900;
+    line-height: 1.23;
+    padding: 2px 4px 1px;
+
+    @media (min-width: $smBreakpoint) {
+      font-size: 1.6rem;
+      letter-spacing: -0.1;
+      line-height: 1.38;
+      padding: 4px 6px 2px;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      padding: 4px 6px 2px;
+    }
+  }
+}
+
+.LabelWrapper,
+.Title {
+  @media (min-width: $smBreakpoint) {
+    padding-left: 30px;
+  }
+}
+
+.Title {
+  color: $white;
+  font-size: 2.9rem;
+  font-weight: 900;
+  line-height: 1.14;
+  margin-bottom: 0;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 5.5rem;
+    line-height: 1.04;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 25px;
+  }
+}

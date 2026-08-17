@@ -1,0 +1,87 @@
+:global(html.beo-top-promo-banner-visible) {
+  --beo-top-promo-banner-height: 62px;
+
+  @media (min-width: $smBreakpoint) {
+    --beo-top-promo-banner-height: 41px;
+  }
+}
+
+.Wrapper {
+  background-color: $warning;
+  border-bottom: 1px solid $grey30;
+  box-sizing: border-box;
+  min-height: 62px;
+  position: relative;
+  width: 100%;
+  z-index: 1;
+
+  @media (min-width: $smBreakpoint) {
+    min-height: 41px;
+  }
+}
+
+.Inner {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+  margin: 0 auto;
+  min-height: 40px;
+  padding: 8px 40px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    flex-direction: row;
+    padding: 8px 20px;
+  }
+}
+
+.Message {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1;
+  margin: 0 8px 0 0;
+}
+
+.Cta {
+  background: $black;
+  border-radius: 65px;
+  color: $white;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 12px;
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 8px;
+  padding: 4px 12px;
+  text-decoration: none;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 0;
+  }
+}
+
+.CloseButton {
+  background: $transparent;
+  border: none;
+  cursor: pointer;
+  padding: 4px;
+  position: absolute;
+  right: 19px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.CloseIcon {
+  color: $black;
+  font-size: 1.6rem;
+  opacity: 1;
+}
+
+.CloseButton:hover .CloseIcon,
+.CloseButton:focus-visible .CloseIcon {
+  opacity: 0.75;
+}

@@ -1,0 +1,33 @@
+/* Make sure to change Grid0 */
+.teaserStage1Item {
+  /* Mobile */
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr;
+    
+    .Item {
+      margin-bottom: 30px;
+    }
+    .Item0 { grid-area: 1 / 1 / 2 / 2; }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      .Item {
+        margin-bottom: $margin40;
+      }
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    .Grid0 {
+      .Item {
+        margin-bottom: 50px;
+      }
+    }
+  }
+}

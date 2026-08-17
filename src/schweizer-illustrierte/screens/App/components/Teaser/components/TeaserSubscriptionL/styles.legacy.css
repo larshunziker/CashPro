@@ -1,0 +1,218 @@
+.TeaserWrapper {
+  margin-bottom: 30px;
+
+  @media (min-width: $smBreakpoint) {
+    border: 1px solid;
+    display: block;
+    margin-bottom: $margin40;
+    min-height: 265px;
+    overflow-wrap: break-word;
+    position: relative;
+    word-break: break-word;
+
+    &SI {
+      border-color: $redA;
+    }
+
+    &SY {
+      border-color: $black;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 50px;
+
+    &SI {
+      min-height: 390px;
+    }
+
+    &SY {
+      min-height: 392px;
+    }
+  }
+}
+
+.ContentWrapper {
+  margin: 20px 34px 0 238px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin: 37px 55px 0 323px;
+  }
+}
+
+.ShortTitle {
+  &SI {
+    composes: HeadingCatch2 from 'typography.legacy.css';
+    color: $redA;
+    margin-bottom: 11px;
+  }
+
+  &SY {
+    composes: HeadingCatch2BlackSY from 'typographySY.legacy.css';
+    color: $black;
+    margin-bottom: 10px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 9px;
+  }
+}
+
+.Title {
+  &SI {
+    composes: Heading7 from 'typography.legacy.css';
+    color: $redA;
+    margin-bottom: 14px;
+  }
+
+  &SY {
+    composes: Heading7SY from 'typographySY.legacy.css';
+    color: $black;
+    margin-bottom: 15px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 15px;
+  }
+}
+
+.Lead {
+  margin-bottom: 76px;
+  white-space: pre-wrap;
+
+  &SI {
+    composes: Paragraph2 from 'typography.legacy.css';
+    color: $redA;
+
+    & > strong {
+      @mixin ParagraphBold;
+      color: $redA;
+    }
+  }
+
+  &SY {
+    composes: Paragraph2SY from 'typographySY.legacy.css';
+    color: $black;
+
+    & > strong {
+      @mixin ParagraphBoldSY;
+      color: $black;
+    }
+  }
+
+  & > strong {
+    @media (max-width: $lgBreakpointTo) {
+      font-size: 1.5rem;
+      line-height: 2rem;
+    }
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin96;
+  }
+}
+
+.BannerWrapper {
+  align-items: center;
+  bottom: 0;
+  display: flex;
+  height: 50px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+
+  &SI {
+    background: $gradientRed;
+  }
+
+  &SY {
+    background: $gradientBlackMenu;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 65px;
+  }
+}
+
+.Image {
+  bottom: 16px;
+  height: 228px;
+  left: 34px;
+  position: absolute;
+  width: 168px;
+
+  &SI {
+    box-shadow: $shadowC;
+  }
+
+  &SY {
+    box-shadow: $shadowC;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 327px;
+    width: 241px;
+
+    &SI {
+      bottom: 22px;
+      left: 30px;
+    }
+
+    &SY {
+      bottom: 26px;
+      box-shadow: $shadowPrintTeaserSY;
+      left: 31px;
+    }
+  }
+}
+
+.ArrowButtonStyle {
+  margin-left: 248px;
+  padding-left: 19px;
+  padding-right: 19px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-left: 333px;
+  }
+}
+
+.WrapperStyleSI,
+.WrapperStyleSY {
+  .Title {
+    @mixin Heading7;
+  }
+
+  .ShortTitle {
+    @mixin HeadingCatch2;
+  }
+}
+
+.WrapperStyleSI {
+  border-color: $redA;
+
+  .Title,
+  .ShortTitle,
+  .Lead,
+  .Lead > strong {
+    color: $redA;
+  }
+
+  .BannerWrapper {
+    background: $gradientRed;
+  }
+}
+
+.WrapperStyleSY {
+  border-color: $black;
+
+  .Title,
+  .ShortTitle,
+  .Lead,
+  .Lead > strong {
+    color: $black;
+  }
+
+  .BannerWrapper {
+    background: $gradientBlackMenu;
+  }
+}

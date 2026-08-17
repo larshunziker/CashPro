@@ -1,0 +1,4 @@
+{
+  "embedCode": "<script>console.warn('Hello World!')</script>",
+  "__typename": "EmbedParagraph"
+}

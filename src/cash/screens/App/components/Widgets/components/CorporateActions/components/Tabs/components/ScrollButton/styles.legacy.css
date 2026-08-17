@@ -1,0 +1,51 @@
+.Wrapper {
+  height: 20px;
+  position: relative;
+  width: 40px;
+}
+
+.ScrollButton {
+  bottom: -2px;
+  display: flex;
+  left: 0;
+  width: 100%;
+
+  button {
+    background: #fff;
+    border: none;
+    cursor: pointer;
+    height: 20px;
+    padding: 0;
+    position: relative;
+    width: 20px;
+
+    &:hover {
+      animation-direction: alternate;
+      animation-duration: 0.2s;
+      animation-iteration-count: infinite;
+      animation-name: wiggle;
+    }
+  }
+
+  .GradiantLeftToRight, .GradiantRightToLeft {
+    content: '';
+    display: block;
+    height: 20px;
+    top: -1px;
+    width: 40px;
+    z-index: 500;
+  }
+
+  .GradiantRightToLeft {
+    background: linear-gradient(to right, rgb(255 255 255 / 0%), rgb(255 255 255 / 100%) 50%);
+  }
+
+  .GradiantLeftToRight {
+    background: linear-gradient(to left, rgb(255 255 255 / 0%), rgb(255 255 255 / 100%) 50%);
+  }
+}
+
+@keyframes wiggle {
+  from {left: 0;}
+  to {left: 3px}
+}

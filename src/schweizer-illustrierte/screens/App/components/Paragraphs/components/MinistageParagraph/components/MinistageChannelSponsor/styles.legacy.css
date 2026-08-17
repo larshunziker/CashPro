@@ -1,0 +1,110 @@
+.MinistageChannelSponsorSliderWrapper {
+  display: flex;
+  justify-content: center;
+}
+
+.StandaloneWrapper {
+  composes: GridRow from 'TeaserGrid/styles.legacy.css';
+  border: 1px solid $black;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.Wrapper {
+  display: flex;
+  flex-flow: column nowrap;
+  height: 285px;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 283px;
+  overflow: hidden;
+  padding: 22px 24px;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    height: 214px;
+    max-width: 100%;
+    padding: 30px 59px 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 194px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 234px;
+    padding: 30px 190px;
+  }
+}
+
+.Title {
+  composes: SectionTitleSmall from 'typography.legacy.css';
+  display: block;
+  margin-bottom: 9px;
+  text-transform: uppercase;
+  word-wrap: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 6px;
+  }
+}
+
+.SubTitle {
+  composes: Paragraph from 'typography.legacy.css';
+  display: block;
+  margin-bottom: 10px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+    line-height: 2.5rem;
+    overflow: hidden;
+    word-wrap: break-word;
+  }
+}
+
+.Logos {
+  align-items: center;
+  display: flex;
+  flex: 1 1 0%;
+  flex-flow: row nowrap;
+  height: 100%;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+}
+
+.LogoWrapper {
+  display: none;
+  flex: 1 1 100%;
+  height: auto;
+  margin-bottom: 5px;
+  position: relative;
+  width: 100%;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+
+  &:nth-child(-n + 3) {
+    display: block;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    flex: 0 1 27%;
+    margin: 0 10px;
+    position: relative;
+    width: auto;
+  }
+}
+
+.Logo {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  position: relative;
+}

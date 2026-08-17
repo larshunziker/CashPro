@@ -1,0 +1,101 @@
+.Wrapper {
+  margin-bottom: $smallMargin;
+  position: relative;
+
+  @media print {
+    display: none;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $sectionParagraphMarginLg;
+  }
+}
+
+.Inner {
+  composes: Clearfix from 'helpers.legacy.css';
+  border: 0;
+  padding: 0 0 24px;
+  text-align: center;
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760  */
+    padding: 0 0 32px;
+    text-align: left;
+  }
+
+  strong:first-of-type {
+    font-size: 12px;
+    font-weight: 800;
+    margin-top: $margin8;
+    text-transform: uppercase;
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760  */
+      font-size: 14px;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      /* >= 960  */
+      font-size: 16px;
+    }
+  }
+}
+
+.Image {
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  max-height: 280px;
+  width: auto;
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 200px;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    height: auto;
+    margin: 5px 0 0;
+    max-height: 250px;
+  }
+}
+
+.Caption {
+  padding-left: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    padding-left: 28px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding-left: 32px;
+  }
+}
+
+.Title {
+  composes: TeaserTitleBNeutralA from 'typography.legacy.css';
+  margin: $margin12 0 $margin12;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 0 $margin16;
+  }
+}
+
+.Text {
+  composes: InfoCNeutralA from 'typography.legacy.css';
+
+  a {
+    @mixin InfoCLinkNeutralA;
+  }
+
+  & strong {
+    @mixin InfoDBoldNeutralA;
+  }
+
+  & p + p {
+    margin-top: $margin16;
+  }
+}
+
+.ImageWrapper {
+  padding: 0;
+}

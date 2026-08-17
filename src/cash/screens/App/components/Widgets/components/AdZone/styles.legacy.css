@@ -1,0 +1,42 @@
+.AdWrapper {
+  @mixin hideforPrint;
+  display: inline-block;
+  max-width: 100%;
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+
+.AdPadding {
+  justify-content: center;
+  margin: 8px 0 !important; /* stylelint-disable-line declaration-no-important */
+}
+
+:global(.branding-day) {
+  .AdPadding {
+    margin: 0 auto;
+    width: 100%;
+  }
+}
+
+.AdZone {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  left: 0;
+  padding: 0;
+  position: sticky;
+  width: calc(100vw - $outerGapXs * 2 - $gridGutterWidthXs);
+  
+  @media (min-width: $smBreakpoint) {
+    width: calc($smBreakpoint - $outerGapSm * 2)
+  }
+  
+  @media (min-width: $mdBreakpoint) {
+    width: calc($mdBreakpoint - $outerGapMd * 2)
+  }
+    
+  @media (min-width: $xlBreakpoint) {
+    width: calc(1440px - $outerGapXl * 2)
+  }
+}

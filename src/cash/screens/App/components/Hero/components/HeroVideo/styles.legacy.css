@@ -1,0 +1,10 @@
+.Wrapper {
+  line-height: 0;
+  margin: 5px auto;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+

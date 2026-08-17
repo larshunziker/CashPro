@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserHeroMain Should render InnerContent correctly when description  is set 1`] = `<div />`;
+
+exports[`[Component] Teaser - TeaserHeroMain Should render InnerContent correctly when description <div>Fish is great</div> is set 1`] = `
+<div>
+  <div
+    class="Lead"
+  >
+    <div>
+      Fish is great
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroMain Should render InnerContent correctly when description Fish is great is set 1`] = `
+<div>
+  <div
+    class="Lead"
+  >
+    Fish is great
+  </div>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserHeroMain Should render InnerContent correctly when description null is set 1`] = `<div />`;

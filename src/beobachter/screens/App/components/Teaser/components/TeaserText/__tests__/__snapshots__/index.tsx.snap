@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Teaser - TeaserText Should render correctly 1`] = `
+<div>
+  <div
+    class="ShortTitleWrapper"
+  >
+    <div
+      class="teaser-short-title TeaserTopic"
+    >
+      Anlegen
+    </div>
+  </div>
+  <h3>
+    <span
+      class="TeaserTitle"
+    >
+      Banken empfehlen auch für 2022 am liebsten Aktien
+    </span>
+  </h3>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserText Should render truncated text 1`] = `
+<div>
+  <div
+    class="ShortTitleWrapper"
+  >
+    <div
+      class="teaser-short-title TeaserTopic"
+    >
+      Anlegen
+    </div>
+  </div>
+  <h3>
+    <span
+      class="TeaserTitle"
+    >
+      Banken empfehlen auch...
+    </span>
+  </h3>
+</div>
+`;
+
+exports[`[Component] Teaser - TeaserText Should render with video icon 1`] = `
+<div>
+  <div
+    class="ShortTitleWrapper"
+  >
+    <div
+      class="teaser-short-title TeaserTopic"
+    >
+      Anlegen
+    </div>
+  </div>
+  <h3>
+    <span
+      class="TeaserTitle"
+    >
+      <i
+        class="Icon IconPlay Play"
+      />
+      Banken empfehlen auch für 2022 am liebsten Aktien
+    </span>
+  </h3>
+</div>
+`;

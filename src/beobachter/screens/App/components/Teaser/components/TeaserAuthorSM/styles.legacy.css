@@ -1,0 +1,73 @@
+.Grid {
+  composes: Grid from '../TeaserAuthor/styles.legacy.css';
+
+  padding: 0;
+
+  &:hover {
+    background: inherit;
+  }
+}
+
+.AuthorGridWrapper {
+  composes: AuthorGridWrapper from '../TeaserAuthor/styles.legacy.css';
+  grid-template-columns: 54px 1fr;
+
+  @media screen and (min-width: $xlBreakpoint) {
+    grid-template-columns: 80px 1fr;
+  }
+
+  &:hover {
+    background: inherit;
+  }
+}
+
+.AuthorAvatar,
+.Initials {
+  composes: AuthorAvatar from '../TeaserAuthor/styles.legacy.css';
+}
+
+.Name {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2rem;
+  font-weight: 700;
+  line-height: 2.4rem;
+  text-decoration: underline;
+  text-decoration-color: $transparent;
+  transition: text-decoration-color 0.3s;
+
+  @media screen and (min-width: $xlBreakpoint) {
+    font-size: 2.4rem;
+    line-height: 2.88rem;
+  }
+}
+
+a:hover .Name {
+  text-decoration-color: $black;
+}
+
+.Headline {
+  color: $black;
+  display: block;
+  font-family: $fontSpezia;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 2.24rem;
+}
+
+.Initials {
+  composes: Initials from '../TeaserAuthor/styles.legacy.css';
+}
+
+.ShortDescriptionWrapper {
+  composes: ShortDescriptionWrapper from '../TeaserAuthor/styles.legacy.css';
+}
+
+.ShortDescription {
+  margin-right: $margin4;
+}
+
+.Link {
+  color: $redA;
+  white-space: nowrap;
+}

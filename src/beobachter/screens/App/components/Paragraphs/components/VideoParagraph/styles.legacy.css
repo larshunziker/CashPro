@@ -1,0 +1,55 @@
+.Wrapper {
+  @mixin hideforPrint;
+  composes: AspectRatio16x9 from 'helpers.legacy.css';
+
+  margin-bottom: $margin8;
+  width: 100%;
+}
+
+.VideoTitle {
+  composes: ImageHeader from 'typography.legacy.css';
+
+  margin-bottom: 21px;
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: 24px;
+  }
+
+}
+
+.VideoCaption {
+  composes: Caption from '../ImageCaption/styles.legacy.css';
+  display: inline;
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+  }
+}
+
+.VideoCaptionForDetail {
+  display: none;
+}
+
+.VideoCredit {
+  composes: CreditMd from 'typography.legacy.css';
+
+  display: inline;
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+    padding-left: 0;
+  }
+}
+
+.CaptionWrapper {
+
+  @media (min-width: $xlBreakpoint) {
+    display: block;
+    padding: 0;
+    width: 100%;
+  }
+}
+
+.Hidden {
+  display: none;
+}

@@ -1,0 +1,249 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] ExpansionPanel Should render correctly 1`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <span
+          class="TitleClassName"
+          data-testid="expansion-panel-header-title"
+        >
+          Header Title
+        </span>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 300ms ease-in-out; height: 0px;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[Component] ExpansionPanel Should render header component if header given 1`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <div
+          data-testid="expansion-panel-header-component"
+        >
+          <div>
+            Show more
+          </div>
+        </div>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 300ms ease-in-out; height: 0px;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[Component] ExpansionPanel Should render header component if header given 2`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName IsOpenClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <div
+          data-testid="expansion-panel-header-component"
+        >
+          <div>
+            Show less
+          </div>
+        </div>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 300ms ease-in-out; height: 0px;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[Component] ExpansionPanel Should render in "closed" state after clicking on the header, if the prop "isOpen" is set to true 1`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <span
+          class="TitleClassName"
+          data-testid="expansion-panel-header-title"
+        >
+          Header Title
+        </span>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 800ms ease-in-out; height: 0px;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[Component] ExpansionPanel Should render in "open" after clicking on the header 1`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName IsOpenClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <span
+          class="TitleClassName"
+          data-testid="expansion-panel-header-title"
+        >
+          Header Title
+        </span>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 300ms ease-in-out; height: 0px;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;
+
+exports[`[Component] ExpansionPanel Should render in "open" state if the prop "isOpen" is set to true 1`] = `
+<div>
+  <section
+    class="ExpansionPanelClassName IsOpenClassName"
+  >
+    <div
+      aria-label="Akkordeon öffnen"
+      class="HeaderClassName"
+      role="button"
+      tabindex="0"
+    >
+      <div
+        class="HeaderContentWrapperClassName"
+      >
+        <span
+          class="TitleClassName"
+          data-testid="expansion-panel-header-title"
+        >
+          Header Title
+        </span>
+        <div
+          class="SpacerClassName"
+        />
+        <div
+          class="IconClassName ArrowIconClassName"
+        />
+      </div>
+    </div>
+    <div
+      aria-hidden="true"
+      class="ContentClassName"
+      style="transition: height 800ms ease-in-out; height: auto;"
+    >
+      <p>
+        Test child Item
+      </p>
+    </div>
+  </section>
+</div>
+`;

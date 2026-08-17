@@ -1,0 +1,53 @@
+// 🚨 AUTO-GENERATED FILE! DO NOT UPDATE MANUALLY 🚨 
+
+declare const styles: {
+  readonly "LineHeightReset": string;
+  readonly "PictureWrapper": string;
+  readonly "Image": string;
+  readonly "IsSameAspectRatio": string;
+  readonly "fadein": string;
+  readonly "Placeholder_320_2x3": string;
+  readonly "Placeholder_480_2x3": string;
+  readonly "Placeholder_540_2x3": string;
+  readonly "Placeholder_760_2x3": string;
+  readonly "Placeholder_960_2x3": string;
+  readonly "Placeholder_1680_2x3": string;
+  readonly "Placeholder_320_3x2": string;
+  readonly "Placeholder_480_3x2": string;
+  readonly "Placeholder_540_3x2": string;
+  readonly "Placeholder_760_3x2": string;
+  readonly "Placeholder_960_3x2": string;
+  readonly "Placeholder_1680_3x2": string;
+  readonly "Placeholder_320_8x3": string;
+  readonly "Placeholder_480_8x3": string;
+  readonly "Placeholder_540_8x3": string;
+  readonly "Placeholder_760_8x3": string;
+  readonly "Placeholder_960_8x3": string;
+  readonly "Placeholder_1680_8x3": string;
+  readonly "Placeholder_320_1x2": string;
+  readonly "Placeholder_480_1x2": string;
+  readonly "Placeholder_540_1x2": string;
+  readonly "Placeholder_760_1x2": string;
+  readonly "Placeholder_960_1x2": string;
+  readonly "Placeholder_1680_1x2": string;
+  readonly "Placeholder_320_2x1": string;
+  readonly "Placeholder_480_2x1": string;
+  readonly "Placeholder_540_2x1": string;
+  readonly "Placeholder_760_2x1": string;
+  readonly "Placeholder_960_2x1": string;
+  readonly "Placeholder_1680_2x1": string;
+  readonly "Placeholder_320_16x9": string;
+  readonly "Placeholder_480_16x9": string;
+  readonly "Placeholder_540_16x9": string;
+  readonly "Placeholder_760_16x9": string;
+  readonly "Placeholder_960_16x9": string;
+  readonly "Placeholder_1680_16x9": string;
+  readonly "Placeholder_320_1x1": string;
+  readonly "Placeholder_480_1x1": string;
+  readonly "Placeholder_540_1x1": string;
+  readonly "Placeholder_760_1x1": string;
+  readonly "Placeholder_960_1x1": string;
+  readonly "Placeholder_1680_1x1": string;
+};
+export = styles;
+

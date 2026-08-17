@@ -1,0 +1,17 @@
+.Wrapper {
+  composes: WrapperTopPadding from 'typography.legacy.css';
+}
+
+.Title {
+  composes: SubheadXXL from 'typography.legacy.css';
+  margin-bottom: $margin32;
+  white-space: nowrap;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    text-align: center;
+  }
+}

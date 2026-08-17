@@ -1,0 +1,68 @@
+.BreadcrumbWrapper {
+  position: relative;
+
+  &::after {
+    background: $whiteTransparent;
+    content: '';
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 30px;
+  }
+}
+
+.BreadcrumbList {
+  align-items: center;
+  display: flex;
+  list-style: none;
+  margin: 0 auto 29px;
+  overflow-x: auto;
+  padding-top: 7px;
+  white-space: nowrap;
+  width: 100%;
+
+  @media print {
+    display: none;
+  }
+}
+
+.BreadcrumbLink {
+  composes: BreadcrumbsWords from 'typography.legacy.css';
+  display: inline-block;
+
+  &::after {
+    @mixin BreadcrumbsSymbol;
+    content: '›'; /* <-- do not replace with greater than sign */
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+}
+
+span.BreadcrumbLink {
+  margin-right: 25px;
+
+  &::after {
+    content: '';
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+.WhiteFont {
+  > div {
+    &::after {
+      background: $blackTransparent;
+    }
+  }
+
+  a,
+  div,
+  span {
+    color: $white;
+
+    &::after {
+      color: $white;
+    }
+  }
+}

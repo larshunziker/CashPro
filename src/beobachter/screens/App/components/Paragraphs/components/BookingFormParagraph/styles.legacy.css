@@ -1,0 +1,64 @@
+.SubHeadline {
+  composes: InfoboxH2 from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  margin-bottom: $margin16;
+}
+
+.Info {
+  composes: Paragraph from 'typography.legacy.css';
+  display: block;
+  font-family: $fontSpezia;
+  margin-bottom: $margin24;
+}
+
+.ButtonWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: $margin24;
+}
+
+.InputWrapper {
+  margin-bottom: $margin24;
+  max-width: 280px;
+}
+
+.DateWrapper {
+  margin-bottom: $margin16;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin56;
+  }
+}
+
+.Step {
+  margin-bottom: $margin40;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin80;
+  }
+
+  &:nth-last-child(2) {
+    /* last step, since the last-child is a submit button */
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.ErrorLabel {
+  composes: FormLabelSmallRedC from 'typography.legacy.css';
+}
+
+.LoadingWrapper {
+  background-color: $grey30;
+  display: flex;
+  height: 100%;
+  inset: 0;
+  justify-content: center;
+  opacity: .9;
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+}

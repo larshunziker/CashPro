@@ -1,0 +1,40 @@
+@define-mixin aspectRatio {
+  position: relative;
+
+  &::before {
+    content: ' ';
+    display: block;
+  }
+}
+
+@define-mixin aspectRatio1x1 {
+  @mixin aspectRatio;
+
+  &::before {
+    padding-top: 100%;
+  }
+}
+
+@define-mixin aspectRatio3x2 {
+  @mixin aspectRatio;
+
+  &::before {
+    padding-top: 66.6666666666%;
+  }
+}
+
+@define-mixin aspectRatio16x9 {
+  @mixin aspectRatio;
+
+  &::before {
+    padding-top: 56.25%;
+  }
+}
+
+@define-mixin aspectRatio12x5 {
+  @mixin aspectRatio;
+
+  &::before {
+    padding-top: 41.666666666666667%
+  }
+}

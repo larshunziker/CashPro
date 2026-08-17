@@ -1,0 +1,2395 @@
+{
+  "article": {
+    "__typename": "Article",
+    "id": "bm9kZTo1MDU4NA==",
+    "gcid": "52166",
+    "nid": "50584",
+    "title": "Börsen-Ticker: Schweizer Börse legt Rückwärtsgang ein - Roche verliert weiter - Turbulenzen bei den Kryptowährungen",
+    "publication": "cash",
+    "lead": "Die Schweizer Börse hat am Donnerstag nur leicht Federn gelassen.",
+    "shortTitle": "++Märkte+++",
+    "metaTitle": "Börsen-Ticker: Schweizer Börse legt Rückwärtsgang ein - Roche verliert weiter - Turbulenzen bei den Kryptowährungen | CASH",
+    "seoTitle": null,
+    "editContentUri": null,
+    "editRelationUri": null,
+    "cloneContentUri": null,
+    "socialMediaTitle": null,
+    "canonicalUri": "/group/18/content/52166",
+    "ampUrl": "/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166/amp",
+    "metaDescription": "Die Schweizer Börse hat am Donnerstag nur leicht Federn gelassen.",
+    "metaKeywords": "",
+    "time2read": 1234,
+    "source": null,
+    "valors": {
+      "__typename": "ValorConnection",
+      "edges": [
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MTc2",
+            "tid": "8176",
+            "label": "1234 - Luft",
+            "valorNumber": "1234",
+            "valorName": "Luft",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo3NzM1",
+              "label": "CHF",
+              "originalId": "1"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo3NzM2",
+              "label": "ZZZ",
+              "originalId": "255"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MjQ1",
+            "tid": "8245",
+            "label": "24476758 - ubs-group-n-24476758",
+            "valorNumber": "24476758",
+            "valorName": "ubs-group-n-24476758",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo3NzM1",
+              "label": "CHF",
+              "originalId": "1"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4Mjky",
+              "label": "SWX",
+              "originalId": "4"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MjMx",
+            "tid": "8231",
+            "label": "11448018 - Tesla Rg",
+            "valorNumber": "11448018",
+            "valorName": "Tesla Rg",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo4MjI5",
+              "label": "USD",
+              "originalId": "333"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4MjMw",
+              "label": "UTC",
+              "originalId": "537"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4Mjkz",
+            "tid": "8293",
+            "label": "1222171 - ABB",
+            "valorNumber": "1222171",
+            "valorName": "ABB",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo3NzM1",
+              "label": "CHF",
+              "originalId": "1"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4Mjky",
+              "label": "SWX",
+              "originalId": "4"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MjU0",
+            "tid": "8254",
+            "label": "762604 - Mitsubishi Corp Rg",
+            "valorNumber": "762604",
+            "valorName": "Mitsubishi Corp Rg",
+            "fullquoteUrl": "aktien/mitsubishi-corp-rg-762604/otn/usd",
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo4MjI5",
+              "label": "USD",
+              "originalId": "333"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4MjU1",
+              "label": "OTN",
+              "originalId": "365"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4Mjg5",
+            "tid": "8289",
+            "label": "1234567 - Volkswagen",
+            "valorNumber": "1234567",
+            "valorName": "Volkswagen ",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo4Mjgw",
+              "label": "EUR",
+              "originalId": "814"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo3NzM2",
+              "label": "ZZZ",
+              "originalId": "255"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4Mjgz",
+            "tid": "8283",
+            "label": "998032 - DAX",
+            "valorNumber": "998032",
+            "valorName": "DAX",
+            "fullquoteUrl": "indizes/dax-998032/ITF/EUR",
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo4Mjgw",
+              "label": "EUR",
+              "originalId": "814"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo4Mjgy",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4Mjgx",
+              "label": "ITF",
+              "originalId": "830"
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MzA0",
+            "tid": "8304",
+            "label": "1190007 - Bundesobli",
+            "valorNumber": "1190007",
+            "valorName": "Bundesobli",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo3NzM1",
+              "label": "CHF",
+              "originalId": "1"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo4MzAy",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4MzAz",
+              "label": "IKR",
+              "originalId": null
+            }
+          }
+        },
+        {
+          "__typename": "ValorEdge",
+          "node": {
+            "__typename": "Valor",
+            "id": "dGF4b25vbXlfdGVybTo4MjMy",
+            "tid": "8232",
+            "label": "13242 - mein",
+            "valorNumber": "13242",
+            "valorName": "mein",
+            "fullquoteUrl": null,
+            "valorCurrency": {
+              "__typename": "ValorCurrency",
+              "id": "dGF4b25vbXlfdGVybTo4MjI5",
+              "label": "USD",
+              "originalId": "333"
+            },
+            "valorType": {
+              "__typename": "ValorType",
+              "id": "dGF4b25vbXlfdGVybTo3NzM3",
+              "originalId": null
+            },
+            "valorStockExchange": {
+              "__typename": "ValorStockExchange",
+              "id": "dGF4b25vbXlfdGVybTo4MjMw",
+              "label": "UTC",
+              "originalId": "537"
+            }
+          }
+        }
+      ]
+    },
+    "keywords": {
+      "__typename": "KeywordConnection",
+      "edges": []
+    },
+    "metaOgTitle": "Börsen-Ticker: Schweizer Börse legt Rückwärtsgang ein - Roche verliert weiter - Turbulenzen bei den Kryptowährungen",
+    "metaOgDescription": "Die Schweizer Börse hat am Donnerstag nur leicht Federn gelassen.",
+    "changeDate": "2022-05-30T11:55:50+02:00",
+    "createDate": "2022-05-23T11:57:16+02:00",
+    "publicationDate": "2022-05-25T12:02:00+02:00",
+    "showUpdated": false,
+    "preferredUri": "/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166",
+    "subtypeValue": "news",
+    "restrictionStatus": null,
+    "activeMenuTrail": {
+      "__typename": "ActiveMenuTrailItemConnection",
+      "edges": [
+        {
+          "__typename": "ActiveMenuTrailItemEdge",
+          "node": {
+            "__typename": "ActiveMenuTrailItem",
+            "label": "News",
+            "link": "/news"
+          }
+        },
+        {
+          "__typename": "ActiveMenuTrailItemEdge",
+          "node": {
+            "__typename": "ActiveMenuTrailItem",
+            "label": "Börsen-Ticker: Schweizer Börse legt Rückwärtsgang ein - Roche verliert weiter - Turbulenzen bei den Kryptowährungen",
+            "link": null
+          }
+        }
+      ]
+    },
+    "issue": null,
+    "relatedPersons": {
+      "__typename": "PersonConnection",
+      "edges": []
+    },
+    "relatedOrganizations": {
+      "__typename": "OrganizationConnection",
+      "edges": []
+    },
+    "authorPrefix": "by",
+    "metaCanonicalUrl": "https://www.cash.ch/news/borsen-ticker-schweizer-borse-legt-ruckwartsgang-ein-roche-verliert-weiter-turbulenzen-bei-den-kryptowahrungen-52166",
+    "authors": {
+      "__typename": "AuthorConnection",
+      "edges": []
+    },
+    "commentStatus": "open",
+    "channel": {
+      "__typename": "Channel",
+      "id": "dGF4b25vbXlfdGVybTo3NzM4",
+      "title": "News",
+      "suppressAds": false,
+      "channelType": null,
+      "settings": {
+        "__typename": "TermSettings",
+        "mainChannel": {
+          "__typename": "Channel",
+          "id": "dGF4b25vbXlfdGVybTo3NzM4",
+          "title": "News"
+        }
+      },
+      "articles": {
+        "__typename": "ArticleConnection",
+        "edges": [
+          {
+            "__typename": "ArticleEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo1MDcxNg==",
+              "title": "Test for CASH-564 by MG",
+              "lead": "Test for CASH-564 by MG",
+              "hasVideo": false,
+              "subtypeValue": "news",
+              "shortTitle": "CASH-564",
+              "changeDate": "2022-08-11T08:56:13+02:00",
+              "publicationDate": "2022-08-11T08:58:06+02:00",
+              "showUpdated": false,
+              "restrictionStatus": null,
+              "preferredUri": "/news/test-for-cash-564-by-mg-52319",
+              "authorPrefix": "by",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                "title": "News"
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOmNhc2hfZmFsbGJhY2s6bmV3LXhqN2pCdU9T",
+                "image": {
+                  "__typename": "Image",
+                  "id": "70848",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo3MjA4NDo6MTYwMCwxMjAwOmxhcmdlOjE=",
+                    "alt": "fallback",
+                    "width": 480,
+                    "height": 360,
+                    "relativeOriginPath": "/media/field_image/2022-06/cash_fallback.jpg",
+                    "focalPointX": 1600,
+                    "focalPointY": 1200
+                  }
+                }
+              },
+              "relatedPersons": {
+                "__typename": "PersonConnection",
+                "edges": []
+              }
+            }
+          },
+          {
+            "__typename": "ArticleEdge",
+            "node": {
+              "__typename": "Article",
+              "id": "bm9kZTo1MDQ4OA==",
+              "title": "Article with video",
+              "lead": "Article with videoArticle with videoArticle with videoArticle with videoArticle with videoArticle with video",
+              "hasVideo": false,
+              "subtypeValue": "news",
+              "shortTitle": null,
+              "changeDate": "2022-04-29T11:20:06+02:00",
+              "publicationDate": "2022-04-29T11:21:50+02:00",
+              "showUpdated": false,
+              "restrictionStatus": null,
+              "preferredUri": "/news/article-with-video-52065",
+              "authorPrefix": "by",
+              "channel": {
+                "__typename": "Channel",
+                "id": "dGF4b25vbXlfdGVybTo3NzM4",
+                "title": "News"
+              },
+              "authors": {
+                "__typename": "AuthorConnection",
+                "edges": []
+              },
+              "teaserImage": {
+                "__typename": "ImageParagraph",
+                "id": "cGFyYWdyYXBoOmltYWdlOm5ldy1vM1kyc01RNTpuZXctYVB0cW1pclM=",
+                "image": {
+                  "__typename": "Image",
+                  "id": "57627",
+                  "file": {
+                    "__typename": "ImageFile",
+                    "id": "ZmlsZTo1ODI2NTo6NjQwLDM2MDpsYXJnZTox",
+                    "alt": "Die coolsten Autos 2017",
+                    "width": 480,
+                    "height": 270,
+                    "relativeOriginPath": "/media/field_image/2020-06/die_coolsten_autos_2017.jpg",
+                    "focalPointX": 640,
+                    "focalPointY": 360
+                  }
+                }
+              },
+              "relatedPersons": {
+                "__typename": "PersonConnection",
+                "edges": []
+              }
+            }
+          }
+        ]
+      }
+    },
+    "topics": {
+      "__typename": "ProfileKeywordUnionConnection",
+      "edges": []
+    },
+    "heroImageBody": [
+      {
+        "__typename": "ImageParagraph",
+        "id": "cGFyYWdyYXBoOmltYWdlOjIxNjY0NDozMDYzNzk=",
+        "anchorId": null,
+        "title": null,
+        "caption": null,
+        "alt": null,
+        "link": null,
+        "fullWidth": false,
+        "image": {
+          "__typename": "Image",
+          "id": "70822",
+          "showOriginal": false,
+          "credit": "Unsplashed",
+          "file": {
+            "__typename": "ImageFile",
+            "id": "ZmlsZTo3MjA0ODo6MzEyMCwyMDgwOmlubGluZV9pbWFnZV8xMjAwOjE=",
+            "relativeOriginPath": "/media/field_image/2022-04/trading.jpeg",
+            "focalPointX": 3120,
+            "focalPointY": 2080,
+            "alt": "trading",
+            "width": 900,
+            "height": 600,
+            "origin": "https://dev.cash.ch/sites/default/files/media/field_image/2022-04/trading.jpeg"
+          }
+        }
+      }
+    ],
+    "teaserImage": {
+      "__typename": "ImageParagraph",
+      "id": "cGFyYWdyYXBoOmltYWdlOjIxNjY0NDozMDYzNzk=",
+      "caption": null,
+      "image": {
+        "__typename": "Image",
+        "id": "70822",
+        "credit": "Unsplashed",
+        "file": {
+          "__typename": "ImageFile",
+          "id": "ZmlsZTo3MjA0ODo6MzEyMCwyMDgwOjE2eDlfNTYwOjE=",
+          "alt": "trading",
+          "relativeOriginPath": "/media/field_image/2022-04/trading.jpeg",
+          "focalPointX": 3120,
+          "focalPointY": 2080,
+          "width": 840,
+          "height": 473
+        }
+      }
+    },
+    "body": [
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjQxOjMwNjM2Ng==",
+        "characterCount": 926,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<ul class=\"BenefitList\">\n\t<li>Online und Marketing Trading direkt aus cash </li>\n\t<li>Zugang zu allen wichtigen Börsenplätzen</li>\n\t<li>Fix nur CHF 29 Courtage pro Transaktion für alle Online-Trades (zzgl. mögliche fremde Kommissionen und Spesen)</li>\n</ul>\n\n<p>Der Wochenstart fällt am <strong>Schweizer Aktienmarkt</strong> zwar <strong>freundlich </strong>aus. Dem Leitindex <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/smi-998089/swx/chf\">SMI</a> geht allerdings im Verlauf des Vormittags sichtlich die Puste aus. \"Steigende Kurse im späten Freitagshandel an der Wall Street und eine von Russland ins Spiel gebrachte Wiederaufnahme von Friedensverhandlungen mit der Ukraine stützen den Markt\", kommentiert ein Händler. Als Stimmungsstütze sehen Händler auch die Tatsache, dass der breite US-Index S&amp;P500 am vergangenen Freitag gerade noch vermeiden konnte, im<br>\nBärenmarkt zu schliessen. Aktuell zeichnet sich auch für den US-Markt auf Basis der Futures zwar eine freundliche Eröffnung ab, die Handelsbedingungen dürften aber unruhig bleiben, und die Gewinne könnten nur von kurzer Dauer sein.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFoMndYQmJyOm5ldy1uUlpWNG1VaA==",
+        "characterCount": 328,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/smi-998089/swx/chf\">SMI</a> </strong>schloss um 0,1 Prozent unter dem Vorabend bei 11'516 Punkten. Händler erklärten, angesichts der Angst vor einer Rezession und <strong>drastischeren US-Zinserhöhungen</strong> trennten sich die Anleger von Aktien. Geschürt wurden diese Spekulationen von den US-Erzeugerpreisen, wo die Inflation zwar sank, aber weniger stark als erwartet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "MultiColumnParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOm11bHRpX2NvbHVtbjoyMTY2NTQ6MzA2MzY5",
+        "style": "two_column",
+        "body": [
+          {
+            "__typename": "WidgetParagraph",
+            "title": null,
+            "link": {
+              "__typename": "Link",
+              "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/tops/spi-index/10"
+            },
+            "widget": null
+          },
+          {
+            "__typename": "WidgetParagraph",
+            "title": null,
+            "link": {
+              "__typename": "Link",
+              "path": "https://cdn.fi-box.stage.service.cash.ch/services/esi-widgets/flops/spi-index/10"
+            },
+            "widget": null
+          }
+        ]
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjUxOjMwNjM3MA==",
+        "characterCount": 405,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Aktien des <strong>Luxusgüterkonzerns <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/ciefinrichemont-n-21048333/swx/chf\">Richemont</a></strong> gaben einen Teil der Vortagesgewinne wieder preis und ermässigten sich um 2,04 Prozent. Die Titel des Pharmariesen <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/roche-hldg-g-1203204/swx/chf\">Roche</a> bauten die im Zuge von enttäuschenden Nachrichten zu einem Krebsmedikament am Mittwoch erlittenen Kursverluste aus. <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/alcon-rg-43249246/swx/chf\">Alcon</a> </strong>büssten 1,2 Prozent ein, nachdem mehrere Analysten ihre Kursziele für die Aktien des Augenheilkonzerns gesenkt hatten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXNnNXdHVDZyOm5ldy11TEJWMEJtRw==",
+        "characterCount": 248,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Gesucht waren dagegen <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a></strong>. Der Versicherer sieht sich auf Kurs, alle für 2022 ausgegebenen Finanzziele zu übertreffen. Die Aktien gewannen 1,6 Prozent. Mit einem Kursplus von 1,6 Prozent waren <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/givaudan-n-1064593/swx/chf\">Givaudan</a> unter den Standardwerten der Spitzenreiter.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXh4M09ETnE3Om5ldy1xZ0lJOVJtdw==",
+        "characterCount": 44,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "<p>Zum ausführlichen Tagesbericht geht es<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" href=\"https://www.cash.ch/news/kommentar/aktien-schweiz-schluss-smi-grenzt-verluste-bis-boersenschluss-ein-1959302\" target=\"_blank\"> hier.</a></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "EmbedParagraph",
+        "anchorId": null,
+        "header": null,
+        "embedCode": "<blockquote class=\"twitter-tweet\" data-lang=\"en\"><p lang=\"en\" dir=\"ltr\">After yesterday&#39;s Fun Fact it&#39;s poll time! Which name do you prefer? Don&#39;t worry, we&#39;ll stay with Life Is Strange.</p>&mdash; Life Is Strange (@LifeIsStrange) <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://twitter.com/LifeIsStrange/status/715466160284807168\">March 31, 2016</a></blockquote>\n<embeddedscript async async src=\"//platform.twitter.com/widgets.js\" charset=\"utf-8\"></embeddedscript>",
+        "autoAdjustHeight": false
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjQyOjMwNjM3Mg==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZyMzFYU1M1Om5ldy1jVXV5aU5INA==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>17:26</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJkWHNFZzZ4Om5ldy1naXZMSHVRTw==",
+        "characterCount": 476,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/gamestop-a-2274310/nyx/usd\">GameStop</a></strong> macht wieder mit Kurssprüngen von sich reden. Die Aktien des Videospielehändlers steigen an der Wall Street um <strong>20 Prozent </strong>auf 97,50 <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>, nachdem sie in den vergangenen beiden Wochen zeitweise mehr als 60 Prozent verloren hatten. Die Titel gehören zu den sogenannten \"Meme\"-Werten, bei denen sich Kleinanleger in Internetforen gegenseitig zum Kauf ermuntern. Auf der <strong>Plattform Stocktwits</strong> liegt das Volumen der Erwähnungen etwa 25 Prozent über dem Niveau vom Vortag.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdKTWxPYVBDOm5ldy1qSkh3RVhLTA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXhEWlpUb05xOm5ldy14cUZDcEI2eA==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>16:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWdIc0NvZXRWOm5ldy1nS3NSYjFqeg==",
+        "characterCount": 226,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Leitindizes <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/us30-998313/xnys/usd\">Dow Jones</a>, <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/nasdaq-998356/nai/usd\">Nasdaq</a> und <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/us500-998434/xnys/usd\">S&amp;P 500</a></strong> fielen zur Eröffnung am Donnerstag um bis zu 2,2 Prozent. Mit 31'476,55 Punkten, 11'108,76 Zählern und 3877,04 Stellen notierten sie so niedrig wie zuletzt vor mehr als einem Jahr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW81SjllUURuOm5ldy1jY0NzRjdEWA==",
+        "characterCount": 563,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Geschürt wurden diese Spekulationen von den <strong>US-Erzeugerpreisen</strong>. Sie gingen zwar im April auf <strong>elf Prozent</strong> im Jahresvergleich zurück. Analysten hatten aber einen Rückgang auf 10,7 Prozent vorhergesagt. \"Wir sehen zwar, dass sich die Inflation zu verlangsamen beginnt, aber nicht so schnell wie erhofft\", sagte Gene Goldman, Chef-Anleger des Vermögensverwalters Cetera. Das verunsichere Anleger, denn wenn die Fed die Zinsen zu aggressiv anhebe, schade dies dem Wachstum. \"Aber wenn sie zu konservativ sind, schadet es dem Konsum, was wiederum dem Wachstum schadet.\"</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWE2T01UYThGOm5ldy1tZTZ5eUZMWQ==",
+        "characterCount": 490,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Zu den Verlierern am <strong>US-Aktienmarkt zählte <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/walt-disney-disney-984192/nyx/usd\">Walt Disney</a></strong>. Die Titel des Unterhaltungskonzerns fielen wegen eines Quartalsergebnisses unter Markterwartungen um 3,7 Prozent auf ein Zwei-Jahres-Tief von 101,30 <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>. Außerdem warnte die Firma vor Belastungen durch Lieferketten-Probleme sowie steigende Löhne und Gehälter. Die Analysten der Bank <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/jpmorgan-chase-1161460/nyx/usd\">JPMorgan</a> bezweifelten, dass <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/walt-disney-disney-984192/nyx/usd\">Disney</a> das Kundenwachstum seiner Streaming-Sparte <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/walt-disney-disney-984192/nyx/usd\">Disney</a>+ aufrecht erhalten und seine Gesamtjahresziele erreichen könne.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWczd21rNWpMOm5ldy1lNmZQV0J4Mg==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWRyejdhTml3Om5ldy1pSzVubzBjSg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>15:35</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBnQ2NmeVJTOm5ldy1oSWZMRzVURQ==",
+        "characterCount": 171,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/us30-998313/xnys/usd\">Dow Jones</a></strong> verliert knapp ein Prozent bei <strong>31'519 Punkten.</strong> Der <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/nasdaq-998356/nai/usd\">Nasdaq</a></strong> stürzt um 1,8 Prozent ab auf <strong>11'158 Punkte</strong>. Der <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/us500-998434/xnys/usd\">S&amp;P 500</a></strong> liegt 1,24 Prozent tiefer bei <strong>3886 Zählern.</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlrUzFNU2x3Om5ldy15cXVvNEZ1eA==",
+        "characterCount": 3,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjQ2OjMwNjM3Mw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>15:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXhneTBhc1JHOm5ldy1uUkVpWUplRQ==",
+        "characterCount": 374,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der Broker IG taxiert den Leitindex <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/us30-998313/xnys/usd\">Dow Jones</a> Industrial f</strong>ast ein halbes Prozent tiefer auf 31'684 Punkte. Den technologielastigen <strong><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/indizes/nasdaq-100-985336/nai/usd\">Nasdaq 100</a> </strong>sieht IG 1,4 Prozent im Minus bei 11'799 Zählern. Die Indizes würden damit auf den niedrigsten Stand seit März 2021 und November 2020 zurückfallen. Schon zur Wochenmitte waren vor allem Technologiewerte deutlich unter Druck geraten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWkyUDVPbVhzOm5ldy1mbm1MVWkxcQ==",
+        "characterCount": 442,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Unter den Anlegern geht weiter die Angst um, dass die Notenbanken mit einer Anhebung der Leitzinsen zur Bekämpfung der hohen Inflation weltweit das Wirtschaftswachstum abwürgen könnten. Dazu fielen aktuelle Konjunkturdaten aus den USA wenig erfreulich aus: Während die wöchentlichen Erstanträge auf Arbeitslosenhilfe überraschend stiegen, legten die Erzeugerpreise im April gegenüber dem Vorjahr noch etwas deutlicher zu als schon befürchtet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWgzRkxxZGVvOm5ldy1oTENFcHROcA==",
+        "characterCount": 504,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Unternehmensnachrichten stiessen vorbörslich ebenfalls auf ein negatives Echo. Bei den Aktien des Fleischersatzproduzenten <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/beyond-meat-rg-44967515/nms/usd\">Beyond Meat</a> zeichnet sich nach enttäuschenden Quartalszahlen eine Fortsetzung der jüngsten Talfahrt ab: Mit einem Kurseinbruch um knapp 23 Prozent auf 20,25 US-<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> drohen sie unter ihren Ausgabepreis von 25 <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> zu rutschen. Vor gut drei Jahren hatte <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/beyond-meat-rg-44967515/nms/usd\">Beyond Meat</a> den Sprung aufs Börsenparkett gewagt - zwischenzeitlich hatte sich der Wert der Anteilsscheine fast verzehnfacht.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW1qNEdqeFR5Om5ldy14ODhsUmNVNQ==",
+        "characterCount": 350,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die zuletzt ebenfalls schwachen Aktien von <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/walt-disney-disney-984192/nyx/usd\">Walt Disney</a> büssten vorbörslich über dreieinhalb Prozent auf 101,38 <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> ein, was den niedrigsten Stand seit rund zwei Jahren bedeuten würde. Sie litten unter dem Gewinneinbruch des Unterhaltungskonzerns zu Jahresbeginn. Dass das wichtige Streaminggeschäft besser als erwartet lief, half den Titeln nicht.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWdsaVB1eXJ3Om5ldy1nQkxKU2pCMw==",
+        "characterCount": 555,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Bei den am Vortag gebeutelten <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/aktien/apple-908440/nms/usd\">Apple</a>-Aktien zeichnet sich ein weiterer Kursrückgang um mehr als zwei Prozent auf 143,38 <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://www.cash.ch/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> ab - so günstig waren sie zuletzt im Oktober zu haben. Hier belasteten offenbar Aussagen von Foxconn. Der wichtige iPhone-Zulieferer aus Taiwan musste seine Produktion im chinesischen Shenzen aussetzen, da derzeit in China die Corona-Inkfektionszahlen steigen und die Regierung weitgehende Lockdown-Massnahmen ergriffen hat. Berichten zufolge soll deshalb auch der Zulieferer Unimicron Technology die Produktion ausgesetzt haben.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZqNm12R29lOm5ldy1nc295SHhFWA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWtmcFV1MUpjOm5ldy10OXN5NHFXeg==",
+        "characterCount": 141,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Technologie - «Buy the Dip»: Cathie Wood kauft über eine halbe Million Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/coinbase-glb-rg-a-110289664/nms/usd\">Coinbase</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/yOSZKev8Z0\">https://t.co/yOSZKev8Z0</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/aKaeB9wh6l\">pic.twitter.com/aKaeB9wh6l</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZ1VlZhRXRtOm5ldy1pTGtCd3Qxbw==",
+        "characterCount": 32,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524724086148005889?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "MinistageParagraph",
+        "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToyMTY2NDc6MzA2Mzc0",
+        "anchorId": null,
+        "ministage": {
+          "__typename": "MinistageNewsletter",
+          "headline": "Headline text",
+          "subhead": "subhead hee",
+          "lead": null,
+          "type": "gesundheit",
+          "mailchimpList": "1c83444386",
+          "mailchimpInterest": "5777cd398f",
+          "mailchimpAccountId": "general",
+          "image": null
+        }
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjQzOjMwNjM3NQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>17:35</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXluUEUzTXBlOm5ldy1jcWdlM3BvUQ==",
+        "characterCount": 328,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a> </strong>schloss um 0,1 Prozent unter dem Vorabend bei 11'516 Punkten. Händler erklärten, angesichts der Angst vor einer Rezession und <strong>drastischeren US-Zinserhöhungen</strong> trennten sich die Anleger von Aktien. Geschürt wurden diese Spekulationen von den US-Erzeugerpreisen, wo die Inflation zwar sank, aber weniger stark als erwartet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXoyeFU5VUZiOm5ldy1oT21URG9yTA==",
+        "characterCount": 405,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Aktien des <strong>Luxusgüterkonzerns <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ciefinrichemont-n-21048333/swx/chf\">Richemont</a></strong> gaben einen Teil der Vortagesgewinne wieder preis und ermässigten sich um 2,04 Prozent. Die Titel des Pharmariesen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/roche-hldg-g-1203204/swx/chf\">Roche</a> bauten die im Zuge von enttäuschenden Nachrichten zu einem Krebsmedikament am Mittwoch erlittenen Kursverluste aus. <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/alcon-rg-43249246/swx/chf\">Alcon</a> </strong>büssten 1,2 Prozent ein, nachdem mehrere Analysten ihre Kursziele für die Aktien des Augenheilkonzerns gesenkt hatten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJRZ0lOcHM2Om5ldy1rYkx0RlJEUg==",
+        "characterCount": 248,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Gesucht waren dagegen <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a></strong>. Der Versicherer sieht sich auf Kurs, alle für 2022 ausgegebenen Finanzziele zu übertreffen. Die Aktien gewannen 1,6 Prozent. Mit einem Kursplus von 1,6 Prozent waren <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/givaudan-n-1064593/swx/chf\">Givaudan</a> unter den Standardwerten der Spitzenreiter.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXl4VFdwMURBOm5ldy1vRG5kb25RYw==",
+        "characterCount": 44,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Zum ausführlichen Tagesbericht geht es<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" href=\"https://www.cash.ch/news/kommentar/aktien-schweiz-schluss-smi-grenzt-verluste-bis-boersenschluss-ein-1959302\" target=\"_blank\"> hier.</a></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZOemRQbUcxOm5ldy1iYnRxc0pqeg==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW9USVh1cVFuOm5ldy1xQVVLQXpGeQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>17:26</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXRueGJ5WUppOm5ldy15OGp1M0Q1RQ==",
+        "characterCount": 476,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/gamestop-a-2274310/nyx/usd\">GameStop</a></strong> macht wieder mit Kurssprüngen von sich reden. Die Aktien des Videospielehändlers steigen an der Wall Street um <strong>20 Prozent </strong>auf 97,50 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>, nachdem sie in den vergangenen beiden Wochen zeitweise mehr als 60 Prozent verloren hatten. Die Titel gehören zu den sogenannten \"Meme\"-Werten, bei denen sich Kleinanleger in Internetforen gegenseitig zum Kauf ermuntern. Auf der <strong>Plattform Stocktwits</strong> liegt das Volumen der Erwähnungen etwa 25 Prozent über dem Niveau vom Vortag.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlaR1p3N0VHOm5ldy1vSEltVU9WSw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWp1eGgxRGtmOm5ldy1qMFFsc0dhQw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>16:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXpPOUZXNmMzOm5ldy1uWnp5eVZnRg==",
+        "characterCount": 226,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Leitindizes <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow Jones</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-998356/nai/usd\">Nasdaq</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us500-998434/xnys/usd\">S&amp;P 500</a></strong> fielen zur Eröffnung am Donnerstag um bis zu 2,2 Prozent. Mit 31'476,55 Punkten, 11'108,76 Zählern und 3877,04 Stellen notierten sie so niedrig wie zuletzt vor mehr als einem Jahr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5ZVlFCTmdaOm5ldy14Z2lFVHFDSg==",
+        "characterCount": 563,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Geschürt wurden diese Spekulationen von den <strong>US-Erzeugerpreisen</strong>. Sie gingen zwar im April auf <strong>elf Prozent</strong> im Jahresvergleich zurück. Analysten hatten aber einen Rückgang auf 10,7 Prozent vorhergesagt. \"Wir sehen zwar, dass sich die Inflation zu verlangsamen beginnt, aber nicht so schnell wie erhofft\", sagte Gene Goldman, Chef-Anleger des Vermögensverwalters Cetera. Das verunsichere Anleger, denn wenn die Fed die Zinsen zu aggressiv anhebe, schade dies dem Wachstum. \"Aber wenn sie zu konservativ sind, schadet es dem Konsum, was wiederum dem Wachstum schadet.\"</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZzeE1LSFNyOm5ldy14czUzalBpUw==",
+        "characterCount": 490,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Zu den Verlierern am <strong>US-Aktienmarkt zählte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/walt-disney-disney-984192/nyx/usd\">Walt Disney</a></strong>. Die Titel des Unterhaltungskonzerns fielen wegen eines Quartalsergebnisses unter Markterwartungen um 3,7 Prozent auf ein Zwei-Jahres-Tief von 101,30 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>. Außerdem warnte die Firma vor Belastungen durch Lieferketten-Probleme sowie steigende Löhne und Gehälter. Die Analysten der Bank <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/jpmorgan-chase-1161460/nyx/usd\">JPMorgan</a> bezweifelten, dass <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/walt-disney-disney-984192/nyx/usd\">Disney</a> das Kundenwachstum seiner Streaming-Sparte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/walt-disney-disney-984192/nyx/usd\">Disney</a>+ aufrecht erhalten und seine Gesamtjahresziele erreichen könne.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWw1ems3dXhtOm5ldy1lTFI0OW1tRw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBVeEljeHZJOm5ldy1hY3hxZ01TRA==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>15:35</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWt0bWhaSURCOm5ldy1nTU1RaDNIaQ==",
+        "characterCount": 171,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow Jones</a></strong> verliert knapp ein Prozent bei <strong>31'519 Punkten.</strong> Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-998356/nai/usd\">Nasdaq</a></strong> stürzt um 1,8 Prozent ab auf <strong>11'158 Punkte</strong>. Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us500-998434/xnys/usd\">S&amp;P 500</a></strong> liegt 1,24 Prozent tiefer bei <strong>3886 Zählern.</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZOTnRmNVQzOm5ldy11aFlOaHp4Tw==",
+        "characterCount": 3,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "MinistageParagraph",
+        "id": "cGFyYWdyYXBoOm1pbmlzdGFnZToyMTY2NDg6MzA2Mzc2",
+        "anchorId": null,
+        "ministage": {
+          "__typename": "MinistageLogoBox",
+          "name": "Sponsor Logo Box",
+          "headline": "This is a Sponsor Logo Box",
+          "subhead": "subhead",
+          "items": {
+            "__typename": "NodeInterfaceConnection",
+            "edges": [
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDQzOA==",
+                  "title": "Leontech",
+                  "preferredUri": "/leontech-52011",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjI5MDoyOTc3ODI=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70795",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MjAwOTo6MjIwLDUzOjo=",
+                        "relativeOriginPath": "/media/field_image/2022-04/leontech_logo_0.jpg",
+                        "alt": "leontech_logo",
+                        "focalPointX": 220,
+                        "focalPointY": 53
+                      }
+                    }
+                  },
+                  "body": []
+                }
+              },
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDM1NA==",
+                  "title": "Vontobel",
+                  "preferredUri": "/vontobel-51924",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjExNzozMDYxNjA=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70783",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MTk3Njo6MTEwLDI3Ojo=",
+                        "relativeOriginPath": "/media/field_image/2022-03/vontobel.jpg",
+                        "alt": "vontobel",
+                        "focalPointX": 110,
+                        "focalPointY": 27
+                      }
+                    }
+                  },
+                  "body": []
+                }
+              },
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDQwMg==",
+                  "title": "Credit Suisse",
+                  "preferredUri": "/credit-suisse-51973",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjE4NjoyOTczNTc=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70785",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MTk5Nzo6MTI4MCwyODY6Og==",
+                        "relativeOriginPath": "/media/field_image/2022-03/credit_suisse_logo_0.jpg",
+                        "alt": "Credit Suisse logo",
+                        "focalPointX": 1280,
+                        "focalPointY": 286
+                      }
+                    }
+                  },
+                  "body": []
+                }
+              },
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDQwNw==",
+                  "title": "iShares",
+                  "preferredUri": "/ishares-51977",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjIwMToyOTc0MzA=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70787",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MjAwMDo6MTAwMCwzNzE6Og==",
+                        "relativeOriginPath": "/media/field_image/2022-03/ishares-logo.png",
+                        "alt": "ishares-logo",
+                        "focalPointX": 1000,
+                        "focalPointY": 371
+                      }
+                    }
+                  },
+                  "body": []
+                }
+              },
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDQzNw==",
+                  "title": "UBS",
+                  "preferredUri": "/ubs-52010",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjI4OToyOTkxMzQ=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70793",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MjAwNzo6MTM0LDI3Ojo=",
+                        "relativeOriginPath": "/media/field_image/2022-04/ubs_logo.jpg",
+                        "alt": "ubs_logo",
+                        "focalPointX": 134,
+                        "focalPointY": 27
+                      }
+                    }
+                  },
+                  "body": [
+                    {
+                      "__typename": "TextParagraph",
+                      "id": "cGFyYWdyYXBoOnRleHQ6MjE2NDMyOjI5OTEyOA==",
+                      "header": null,
+                      "text": "<p><strong>Lorem Ipsum</strong> is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>\n"
+                    },
+                    {
+                      "__typename": "TextParagraph",
+                      "id": "cGFyYWdyYXBoOnRleHQ6MjE2Mzg5OjI5OTEyOQ==",
+                      "header": null,
+                      "text": "<p>Die <b>UBS Group AG</b> ist eine <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Schweiz\" title=\"Schweiz\">Schweizer</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Gro%C3%9Fbank\" title=\"Großbank\">Grossbank</a> mit Sitz in <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Z%C3%BCrich\" title=\"Zürich\">Zürich</a>.<sup class=\"reference\" id=\"cite_ref-HR-Auszug_1-2\"><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/UBS#cite_note-HR-Auszug-1\">[1]</a></sup> Sie zählt zu den weltweit grössten <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Verm%C3%B6gensverwaltung\" title=\"Vermögensverwaltung\">Vermögensverwaltern</a>.<sup class=\"reference\" id=\"cite_ref-Punkt4_8-0\"><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/UBS#cite_note-Punkt4-8\">[8]</a></sup><sup class=\"reference\" id=\"cite_ref-Scorpio_Partnership_Global_Private_Banking_Benchmark_2016_9-0\"><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/UBS#cite_note-Scorpio_Partnership_Global_Private_Banking_Benchmark_2016-9\">[9]</a></sup> Ursprünglich war der Name das <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Akronym\" title=\"Akronym\">Akronym</a> aus französisch <i>Union de Banques Suisses</i> bzw. italienisch <i>Unione di Banche Svizzere</i>, später dann auch englisch <i>Union Bank of Switzerland</i>.<sup class=\"reference\" id=\"cite_ref-10\"><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/UBS#cite_note-10\">[10]</a></sup> Heute steht UBS offiziell als <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/Eigenname\" title=\"Eigenname\">Eigenname</a> ohne weitere Bedeutung (siehe auch den Abschnitt <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://de.wikipedia.org/wiki/UBS#Entstehung_der_UBS_AG_(1997/98)_und_Entwicklung_bis_2007\">Geschichte</a>).</p>\n"
+                    },
+                    {
+                      "__typename": "ImageParagraph",
+                      "id": "cGFyYWdyYXBoOmltYWdlOjIxNjM5MDoyOTkxMzA=",
+                      "title": null,
+                      "image": {
+                        "__typename": "Image",
+                        "id": "70821",
+                        "file": {
+                          "__typename": "ImageFile",
+                          "id": "ZmlsZTo3MjA0Mjo6MjQ5NSwxNjY0Ojo=",
+                          "relativeOriginPath": "/media/field_image/2022-04/banking.jpg",
+                          "alt": "banking",
+                          "filename": "banking.jpg",
+                          "focalPointX": 2495,
+                          "focalPointY": 1664
+                        }
+                      }
+                    },
+                    {
+                      "__typename": "EmbedParagraph",
+                      "id": "cGFyYWdyYXBoOmVtYmVkOjIxNjM5MToyOTkxMzE=",
+                      "header": "Twitter News",
+                      "embedCode": "<blockquote class=\"twitter-tweet\"><p lang=\"en\" dir=\"ltr\">Wrong answers only: what’s your top advice for online security? ⬇️</p>&mdash; 1Password (@1Password) <a onclick=\"window.handleWysiwygLink(event)\" href=\"https://twitter.com/1Password/status/1518620957530902531?ref_src=twsrc%5Etfw\">April 25, 2022</a></blockquote> <embeddedscript async async src=\"https://platform.twitter.com/widgets.js\" charset=\"utf-8\"></embeddedscript> "
+                    },
+                    {
+                      "__typename": "ListicleItemParagraph",
+                      "id": "cGFyYWdyYXBoOmxpc3RpY2xlX2l0ZW06MjE2MzkzOjI5OTEzMw==",
+                      "title": "Listicle Title",
+                      "text": "<p>Listicle Text goes here</p>\n",
+                      "footer": "<p>Footer Text</p>\n"
+                    }
+                  ]
+                }
+              },
+              {
+                "__typename": "NodeInterfaceEdge",
+                "node": {
+                  "__typename": "Sponsor",
+                  "id": "bm9kZTo1MDQ0NA==",
+                  "title": "Societe Generale",
+                  "preferredUri": "/societe-generale-52019",
+                  "teaserImage": {
+                    "__typename": "ImageParagraph",
+                    "id": "cGFyYWdyYXBoOmltYWdlOjIxNjMxMzoyOTc4NzY=",
+                    "image": {
+                      "__typename": "Image",
+                      "id": "70798",
+                      "file": {
+                        "__typename": "ImageFile",
+                        "id": "ZmlsZTo3MjAxMjo6MTEwLDI3Ojo=",
+                        "relativeOriginPath": "/media/field_image/2022-04/societe_generale.jpg",
+                        "alt": "Societe Generale",
+                        "focalPointX": 110,
+                        "focalPointY": 27
+                      }
+                    }
+                  },
+                  "body": []
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6MjE2NjQ5OjMwNjM3Nw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>15:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXI2V284cmhYOm5ldy1va2FrSm5OSg==",
+        "characterCount": 374,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der Broker IG taxiert den Leitindex <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow Jones</a> Industrial f</strong>ast ein halbes Prozent tiefer auf 31'684 Punkte. Den technologielastigen <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-100-985336/nai/usd\">Nasdaq 100</a> </strong>sieht IG 1,4 Prozent im Minus bei 11'799 Zählern. Die Indizes würden damit auf den niedrigsten Stand seit März 2021 und November 2020 zurückfallen. Schon zur Wochenmitte waren vor allem Technologiewerte deutlich unter Druck geraten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXh1V0hHem1jOm5ldy1nQ2x4bHJzZQ==",
+        "characterCount": 442,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Unter den Anlegern geht weiter die Angst um, dass die Notenbanken mit einer Anhebung der Leitzinsen zur Bekämpfung der hohen Inflation weltweit das Wirtschaftswachstum abwürgen könnten. Dazu fielen aktuelle Konjunkturdaten aus den USA wenig erfreulich aus: Während die wöchentlichen Erstanträge auf Arbeitslosenhilfe überraschend stiegen, legten die Erzeugerpreise im April gegenüber dem Vorjahr noch etwas deutlicher zu als schon befürchtet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWFBd2hXc1dXOm5ldy12OGY4amJuNQ==",
+        "characterCount": 504,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Unternehmensnachrichten stiessen vorbörslich ebenfalls auf ein negatives Echo. Bei den Aktien des Fleischersatzproduzenten <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/beyond-meat-rg-44967515/nms/usd\">Beyond Meat</a> zeichnet sich nach enttäuschenden Quartalszahlen eine Fortsetzung der jüngsten Talfahrt ab: Mit einem Kurseinbruch um knapp 23 Prozent auf 20,25 US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> drohen sie unter ihren Ausgabepreis von 25 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> zu rutschen. Vor gut drei Jahren hatte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/beyond-meat-rg-44967515/nms/usd\">Beyond Meat</a> den Sprung aufs Börsenparkett gewagt - zwischenzeitlich hatte sich der Wert der Anteilsscheine fast verzehnfacht.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWN2ZFlxOWNrOm5ldy1sTnFIdlBDeQ==",
+        "characterCount": 350,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die zuletzt ebenfalls schwachen Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/walt-disney-disney-984192/nyx/usd\">Walt Disney</a> büssten vorbörslich über dreieinhalb Prozent auf 101,38 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> ein, was den niedrigsten Stand seit rund zwei Jahren bedeuten würde. Sie litten unter dem Gewinneinbruch des Unterhaltungskonzerns zu Jahresbeginn. Dass das wichtige Streaminggeschäft besser als erwartet lief, half den Titeln nicht.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJRRjNPTFFSOm5ldy1pUlJOVkJMeg==",
+        "characterCount": 555,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Bei den am Vortag gebeutelten <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a>-Aktien zeichnet sich ein weiterer Kursrückgang um mehr als zwei Prozent auf 143,38 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> ab - so günstig waren sie zuletzt im Oktober zu haben. Hier belasteten offenbar Aussagen von Foxconn. Der wichtige iPhone-Zulieferer aus Taiwan musste seine Produktion im chinesischen Shenzen aussetzen, da derzeit in China die Corona-Inkfektionszahlen steigen und die Regierung weitgehende Lockdown-Massnahmen ergriffen hat. Berichten zufolge soll deshalb auch der Zulieferer Unimicron Technology die Produktion ausgesetzt haben.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhxZmwwU0FvOm5ldy1oRTZmamNFaQ==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXRpcjF4QTZPOm5ldy1pQXZ0ejJiZQ==",
+        "characterCount": 141,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Technologie - «Buy the Dip»: Cathie Wood kauft über eine halbe Million Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/coinbase-glb-rg-a-110289664/nms/usd\">Coinbase</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/yOSZKev8Z0\">https://t.co/yOSZKev8Z0</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/aKaeB9wh6l\">pic.twitter.com/aKaeB9wh6l</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWl1enVhblkxOm5ldy10blA5dW1wNA==",
+        "characterCount": 32,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524724086148005889?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJza3lMSHlROm5ldy12cEZwYVFEZw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>13:45</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJVMXhNZVpUOm5ldy1mUTlUdzVGdQ==",
+        "characterCount": 389,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Anleger umschwärmen <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/bumble-rg-a-59496634/nms/usd\">Bumble</a></strong>. Die Aktien steigen vorbörslich um 8,9 Prozent, nachdem der Dating-App-Anbieter seinen Quartalsumsatz stärker als erwartet auf 211,2 Millionen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> gesteigert hatte. Zudem lag das Ergebnis je Aktie bei dreizehn Cent statt eines erwarteten Verlustes von drei Cent. Die Zahl der zahlenden Kunden sei signifikant gestiegen, sagte Firmenchefin Whitney Wolfe Herd. </p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXpBYVoyRU9NOm5ldy1zZ1pYSVE0dQ==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZPSkdQblo3Om5ldy1oejAwWEVyVw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>13:40</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdsdWQ2dnROOm5ldy1uMHNpZmhMWQ==",
+        "characterCount": 429,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Ein tiefer Kursrutsch steht <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/beyond-meat-rg-44967515/nms/usd\">Beyond Meat</a> </strong>bevor. Nach enttäuschenden Quartalszahlen liegt die Aktie vorbörslich mehr als 24 Prozent im Minus und steuert auf ein Rekordtief von 19,77 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> zu. Damit läge sie unter ihrem ursprünglichen IPO-Kurs von 25 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> und weit entfernt von ihrem Hoch von knapp 240 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> aus dem Jahr 2019. Dem Anbieter von Fleischersatzprodukten setzte im abgelaufenen Quartal in den USA die Konkurrenz zu.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWV1NDNVMWVCOm5ldy1ncXowTUFSRA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXB3d2t4WklTOm5ldy1jSHQ1bVR6cQ==",
+        "characterCount": 124,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Kursdebakel - US-Grossbank: Kleinanleger suchen bei Aktien den Notausgang <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/8IRXHQ9DRh\">https://t.co/8IRXHQ9DRh</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/KFw3S0St3H\">pic.twitter.com/KFw3S0St3H</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXVFVWM4d0poOm5ldy1lWlVic3ZvMA==",
+        "characterCount": 32,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524699430963736576?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhzMUlRN2J2Om5ldy1rejZNbEZOUg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>13:35</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXlud3JwVkNLOm5ldy15Q09nV3VKaQ==",
+        "characterCount": 232,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> </strong>ist am Donnerstag wieder unter die Marke von 1,05 US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> gerutscht und hat einen fünfjährigen Tiefstand markiert. Im Tief kostete die Gemeinschaftswährung 1,0422 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> und damit so wenig wie seit Anfang 2017 nicht mehr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVyUDdEanNoOm5ldy1xdXJKVU5ydQ==",
+        "characterCount": 264,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Und auch zum <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a> </strong>verlor die Gemeinschaftswährung am Donnerstagvormittag an Wert. Im Tief notierte das Währungspaar 1,0379 nach 1,0475 am Morgen. Derzeit steht der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> jedoch wiederum bei 1,04 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>. Der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> wird praktisch unverändert zu 0,9961 gehandelt.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW9vUHNIV0xhOm5ldy1uZ3VERXR6SA==",
+        "characterCount": 492,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> litt deutlich unter der trüben Stimmung an den Finanzmärkten. Zulauf erhielt dagegen der US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>, der vielen Anlegern als sichere Alternative gilt. Für Ernüchterung sorgten unter anderem neue Corona-Infektionen in der chinesischen Metropole Shanghai, die baldigen Lockerungen der scharfen Virus-Beschränkungen entgegenstehen. Die Einschränkungen stellen eine Bürde für den Welthandel dar, da der Hafen in Shanghai eine grosse Bedeutung für die internationale Güter-Schifffahrt hat.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWF3cEJCakRSOm5ldy1qVUFMQThmZw==",
+        "characterCount": 432,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Darüber hinaus sorgt die Aussicht auf vielerorts steigende Leitzinsen für Konjunkturskepsis. Vor allem der voraussichtliche Kurs der US-Notenbank Fed verunsichert die Marktteilnehmer. Die wohl deutlichen Zinsanhebungen und die angepeilte Bilanzreduzierung bringen konjunkturellen Gegenwind mit sich. Auch die EZB steuert auf höhere Leitzinsen zu, allerdings dürfte sie in deutlich langsamerem Tempo vorgehen als die Federal Reserve.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXRQVFhaUGJVOm5ldy1qWUw1SEx4Tw==",
+        "characterCount": 402,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Konjunkturdaten mit breiter Marktwirkung stehen am Donnerstag nur wenige auf dem Programm. Von Interesse dürften US-Preisdaten von der Unternehmensebene sein. Sie dürften die leicht rückläufige Inflation, die am Vortag schon Verbraucherpreisdaten abgebildet hatten, bestätigen. In den USA werden zudem die wöchentlichen Daten vom Arbeitsmarkt erwartet, die Hinweise auf den Zustand des Jobmarkts geben.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWh5RHBiQWxGOm5ldy1xdUl1ck1LUA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZreVlnREtzOm5ldy1tdnNKVVA1Zg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>13:15</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXYwWXpYcnAwOm5ldy1wS1p1NHJ6dw==",
+        "characterCount": 239,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Investoren wenden sich von <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/walt-disney-disney-984192/nyx/usd\">Walt Disney</a></strong> ab. Die Aktien verlieren vorbörslich mehr als fünf Prozent, nachdem der US-Unterhaltungskonzern bei Umsatz und bereinigtem Ergebnis je Aktie im zweiten Quartal die Erwartungen der Analysten verfehlte.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlHcVAxakZFOm5ldy1zRktWZ1ZTSw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWtRaFd1b1pkOm5ldy1za01JbjU0NQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>12:50</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJsdmllSk1aOm5ldy1mTFZuMWI2VA==",
+        "characterCount": 166,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Termingeschäfte deuten auf eine negative Eröffnung der US-Börsen hin.: <br>\n<strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow Jones</a> Futures: -0,45 Prozent<br>\n<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us500-998434/xnys/usd\">S&amp;P 500</a> Futures: -0,57 Prozent<br>\n<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-998356/nai/usd\">Nasdaq</a> Futures: -0,98 Prozent</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBQQUVNWUlrOm5ldy1sVzJpVWJWcg==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW9UcExNcjhYOm5ldy14ZExPVk9tZQ==",
+        "characterCount": 48,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\"><a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/Hedgeye?ref_src=twsrc%5Etfw\">@Hedgeye</a> nails it again. <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/U7sQEvM7M4\">https://t.co/U7sQEvM7M4</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlpcHRVVWZxOm5ldy1lRUNVcHNkYg==",
+        "characterCount": 61,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— Dan \"Millennial\" Willis  (@MLLNNLmotivator) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/MLLNNLmotivator/status/1524412846834077696?ref_src=twsrc%5Etfw\">May 11, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFVNmdqM3pGOm5ldy1pVkNpeHk3Wg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>11:45</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW1RRGtTMkxhOm5ldy1oV0FOa0RnNw==",
+        "characterCount": 291,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a> </strong>sackt um 2,0 Prozent ab auf 11'325 Punkte. Kurzzeitig war der Leitindex gar unter die 11'300er Marke gerutscht. Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/sli-3025288/swx/chf\">SLI</a></strong>, in dem die 30 wichtigsten Aktien enthalten sind, verliert ebenso deutliche 2,2 Prozent auf 1746 Punkte und der breite <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/spi-998750/swx/chf\">SPI</a> </strong>gibt 1,9 Prozent auf 14'554 Zähler nach.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWtFTHFraGV0Om5ldy1mYWk1RjA5Wg==",
+        "characterCount": 386,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Auf die Stimmung drückt die anhaltend hohe Inflation sowie die damit verbunden Sorgen um weiter steigende Zinsen. \"Die US-Inflationszahlen brachten nicht die erhoffte Entspannung, womit der Ausblick auf steigende US-Leitzinsen und die damit verbundenen Abwärtsrisiken für das Wachstum intakt bleibt\", heisst es von einem Analysten. Das dürfte die Marktvolatilität vorerst erhöht halten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlzRGNlVHBCOm5ldy1yYjE3TzlTVQ==",
+        "characterCount": 703,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Doch auch die Pandemie mit ihren zahllosen Impulsen für die Wirtschaft habe Investoren vor eine schwierige Aufgabe gestellt: Sie müssten nun herausfinden, welche durch die Pandemie erzeugte Trends nachhaltiger Natur seien und welche lediglich eine Sonderkonjunktur darstellten. Und doch gibt es derzeit Händlerstimmen, die eher eine Übertreibungen im Markt sehen. Investoren nähmen derzeit nur die schlechten Informationen auf - die teilweise positiven fundamentalen Eckdaten ignorierten sie. Im Tagesverlauf werden in den USA die Produzentenpreise veröffentlicht. Hierzulande haben die am Morgen veröffentlichten Daten gezeigt, dass sich der Preisanstieg für die Unternehmen nochmals beschleunigt habe.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJEUldrc1hhOm5ldy1nUm1WazRBVA==",
+        "characterCount": 383,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Am stärksten büssen die Papiere von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ciefinrichemont-n-21048333/swx/chf\">Richemont</a> ein (-5,5 Prozent), nachdem sie im Vortag noch zu den grössten Gewinnern zählten. Auch <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/logitech-intl-n-2575132/swx/chf\">Logitech</a>-Papiere geben deutlich nach (-4,2 Prozent). Sie folgen damit den Vorgaben aus den USA, wo gestern besonders Technologiefirmen stark unter Druck geraten waren. Schwergewichte wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/amazon.com-645156/nms/usd\">Amazon</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/microsoft-951692/nms/usd\">Microsoft</a> verbuchten deutliche Kurseinbussen.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZaWFdDSE9zOm5ldy1lUUJ4a3lubQ==",
+        "characterCount": 285,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Etwas weniger stark werden Technologie-Werte wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/vat-group-n-31186490/swx/chf\">VAT</a> (-2,7 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ams-i-24924656/swx/chf\">AMS Osram</a> (-2,5 Prozent) und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/temenos-n-1245391/swx/chf\">Temenos</a> (-1,8 Prozent) abgestraft. Schwächer präsentieren sich auch Technologiewerte aus der zweiten Reihe wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/softwone-hldg-n-49645150/swx/chf\">SoftwareOne</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/inficon-hldg-n-1102994/swx/chf\">Inficon</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/u-blox-hldg-n-3336167/swx/chf\">U-Blox</a> oder <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/comet-hldg-n-36082699/swx/chf\">Comet</a>, die mindestens 2 Prozent verlieren.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhVbmR4VmtjOm5ldy1ubU5GVzJTYQ==",
+        "characterCount": 230,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Erneut ganz oben auf den Verkaufslisten sind zudem <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/straumann-hldg-n-117544866/swx/chf\">Straumann</a> (-4,3 Prozent) oder auch <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/part-grp-hldg-n-2460882/swx/chf\">Partners Group</a> (-2,9 Prozent) zu finden. Beiden Papiere haben im bisherigen Jahresverlauf bereits überdurchschnittlich stark an Wert eingebüsst.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5sTVNKemk1Om5ldy1jYzJkZDZROQ==",
+        "characterCount": 0,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><iframe allowfullscreen=\"false\" class=\"cash-widget-iframe cash-widget-trade-iframe\" id=\"trade-redaktion-v8\" src=\"https://www.cash.ch/widgets/cash/trade-redaktion-v8#trade-redaktion-v8\" style=\"border: 0px; width: 100%; height: 200px;\"></iframe></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhQeUhXM2djOm5ldy1vRGZsVVVtVQ==",
+        "characterCount": 579,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Neben <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/part-grp-hldg-n-2460882/swx/chf\">Partners Group</a> fallen auch die übrigen Bankaktien wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/cs-group-n-1213853/swx/chf\">CS</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a> oder <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/julius-baer-grp-n-10248496/swx/chf\">Julius Bär</a> mit Abgaben von mehr als zwei Prozent etwas stärker als der Markt. Dagegen halten sich die Versicherer <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/swiss-life-hldg-n-1485278/swx/chf\">Swiss Life</a> (-1,6 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a> (-1,5 Prozent) und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/swiss-re-n-12688156/swx/chf\">Swiss Re</a> (-0,8 Prozent) mit Abgaben besser als der Gesamtmarkt. Der Versicherer <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a> war dabei nach Zahlen zunächst mit leichten Zugewinnen in den Handel gestartet, im Zuge der allgemeinen Abwärtsbewegung dann aber auch abgerutscht. Analysten hatten den am Morgen publizierten Zwischenbericht für die ersten drei Monate positiv bewertet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXVLaDdGUTlzOm5ldy1kMkNsaTZ3eA==",
+        "characterCount": 332,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>In den hinteren Reihen fallen vor allem die Aktien der Online-Bank <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/swissquote-grp-hl-n-1067586/swx/chf\">Swissquote</a> (-9,2 Prozent) mit zeitweise prozentual zweistelligen Abgaben auf. Hier verweisen Marktteilnehmer auf die aktuelle Entwicklung bei den Kryptowährungen. So sackt der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/bitcoin-in-usd-39475121/nexc/usd\">Bitcoin</a> erneut ab und erreicht mit unter 27'000 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> den tiefsten Stand seit Ende 2020.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5yOFcxYWZnOm5ldy1oRjZCY1R1Yw==",
+        "characterCount": 237,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Bei den kleinen Titeln haben sich die Papiere von Meyer-Burgen im Handelsverlauf unterdessen etwas erholt (-4,2 Prozent), nachdem sie von der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a> herabgestuft wurden. In den Handel waren sie noch mit mehr als 6 Prozent Verlust gestartet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXFQeHptWERZOm5ldy1yVEdnVVZDZQ==",
+        "characterCount": 275,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Bei den Gewinnern stehen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zur-rose-group-n-4261528/swx/chf\">Zur Rose</a> (+6,7 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/talenthouse-n-1081986/swx/chf\">Talenthouse</a> (+5,3 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/lalique-group-n-3381329/swx/chf\">Lalique</a> (+4,4 Prozent) und an der Spitze. Bei <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zur-rose-group-n-4261528/swx/chf\">Zur Rose</a> wirkte sich ein Bericht über einen definitiven Fahrplan zur Einführung des E-Rezepts positiv aus, was von Analysten positiv aufgenommen wurde.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdLUDREY0p6Om5ldy1hQjZZODczWQ==",
+        "characterCount": 186,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Gemäss einem Apotheken-Magazin dürfte in Deutschland bald ein verbindlicher Fahrplan zur Einführung des E-Rezepts beschlossen werden. Analysten sehen darin einen bedeutenden Kurstreiber.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJaSFdsWmdDOm5ldy1jZjk0aWt4SA==",
+        "characterCount": 478,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Nun soll Gematik - die für die Einführung zuständige Gesellschaft - aber wohl am 30. Mai über einen Zeitplan abstimmen, wie es in dem neusten Branchenbericht heisst. Demnach soll ab September für alle Apotheken das E- Rezept verpflichtend eingeführt werden. Für Ärzte und Zahnärzte soll die Einführung dagegen stufenweise erfolgen: ab September zuerst in Bayern und Schleswig-Holstein, ab Dezember dann in weiteren sechs Bundesländern und ab Februar 2023 dann in den restlichen.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWdZZ3V2SWUzOm5ldy1oS01ITUtIMA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxyRTVBWnZnOm5ldy15Y29lNFVsUw==",
+        "characterCount": 95,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Kryptowährungen - «Auf dem gesamten Kryptomarkt herrscht extreme Angst» <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/L4ytWYPL4v\">https://t.co/L4ytWYPL4v</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJKREFhOEEyOm5ldy1ickpTdE5DdQ==",
+        "characterCount": 32,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524684819895971841?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWNiUVF1Ukc4Om5ldy10NUI5VzNoQQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>10:40</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXhHQ1V2ZEpmOm5ldy11dDA3cE1OZA==",
+        "characterCount": 388,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">Swiss Market Index</a> (<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a>) </strong>verliert 1,9 Prozent auf 11'337 Punkte. Kein einziger Titel befindet sich im Plus. Die grössten Abgaben verzeichnen die Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ciefinrichemont-n-21048333/swx/chf\">Richemont</a> (-4,7 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/logitech-intl-n-2575132/swx/chf\">Logitech</a> (-3,7 Prozent) und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/sika-n-41879292/swx/chf\">Sika</a> (-2,9 Prozent).  Der kleinste Verlust verzeichnet <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/swiss-re-n-12688156/swx/chf\">Swiss Re</a> (-0,3 Prozent). Dahinter folgt <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich Insurance</a>, das vor Börseneröffnung seine Quartalszahlen publiziert hat. </p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJvazg3YUpmOm5ldy15ZWlSUHFacg==",
+        "characterCount": 0,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><img alt=\"\" src=\"/sites/default/files/public/uploads/220512_smi.jpg\" style=\"width: 100%;\"></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXRBb2h3a0NaOm5ldy1hY0hTdUZueQ==",
+        "characterCount": 34,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><em><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a>-Kurstableau (Quelle: cash.ch).</em></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXNVT2FIT1A2Om5ldy12M1gxQUg5eQ==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJtN3AxbGRSOm5ldy16Tng5SG42Mg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>10:05</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWhSU3NmMEs2Om5ldy1nWUttOGU1bw==",
+        "characterCount": 182,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Aktien des Solarmodulherstellers <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/meyer-burger-n-10850379/swx/chf\">Meyer Burger</a> </strong>verlieren 5,3 Prozent auf 0,376 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, während der Gesamtmarkt gemessen am <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/spi-998750/swx/chf\">Swiss Performance Index</a> (<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/spi-998750/swx/chf\">SPI</a>) 1,9 Prozent tiefer steht.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXp3Q3lURmZNOm5ldy1oaDFmUXIxZg==",
+        "characterCount": 255,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Vermutlich ein Mitgrund für das grosse Kursminus bei <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/meyer-burger-n-10850379/swx/chf\">Meyer Burger</a> ist nach unten korrigierte Analysteneinschätzung durch die <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a>. Die Grossbank senkt das Rating für <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/meyer-burger-n-10850379/swx/chf\">Meyer Burger</a> auf \"Neutral\" von \"Buy\" und reduziert das Kursziel von 0,55 auf 0,46 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWNPUmthdmVsOm5ldy15THJERWp5Zw==",
+        "characterCount": 574,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Kurszielanpassung basiere auf verzögerten Hochlaufzeiten angesichts zahlreicher Herausforderungen wie beispielsweise Covid-19 oder fehlenden Komponenten, schreibt Analyst Barbora Blaha. Ihres Erachtens widerspiegelten sich diese Ereignisse bereits im Aktienkurs, weshalb sie die Einstufung herabsetze. Angesichts der Verzögerungen glaube sie denn auch nicht, dass die aktuelle Zielsetzung für 2023 in Bezug auf die Umsätze und die EBITDA-Marge erreicht werden könne, so die Analystin. Ausserdem führten diese Verzögerungen zu einer höheren Liquiditätslücke im Jahr 2024.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZ1dEdPM2s1Om5ldy1pblpRVGR0NA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJ1M1NVaGlwOm5ldy12UWNKell4VA==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>09:40</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlZQXZiS1A4Om5ldy1jZUdjUWR5aw==",
+        "characterCount": 192,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a> </strong>sackt 2,3 Prozent ab auf 11'297 Punkte. Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/sli-3025288/swx/chf\">SLI</a></strong>, in dem die 30 wichtigsten Aktien enthalten sind, verliert 2,3 Prozent auf 1746 Punkte und der breite <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/spi-998750/swx/chf\">SPI</a> </strong>2,2 Prozent auf 14'514 Zähler.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWp2NDN1M3dPOm5ldy1nQWJsYmxISQ==",
+        "characterCount": 405,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Am deutlichsten geht es für <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ciefinrichemont-n-21048333/swx/chf\">Richemont</a> (-4,2 Prozent) abwärts, nachdem der Uhrenhersteller am Vortag noch einer der grössten Gewinner gewesen war. Durch die Bank schwächer präsentieren sich Technologiewerte wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ams-i-24924656/swx/chf\">AMS Osram</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/logitech-intl-n-2575132/swx/chf\">Logitech</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/temenos-n-1245391/swx/chf\">Temenos</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/vat-group-n-31186490/swx/chf\">VAT</a>, die alle um mehr als 2 Prozent fallen. In den hinteren Reihen gesellen sich <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/inficon-hldg-n-1102994/swx/chf\">Inficon</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/comet-hldg-n-36082699/swx/chf\">Comet</a> dazu. Händler verweisen auf die schwachen Vorgaben aus den USA.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZQRHFpT3JDOm5ldy14SVpxWFpTQw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxITm5HRGU0Om5ldy1hQnlXQ0JCUA==",
+        "characterCount": 871,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"width: 100%;\">\n\t<tbody>\n\t\t<tr>\n\t\t\t<td><strong>Neue Kursziele für Schweizer Aktien: </strong>\n\n\t\t\t<ul>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/alcon-rg-43249246/swx/chf\">Alcon</a>: </strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a> erhöht Kursziel von 83,5 auf 88 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Buy\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/alcon-rg-43249246/swx/chf\">Alcon</a>: </strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/citigroup-rg-12915350/nyx/usd\">Citigroup</a> senkt Kursziel von 87 auf 81 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Neutral\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/cs-group-n-1213853/swx/chf\">Credit Suisse</a>:</strong> Jefferies senkt Kursziel von 7,3 auf 6,9 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Hold\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/flughafen-zuerich-n-31941693/swx/chf\">Flughafen Zürich</a>:</strong> Stifel senkt Kursziel von 200 auf 190 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Buy\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/glencore-12964057/lss/gbp\">Glencore</a></strong>: <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/deutsche-bank-n-829257/fra/eur\">Deutsche Bank</a> senkt Kursziel von 5,90 auf 5,80 Britische <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/gbp-chf-275001/fxr/chf\">Pfund</a>.</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/meyer-burger-n-10850379/swx/chf\">Meyer Burger</a>: </strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a> senkt Kursziel von 0,55 auf 0,46 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, senkt Rating von \"Buy\" auf \"Neutral\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/roche-hldg-g-1203204/swx/chf\">Roche</a>:</strong> <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/julius-baer-grp-n-10248496/swx/chf\">Julius Bär</a> senkt Kursziel von 400 auf 360 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Buy\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/roche-hldg-g-1203204/swx/chf\">Roche</a>: </strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/morgan-stanley-653571/nyx/usd\">Morgan Stanley</a> senkt Kursziel von 395 auf 370 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Equal Weight\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/straumann-hldg-n-117544866/swx/chf\">Straumann</a>:</strong> Bernstein senkt Kursziel von 190 auf 150 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Outperform\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/swiss-life-hldg-n-1485278/swx/chf\">Swiss Life</a></strong>: <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/vontobel-hldg-n-1233554/swx/chf\">Vontobel</a> erhöht Kursziel von 598 auf 618 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Buy\"</li>\n\t\t\t\t<li><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a>: </strong>Jefferies erhöht Kursziel von 22 auf 24 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>, \"Buy\"</li>\n\t\t\t</ul>\n\t\t\t</td>\n\t\t</tr>\n\t</tbody>\n</table>\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJFMjEwZDhlOm5ldy13ODlSRTdFTQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>09:10</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXozNndvN2Z4Om5ldy1uaElTaklaVQ==",
+        "characterCount": 72,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der<strong> <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">Swiss Market Index</a> (<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a>)</strong> gibt um 1,7 Prozent nach auf 11'354 Punkte.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXhpdDBWNXZDOm5ldy12cDVBTHJRTw==",
+        "characterCount": 603,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>\"Zu langsam für eine Verlangsamung\", kommentiert ein Händler die Inflationsdaten vom Vortag. Die US-Inflation habe sich im April zwar leicht abgeschwächt, aber ungeduldige Händler seien mit dem Tempo nicht zufrieden gewesen. Die Daten deuteten an, dass der Preisdruck noch länger auf einem höheren Niveau verharren werde. Entsprechend werde das Fed an seinem aggressiven Zinserhöhungspfad festhalten. Investoren werde zunehmend klar, dass die Zeit des billigen Notenbank-Geldes tatsächlich vorbei sei, kommentiert ein Stratege. Im Tagesverlauf dürften denn auch die US-Erzeugerpreise ins Zentrum rücken.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWNZQnBFNnZFOm5ldy1vYXNKRklkag==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxidERsTnJDOm5ldy1tTGYzUVdtMw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>08:10</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXI1d1k3YTEzOm5ldy1uUTB1blMwdA==",
+        "characterCount": 520,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">Swiss Market Index</a> (<a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a>) </strong>wird bei <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/julius-baer-grp-n-10248496/swx/chf\">Julius Bär</a> vorbörslich 0,81 Prozent tiefer geschätzt. Die grössten vorbörslichen Kursverluste verzeichnen die Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/logitech-intl-n-2575132/swx/chf\">Logitech</a> (-1,6 Prozent). Dahinter folgen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/abb-n-1222171/swx/chf\">ABB</a> (-1,3 Prozent), <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ubs-group-n-24476758/swx/chf\">UBS</a> (-1,3 Prozent) und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/cs-group-n-1213853/swx/chf\">Credit Suisse</a> (-1,2 Prozent). Einzig die Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich Insurance</a> (+0,5 Prozent) befinden sich im Plus. Die <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a>-Gruppe ist im ersten Quartal 2022 weiter gewachsen und hat dabei in der grössten Sparte, der Schaden- und Unfallversicherung besser abgeschnitten als erwartet.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWpGeHA2eFd4Om5ldy1pVlJCVjZ2Tg==",
+        "characterCount": 107,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Versicherungen - <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/zurich-insur-gr-n-1107539/swx/chf\">Zurich</a> wächst im Schadengeschäft weiter <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/wWsAoIRtmM\">https://t.co/wWsAoIRtmM</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/kO7vpAXksx\">pic.twitter.com/kO7vpAXksx</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWV4WUNDNXZZOm5ldy13cDlzUWJDNQ==",
+        "characterCount": 194,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524616503349317632?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p>Der breite Markt verliert 1,02 Prozent. Die grössten Verluste verzeichnen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/vat-group-n-31186490/swx/chf\">VAT</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/temenos-n-1245391/swx/chf\">Temenos</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/softwone-hldg-n-49645150/swx/chf\">SoftwareOne</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/komax-hldg-n-1070215/swx/chf\">Komax</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/inficon-hldg-n-1102994/swx/chf\">Inficon</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/comet-hldg-n-36082699/swx/chf\">Comet</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/ams-i-24924656/swx/chf\">ams</a> Osram (alle jeweils -1,8 Prozent).</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWFpdldhcnlzOm5ldy1kZTBkR3JKMA==",
+        "characterCount": 347,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">VORBÖRSE SCHWEIZ:<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24SMI&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$SMI</a> -0,81 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24SMIM&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$SMIM</a> -1,02 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24ABBN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$ABBN</a> -1,3 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24LOGN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$LOGN</a> -1,5 Prozent (Sektorschwäche)<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24UBSG&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$UBSG</a> -1,3 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24ZURN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$ZURN</a> +0,5 Prozent (Zwischenbericht)<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24AMS&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$AMS</a> -1,8 Prozent (Sektorschwäche)<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24COTN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$COTN</a> -1,8 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24IFCN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$IFCN</a> -1,8 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24KOMN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$KOMN</a> -1,8 Prozent<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24TEMN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$TEMN</a> -1,8 Prozent (trotz Gerüchten)<a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/search?q=%24VACN&amp;src=ctag&amp;ref_src=twsrc%5Etfw\">$VACN</a> -1,8 Prozent<br>\n<br>\nÜbrige Aktienkurse ebenfalls tiefergestellt.</p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWZrdUF6WndZOm5ldy1paEwxYnZtYg==",
+        "characterCount": 44,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cashInsider (@cashInsider) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashInsider/status/1524632271545896960?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdxSEtjZ3ppOm5ldy1icnc4SUlVVw==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>08:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBJdVNzVEJOOm5ldy1wN3lDdlNHdw==",
+        "characterCount": 483,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/bitcoin-in-usd-39475121/nexc/usd\">Bitcoin</a> </strong>ist auf den tiefsten Stand seit knapp anderthalb Jahren gerutscht. Die Kryptowährung fällt um bis zu 6,4 Prozent auf 26'600 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>. Im Vergleich zum Vorwochenschluss hat sie rund ein Drittel ihres Wertes verloren. \"Die Furcht vor raschen Zinserhöhungen insbesondere durch die US-Notenbank entzieht <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/bitcoin-in-usd-39475121/nexc/usd\">Bitcoin</a> und Co einen der wichtigsten Nährböden aus den vergangenen Monaten\", sagt Analyst Timo Emden von Emden Research. \"Es herrscht die absolute Ausverkaufsstimmung am Markt.\"</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxTZm5vVGIyOm5ldy10b2UwU0dJVw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW8xZUhyaDJtOm5ldy1qUzlZTUdQSg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>07:45</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVpenkxMk5VOm5ldy1ja01wd25kVw==",
+        "characterCount": 428,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/rohstoffe-edelmetalle/rohoel-fass-274207/lsd/usd\">Ölpreise</a> </strong>sind am Donnerstag im frühen Handel gefallen und haben damit einen Teil ihrer Vortagsgewinne abgegeben. Im längeren Vergleich liegen sie aber weiter auf hohem Niveau. Am Morgen kostete ein Barrel (159 Liter) der Nordseesorte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/rohstoffe-edelmetalle/rohoel-fass-274207/lsd/usd\">Brent</a> 105,99 US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>. Das waren 1,52 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> weniger als am Mittwoch. Der Preis für ein Fass der US-amerikanischen Sorte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/rohstoffe-edelmetalle/rohoel-2412314/iet/usd\">West Texas Intermediate</a> (<a onclick=\"window.handleWysiwygLink(event)\" href=\"/rohstoffe-edelmetalle/rohoel-2412314/iet/usd\">WTI</a>) fiel um 1,59 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> auf 104,12 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a>.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWtSSXI3bExCOm5ldy11cHBHSHNDRA==",
+        "characterCount": 500,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Marktteilnehmer erklärten die Preisabschläge zum einen mit dem festeren US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a>, der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/rohstoffe-edelmetalle/rohoel-fass-274207/lsd/usd\">Rohöl</a> für Interessenten ausserhalb des Dollarraums verteuert und damit deren Nachfrage dämpft. Zum anderen wurde auf neue Corona-Infektionen in der chinesischen Metropole Shanghai verwiesen, was einer baldigen Lockerung der strengen Virus-Beschränkungen einen Schlag versetzt hat. Die scharfe Corona-Politik der chinesischen Führung belastet das Wirtschaftswachstum und damit die Erdölnachfrage der Volksrepublik.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXpiZ0Y4c0lYOm5ldy1hYWpaT2hPUw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5kbmwxM0x3Om5ldy13UmxGVzR2Mg==",
+        "characterCount": 137,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Sparen, Vorsorgen, Hypotheken - Diese Zahl sagt, wie effizient man Steuern sparen kann <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/j9Ld5qVRIM\">https://t.co/j9Ld5qVRIM</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/1gIDA063t9\">pic.twitter.com/1gIDA063t9</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW1KeWxFQnBXOm5ldy1pUGhSbXE0dA==",
+        "characterCount": 32,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524436440817434624?ref_src=twsrc%5Etfw\">May 11, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXB5emVZQ0ppOm5ldy1tUU1ESWZmdQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>07:40</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXIzZUNCQkRzOm5ldy1hWmRmU0Y5NQ==",
+        "characterCount": 193,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> </strong>hat sich am Donnerstag im frühen Handel knapp über der Marke von 1,05 US-<a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> gehalten. Aktuell kostet die Gemeinschaftswährung 1,0513 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> und damit etwas weniger als am Vorabend.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXpFVW1QOExvOm5ldy1tZHFrYmc5bQ==",
+        "characterCount": 250,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Dagegen legte der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> zum<strong> Schweizer <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a></strong> im Vergleich zum Mittwochabend leicht zu. Derzeit notiert er auf 1,0475 nach 1,0453 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>. Der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a> wird ebenfalls höher zu 0,9964 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a> gehandelt. Am Mittwochabend hat er bei 0,9928 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a> gelegen.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWlCZkk4NjZYOm5ldy1mUkE1dkpjRQ==",
+        "characterCount": 402,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Am Donnerstag stehen nur wenige Konjunkturdaten mit breiter Marktwirkung auf dem Programm. Von Interesse dürften US-Preisdaten von der Unternehmensebene sein. Sie dürften die leicht rückläufige Inflation, die am Vortag schon Verbraucherpreisdaten abgebildet hatten, bestätigen. In den USA werden zudem die wöchentlichen Daten vom Arbeitsmarkt erwartet, die Hinweise auf den Zustand des Jobmarkts geben.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXlLRmpia2VxOm5ldy11SkxXVjdLaA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWppVkhibDVOOm5ldy1kWjBITUljZQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>07:25</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXRUbXdXZkV1Om5ldy14aHFYd2Q1SQ==",
+        "characterCount": 289,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>In Erwartung weiterer Hinweise zur US-Geldpolitik wird der <strong><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/dax-998032/itf/eur\">Dax</a> </strong>Berechnungen von Banken und Brokerhäusern zufolge am Donnerstag niedriger starten. Am Mittwoch hatte er dank Hoffnungen auf ein baldiges Ende der Corona-Lockdowns in China 2,2 Prozent im Plus bei 13'828,64 Punkten geschlossen.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWUydHhuMHNhOm5ldy1mb2FxVzYwdg==",
+        "characterCount": 570,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Da die US-Verbraucherpreise weniger stark zurückgegangen sind als erhofft, richten Anleger ihre Aufmerksamkeit nun auf die Erzeugerpreise. Experten erwarten für April eine Teuerung im Jahresvergleich von 8,9 Prozent nach 9,2 Prozent im Vormonat. Sollte auch diese Zahl höher ausfallen als gedacht, wird dies den Spekulationen auf drastischere Zinserhöhungen der Fed neue Nahrung geben. Daneben beschäftigt Investoren eine Welle von Firmenbilanzen. Aus dem <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/dax-998032/itf/eur\">Dax</a> legten unter anderem der Versorger <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/rwe-1158883/fra/eur\">RWE</a>, der Versicherer <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/allianz-n-322646/etr/eur\">Allianz</a> und der Technologiekonzern <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/siemens-n-827766/etr/eur\">Siemens</a> Zahlen vor.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXJjbTVpajlBOm5ldy1nRmJ5d1QzSQ==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXROUm1GZ0xNOm5ldy1iVlFYcFlFMg==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>06:20</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXBNSWZocXQ2Om5ldy1sZ1FFMFM0Qg==",
+        "characterCount": 74,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <b><a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">Swiss Market Index</a> </b>wird bei der IG Bank 1,16 Prozent tiefer geschätzt.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWd3bGFKVUN3Om5ldy1rTlluR3MwQw==",
+        "characterCount": 380,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die zuletzt grosse Verunsicherung an der Schweizer Börse hat etwas nachgelassen. Gemessen am Volatilitätsindex VSMI wird sich der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/smi-998089/swx/chf\">SMI</a> am (heutigen) Donnerstag in einer sehr grossen Schwankungsbreite von 1,29 Prozent bewegen. Dies entspricht +/- 150 Punkten gegenüber dem letzten Schlusskurs von 11'553,66 Punkten. Der VSMI ist am Mittwoch um 6,2 Prozent auf 24,75 Punkte gesunken.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZTcHlOTlh6Om5ldy1rSjNnanA1SQ==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdrVnZGekRkOm5ldy1rTG4zQURXOQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>05:50</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW5OaTREMkhFOm5ldy12MFpvd2hGSA==",
+        "characterCount": 164,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der <strong>225 Werte umfassende <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nikkei-998407/tni/jpy\">Nikkei</a>-Index</strong> liegt 1,0 Prozent tiefer bei 25'952 Punkten. Der breiter gefasste Topix-Index sinkt um 0,4 Prozent und liegt bei 1844 Punkten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWptY2R2bElpOm5ldy1uNEpOcXdhaQ==",
+        "characterCount": 127,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Börse in Shanghai gewinnt 0,2 Prozent. Der Index der wichtigsten Unternehmen in Shanghai und Shenzen steigt um 0,3 Prozent.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXZUcFFMbVN2Om5ldy1iRnBrMmxpZQ==",
+        "characterCount": 600,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die wirtschaftlichen Folgen der Zinserhöhungen der US-Notenbank Fed zur Eindämmung der Inflation lassen den Börsianern weniger <a onclick=\"window.handleWysiwygLink(event)\" data-valor-tid=\"8176\" href=\"/\">Luft</a> für Investitionen. \"Wir haben jetzt mindestens zwei weitere Zinserhöhungen um 50 Basispunkte auf der Tagesordnung. Für die Aktienmärkte bedeutet das wirklich das Ende des freien Geldes\", sagte Damian Rooney von Argonaut in Perth. \"Ich denke, dass wir vor sechs Monaten mit dem Anstieg der US-Aktien getrieben von Hoffnungen und Wünschen und dem Wahnsinn der Meme-Aktien wahrscheinlich einem Wahn erlegen waren und plötzlich wieder ein wenig zur Realität zurückkehren.\"</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWJ3dmVGM1ZYOm5ldy1sU2FlWjJ1Mw==",
+        "characterCount": 140,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"de\">Konjunktur - US-Inflationsrate sinkt erstmals seit August 2021 - Teuerung bei 8,3 Prozent <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/WOlcJr4FEn\">https://t.co/WOlcJr4FEn</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/tBMj5hGhGb\">pic.twitter.com/tBMj5hGhGb</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXI0ZVdSREpFOm5ldy1rUXRWOVVMYg==",
+        "characterCount": 32,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— cash (@cashch) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/cashch/status/1524370381284339712?ref_src=twsrc%5Etfw\">May 11, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVybkxQYmR3Om5ldy1kcmk1Z3BLbQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>05:45</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWpYaUVkcnlQOm5ldy1xbHQ2SlFaOQ==",
+        "characterCount": 354,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Im <strong>asiatischen Devisenhandel</strong> verlor der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> 0,2 Prozent auf 129,77 Yen und legte 0,5 Prozent auf 6,7503 Yuan zu. Zur Schweizer Währung notierte er 0,1 Prozent höher bei 0,9950 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a>. Parallel dazu blieb der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Euro</a> fast unverändert bei 1,0515 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/usd-jpy-275023/fxr/jpy\">Dollar</a> und zog um 0,1 Prozent auf 1,0462 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-chf-897789/fxr/chf\">Franken</a> an. Das <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/gbp-chf-275001/fxr/chf\">Pfund Sterling</a> verlor 0,3 Prozent auf 1,2215 <a onclick=\"window.handleWysiwygLink(event)\" href=\"/devisen-zinsen/eur-usd-946681/fxr/usd\">Dollar</a>.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWN5SjRteXlwOm5ldy1iNVZTUGQ2VA==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LW4yS3NDWGFNOm5ldy1mMkQ0OVBjRQ==",
+        "characterCount": 5,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>00:00</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVta3NIU3pJOm5ldy1laE0zUjlIUQ==",
+        "characterCount": 404,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Der neuerliche Versuch einer Erholung an den <strong>US-Börsen </strong>ist auch am Mittwoch kläglich gescheitert. Wieder waren es die Kurse der Tech-Giganten, welche die Märkte mit nach unten zogen. Schwergewichte wie <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a> , <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/amazon.com-645156/nms/usd\">Amazon</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/microsoft-951692/nms/usd\">Microsoft</a> gerieten unter Druck. Der technologielastige <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-100-985336/nai/usd\">Nasdaq 100</a> büsste 3,06 Prozent auf 11 967,56 Zähler ein und fiel erstmals seit November 2020 unter die Marke von 12 000 Punkten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXN4R0hhT0gzOm5ldy1ueE9jYkdUZA==",
+        "characterCount": 443,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Im späten Handel nahm der Verkaufsdruck immer mehr zu. Der Leitindex <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow Jones</a> Industrial hielt sich zwar mit einem Abschlag von 1,02 Prozent auf 31 834,11 Zähler besser als die <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/nasdaq-998356/nai/usd\">Nasdaq</a>-Börse. Dennoch lotete der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow</a> den tiefsten Stand seit März 2021 aus. Auch im <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us30-998313/xnys/usd\">Dow</a> waren die Tech-Aktien die grössten Verlierer. Für den marktbreiten <a onclick=\"window.handleWysiwygLink(event)\" href=\"/indizes/us500-998434/xnys/usd\">S&amp;P 500</a> ging es um 1,65 Prozent auf 3935,18 Punkte nach unten auf den tiefsten Stand seit mehr als einem Jahr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVRMjRyVFhFOm5ldy15RktYNFZaNg==",
+        "characterCount": 546,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Gegenwind gab es erneut von der Inflation: Um 8,3 Prozent sind die Verbraucherpreise im April auf Jahressicht geklettert. Analysten hatten im Schnitt einen geringeren Anstieg erwartet. \"Die Teuerung dürfte zwar tendenziell sinken, aber nicht so stark wie von der Notenbank erhofft. Die Fed bleibt damit unter Druck\", kommentierte Volkswirt Christoph Balz von der <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/commerzbank-21170377/fra/eur\">Commerzbank</a>. Auch dürfte die Inflation höher bleiben als vor der Pandemie. So stiegen wegen des engen Arbeitsmarkts die Lohnkosten so kräftig wie seit mindestens 20 Jahren nicht mehr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxpZEozRjQzOm5ldy1xU2dqSHVtaQ==",
+        "characterCount": 527,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Für Aufsehen an der Wall Street sorgte die Nachricht, dass der grösste Erdölkonzern der Welt, Saudi Aramco , den Technologiekonzern <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a> als wertvollstes Unternehmen der Welt abgelöst hat. Während der Kurs von Saudi Aramco in den vergangenen Wochen von den hohen Ölpreisen profitiert hatte, waren die Papiere des iPhone-Herstellers wegen steigender Kapitalmarktzinsen und Wachstumssorgen immer mehr unter Druck geraten. An diesem Mittwoch fielen <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a> um mehr als fünf Prozent auf den niedrigsten Stand seit einem halben Jahr.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxzTFZZQVBkOm5ldy1qb0NwM2NlOQ==",
+        "characterCount": 539,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Die Aussicht auf steigende Zinsen lässt die Investoren vor allem Technologieaktien verkaufen. Denn in der langen Phase des billigen Geldes hatten Anleger immer mehr auf wachstumsstarke Tech-Unternehmen gesetzt. Nun aber dürften die Zinsen angesichts der hohen Inflation kräftig anziehen, womit sich <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/apple-908440/nms/usd\">Apple</a>, <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/amazon.com-645156/nms/usd\">Amazon</a> &amp; Co als überbewertet erweisen könnten. <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/amazon.com-645156/nms/usd\">Amazon</a> und <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/microsoft-951692/nms/usd\">Microsoft</a> fielen jeweils um mehr als drei Prozent. Wegen der hohen Gewichtung dieser Giganten in den Börsenindizes ziehen die schwachen Aktienkurse die Indizes mit nach unten.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWxseUVGQ29ROm5ldy1pZmtiTHJSMQ==",
+        "characterCount": 121,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<blockquote class=\"twitter-tweet\">\n<p dir=\"ltr\" lang=\"en\">Retail investors are continuing to buy the dip in tech despite recent turmoil, says TD <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/td-ameritrade-hl-rg-2422066/nms/usd\">Ameritrade</a> <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://t.co/VMGfgZORqN\">https://t.co/VMGfgZORqN</a></p></blockquote>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXdoOEtmN3NtOm5ldy1vMlU2SmJ2MQ==",
+        "characterCount": 419,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "— CNBC (@CNBC) <a onclick=\"window.handleWysiwygLink(event)\" rel=\"noopener\" target=\"_blank\" href=\"https://twitter.com/CNBC/status/1524563797385613313?ref_src=twsrc%5Etfw\">May 12, 2022</a>\n<!--%3Cscript%20async%20src%3D%22https%3A%2F%2Fplatform.twitter.com%2Fwidgets.js%22%20charset%3D%22utf-8%22%3E%3C%2Fscript%3E-->\n\n<p>Papiere von Unity Software erlebten ein Kursdebakel. Das Umsatzziel des Entwicklers von 3D-Spielen blieb hinter den Erwartungen zurück. Das liess den Kurs um über 37 Prozent auf den tiefsten Stand seit dem Börsengang im September 2020 einbrechen. Anders <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/electronic-arts-927743/nms/usd\">Electronic Arts</a> , hier lobten Analysten optimistischere Ziele des Spielentwicklers für das Geschäftsjahr. Der Kurs zog um acht Prozent an.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXowOUJZTEExOm5ldy16TjhQTWhTaQ==",
+        "characterCount": 430,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p>Ein enttäuschendes Umsatzziel des Zahlungsabwicklers Paysafe für das zweite Quartal lastete schwer auf dem Kurs, der um 16,2 Prozent absackte. Aktien von <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/moderna-rg-44811242/nms/usd\">Moderna</a> büssten 6,7 Prozent ein. Der Impfstoffhersteller hat den Finanzchef Jorge Gomez fast unmittelbar nach dessen Amtsantritt wieder entlassen. Grund sei eine interne Untersuchung bezüglich Finanzberichten seines vorherigen Arbeitgebers Dentsply Sirona, teilte <a onclick=\"window.handleWysiwygLink(event)\" href=\"/aktien/moderna-rg-44811242/nms/usd\">Moderna</a> mit.</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWVvaHQyMzgyOm5ldy1kOURwYTlDTw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LWt2SmwzYjBPOm5ldy1qTktLVXZNdA==",
+        "characterCount": 0,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><iframe allowfullscreen=\"false\" class=\"cash-widget-iframe cash-widget-newsletter-iframe\" id=\"cash-in-article-newsletter-ad\" src=\"https://www.cash.ch/widgets/cash/newsletter-iframe#cash-in-article-newsletter-ad\" style=\"border: 0px; width: 100%; height: 175px;\"></iframe></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXVobTBQZE50Om5ldy15cnRiMzJ6aw==",
+        "characterCount": 3,
+        "isLastOfGroup": false,
+        "header": null,
+        "text": "<p><strong>+++</strong></p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "TextParagraph",
+        "anchorId": null,
+        "id": "cGFyYWdyYXBoOnRleHQ6bmV3LXB3S1Q3NTFZOm5ldy1sWFduSVRnVg==",
+        "characterCount": 28,
+        "isLastOfGroup": true,
+        "header": null,
+        "text": "<p>(cash/Bloomberg/AWP/Reuters)</p>",
+        "styleValue": null
+      },
+      {
+        "__typename": "PianoTemplateParagraph",
+        "id": "cGFyYWdyYXBoOnBpYW5vX3RlbXBsYXRlOjIxNjcxMTozMDYzNzg=",
+        "offerId": "OFSBQIQJ7NU6",
+        "templateId": "OTPOUPTBTUSN",
+        "templateVariantId": null
+      }
+    ]
+  }
+}

@@ -1,0 +1,149 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Table of Contents Should render correctly 1`] = `
+<div>
+  <nav
+    class="Wrapper"
+    data-testid="table-of-contents-wrapper"
+  >
+    <div
+      class="Header HiddenMdUp"
+    >
+      Inhalt
+    </div>
+    <ul
+      class="InnerWrapper"
+    >
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#smoothScrollToTop"
+        >
+          Einleitung
+        </a>
+      </li>
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#link-1"
+        >
+          first link
+        </a>
+      </li>
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#link-2"
+        >
+          second link
+        </a>
+      </li>
+      <li
+        class="SecondLevelListEl"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#section-link-1"
+        >
+          section title
+        </a>
+      </li>
+      <li
+        class="SecondLevelListEl Divider"
+      >
+        <a
+          class="Link"
+          data-testid="routed-link"
+          href="/#nested-link-1"
+        >
+          nested first
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;
+
+exports[`[Component] Table of Contents Should render correctly with anchers to piano template 1`] = `
+<div>
+  <nav
+    class="Wrapper"
+    data-testid="table-of-contents-wrapper"
+  >
+    <div
+      class="Header HiddenMdUp"
+    >
+      Inhalt
+    </div>
+    <ul
+      class="InnerWrapper"
+    >
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#smoothScrollToTop"
+        >
+          Einleitung
+        </a>
+      </li>
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#piano-inlined"
+        >
+          first link
+        </a>
+      </li>
+      <li
+        class="Divider"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#piano-inlined"
+        >
+          second link
+        </a>
+      </li>
+      <li
+        class="SecondLevelListEl"
+      >
+        <a
+          class="FirstLevelLink"
+          data-testid="routed-link"
+          href="/#piano-inlined"
+        >
+          section title
+        </a>
+      </li>
+      <li
+        class="SecondLevelListEl Divider"
+      >
+        <a
+          class="Link"
+          data-testid="routed-link"
+          href="/#piano-inlined"
+        >
+          nested first
+        </a>
+      </li>
+    </ul>
+  </nav>
+</div>
+`;

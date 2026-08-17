@@ -1,0 +1,7 @@
+.Wrapper {
+  margin-top: 3px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-top: 25px;
+  }
+}

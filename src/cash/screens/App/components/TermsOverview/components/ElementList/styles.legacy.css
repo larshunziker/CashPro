@@ -1,0 +1,28 @@
+.Wrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  height: 100%;
+
+  /* need this footer height to scroll bottom and show all items */
+  margin-top: 22px;
+  padding-bottom: $defaultPadding; 
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 44px;
+  }
+}
+
+.ListItem {
+  margin-bottom: $margin16;
+}
+
+.Link {
+  composes: InfoH1 from 'typography.legacy.css';
+  
+  &:hover {
+    color: $greyA;
+  }
+  
+  &:visited {
+    color: $blackB;
+  }
+}

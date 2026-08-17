@@ -1,0 +1,28 @@
+{
+  "ministageParagraph": {
+    "id": 23432,
+    "ministage": {
+      "headline": "Newest Single Topic Alert",
+      "keyword": {
+        "id": "2992",
+        "label": "13. Monatslohn",
+        "preferredUri": "/stichworte/1/13-monatslohn",
+        "__typename": "Keyword"
+      },
+      "person": {
+        "id": "1111",
+        "label": "Roger Federer",
+        "preferredUri": "/stichworte/R/roger-federer",
+        "__typename": "Person"
+      },
+      "organization": {
+        "id": "4234",
+        "label": "Lindt",
+        "preferredUri": "/stichworte/l/Lindt",
+        "__typename": "Organization"
+      },
+      "__typename": "MinistageSingleTopicAlert"
+    },
+    "__typename": "MinistageParagraph"
+  }
+}

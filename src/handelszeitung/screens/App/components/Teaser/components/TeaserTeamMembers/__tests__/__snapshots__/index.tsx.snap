@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Teaser] TeaserTeamMembers should render with link 1`] = `
+<div>
+  <a
+    class="teaser-team-members"
+    data-testid="routed-link"
+    href="/stichworte/R/roger-federer"
+  >
+    <div
+      class="LineHeightReset PictureWrapper"
+    >
+      <picture>
+        <img
+          alt="some short title"
+          class="Image IsSameAspectRatio"
+          height="240"
+          loading="lazy"
+          srcset="/fp/240/240/1000/1000/sites/default/files/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+          title="title"
+          width="240"
+        />
+      </picture>
+    </div>
+    <div
+      class="TextWrapper"
+    >
+      <p
+        class="Title"
+      >
+        title
+      </p>
+      <p
+        class="Link"
+      >
+        <span>
+          some short title
+           
+          <i
+            class="Icon IconArrowRight Icon"
+          />
+        </span>
+      </p>
+      <p
+        class="Position"
+      >
+        2
+      </p>
+    </div>
+  </a>
+</div>
+`;
+
+exports[`[Teaser] TeaserTeamMembers should render without image 1`] = `
+<div>
+  <div
+    class="TextWrapper"
+  >
+    <p
+      class="Title"
+    >
+      title
+    </p>
+    <p
+      class="Link"
+    >
+      <span>
+        some short title
+         
+        <i
+          class="Icon IconArrowRight Icon"
+        />
+      </span>
+    </p>
+    <p
+      class="Position"
+    >
+      2
+    </p>
+  </div>
+</div>
+`;
+
+exports[`[Teaser] TeaserTeamMembers should render without link 1`] = `
+<div>
+  <div
+    class="LineHeightReset PictureWrapper"
+  >
+    <picture>
+      <img
+        alt="some short title"
+        class="Image IsSameAspectRatio"
+        height="240"
+        loading="lazy"
+        srcset="/fp/240/240/1000/1000/sites/default/files/bildschirmfoto-2018-10-04-um-11.22.38.jpg"
+        title="title"
+        width="240"
+      />
+    </picture>
+  </div>
+  <div
+    class="TextWrapper"
+  >
+    <p
+      class="Title"
+    >
+      title
+    </p>
+    <p
+      class="Link"
+    >
+      <span>
+        some short title
+         
+        <i
+          class="Icon IconArrowRight Icon"
+        />
+      </span>
+    </p>
+    <p
+      class="Position"
+    >
+      2
+    </p>
+  </div>
+</div>
+`;

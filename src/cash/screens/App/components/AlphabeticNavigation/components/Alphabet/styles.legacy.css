@@ -1,0 +1,43 @@
+.Wrapper {
+  display: none;
+
+  @media (min-width: $smBreakpoint) {
+    display: table;
+  }
+}
+
+.MobileWrapper {
+  width: calc(100% + 28px); /* .Link margin-right compensation */
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.Link,
+.ActiveLink {
+  composes: ButtonSmall from 'typography.legacy.css';
+  background-color: $decoB;
+  border-radius: 4px;
+  color: $secondaryA;
+  display: inline-block;
+  font-weight: 700;
+  margin-bottom: $margin32;
+  margin-right: $margin32;
+  padding: 8px 12.5px;
+  text-align: center;
+  width: 34px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin8;
+    margin-right: $margin8;
+  }
+}
+
+.Link:hover {
+  background-color: $decoA;
+}
+
+.ActiveLink {
+  background-color: $secondaryA;
+  color: $white;
+}

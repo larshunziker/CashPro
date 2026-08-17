@@ -1,0 +1,216 @@
+.Footer {
+  composes: Section from 'sections.legacy.css';
+  background-color: $blackB;
+  color: $white;
+  font-family: $fontGothamBook;
+  font-size: 1.7rem;
+  font-weight: 300;
+  line-height: 20px;
+  position: relative;
+  will-change: transition;
+  z-index: 0;
+}
+
+.FooterHeader {
+  width: 100%;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin48;
+  }
+}
+
+.ListItem {
+  margin-bottom: $margin16;
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin4;
+  }
+}
+
+.Link {
+  color: $white;
+  font-size: 1.7rem;
+  line-height: 2rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.LogoWrapper {
+  margin: $margin32 0 10px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin: 41px 0 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: $margin48;
+  }
+}
+
+.FooterLogo {
+  display: inline-block;
+  height: 13px;
+  width: 165px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 228px;
+  }
+}
+
+.LogoBilanz {
+  height: 16px;
+  width: 79px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 21px;
+    width: 90px;
+  }
+}
+
+.LogoInsurance {
+  height: 13px;
+  width: 133px;
+
+  @media (min-width: $smBreakpoint) {
+    height: 18px;
+    width: 185px;
+  }
+}
+
+.SocialMediaBarWrapper {
+  align-items: flex-end;
+  justify-content: flex-end;
+  margin-bottom: 39px;
+  margin-top: 21px;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: flex-end;
+    display: flex;
+    margin-bottom: 0;
+    margin-left: auto;
+  }
+
+  svg {
+    fill: $blackB;
+  }
+}
+
+.Disclaimer {
+  color: $white;
+  font-family: $fontGothamNarrow;
+  font-size: 1.9rem;
+  line-height: 2.3rem;
+
+  @media (min-width: $xsBreakpoint) {
+    font-size: 1.7rem;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2rem;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 2.3rem;
+  }
+}
+
+@media (min-width: $smBreakpoint) {
+  .CollapseToggleWrapper {
+    text-align: right;
+  }
+}
+
+.PublicationCollapseHeader {
+  padding: 16px 0;
+
+  @media (min-width: $smBreakpoint) {
+    align-items: center;
+    display: flex;
+    height: 75px;
+    padding: 0;
+  }
+}
+
+.PublicationCollapseHeaderCol {
+  line-height: 1;
+  padding-bottom: 8px;
+  padding-top: 8px;
+}
+
+.PublicationCollapseBody {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-in-out;
+  visibility: hidden;
+}
+
+.PublicationCollapseBodyIsOpen {
+  max-height: 1000px;
+  visibility: visible;
+}
+
+.PublicationList {
+  columns: 1;
+  list-style: none;
+  margin-bottom: $margin40;
+
+  @media (min-width: $smBreakpoint) {
+    columns: 2;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    columns: 4;
+    margin-bottom: 270px;
+  }
+}
+
+.PublicationToggle {
+  background: none;
+  border: none;
+  color: $white;
+  font-family: $fontGothamBook;
+  font-size: 1.7rem;
+  line-height: 2rem;
+  outline: none;
+  padding: 0;
+  width: 100%;
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  &.Open {
+    float: right;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+  }
+}
+
+.PublicationToggleIsOpen {
+  align-items: center;
+  display: flex;
+
+  @media (min-width: $smBreakpoint) {
+    justify-content: flex-end;
+  }
+}
+
+.ExpansionIcon {
+  font-size: 18px;
+  margin-left: 10px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.ExpansionIconOpen {
+  transform: rotate(180deg);
+}

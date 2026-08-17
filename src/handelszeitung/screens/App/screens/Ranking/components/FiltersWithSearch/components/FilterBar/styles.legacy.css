@@ -1,0 +1,21 @@
+.FilterButton {
+  &&&& {
+    border-color: $greyB;
+    color: $greyB;
+    cursor: pointer;
+
+    &:hover, &.IsActive {
+      border-color: $bilanzA;
+      color: $bilanzA;
+    }
+  }
+}
+
+.ButtonsWrapper {
+  column-gap: 12px;
+  display: flex;
+
+  @media (min-width: $smBreakpoint) {
+    column-gap: 0;
+  }
+}

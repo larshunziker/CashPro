@@ -1,0 +1,107 @@
+.Wrapper {
+  background: $blackB;
+  color: $white;
+  display: inline-block;
+  height: 198px;
+  margin-top: 50px;
+  padding: 70px 20px 20px;
+  position: relative;
+  text-align: center;
+  width: 100%;
+
+  @media (min-width: $mdBreakpoint) {
+    height: 259px;
+    margin-top: 75px;
+    padding: 65px 20px 30px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 275px;
+  }
+}
+
+.ShortTitle {
+  display: block;
+  font-family: $fontGotham;
+  font-weight: 900;
+  max-height: 30px;
+  overflow: hidden;
+  text-transform: uppercase;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 2.1rem;
+    max-height: 60px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.7rem;
+    margin-bottom: 15px;
+    max-height: 60px;
+  }
+
+  @media (min-resolution: $retinaDpi) {
+    @media (min-width: $smBreakpoint) {
+      max-height: calc(60px * $retinaFontScale);
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      max-height: calc(60px * $retinaFontScale);
+    }
+  }
+}
+
+.Title {
+  display: block;
+  font-family: $fontGotham;
+  font-weight: 900;
+  line-height: 1.35;
+  max-height: 27px;
+  overflow: hidden;
+  word-break: break-word;
+
+  @media (min-width: $smBreakpoint) {
+    max-height: 80px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    max-height: 80px;
+  }
+
+  @media (min-resolution: $retinaDpi) {
+    @media (min-width: $smBreakpoint) {
+      max-height: calc(80px * $retinaFontScale);
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      max-height: calc(80px * $retinaFontScale);
+    }
+  }
+}
+
+.Image {
+  border: 1px solid $blackB;
+  border-radius: 50%;
+  height: 100px;
+  left: calc(50% - 50px);
+  max-height: 100px;
+  max-width: 100px;
+  padding: 5px;
+  position: absolute;
+  top: -50px;
+  width: 100px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 4px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 150px;
+    left: calc(50% - 75px);
+    max-height: 150px;
+    max-width: 150px;
+    padding: 6px;
+    top: -75px;
+    width: 150px;
+  }
+}

@@ -1,0 +1,113 @@
+.Wrapper {
+  background: $greenLight;
+  border-radius: $defaultRadius;
+  padding: $margin16 $margin16 $margin24;
+
+  @media (min-width: $xlBreakpoint) {
+    padding: $margin24 $margin40;
+  }
+}
+
+.Image {
+  display: none;
+  height: 136px;
+
+  @media (min-width: $smBreakpoint) {
+    display: block;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    height: 172px;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    height: 200px;
+  }
+}
+
+
+.TitleText {
+  background: $green;
+  color: $white;
+  display: inline-block;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  line-height: 1.68rem;
+  padding: $margin4 $margin8;
+}
+
+.TitleBadge {
+  background: $black;
+  border-radius: 16px;
+  color: $white;
+  display: inline-flex;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  height: 25px;
+  line-height: 1.68rem;
+  margin-left: $margin16;
+  padding: $margin4 $margin8;
+}
+
+.TitleBadgeIcon {
+  margin-right: $margin4;
+}
+
+.TitleWrapper {
+  display: flex;
+  margin-bottom: $margin4;
+}
+
+.Title {
+  color: $black;
+  font-family: $fontSpezia;
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.88rem;
+  margin-bottom: $margin16;
+  text-align: left;
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 2.8rem;
+    line-height: 3.36rem;
+  }
+}
+
+.Actions {
+  margin-top: $margin32;
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+    justify-content: flex-start;
+  }
+}
+
+.CallToActionButton {
+  @mixin ButtonSecondarySmall;
+  background: $green;
+  border: none;
+  color: $white;
+  gap: $margin16;
+  transition: background .3s ease-in-out;
+  width: 100%;
+
+  &:hover {
+    background: $greenDark;
+    color: $white;
+  }
+}
+
+.ArrowRight {
+  align-self: flex-end;
+  font-size: 2.4rem;
+
+  @media (min-width: $mdBreakpoint) {
+    font-size: 2.6rem;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    font-size: 3rem;
+  }
+}

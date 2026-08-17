@@ -1,0 +1,31 @@
+.Wrapper {
+  align-items: flex-start;
+  align-self: stretch;
+  display: flex;
+  flex-direction: column;
+  gap: $margin8;
+}
+
+.Row {
+  align-items: flex-start;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+
+  &:not(:last-of-type) {
+    border-bottom: 1px solid $greyD;
+    padding-bottom: $margin8;
+  }
+}
+
+.Label {
+  composes: DataTable from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  font-size: 1rem;
+  gap: $margin4;
+}
+
+.Title {
+  composes: BoxTitle from 'typography.legacy.css';
+}

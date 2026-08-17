@@ -1,0 +1,18 @@
+{
+  "ministageListicle": {
+    "__typename": "MinistageListicle",
+    "name": "GYL MS Familie",
+    "headline": "Wann es einen Anwalt braucht?",
+    "image": null,
+    "callToActionLink": {
+      "__typename": "Link",
+      "path": null,
+      "label": "Anwalt finden",
+      "routed": true
+    },
+    "links": {
+      "__typename": "LinkConnection",
+      "edges": []
+    }
+  }
+}

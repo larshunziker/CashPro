@@ -1,0 +1,335 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Common] AlertList Should render correctly 1`] = `
+<div>
+  <div
+    class="AlertListWrapperClassName"
+    id="alert-list"
+  >
+    <div
+      class="AlertListInnerClassName ItemCount"
+    >
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/contact"
+          >
+            label 1
+          </div>
+          <div
+            data-testid="subscribe-button-mock 1 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url=""
+          >
+            label 2
+          </div>
+          <div
+            data-testid="subscribe-button-mock 2 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/contact-3"
+          >
+            label 3
+          </div>
+          <div
+            data-testid="subscribe-button-mock 3 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/max-miller"
+          >
+            max miller
+          </div>
+          <div
+            data-testid="subscribe-button-mock 4 node"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/federer"
+          >
+            Roger Federer
+          </div>
+          <div
+            data-testid="subscribe-button-mock 5 node"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/nestle"
+          >
+            Nestle
+          </div>
+          <div
+            data-testid="subscribe-button-mock 6 node"
+          />
+        </div>
+      </div>
+      <div
+        class="ItemCountExpansionPanel ExpansionPanelHiddenOnDesktop"
+      >
+        <div
+          data-testid="expansionpanel-mock"
+        >
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/max-miller"
+              >
+                max miller
+              </div>
+              <div
+                data-testid="subscribe-button-mock 4 node"
+              />
+            </div>
+          </div>
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/federer"
+              >
+                Roger Federer
+              </div>
+              <div
+                data-testid="subscribe-button-mock 5 node"
+              />
+            </div>
+          </div>
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/nestle"
+              >
+                Nestle
+              </div>
+              <div
+                data-testid="subscribe-button-mock 6 node"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertList Should render correctly and display max 2 items 1`] = `
+<div>
+  <div
+    class="AlertListWrapperClassName"
+    id="alert-list"
+  >
+    <div
+      class="AlertListInnerClassName ItemCount"
+    >
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/contact"
+          >
+            label 1
+          </div>
+          <div
+            data-testid="subscribe-button-mock 1 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url=""
+          >
+            label 2
+          </div>
+          <div
+            data-testid="subscribe-button-mock 2 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/contact-3"
+          >
+            label 3
+          </div>
+          <div
+            data-testid="subscribe-button-mock 3 term"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/max-miller"
+          >
+            max miller
+          </div>
+          <div
+            data-testid="subscribe-button-mock 4 node"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/federer"
+          >
+            Roger Federer
+          </div>
+          <div
+            data-testid="subscribe-button-mock 5 node"
+          />
+        </div>
+      </div>
+      <div
+        class="AlertListItemClassName ListItem"
+      >
+        <div
+          data-testid="alert-item-mock"
+        >
+          <div
+            data-url="/nestle"
+          >
+            Nestle
+          </div>
+          <div
+            data-testid="subscribe-button-mock 6 node"
+          />
+        </div>
+      </div>
+      <div
+        class="ItemCountExpansionPanel ExpansionPanelHiddenOnDesktop"
+      >
+        <div
+          data-testid="expansionpanel-mock"
+        >
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/max-miller"
+              >
+                max miller
+              </div>
+              <div
+                data-testid="subscribe-button-mock 4 node"
+              />
+            </div>
+          </div>
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/federer"
+              >
+                Roger Federer
+              </div>
+              <div
+                data-testid="subscribe-button-mock 5 node"
+              />
+            </div>
+          </div>
+          <div
+            class="AlertListItemClassName ListItem"
+          >
+            <div
+              data-testid="alert-item-mock"
+            >
+              <div
+                data-url="/nestle"
+              >
+                Nestle
+              </div>
+              <div
+                data-testid="subscribe-button-mock 6 node"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`[Common] AlertList Should render nothing if there are no items 1`] = `<div />`;

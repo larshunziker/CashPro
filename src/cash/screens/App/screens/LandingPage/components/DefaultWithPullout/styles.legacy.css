@@ -1,0 +1,37 @@
+.Wrapper {
+  composes: ContainerPullOut from '../../../../components/Paragraphs/components/ParagraphsRenderer/styles.legacy.css';
+  margin-bottom: 0;
+}
+
+.UtilityBarWrapper {
+  composes: UtilityBarWrapper from '../../../Article/components/ArticleTitle/styles.legacy.css';
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+.PagerWrapper {
+  margin-bottom: 16px;
+  margin-top: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+  }
+}
+
+.SponsorBannerLogo {
+  composes: SponsorBannerLogo from '../Default/styles.legacy.css';
+}
+
+.LandscapeBanner {
+  max-height: 40px;
+}
+
+.PortraitBanner {
+  max-height: 55px;
+}
+
+.SquareBanner {
+  max-height: 65px;
+}

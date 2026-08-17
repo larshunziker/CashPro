@@ -1,0 +1,9 @@
+.Quote {
+  composes: Quote from 'typography.legacy.css';
+}
+
+.QuoteAuthor {
+  composes: QuoteSubheader from 'typography.legacy.css';
+  display: block;
+  margin-top: 12px;
+}

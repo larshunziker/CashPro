@@ -1,0 +1,26 @@
+.ColorTableCell {
+  cursor: pointer;
+  position: relative;
+}
+
+.ColorsTooltip {
+  background-color: $white;
+  border: 1px solid $greyC;
+  border-radius: 4px;
+  cursor: pointer;
+  height: 33px;
+  left: 25px;
+  position: absolute;
+  top: -5px;
+  width: 275px;
+  z-index: 10;
+}
+
+.ColorItem {
+  border-radius: 50%;
+  display: inline;
+  float: left;
+  height: 20px;
+  margin: 5px;
+  width: 20px;
+}

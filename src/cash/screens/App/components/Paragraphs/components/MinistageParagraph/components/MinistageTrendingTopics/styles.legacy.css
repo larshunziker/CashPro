@@ -1,0 +1,35 @@
+.Title {
+  composes: ChannelTitle from 'typography.legacy.css';
+  margin-bottom: $margin16;
+  word-break: break-word;
+}
+
+.Keyword {
+  composes: ButtonSmall from 'typography.legacy.css';
+  background-color: $decoB;
+  border-radius: 4px;
+  color: $secondaryA;
+  display: inline-block;
+  font-weight: bold;
+  margin-bottom: $margin8;
+  margin-right: $margin8;
+  min-width: 60px;
+  padding: 8px;
+  text-align: center;
+  transition: background-color .2s ease-in-out, color .2s ease-in-out;
+
+  &:hover {
+    background-color: $decoA;
+    color: $secondaryB;
+  }
+}
+
+.ActivePath {
+  background-color: $secondaryA;
+  color: $white;
+
+  &:hover {
+    background-color: $secondaryA;
+    color: $white;
+  }
+}

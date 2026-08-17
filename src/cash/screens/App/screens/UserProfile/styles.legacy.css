@@ -1,0 +1,13 @@
+.UserProfileWrapper {
+  /* PLACEHOLDER */
+}
+
+.Title {
+  display: none;
+}
+
+.DeviceIdWrapper {
+  color: $greyB;
+  font-size: 12px;
+  margin-top: 10px
+}

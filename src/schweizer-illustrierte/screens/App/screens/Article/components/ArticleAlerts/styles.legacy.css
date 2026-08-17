@@ -1,0 +1,18 @@
+.Title {
+  @mixin ParagraphBold;
+  margin-bottom: 12px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.9rem;
+    line-height: 3.2rem;
+    margin-bottom: $margin8;
+  }
+
+  @media (min-width: $xlBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.TitleLight {
+  color: $white;
+}

@@ -1,0 +1,43 @@
+.EmptyResultWrapper {
+  composes: EmptyResultWrapper from 'Search/styles.legacy.css';
+}
+
+.EmptyResultTitle {
+  composes: EmptyResultTitle from 'Search/styles.legacy.css';
+}
+
+.EmptyResultSubtitle {
+  color: $greyB;
+  display: block;
+  font-family: $fontGothamBlack;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  margin-top: 18px;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+    margin-top: 50px;
+  }
+}
+
+.EmptyResultTips {
+  color: $greyB;
+  font-size: 1.5rem;
+  font-weight: 300;
+  line-height: 2rem;
+  padding-left: 1.7rem;
+
+  @media (min-width: $smBreakpoint) {
+    font-size: 1.7rem;
+    line-height: 2.2rem;
+  }
+}
+
+.EmptyResultTip {
+  margin-top: 7px;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-top: 15px;
+  }
+}

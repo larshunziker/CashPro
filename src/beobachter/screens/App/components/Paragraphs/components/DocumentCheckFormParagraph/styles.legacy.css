@@ -1,0 +1,46 @@
+.SubHeadline {
+  composes: InfoboxH2 from 'typography.legacy.css';
+  align-items: center;
+  display: flex;
+  margin-bottom: $margin16;
+}
+
+.Info {
+  display: block;
+  margin-bottom: $margin24;
+}
+
+.ButtonWrapper {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  margin-top: $margin24;
+}
+
+.InputWrapper {
+  margin-bottom: $margin24;
+  max-width: 280px;
+}
+
+.Step {
+  margin-bottom: $margin40;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin80;
+  }
+
+  &:nth-last-child(2) {
+    /* last step, since the last-child is a submit button */
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin40;
+    }
+  }
+}
+
+.ErrorLabel {
+  composes: FormLabelSmallRedC from 'typography.legacy.css';
+}
+
+.Disabled {
+  display: none;
+}

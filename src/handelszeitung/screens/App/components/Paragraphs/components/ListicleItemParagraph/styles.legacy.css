@@ -1,0 +1,129 @@
+.Wrapper {
+  composes: Container from '@grid.legacy.css';
+  padding: 16px 0 24px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 0 0;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 40px 0;
+  }
+}
+
+.WrapperWithRightColumn {
+  padding: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    padding: 32px 20px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    padding: 40px 20px 20px;
+  }
+}
+
+.IsNested {
+  composes: ContainerInner from '@grid.legacy.css';
+  width: auto;
+
+  .Wrapper {
+    margin: 0 40px;
+    width: auto;
+  }
+}
+
+.Title {
+  composes: H2 from 'typography.legacy.css';
+  margin-bottom: $margin8;
+
+  @media (min-width: $mdBreakpoint) {
+    margin-bottom: $margin16;
+  }
+}
+
+.Content {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  composes: InfoB from 'typography.legacy.css';
+
+  list-style-position: inside;
+  overflow: hidden;
+  word-break: break-word;
+
+  p {
+    margin-bottom: $margin8;
+
+    @media (min-width: $smBreakpoint) {
+      margin-bottom: $margin16;
+    }
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: $margin24;
+    }
+  }
+}
+
+.ImageBox {
+  margin-bottom: $margin16;
+
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: 0;
+  }
+}
+
+.Footer {
+  composes: RichTextWrapper from '../TextParagraph/styles.legacy.css';
+  composes: InfoBBlack from 'typography.legacy.css';
+
+  p {
+    margin-bottom: 0;
+  }
+
+  a {
+    border-bottom: 0;
+  }
+}
+
+.Even {
+  background-color: $greyE;
+
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Odd {
+  &.IsSplittedPageLayout {
+    @mixin PullOutXs;
+  }
+
+  .ImageBox {
+    order: -1;
+
+    @media (min-width: $smBreakpoint) {
+      order: initial;
+    }
+  }
+}
+
+.ListicleItemWrapper {
+  composes: Row from '@grid.legacy.css';
+}
+
+.ListicleItemInnerWrapper {
+  composes: ListicleItemWrapper;
+
+  &.IsSplittedPageLayout {
+    @media (min-width: $smBreakpoint) {
+      padding: 0 20px;
+    }
+  }
+}
+
+.Image {
+  max-width: 100%;
+}

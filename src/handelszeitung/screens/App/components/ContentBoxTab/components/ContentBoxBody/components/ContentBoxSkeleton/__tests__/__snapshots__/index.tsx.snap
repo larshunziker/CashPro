@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Components] ContentBoxTab - ContentBoxSkeleton Should render correctly 1`] = `
+<div>
+  <div>
+    <div
+      class="SkeletonWrapper"
+    >
+      <div
+        class="SkeletonLink"
+      >
+        <div
+          class="SkeletonItem"
+        />
+      </div>
+      <div
+        class="SkeletonLink"
+      >
+        <div
+          class="SkeletonItem"
+        />
+      </div>
+      <div
+        class="SkeletonLink"
+      >
+        <div
+          class="SkeletonItem"
+        />
+      </div>
+      <div
+        class="SkeletonLink"
+      >
+        <div
+          class="SkeletonItem"
+        />
+      </div>
+      <div
+        class="SkeletonLink"
+      >
+        <div
+          class="SkeletonItem"
+        />
+      </div>
+    </div>
+  </div>
+</div>
+`;

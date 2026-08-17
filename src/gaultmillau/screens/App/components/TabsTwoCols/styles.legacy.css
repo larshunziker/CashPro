@@ -1,0 +1,128 @@
+.ContentWrapper {
+  padding-top: 24px;
+  position: relative;
+
+  @media (min-width: $smBreakpoint) {
+    border-top: 1px solid $neutralC;
+    padding-top: 40px;
+  }
+
+  @media print {
+    min-height: auto;
+  }
+
+  .SubTitle {
+    display: none;
+    font-family: $fontBagueSansPro;
+    font-size: 1.9rem;
+    font-weight: 500;
+    line-height: 1.9rem;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+      margin-bottom: 24px;
+    }
+
+    @media print {
+      display: block;
+      margin-bottom: 10px;
+      margin-top: 15px;
+    }
+  }
+
+  .Left {
+    display: none;
+
+    &.Active {
+      display: block;
+    }
+
+    @media (min-width: $smBreakpoint) {
+      /* >= 760 */
+      display: block;
+      float: left;
+      padding-right: 12px;
+      width: 259px;
+    }
+
+    @media print {
+      display: inline-block;
+    }
+  }
+}
+
+.Right {
+  display: none;
+  width: 100%;
+
+  &.Active {
+    display: block;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    /* >= 760 */
+    border-left: 1px solid $neutralC;
+    display: block;
+    float: left;
+    min-height: 690px;
+    padding-left: 12px;
+    width: calc(100% - 259px);
+  }
+
+  @media print {
+    display: inline-block;
+    margin-top: 25px;
+    min-height: auto;
+    page-break-before: always;
+  }
+}
+
+.TabsWrapper {
+  composes: Clearfix from 'helpers.legacy.css';
+  display: flex;
+  margin: $margin24 0;
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+
+  @media print {
+    display: none;
+  }
+}
+
+.Divider {
+  background: linear-gradient(to top right, #fff calc(50% - 1px), $neutralC, $neutralG calc(50% + 1px) );
+  display: inline-block;
+  height: 43px;
+  position: relative;
+  width: 20px;
+}
+
+.DividerRight {
+  background: linear-gradient(to top left, #fff calc(50% - 1px), $neutralC, $neutralG calc(50% + 1px) );
+}
+
+.TabItem {
+  composes: ParagraphBoldNeutralA from 'typography.legacy.css';
+  background-color: $neutralG;
+  border-bottom: 1px solid $neutralC;
+  border-top: 1px solid $transparent;
+  color: $neutralD;
+  display: inline-block;
+  padding: 8px 12px;
+  position: relative;
+  width: calc(50% - 10px);
+}
+
+.TabItemActive {
+  background-color: $transparent;
+  border-bottom: 1px solid $transparent;
+  border-top: 1px solid $neutralC;
+  color: $neutralA;
+}
+
+.Clearfix {
+  composes: Clearfix from 'helpers.legacy.css';
+  clear: both;
+}

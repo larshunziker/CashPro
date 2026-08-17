@@ -1,0 +1,38 @@
+.teaserStageUnlimited {
+  /* Mobile */
+
+  .Grid0 {
+    display: grid;
+    grid-column-gap: 0;
+    grid-row-gap: 0;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+
+    .Item {
+      &:not(:last-child) {
+        border-bottom: 1px solid $grey30;
+        margin-bottom: $margin24;
+      }
+    }
+  }
+
+  /* Tablet */
+  @media (min-width: $smBreakpoint) {
+    .Grid0 {
+      display: grid;
+      grid-column-gap: $gridGutterWidthSm;
+      grid-row-gap: 0;
+      grid-template-columns: repeat(4, minmax(0, 1fr));
+      grid-template-rows: 1fr;
+
+      .Item {
+        border-bottom: 1px solid $grey30;
+        margin-bottom: $margin40;
+
+        &:not(:last-child) {
+          margin-bottom: $margin40;
+        }
+      }
+    }
+  }
+}

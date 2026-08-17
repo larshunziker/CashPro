@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] OverviewPageHeader - Dossier Should not render component because no image is given 1`] = `<div />`;
+
+exports[`[Component] OverviewPageHeader - Dossier Should not render component because no title is given 1`] = `<div />`;
+
+exports[`[Component] OverviewPageHeader - Dossier Should render component correctly 1`] = `
+<div>
+  <div
+    class="Wrapper Container"
+  >
+    <div
+      class="LineHeightReset"
+    >
+      <picture>
+        <source
+          media="(min-width:1680px)"
+          srcset="/sw/1920/sites/default/filesfoo.jpg"
+        />
+        <img
+          alt="test"
+          class="dossier-overview-page-header HeaderImage IsSameAspectRatio"
+          height="600"
+          loading="lazy"
+          srcset="/sw/1200/sites/default/filesfoo.jpg"
+          width="1200"
+        />
+      </picture>
+    </div>
+    <div
+      class="HeadingOverviewWrapper"
+    >
+      <div
+        class="Row"
+      >
+        <div
+          class="ColXs24 ColSm20 ColOffsetSm2"
+        >
+          <h1
+            class="HeadingOverview"
+          >
+            Hallo welt
+          </h1>
+          <div
+            class="Lead HiddenSmDown"
+          >
+            Some example lead text.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="Lead Mobile Container HiddenSmUp"
+  >
+    Some example lead text.
+  </div>
+</div>
+`;
+
+exports[`[Component] OverviewPageHeader - Dossier Should render nothing 1`] = `<div />`;

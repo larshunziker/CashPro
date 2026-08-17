@@ -1,0 +1,75 @@
+.Wrapper {
+  margin-bottom: 0;
+  position: relative;
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    margin-bottom: 10px;
+  }
+}
+
+.ContactInput,
+.Textarea {
+  border: none;
+  border-bottom: 1px solid $neutralB;
+  border-radius: 0;
+  color: $neutralA;
+  font-family: $fontActaHeadline;
+  font-size: 2.4rem;
+  font-weight: normal;
+  letter-spacing: -0.6px;
+  line-height: 1;
+  margin-top: 0;
+  padding: 31px 0 3px;
+  width: 100%;
+}
+
+.Textarea {
+  height: 30px;
+  margin-bottom: -5px;
+  margin-top: 25px;
+  padding-top: 0;
+  resize: none;
+}
+
+.Label {
+  color: $neutralA;
+  font-family: $fontBagueSansPro;
+  font-size: 1.5rem;
+  font-stretch: normal;
+  font-style: normal;
+  font-weight: 500;
+  height: 30px;
+  letter-spacing: -0.6px;
+  line-height: 2;
+  margin: 33px 0 0;
+  pointer-events: none;
+  position: absolute;
+  transform-origin: left;
+
+  @media (min-width: $mdBreakpoint) {
+    /* >= 960 */
+    font-size: 1.7rem;
+  }
+}
+
+.TextareaLabel {
+  margin: 20px 0 0;
+}
+
+.LabelAbove {
+  visibility: hidden;
+}
+
+.LabelVisible {
+  visibility: visible;
+}
+
+.HasError {
+  border-color: $error;
+  color: $error;
+}
+
+.ErrorMessage {
+  display: none;
+}

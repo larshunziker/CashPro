@@ -1,0 +1,200 @@
+{
+  "article": {
+    "id": "bm9kZToyNTUwNjE=",
+    "nid": "255061",
+    "title": "«Sie haben meine Familie zerstört»",
+    "lead": "Whistleblower Adam Quadroni spricht über die Folgen des Komplotts gegen ihn, das Polizei, eine Sozialarbeiterin und seine Frau geschmiedet hatten.",
+    "shortTitle": "Adam Quadroni",
+    "metaTitle": "Adam Quadroni: «Sie haben meine Familie zerstört» | Beobachter",
+    "metaDescription": "Whistleblower Adam Quadroni spricht über die Folgen des Komplotts gegen ihn, das Polizei, eine Sozialarbeiterin und seine Frau geschmiedet hatten.",
+    "metaOgTitle": "Adam Quadroni: «Sie haben meine Familie zerstört» | Beobachter",
+    "metaOgDescription": "Whistleblower Adam Quadroni spricht über die Folgen des Komplotts gegen ihn, das Polizei, eine Sozialarbeiterin und seine Frau geschmiedet hatten.",
+    "metaTwitterCardsTitle": "Adam Quadroni: «Sie haben meine Familie zerstört» | Beobachter",
+    "metaTwitterCardsDescription": "Whistleblower Adam Quadroni spricht über die Folgen des Komplotts gegen ihn, das Polizei, eine Sozialarbeiterin und seine Frau geschmiedet hatten.",
+    "metaCanonicalUrl": "",
+    "canonicalUri": "/group/2/content/275248",
+    "publication": "beobachter",
+    "publicationDate": "2019-11-27T14:04:02",
+    "createDate": "2019-11-27T10:50:53",
+    "changeDate": "2019-11-27T10:46:54",
+    "showUpdated": false,
+    "contentTypeLabel": "Not updatable",
+    "preferredUri": "/burger-verwaltung/adam-quadroni-sie-haben-meine-familie-zerstort",
+    "subtypeValue": "ratgeber_aktuell",
+    "metaKeywords": "Whistleblower, Ämter und Behörden, Bauen, KESB, Fürsorgerische Unterbringung",
+    "socialMediaTitle": null,
+    "restrictionStatus": null,
+    "activeMenuTrail": {
+      "count": 2,
+      "edges": [
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6MjA3",
+            "label": "Bürger & Verwaltung",
+            "link": "/burger-verwaltung",
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        },
+        {
+          "node": {
+            "id": "bWVudV9saW5rX2NvbnRlbnQ6TWpBM05UazJNelky",
+            "label": "Adam Quadroni: «Sie haben meine Familie zerstört»",
+            "link": null,
+            "__typename": "ActiveMenuTrailItem"
+          },
+          "__typename": "ActiveMenuTrailItemEdge"
+        }
+      ],
+      "__typename": "ActiveMenuTrailItemConnection"
+    },
+    "sponsor": null,
+    "authorPrefix": "by",
+    "authors": {
+      "edges": [
+        {
+          "node": {
+            "id": "YXV0aG9yOjYyNTM=",
+            "name": "Andrea Haefely",
+            "imageParagraph": null,
+            "__typename": "Author"
+          },
+          "__typename": "AuthorEdge"
+        }
+      ],
+      "__typename": "AuthorConnection"
+    },
+    "modifyingAuthors": {
+      "edges": [],
+      "__typename": "AuthorConnection"
+    },
+    "commentStatus": "open",
+    "heroImageBody": [
+      {
+        "id": "1104845",
+        "caption": "<p>«Natürlich war da eine gewisse Genugtuung, dass die Wahrheit, wie ich sie immer vertreten habe, offiziell bestätigt wurde», sagt Adam Quadroni.</p>\n",
+        "image": {
+          "credit": "Hanna Jaray",
+          "file": {
+            "alt": "Adam Quadroni",
+            "focalPointX": 1000,
+            "focalPointY": 1000,
+            "relativeOriginPath": "/adam_quadroni_whistleblower_baukartell.png",
+            "__typename": "ImageFile"
+          },
+          "__typename": "Image"
+        },
+        "__typename": "ImageParagraph"
+      }
+    ],
+
+    "relatedArticles": {
+      "edges": [
+        {
+          "node": {
+            "id": "bm9kZToyNTQyODk=",
+            "subtypeValue": "ratgeber_aktuell",
+            "title": "Kommission kritisiert Vorgehen gegen Quadroni massiv",
+            "shortTitle": "Bündner Baukartell",
+            "canonicalUri": "/group/2/content/274474",
+            "preferredUri": "/burger-verwaltung/bundner-baukartell-kommission-kritisiert-vorgehen-gegen-quadroni-massiv",
+            "restrictionStatus": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDQx",
+              "title": "Bürger & Verwaltung",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "1103992",
+              "title": null,
+              "image": {
+                "file": {
+                  "alt": "Auszug aus dem PUK-Bericht zum Bündner Baukartell",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/baukartell_puk_kommission_bericht.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToyNDExMjY=",
+            "subtypeValue": "ratgeber_aktuell",
+            "title": "Strafverfahren gegen Richter Zegg ",
+            "shortTitle": "Fall Quadroni",
+            "canonicalUri": "/group/2/content/262590",
+            "preferredUri": "/burger-verwaltung/fall-quadroni-strafverfahren-gegen-richter-zegg",
+            "restrictionStatus": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDQx",
+              "title": "Bürger & Verwaltung",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "1069633",
+              "title": null,
+              "image": {
+                "file": {
+                  "alt": "Adam Quadroni",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/adam_quadroni_0.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleUnionEdge"
+        },
+        {
+          "node": {
+            "id": "bm9kZToyMjgwNDM=",
+            "subtypeValue": "ratgeber_aktuell",
+            "title": "Das Bündner Baukartell und die geheimen Listen",
+            "shortTitle": "Korruptionsverdacht",
+            "canonicalUri": "/group/2/content/249390",
+            "preferredUri": "/wirtschaft/korruptionsverdacht-das-bundner-baukartell-und-die-geheimen-listen",
+            "restrictionStatus": null,
+            "channel": {
+              "id": "dGF4b25vbXlfdGVybToxMDY4",
+              "title": "Wirtschaft",
+              "__typename": "Channel"
+            },
+            "hasVideo": false,
+            "teaserImage": {
+              "id": "1009781",
+              "title": null,
+              "image": {
+                "file": {
+                  "alt": "Luftaufnahme einer Strasse bei Tarasp",
+                  "focalPointX": 1000,
+                  "focalPointY": 1000,
+                  "relativeOriginPath": "/tarasp_strasse_graubuenden_schweiz.jpg",
+                  "__typename": "ImageFile"
+                },
+                "__typename": "Image"
+              },
+              "__typename": "ImageParagraph"
+            },
+            "__typename": "Article"
+          },
+          "__typename": "ArticleUnionEdge"
+        }
+      ],
+      "__typename": "ArticleUnionConnection"
+    },
+    "__typename": "Article"
+  }
+}

@@ -1,0 +1,10 @@
+.Title {
+  composes: H2SansSerif from 'typography.legacy.css';
+  margin-bottom: $margin24;
+  
+  @media (min-width: $smBreakpoint) {
+    margin-bottom: $margin32;
+    text-align: center;
+    width: 100%;
+  }
+}

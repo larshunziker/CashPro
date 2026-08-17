@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Error Should render correctly 1`] = `
+<div>
+  <div
+    class="Wrapper"
+  >
+    <span
+      aria-label="Warning"
+      role="img"
+    >
+      ❗
+    </span>
+    i am a error
+  </div>
+</div>
+`;

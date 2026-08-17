@@ -1,0 +1,207 @@
+.AdSlot {
+  composes: HideForPrint from '@grid.legacy.css';
+
+  align-items: center;
+  display: flex;
+  height: 260px;
+  justify-content: center;
+  line-height: 0;
+  padding: 5px 0;
+  position: relative;
+  text-align: center;
+  transition: height 0.4s;
+  width: 100%;
+
+  a {
+    display: inline-block;
+
+    * {
+      line-height: 1;
+    }
+  }
+
+  &::before {
+    @mixin AdCaption;
+    content: 'Anzeige';
+    display: block;
+    left: 50%;
+    max-width: 200px;
+    position: absolute;
+    top: 50%;
+    transform: translateX(-50%) translateY(-50%);
+  }
+}
+
+:global(.slot-loaded) {
+  .AdSlot {
+    height: auto;
+    min-height: 260px;
+
+    &::before {
+      display: none;
+    }
+  }
+}
+
+:global(.ad-wrapper) {
+  background-color: $grayA25;
+  line-height: 0;
+
+  &:not(:global(.header-apn-zone)) {
+    margin-bottom: 22px;
+
+    @media (min-width: $mdBreakpoint) {
+      margin-bottom: 35px;
+    }
+
+    &:global(.ad-empty) {
+      margin-bottom: 0;
+    }
+  }
+
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-mobile):not(:global(.ad-wrapper-tabletDesktop)) {
+    display: flex;
+
+    @media (min-width: $smBreakpoint) {
+      display: none;
+    }
+  }
+
+  /* just show viewport specific ad slots */
+  &:global(.ad-wrapper-tabletDesktop):not(:global(.ad-wrapper-mobile)) {
+    display: none;
+
+    @media (min-width: $smBreakpoint) {
+      display: block;
+    }
+  }  
+}
+
+/* TABLET-DESKTOP: stylings for each placement name */
+
+.IAV1, .IAV2 {
+  display: block; /* This is needed for the ad to have the full width on mobile */
+  position: relative;
+  z-index: calc($zIndexHeaderAd - 10);
+
+  @media (min-width: $smBreakpoint) {
+    z-index: calc($zIndexHeaderAd - 1);
+  }
+}
+
+.WB1 {
+  display: none;
+
+  & > * {
+    box-sizing: content-box;
+  }
+
+  &:global(.adm-loaded) {
+    left: 50%;
+    position: relative;
+    transform: translateX(-50%);
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: flex;
+  }
+}
+
+:global(.branding-day) .WB1 {
+  padding: 0;
+  z-index: 100;
+
+  &:global(.adm-loaded) { 
+    margin: 20px 0;
+    padding: 0;
+  }
+
+  &:global(.adm-error),
+  &:global(.adm-empty),
+  &:global(.adm-loaded) { 
+    width: auto;
+
+    @media (min-width: $smBreakpoint) {
+      display: inline-flex;
+    }
+  }
+}
+
+:global(.branding-day) {
+  :global(.header-apn-zone) {
+    background-color: $transparent;
+  }
+}
+
+.SBA1 {
+  background-color: $transparent;
+  height: auto;
+  min-height: auto;
+  padding: 0;
+
+  &::before {
+    display: none;
+  }
+
+  &:global(.adm-loaded) {
+    display: inline-block !important; /* stylelint-disable-line */
+    text-align: left;
+  }
+}
+
+/* MOBILE: stylings for each placement name */
+
+.MMR1 {
+  & > * {
+    box-sizing: content-box;
+  }
+
+  @media (min-width: $smBreakpoint) {
+    display: none;
+  }
+}
+
+:global(.side-bar) .SBA1 {
+  @media (width >= 1200px) {
+    border: 0;
+    height: calc(100vh - ($headerHeightSm + 5px));
+    margin: 0;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    text-align: left;
+    
+    @media (min-width: $lgBreakpoint) {
+      /* 
+      there is no logical calculation behind this number! 
+      the grid has somehow a calculation by 40vw - 440px
+      and this is the rest
+      */
+      width: calc(60vw - 463px);
+    }
+    
+    @media (min-width: $xlBreakpoint) {
+      height: calc(100vh - ($headerHeightSm + 59px));
+
+      /* 
+      there is no logical calculation behind this number! 
+      the grid has somehow a calculation by 40vw - 630px
+      and this is the rest
+      */
+      width: calc(60vw - 749px);
+    }
+  }
+}
+
+:global(.welcome-ad-wrapper) {
+  height: calc(100vh - 70px); 
+  margin-bottom: 20px;
+  padding: 0;
+  position: relative; 
+  width: 100%; 
+}
+
+:global(body.welcome-ad .utility-bar-wrapper) {
+  display: none;
+}

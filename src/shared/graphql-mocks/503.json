@@ -1,0 +1,12 @@
+{
+  "environment": {
+    "routeByPath": {
+      "object": null,
+      "statusCode": 503,
+      "preferred": null,
+      "canonical": null,
+      "__typename": null
+    },
+    "__typename": null
+  }
+}

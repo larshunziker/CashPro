@@ -1,0 +1,77 @@
+.InputWrapper {
+  height: 34px;
+  margin-bottom: $margin24;
+  position: relative;
+  right: 0;
+
+  @media (min-width: $smBreakpoint) {
+    margin: 0 $margin16 0 0;
+  }
+}
+
+.InputWithIconWrapper {
+  height: 100%;
+  position: relative;
+  width: 100%;
+}
+
+.Input[type='search'] {
+  appearance: none;
+  background-color: $white;
+  border: 1px solid $greyC;
+  border-radius: 4px;
+  font-family: $fontGotham;
+  font-size: 1.6rem;
+  height: 100%;
+  padding: 10px 20px;
+  text-indent: 16px;
+  text-overflow: ellipsis;
+  width: 100%;
+
+  &::placeholder {
+    color: $greyB;
+    opacity: 1;
+  }
+
+  &::-ms-clear,
+  &::-ms-reveal {
+    display: none;
+    height: 0;
+    width: 0;
+  }
+
+  &::-webkit-search-decoration,
+  &::-webkit-search-cancel-button,
+  &::-webkit-search-results-button,
+  &::-webkit-search-results-decoration {
+    display: none;
+  }
+}
+
+.InputStylesInputFocused {
+  .Input {
+    text-align: left;
+    text-indent: 16px;
+
+    @media (min-width: $smBreakpoint) {
+      border: 1px solid $black;
+    }
+
+    &::placeholder {
+      color: $greyB;
+    }
+  }
+
+  .InputIcon {
+    color: $greyA;
+  }
+}
+
+.InputIcon {
+  background-color: $white;
+  color: $blackB;
+  font-size: 1.6rem;
+  left: 12px;
+  position: absolute;
+  top: 9px;
+}

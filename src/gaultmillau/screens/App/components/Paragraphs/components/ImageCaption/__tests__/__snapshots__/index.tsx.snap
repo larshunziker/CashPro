@@ -1,0 +1,5 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`[Component] Caption Should render with caption 1`] = `"<div class="image-caption Wrapper">Caption</div>"`;
+
+exports[`[Component] Caption Should render without caption 1`] = `""`;

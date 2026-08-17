@@ -1,0 +1,81 @@
+.GoldenGradientPseudo {
+  &::after {
+    background: $gradientPrimaryA;
+  }
+}
+
+.GoldenBorder {
+  composes: GoldenGradientPseudo;
+
+  &::after {
+    content: '';
+    height: 3px;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+  }
+}
+
+.TextBlueGradient {
+  background: $gradientZueri;
+
+  /* stylelint-disable */
+  background-clip: text !important;
+  color: $zueriB;
+  -webkit-text-fill-color: transparent;
+  /* stylelint-enable */
+}
+
+.TextPurpleGradient {
+  composes: TextBlueGradient;
+  background: $gradientCaminada;
+  color: $caminadaB;
+}
+
+.TextGoldGradient {
+  composes: TextBlueGradient;
+  background: $gradientPrimaryA;
+  color: $primaryA;
+}
+
+.Divider {
+  background-color: $neutralA;
+  clear: both;
+  height: 1px;
+  margin-bottom: 15px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: 17px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 25px;
+  }
+}
+
+.DividerThick {
+  background-color: $neutralA;
+  clear: both;
+  height: 10px;
+  margin-bottom: 20px;
+
+  @media (min-width: $smBreakpoint) {
+    /* width >= 760 */
+    margin-bottom: 30px;
+  }
+
+  @media (min-width: $mdBreakpoint) {
+    /* width >= 960 */
+    margin-bottom: 40px;
+  }
+}
+
+.TextHoverGoldGradient:hover {
+  background: $gradientPrimaryA;
+  background-clip: text;
+  color: $primaryA;
+  -webkit-text-fill-color: $transparent; /* stylelint-disable-line property-no-vendor-prefix */
+}

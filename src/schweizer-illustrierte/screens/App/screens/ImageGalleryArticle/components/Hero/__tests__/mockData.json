@@ -1,0 +1,18 @@
+{
+  "caption": "Das ist eine caption",
+  "format": "landscape",
+  "image": {
+    "credit": "Kylie Jenner",
+    "file": {
+      "alt": "Kylie Jenner Alt text",
+      "focalPointX": 1000,
+      "focalPointY": 1000,
+      "relativeOriginPath": "/web-gettyimages-631435450.jpg",
+      "width": 1695,
+      "height": 953,
+      "__typename": "ImageFile"
+    },
+    "__typename": "Image"
+  },
+  "__typename": "ImageParagraph"
+}

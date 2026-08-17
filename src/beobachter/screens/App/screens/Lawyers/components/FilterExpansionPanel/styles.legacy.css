@@ -1,0 +1,46 @@
+.ExpansionPanel .ShowMoreButton {
+  align-items: center;
+  display: flex;
+  width: 100%;
+}
+
+.ExpansionPanel {
+  border-radius: 8px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: $margin24;
+  position: relative;
+  width: 100%;
+  
+  &:hover {
+    color: $black;
+  }
+}
+
+.ShowMoreButton {
+  background-color: $white;
+  border:0;
+  font-family: $fontSpezia;
+  font-size: 1.4rem;
+  font-weight: 700;
+  gap: $margin8;
+  line-height: 120%;
+  padding: $margin16 0;
+}
+
+.Content {
+  background-color: $transparent;
+  overflow: hidden;
+  position: relative;
+}
+
+.Spacer {
+  position: relative;
+}
+
+.RotateButton {
+  rotate: 180deg;
+}
+
+

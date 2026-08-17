@@ -1,0 +1,11 @@
+[
+  {
+    "relation": ["delegate_permission/common.handle_all_urls"],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ch.ringier.beobachter",
+      "sha256_cert_fingerprints":
+      ["F4:4B:2A:45:D3:C9:F7:B3:35:3F:B7:44:C2:6A:8E:DD:44:1A:D4:87:96:5E:59:76:E8:F5:35:6F:59:F9:EE:27"]
+    }
+  }
+]
